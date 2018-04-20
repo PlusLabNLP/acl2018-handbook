@@ -5,7 +5,9 @@
 # -recorder records the files opened in a file with a .fls extension. This is used to infer
 # the list of file dependencies.
 
-latex = pdflatex
+# nonstopmode --> cruise past errors
+latex = pdflatex -interaction=nonstopmode 
+
 
 all: handbook.pdf
 
