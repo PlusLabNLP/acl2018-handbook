@@ -1,3 +1,9 @@
+# Changes from Matt's original repository
+
+- Fixed a biber macro that works with latest texlive  
+
+# Guide Intro
+
 If you're reading this, it's likely because you've been asked to
 assemble an *ACL handbook. Congratulations!  
 
