@@ -65,7 +65,7 @@ for i, line in enumerate(sys.stdin, 1):
             star_error(i, month)
         elif not re.match(r'\d+', date) or int(date) < 1 or int(date) > 31:
             star_error(i, date)
-        elif year != '2014':
+        elif year != '2018':
             star_error(i, year)
 
     elif line.startswith('+'):
