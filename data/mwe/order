@@ -5,7 +5,7 @@
 #   start of new day, format: * DAY
 #   session headline, format: = HEADLINE 
 #   additional items, format: + TIME DESCRIPTION
-* Thursday, June 4, 2014
+* Thursday, June 4, 2015
 = Oral Session 1
 9  09:00--09:30  # A Method of Accounting Bigrams in Topic Models
 21  09:30--10:00 # Multiword Expression Identification with Recurring Tree Fragments and Association Measures
@@ -28,5 +28,5 @@
 + 14:30--15:30 Poster Session
 + 15:30--16:00 Coffee Break
 = Oral Session 3
-23  16:00–16:30 # Muddying The Multiword Expression Waters: How Cognitive Demand Affects Multiword Expression Production
-4  16:30–17:00 # Building a Lexicon of Formulaic Language for Language Learners
+23  16:00--16:30 # Muddying The Multiword Expression Waters: How Cognitive Demand Affects Multiword Expression Production
+4  16:30--17:00 # Building a Lexicon of Formulaic Language for Language Learners
