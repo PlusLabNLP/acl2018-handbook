@@ -1,3 +1,12 @@
+# ToDos
+
+- Tutorial program: 1 June
+- Main conference program: 8 June
+- Demo program: 8 June
+- SRW program: 10 June
+- Workshop program: 14 June
+- Handbook for printing: 25 June
+
 # Changes from Matt's original repository
 
 - Fixed a biber macro that works with latest texlive  
