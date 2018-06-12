@@ -6,6 +6,7 @@
 - SRW program: 10 June
 - Workshop program: 14 June
 - Handbook for printing: 25 June
+- ~~TACL entries~~
 
 # Changes from Matt's original repository
 
