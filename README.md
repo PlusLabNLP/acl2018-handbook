@@ -6,6 +6,13 @@
 - SRW program: 10 June
 - Workshop program: 14 June
 - Handbook for printing: 25 June
+- ~~TACL entries~~
+- Meal Info
+- Welcome Reception
+- Social Event
+- Local Guide
+- On-site Childcare
+- New CL author/reviewer guidelines
 
 # Changes from Matt's original repository
 
