@@ -147,7 +147,7 @@ for date in dates:
             
             print >>out, '\\clearpage'
             print >>out, '\\setheaders{Session %s}{\\daydateyear}' % (session_num)
-            print >>out, '\\begin{ThreeSessionOverview}{Session %s}{\daydateyear}' % (session_num)
+            print >>out, '\\begin{SessionOverview}{Session %s}{\daydateyear}' % (session_num)
             # print the session overview
             for session in parallel_sessions:
                 print >>out, '  {%s}' % (session.desc)
@@ -162,7 +162,7 @@ for date in dates:
                 print >>out, ' ', ' & '.join(['\\papertableentry{%s}' % (p.id) for p in papers])
                 print >>out, '  \\\\'
 
-            print >>out, '\\end{ThreeSessionOverview}\n'
+            print >>out, '\\end{SessionOverview}\n'
 
             # Now print the papers in each of the sessions
             # Print the papers
