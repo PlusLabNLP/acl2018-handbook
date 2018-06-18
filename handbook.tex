@@ -6,6 +6,7 @@
 
 \usepackage{combelow}
 \usepackage{newunicodechar}
+\usepackage{upgreek}
 \newunicodechar{ș}{\cb{s}}
 \newunicodechar{ț}{\cb{t}}
 
@@ -47,25 +48,26 @@
 
 \bibliography{auto/tacl/papers.bib}
 
-%\bibliography{auto/argmining/papers.bib}
-%\bibliography{auto/bea/papers.bib}
-%\bibliography{auto/clfl/papers.bib}
-%\bibliography{auto/clpsych/papers.bib}
-%\bibliography{auto/cmcl/papers.bib}
+
+
+\bibliography{auto/BioNLP/papers.bib}
+\bibliography{auto/CALCS/papers.bib}
+\bibliography{auto/CogCL/papers.bib}
+\bibliography{auto/DLNLPLR/papers.bib}
+\bibliography{auto/ECONLP/papers.bib}
+\bibliography{auto/MML_Challenge/papers.bib}
+\bibliography{auto/MRQA/papers.bib}
+\bibliography{auto/MSR/papers.bib}
+\bibliography{auto/NEWS/papers.bib}
+\bibliography{auto/NLPOSS/papers.bib}
+\bibliography{auto/NLPTEA/papers.bib}
+\bibliography{auto/NMT/papers.bib}
+\bibliography{auto/RELNLP/papers.bib}
+\bibliography{auto/RepL4NLP/papers.bib}
+\bibliography{auto/SocialNLP/papers.bib}
 \bibliography{auto/demos/papers.bib}
-%\bibliography{auto/event/papers.bib}
-%\bibliography{auto/exprom/papers.bib}
-%\bibliography{auto/law/papers.bib}
-%\bibliography{auto/metaphor/papers.bib}
-%\bibliography{auto/mwe/papers.bib}
 \bibliography{auto/papers/papers.bib}
-%\bibliography{auto/semeval/papers.bib}
-%\bibliography{auto/socialnlp/papers.bib}
-%\bibliography{auto/srw/papers.bib}
-%\bibliography{auto/ssst-9/papers.bib}
-%\bibliography{auto/starsem/papers.bib}
-%\bibliography{auto/tutorial-final/papers.bib}
-%\bibliography{auto/vsm-nlp/papers.bib}
+\bibliography{auto/srw/papers.bib}
 
 % Special bib for the workshops
 \bibliography{content/workshops/papers.bib}
@@ -83,9 +85,9 @@
 
 %% INSIDE FRONT COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{content/maps}
+%TODO: add one page conference overview
 
-\cleardoublepage
+%\cleardoublepage
 \thispagestyle{empty}
 \vspace*{6in}
 \noindent\emph{Cover design by Carrie Chilton}\\\index{Chilton, Carrie}
@@ -182,8 +184,9 @@
 
 % Anti-harassment policy
 \input{content/anti-harassment-policy}
+\newpage
 
-\cleardoublepage
+%\cleardoublepage
 \addcontentsline{toc}{chapter}{Author Index}
 \setheaders{Author Index}{Author Index}
 
@@ -191,15 +194,19 @@
 
 %% LOCAL GUIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setheaders{Local Guide}{Local Guide}
 \input{content/local-guide/local-guide.tex}
 \newpage
 
-%% BACK COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MAPS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\setheaders{}{}
+\input{content/maps}
+
+%% BACK COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \thispagestyle{empty}
 
-\noindent NAACL gratefully acknowledges the following sponsors for
+\noindent ACL gratefully acknowledges the following sponsors for
 their support:\\
 
 \input{content/sponsors/sponsors}

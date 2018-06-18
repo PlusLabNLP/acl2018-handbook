@@ -3,6 +3,7 @@ best way to compile: make; make handbook.ind
 during "make", search the following words in the log:
 'Error': (reveals dodgy symbols that needs to be corrected)
 'Undefined': (reveals undefined macros)
+'Missing'
 
 As an example, in NAACL2014 the issues are:
 - a number of symbols that need to be manually corrected in 
