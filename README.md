@@ -22,7 +22,7 @@
 - Day2 invited talk 1
 - Day3 invited talk 2
 - Day3 lifetime achievement award
-- Day3 best paper session (session 9)
+- Day3 best paper session (session 9; remove parallel overview)
 
 # Changes from Matt's original repository
 
