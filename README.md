@@ -1,4 +1,4 @@
-# ToDos
+# Deadline
 
 - Tutorial program: 1 June
 - Main conference program: 8 June
@@ -6,13 +6,23 @@
 - SRW program: 10 June
 - Workshop program: 14 June
 - Handbook for printing: 25 June
+
+# TODOs
 - ~~TACL entries~~
+- frontmatter preface-chair
+- frontmatter preface-pc
+- frontmatter committee
 - Meal Info
 - Welcome Reception
 - Social Event
 - Local Guide
-- On-site Childcare
 - New CL author/reviewer guidelines
+- sponsors
+- Day1 presidential address
+- Day2 invited talk 1
+- Day3 invited talk 2
+- Day3 lifetime achievement award
+- Day3 best paper session (session 9; remove parallel overview)
 
 # Changes from Matt's original repository
 
