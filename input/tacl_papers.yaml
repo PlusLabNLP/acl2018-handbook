@@ -1,7 +1,7 @@
 - id: tacl-1166
   url: https://transacl.org/ojs/index.php/tacl/article/view/1166
   title: "[TACL] Phrase Table Induction Using In-Domain Monolingual Data for Domain Adaptation in Statistical Machine Translation"
-  authors: Benjamin Marie, Atsushi Fujita
+  authors: Benjamin Marie and Atsushi Fujita
   contact: bmarie@nict.go.jp
   abstract: We present a new framework to induce an in-domain phrase table from in-domain monolingual data that can be used to adapt a general-domain statistical machine translation system to the targeted domain.Our method first compiles sets of phrases in source and target languages separately and generates candidate phrase pairs by taking the Cartesian product of the two phrase sets.  It then computes inexpensive features for each candidate phrase pair and filters them using a supervised classifier in order to induce an in-domain phrase table. We experimented on the language pair English-French, both translation directions, in two domains and obtained consistently better results than a strong baseline system that uses an in-domain bilingual lexicon. We also conducted an error analysis that showed the induced phrase tables proposed useful translations, especially for words and phrases unseen in the parallel data used to train the general-domain baseline system.
 
@@ -15,49 +15,49 @@
 - id: tacl-1065
   url: https://transacl.org/ojs/index.php/tacl/article/view/1065
   title: "[TACL]  Learning Distributed Representations of Texts and Entities from Knowledge Base"
-  authors: Ikuya Yamada, Hiroyuki Shindo, Hideaki Takeda, Yoshiyasu Takefuji
+  authors: Ikuya Yamada and Hiroyuki Shindo and Hideaki Takeda and Yoshiyasu Takefuji
   contact: ikuya@ousia.jp
   abstract: We describe a neural network model that jointly learns distributed representations of texts and knowledge base (KB) entities. Given a text in the KB, we train our proposed model to predict entities that are relevant to the text. Our model is designed to be generic with the ability to address various NLP tasks with ease. We train the model using a large corpus of texts and their entity annotations extracted from Wikipedia. We evaluated the model on three important NLP tasks (i.e., sentence textual similarity, entity linking, and factoid question answering) involving both unsupervised and supervised settings. As a result, we achieved state-of-the-art results on all three of these tasks. Our code and trained models are publicly available for further academic research.
 
 - id: tacl-1382
   url: not published 
   title: "[TACL] On the Complexity and Typology of Inflectional Morphological Systems"
-  authors: Ryan Cotterell, Christo Kirov, Mans Hulden, Jason Eisner
+  authors: Ryan Cotterell and Christo Kirov and Mans Hulden and Jason Eisner
   contact: ryan.cotterell@gmail.com
   abstract: "We quantify the linguistic complexity of different languages’ morphological systems. We verify that there is an empirical trade-off between paradigm size and irregularity: a language’s inflectional paradigms may be either large in size or highly irregular, but never both. Our methodology quantifies paradigm irregularity as the entropy of the surface realization of a paradigm—how hard it is to jointly predict all the surface forms of a paradigm—which we estimate by a variational approximation. Our measurements are taken on large morphological paradigms from 31 typologically diverse languages."
 
 - id: tacl-1208
   url: https://transacl.org/ojs/index.php/tacl/article/view/1208
   title: "[TACL] Modeling Past and Future for Neural Machine Translation"
-  authors: Zaixiang Zheng, Hao Zhou, Shujian Huang, Lili Mou, Xinyu Dai, Jiajun Chen, Zhaopeng Tu
+  authors: Zaixiang Zheng and Hao Zhou and Shujian Huang and Lili Mou and Xinyu Dai and Jiajun Chen and Zhaopeng Tu
   contact: zhengzx.142857@gmail.com
   abstract: "Existing neural machine translation systems do not explicitly model what has been translated and what has not during the decoding phase. To address this problem, we propose a novel mechanism that separates the source information into two parts: translated PAST contents and untranslated FUTURE contents, which are modeled by two additional recurrent layers. The PAST and FUTURE contents are fed to both the attention model and the decoder states, which provides Neural Machine Translation (NMT) systems with the knowledge of translated and untranslated contents. Experimental results show that the proposed approach significantly improves the performance in Chinese-English, German-English, and English-German translation tasks. Specifically, the proposed model outperforms the conventional coverage model in terms of both the translation quality and the alignment error rate."
 
 - id: tacl-1241
   url: https://transacl.org/ojs/index.php/tacl/article/view/1241
   title: "[TACL] Replicability Analysis for Natural Language Processing: Testing Significance with Multiple Datasets"
-  authors: Rotem Dror, Gili Baumer, Marina Bogomolov and Roi Reichart
+  authors: Rotem Dror and Gili Baumer and Marina Bogomolov and Roi Reichart
   contact: roireichart@gmail.com
   abstract: "With the ever growing amounts of textual data from a large variety of languages, domains and genres, it has become standard to evaluate NLP algorithms on multiple datasets in order to ensure consistent performance across heterogeneous setups. However, such multiple comparisons pose significant challenges to traditional statistical analysis methods in NLP and can lead to erroneous conclusions. In this paper we propose a Replicability Analysis framework for a statistically sound analysis of multiple comparisons between algorithms for NLP tasks. We discuss the theoretical advantages of this framework over the current, statistically unjustified, practice in the NLP literature, and demonstrate its empirical value across four applications: multi-domain dependency parsing, multilingual POS tagging, cross-domain sentiment classification and word similarity prediction."
 
 - id: tacl-1282
   url: https://transacl.org/ojs/index.php/tacl/article/view/1282
   title: "[TACL] Whodunnit? Crime Drama as a Case for Natural Language Understanding"
-  authors: Lea Frermann, Shay Cohen, Mirella Lapata
+  authors: Lea Frermann and Shay Cohen and Mirella Lapata
   contact: lfrerman@staffmail.ed.ac.uk
   abstract: In this paper we argue that crime drama exemplified in television programs such as CSI:Crime Scene Investigation is an ideal testbed for approximating real-world natural language understanding and the complex inferences associated with it. We propose to treat crime drama as a new inference task, capitalizing on the fact that each episode poses the same basic question (i.e., who committed the crime) and naturally provides the answer when the perpetrator is revealed. We develop a new dataset based on CSI episodes, formalize perpetrator identification as a sequence labeling problem, and develop an LSTM-based model which learns from multi-modal data. Experimental results show that an incremental inference strategy is key to making accurate guesses as well as learning from representations fusing textual, visual, and acoustic input.
 
 - id: tacl-1403
   url: https://transacl.org/ojs/index.php/tacl/article/view/1403
   title: "[TACL] Native Language Cognate Effects on Second Language Lexical Choice"
-  authors: Ella Rabinovich, Yulia Tsvetkov, Shuly Wintner
+  authors: Ella Rabinovich and Yulia Tsvetkov and Shuly Wintner
   contact: ellarabi@gmail.com
   abstract: We present a computational analysis of cognate effects on the spontaneous linguistic productions of advanced non-native speakers. Introducing a large corpus of highly competent non-native English speakers, and using a set of carefully selected lexical items, we show that the lexical choices of non-natives are affected by cognates in their native language. This effect is so powerful that we are able to reconstruct the phylogenetic language tree of the Indo-European language family solely from the frequencies of specific lexical items in the English of authors with various native languages. We quantitatively analyze non-native lexical choice, highlighting cognate facilitation as one of the important phenomena shaping the language of non-native speakers.
 
 - id: tacl-1325
   url: https://transacl.org/ojs/index.php/tacl/article/view/1325
   title: "[TACL] Constructing Datasets for Multi-hop Reading Comprehension Across Documents"
-  authors: Johannes Welbl, Pontus Stenetorp, Sebastian Riedel
+  authors: Johannes Welbl and Pontus Stenetorp and Sebastian Riedel
   contact: pontus@stenetorp.se
   abstract: Most Reading Comprehension methods limit themselves to queries which can be answered using a single sentence, paragraph, or document. Enabling models to combine disjoint pieces of textual evidence would extend the scope of machine comprehension methods, but currently no resources exist to train and test this capability. We propose a novel task to encourage the development of models for text understanding across multiple documents and to investigate the limits of existing methods. In our task, a model learns to seek and combine evidence – effectively performing multi-hop, alias multi-step, inference. We devise a methodology to produce datasets for this task, given a collection of query-answer pairs and thematically linked documents. Two datasets from different domains are induced, and we identify potential pitfalls and devise circumvention strategies. We evaluate two previously proposed competitive models and find that one can integrate information across documents. However, both models struggle to select relevant information; and providing documents guaranteed to be relevant greatly improves their performance. While the models outperform several strong baselines, their best accuracy reaches 54.5% on an annotated test set, compared to human performance at 85.0%, leaving ample room for improvement.
 
@@ -71,70 +71,70 @@
 - id: tacl-1296
   url: not published 
   title: "[TACL] Generating Sentences by Editing Prototypes"
-  authors: Kelvin Guu, Tatsunori Hashimoto, Yonatan Oren, Percy Liang
+  authors: Kelvin Guu and Tatsunori Hashimoto and Yonatan Oren and Percy Liang
   contact: thashim@stanford.edu
   abstract: We propose a new generative model of sentences that first samples a prototype sentence from the training corpus and then edits it into a new sentence. Compared to traditional models that generate from scratch either left-to-right or by first sampling a latent sentence vector, our prototype-then-edit model improves perplexity on language modeling and generates higher quality outputs according to human evaluation. Furthermore, the model gives rise to a latent edit vector that captures interpretable semantics such as sentence similarity and sentence-level analogies.
 
 - id: tacl-1247
   url: not published 
   title: "[TACL] Learning to Remember Translation History with a Continuous Cache"
-  authors: Zhaopeng Tu, Yang Liu, Shuming Shi, and Tong Zhang
+  authors: Zhaopeng Tu and Yang Liu and Shuming Shi and Tong Zhang
   contact: tuzhaopeng@gmail.com
   abstract: Existing neural machine translation (NMT) models generally translate sentences in isolation, missing the opportunity to take advantage of document-level information. In this work, we propose to augment NMT models with a very light-weight cache-like memory network, which stores recent hidden representations as translation history. The probability distribution over generated words is updated online depending on the translation history retrieved from the memory, endowing NMT models with the capability to dynamically adapt over time. Experiments on multiple domains with different topics and styles show the effectiveness of the proposed approach with negligible impact on the computational cost.
 
 - id: tacl-1197
   url: https://transacl.org/ojs/index.php/tacl/article/view/1197
   title: "[TACL] The NarrativeQA Reading Comprehension Challenge"
-  authors: Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer, Karl Moritz Hermann, Gábor Melis, Edward Grefenstette
+  authors: Tomáš Kočiský and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gábor Melis and Edward Grefenstette
   contact: tomas@kocisky.eu
   abstract: Reading comprehension (RC)---in contrast to information retrieval---requires integrating information and reasoning about events, entities, and their relations across a full document. Question answering is conventionally used to assess RC ability, in both artificial agents and children learning to read. However, existing RC datasets and tasks are dominated by questions that can be solved by selecting answers using superficial information (e.g., local context similarity or global term frequency); they thus fail to test for the essential integrative aspect of RC. To encourage progress on deeper comprehension of language, we present a new dataset and set of tasks in which the reader must answer questions about stories by reading entire books or movie scripts. These tasks are designed so that successfully answering their questions requires understanding the underlying narrative rather than relying on shallow pattern matching or salience. We show that although humans solve the tasks easily, standard RC models struggle on the tasks presented here. We provide an analysis of the dataset and the challenges it presents.
 
 - id: tacl-1248
   url: https://transacl.org/ojs/index.php/tacl/article/view/1248
   title: "[TACL] Leveraging Orthographic Similarity for Multilingual Neural Transliteration"
-  authors:  Anoop Kunchukuttan, Mitesh Khapra, Gurneet Singh, Pushpak Bhattacharyya
+  authors:  Anoop Kunchukuttan and Mitesh Khapra and Gurneet Singh and Pushpak Bhattacharyya
   contact: anoop.kunchukuttan@gmail.com
   abstract: We address the task of joint training of transliteration models for multiple language pairs (multilingual transliteration). This is an instance of multitask learning, where individual tasks (language pairs) benefit from sharing knowledge with related tasks. We focus on transliteration involving related tasks i.e., languages sharing writing systems and phonetic properties (orthographically similar languages). We propose a modified neural encoder-decoder model that maximizes parameter sharing across language pairs in order to effectively leverage orthographic similarity. We show that multilingual transliteration significantly outperforms bilingual transliteration in different scenarios (average increase of 58% across a variety of languages we experimented with). We also show that multilingual transliteration models can generalize well to languages/language pairs not encountered during training and hence perform well on the zeroshot transliteration task. We show that further improvements can be achieved by using phonetic feature input.
 
 - id: tacl-1318
   url: https://transacl.org/ojs/index.php/tacl/article/view/1318
   title: "[TACL] From Characters to Time Intervals: New Paradigms for Evaluation and Neural Parsing of Time Normalizations"
-  authors: Egoitz Laparra, Dongfang Xu, Steven Bethard
+  authors: Egoitz Laparra and Dongfang Xu and Steven Bethard
   contact: laparra@email.arizona.edu
   abstract: This paper presents the first model for time normalization trained on the SCATE corpus. In the SCATE schema, time expressions are annotated as a semantic composition of time entities. This novel schema favors machine learning approaches, as it can be viewed as a semantic parsing task. In this work, we propose a character level multi-output neural network that outperforms previous state-of-the-art built on the TimeML schema. To compare predictions of systems that follow both SCATE and TimeML, we present a new scoring metric for time intervals. We also apply this new metric to carry out a comparative analysis of the annotations of both schemes in the same corpus.
 
 - id: tacl-1266
   url: not published 
   title: "[TACL] Measuring the Evolution of a Scientific Field through Citation Frames"
-  authors: David Jurgens, Srijan Kumar, Raine Hoover, Dan McFarland, and Dan Jurafsky
+  authors: David Jurgens and Srijan Kumar and Raine Hoover and Dan McFarland and Dan Jurafsky
   contact: jurgens@umich.edu
   abstract: "Citations have long been used to characterize the state of a scientific field and to identify influential works. However, writers use citations for different purposes, and this varied purpose influences uptake by future scholars. Unfortunately, our understanding of how scholars use and frame citations has been limited to small-scale manual citation analysis of individual papers. We perform the largest behavioral study of citations to date, analyzing how scientific works frame their contributions through different types of citations and how this framing affects the field as a whole. We introduce a new dataset of nearly 2,000 citations annotated for their function, and use it to develop a state-of-the-art classifier and label  the papers of an entire field: Natural Language Processing.  We then show how differences in framing affect scientific uptake and reveal the evolution of the publication venues and the field as a whole. We demonstrate that authors are sensitive to discourse structure and publication venue when citing, and that  how a paper frames its work through citations is predictive of the citation count it will receive. Finally, we use changes in citation framing to show that the field of NLP is undergoing a significant increase in consensus."
 
 - id: tacl-1234
   url: https://transacl.org/ojs/index.php/tacl/article/view/1234
   title: "[TACL] Representation Learning for Grounded Spatial Reasoning"
-  authors: Michael Janner, Karthik Narasimhan, Regina Barzilay
+  authors: Michael Janner and Karthik Narasimhan and Regina Barzilay
   contact: janner@mit.edu
   abstract: The interpretation of spatial references is highly contextual, requiring joint inference over both language and the environment. We consider the task of spatial reasoning in a simulated environment, where an agent can act and receive rewards. The proposed model learns a representation of the world steered by instruction text. This design allows for precise alignment of local neighborhoods with corresponding verbalizations, while also handling global references in the instructions. We train our model with reinforcement learning using a variant of generalized value iteration. The model outperforms state-of-the-art approaches on several metrics, yielding a 45% reduction in goal localization error.
 
 - id: tacl-1351
   url: https://transacl.org/ojs/index.php/tacl/article/view/1351
   title: "[TACL] Bootstrap Domain-Specific Sentiment Classifiers from Unlabelled Corpora"
-  authors: Andrius Mudinas, Dell Zhang, and Mark Levene
+  authors: Andrius Mudinas and Dell Zhang and Mark Levene
   contact: dell.z@ieee.org
   abstract: There is often the need to perform sentiment classification in a particular domain where no labelled document is available. Although we could make use of a general-purpose off-the-shelf sentiment classifier or a pre-built one for a different domain, the effectiveness would be inferior. In this paper, we explore the possibility of building domain-specific sentiment classifiers with unlabelled documents only. Our investigation indicates that in the word embeddings learnt from the unlabelled corpus of a given domain, the distributed word representations (vectors) for opposite sentiments form distinct clusters, though those clusters are not transferable across domains. Exploiting such a clustering structure, we are able to utilise machine learning algorithms to induce a quality domain-specific sentiment lexicon from just a few typical sentiment words ("seeds"). An important finding is that simple linear model based supervised learning algorithms (such as linear SVM) can actually work better than more sophisticated semi-supervised/transductive learning algorithms which represent the state-of-the-art technique for sentiment lexicon induction. The induced lexicon could be applied directly in a lexicon-based method for sentiment classification, but a higher performance could be achieved through a two-phase bootstrapping method which uses the induced lexicon to assign positive/negative sentiment scores to unlabelled documents first, and then uses those documents found to have clear sentiment signals as pseudo-labelled examples to train a document sentiment classifier via supervised learning algorithms (such as LSTM). On several benchmark datasets for document sentiment classification, our end-to-end pipelined approach which is overall unsupervised (except for a tiny set of seed words) outperforms existing unsupervised approaches and achieves an accuracy comparable to that of fully supervised approaches.
 
 - id: tacl-1304
   url: not published 
   title: "[TACL] Finding convincing arguments using scalable Bayesian preference learning"
-  authors: Edwin Simpson, Iryna Gurevych
+  authors: Edwin Simpson and Iryna Gurevych
   contact: simpson@ukp.informatik.tu-darmstadt.de
   abstract: We introduce a scalable Bayesian preference learning method for identifying convincing ar- guments in the absence of gold-standard rat- ings or rankings. In contrast to previous work, we avoid the need for separate methods to perform quality control on training data, pre- dict rankings and perform pairwise classifica- tion. Bayesian approaches are an effective so- lution when faced with sparse or noisy train- ing data, but have not previously been used to identify convincing arguments. One issue is scalability, which we address by develop- ing a stochastic variational inference method for Gaussian process (GP) preference learn- ing. We show how our method can be ap- plied to predict argument convincingness from crowdsourced data, outperforming the previ- ous state-of-the-art, particularly when trained with small amounts of unreliable data. We demonstrate how the Bayesian approach en- ables more effective active learning, thereby reducing the amount of data required to iden- tify convincing arguments for new users and domains. While word embeddings are princi- pally used with neural networks, our results show that word embeddings in combination with linguistic features also benefit GPs when predicting argument convincingness.
 
 - id: tacl-1349
   url: not published 
   title: "[TACL] Detecting Institutional Dialog Acts in Police Traffic Stops"
-  authors: Vinodkumar Prabhakaran, Camilla Griffiths, Hang Su, Prateek Verma, Nelson Morgan, Jennifer Eberhardt, Dan Jurafsky
+  authors: Vinodkumar Prabhakaran and Camilla Griffiths and Hang Su and Prateek Verma and Nelson Morgan and Jennifer Eberhardt and Dan Jurafsky
   contact: vinod@cs.stanford.edu
   abstract: We apply computational dialog methods on police body-worn camera footage to model conversations between police officers and community members in traffic stops. Relying on the theory of institutional talk, we develop a labeling scheme for police talk in traffic stops, and a tagger to detect institutional dialog acts (Reasons, Searches, Offering Help) from transcribed text at the turn (78% F-score) and stop (89% F-score) level. We then develop speech recognition and segmentation algorithms to detect these acts at the stop level from raw camera audio (81% F-score, with even higher accuracy for crucial acts like the stop Reason). We demonstrate that the dialog structures produced by our tagger could reveal whether officers follow law enforcement norms like introducing themselves, explaining the reason for the stop, and asking permission for searches, making our work an important step in improving police-community relations.
 
