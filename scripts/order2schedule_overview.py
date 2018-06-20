@@ -114,7 +114,7 @@ for date in dates:
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
         start, stop = timerange.split('--')
 
-        if len(events) >= 3:
+        if len(events) >= 3 and (hasattr(events[0], "num")):
             # Parallel sessions (assume there are at least 3)
             sessions = [x for x in events]
 
@@ -123,9 +123,9 @@ for date in dates:
             num_parallel_sessions = len(sessions)
             rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
             # column width in inches
-            width = 3.3 / num_parallel_sessions
+            width = 3.12 / num_parallel_sessions
             print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.1fin}' % width for x in range(num_parallel_sessions)]))
+            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.2fin}' % width for x in range(num_parallel_sessions)]))
             print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
             print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
             print >>out, ' & '.join(rooms), '\\\\'
@@ -136,8 +136,13 @@ for date in dates:
             for event in events:
                 # A regular event
                 print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                loc = event.split(' ')[0].capitalize()
-                print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event, loc)
+                try:
+                    loc = event.split(' ')[0].capitalize()
+                except:
+                    loc = "Plenary"
+                event_str = "%s" % event
+                event_str = event_str.replace("&", "\&")
+                print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
                 print >>out, '  \\\\'
 
     print >>out, '\\end{SingleTrackSchedule}'
