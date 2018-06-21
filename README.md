@@ -29,6 +29,34 @@
 - locations for a number of things (content/setup/venues.tex)
 - email drago to check index
 
+# Sponsors
+
+5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
+
+• One page mono advertisement in program booklet
+
+5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
+
+• One page mono advertisement in program bookle
+ 
+Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
+
+• Half page mono advertisement in program booklet
+
+Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
+
+• Quarter page mono advertisement in program booklet
+
+Bronze sponsors (ISI, DSTG, Sintelix)
+
+• Quarter page mono advertisement in program booklet
+
+Student volunteer sponsor (CSIRO)
+
+• Quarter page mono advertisement in program booklet
+
+Supporter (SAP, Monash Faculty of IT)
+
 # Changes from Matt's original repository
 
 - Fixed a biber macro that works with latest texlive  
