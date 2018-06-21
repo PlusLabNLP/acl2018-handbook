@@ -9,21 +9,53 @@
 
 # TODOs
 - ~~TACL entries~~
-- frontmatter preface-chair
-- frontmatter preface-pc
-- frontmatter committee
+- ~~frontmatter preface-chair~~
+- ~~frontmatter preface-pc~~
+- ~~frontmatter committee~~
 - Meal Info
 - Welcome Reception
-- Social Event
+- ~~Social Event~~
+- Tutorials
 - Local Guide
 - New CL author/reviewer guidelines
-- sponsors
-- Day1 presidential address
-- Day2 invited talk 1
-- Day3 invited talk 2
-- Day3 lifetime achievement award
-- Day3 best paper session (session 9; remove parallel overview)
-- add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)
+- sponsors (largely done)
+- ~~Day1 presidential address~~
+- ~~Day2 invited talk 1~~
+- ~~Day3 invited talk 2~~
+- ~~Day3 lifetime achievement award~~
+- ~~Day3 best paper session (session 9; remove parallel overview)~~
+- ~~add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)~~
+- add printer name (page 2)
+- locations for a number of things (content/setup/venues.tex)
+- email drago to check index
+
+# Sponsors
+
+5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
+
+• One page mono advertisement in program booklet
+
+5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
+
+• One page mono advertisement in program bookle
+ 
+Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
+
+• Half page mono advertisement in program booklet
+
+Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
+
+• Quarter page mono advertisement in program booklet
+
+Bronze sponsors (ISI, DSTG, Sintelix)
+
+• Quarter page mono advertisement in program booklet
+
+Student volunteer sponsor (CSIRO)
+
+• Quarter page mono advertisement in program booklet
+
+Supporter (SAP, Monash Faculty of IT)
 
 # Changes from Matt's original repository
 
