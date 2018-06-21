@@ -15,6 +15,7 @@
 - ~~Meal Info~~
 - ~~Welcome Reception~~
 - ~~Social Event~~
+- Tutorials
 - Local Guide
 - New CL author/reviewer guidelines
 - sponsors
