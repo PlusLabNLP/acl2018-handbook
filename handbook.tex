@@ -68,6 +68,7 @@
 \bibliography{auto/demos/papers.bib}
 \bibliography{auto/papers/papers.bib}
 \bibliography{auto/srw/papers.bib}
+\bibliography{auto/tutorial/papers.bib}
 
 % Special bib for the workshops
 \bibliography{content/workshops/papers.bib}
@@ -91,7 +92,8 @@
 \thispagestyle{empty}
 \vspace*{6in}
 \noindent\emph{Cover design by Carrie Chilton}\\\index{Chilton, Carrie}
-\noindent\emph{Handbook assembled by Jey Han Lau}\\\index{Lau, Jey Han}
+\noindent\emph{Handbook assembled by Jey Han Lau and Trevor Cohn}\\\index{Lau, Jey Han} 
+\index{Cohn, Trevor}
 \emph{Printing by TODO}
 
 \newpage
@@ -116,13 +118,6 @@
 \mainmatter
 \pagestyle{fancy}
 
-%% ADS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\clearpage
-%\addcontentsline{toc}{chapter}{Sponsorship}
-%\setheaders{}{}
-%\input{content/ads/ads}
-
 %% PREFACE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Conference Information}
@@ -146,7 +141,7 @@
 %% TUTORIALS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setdaydateyear{Sunday}{July 15}{2018}
-%\input{content/tutorials/tutorials-overview}
+\input{content/tutorials/tutorials-overview}
 
 %% Welcome reception %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -187,16 +182,21 @@
 \input{content/anti-harassment-policy}
 \newpage
 
+%% LOCAL GUIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{content/local-guide/local-guide.tex}
+\newpage
+
 %\cleardoublepage
 \addcontentsline{toc}{chapter}{Author Index}
 \setheaders{Author Index}{Author Index}
 
 \printindex
 
-%% LOCAL GUIDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\input{content/local-guide/local-guide.tex}
-\newpage
+%% SPONSOR ADS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Sponsorship}
+\setheaders{}{}
+\input{content/ads/ads}
 
 %% MAPS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -207,9 +207,6 @@
 \newpage
 \thispagestyle{empty}
 
-%\input{content/sponsors/sponsors}
-
-%% \input{content/restaurant-summary}
 \includepdf[pages={1}]{content/sponsors/sponsors.pdf}
 
 \end{document}

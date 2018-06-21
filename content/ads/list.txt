@@ -1,25 +1,26 @@
-Platinum: full page (4.5 x 7.5)
-Gold: half page (4.5 x 4)
-Silver: quarter page (4.5 x 2)
-Bronze: quarter page (4.5 x 2)
-Supporters: no ad
 
-------------
-Platinum
-- Bloomberg
+5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
 
-Gold
-- Google
-- Goldman Sachs
-- A9
+• One page mono advertisement in program booklet
 
-Silver
-- SDL
-- Nuance
+5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
 
-Bronze
-- Yahoo Labs
+• One page mono advertisement in program bookle
 
-Supporters
-- UW Computational Linguistics
-- Digital roots
+Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
+
+• Half page mono advertisement in program booklet
+
+Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
+
+• Quarter page mono advertisement in program booklet
+
+Bronze sponsors (ISI, DSTG, Sintelix)
+
+• Quarter page mono advertisement in program booklet
+
+Student volunteer sponsor (CSIRO)
+
+• Quarter page mono advertisement in program booklet
+
+Supporter (SAP, Monash Faculty of IT)
