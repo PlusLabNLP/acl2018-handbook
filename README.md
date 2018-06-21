@@ -18,7 +18,7 @@
 - Tutorials
 - Local Guide
 - New CL author/reviewer guidelines
-- sponsors
+- sponsors (largely done)
 - ~~Day1 presidential address~~
 - ~~Day2 invited talk 1~~
 - ~~Day3 invited talk 2~~
