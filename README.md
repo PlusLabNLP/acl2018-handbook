@@ -26,7 +26,7 @@
 - ~~Day3 best paper session (session 9; remove parallel overview)~~
 - add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)
 - add printer name (page 2)
-- locations for a number of things
+- locations for a number of things (content/setup/venues.tex)
 - email drago to check index
 
 # Changes from Matt's original repository
