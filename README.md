@@ -9,11 +9,11 @@
 
 # TODOs
 - ~~TACL entries~~
-- frontmatter preface-chair
+- ~~frontmatter preface-chair~~
 - ~~frontmatter preface-pc~~
 - ~~frontmatter committee~~
-- ~~Meal Info~~
-- ~~Welcome Reception~~
+- Meal Info
+- Welcome Reception
 - ~~Social Event~~
 - Tutorials
 - Local Guide
