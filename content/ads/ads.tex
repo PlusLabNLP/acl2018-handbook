@@ -1,21 +1,30 @@
 \thispagestyle{empty}
-\thispagestyle{empty}
-\begin{center}
-\begin{tabular}{c}
-  %% GOLD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \includegraphics[width=4in]{content/ads/gold/goldman_sachs.pdf} \\
-  %% SILVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \includegraphics[width=4in]{content/ads/bronze/yahoo_labs.pdf} \\
-  \includegraphics[width=4in]{content/ads/silver/sdl_research.pdf} \\
-\end{tabular}
-\end{center}
 
-%% PLATINUM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newif\ifhighqualityads
+\newif\iftranslatorad
+
+\highqualityadstrue
+\translatoradtrue
+
+%\ifhighqualityads
+
+% Diamond/Platinum sponsors
+\includepdf[pages={1}]{content/ads/one-page/baidu}
+\includepdf[pages={1}]{content/ads/one-page/samsung}
+
+% Gold sponsors
+\includepdfmerge[nup=1x2]{content/ads/half-page/cvte, 1, content/ads/half-page/ibm, 1}
+
+\includepdfmerge[nup=1x2]{content/ads/half-page/microsoft, 1, content/ads/half-page/naver, 1}
+
+
+%ebay %crochet?
+
+%\includepdfmerge[nup=1x2]{content/ads/Gold/oracle, 1, {content/ads/Gold/crochet}, 1}
+
+
+% Silver and Bronze sponsors
+\includepdfmerge[nup=2x2]{content/ads/quarter-page/data61, content/ads/quarter-page/duolingo, content/ads/quarter-page/isi, content/ads/quarter-page/nuance}
+
+
 \clearpage
-\thispagestyle{empty}
-\begin{center}
-  \vfill
-  \includegraphics[width=4in]{content/ads/platinum/Bloomberg.pdf}
-  \vfill
-\end{center}
-

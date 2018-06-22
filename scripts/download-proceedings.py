@@ -1,6 +1,8 @@
 import os
 import shutil
 
+output_dir = "data"
+
 with open('../input/conferences.txt') as f:
     content = f.readlines()
 # you may also want to remove whitespace characters like `\n` at the end of each line
@@ -8,7 +10,7 @@ content = [x.strip() for x in content]
 
 for c in content:
     url = "http://www.softconf.com/acl2018/"+c+"/pub/aclpub/proceedings.tgz"
-    directory = "../data/"+c
+    directory = "../" + output_dir + "/"+c
     if not os.path.exists(directory):
         os.makedirs(directory)
     os.system("curl \""+url+"\" > "+directory+"/proceedings.tgz")
