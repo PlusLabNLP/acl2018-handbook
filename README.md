@@ -12,8 +12,8 @@
 - ~~frontmatter preface-chair~~
 - ~~frontmatter preface-pc~~
 - ~~frontmatter committee~~
-- Meal Info
-- Welcome Reception
+- ~~Meal Info~~
+- ~~Welcome Reception~~
 - ~~Social Event~~
 - Tutorials
 - Local Guide
@@ -25,7 +25,8 @@
 - ~~Day3 lifetime achievement award~~
 - ~~Day3 best paper session (session 9; remove parallel overview)~~
 - ~~add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)~~
-- add printer name (page 2)
+- ~~add printer name (page 2)~~
+- fix second last page map (rotate and split into 2 pages)
 - locations for a number of things (content/setup/venues.tex)
 - email drago to check index
 
