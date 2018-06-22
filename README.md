@@ -28,7 +28,7 @@
 - ~~add printer name (page 2)~~
 - fix second last page map (rotate and split into 2 pages)
 - locations for a number of things (content/setup/venues.tex)
-- email drago to check index
+- ~~email drago to check index~~
 
 # Sponsors
 
