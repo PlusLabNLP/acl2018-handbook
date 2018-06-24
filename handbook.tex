@@ -44,6 +44,14 @@
 \renewcommand{\Large}{\fontsize{12}{14}\selectfont}
 \renewcommand{\huge}{\fontsize{14}{17}\selectfont}
 
+% version of \cleardoublepage to ensure we use an even page
+% standard \cleardoublepage will ensure odd page
+\makeatletter
+\newcommand*\cleardoublepageEVEN{\clearpage\if@twoside
+  \ifodd\c@page \hbox{}\newpage\if@twocolumn\hbox{}%
+  \newpage\fi\fi\fi}
+\makeatother
+
 % for each part of the conference, add the .bib file produced with
 % meta2bibtex.py here:
 
