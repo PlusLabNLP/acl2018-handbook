@@ -1,4 +1,4 @@
-\thispagestyle{empty}
+%\thispagestyle{empty}
 
 \newif\ifhighqualityads
 \newif\iftranslatorad
@@ -9,15 +9,16 @@
 %\ifhighqualityads
 
 % Diamond/Platinum sponsors
-\includepdf[pages={1},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/samsung}
-\includepdf[pages={1},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/amazon}
-\includepdf[pages={1},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/baidu}
-\includepdf[pages={1},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/tencent}
+\includepdf[pages={1},pagecommand={\pagestyle{fancy}},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/samsung}
+\includepdf[pages={1},pagecommand={\pagestyle{fancy}},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/amazon}
+\includepdf[pages={1},pagecommand={\pagestyle{fancy}},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/baidu}
+\includepdf[pages={1},pagecommand={\pagestyle{fancy}},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/megagon}
+\includepdf[pages={1},pagecommand={\pagestyle{fancy}},trim=-0.9in 0in -0.9in 0in]{content/ads/one-page/tencent}
 
 % Gold sponsors
-\includepdfmerge[nup=1x2,scale=0.8]{content/ads/half-page/cvte, 1, content/ads/half-page/ibm, 1}
+\includepdfmerge[nup=1x2,scale=0.8,pagecommand={\pagestyle{fancy}}]{content/ads/half-page/cvte, 1, content/ads/half-page/ibm, 1}
 
-\includepdfmerge[nup=1x2,scale=0.8]{content/ads/half-page/microsoft, 1, content/ads/half-page/naver, 1}
+\includepdfmerge[nup=1x2,scale=0.8,pagecommand={\pagestyle{fancy}}]{content/ads/half-page/microsoft, 1, content/ads/half-page/naver, 1}
 
 
 %ebay %crochet?
@@ -26,8 +27,8 @@
 
 
 % Silver and Bronze sponsors
-\includepdfmerge[nup=2x2,scale=0.8]{content/ads/quarter-page/data61, content/ads/quarter-page/duolingo, content/ads/quarter-page/isi, content/ads/quarter-page/nuance}
-%\includepdfmerge[nup=2x2,scale=0.8]{content/ads/quarter-page/huawei, content/ads/quarter-page/xx, content/ads/quarter-page/xx, content/ads/quarter-page/xx}
+\includepdfmerge[nup=2x2,scale=0.8,pagecommand={\pagestyle{fancy}}]{content/ads/quarter-page/data61, content/ads/quarter-page/duolingo, content/ads/quarter-page/isi, content/ads/quarter-page/nuance}
+\includepdfmerge[nup=2x2,scale=0.8,pagecommand={\pagestyle{fancy}}]{content/ads/quarter-page/huawei, content/ads/quarter-page/blank, content/ads/quarter-page/blank, content/ads/quarter-page/blank}
 
 
 \clearpage
