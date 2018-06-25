@@ -30,14 +30,12 @@
   top=.7in,
   twoside]{geometry}
 
-\usepackage[utf8]{inputenc}
-\usepackage{fourier}
 \usepackage{tikz}
 \usetikzlibrary[positioning]
 \usetikzlibrary{patterns}
 \newcommand{\daywidth}{1.5 cm}
 
-\newcounter{dummy} % hack, see content/maps.tex
+\newcounter{dummy} % hack, see content/maps.tex, not sure if it works though
 
 % Lots of macros
 \input{content/special/preamble} 
@@ -45,6 +43,8 @@
 
 \input{content/setup/venues}    % macros for event locations
 \input{content/setup/sessions}  % session titles and venues
+
+\usepackage{fourier} % use modern font, not the ghastly 90s fonts plaguing most ACL style files
 
 \renewcommand{\normalsize}{\fontsize{8}{9}\selectfont}
 \renewcommand{\small}{\fontsize{7}{8}\selectfont}
@@ -222,6 +222,7 @@
 \node[hours,minimum height=2cm,fill=orange!30] at (6,16) {Workshops};
 \end{tikzpicture}
 
+\vspace*{2ex}
 \noindent\emph{Cover design by Carrie Chilton}\\\index{Chilton, Carrie}
 \noindent\emph{Handbook assembled by Jey Han Lau and Trevor Cohn}\\\index{Lau, Jey Han} 
 \index{Cohn, Trevor}
