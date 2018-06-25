@@ -1,21 +1,91 @@
-\begin{bio}
-{\bfseries Jianfeng Gao} 
-
-{\bfseries Michel Galley} 
-
-{\bfseries Lihong Li} 
-
-\end{bio}
-
 \begin{tutorial}
   {Neural Approaches to Conversational AI}
   {tutorial-026}
   {\daydateyear, \tutorialmorningtime}
   {\TutLocB}
-
-Developing an intelligent dialogue system that not only emulates human conversation, but also can answer questions of topics ranging from latest news of a movie star to Einstein’s theory of relativity, and fulfill complex tasks such as travel planning, has been one of the longest running goals in AI. The goal remains elusive until recently when we started observing promising results in both the research community and industry as the large amount of conversation data is available for training and the breakthroughs in deep learning (DL) and reinforcement learning (RL) are applied to conversational AI.
-
-In this tutorial, we start with a brief introduction to the recent progress on DL and RL that is related to natural language processing and conversational AI. Then, we describe in detail the state-of-the-art neural approaches developed for three types of dialogue systems. The first is a question answering (QA) agent. Equipped with rich knowledge drawn from various data sources including Web documents and pre-compiled knowledge graphs (KG’s), the QA agent can provide concise direct answers to user queries. The second is a task-oriented dialogue system that can help users accomplish tasks ranging from meeting scheduling to vacation planning. The third is a social chat bot which can converse seamlessly and appropriately with humans, and often plays roles of a chat companion and a recommender. In the final part of the tutorial, we review attempts to developing open-domain conversational AI systems that combine the strengths of different types of dialogue systems.
-
-
 \end{tutorial}
+
+This tutorial surveys neural approaches to conversational AI that were developed in the last few years. We group conversational systems into three categories: (1) question answering agents, (2) task-oriented dialogue agents, and (3) social bots. For each category,  we present a review of state-of-the-art neural approaches, draw the connection between neural approaches and traditional symbolic approaches, and discuss the progress we have made and challenges we are facing, using specific systems and models as case studies.
+
+
+\vspace{2ex}\centerline{\rule{.5\linewidth}{.5pt}}\vspace{2ex}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0ex}
+
+
+
+
+{\bfseries Jianfeng Gao} is Partner Research Manager at Microsoft
+AI and Research, Redmond. He leads the
+development of AI systems for machine reading
+comprehension, question answering, chitchat bots,
+task-oriented dialogue, and business applications.
+From 2014 to 2017, he was Partner Research Manager
+and Principal Researcher at Deep Learning
+Technology Center at Microsoft Research, Redmond,
+where he was leading the research on deep
+learning for text and image processing. From
+2006 to 2014, he was Researcher, Senior Researcher,
+and Principal Researcher at Natural Language
+Processing Group at Microsoft Research,
+Redmond, where he worked on the Bing search
+engine, improving its core relevance engine and
+query spelling, understanding and reformulation
+engines, MS ads relevance and prediction, and statistical
+machine translation. From 2005 to 2006,
+he was a Research Lead in Natural Interactive Services
+Division at Microsoft, where he worked on
+Project X, an effort of developing natural user interface
+for Windows. From 2000 to 2005, he was
+Research Lead in Natural Language Computing
+Group at Microsoft Research Asia, where he and
+his colleagues developed the first Chinese speech
+recognition system released with Microsoft Office,
+the Chinese/Japanese Input Method Editors (IME)
+which were the leading products in the market, and
+the natural language platform for Microsoft Windows.
+
+{\bfseries Michel Galley} is a Senior Researcher at Microsoft
+Research. His research interests are in
+the areas of natural language processing and machine
+learning, with a particular focus on conversational
+AI, text generation, and machine translation.
+From 2007 to 2010, he was a Postdoctoral
+Scholar then Research Associate in the Computer
+Science department at Stanford University, working
+primarily on Machine Translation. In 2007,
+he obtained his Ph.D. from the Computer Science
+department at Columbia University, with research
+focusing on summarization, discourse, and dialogue.
+From 2003 to 2005, he did several internships
+at USC/ISI and Language Weaver on machine
+translation, which included work that won
+several NIST MT competitions. From 2000-2001,
+he did an 8-month internship and undergraduate
+thesis work in the Spoken Dialog Systems group
+at Bell Labs, working on generation for dialogue
+systems.
+
+{\bfseries Lihong Li} is a Research Scientist at Google
+Inc. He obtained a PhD degree in Computer Science
+from Rutgers University, specializing in reinforcement
+learning theory and algorithms. After
+that, he has held Researcher, Senior Researcher,
+and Principal Researcher positions in Yahoo!
+Research (2009-2012) and Microsoft Research
+(2012-2017), before joining Google. His
+main research interests are reinforcement learning
+(in both Markov decision processes and contextual
+bandits) and other related problems in AI (including
+active leaning, online learning and large-scale
+machine learning). His work has found applications
+in recommendation, advertising, Web search
+and conversation systems, and has won best paper
+awards at ICML, AISTATS and WSDM. In recent
+years, he served as area chairs or senior program
+committee members at AAAI, AISTATS, ICML,
+IJCAI and NIPS. More information can be found
+on his homepage: \url{http://lihongli.github.io}.
+
+
+
+

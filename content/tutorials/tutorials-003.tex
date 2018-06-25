@@ -1,17 +1,64 @@
-\begin{bio}
-{\bfseries Wilker Aziz} 
-
-{\bfseries Philip Schulz}
-\end{bio}
-
 \begin{tutorial}
   {Variational Inference and Deep Generative Models}
   {tutorial-027}
   {\daydateyear, \tutorialmorningtime}
   {\TutLocC}
-
-Neural networks are taking NLP by storm. Yet they are mostly applied to fully supervised tasks. Many real-world NLP problems require unsupervised or semi-supervised models, however, because annotated data is hard to obtain. This is where generative models shine. Through the use of latent variables they can be applied in missing data settings. Furthermore they can complete missing entries in partially annotated data sets.
-
-This tutorial is about how to use neural networks inside generative models, thus giving us Deep Generative Models (DGMs). The training method of choice for these models is variational inference (VI). We start out by introducing VI on a basic level. From there we turn to DGMs. We justify them theoretically and give concrete advise on how to implement them. For continuous latent variables, we review the variational autoencoder and use Gaussian reparametrisation to show how to sample latent values from it. We then turn to discrete latent variables for which no reparametrisation exists. Instead, we explain how to use the score-function or REINFORCE gradient estimator in those cases. We finish by explaining how to combine continuous and discrete variables in semi-supervised modelling problems.
-
 \end{tutorial}
+
+NLP has seen a surge in neural network models in recent years. These models
+provide state-of-the-art performance on many supervised tasks. Unsupervised and
+semi-supervised learning has only been addressed scarcely, however. Deep
+generative models (DGMs) make it possible to integrate neural networks with
+probabilistic graphical models. Using DGMs one can easily design latent
+variable models that account for missing observations and thereby enable
+unsupervised and semi-supervised learning with neural networks. The method of
+choice for training these models is variational inference.
+
+This tutorial offers a general introduction to variational inference followed
+by a thorough and example-driven discussion of how to use variational methods
+for training DGMs. It provides both the mathematical background necessary for
+deriving the learning algorithms as well as practical implementation
+guidelines.  Importantly, the tutorial will cover models with continuous and
+discrete variables. 
+
+We provide practical coding exercises implemented in IPython notebooks as well
+as short notes on the more intricate mathematical details that the audience can
+use as a reference after the tutorial. We expect that with these additional
+materials the tutorial will have a long-lasting impact on the community.
+
+
+\vspace{2ex}\centerline{\rule{.5\linewidth}{.5pt}}\vspace{2ex}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0ex}
+
+
+{\bfseries Wilker Aziz} is a research associate at the University
+of Amsterdam (UvA) working on natural
+language processing problems such as machine
+translation, textual entailment, and paraphrasing.
+His research interests include statistical
+learning, probabilistic models, and methods
+for approximate inference. Before joining UvA,
+Wilker worked on exact sampling and optimisation
+for statistical machine translation at the University
+of Sheffield (UK) and at the University of
+Wolverhampton (UK) where he obtained his PhD.
+Wilker’s background is in Computer Engineering
+which he studied at the Engineering School of the
+University of S\~ao Paulo (Brazil).
+
+{\bfseries Philip Schulz} is an applied scientist at Amazon
+Research. Before joining Amazon, Philip did his
+PhD at the University of Amsterdam. During the
+last months of his PhD trajectory, he visited the
+University of Melbourne. Philip’s background is
+in Linguistics which he studied at the University
+of T\"ubingen and UCL in London. These days, his
+research interests revolve around statistical learning.
+He has worked on Bayesian graphical models
+for machine translation. More recently he has
+extended this line of work towards deep generative
+models. More broadly, Philip is interested
+in probabilistic modeling, approximate inference
+methods and statistical theory.
+
+
