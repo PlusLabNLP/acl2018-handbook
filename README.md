@@ -17,7 +17,7 @@
 - ~~Social Event~~
 - Tutorials
 - Local Guide
-- New CL author/reviewer guidelines
+- ~~New CL author/reviewer guidelines~~
 - ~~sponsors (largely done)~~
 - ~~Day1 presidential address~~
 - ~~Day2 invited talk 1~~
