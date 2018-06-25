@@ -27,7 +27,7 @@
 - ~~add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)~~
 - ~~add printer name (page 2)~~
 - ~~fix second last page map (rotate and split into 2 pages)~~
-- locations for a number of things (content/setup/venues.tex)
+- locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
 - ~~email drago to check index~~
 - update registration time
 
