@@ -24,5 +24,3 @@ data/tar
 #*#
 .#*
 .DS_Store
-auto/*
-data/*
