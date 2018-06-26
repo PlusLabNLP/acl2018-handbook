@@ -1,0 +1,42 @@
+\documentclass[twoside,makeidx]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{combelow}
+\usepackage{newunicodechar}
+\usepackage{upgreek}
+\usepackage{afterpage}
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=210mm, 
+  paperwidth=148mm, 
+  inner=.7in,
+  outer=.45in,
+  bottom=.65in,
+  top=.7in,
+  twoside]{geometry}
+\usepackage{fourier} 
+\usepackage{tikz}
+\usetikzlibrary[positioning]
+\usetikzlibrary{patterns}
+
+% version of \cleardoublepage to ensure we use an even page
+% standard \cleardoublepage will ensure odd page
+\makeatletter
+\newcommand*\cleardoublepageEVEN{\clearpage\if@twoside
+  \ifodd\c@page \hbox{}\newpage\if@twocolumn\hbox{}%
+  \newpage\fi\fi\fi}
+\makeatother
+
+\begin{document}
+
+\hspace{0pt}
+\cleardoublepageEVEN
+
+Testing file for the schedule, without full handbook build.
+
+\input{schedule-overview}
+
+\end{document} 
