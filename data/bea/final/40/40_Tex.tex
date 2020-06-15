@@ -1,0 +1,349 @@
+%
+% File acl2020.tex
+%
+%% Based on the style files for ACL 2020, which were
+%% Based on the style files for ACL 2018, NAACL 2018/19, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2020}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{longtable}
+\usepackage{multirow}
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\title{Context-based Automated Scoring of Complex Mathematical Responses}
+
+\author{Aoife Cahill, James H. Fife, Brian Riordan, Avijit Vajpayee, and Dmytro Galochkin  \\
+\texttt{acahill@ets.org, ejreed215@verizon.net,} \\
+\texttt{\{briordan, avajpayee, dgalochkin\} @ets.org} \\
+ETS, Princeton, NJ 08541, USA}
+
+\newcommand{\AC}{\textcolor{black}} % Aoife
+\newcommand{\JF}{\textcolor{green}} % Jim
+\newcommand{\AV}{\textcolor{red}} % Avijit
+\newcommand{\BR}[1]{\textcolor{orange}{\textbf{BR:} #1}} % Brian
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+The tasks of automatically scoring either textual or algebraic responses to mathematical questions have both been well-studied, albeit separately. In this paper we propose a method for automatically scoring responses that contain both text and algebraic expressions. Our method not only achieves high agreement with human raters, but also links explicitly to the scoring rubric -- essentially providing explainable models and a way to potentially provide feedback to students in the future. 
+\end{abstract}
+
+
+\section{Introduction}
+In this paper we present work on automatically scoring student responses to constructed-response mathematics items where the response should contain both text and mathematical equations or expressions. Existing work on automated scoring of mathematics items has largely focused on items where either only text is required (c.f. related work on automated short-answer-scoring \cite{galhardi2018machine, burrows2015eras}) or only an expression or equation is required \cite{drijvers2018digital,fife2017m,sangwin2004assessing}. %\citet{erickson2020automated} present a study on automatically scoring mathematical items, 
+This is the first work, to our knowledge, that attempts to automatically score responses that contain both. 
+
+Items that elicit such responses could be algebra, trigonometry, or calculus items that ask the student to solve a problem and/or provide an argument. Items at levels much below algebra most likely would not require the student to include an equation \AC{-- at least one that requires an equation editor for proper entry --} in the text, and items at a higher level might require the student to include abstract mathematical expressions that would themselves present automated scoring difficulties. \AC{These kinds of items are quite common on paper-and-pencil algebra exams. However, they are less common on computer-delivered exams, primarily because the technology of calling up an equation editor to insert equations in text is new and not generally used.}
+
+The challenge with automatically scoring these kinds of responses, in a construct-valid way, is that the system needs to be able to interpret the correctness of the equations and expressions {\em in the context of} the surrounding text. 
+
+Our goal is not just to achieve accurate scoring but to also have explainable models. Explainable models have a number of advantages including (i) giving users evidence that the models are fair and unbiased; (ii) the ability to leverage the models for feedback; and (iii) compliance with new laws, \AC{e.g. the General Data Protection Regulation (EU) 2016/679 (GDPR) which requires transparency and accountability of any form of automated processing of personal data}. In this paper we present an approach that not only achieves high agreement with human raters, but also links explicitly to the scoring rubric -- essentially providing explainable models and a way to potentially provide feedback to students in the future. %\AV{Short blurb with citations explaining importance of explainable models with respect to automatic assessment.} \newcite{conati2018ai}
+%\AC{We might leave this section out depending on space. It's fairly common not to have this outline in a short paper}
+%To this end, we first identify mathematical expressions (see Section \ref{subsection:equation_identification}) and replace them in the original data with explainable place-holders. We experiment with 3 different replacement schemes, each indicating a higher level of interpretability. The details of the data are presented in Section \ref{section:data}. The methodology and experimental details are present in sections \ref{section:methodology} and \ref{section:experiments}, respectively. Results and observations are presented in Section \ref{section:results}. Finally Section \ref{section:discussion} provides a discussion of the problem, giving our conclusions on the experiments and reflecting upon avenues for future work.
+
+
+\section{Data}
+\label{section:data}
+In this paper we use data from 3 pilot-study items that elicited responses containing both textual explanations as well as equations and expressions. An example item is given in Figure \ref{fig:item}, and a sample response (awarded 2 points on a 0-3 point scale) is given in Figure \ref{fig:responses}.\footnote{This item corresponds to Item 2 in our dataset. The scoring rubric is given in Appendix \ref{sec:rubric}.} 
+The pilot was administered as part of a larger project in four high schools located in various regions of the United States. The items assumed one year of algebra and involved writing solutions to algebra problems, similar to what a student would be expected to write on a paper-based classroom test. Responses were collected digitally; students used an interface that included an optional equation editor. The responses were captured as text, with the equations captured as MathML enclosed in $<$math$>$ tags. Two of the items involved quadratic functions, requiring the student to use the equation editor to properly format equations in their responses. Nonetheless, many students did not use the equation editor consistently. In fact only 60\% of all students used the equation editor. Of all equations entered by the students, only 34\% were entered via the equation editor since most of the students preferred to write simple equations as regular text.\footnote{This presents obvious challenges for automatically scoring the mathematical components of the responses, since the first step is to even identify them (see Section \ref{subsection:equation_identification} for how we address this).} 
+
+\begin{figure}
+    \small
+    \texttt{Explain, using words and equations, how you would use the quadratic formula to find two values of x for which
+    \center{$195 = -2x^2 +40x$.} 
+    \\You may also use the on-screen calculator.}
+    \caption{Sample item that elicits textual explanations as well as equations and mathematics.}
+    \label{fig:item}
+\end{figure}
+
+\begin{figure}
+    \small
+ $x = \frac{-40 + \sqrt{40^2 -4(-2)(-195)}}{2(-2)}$ \\
+ 
+\texttt{To solve this you must first put your equation in standard form, which gives you y=-2x+40x-195. You then plug your a, b, and c values into the quadratic formula. To start finding your x value, you must first multiply all your values in parentheses. You must then simplify the square root you get from multiplying. With your new equation, you make two more equations, one adding your simplified square root and one subtracting it. The two answers you get from those equations are your two values of x.}
+
+    \caption{Sample response to the item in Figure \ref{fig:item} (2-point response). \AC{The student has put the equation into standard form with a slight error. $-2x^2$ has become $-2x$; the student was not using the equation editor and could not type the exponent. The student does not explicitly give the values of a, b, and c, but correctly substitutes these values into the formula, so we may assume that the student has determined these values correctly. We may also assume that the student has corrected the missing exponent in the standard form. The student talks about ``two answers'' but only gives one root, however, so this response is worth 2 points.} }
+    \label{fig:responses}
+\end{figure}
+%\AC{do we want to give any specifics about the equation editor used?} 
+%\JF{The equation editor was WIRIS, but I don't think we need to mention that unless we had a contractual arrangement with WIRIS that we would mention them in any publication that came out of the research}
+%\AC{I think it would be good to do some analysis on this point. Dmitry, do you have stats for what percentage of responses included data from the equation editor (perhaps by score point?}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lrrrrr}
+\hline
+Item & Total & \% 0   & \% 1   & \% 2   & \% 3   \\
+\hline
+1    & 924   & 49.35  & 19.37  & 6.93   & 24.35 \\
+2    & 889   & 70.97  & 12.49  & 11.59  & 4.95  \\
+3    & 859   & 77.65  & 3.49   & 3.26   & 15.6 \\
+\hline
+\end{tabular}
+\caption{Descriptive Statistics for the 3 items, including the total number of responses per item, as well as the percentage of responses at each score point.
+\label{table:data}}
+\end{table}
+
+There were over 1,000 responses collected for each item, however some responses were blank and therefore not included in this study. Table \ref{table:data} gives some descriptive statistics for the final data used in this study. Items 2 and 3 were somewhat difficult for this pilot student population, with 71\% and 78\% of students receiving a score of 0 for those items. All responses were scored by two trained raters; the quadratic-weighted kappa values for the human-human agreement on the three items ranged from 0.91 to 0.95, indicating that humans were able to agree very well on the assignment of scores. 
+
+
+
+\section{Methods}
+\label{section:methodology}
+
+\subsection{Automatically scoring equations and expressions}
+\label{subsection:mrater}
+
+We use %If a computer-delivered item requires a response that is an equation or a mathematical expression, the response can be scored by 
+m-rater, an automated scoring engine developed by Educational Testing Service \cite{fife2013automated,fife2017m} to automatically score the equations and mathematical expressions in our data. M-rater uses SymPy\footnote{https://www.sympy.org/en/index.html}, an open-source computer algebra system, to determine if the student's response is mathematically equivalent to the intended response. M-rater %is always used in conjunction with an equation editor that allows the test taker to enter the response in 
+can process standard mathematical format, with exponents, radical signs, fractions, and so forth. \AC{M-rater is a deterministic system, and as such has 100\% accuracy, given well-formed input.} %Any third-party equation editor can be used provided the editor is configurable at the item level and outputs the response in a standard format, such as MathML or LaTeX.
+%\AC{Jim is m-rater trademarked?}
+
+If, as in this study, the responses consist of a mixture of text and equations or mathematical expressions, m-rater can evaluate the correctness (or partial correctness) of the equations and expressions, but it cannot evaluate text. 
+
+
+
+% A sequence of expressions entered on the same line separated with equal signs, which should be used to show simplifications or transformations of the same expressions, is a problem for automated evaluation as most of symbolic algebra system cannot evaluate such. We tried to split them into pairs by repeating expression in the middle and then evaluate each of the produced equations according to the scoring rubric.   
+
+\subsection{Automatically identifying equations and expressions in text}
+\label{subsection:equation_identification}
+
+While the students had access to an equation editor as part of the delivery platform, many did not use it consistently. This means that we cannot rely on the MathML encoding to identify all of the equations and mathematical expressions in the text. For example, a student may have wanted to enter the \AC{equation: $ 2x^2 - 40x + 195 = 0$}. They may use the equation editor to enter the entire equation, or some of it (e.g. the piece after the = sign, \AC{or after the exponent expression}), or none of it. This leads to construct-irrelevant variations in representations. 
+
+
+Therefore, we develop a regular-expression based system for automatically identifying equations and expressions in responses where all data from the equation editor has been rendered as plain text. %\AV{This para and next's first 2 lines seem repetitive.}
+%TODO: Talk about the challenges and maybe give some edge case examples. Present the evaluation based on Kofi's annotations. \AC{Dmitry can you add 1-3 sentences about the challenges/edge cases?} 
+%Identifying mathematical expressions within responses can sometimes be challenging, even for human raters. We developed an automated, regular-expression-based system for identifying equations and expressions. 
+%Development of this script was done using data from similar items collected in a previous data collection but not used in this study. 
+Our processing includes the following \AC{assumptions} which are appropriate for our dataset:
+
+\begin{itemize}
+ \item Variables can only consist of single letters;
+ \item We only detect simple functions (square root, absolute and very basic trigonometric functions);
+ \item Equations containing line breaks are treated as two different equations.
+\end{itemize}
+
+We processed all responses to the three pilot items with this script and all identified equations and expressions were manually checked by a content expert. In almost all cases, the system correctly identified the equations or expressions. There were 9 incorrectly identified equations in total \AC{(out of 2,672)}. Mis-identifications were usually due to incorrect spacing in the equation -- either too much space between characters in the equation or no space between the equation and subsequent text. A few students used the letter x to denote multiplication, which was read by the system as the variable x.
+
+It is possible to convert the m-rater evaluations of the individual equations and expressions contained in a response into features. This is done by automatically extracting the equations and expressions and using m-rater to match each one to an element in the scoring rubric (also called concepts). These features encode a binary indicator of whether a particular concept is present or not in a response. Note that some concepts represent known or expected misconceptions in student responses. \AC{For example, the set of six binary features instantiated for each response to Item 2 are as follows: (i) has the equation been correctly transformed into standard form (rubric element 1); (ii) did the student answer a=2 (rubric element 2); (iii) did the student answer b=40 (rubric element 2); (iv) did the student answer c=195 (rubric element 2); (v) did the student find solution 1 (rubric element 3); (vi) did the student find solution 2 (rubric element 3).}
+
+\subsection{Automatically scoring short texts for correctness}
+\label{subsection:scoring}
+
+We use 4 approaches for automatically scoring short texts with mathematical expressions. The baseline system (LinReg$_{m}$) is an ordinary Linear Regression on the math features automatically extracted from m-rater evaluations and does not include any textual context. System 2 (SVR$_{csw}$) is a feature-based \AC{Support Vector Regressor (SVR)} that encodes (1) key words and phrases (in the form of word ngrams); (2) character-ngrams as well as (3) key syntactic relationships in the text as binary features. Note that system 2 does not take any explicit math features into account, and the mathematical expressions are assumed to be captured through character level features. System 3 (SVR$_{msw}$) is a feature-based SVR taking \AC{into account} both textual context (through word-ngrams and syntactic dependencies) as well \AC{as} explicit math features, but no character-level ngrams. Our final system is a \AC{recurrant neural network (RNN)} system. The RNN model uses pre-trained word embeddings encoded by a bidirectional \AC{gated recurrent unit (GRU)}. The hidden states of the GRU are aggregated by a max pooling mechanism \cite{shen-etal-2018-baseline}. The output of the encoder is aggregated in a fully-connected feedforward layer with sigmoid activation to predict the score of the response. This architecture has achieved state-of-the-art performance on the ASAP-SAS benchmark dataset \cite{riordan_how_2019}. Additional information about steps to replicate the system can be found in the Appendix. 
+\begin{table*}[h!]
+\centering
+    \subfloat{
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{System} & \textbf{Item 1} & \textbf{Item 2} & \textbf{Item 3} \\ \hline
+LinReg_{m} & 0.506 & 0.457 & 0.587 \\
+SVR_{csw} & 0.870 & 0.789 & 0.933 \\
+SVR_{msw} & \textbf{0.897} & 0.797 & \textbf{0.935} \\
+Word RNN & 0.887 & \textbf{0.835} & 0.923 \\ \hline
+\end{tabular}
+\caption{Quadratically-weighted kappa results for \textbf{Exp 0} (plain text, no expression replacement)}
+\label{table:exp0_results}
+}
+
+    \subfloat{
+
+%\begin{table*}
+%\begin{center}
+~\\
+\begin{tabular}{|c|ccccccccc|}
+\hline
+\multirow{2}{*}{\textbf{System}} & \multicolumn{3}{c|}{\textbf{Exp 1}} & \multicolumn{3}{c}{\textbf{Exp 2}} & \multicolumn{3}{c|}{\textbf{Exp 3}} \\ \cline{2-10} 
+ & \textbf{Item 1} & \textbf{Item 2} & \multicolumn{1}{c|}{\textbf{Item 3}} & \textbf{Item 1} & \textbf{Item 2} & \multicolumn{1}{c|}{\textbf{Item 3}} & \textbf{Item 1} & \textbf{Item 2} & \textbf{Item 3} \\ \hline
+SVR_{msw} & 0.888 & 0.783 & \multicolumn{1}{c|}{0.897} & 0.891 & 0.776 & \multicolumn{1}{c|}{0.889} & 0.894 & 0.781 & 0.894 \\ \hline
+SVR_{csw} & 0.788 & 0.593 & \multicolumn{1}{c|}{0.664} & 0.827 & 0.689 & \multicolumn{1}{c|}{0.867} & 0.882 & 0.776 & 0.891 \\ \hline
+Word RNN & 0.767 & 0.649 & \multicolumn{1}{c|}{0.725} & 0.842 & 0.75 & \multicolumn{1}{c|}{0.887} & 0.901 & 0.829 & 0.888 \\ \hline
+\end{tabular}
+\caption{Quadratically-weighted kappa results for explainability experiments }
+\label{table:explainability_results}
+%\end{center}
+%\end{table*}
+}
+\end{table*}
+
+\section{Experiments}
+\label{section:experiments}
+
+We conduct a set of experiments to answer the following research questions: 
+\begin{enumerate}
+\item How important is textual context for responses involving mathematical expressions with respect to automated scoring? \AC{(Comparing {\bf Exp 0} and {\bf Exp 1})}
+\item Do character level features capture mathematical expressions? \AC{({\bf Exp 0})}
+\item Can explainability be included in scoring models without severely compromising accuracy? \AC{(Comparing {\bf Exp 0} to {\bf Exp 1--3})}
+\end{enumerate}
+
+For our baseline experiment (\textbf{Exp 0}), student responses are taken with all equations and expressions converted to plain text. For this experiment, we use all 4 systems as described in Section \ref{subsection:scoring}. Subsequently, we perform 3 experiments where all expressions and equations (as identified by m-rater) are converted to pre-defined tokens with increasing degree of explainability:
+
+%We also generate features from the system described in \ref{mrater} (essentially the presence or absence of an equation/expression listed in the scoring rubric). These features can be combined with the text features used by System 1 to train a model that directly combines text and mathematical features. 
+
+\begin{description}
+\item [Exp 1] All equations and expressions \AC{automatically identified and} converted to a single token (@expression@)
+\item [Exp 2] All equations and expressions \AC{automatically identified and} converted to one of @correct@ or @incorrect@. The correctness of an equation is determined automatically by matching against the scoring rubric using m-rater (see Section \ref{subsection:mrater}).
+\item [Exp 3] All equations and expressions \AC{automatically identified and} converted to one of @correct\_N@ or @incorrect@, where N indicates the set of concept numbers from the scoring rubric and is automatically identified using m-rater. 
+\end{description}
+
+For each pair of system and response variant, we conduct a 10-fold nested cross validation experiment. We split our data into 80\% train, 10\% dev and 10\% test. 
+For each fold, we train on the train+dev portions and make predictions on the held-out test portion, having tuned the hyperparameters on the dev set. There are no overlapping test folds. For evaluation, we pool predictions on test sets from all folds and compute agreement statistics between the rater 1 score and the machine predictions. 
+
+\section{Results}
+\label{section:results}
+
+
+Table \ref{table:exp0_results} gives the results of all models used for the baseline experiment where all responses are converted to plain text. Even without pre-processing the mathematical expressions, textual context is very important, as we see by the poor performance of the Linear Regression model on purely mathematical features \AC{($LinReg_{m}$)}. It can also be seen that character level features, while partially capturing mathematical expressions, do not perform as well as the SVR model with explicit math features \AC{(comparing $SVR_{csw}$ to $SVR_{msw}$)}. The difference, however, is not statistically significant for any item (details given in Appendix \ref{subsection:significance}). Another interesting result is that the RNN model without character level OR explicit math information performs well, being a close second to the SVR$_{msw}$ model and the differences between them are not statistically significant. 
+
+Table \ref{table:explainability_results} gives the results for the explainability experiments i.e. \textbf{Exp 1 to 3} where mathematical expressions and equations were pre-identified and replaced in the response text. Comparing these with the results for the experiment on the original text responses (Table \ref{table:exp0_results}), it can be seen that the replacement that includes the mappings to rubric concepts (\textbf{Exp 3}) not only increases explainability but is also competitive in performance to models with explicit math features but no expression replacement (outperforming them on Item 1). Models SVR$_{csw}$ and WordRNN are not significantly different on any item for any of the 3 explainability experiments (\textbf{Exp 1 to 3}). 
+
+%\begin{table*}
+%\begin{tabular}{|l|lll||lll||lll||lll|}
+%\hline
+% System             & \multicolumn{3}{c||}{Input 1} & \multicolumn{3}{c||}{Input 2} & \multicolumn{3}{c||}{Input 3} & \multicolumn{3}{c|}{Input 4} \\
+% Item                   &  1  &  2  &  3  &  1  &  2  &  3  &  1  &  2  &  3  &  1  &  2  &  3  \\
+% henry              & .87     & .789    & .933    & .788    & .593    & .664    & .827    & .689    & .867    & .882    & .776    & .891    \\
+ %SVR      & .866    & .758    & {\bf .926}    & {\bf  .794}    & .567    & .572    & .823    & .728    & .852    & .874    & .781    & .87     \\
+ %henry+math         & .887    & .788    & .933    & .876    & .742    & .87     & .883    & .734    & .873    & .886    & .78     & .886    \\
+% SVR+math & .897    & .797    & .935    & .888    & .783    & .897    & .891    & .776    & .889    & .894    & .781    & .894    \\
+% RNN      & {\bf .887}    &{\bf .835}    & .923    & .767    &{\bf  .649}    &{\bf  .725 }   &{\bf  .842 }   & {\bf .75}     &{\bf  .887}    &{\bf  .901}    &{\bf  .829    & {\bf .888 }   \\
+% math               & .506    & .457    & .587    & .506    & .457    & .587    & .506    & .457    & .587    & .506    & .457    & .587    \\
+%\hline
+%\end{tabular}
+%\caption{\label{tab:results}Quadratically-weighted kappa results for the SVR and RNN systems for each of the four input types for each of the three items. }
+%\end{table*}
+
+% \section{Discussion}
+% \label{section:discussion}
+
+% The high agreement results from both the SVR and RNN systems indicate that these kinds of items can reliably be automatically scored. Although for Items 2 and 3 the score distribution is quite skewed towards 0, we see consistently high agreement rates for our final system in {\bf Exp 3} for all three items.  
+
+% By developing a method to explicitly link aspects of the rubric to the original student response, we add a layer of explainability to our models. The presence or absence of a rubric concept in a response provides valuable information about how well a student has understood the relevant concepts, in addition to possible misconceptions. This could be converted into actionable feedback for students in the future. 
+
+Coming back to our original research questions:
+\begin{enumerate}
+
+\item {\AC{\textit{How important is textual context for responses involving mathematical expressions with respect to automated scoring?}} \\
+ Context is important for automatically scoring responses that integrate text and algebraic information. Evaluating the mathematical expressions alone does not perform well ({\bf Exp 0}). Additionally, {\bf Exp 1} has no context for the mathematical expressions, and we see lower results for the system that still includes mathematical information as independent features, but out of context ($SVR_{msw}$), compared to systems that encode the mathematical information in some way {\em in context}.
+}
+
+\item {\AC{\textit{Do character level features capture mathematical expressions?}}\\
+Character level features certainly do capture a large portion of mathematical expressions. We see that in the {\bf Exp 0} results, where there is no interpretation of the mathematical expressions, that systems perform almost as well as the systems that do explicit interpretation.
+
+}
+\item {\AC{\textit{Can explainability be included in scoring models without severely compromising accuracy?} }\\
+Yes, we can include model interpretability without compromising scoring accuracy. \AC{The differences between the best models from {\bf Exp 0} and {\bf Exp3} ranged from -0.004 to +0.041).} By explicitly linking aspects of the rubric to each response, we yield interpretable models that perform comparably to systems without this interpretative layer. Although the overall results are lower, they are not statistically significantly lower. 
+}
+
+\end{enumerate}
+
+\section{Conclusion}
+\label{conclusion}
+\AC{To summarize, this work presented a hybrid scoring model using a deterministic system for evaluating the correctness (or partial correctness) of mathematical equations, in combination with text-based automated scoring systems for evaluating the appropriateness of the textual explanation of a response. }
+
+We contribute the following:
+\begin{enumerate}
+    \item Systems that produce extremely high agreement between an automated system and human raters for the task of automatically scoring items that elicit both textual and algebraic components
+    \item A method for linking rubric information to the automated scoring system, resulting in an more interpretable model than one based purely on the raw response
+\end{enumerate}
+
+\section*{Acknowledgments}
+We would like to thank the anonymous reviewers for their valuable comments and suggestions. We would also like to thank Michael Flor, Swapna Somasundaran and Beata Beigman-Klebanov for their helpful comments.
+% The acknowledgments should go immediately before the references. Do not number the acknowledgments section.
+% Do not include this section when submitting your paper for review.
+
+\bibliography{anthology,bea_henry_mrater_2020}
+\bibliographystyle{acl_natbib}
+
+\appendix
+\section{Appendices}
+\label{sec:appendix}
+
+\begin{table*}[]
+\begin{center}
+\begin{tabular}{|l|llll|l|}
+\hline
+ & \multicolumn{1}{l|}{0\_SVR_{csw}} & \multicolumn{1}{l|}{0\_SVR_{msw}} & \multicolumn{1}{l|}{0\_WordRNN} & 3\_SVR_{csw} & 3\_WordRNN \\ \hline
+0\_LinReg_{m} & \multicolumn{1}{l|}{1 / 3} & \multicolumn{1}{l|}{2 / 3} & \multicolumn{1}{l|}{3 / 3} & 1 / 3 & 2 / 3 \\ \hline
+0\_SVR_{csw} & \multicolumn{1}{l|}{-} & \multicolumn{1}{l|}{0} & \multicolumn{1}{l|}{0} & 0 & 0 \\ \cline{1-1} \cline{3-6} 
+0\_SVR_{msw} &  & \multicolumn{1}{l|}{-} & \multicolumn{1}{l|}{0} & 0 & 0 \\ \cline{1-1} \cline{4-6} 
+0\_WordRNN &  &  & \multicolumn{1}{l|}{-} & 1 / 3 & 0 \\ \cline{1-1} \cline{5-6} 
+3\_SVR_{csw} &  &  &  & - & 0 \\ \hline
+\end{tabular}
+\caption{Pair-wise Comparisons of Models with fraction of datasets with significant difference between models}
+\label{table:significance}
+\end{center}
+\end{table*}
+
+\subsection{Scoring Rubric for Item 2}
+\label{sec:rubric}
+\begin{itemize}
+\item {1 pt. for writing the equation as $2x^2 - 40x + 195 = 0$  or $-2x^2 +40x - 195 = 0$. 
+It’s acceptable to just write the expression $2x^2 - 40x + 195 = 0$ or $-2x^2 +40x - 195 = 0$.
+It’s also acceptable to say something like “Move 195 to the other side of the equation” if they find the correct values for $a$, $b$, and $c$ (with correct signs).}
+
+\item {1 pt. for determining the values of $a$, $b$, and $c$.
+$a = 2$, $b = −40$, $c = 195$ OR $a = −2$, $b = 40$, $c = −195$
+0 pts. if they mix the values up (e.g., $a = −2$, $b = 40$, $c = 195$).
+1 pt. if they implicitly complete this step by correctly substituting the correct values for $a$, $b$, and $c$ into the quadratic formula in the next step.}
+
+\item {1 pt. for substituting the values of $a$, $b$, and $c$ into the quadratic formula and obtaining two solutions. Students do not need to simplify the answers. 
+Students can write any equivalent expressions for the two values of $x$, including $x = \frac{40 + \sqrt{40^2 - 4 * 2 * 195}}{2 * 2}$  and $x = \frac{40 - \sqrt{40^2 - 4 * 2 * 195}}{2 * 2}$  OR $x = \frac{-40 + \sqrt{40^2 - 4 * -2 * -195}}{2 * -2}$   and $x = \frac{-40 - \sqrt{40^2 - 4 * -2 * -195}}{2 * -2}$ . 
+It’s also acceptable for students to write $x = \frac{40 \pm \sqrt{40^2 - 4 * 2 * 195}}{2 * 2}$  to mean both solutions. Or students may write that the two values of x are x = 11.5811… and x = 8.4188…, correct to at least one decimal place, provided they arrive at these numbers through the quadratic formula and not by solving the equation numerically.}
+
+\item Max 2/3 for finding one correct solution.
+\item Max 2/3 for writing the two correct solutions with no explanation of where the values of $a$, $b$, and $c$ come from.
+\item 1/3 if the student provides an outline of the solution without actually carrying out any of the steps.
+\end{itemize}
+
+\subsection{Additional information for training the RNN model}
+The text is preprocessed with the spaCy tokenizer with some minor postprocessing to correct tokenization mistakes on noisy data. On conversion to tensors, responses are padded to the same length in a batch; these padding tokens are masked out during model training. Prior to training, responses are scaled to [0, 1] to form the input to the networks. The scaled scores are converted back to their original range for evaluation. Word tokens are embedded with GloVe 100 dimension vectors and fine-tuned during training. Word tokens not in the embeddings vocabulary are each assigned a unique randomly initialized vector. The GRUs were 1 layer with a hidden state of size 250. The network was trained with mean squared error loss. We optimized the network with RMSProp with hyperparameters set as follows: learning rate of 0.001, batch size of 32, and gradient clipping set to 10.0. An exponential moving average of the model's weights is used during training \cite{adhikari_rethinking_2019}. 
+% \section{Supplemental Material}
+% \label{sec:supplemental}
+
+
+\subsection{Additional details on significance testing of results}
+\label{subsection:significance}
+
+Although nested cross-validation gives a fairly unbiased estimate of true error as shown by \newcite{varma2006bias}, we performed statistical significance testing to pair-wise compare 4 models for \textbf{Exp 0: no expression replacement} and 2 models for \textbf{Exp 3: expressions replaced with incorrect/correct along with concept numbers}. 
+
+Friedman's test as suggested by \newcite{demvsar2006statistical} is run to compare 6 models (corresponding to treatments) across multiple repeated measures (10 folds) for each item individually. Note that such a setup of comparing multiple models across 10 folds on a dataset has to be regarded as non-independent data as even though the test folds will be distinct, the training data for each fold may partially overlap. Hence Friedman's test is appropriate here to test whether any pair of models are statistically different.
+
+Following Friedman's test, we do pair-wise post-hoc testing through Nemenyi's test \cite{nemenyi1963distribution}. Note that this testing is per-item and we report the fraction of times the differences were significant in table \ref{table:significance}.
+
+
+
+\end{document}
+
+
+
+

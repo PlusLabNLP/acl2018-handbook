@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Learning Probabilistic Sentence Representations from Paraphrases
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Mingda Chen
+JobTitle#==#
+Organization#==#Toyota Technological Institute at Chicago, Chicago, IL, 60637, USA
+Abstract#==#Probabilistic word embeddings have shown effectiveness in capturing notions of generality and entailment, but there is very little work on doing the analogous type of investigation for sentences. In this paper we define probabilistic models that produce distributions for sentences. Our best-performing model treats each word as a linear transformation operator applied to a multivariate Gaussian distribution. We train our models on paraphrases and demonstrate that they naturally capture sentence specificity. While our proposed model achieves the best performance overall, we also show that specificity is represented by simpler architectures via the norm of the sentence vectors. Qualitative analysis shows that our probabilistic model captures sentential entailment and provides ways to analyze the specificity and preciseness of individual words.
+Author{1}{Firstname}#=%=#Mingda
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#mingdachen
+Author{1}{Email}#=%=#mchen@ttic.edu
+Author{1}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Gimpel
+Author{2}{Username}#=%=#kgimpel
+Author{2}{Email}#=%=#kgimpel@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+
+==========

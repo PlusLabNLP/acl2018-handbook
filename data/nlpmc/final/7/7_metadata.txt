@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Studying Challenges in Medical Conversation with Structured Annotation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Fei Xia
+JobTitle#==#
+Organization#==#University of Washington, Seattle, WA, USA
+Abstract#==#Medical conversation is a central part of medical care. Yet, the current state and quality of medical conversation is far from perfect. Therefore, a substantial amount of research has been done to obtain a better understanding of medical conversation and to address its practical challenges and dilemmas. In line with this stream of research, we have developed a multi-layer structure annotation scheme to analyze medical conversation, and are using the scheme to construct a corpus of naturally occurring medical conversation in Chinese pediatric primary care setting. Some of the preliminary findings are reported regarding 1) how a medical conversation starts,  2) where communication problems tend to occur, and  3) how physicians close a conversation. Challenges and opportunities for research on medical conversation with NLP techniques will be discussed.
+Author{1}{Firstname}#=%=#Nan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#nwang3
+Author{1}{Email}#=%=#nwang3@ucla.edu
+Author{1}{Affiliation}#=%=#Hunan University
+Author{2}{Firstname}#=%=#Yan
+Author{2}{Lastname}#=%=#Song
+Author{2}{Username}#=%=#mattsure
+Author{2}{Email}#=%=#mattsure@gmail.com
+Author{2}{Affiliation}#=%=#Sinovation Ventures
+Author{3}{Firstname}#=%=#Fei
+Author{3}{Lastname}#=%=#Xia
+Author{3}{Username}#=%=#fxia
+Author{3}{Email}#=%=#fxia@u.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

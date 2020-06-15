@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#LIT Team's System Description for Japanese-Chinese Machine Translation Task in IWSLT 2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yimeng Zhuang
+JobTitle#==#
+Organization#==#Samsung Research China - Beijing
+Abstract#==#This paper describes the LIT Team's submission to the IWSLT2020 open domain translation task, focusing primarily on Japanese-to-Chinese translation direction. Our system is based on the organizers' baseline system, but we do more works on improving the Transform baseline system by elaborate data pre-processing. We manage to obtain significant improvements, and this paper aims to share some data processing experiences in this translation task. Large-scale back-translation on monolingual corpus is also investigated. In addition, we also try shared and exclusive word embeddings, compare different granularity of tokens like sub-word level.  Our Japanese-to-Chinese translation system achieves a performance of BLEU=34.0 and ranks 2nd among all participating systems.
+Author{1}{Firstname}#=%=#Yimeng
+Author{1}{Lastname}#=%=#Zhuang
+Author{1}{Username}#=%=#yimmon
+Author{1}{Email}#=%=#yimmon.zhuang@gmail.com
+Author{1}{Affiliation}#=%=#Samsung Research China - Beijing (SRC-B)
+Author{2}{Firstname}#=%=#Yuan
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yuan.zhang@samsung.com
+Author{2}{Affiliation}#=%=#Samsung Research China - Beijing (SRC-B)
+Author{3}{Firstname}#=%=#Lijie
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#lijie.wang@samsung.com
+Author{3}{Affiliation}#=%=#Samsung Research China - Beijing (SRC-B)
+
+==========

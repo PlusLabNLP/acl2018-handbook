@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#1077
+FinalPaperTitle#=%=#Information-Theoretic Probing for Linguistic Structure
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Tiago Pimentel
+JobTitle#==#
+Organization#==#University of Cambridge, United Kingdom
+Abstract#==#The success of neural networks on a diverse set of NLP tasks has led researchers to question how much these networks actually ``know'' about natural language.
+Probes are a natural way of assessing this.
+When probing, a researcher chooses a linguistic task and trains a supervised model to predict annotations in that linguistic task from the network's learned representations.
+If the probe does well, the researcher may conclude that the representations encode knowledge related to the task. 
+A commonly held belief is that using simpler models as probes is better; the logic is that simpler models will identify linguistic structure, but not learn the task itself.
+We propose an information-theoretic operationalization of probing as estimating mutual information that contradicts this received wisdom: one should always select the highest performing probe one can, even if it is more complex, since it will result in a tighter estimate, and thus reveal more of the linguistic information inherent in the representation.
+The experimental portion of our paper focuses on empirically estimating the mutual information between a linguistic property and BERT, comparing these estimates to several baselines. We evaluate on a set of ten typologically diverse languages often underrepresented in NLP research---plus English---totalling eleven languages.
+Our implementation is available in https://github.com/rycolab/info-theoretic-probing.
+Author{1}{Firstname}#=%=#Tiago
+Author{1}{Lastname}#=%=#Pimentel
+Author{1}{Username}#=%=#tpimentel
+Author{1}{Email}#=%=#tpimentelms@gmail.com
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Josef
+Author{2}{Lastname}#=%=#Valvoda
+Author{2}{Username}#=%=#josefvalvoda
+Author{2}{Email}#=%=#jv406@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Rowan
+Author{3}{Lastname}#=%=#Hall Maudslay
+Author{3}{Username}#=%=#rowanhm
+Author{3}{Email}#=%=#rh635@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Ran
+Author{4}{Lastname}#=%=#Zmigrod
+Author{4}{Username}#=%=#rzmigrod
+Author{4}{Email}#=%=#rz279@cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+Author{5}{Firstname}#=%=#Adina
+Author{5}{Lastname}#=%=#Williams
+Author{5}{Username}#=%=#adinawilliams
+Author{5}{Email}#=%=#adinawilliams@nyu.edu
+Author{5}{Affiliation}#=%=#Facebook, Inc.
+Author{6}{Firstname}#=%=#Ryan
+Author{6}{Lastname}#=%=#Cotterell
+Author{6}{Username}#=%=#rcotterell
+Author{6}{Email}#=%=#ryan.cotterell@gmail.com
+Author{6}{Affiliation}#=%=#ETH Zürich
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2374
+FinalPaperTitle#=%=#Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Luyang Huang
+JobTitle#==#
+Organization#==#Northeastern University
+Abstract#==#Sequence-to-sequence models for abstractive summarization have been studied extensively, yet the generated summaries commonly suffer from fabricated content, and are often found to be near-extractive.
+We argue that, to address these issues, the summarizer should acquire semantic interpretation over input, e.g., via structured representation, to allow the generation of more informative summaries. 
+In this paper, we present ASGARD, a novel framework for Abstractive Summarization with Graph-Augmentation and semantic-driven RewarD. 
+We propose the use of dual encoders---a sequential document encoder and a graph-structured encoder---to maintain the global context and local characteristics of entities, complementing each other. 
+We further design a reward based on a multiple choice cloze test to drive the model to better capture entity interactions. 
+Results show that our models produce significantly higher ROUGE scores than a variant without knowledge graph as input on both New York Times and CNN/Daily Mail datasets. We also obtain better or comparable performance compared to systems that are fine-tuned from large pretrained language models. Human judges further rate our model outputs as more informative and containing fewer unfaithful errors.
+Author{1}{Firstname}#=%=#Luyang
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Username}#=%=#lyhuang
+Author{1}{Email}#=%=#luyang.huang96@gmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Lingfei
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Username}#=%=#teddylfwu
+Author{2}{Email}#=%=#lwu@email.wm.edu
+Author{2}{Affiliation}#=%=#IBM Research AI
+Author{3}{Firstname}#=%=#Lu
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#kellywanglu
+Author{3}{Email}#=%=#luwang@ccs.neu.edu
+Author{3}{Affiliation}#=%=#Northeastern University
+
+==========

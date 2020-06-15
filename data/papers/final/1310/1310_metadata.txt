@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1310
+FinalPaperTitle#=%=#Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yiping Song
+JobTitle#==#
+Organization#==#Peking University
+Abstract#==#Training the generative models with minimal corpus is one of the critical challenges for building open-domain dialogue systems. Existing methods tend to use the meta-learning framework which pre-trains the parameters on all non-target tasks then fine-tunes on the target task. However, fine-tuning distinguishes tasks from the parameter perspective but ignores the model-structure perspective, resulting in similar dialogue models for different tasks. In this paper, we propose an algorithm that can customize a unique dialogue model for each task in the few-shot setting. In our approach, each dialogue model consists of a shared module, a gating module, and a private module. The first two modules are shared among all the tasks, while the third one will differentiate into different network structures to better capture the characteristics of the corresponding task. The extensive experiments on two datasets show that our method outperforms all the baselines in terms of task consistency, response quality, and diversity.
+Author{1}{Firstname}#=%=#YIPING
+Author{1}{Lastname}#=%=#SONG
+Author{1}{Username}#=%=#stellasyp
+Author{1}{Email}#=%=#songyiping@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Zequn
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#dlib2019
+Author{2}{Email}#=%=#tslzq1997@pku.edu.cn
+Author{2}{Affiliation}#=%=#School of EECS, Peking University
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Bi
+Author{3}{Username}#=%=#weibi
+Author{3}{Email}#=%=#victoriabi@tencent.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+Author{4}{Firstname}#=%=#Rui
+Author{4}{Lastname}#=%=#Yan
+Author{4}{Username}#=%=#leamofy
+Author{4}{Email}#=%=#rui.yan.pku@gmail.com
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Username}#=%=#mzhang_eecs
+Author{5}{Email}#=%=#mzhang@net.pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+
+==========

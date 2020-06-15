@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#3097
+FinalPaperTitle#=%=#Unsupervised Dual Paraphrasing for Two-stage Semantic Parsing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Ruisheng Cao
+JobTitle#==#
+Organization#==#Shanghai Jiao Tong University, SEIEE 3-502, 800 Dongchuan Road, Minhang District, Shanghai, China
+Abstract#==#One daunting problem for semantic parsing is the scarcity of annotation. Aiming to reduce nontrivial human labor, we propose a two-stage semantic parsing framework, where the first stage utilizes an unsupervised paraphrase model to convert an unlabeled natural language utterance into the canonical utterance. The downstream naive semantic parser accepts the intermediate output and returns the target logical form. Furthermore, the entire training process is split into two phases: pre-training and cycle learning. Three tailored self-supervised tasks are introduced throughout training to activate the unsupervised paraphrase model. Experimental results on benchmarks Overnight and GeoGranno demonstrate that our framework is effective and compatible with supervised training.
+Author{1}{Firstname}#=%=#Ruisheng
+Author{1}{Lastname}#=%=#Cao
+Author{1}{Username}#=%=#rshcao
+Author{1}{Email}#=%=#ruishengcao@gmail.com
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Su
+Author{2}{Lastname}#=%=#Zhu
+Author{2}{Username}#=%=#paul2204
+Author{2}{Email}#=%=#zhusu.china@gmail.com
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Chenyu
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Username}#=%=#chenyuyang
+Author{3}{Email}#=%=#yangcy@sjtu.edu.cn
+Author{3}{Affiliation}#=%=#sjtu.edu.cn
+Author{4}{Firstname}#=%=#Chen
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#chen.liu
+Author{4}{Email}#=%=#chris-chen@sjtu.edu.cn
+Author{4}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{5}{Firstname}#=%=#Rao
+Author{5}{Lastname}#=%=#Ma
+Author{5}{Username}#=%=#marao
+Author{5}{Email}#=%=#rm1031@sjtu.edu.cn
+Author{5}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{6}{Firstname}#=%=#Yanbin
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Username}#=%=#ybz79
+Author{6}{Email}#=%=#zhaoyb@sjtu.edu.cn
+Author{6}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{7}{Firstname}#=%=#Lu
+Author{7}{Lastname}#=%=#Chen
+Author{7}{Username}#=%=#lc918
+Author{7}{Email}#=%=#chenlusz@sjtu.edu.cn
+Author{7}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{8}{Firstname}#=%=#Kai
+Author{8}{Lastname}#=%=#Yu
+Author{8}{Username}#=%=#ky219
+Author{8}{Email}#=%=#kai.yu@sjtu.edu.cn
+Author{8}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

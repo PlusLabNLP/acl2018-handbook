@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Enhancing Bias Detection in Political News Using Pragmatic Presupposition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lalitha Kameswari
+JobTitle#==#
+Organization#==#IIIT Hyderabad, Telangana, India
+Abstract#==#Usage of presuppositions in social media and news discourse can be a powerful way to influence the readers as they usually tend to not examine the truth value of the hidden or indirectly expressed information. Fairclough and Wodak (1997) discuss presupposition at a discourse level where some implicit claims are taken for granted in the explicit meaning of a text or utterance. From the Gricean perspective, the presuppositions of a sentence determine the class of contexts in which the sentence could be felicitously uttered.  This paper aims to correlate the type of knowledge presupposed in a news article to the bias present in it. We propose a set of guidelines to identify various kinds of presuppositions in news articles and present a dataset consisting of 1050 articles which are annotated for bias (positive, negative or neutral) and the magnitude of presupposition. We introduce a supervised classification approach for detecting bias in political news which significantly outperforms the existing systems.
+Author{1}{Firstname}#=%=#Lalitha
+Author{1}{Lastname}#=%=#Kameswari
+Author{1}{Username}#=%=#valalithak
+Author{1}{Email}#=%=#v.a.lalitha@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{2}{Firstname}#=%=#Dama
+Author{2}{Lastname}#=%=#Sravani
+Author{2}{Email}#=%=#dama.sravani@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{3}{Firstname}#=%=#Radhika
+Author{3}{Lastname}#=%=#Mamidi
+Author{3}{Username}#=%=#radhika
+Author{3}{Email}#=%=#radhika.mamidi@iiit.ac.in
+Author{3}{Affiliation}#=%=#IIIT Hyderabad
+
+==========

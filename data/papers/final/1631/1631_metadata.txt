@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1631
+FinalPaperTitle#=%=#Exploiting Syntactic Structure for Better Language Modeling: A Syntactic Distance Approach
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#18
+CopyrightSigned#=%=#Wenyu Du
+JobTitle#==#
+Organization#==#Westlake University; 18 Shilongshan Road, Cloud Town, Xihu District, Hangzhou, P.R. China
+Abstract#==#It is commonly believed that knowledge of syntactic structure should improve language modeling. However, effectively and computationally efficiently incorporating syntactic structure into neural language models has been a challenging topic. In this paper, we make use of a multi-task objective, i.e., the models simultaneously predict words as well as ground truth parse trees in a form called “syntactic distances”, where information between these two separate objectives shares the same intermediate representation. Experimental results on the Penn Treebank and Chinese Treebank datasets show that when ground truth parse trees are provided as additional training signals, the model is able to achieve lower perplexity and induce trees with better quality.
+Author{1}{Firstname}#=%=#Wenyu
+Author{1}{Lastname}#=%=#Du
+Author{1}{Username}#=%=#wenyudu
+Author{1}{Email}#=%=#wenyudu@yahoo.com
+Author{1}{Affiliation}#=%=#Westlake University
+Author{2}{Firstname}#=%=#Zhouhan
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Username}#=%=#hantek
+Author{2}{Email}#=%=#lin.zhouhan@gmail.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#Yikang
+Author{3}{Lastname}#=%=#Shen
+Author{3}{Username}#=%=#hmwv1114
+Author{3}{Email}#=%=#yikang.shn@gmail.com
+Author{3}{Affiliation}#=%=#University of Montreal
+Author{4}{Firstname}#=%=#Timothy J.
+Author{4}{Lastname}#=%=#O'Donnell
+Author{4}{Username}#=%=#timod
+Author{4}{Email}#=%=#timothy.odonnell@mcgill.ca
+Author{4}{Affiliation}#=%=#McGill University
+Author{5}{Firstname}#=%=#Yoshua
+Author{5}{Lastname}#=%=#Bengio
+Author{5}{Username}#=%=#yoshua
+Author{5}{Email}#=%=#yoshua.bengio@mila.quebec
+Author{5}{Affiliation}#=%=#U. Montreal
+Author{6}{Firstname}#=%=#Yue
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Username}#=%=#frcchang
+Author{6}{Email}#=%=#yue.zhang@wias.org.cn
+Author{6}{Affiliation}#=%=#Westlake University
+
+==========

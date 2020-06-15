@@ -1,0 +1,29 @@
+* Friday, July 10, 2020
+
+! 8:50--9:00 Opening Remarks
+
+= 9:00--11:00 Session 1 
+! 9:00--9:30  Invited Talk 1: Colin Cherry
+! 9:30--10:00  Invited Talk 2: Barry Slaughter Olsen
+! 10:00--10:30  Invited Talk 3: Jordan Boyd-Graber
+! 10:30--11:00  Q\&A
+
+= 11:00--14:00  Lunch
+
+= 17:00--19:00 Session 2 
+! 17:00--17:30  Invited Talk 4: Hua Wu
+! 17:30--18:00  Invited Talk 5: Kay-Fan Cheung
+! 18:00--18:30  Invited Talk 6: Qun Liu
+! 18:30--19:00  Q\&A
+
+= 19:00--19:30 Break
+
+= 19:30--21:00 Session 3: Research Paper and System Description
+6 19:30--19:40 # Dynamic Sentence Boundary Detection for Simultaneous Translation
+4 19:40--19:50 # Robust Neural Machine Translation with ASR Errors
+2 19:50--20:00 # Improving Autoregressive NMT with Non-Autoregressive Model
+9 20:00--20:10 # Modeling Discourse Structure for Document-level Neural Machine Translation
+5 20:10--20:20 # Anonymous's system for the AutoSimTrans 2020
+! 20:20--20:50  Q\&A
+
+! 20:50--21:00  Closing Remarks

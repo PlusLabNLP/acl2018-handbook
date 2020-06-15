@@ -1,0 +1,83 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Generating Medical Reports from Patient-Doctor Conversations Using Sequence-to-Sequence Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Seppo Enarvi
+JobTitle#==#Research Scientist
+Organization#==#Nuance Communications, 1 Wayside Road, Burlington, MA 01803
+Abstract#==#We discuss automatic creation of medical reports from ASR-generated patient-doctor conversational transcripts using an end-to-end neural summarization approach. We explore both recurrent neural network (RNN) and Transformer-based sequence-to-sequence architectures for summarizing medical conversations. We have incorporated enhancements to these architectures, such as the pointer-generator network that facilitates copying parts of the conversations to the reports, and a hierarchical RNN encoder that makes RNN training three times faster with long inputs. A comparison of the relative improvements from the different model architectures over an oracle extractive baseline is provided on a dataset of 800k orthopedic encounters. Consistent with observations in literature for machine translation and related tasks, we find the Transformer models outperform RNN in accuracy, while taking less than half the time to train. Significantly large wins over a strong oracle baseline indicate that sequence-to-sequence modeling is a promising approach for automatic generation of medical reports, in the presence of data at scale.
+Author{1}{Firstname}#=%=#Seppo
+Author{1}{Lastname}#=%=#Enarvi
+Author{1}{Username}#=%=#senarvi
+Author{1}{Email}#=%=#Seppo.Enarvi@nuance.com
+Author{1}{Affiliation}#=%=#Nuance Communications
+Author{2}{Firstname}#=%=#Marilisa
+Author{2}{Lastname}#=%=#Amoia
+Author{2}{Email}#=%=#Marilisa.Amoia@nuance.com
+Author{2}{Affiliation}#=%=#Nuance Communications
+Author{3}{Firstname}#=%=#Miguel
+Author{3}{Lastname}#=%=#Del-Agua Teba
+Author{3}{Email}#=%=#Miguel.DelAgua@nuance.com
+Author{3}{Affiliation}#=%=#Nuance Communications
+Author{4}{Firstname}#=%=#Brian
+Author{4}{Lastname}#=%=#Delaney
+Author{4}{Email}#=%=#Brian.Delaney@nuance.com
+Author{4}{Affiliation}#=%=#Nuance Communications
+Author{5}{Firstname}#=%=#Frank
+Author{5}{Lastname}#=%=#Diehl
+Author{5}{Email}#=%=#Frank.Diehl@nuance.com
+Author{5}{Affiliation}#=%=#Nuance Communications
+Author{6}{Firstname}#=%=#Stefan
+Author{6}{Lastname}#=%=#Hahn
+Author{6}{Email}#=%=#Stefan.Hahn@nuance.com
+Author{6}{Affiliation}#=%=#Nuance Communications
+Author{7}{Firstname}#=%=#Kristina
+Author{7}{Lastname}#=%=#Harris
+Author{7}{Email}#=%=#Kristina.Harris@nuance.com
+Author{7}{Affiliation}#=%=#Nuance Communications
+Author{8}{Firstname}#=%=#Liam
+Author{8}{Lastname}#=%=#McGrath
+Author{8}{Email}#=%=#Liam.McGrath@nuance.com
+Author{8}{Affiliation}#=%=#Nuance Communications
+Author{9}{Firstname}#=%=#Yue
+Author{9}{Lastname}#=%=#Pan
+Author{9}{Email}#=%=#yue.pan@nuance.com
+Author{9}{Affiliation}#=%=#Nuance Communications
+Author{10}{Firstname}#=%=#Joel
+Author{10}{Lastname}#=%=#Pinto
+Author{10}{Email}#=%=#Joel.Pinto@nuance.com
+Author{10}{Affiliation}#=%=#Nuance Communications
+Author{11}{Firstname}#=%=#Luca
+Author{11}{Lastname}#=%=#Rubini
+Author{11}{Email}#=%=#Luca.Rubini@nuance.com
+Author{11}{Affiliation}#=%=#Nuance Communications
+Author{12}{Firstname}#=%=#Miguel
+Author{12}{Lastname}#=%=#Ruiz
+Author{12}{Email}#=%=#Miguel.Ruiz@nuance.com
+Author{12}{Affiliation}#=%=#Nuance Communications
+Author{13}{Firstname}#=%=#Gagandeep
+Author{13}{Lastname}#=%=#Singh
+Author{13}{Email}#=%=#Gagandeep.Singh1@nuance.com
+Author{13}{Affiliation}#=%=#Nuance Communications
+Author{14}{Firstname}#=%=#Fabian
+Author{14}{Lastname}#=%=#Stemmer
+Author{14}{Email}#=%=#Fabian.Stemmer@nuance.com
+Author{14}{Affiliation}#=%=#Nuance Communications
+Author{15}{Firstname}#=%=#Weiyi
+Author{15}{Lastname}#=%=#Sun
+Author{15}{Email}#=%=#Weiyi.Sun@nuance.com
+Author{15}{Affiliation}#=%=#Nuance Communications
+Author{16}{Firstname}#=%=#Paul
+Author{16}{Lastname}#=%=#Vozila
+Author{16}{Email}#=%=#Paul.Vozila@nuance.com
+Author{16}{Affiliation}#=%=#Nuance Communications
+Author{17}{Firstname}#=%=#Thomas
+Author{17}{Lastname}#=%=#Lin
+Author{17}{Email}#=%=#tlin@microsoft.com
+Author{17}{Affiliation}#=%=#Microsoft
+Author{18}{Firstname}#=%=#Ranjani
+Author{18}{Lastname}#=%=#Ramamurthy
+Author{18}{Email}#=%=#ranjanir@microsoft.com
+Author{18}{Affiliation}#=%=#Microsoft
+
+==========

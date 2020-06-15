@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Distill, Adapt, Distill: Training Small, In-Domain Models for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Mitchell Gordon
+JobTitle#==#
+Organization#==#Johns Hopkins University, Baltimore, MD 21218
+Abstract#==#We explore best practices for training small, memory efficient machine translation models with sequence-level knowledge distillation in the domain adaptation setting. While both domain adaptation and knowledge distillation are widely-used, their interaction remains little understood. Our large-scale empirical results in machine translation (on three language pairs with three domains each) suggest distilling twice for best performance: once using general-domain data and again using in-domain data with an adapted teacher.
+Author{1}{Firstname}#=%=#Mitchell
+Author{1}{Lastname}#=%=#Gordon
+Author{1}{Username}#=%=#mitchell.a.gordon
+Author{1}{Email}#=%=#mitchg@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Duh
+Author{2}{Username}#=%=#kevinduh
+Author{2}{Email}#=%=#kevinduh@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#206
+FinalPaperTitle#=%=#Simultaneous Translation and Paraphrase for Language Education
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Stephen Mayhew
+JobTitle#==#
+Organization#==#Duolingo, 5900 Penn Avenue, Pittsburgh, PA
+Abstract#==#We present the task of Simultaneous Translation and Paraphrasing for Language Education (STAPLE). Given a prompt in one language, the goal is to generate a diverse set of correct translations that language learners are likely to produce. This is motivated by the need to create and maintain large, high-quality sets of acceptable translations for exercises in a language-learning application, and synthesizes work spanning machine translation, MT evaluation, automatic paraphrasing, and language education technology.
+
+We developed a novel corpus with unique properties for five languages (Hungarian, Japanese, Korean, Portuguese, and Vietnamese), and report on the results of a shared task challenge which attracted 20 teams to solve the task.
+In our meta-analysis, we focus on three aspects of the resulting systems: external training corpus selection, model architecture and training decisions, and decoding and filtering strategies. We find that strong systems start with a large amount of generic training data, and then fine-tune with in-domain data, sampled according to our provided learner response frequencies.
+Author{1}{Firstname}#=%=#Stephen
+Author{1}{Lastname}#=%=#Mayhew
+Author{1}{Username}#=%=#mayhewsw
+Author{1}{Email}#=%=#swm.mayhew@gmail.com
+Author{1}{Affiliation}#=%=#Duolingo
+Author{2}{Firstname}#=%=#Klinton
+Author{2}{Lastname}#=%=#Bicknell
+Author{2}{Username}#=%=#kbicknell
+Author{2}{Email}#=%=#klinton@duolingo.com
+Author{2}{Affiliation}#=%=#Duolingo / Northwestern University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Brust
+Author{3}{Username}#=%=#cbrust
+Author{3}{Email}#=%=#chrisb@duolingo.com
+Author{3}{Affiliation}#=%=#Duolingo
+Author{4}{Firstname}#=%=#Bill
+Author{4}{Lastname}#=%=#McDowell
+Author{4}{Username}#=%=#wmcdowel
+Author{4}{Email}#=%=#mcdowell@duolingo.com
+Author{4}{Affiliation}#=%=#Duolingo
+Author{5}{Firstname}#=%=#Will
+Author{5}{Lastname}#=%=#Monroe
+Author{5}{Username}#=%=#wmonroe4
+Author{5}{Email}#=%=#wmonroe4@cs.stanford.edu
+Author{5}{Affiliation}#=%=#Duolingo
+Author{6}{Firstname}#=%=#Burr
+Author{6}{Lastname}#=%=#Settles
+Author{6}{Username}#=%=#bsettles
+Author{6}{Email}#=%=#burrsettles@gmail.com
+Author{6}{Affiliation}#=%=#Duolingo, Inc.
+
+==========

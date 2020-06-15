@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1317
+FinalPaperTitle#=%=#Video-Grounded Dialogues with Pretrained Generation Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Le Hung
+JobTitle#==#
+Organization#==#Singapore Management University, 81 Victoria St, Singapore 188065
+Abstract#==#Pre-trained language models have shown remarkable success in improving various downstream NLP tasks due to their ability to capture dependencies in textual data and generate natural responses. In this paper, we leverage the power of pre-trained language models for improving video-grounded dialogue, which is very challenging and involves complex features of different dynamics: (1) Video features which can extend across both spatial and temporal dimensions; and (2) Dialogue features which involve semantic dependencies over multiple dialogue turns. We propose a framework by extending GPT-2 models to tackle these challenges by formulating video-grounded dialogue tasks as a sequence-to-sequence task, combining both visual and textual representation into a structured sequence, and fine-tuning a large pre-trained GPT-2 network. Our framework allows fine-tuning language models to capture dependencies across multiple modalities over different levels of information: spatio-temporal level in video and token-sentence level in dialogue context. We achieve promising improvement on the Audio-Visual Scene-Aware Dialogues (AVSD) benchmark from DSTC7, which supports a potential direction in this line of research.
+Author{1}{Firstname}#=%=#Hung
+Author{1}{Lastname}#=%=#Le
+Author{1}{Username}#=%=#hungle.2018
+Author{1}{Email}#=%=#hungle.2018@phdcs.smu.edu.sg
+Author{1}{Affiliation}#=%=#Singapore Management University
+Author{2}{Firstname}#=%=#Steven C.H.
+Author{2}{Lastname}#=%=#Hoi
+Author{2}{Username}#=%=#stevenhoi
+Author{2}{Email}#=%=#shoi@salesforce.com
+Author{2}{Affiliation}#=%=#Salesforce
+
+==========

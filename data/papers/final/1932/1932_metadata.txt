@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1932
+FinalPaperTitle#=%=#Classification-Based Self-Learning for Weakly Supervised Bilingual Lexicon Induction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mladen Karan
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing, University of Zagreb
+Abstract#==#Effective projection-based cross-lingual word embedding (CLWE) induction critically relies on the iterative self-learning procedure. It gradually expands the initial small seed dictionary to learn improved cross-lingual mappings. In this work, we present ClassyMap, a classification-based approach to self-learning, yielding a more robust and a more effective induction of projection-based CLWEs. Unlike prior self-learning methods, our approach allows for integration of diverse features into the iterative process. We show the benefits of ClassyMap for bilingual lexicon induction: we report consistent improvements in a weakly supervised setup (500 seed translation pairs) on a benchmark with 28 language pairs.
+Author{1}{Firstname}#=%=#Mladen
+Author{1}{Lastname}#=%=#Karan
+Author{1}{Username}#=%=#mkaran
+Author{1}{Email}#=%=#mladen.karan@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Zagreb, Croatia
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Vulić
+Author{2}{Username}#=%=#ivulic
+Author{2}{Email}#=%=#iv250@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Korhonen
+Author{3}{Username}#=%=#anna.korhonen
+Author{3}{Email}#=%=#alk23@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Goran
+Author{4}{Lastname}#=%=#Glavaš
+Author{4}{Username}#=%=#gg42554
+Author{4}{Email}#=%=#goran@informatik.uni-mannheim.de
+Author{4}{Affiliation}#=%=#University of Mannheim
+
+==========

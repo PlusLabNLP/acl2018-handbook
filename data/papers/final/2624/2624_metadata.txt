@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2624
+FinalPaperTitle#=%=#Towards Conversational Recommendation over Multi-Type Dialogs
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Zeming Liu
+JobTitle#==#
+Organization#==#Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, Harbin, China
+Abstract#==#We focus on the study of conversational recommendation in the context of multi-type dialogs, where the bots can proactively and naturally lead a conversation from a non-recommendation dialog (e.g., QA) to a recommendation dialog, taking into account user's interests and feedback. To facilitate the study of this task, we create a human-to-human Chinese dialog dataset DuRecDial (about 10k dialogs, 156k utterances), where there are multiple sequential dialogs for a pair of a recommendation seeker (user) and a recommender (bot). In each dialog, the recommender proactively leads a multi-type dialog to approach recommendation targets and then makes multiple recommendations with rich interaction behavior. This dataset allows us to systematically investigate different parts of the overall problem, e.g., how to naturally lead a dialog, how to interact with users for recommendation. Finally we establish baseline results on DuRecDial for future studies.
+Author{1}{Firstname}#=%=#Zeming
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Username}#=%=#cstghitpku
+Author{1}{Email}#=%=#cstghitpku@yeah.net
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Haifeng
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#wanghaifeng
+Author{2}{Email}#=%=#wanghaifeng@baidu.com
+Author{2}{Affiliation}#=%=#Baidu
+Author{3}{Firstname}#=%=#Zheng-Yu
+Author{3}{Lastname}#=%=#Niu
+Author{3}{Username}#=%=#niuzhengyu
+Author{3}{Email}#=%=#niuzhengyu@baidu.com
+Author{3}{Affiliation}#=%=#Baidu Inc.
+Author{4}{Firstname}#=%=#Hua
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Username}#=%=#wu_hua
+Author{4}{Email}#=%=#wu_hua@baidu.com
+Author{4}{Affiliation}#=%=#Baidu
+Author{5}{Firstname}#=%=#Wanxiang
+Author{5}{Lastname}#=%=#Che
+Author{5}{Username}#=%=#wanxiang
+Author{5}{Email}#=%=#wanxiang@gmail.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Ting
+Author{6}{Lastname}#=%=#Liu
+Author{6}{Username}#=%=#tliu72
+Author{6}{Email}#=%=#tliu72@qq.com
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#288
+FinalPaperTitle#=%=#Multimodal and Multiresolution Speech Recognition with Transformers
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Georgios Paraskevopoulos
+JobTitle#==#
+Organization#==#National Technical University of Athens
+Abstract#==#This paper presents an audio visual automatic speech recognition (AV-ASR) system using a Transformer-based architecture. We particularly focus on the scene context provided by the visual information, to ground the ASR. We extract representations for audio features in the encoder layers of the transformer and fuse video features using an additional crossmodal multihead attention layer. Additionally, we incorporate a multitask training criterion for multiresolution ASR, where we train the model to generate both character and subword level transcriptions. 
+  Experimental results on the How2 dataset, indicate that multiresolution training can speed up convergence by around 50\% and relatively improves  word error rate (WER) performance by upto 18% over subword prediction models. Further, incorporating visual information improves performance with relative gains upto 3.76% over audio only models.
+  Our results are comparable to state-of-the-art Listen, Attend and Spell-based architectures.
+Author{1}{Firstname}#=%=#Georgios
+Author{1}{Lastname}#=%=#Paraskevopoulos
+Author{1}{Username}#=%=#geopar
+Author{1}{Email}#=%=#geopar@central.ntua.gr
+Author{1}{Affiliation}#=%=#National Technical University of Athens
+Author{2}{Firstname}#=%=#Srinivas
+Author{2}{Lastname}#=%=#Parthasarathy
+Author{2}{Username}#=%=#srinip23
+Author{2}{Email}#=%=#parsrini@amazon.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Aparna
+Author{3}{Lastname}#=%=#Khare
+Author{3}{Username}#=%=#apkhare
+Author{3}{Email}#=%=#apkhare@amazon.com
+Author{3}{Affiliation}#=%=#Amazon.com
+Author{4}{Firstname}#=%=#Shiva
+Author{4}{Lastname}#=%=#Sundaram
+Author{4}{Username}#=%=#abstractshiva
+Author{4}{Email}#=%=#shiva.sundaram@ieee.org
+Author{4}{Affiliation}#=%=#Amazon
+
+==========

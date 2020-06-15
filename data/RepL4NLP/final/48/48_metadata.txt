@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#A Cross-Task Analysis of Text Span Representations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shubham Toshniwal
+JobTitle#==#
+Organization#==#TTI Chicago; 6045 S Kenwood Ave, Chicago, IL, US - 60637
+Abstract#==#Many natural language processing (NLP) tasks involve reasoning with textual spans, including question answering, entity recognition, and coreference resolution. While extensive research has focused on functional architectures for representing words and sentences, there is less work on representing arbitrary spans of text within sentences. In this paper, we conduct a comprehensive empirical evaluation of six span representation methods using eight pretrained language representation models across six tasks, including two tasks that we introduce. We find that, although some simple span representations are fairly reliable across tasks, in general the optimal span representation varies by task, and can also vary within different facets of individual tasks. We also find that the choice of span representation has a bigger impact with a fixed pretrained encoder than with a fine-tuned encoder.
+Author{1}{Firstname}#=%=#Shubham
+Author{1}{Lastname}#=%=#Toshniwal
+Author{1}{Username}#=%=#shtoshni
+Author{1}{Email}#=%=#shtoshni@ttic.edu
+Author{1}{Affiliation}#=%=#TTI Chicago
+Author{2}{Firstname}#=%=#Haoyue
+Author{2}{Lastname}#=%=#Shi
+Author{2}{Username}#=%=#explorerfreda
+Author{2}{Email}#=%=#freda@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Bowen
+Author{3}{Lastname}#=%=#Shi
+Author{3}{Username}#=%=#bshi_1
+Author{3}{Email}#=%=#bshi@ttic.edu
+Author{3}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{4}{Firstname}#=%=#Lingyu
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Username}#=%=#lygao
+Author{4}{Email}#=%=#lygao@ttic.edu
+Author{4}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{5}{Firstname}#=%=#Karen
+Author{5}{Lastname}#=%=#Livescu
+Author{5}{Username}#=%=#klivescu
+Author{5}{Email}#=%=#klivescu@ttic.edu
+Author{5}{Affiliation}#=%=#TTI-Chicago
+Author{6}{Firstname}#=%=#Kevin
+Author{6}{Lastname}#=%=#Gimpel
+Author{6}{Username}#=%=#kgimpel
+Author{6}{Email}#=%=#kgimpel@ttic.edu
+Author{6}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Can Wikipedia Categories Improve Masked Language Model Pretraining?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Pretrained language models have obtained impressive results for a large set of natural language understanding tasks. However, training these models is computationally expensive and requires huge amounts of data. Thus, it would be desirable to automatically detect groups of more or less important examples. Here, we investigate if we can leverage sources of information which are commonly overlooked, Wikipedia categories as listed in DBPedia, to identify useful or harmful data points during pretraining. We define an experimental setup in which we analyze correlations between language model perplexity on specific clusters and downstream NLP task performances during pretraining. Our experiments show that Wikipedia categories are not a good indicator of the importance of specific sentences for pretraining.
+Author{1}{Firstname}#=%=#Diksha
+Author{1}{Lastname}#=%=#Meghwal
+Author{1}{Username}#=%=#dikshameghwal
+Author{1}{Email}#=%=#dm4511@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Katharina
+Author{2}{Lastname}#=%=#Kann
+Author{2}{Username}#=%=#kann
+Author{2}{Email}#=%=#katharina.kann@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado Boulder
+Author{3}{Firstname}#=%=#Iacer
+Author{3}{Lastname}#=%=#Calixto
+Author{3}{Username}#=%=#icalixto
+Author{3}{Email}#=%=#calixto.iacer@gmail.com
+Author{3}{Affiliation}#=%=#New York University
+Author{4}{Firstname}#=%=#Stanislaw
+Author{4}{Lastname}#=%=#Jastrzebski
+Author{4}{Username}#=%=#kudkudak
+Author{4}{Email}#=%=#staszek.jastrzebski@gmail.com
+Author{4}{Affiliation}#=%=#Jagiellonian University
+
+==========

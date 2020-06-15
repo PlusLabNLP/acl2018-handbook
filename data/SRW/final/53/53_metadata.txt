@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#{F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Hyeryun Park
+JobTitle#==#
+Organization#==#Hyeryun Park, Seoul National University, 103, Daehak-ro, Jongno-gu, Seoul, Republic of Korea
+Abstract#==#Medical image captioning can reduce the workload of physicians and save time and expense by automatically generating reports. However, current datasets are small and limited, creating additional challenges for researchers. In this study, we propose a feature difference and tag information combined long short-term memory (LSTM) model for chest x-ray report generation. A feature vector extracted from the image conveys visual information, but its ability to describe the image is limited. Other image captioning studies exhibited improved performance by exploiting feature differences, so the proposed model also utilizes them. First, we propose a difference and tag (DiTag) model containing the difference between the patient and normal images. Then, we propose a multi-difference and tag (mDiTag) model that also contains information about low-level differences, such as contrast, texture, and localized area. Evaluation of the proposed models demonstrates that the mDiTag model provides more information to generate captions and outperforms all other models.
+Author{1}{Firstname}#=%=#Hyeryun
+Author{1}{Lastname}#=%=#Park
+Author{1}{Username}#=%=#helena.park
+Author{1}{Email}#=%=#hyerpark1115@gmail.com
+Author{1}{Affiliation}#=%=#Interdisciplinary Program for Bioengineering, Graduate School, Seoul National University
+Author{2}{Firstname}#=%=#Kyungmo
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Username}#=%=#medinfoman
+Author{2}{Email}#=%=#medinfoman@snu.ac.kr
+Author{2}{Affiliation}#=%=#Interdisciplinary Program for Bioengineering, Graduate School, Seoul National University
+Author{3}{Firstname}#=%=#Jooyoung
+Author{3}{Lastname}#=%=#Yoon
+Author{3}{Username}#=%=#jyyoon
+Author{3}{Email}#=%=#joo0yoon@snu.ac.kr
+Author{3}{Affiliation}#=%=#Interdisciplinary Program for Bioengineering, Graduate School, Seoul National University
+Author{4}{Firstname}#=%=#Seongkeun
+Author{4}{Lastname}#=%=#Park
+Author{4}{Username}#=%=#iljpark
+Author{4}{Email}#=%=#seongkeun.park@hotmail.com
+Author{4}{Affiliation}#=%=#Dept. of Biomedical Engineering, Seoul National University Hospital
+Author{5}{Firstname}#=%=#Jinwook
+Author{5}{Lastname}#=%=#Choi
+Author{5}{Email}#=%=#jinchoi@snu.ac.kr
+Author{5}{Affiliation}#=%=#Department of Biomedical Engineering, College of Medicine, Seoul National University
+
+==========

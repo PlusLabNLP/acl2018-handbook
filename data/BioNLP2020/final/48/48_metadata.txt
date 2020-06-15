@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#DeSpin: a prototype system for detecting spin in biomedical publications
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anna Koroleva
+JobTitle#==#
+Organization#==#ZHAW, 8820 Waedenswil, Switzerland
+Abstract#==#Improving the quality of medical research reporting is crucial to reduce avoidable waste in research and to improve the quality of health care. Despite various initiatives aiming at improving research reporting -- guidelines, checklists, authoring aids, peer review procedures, etc. -- overinterpretation of research results, also known as spin, is still a serious issue in research reporting.
+
+In this paper, we propose a Natural Language Processing (NLP) system for detecting several types of spin in biomedical articles reporting randomized controlled trials (RCTs). We use a combination of rule-based and machine learning approaches to extract important information on trial design and to detect potential spin. 
+
+The proposed spin detection system includes algorithms for text structure analysis, sentence classification, entity and relation extraction, semantic similarity assessment. Our algorithms achieved operational performance for the these tasks, F-measure ranging from 79,42 to 97.86% for different tasks. The most difficult task is extracting reported outcomes.
+
+Our tool is intended to be used as a semi-automated aid tool for assisting both authors and peer reviewers to detect potential spin. The tool incorporates a simple interface that allows to run the algorithms and visualize their output. It can also be used for manual annotation and correction of the errors in the outputs.
+
+The proposed tool is the first tool for spin detection.  The tool and the annotated dataset are freely available.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Koroleva
+Author{1}{Username}#=%=#annakoroleva
+Author{1}{Email}#=%=#aakorolyova@gmail.com
+Author{1}{Affiliation}#=%=#ZHAW Zurich University of Applied Sciences
+Author{2}{Firstname}#=%=#Sanjay
+Author{2}{Lastname}#=%=#Kamath
+Author{2}{Username}#=%=#sanjaykamath
+Author{2}{Email}#=%=#sanjay@lri.fr
+Author{2}{Affiliation}#=%=#LIMSI, LRI, Univ. Paris-Sud, CNRS, Université Paris-Saclay
+Author{3}{Firstname}#=%=#Patrick
+Author{3}{Lastname}#=%=#Bossuyt
+Author{3}{Email}#=%=#p.m.bossuyt@amsterdamumc.nl
+Author{3}{Affiliation}#=%=#Academic Medical Center, University of Amsterdam
+Author{4}{Firstname}#=%=#Patrick
+Author{4}{Lastname}#=%=#Paroubek
+Author{4}{Username}#=%=#pap
+Author{4}{Email}#=%=#pap@limsi.fr
+Author{4}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

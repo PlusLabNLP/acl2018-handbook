@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#SIMPLEX-PB 2.0: A Reliable Dataset for Lexical Simplification in Brazilian Portuguese
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Most research on Lexical Simplification (LS) addresses non-native speakers of English, since they are numerous and easy to recruit. This makes it difficult to create LS solutions for other languages and target audiences. This paper presents SIMPLEX-PB 2.0, a dataset for LS in Brazilian Portuguese that, unlike its predecessor SIMPLEX-PB, accurately captures the needs of Brazilian underprivileged children. To create SIMPLEX-PB 2.0, we addressed all limitations of the old SIMPLEX-PB through multiple rounds of manual annotation. As a result, SIMPLEX-PB 2.0 features much more reliable and numerous candidate substitutions to complex words, as well as word complexity rankings produced by a group underprivileged children.
+Author{1}{Firstname}#=%=#Nathan
+Author{1}{Lastname}#=%=#Hartmann
+Author{1}{Username}#=%=#nathansh
+Author{1}{Email}#=%=#nathanshartmann@gmail.com
+Author{1}{Affiliation}#=%=#Institute of Mathematics and Computer Science - University of São Paulo (USP)
+Author{2}{Firstname}#=%=#Gustavo Henrique
+Author{2}{Lastname}#=%=#Paetzold
+Author{2}{Username}#=%=#ghpaetzold
+Author{2}{Email}#=%=#ghpaetzold@utfpr.edu.br
+Author{2}{Affiliation}#=%=#Federal University of Technology - Paraná
+Author{3}{Firstname}#=%=#Sandra
+Author{3}{Lastname}#=%=#Aluísio
+Author{3}{Username}#=%=#smaluisio
+Author{3}{Email}#=%=#sandra@icmc.usp.br
+Author{3}{Affiliation}#=%=#University of São Paulo
+
+==========

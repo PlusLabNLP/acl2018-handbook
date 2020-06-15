@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#3366
+FinalPaperTitle#=%=#Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Nikita Kitaev
+JobTitle#==#
+Organization#==#UC Berkeley
+Abstract#==#We present  a  constituency  parsing  algorithm that, like a supertagger, works by assigning labels  to  each  word  in  a  sentence.  In order to maximally leverage current neural architectures, the model scores each word's tags in parallel, with minimal task-specific structure.  After scoring, a left-to-right reconciliation phase extracts a tree in (empirically) linear time.  Our parser achieves 95.4 F1 on the WSJ test set while also achieving substantial speedups compared to current state-of-the-art parsers with comparable accuracies.
+Author{1}{Firstname}#=%=#Nikita
+Author{1}{Lastname}#=%=#Kitaev
+Author{1}{Username}#=%=#nkitaev
+Author{1}{Email}#=%=#kitaev@cs.berkeley.edu
+Author{1}{Affiliation}#=%=#University of California, Berkeley
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Username}#=%=#klein
+Author{2}{Email}#=%=#klein@berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley / Microsoft
+
+==========

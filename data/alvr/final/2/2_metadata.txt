@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Extending ImageNet to Arabic using Arabic WordNet
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Abdulkareem Alsudais
+JobTitle#==#Assistant Professor
+Organization#==#Prince Sattam bin Abdulaziz University, Al-Kharj, Saudi Arabia
+Abstract#==#ImageNet has millions of images that are labeled with English WordNet synsets. This paper investigates the extension of ImageNet to Arabic using Arabic WordNet. The objective is to discover if Arabic synsets can be found for synsets used in ImageNet. The primary finding is the identification of Arabic synsets for 1,219 of the 21,841 synsets used in ImageNet, which represents 1.1 million images. By leveraging the parent-child structure of synsets in ImageNet, this dataset is extended to 10,462 synsets (and 7.1 million images) that have an Arabic label, which is either a match or a direct hypernym, and to 17,438 synsets (and 11 million images) when a hypernym of a hypernym is included. When all hypernyms for a node are considered, an Arabic synset is found for all but four synsets. This represents the major contribution of this work: a dataset of images that have Arabic labels for 99.9% of the images in ImageNet.
+Author{1}{Firstname}#=%=#Abdulkareem
+Author{1}{Lastname}#=%=#Alsudais
+Author{1}{Username}#=%=#kareem.alsudais
+Author{1}{Email}#=%=#a.alsudais@psau.edu.sa
+Author{1}{Affiliation}#=%=#Prince Sattam Bin Abdulaziz University
+
+==========

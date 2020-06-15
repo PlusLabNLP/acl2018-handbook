@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1964
+FinalPaperTitle#=%=#Mapping Natural Language Instructions to Mobile UI Action Sequences
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Yang Li
+JobTitle#==#
+Organization#==#Google, 1600 Amphitheatre Pkwy, Mountain View, CA 94043
+Abstract#==#We present a new problem: grounding natural language instructions to mobile user interface actions, and create three new datasets for it. For full task evaluation, we create PixelHelp, a corpus that pairs English instructions with actions performed by people on a mobile UI emulator. To scale training, we decouple the language and action data by (a) annotating action phrase spans in How-To instructions and (b) synthesizing grounded descriptions of actions for mobile user interfaces. We use a Transformer to extract action phrase tuples from long-range natural language instructions. A grounding Transformer then contextually represents UI objects using both their content and screen position and connects them
+to object descriptions. Given a starting screen and instruction, our model achieves 70.59% accuracy on predicting complete ground-truth action sequences in PixelHelp.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#yangli169
+Author{1}{Email}#=%=#liyang@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Jiacong
+Author{2}{Lastname}#=%=#He
+Author{2}{Username}#=%=#jiaconghe
+Author{2}{Email}#=%=#hejiacongtheone@gmail.com
+Author{2}{Affiliation}#=%=#Google Research
+Author{3}{Firstname}#=%=#Xin
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Username}#=%=#zhouxin913
+Author{3}{Email}#=%=#zhouxin913@gmail.com
+Author{3}{Affiliation}#=%=#Google Research
+Author{4}{Firstname}#=%=#Yuan
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Username}#=%=#yuanzh
+Author{4}{Email}#=%=#zhangyua@google.com
+Author{4}{Affiliation}#=%=#Google Research
+Author{5}{Firstname}#=%=#Jason
+Author{5}{Lastname}#=%=#Baldridge
+Author{5}{Username}#=%=#jbaldrid
+Author{5}{Email}#=%=#jasonbaldridge@google.com
+Author{5}{Affiliation}#=%=#google.com
+
+==========

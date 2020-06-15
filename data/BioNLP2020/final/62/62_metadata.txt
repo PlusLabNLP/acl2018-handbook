@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Entity-Enriched Neural Models for Clinical Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Bhanu Pratap Singh Rawat
+JobTitle#==#PhD Student
+Organization#==#UMass-Amherst
+Abstract#==#We explore state-of-the-art neural models for question answering on electronic medical records and improve their ability to generalize better on previously unseen (paraphrased) questions at test time. We enable this by learning to predict logical forms as an auxiliary task along with the main task of answer span detection. The predicted logical forms also serve as a rationale for the answer. Further, we also incorporate medical entity information in these models via the ERNIE architecture. We train our models on the large-scale emrQA dataset and observe that our multi-task entity-enriched models generalize to paraphrased questions ~5% better than the baseline BERT model.
+Author{1}{Firstname}#=%=#Bhanu Pratap Singh
+Author{1}{Lastname}#=%=#Rawat
+Author{1}{Username}#=%=#bsingh
+Author{1}{Email}#=%=#bhanupratap.mnit@gmail.com
+Author{1}{Affiliation}#=%=#University of Massachusetts
+Author{2}{Firstname}#=%=#Wei-Hung
+Author{2}{Lastname}#=%=#Weng
+Author{2}{Username}#=%=#ckbjimmy
+Author{2}{Email}#=%=#ckbjimmy@mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#So Yeon
+Author{3}{Lastname}#=%=#Min
+Author{3}{Email}#=%=#symin95@mit.edu
+Author{3}{Affiliation}#=%=#MIT-IBM Watson AI Lab
+Author{4}{Firstname}#=%=#Preethi
+Author{4}{Lastname}#=%=#Raghavan
+Author{4}{Username}#=%=#raghavan.25
+Author{4}{Email}#=%=#raghavan.25@osu.edu
+Author{4}{Affiliation}#=%=#IBM Research
+Author{5}{Firstname}#=%=#Peter
+Author{5}{Lastname}#=%=#Szolovits
+Author{5}{Username}#=%=#pszolovits
+Author{5}{Email}#=%=#psz@mit.edu
+Author{5}{Affiliation}#=%=#MIT
+
+==========

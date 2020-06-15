@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#BIT's system for the AutoSimTrans 2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yuhang Guo
+JobTitle#==#
+Organization#==#Beijing Institute of Techonlogy
+Abstract#==#This paper describes our machine translation systems for the streaming Chinese-to-English translation task of AutoSimTrans 2020. We present a sentence length based method and a sentence boundary detection model based method for the streaming input segmentation. 
+Experimental results of the transcription and the ASR output translation on the development data sets show that the translation system with the detection model based method outperforms the one with the length based method in BLEU score by 1.19 and 0.99 respectively under similar or better latency.
+Author{1}{Firstname}#=%=#Minqin
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#lmq
+Author{1}{Email}#=%=#lmqminqinli@163.com
+Author{1}{Affiliation}#=%=#Beijing Institute of Technology
+Author{2}{Firstname}#=%=#Haodong
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Email}#=%=#dfchenghaodong@qq.com
+Author{2}{Affiliation}#=%=#Beijing Institute of Technology
+Author{3}{Firstname}#=%=#Yuanjie
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#njwangyuanjie@163.com
+Author{3}{Affiliation}#=%=#Beijing Institute of Technology
+Author{4}{Firstname}#=%=#Sijia
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#zhsjia@hotmail.com
+Author{4}{Affiliation}#=%=#Beijing Institute of Technology
+Author{5}{Firstname}#=%=#Liting
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Email}#=%=#3032117978@qq.com
+Author{5}{Affiliation}#=%=#Beijing Institute of Technology
+Author{6}{Firstname}#=%=#Yuhang
+Author{6}{Lastname}#=%=#Guo
+Author{6}{Username}#=%=#yuhang
+Author{6}{Email}#=%=#guoyuhang@bit.edu.cn
+Author{6}{Affiliation}#=%=#Beijing Institute of Technology
+
+==========

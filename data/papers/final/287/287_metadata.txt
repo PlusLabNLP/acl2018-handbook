@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#287
+FinalPaperTitle#=%=#tBERT: Topic Models and BERT Joining Forces for Semantic Similarity Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nicole Peinelt
+JobTitle#==#
+Organization#==#The Alan Turing Institute, 96 Euston Rd, London NW1 2DB, United Kingdom
+Abstract#==#Semantic similarity detection is a fundamental task in natural language understanding. Adding topic information has been useful for previous feature-engineered semantic similarity models as well as neural models for other tasks. There is currently no standard way of combining topics with pretrained contextual representations such as BERT. We propose a novel topic-informed BERT-based architecture for pairwise semantic similarity detection and show that our model improves performance over strong neural baselines across a variety of English language datasets. We find that the addition of topics to BERT helps particularly with resolving domain-specific cases.
+Author{1}{Firstname}#=%=#Nicole
+Author{1}{Lastname}#=%=#Peinelt
+Author{1}{Username}#=%=#ningxi
+Author{1}{Email}#=%=#N.Peinelt@warwick.ac.uk
+Author{1}{Affiliation}#=%=#University of Warwick
+Author{2}{Firstname}#=%=#Dong
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Username}#=%=#dnguyen
+Author{2}{Email}#=%=#dong.p.ng@gmail.com
+Author{2}{Affiliation}#=%=#Utrecht University
+Author{3}{Firstname}#=%=#Maria
+Author{3}{Lastname}#=%=#Liakata
+Author{3}{Username}#=%=#liakata
+Author{3}{Email}#=%=#maria.liakata@gmail.com
+Author{3}{Affiliation}#=%=#Queen Mary University of London
+
+==========

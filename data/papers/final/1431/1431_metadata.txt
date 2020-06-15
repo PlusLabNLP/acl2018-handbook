@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1431
+FinalPaperTitle#=%=#Explicit Semantic Decomposition for Definition Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jiahuan Li
+JobTitle#==#
+Organization#==#Nanjing University, China
+Abstract#==#Definition generation, which aims to automatically generate dictionary definitions for words, has recently been proposed to assist the construction of dictionaries and help people understand unfamiliar texts. However, previous works hardly consider explicitly modeling the ``components'' of definitions, leading to under-specific generation results.
+In this paper, we propose ESD, namely Explicit Semantic Decomposition for definition Generation, which explicitly decomposes the meaning of words into semantic components, and models them with discrete latent variables for definition generation. Experimental results show that \method achieves top results on WordNet and Oxford benchmarks, outperforming strong previous baselines.
+Author{1}{Firstname}#=%=#Jiahuan
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#saltychtao
+Author{1}{Email}#=%=#lijh@smail.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Bao
+Author{2}{Username}#=%=#baoy
+Author{2}{Email}#=%=#baoy@smail.nju.edu.cn
+Author{2}{Affiliation}#=%=#State Key Laboratory for Novel Software Technology at Nanjing University
+Author{3}{Firstname}#=%=#Shujian
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Username}#=%=#huangshujian
+Author{3}{Email}#=%=#huangshujian@gmail.com
+Author{3}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+Author{4}{Firstname}#=%=#Xinyu
+Author{4}{Lastname}#=%=#Dai
+Author{4}{Username}#=%=#daixinyu
+Author{4}{Email}#=%=#daixinyu@nju.edu.cn
+Author{4}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+Author{5}{Firstname}#=%=#Jiajun
+Author{5}{Lastname}#=%=#CHEN
+Author{5}{Username}#=%=#chenjj
+Author{5}{Email}#=%=#chenjj@nju.edu.cn
+Author{5}{Affiliation}#=%=#Nanjing University
+
+==========

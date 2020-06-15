@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1208
+FinalPaperTitle#=%=#Unsupervised FAQ Retrieval with Question Generation and BERT
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yosi Mass
+JobTitle#==#
+Organization#==#IBM Research AI, Haifa University, Mount Carmel, Haifa, HA 31905, Israel
+Abstract#==#We focus on the task of Frequently Asked Questions (FAQ) retrieval. A given user query can be matched against the questions and/or the answers in the FAQ. We present a fully unsupervised method that exploits the FAQ pairs to train two BERT models. The two models match user queries to FAQ answers and questions, respectively. We alleviate the missing labeled data of the latter by automatically generating high-quality question paraphrases. We show that our model is on par and even outperforms supervised models on existing datasets.
+Author{1}{Firstname}#=%=#Yosi
+Author{1}{Lastname}#=%=#Mass
+Author{1}{Username}#=%=#yosimass
+Author{1}{Email}#=%=#yosimass@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Boaz
+Author{2}{Lastname}#=%=#Carmeli
+Author{2}{Username}#=%=#boazc
+Author{2}{Email}#=%=#boazc@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Haifa
+Author{3}{Firstname}#=%=#Haggai
+Author{3}{Lastname}#=%=#Roitman
+Author{3}{Username}#=%=#haggai4ik
+Author{3}{Email}#=%=#haggai@il.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research AI
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Konopnicki
+Author{4}{Username}#=%=#davidko
+Author{4}{Email}#=%=#davidko@il.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research AI
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1074
+FinalPaperTitle#=%=#Improving Chinese Word Segmentation with Wordhood Memory Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Yuanhe Tian
+JobTitle#==#
+Organization#==#University of Washington
+Abstract#==#Contextual features always play an important role in Chinese word segmentation (CWS). Wordhood information, being one of the contextual features, is proved to be useful in many conventional character-based segmenters. However, this feature receives less attention in recent neural models and it is also challenging to design a framework that can properly integrate wordhood information from different wordhood measures to existing neural frameworks. In this paper, we therefore propose a neural framework, WMSeg, which uses memory networks to incorporate wordhood information with several popular encoder-decoder combinations for CWS. Experimental results on five benchmark datasets indicate the memory mechanism successfully models wordhood information for neural segmenters and helps WMSeg achieve state-of-the-art performance on all those datasets. Further experiments and analyses also demonstrate the robustness of our proposed framework with respect to different wordhood measures and the efficiency of wordhood information in cross-domain experiments.
+Author{1}{Firstname}#=%=#Yuanhe
+Author{1}{Lastname}#=%=#Tian
+Author{1}{Username}#=%=#yhtian
+Author{1}{Email}#=%=#yhtian@uw.edu
+Author{1}{Affiliation}#=%=#Department of Linguistics, University of Washington
+Author{2}{Firstname}#=%=#Yan
+Author{2}{Lastname}#=%=#Song
+Author{2}{Username}#=%=#mattsure
+Author{2}{Email}#=%=#mattsure@gmail.com
+Author{2}{Affiliation}#=%=#Sinovation Ventures
+Author{3}{Firstname}#=%=#Fei
+Author{3}{Lastname}#=%=#Xia
+Author{3}{Username}#=%=#fxia
+Author{3}{Email}#=%=#fxia@uw.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Tong
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Username}#=%=#tongzhang
+Author{4}{Email}#=%=#tongzhang@tongzhang-ml.org
+Author{4}{Affiliation}#=%=#HKUST
+Author{5}{Firstname}#=%=#Yonggang
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#wixette
+Author{5}{Email}#=%=#wangyonggang@chuangxin.com
+Author{5}{Affiliation}#=%=#Sinovation Ventures
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#548
+FinalPaperTitle#=%=#Crawling and Preprocessing Mailing Lists At Scale for Dialog Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Janek Bevendorff
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar, Bauhausstr. 11, 99423 Weimar, Germany
+Abstract#==#This paper introduces the Webis Gmane Email Corpus 2019, the largest publicly available and fully preprocessed email corpus to date. We crawled more than 153 million emails from 14,699 mailing lists and segmented them into semantically consistent components using a new neural segmentation model. With 96% accuracy on 15 classes of email segments, our model achieves state-of-the-art performance while being more efficient to train than previous ones. All data, code, and trained models are made freely available alongside the paper.
+Author{1}{Firstname}#=%=#Janek
+Author{1}{Lastname}#=%=#Bevendorff
+Author{1}{Username}#=%=#jbevendorff
+Author{1}{Email}#=%=#janek.bevendorff@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Khalid
+Author{2}{Lastname}#=%=#Al Khatib
+Author{2}{Username}#=%=#khalid
+Author{2}{Email}#=%=#khalid.alkhatib@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Martin
+Author{3}{Lastname}#=%=#Potthast
+Author{3}{Username}#=%=#potthast
+Author{3}{Email}#=%=#martin.potthast@uni-leipzig.de
+Author{3}{Affiliation}#=%=#Leipzig University
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Username}#=%=#benno.stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

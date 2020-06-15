@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2371
+FinalPaperTitle#=%=#Kin{GDOM}: {K}nowledge-{G}uided {DOM}ain {A}daptation for {S}entiment {A}nalysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Deepanway Ghosal
+JobTitle#==#
+Organization#==#Singapore University of Technology and Design, Singapore
+Abstract#==#Cross-domain sentiment analysis has received significant attention in recent years, prompted by the need to combat the domain gap between different applications that make use of sentiment analysis. In this paper, we take a novel perspective on this task by exploring the role of external commonsense knowledge. We introduce a new framework, KinGDOM, which utilizes the ConceptNet knowledge graph to enrich the semantics of a document by providing both domain-specific and domain-general background concepts. These concepts are learned by training a graph convolutional autoencoder that leverages inter-domain concepts in a domain-invariant manner. Conditioning a popular domain-adversarial baseline method with these learned concepts helps improve its performance over state-of-the-art approaches, demonstrating the efficacy of our proposed framework.
+Author{1}{Firstname}#=%=#Deepanway
+Author{1}{Lastname}#=%=#Ghosal
+Author{1}{Username}#=%=#deepanway
+Author{1}{Email}#=%=#deepanwayedu@gmail.com
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Devamanyu
+Author{2}{Lastname}#=%=#Hazarika
+Author{2}{Username}#=%=#devamanyu
+Author{2}{Email}#=%=#hazarika@comp.nus.edu.sg
+Author{2}{Affiliation}#=%=#National University of Singapore
+Author{3}{Firstname}#=%=#Abhinaba
+Author{3}{Lastname}#=%=#Roy
+Author{3}{Username}#=%=#abhinabaroy1990
+Author{3}{Email}#=%=#abhinabaroy1990@gmail.com
+Author{3}{Affiliation}#=%=#Nanyang Technological University
+Author{4}{Firstname}#=%=#Navonil
+Author{4}{Lastname}#=%=#Majumder
+Author{4}{Username}#=%=#nmder
+Author{4}{Email}#=%=#n.majumder.2009@gmail.com
+Author{4}{Affiliation}#=%=#CIC, IPN
+Author{5}{Firstname}#=%=#Rada
+Author{5}{Lastname}#=%=#Mihalcea
+Author{5}{Username}#=%=#rada
+Author{5}{Email}#=%=#mihalcea@umich.edu
+Author{5}{Affiliation}#=%=#University of Michigan
+Author{6}{Firstname}#=%=#Soujanya
+Author{6}{Lastname}#=%=#Poria
+Author{6}{Username}#=%=#soujanyaporia
+Author{6}{Email}#=%=#soujanya.poria@gmail.com
+Author{6}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

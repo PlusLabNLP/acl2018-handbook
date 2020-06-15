@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Personality Trait Detection Using Bagged SVM over BERT Word Embedding Ensembles
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Recently, the automatic prediction of personality traits has received increasing attention and has emerged as a hot topic within the field of affective computing.  A drawback of state-of-the-art automatic personality detection systems is their accuracy and computational performance. In this work, we focus on improving accuracy and speed at the same time using a novel deep-learning-based method for automated personality detection from text. We extract context-dependent word embeddings at a low computation cost by leveraging transfer learning. Our method outperforms the current state-of-the-art by 1.04% and, at the same time, is significantly more computationally efficient to train.
+Author{1}{Firstname}#=%=#Amirmohammad
+Author{1}{Lastname}#=%=#Kazemeinizadeh
+Author{1}{Username}#=%=#amirmohammadkz
+Author{1}{Email}#=%=#a_kazemeini@comp.iust.ac.ir
+Author{1}{Affiliation}#=%=#Iran University of Science and Technology
+Author{2}{Firstname}#=%=#Samin
+Author{2}{Lastname}#=%=#Fatehi
+Author{2}{Username}#=%=#saminfatehi
+Author{2}{Email}#=%=#sa_fatehi@comp.iust.ac.ir
+Author{2}{Affiliation}#=%=#Iran University of Science and Technology
+Author{3}{Firstname}#=%=#Yash
+Author{3}{Lastname}#=%=#Mehta
+Author{3}{Username}#=%=#yashsmehta
+Author{3}{Email}#=%=#yashsmehta95@gmail.com
+Author{3}{Affiliation}#=%=#University College London
+Author{4}{Firstname}#=%=#Sauleh
+Author{4}{Lastname}#=%=#Eetemadi
+Author{4}{Username}#=%=#sauleh
+Author{4}{Email}#=%=#sauleh@iust.ac.ir
+Author{4}{Affiliation}#=%=#Iran University of Science and Technology
+Author{5}{Firstname}#=%=#Erik
+Author{5}{Lastname}#=%=#Cambria
+Author{5}{Username}#=%=#cambria.erik
+Author{5}{Email}#=%=#erik@sentic.net
+Author{5}{Affiliation}#=%=#Nanyang Technological University
+
+==========

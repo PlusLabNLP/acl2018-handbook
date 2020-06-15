@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#NAIST's Machine Translation Systems for IWSLT 2020 Conversational Speech Translation Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ryo Fukuda
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology, 8916-5 Takayama-cho, Ikoma, Nara 630-0192, JAPAN
+Abstract#==#This paper describes NAIST's NMT system submitted to the IWSLT 2020 conversational speech translation task. We focus on the translation disfluent speech transcripts that include ASR errors and non-grammatical utterances. We tried a domain adaptation method by transferring the styles of out-of-domain data (United Nations Parallel Corpus) to be like in-domain data (Fisher transcripts). Our system results showed that the NMT model with domain adaptation outperformed a baseline. In addition, slight improvement by the style transfer was observed.
+Author{1}{Firstname}#=%=#Ryo
+Author{1}{Lastname}#=%=#Fukuda
+Author{1}{Username}#=%=#ryo-fu
+Author{1}{Email}#=%=#fukuda.ryo.fo3@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology (NAIST)
+Author{2}{Firstname}#=%=#Katsuhito
+Author{2}{Lastname}#=%=#Sudoh
+Author{2}{Username}#=%=#sudoh
+Author{2}{Email}#=%=#sudoh@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology (NAIST)
+Author{3}{Firstname}#=%=#Satoshi
+Author{3}{Lastname}#=%=#Nakamura
+Author{3}{Username}#=%=#s-nakamura
+Author{3}{Email}#=%=#s-nakamura@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology and RIKEN AIP Center
+
+==========

@@ -1,0 +1,63 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#{X}iaomingbot: {A} {M}ultilingual {R}obot {N}ews {R}eporter
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Runxin Xu
+JobTitle#==#
+Organization#==#Shanghai Jiao Tong University and ByteDance AI Lab
+Abstract#==#This paper proposes the building of Xiaomingbot, an intelligent, multilingual and multimodal software robot equipped with four inte- gral capabilities: news generation, news translation, news reading and avatar animation. Its system summarizes Chinese news that it automatically generates from data tables. Next, it translates the summary or the full article into multiple languages, and reads the multi- lingual rendition through synthesized speech. Notably, Xiaomingbot utilizes a voice cloning technology to synthesize the speech trained from a real person’s voice data in one input language. The proposed system enjoys several merits: it has an animated avatar, and is able to generate and read multilingual news. Since it was put into practice, Xiaomingbot has written over 600,000 articles, and gained over 150,000 followers on social media platforms.
+Author{1}{Firstname}#=%=#Runxin
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#runxinxu
+Author{1}{Email}#=%=#runxinxu@gmail.com
+Author{1}{Affiliation}#=%=#Institute of Computational Linguistic, Peking University
+Author{2}{Firstname}#=%=#Jun
+Author{2}{Lastname}#=%=#Cao
+Author{2}{Email}#=%=#caojun.sh@bytedance.com
+Author{2}{Affiliation}#=%=#ByteDance AI Lab
+Author{3}{Firstname}#=%=#Mingxuan
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#wangmingxuan.89@bytedance.com
+Author{3}{Affiliation}#=%=#ByteDance AI Lab
+Author{4}{Firstname}#=%=#Jiaze
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#chenjiaze@bytedance.com
+Author{4}{Affiliation}#=%=#ByteDance AI Lab
+Author{5}{Firstname}#=%=#Hao
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Email}#=%=#zhouhao.nlp@bytedance.com
+Author{5}{Affiliation}#=%=#ByteDance AI Lab
+Author{6}{Firstname}#=%=#Ying
+Author{6}{Lastname}#=%=#Zeng
+Author{6}{Email}#=%=#zengying.ss@bytedance.com
+Author{6}{Affiliation}#=%=#ByteDance AI Lab
+Author{7}{Firstname}#=%=#Yuping
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Email}#=%=#wangyuping@bytedance.com
+Author{7}{Affiliation}#=%=#ByteDance AI Lab
+Author{8}{Firstname}#=%=#Li
+Author{8}{Lastname}#=%=#Chen
+Author{8}{Email}#=%=#chenli.cloud@bytedance.com
+Author{8}{Affiliation}#=%=#ByteDance AI Lab
+Author{9}{Firstname}#=%=#Xiang
+Author{9}{Lastname}#=%=#Yin
+Author{9}{Email}#=%=#yinxiang.stephen@bytedance.com
+Author{9}{Affiliation}#=%=#ByteDance AI Lab
+Author{10}{Firstname}#=%=#Xijin
+Author{10}{Lastname}#=%=#Zhang
+Author{10}{Email}#=%=#zhangxijin@bytedance.com
+Author{10}{Affiliation}#=%=#ByteDance AI Lab
+Author{11}{Firstname}#=%=#Songcheng
+Author{11}{Lastname}#=%=#Jiang
+Author{11}{Email}#=%=#jiangsongcheng@bytedance.com
+Author{11}{Affiliation}#=%=#ByteDance AI Lab
+Author{12}{Firstname}#=%=#Yuxuan
+Author{12}{Lastname}#=%=#Wang
+Author{12}{Email}#=%=#wangyuxuan.11@bytedance.com
+Author{12}{Affiliation}#=%=#ByteDance AI Lab
+Author{13}{Firstname}#=%=#Lei
+Author{13}{Lastname}#=%=#Li
+Author{13}{Email}#=%=#lilei.02@bytedance.com
+Author{13}{Affiliation}#=%=#ByteDance AI Lab
+
+==========

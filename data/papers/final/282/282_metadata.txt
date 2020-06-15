@@ -1,0 +1,105 @@
+SubmissionNumber#=%=#282
+FinalPaperTitle#=%=#ParaCrawl: Web-Scale Acquisition of Parallel Corpora
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Kenneth Heafield
+JobTitle#==#
+Organization#==#University of Edinburgh
+Abstract#==#We report on methods to create the largest publicly available  parallel corpora by crawling the web, using open source software. We empirically compare alternative methods and publish benchmark data sets for sentence alignment and sentence pair filtering. We also describe the parallel corpora released and evaluate their quality and their usefulness to create machine translation systems.
+Author{1}{Firstname}#=%=#Marta
+Author{1}{Lastname}#=%=#Bañón
+Author{1}{Username}#=%=#mbanon
+Author{1}{Email}#=%=#mbanon@prompsit.com
+Author{1}{Affiliation}#=%=#Prompsit SL
+Author{2}{Firstname}#=%=#Pinzhen
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#pzchen
+Author{2}{Email}#=%=#pinzhen_chen@yahoo.com
+Author{2}{Affiliation}#=%=#The University of Edinburgh
+Author{3}{Firstname}#=%=#Barry
+Author{3}{Lastname}#=%=#Haddow
+Author{3}{Username}#=%=#bhaddow
+Author{3}{Email}#=%=#bhaddow@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Kenneth
+Author{4}{Lastname}#=%=#Heafield
+Author{4}{Username}#=%=#heafield
+Author{4}{Email}#=%=#softconf@kheafield.com
+Author{4}{Affiliation}#=%=#University of Edinburgh
+Author{5}{Firstname}#=%=#Hieu
+Author{5}{Lastname}#=%=#Hoang
+Author{5}{Username}#=%=#hieuhoang
+Author{5}{Email}#=%=#hieuhoang@gmail.com
+Author{5}{Affiliation}#=%=#Microsoft
+Author{6}{Firstname}#=%=#Miquel
+Author{6}{Lastname}#=%=#Esplà-Gomis
+Author{6}{Username}#=%=#mespla
+Author{6}{Email}#=%=#mespla@dlsi.ua.es
+Author{6}{Affiliation}#=%=#Universitat d'Alacant
+Author{7}{Firstname}#=%=#Mikel L.
+Author{7}{Lastname}#=%=#Forcada
+Author{7}{Username}#=%=#mlf
+Author{7}{Email}#=%=#mlf@dlsi.ua.es
+Author{7}{Affiliation}#=%=#Universitat d'Alacant
+Author{8}{Firstname}#=%=#Amir
+Author{8}{Lastname}#=%=#Kamran
+Author{8}{Username}#=%=#amirtaus
+Author{8}{Email}#=%=#amir@taus.net
+Author{8}{Affiliation}#=%=#TAUS
+Author{9}{Firstname}#=%=#Faheem
+Author{9}{Lastname}#=%=#Kirefu
+Author{9}{Username}#=%=#asfaloth
+Author{9}{Email}#=%=#s1783009@ed.ac.uk
+Author{9}{Affiliation}#=%=#University of Edinburgh
+Author{10}{Firstname}#=%=#Philipp
+Author{10}{Lastname}#=%=#Koehn
+Author{10}{Username}#=%=#pkoehn
+Author{10}{Email}#=%=#phi@jhu.edu
+Author{10}{Affiliation}#=%=#Johns Hopkins University
+Author{11}{Firstname}#=%=#Sergio
+Author{11}{Lastname}#=%=#Ortiz Rojas
+Author{11}{Username}#=%=#sortiz
+Author{11}{Email}#=%=#sergio@prompsit.com
+Author{11}{Affiliation}#=%=#Prompsit Language Engineering
+Author{12}{Firstname}#=%=#Leopoldo
+Author{12}{Lastname}#=%=#Pla Sempere
+Author{12}{Username}#=%=#lpla
+Author{12}{Email}#=%=#lpla@dlsi.ua.es
+Author{12}{Affiliation}#=%=#University of Alicante
+Author{13}{Firstname}#=%=#Gema
+Author{13}{Lastname}#=%=#Ramírez-Sánchez
+Author{13}{Username}#=%=#gramirez
+Author{13}{Email}#=%=#gramirez@prompsit.com
+Author{13}{Affiliation}#=%=#Prompsit Language Engineering
+Author{14}{Firstname}#=%=#Elsa
+Author{14}{Lastname}#=%=#Sarrías
+Author{14}{Username}#=%=#esarrias
+Author{14}{Email}#=%=#esarrias@dlsi.ua.es
+Author{14}{Affiliation}#=%=#University of Alicante
+Author{15}{Firstname}#=%=#Marek
+Author{15}{Lastname}#=%=#Strelec
+Author{15}{Username}#=%=#strelecm
+Author{15}{Email}#=%=#marek.strelec@gmail.com
+Author{15}{Affiliation}#=%=#The University of Edinburgh
+Author{16}{Firstname}#=%=#Brian
+Author{16}{Lastname}#=%=#Thompson
+Author{16}{Username}#=%=#bthompson
+Author{16}{Email}#=%=#brian.thompson@jhu.edu
+Author{16}{Affiliation}#=%=#Johns Hopkins University
+Author{17}{Firstname}#=%=#William
+Author{17}{Lastname}#=%=#Waites
+Author{17}{Username}#=%=#wwaites
+Author{17}{Email}#=%=#wwaites@inf.ed.ac.uk
+Author{17}{Affiliation}#=%=#University of Edinburgh
+Author{18}{Firstname}#=%=#Dion
+Author{18}{Lastname}#=%=#Wiggins
+Author{18}{Username}#=%=#dion
+Author{18}{Email}#=%=#dion.wiggins@omniscien.com
+Author{18}{Affiliation}#=%=#Omniscien Technologies
+Author{19}{Firstname}#=%=#Jaume
+Author{19}{Lastname}#=%=#Zaragoza
+Author{19}{Username}#=%=#jzaragoza
+Author{19}{Email}#=%=#jzaragoza@prompsti.com
+Author{19}{Affiliation}#=%=#Prompsit Language Engineering
+
+==========

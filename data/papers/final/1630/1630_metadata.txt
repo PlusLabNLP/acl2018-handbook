@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1630
+FinalPaperTitle#=%=#SEEK: Segmented Embedding of Knowledge Graphs
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wentao Xu
+JobTitle#==#
+Organization#==#School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China
+Abstract#==#In recent years, knowledge graph embedding becomes a pretty hot research topic of artificial intelligence and plays increasingly vital roles in various downstream applications, such as recommendation and question answering. However, existing methods for knowledge graph embedding can not make a proper trade-off between the model complexity and the model expressiveness, which makes them still far from satisfactory. To mitigate this problem, we propose a lightweight modeling framework that can achieve highly competitive relational expressiveness without increasing the model complexity. Our framework focuses on the design of scoring functions and highlights two critical characteristics: 1) facilitating sufficient feature interactions; 2) preserving both symmetry and antisymmetry properties of relations. It is noteworthy that owing to the general and elegant design of scoring functions, our framework can incorporate many famous existing methods as special cases. Moreover, extensive experiments on public benchmarks demonstrate the efficiency and effectiveness of our framework. Source codes and data can be found at \url{https://github.com/Wentao-Xu/SEEK}.
+Author{1}{Firstname}#=%=#Wentao
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#wentao
+Author{1}{Email}#=%=#xuwt6@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#Sun Yat-Sen University
+Author{2}{Firstname}#=%=#Shun
+Author{2}{Lastname}#=%=#Zheng
+Author{2}{Username}#=%=#shunzheng
+Author{2}{Email}#=%=#zhengshun999999@163.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Liang
+Author{3}{Lastname}#=%=#He
+Author{3}{Email}#=%=#Liang.He@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Bin
+Author{4}{Lastname}#=%=#Shao
+Author{4}{Email}#=%=#binshao@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Asia
+Author{5}{Firstname}#=%=#Jian
+Author{5}{Lastname}#=%=#Yin
+Author{5}{Email}#=%=#issjyin@mail.sysu.edu.cn
+Author{5}{Affiliation}#=%=#Sun Yat-Sen University
+Author{6}{Firstname}#=%=#Tie-Yan
+Author{6}{Lastname}#=%=#Liu
+Author{6}{Email}#=%=#tyliu@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research Asia
+
+==========

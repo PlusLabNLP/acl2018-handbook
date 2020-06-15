@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#The Importance of Category Labels in Grammar Induction with Child-directed Utterances
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lifeng Jin
+JobTitle#==#
+Organization#==#The Ohio State Univeristy, Columbus OH 43235
+Abstract#==#Recent progress in grammar induction has shown that grammar induction is possible without explicit assumptions of language specific knowledge. However, evaluation of induced grammars usually has ignored phrasal labels, an essential part of a grammar. Experiments in this work using a labeled evaluation metric, RH, show that linguistically motivated predictions about grammar sparsity and use of categories can only be revealed through labeled evaluation. Furthermore, depth-bounding as an implementation of human memory constraints in grammar inducers is still effective with labeled evaluation on multilingual transcribed child-directed utterances.
+Author{1}{Firstname}#=%=#Lifeng
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Username}#=%=#lain6631
+Author{1}{Email}#=%=#jin.544@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Schuler
+Author{2}{Username}#=%=#schuler
+Author{2}{Email}#=%=#schuler@ling.osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

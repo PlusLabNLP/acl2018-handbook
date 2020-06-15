@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#3433
+FinalPaperTitle#=%=#An Analysis of the Utility of Explicit Negative Examples to Improve the Syntactic Abilities of Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hiroshi Noji
+JobTitle#==#
+Organization#==#Artificial Intelligence Research Center, AIST,  2-4-7 Aomi, Koto-ku, Tokyo, Japan
+Abstract#==#We explore the utilities of explicit negative examples in training neural language models. Negative examples here are incorrect words in a sentence, such as {\it barks} in *{\it The dogs barks}. Neural language models are commonly trained only on positive examples, a set of sentences in the training data, but recent studies suggest that the models trained in this way are not capable of robustly handling complex syntactic constructions, such as long-distance agreement. In this paper, we first demonstrate that appropriately using negative examples about particular constructions (e.g., subject-verb agreement) will boost the model's robustness on them in English, with a negligible loss of perplexity. The key to our success is an additional margin loss between the log-likelihoods of a correct word and an incorrect word. We then provide a detailed analysis of the trained models. One of our findings is the difficulty of object-relative clauses for RNNs. We find that even with our direct learning signals the models still suffer from resolving agreement across an object-relative clause. Augmentation of training sentences involving the constructions somewhat helps, but the accuracy still does not reach the level of subject-relative clauses. Although not directly cognitively appealing, our method can be a tool to analyze the true architectural limitation of neural models on challenging linguistic constructions.
+Author{1}{Firstname}#=%=#Hiroshi
+Author{1}{Lastname}#=%=#Noji
+Author{1}{Username}#=%=#hiroshinoji
+Author{1}{Email}#=%=#hiroshi.noji@aist.go.jp
+Author{1}{Affiliation}#=%=#Artificial Intelligence Research Center, AIST
+Author{2}{Firstname}#=%=#Hiroya
+Author{2}{Lastname}#=%=#Takamura
+Author{2}{Username}#=%=#takamura
+Author{2}{Email}#=%=#takamura@pi.titech.ac.jp
+Author{2}{Affiliation}#=%=#The National Institute of Advanced Industrial Science and Technology (AIST)
+
+==========

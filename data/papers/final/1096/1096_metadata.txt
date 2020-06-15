@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1096
+FinalPaperTitle#=%=#Neural Generation of Dialogue Response Timings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Matthew Roddy
+JobTitle#==#
+Organization#==#Trinity College Dublin
+Abstract#==#The timings of spoken response offsets in human dialogue have been shown to vary based on contextual elements of the dialogue. We propose neural models that simulate the distributions of these response offsets, taking into account the response turn as well as the preceding turn. The models are designed to be integrated into the pipeline of an incremental spoken dialogue system (SDS). We evaluate our models using offline experiments as well as human listening tests. We show that human listeners consider certain response timings to be more natural based on the dialogue context. The introduction of these models into SDS pipelines could increase the perceived naturalness of interactions.
+Author{1}{Firstname}#=%=#Matthew
+Author{1}{Lastname}#=%=#Roddy
+Author{1}{Username}#=%=#mroddy
+Author{1}{Email}#=%=#roddym@tcd.ie
+Author{1}{Affiliation}#=%=#Trinity College, Dublin
+Author{2}{Firstname}#=%=#Naomi
+Author{2}{Lastname}#=%=#Harte
+Author{2}{Username}#=%=#nharte
+Author{2}{Email}#=%=#nharte@tcd.ie
+Author{2}{Affiliation}#=%=#Trinity College Dublin
+
+==========

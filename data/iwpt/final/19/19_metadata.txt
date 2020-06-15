@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Self-Training for Unsupervised Parsing with PRPN
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Anhad Mohananey
+JobTitle#==#
+Organization#==#New York University, New York, NY 10003
+Abstract#==#Neural unsupervised parsing (UP) models learn to parse without access to syntactic annotations, while being optimized for another task like language modeling. In this work, we propose self-training for neural  UP models: we leverage aggregated annotations predicted by copies of our model as supervision for future copies. To be able to use our model’s predictions during training, we extend a recent neural UP architecture, the PRPN (Shen et al., 2018a), such that it can be trained in a semi-supervised fashion. We then add examples with parses predicted by our model to our unlabeled UP training data. Our self-trained model outperforms the PRPN by 8.1% F1 and the previous state of the art by 1.6% F1. In addition, we show that our architecture can also be helpful for semi-supervised parsing in ultra-low-resource settings.
+Author{1}{Firstname}#=%=#Anhad
+Author{1}{Lastname}#=%=#Mohananey
+Author{1}{Username}#=%=#anhad13
+Author{1}{Email}#=%=#am8676@nyu.edu
+Author{1}{Affiliation}#=%=#NYU
+Author{2}{Firstname}#=%=#Katharina
+Author{2}{Lastname}#=%=#Kann
+Author{2}{Username}#=%=#kann
+Author{2}{Email}#=%=#katharina.kann@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado Boulder
+Author{3}{Firstname}#=%=#Samuel R.
+Author{3}{Lastname}#=%=#Bowman
+Author{3}{Username}#=%=#sbowman
+Author{3}{Email}#=%=#bowman@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+
+==========

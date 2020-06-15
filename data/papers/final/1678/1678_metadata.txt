@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1678
+FinalPaperTitle#=%=#Automated Topical Component Extraction Using Neural Network Attention Scores from Source-based Essay Scoring
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Haoran Zhang
+JobTitle#==#Graduate Student Researcher
+Organization#==#University of Pittsburgh, Pittsburgh, PA 15260
+Abstract#==#While automated essay scoring (AES) can reliably grade essays at scale, automated writing evaluation (AWE) additionally provides formative feedback to guide essay revision. However, a neural AES typically does not provide useful feature representations for supporting AWE. This paper presents a method for linking AWE and neural AES, by extracting Topical Components (TCs) representing evidence from a source text using the intermediate output of attention layers. We evaluate performance using a feature-based AES requiring TCs. Results show that performance is comparable whether using automatically or manually constructed TCs for 1) representing essays as rubric-based features, 2) grading essays.
+Author{1}{Firstname}#=%=#Haoran
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#rokeer
+Author{1}{Email}#=%=#colinzhang@cs.pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Username}#=%=#litman
+Author{2}{Email}#=%=#dlitman@pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

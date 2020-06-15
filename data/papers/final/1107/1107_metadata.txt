@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1107
+FinalPaperTitle#=%=#Handling Rare Entities for Neural Sequence Labeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yangming Li
+JobTitle#==#
+Organization#==#Ant Financial Services Group, Alibaba Group, Hangzhou, China
+Abstract#==#One great challenge in neural sequence labeling is the data sparsity problem for rare entity words and phrases. Most of test set entities appear only few times and are even unseen in training corpus, yielding large number of out-of-vocabulary (OOV) and low-frequency (LF) entities during evaluation. In this work, we propose approaches to address this problem. For OOV entities, we introduce local context reconstruction to implicitly incorporate contextual information into their representations. For LF entities, we present delexicalized entity identification to explicitly extract their frequency-agnostic and entity-type-specific representations. Extensive experiments on multiple benchmark datasets show that our model has significantly outperformed all previous methods and achieved new start-of-the-art results. Notably, our methods surpass the model fine-tuned on pre-trained language models without external resource.
+Author{1}{Firstname}#=%=#Yangming
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#yangmingli
+Author{1}{Email}#=%=#yangmingli@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Han
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#hanli
+Author{2}{Email}#=%=#lihan5425@163.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Kaisheng
+Author{3}{Lastname}#=%=#Yao
+Author{3}{Username}#=%=#kaishengyao
+Author{3}{Email}#=%=#ksyao@hotmail.com
+Author{3}{Affiliation}#=%=#Ant Financial
+Author{4}{Firstname}#=%=#Xiaolong
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#xunxiao
+Author{4}{Email}#=%=#xl.li@antfin.com
+Author{4}{Affiliation}#=%=#Ant Financial Services Group
+
+==========

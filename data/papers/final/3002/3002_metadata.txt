@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3002
+FinalPaperTitle#=%=#Meta-Reinforced Multi-Domain State Generator for Dialogue Systems
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yi Huang
+JobTitle#==#
+Organization#==#China Mobile Research, Beijing, China
+Abstract#==#A Dialogue State Tracker (DST) is a core component of a modular task-oriented dialogue system. Tremendous progress has been made in recent years. However, the major challenges remain. The state-of-the-art accuracy for DST is below 50% for a multi-domain dialogue task. A learnable DST for any new domain requires a large amount of labeled in-domain data and training from scratch. In this paper, we propose a Meta-Reinforced Multi-Domain State Generator (MERET). Our first contribution is to improve the DST accuracy. We enhance a neural model based DST generator with a reward manager, which is built on policy gradient reinforcement learning (RL) to fine-tune the generator. With this change, we are able to improve the joint accuracy of DST from 48.79% to 50.91% on the MultiWOZ corpus. Second, we explore to train a DST meta-learning model with a few domains as source domains and a new domain as target domain. We apply the model-agnostic meta-learning algorithm (MAML) to DST and the obtained meta-learning model is used for new domain adaptation. Our experimental results show this solution is able to outperform the traditional training approach with extremely less training data in target domain.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Username}#=%=#hyderbit
+Author{1}{Email}#=%=#huangyi@chinamobile.com
+Author{1}{Affiliation}#=%=#China Mobile Research Institute
+Author{2}{Firstname}#=%=#Junlan
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Username}#=%=#junlan
+Author{2}{Email}#=%=#13811228892@139.com
+Author{2}{Affiliation}#=%=#chinamobile
+Author{3}{Firstname}#=%=#Min
+Author{3}{Lastname}#=%=#Hu
+Author{3}{Username}#=%=#houmo
+Author{3}{Email}#=%=#humin@chinamobile.com
+Author{3}{Affiliation}#=%=#China Mobile Research Institute
+Author{4}{Firstname}#=%=#Xiaoting
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Username}#=%=#wuxiaoting
+Author{4}{Email}#=%=#wuxiaoting@chinamobile.com
+Author{4}{Affiliation}#=%=#China Mobile Research Institute
+Author{5}{Firstname}#=%=#Xiaoyu
+Author{5}{Lastname}#=%=#Du
+Author{5}{Username}#=%=#duxiaoyu
+Author{5}{Email}#=%=#duxiaoyu_nlp@163.com
+Author{5}{Affiliation}#=%=#China Mobile Research Institute
+Author{6}{Firstname}#=%=#Shuo
+Author{6}{Lastname}#=%=#Ma
+Author{6}{Username}#=%=#mashuo_cmcc
+Author{6}{Email}#=%=#mashuo@chinamobile.com
+Author{6}{Affiliation}#=%=#China Mobile Research Institute
+
+==========

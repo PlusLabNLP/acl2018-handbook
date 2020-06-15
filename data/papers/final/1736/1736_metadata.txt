@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1736
+FinalPaperTitle#=%=#On Forgetting to Cite Older Papers: An Analysis of the ACL Anthology
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Marcel Bollmann
+JobTitle#==#
+Organization#==#University of Copenhagen, Denmark
+Abstract#==#The field of natural language processing is experiencing a period of unprecedented growth, and with it a surge of published papers. This represents an opportunity for us to take stock of how we cite the work of other researchers, and whether this growth comes at the expense of "forgetting" about older literature. In this paper, we address this question through bibliographic analysis. By looking at the age of outgoing citations in papers published at selected ACL venues between 2010 and 2019, we find that there is indeed a tendency for recent papers to cite more recent work, but the rate at which papers older than 15 years are cited has remained relatively stable.
+Author{1}{Firstname}#=%=#Marcel
+Author{1}{Lastname}#=%=#Bollmann
+Author{1}{Username}#=%=#mbollmann
+Author{1}{Email}#=%=#marcel@di.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Desmond
+Author{2}{Lastname}#=%=#Elliott
+Author{2}{Username}#=%=#delliott
+Author{2}{Email}#=%=#de@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+
+==========

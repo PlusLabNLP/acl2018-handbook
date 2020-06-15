@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Efficient EUD Parsing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Mark Anderson
+JobTitle#==#
+Organization#==#Universidade da Coruña, Campus Elviña, s/n, 15071 A Coruña, España
+Abstract#==#We present the system submission from the FASTPARSE team for the EUD Shared Task at IWPT 2020. We engaged with the task by focusing on efficiency. For this we considered training costs and inference efficiency. Our models are a combination of distilled neural dependency parsers and a rule-based system that projects UD trees into EUD graphs. We obtained an average ELAS of 74.04 for our official submission, ranking 4th overall.
+Author{1}{Firstname}#=%=#Mathieu
+Author{1}{Lastname}#=%=#Dehouck
+Author{1}{Username}#=%=#dehouck
+Author{1}{Email}#=%=#mathieu.dehouck@udc.es
+Author{1}{Affiliation}#=%=#Universidade da Coruña
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Anderson
+Author{2}{Username}#=%=#markda
+Author{2}{Email}#=%=#mark.anderson.nlp@gmail.com
+Author{2}{Affiliation}#=%=#Universidade da Coruña
+Author{3}{Firstname}#=%=#Carlos
+Author{3}{Lastname}#=%=#Gómez-Rodríguez
+Author{3}{Username}#=%=#cgomezr
+Author{3}{Email}#=%=#cgomezr@udc.es
+Author{3}{Affiliation}#=%=#Universidade da Coruña
+
+==========

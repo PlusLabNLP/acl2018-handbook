@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Staying True to Your Word: (How) Can Attention Become Explanation?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Martin Tutek
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb, Croatia
+Abstract#==#The attention mechanism has quickly become ubiquitous in NLP.
+In addition to improving performance of models, attention has been widely used as a glimpse into the inner workings of NLP models.
+The latter aspect has in the recent years become a common topic of discussion, most notably in recent work of Jain and Wallace; Wiegreffe and Pinter.
+With the shortcomings of using attention weights as a tool of transparency revealed, the attention mechanism has been stuck in a limbo without concrete proof when and whether it can be used as an explanation.
+In this paper, we provide an explanation as to why attention has seen rightful critique when used with recurrent networks in sequence classification tasks.
+We propose a remedy to these issues in the form of a word level objective and our findings give credibility for attention to provide faithful interpretations of recurrent models.
+Author{1}{Firstname}#=%=#Martin
+Author{1}{Lastname}#=%=#Tutek
+Author{1}{Username}#=%=#mtutek
+Author{1}{Email}#=%=#martin.tutek@gmail.com
+Author{1}{Affiliation}#=%=#University of Zagreb
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Snajder
+Author{2}{Username}#=%=#jsnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

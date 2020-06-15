@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Evaluating Compositionality of Sentence Representation Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Angelica Willis
+JobTitle#==#
+Organization#==#Stanford University, 450 Serra Mall, Stanford, CA 94305
+Abstract#==#We evaluate the compositionality of general-purpose sentence encoders by proposing two different metrics to quantify compositional understanding capability of sentence encoders. We introduce a novel metric, Polarity Sensitivity Scoring (PSS), which utilizes sentiment perturbations as a proxy for measuring compositionality. We then compare results from PSS  with those obtained via our proposed extension of a metric called Tree Reconstruction Error (TRE) \citep{andreas2019measuring} where compositionality is evaluated by measuring how well a true representation producing model can be approximated by a model that explicitly combines representations of its primitives.
+Author{1}{Firstname}#=%=#Hanoz
+Author{1}{Lastname}#=%=#Bhathena
+Author{1}{Email}#=%=#hanozbhathena@gmail.com
+Author{1}{Affiliation}#=%=#Stanford University, SCPD
+Author{2}{Firstname}#=%=#Angelica
+Author{2}{Lastname}#=%=#Willis
+Author{2}{Username}#=%=#angelicaw
+Author{2}{Email}#=%=#angelicawillis94@gmail.com
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Nathan
+Author{3}{Lastname}#=%=#Dass
+Author{3}{Email}#=%=#ndass0101@gmail.com
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

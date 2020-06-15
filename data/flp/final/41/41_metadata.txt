@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Metaphor Detection using Context and Concreteness
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rowan Hall Maudslay
+JobTitle#==#
+Organization#==#University of Cambridge
+Abstract#==#We report the results of our system on the Metaphor Detection Shared Task at the Second Workshop on Figurative Language Processing 2020. Our model is an ensemble, utilising contextualised and static distributional semantic representations, along with word-type concreteness ratings. Using these features, it predicts word metaphoricity with a deep multi-layer perceptron. We are able to best the state-of-the-art from the 2018 Shared Task by an average of 8.0% F1, and finish fourth in both sub-tasks in which we participate.
+Author{1}{Firstname}#=%=#Rowan
+Author{1}{Lastname}#=%=#Hall Maudslay
+Author{1}{Username}#=%=#rowanhm
+Author{1}{Email}#=%=#rh635@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Tiago
+Author{2}{Lastname}#=%=#Pimentel
+Author{2}{Username}#=%=#tpimentel
+Author{2}{Email}#=%=#tpimentelms@gmail.com
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Ryan
+Author{3}{Lastname}#=%=#Cotterell
+Author{3}{Username}#=%=#rcotterell
+Author{3}{Email}#=%=#ryan.cotterell@gmail.com
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Simone
+Author{4}{Lastname}#=%=#Teufel
+Author{4}{Username}#=%=#simone.teufel
+Author{4}{Email}#=%=#simone.teufel@googlemail.com
+Author{4}{Affiliation}#=%=#Cambridge University
+
+==========

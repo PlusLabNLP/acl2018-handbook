@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Language Models as Fact Checkers?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nayeon Lee
+JobTitle#==#
+Organization#==#Hong Kong University of Science and Technology
+Abstract#==#Recent work has suggested that language models (LMs) store both common-sense and factual knowledge learned from pre-training data. In this paper, we leverage this implicit knowledge to create an effective end-to-end fact checker using a solely a language model, without any external knowledge or explicit retrieval components. While previous work on extracting knowledge from LMs have focused on the task of open-domain question answering, to the best of our knowledge, this is the first work to examine the use of language models as fact checkers. In a closed-book setting, we show that our zero-shot LM approach outperforms a random baseline on the standard FEVER task, and that our finetuned LM compares favorably with standard baselines. Though we do not ultimately outperform methods which use explicit knowledge bases, we believe our exploration shows that this method is viable and has much room for exploration.
+Author{1}{Firstname}#=%=#Nayeon
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Username}#=%=#nyleeaa
+Author{1}{Email}#=%=#nyleeaa@connect.ust.hk
+Author{1}{Affiliation}#=%=#Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Belinda
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#belindali
+Author{2}{Email}#=%=#belindali@fb.com
+Author{2}{Affiliation}#=%=#Facebook
+Author{3}{Firstname}#=%=#Sinong
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#sinongwang
+Author{3}{Email}#=%=#sinongwang@fb.com
+Author{3}{Affiliation}#=%=#Facebook AI
+Author{4}{Firstname}#=%=#Wen-tau
+Author{4}{Lastname}#=%=#Yih
+Author{4}{Username}#=%=#scottyih
+Author{4}{Email}#=%=#scottyih.review@gmail.com
+Author{4}{Affiliation}#=%=#Facebook AI Research
+Author{5}{Firstname}#=%=#Hao
+Author{5}{Lastname}#=%=#Ma
+Author{5}{Username}#=%=#gabema
+Author{5}{Email}#=%=#gabe.hao.ma@gmail.com
+Author{5}{Affiliation}#=%=#Facebook AI
+Author{6}{Firstname}#=%=#Madian
+Author{6}{Lastname}#=%=#Khabsa
+Author{6}{Username}#=%=#madian
+Author{6}{Email}#=%=#madian.kh@gmail.com
+Author{6}{Affiliation}#=%=#Facebook
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#201
+FinalPaperTitle#=%=#Jointly Masked Sequence-to-Sequence Model for Non-Autoregressive Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Junliang Guo
+JobTitle#==#
+Organization#==#University of Science and Technology of China, Hefei, Anhui, China
+Abstract#==#The masked language model has received remarkable attention due to its effectiveness on various natural language processing tasks. However, few works have adopted this technique in the sequence-to-sequence models. In this work, we introduce a jointly masked sequence-to-sequence model and explore its application on non-autoregressive neural machine translation~(NAT). 
+Specifically, we first empirically study the functionalities of the encoder and the decoder in NAT models, and find that the encoder 
+takes a more important role than the decoder regarding the translation quality. Therefore, we propose to train the encoder more rigorously by masking the encoder input while training. 
+As for the decoder, we propose to train it based on the consecutive masking of the decoder input with an $n$-gram loss function 
+to alleviate the problem of translating duplicate words.
+The two types of masks are applied to the model jointly at the training stage.
+We conduct experiments on five benchmark machine translation tasks, 
+and our model can achieve $27.69$/$32.24$ BLEU scores on WMT14 English-German/German-English tasks with $5+$ times speed up compared with an autoregressive model.
+Author{1}{Firstname}#=%=#Junliang
+Author{1}{Lastname}#=%=#Guo
+Author{1}{Username}#=%=#guojunll
+Author{1}{Email}#=%=#guojunll@mail.ustc.edu.cn
+Author{1}{Affiliation}#=%=#University of Science and Technology of China
+Author{2}{Firstname}#=%=#Linli
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Username}#=%=#linlixu
+Author{2}{Email}#=%=#linlixu@ustc.edu.cn
+Author{2}{Affiliation}#=%=#University of Science and Technology of China
+Author{3}{Firstname}#=%=#Enhong
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#cheneh
+Author{3}{Email}#=%=#cheneh@ustc.edu.cn
+Author{3}{Affiliation}#=%=#University of Science and Technology of China
+
+==========

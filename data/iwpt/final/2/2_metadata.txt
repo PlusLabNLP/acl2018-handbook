@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#End-to-End Negation Resolution as Graph Parsing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Robin Kurtz
+JobTitle#==#
+Organization#==#Linköping University, Sweden
+Abstract#==#We present a neural end-to-end architecture for negation resolution
+  based on a formulation of the task as a graph parsing problem.
+  Our approach allows for the straightforward inclusion of many types
+  of graph-structured features without the need for
+  representation-specific heuristics.
+  In our experiments, we specifically gauge the usefulness of
+  syntactic information for negation resolution.
+  Despite the conceptual simplicity of our architecture, we achieve
+  state-of-the-art results on the Conan Doyle benchmark dataset,
+  including a new top result for our best model.
+Author{1}{Firstname}#=%=#Robin
+Author{1}{Lastname}#=%=#Kurtz
+Author{1}{Username}#=%=#robku
+Author{1}{Email}#=%=#robin.kurtz@liu.se
+Author{1}{Affiliation}#=%=#Linköping University
+Author{2}{Firstname}#=%=#Stephan
+Author{2}{Lastname}#=%=#Oepen
+Author{2}{Username}#=%=#oe
+Author{2}{Email}#=%=#oe@ifi.uio.no
+Author{2}{Affiliation}#=%=#Universitetet i Oslo
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Kuhlmann
+Author{3}{Username}#=%=#marco.kuhlmann
+Author{3}{Email}#=%=#marco.kuhlmann@liu.se
+Author{3}{Affiliation}#=%=#Linköping University
+
+==========

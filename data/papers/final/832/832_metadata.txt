@@ -1,0 +1,60 @@
+SubmissionNumber#=%=#832
+FinalPaperTitle#=%=#LogicalFactChecker: Leveraging Logical Operations for Fact Checking with Graph Module Network
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Wanjun Zhong
+JobTitle#==#
+Organization#==#Sun Yat-Sen University; No. 135, Xingang Xi Road, Guangzhou, 510275, P. R. China
+Abstract#==#Verifying the correctness of a textual statement requires not only semantic reasoning about the meaning of words, but also symbolic reasoning about logical operations like count, superlative, aggregation, etc. In this work, we propose LogicalFactChecker, a neural network approach capable of leveraging logical operations for fact checking. It achieves the state-of-the-art performance on TABFACT, a large-scale, benchmark dataset built for verifying a textual statement with semi-structured tables. This is achieved by a graph module network built upon the Transformer-based architecture. With a textual statement and a table as the input, LogicalFactChecker automatically derives a program (a.k.a. logical form) of the statement in a semantic parsing manner. A heterogeneous graph is then constructed to capture not only the structures of the table and the program, but also the connections between inputs with different modalities. Such a graph reveals the related contexts of each word in the statement, the table and the program. The graph is used to obtain graph-enhanced contextual representations of words in Transformer-based architecture. After that, a program-driven module network is further introduced to exploit the hierarchical structure of the program, where semantic compositionality is dynamically modeled along the program structure with a set of function-specific modules. Ablation experiments suggest that both the heterogeneous graph and the module network are important to obtain strong results.
+Author{1}{Firstname}#=%=#Wanjun
+Author{1}{Lastname}#=%=#Zhong
+Author{1}{Username}#=%=#wanjunzhong
+Author{1}{Email}#=%=#zhongwj25@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#Sun Yat-Sen University
+Author{2}{Firstname}#=%=#Duyu
+Author{2}{Lastname}#=%=#Tang
+Author{2}{Username}#=%=#dytang
+Author{2}{Email}#=%=#dutang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Zhangyin
+Author{3}{Lastname}#=%=#Feng
+Author{3}{Username}#=%=#zyfeng
+Author{3}{Email}#=%=#zyfeng@ir.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+Author{4}{Firstname}#=%=#Nan
+Author{4}{Lastname}#=%=#Duan
+Author{4}{Username}#=%=#nanduan
+Author{4}{Email}#=%=#nanduan@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Asia
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Username}#=%=#mingzhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft research asia
+Author{6}{Firstname}#=%=#Ming
+Author{6}{Lastname}#=%=#Gong
+Author{6}{Username}#=%=#yiming1013
+Author{6}{Email}#=%=#migon@microsoft.com
+Author{6}{Affiliation}#=%=#STCA NLP Group, Microsoft (China)
+Author{7}{Firstname}#=%=#Linjun
+Author{7}{Lastname}#=%=#Shou
+Author{7}{Username}#=%=#linjunshou
+Author{7}{Email}#=%=#lisho@microsoft.com
+Author{7}{Affiliation}#=%=#STCA NLP Group, Microsoft
+Author{8}{Firstname}#=%=#Daxin
+Author{8}{Lastname}#=%=#Jiang
+Author{8}{Username}#=%=#djiang
+Author{8}{Email}#=%=#djiang@microsoft.com
+Author{8}{Affiliation}#=%=#STCA NLP Group, Microsoft
+Author{9}{Firstname}#=%=#Jiahai
+Author{9}{Lastname}#=%=#Wang
+Author{9}{Username}#=%=#wangjiahai
+Author{9}{Email}#=%=#wangjiah@mail.sysu.edu.cn
+Author{9}{Affiliation}#=%=#Sun Yat-sen University
+Author{10}{Firstname}#=%=#Jian
+Author{10}{Lastname}#=%=#Yin
+Author{10}{Username}#=%=#yinjian
+Author{10}{Email}#=%=#issjyin@mail.sysu.edu.cn
+Author{10}{Affiliation}#=%=#Sun Yat-Sen University
+
+==========

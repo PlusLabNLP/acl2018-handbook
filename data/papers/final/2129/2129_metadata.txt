@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2129
+FinalPaperTitle#=%=#A Tale of Two Perplexities: Sensitivity of Neural Language Models to Lexical Retrieval Deficits in Dementia of the Alzheimer’s Type
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Trevor Cohen
+JobTitle#==#
+Organization#==#University of Washington, Seattle
+Abstract#==#In recent years there has been a burgeoning interest in the use of computational methods to distinguish between elicited speech samples produced by patients with dementia, and those from healthy controls. The difference between perplexity estimates from two neural language models (LMs) - one trained on transcripts of speech produced by healthy participants and one trained on those with dementia - as a single feature for diagnostic classification of unseen transcripts has been shown to produce state-of-the-art performance. However, little is known about why this approach is effective, and on account of the lack of case/control matching in the most widely-used evaluation set of transcripts (DementiaBank), it is unclear if these approaches are truly diagnostic, or are sensitive to other variables. In this paper, we interrogate neural LMs trained on participants with and without dementia by using synthetic narratives previously developed to simulate progressive semantic dementia by manipulating lexical frequency. We find that perplexity of neural LMs is strongly and differentially associated with lexical frequency, and that using a mixture model resulting from interpolating control and dementia LMs improves upon the current state-of-the-art for models trained on transcript text exclusively.
+Author{1}{Firstname}#=%=#Trevor
+Author{1}{Lastname}#=%=#Cohen
+Author{1}{Username}#=%=#trovc
+Author{1}{Email}#=%=#cohenta@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Serguei
+Author{2}{Lastname}#=%=#Pakhomov
+Author{2}{Username}#=%=#pakh0002
+Author{2}{Email}#=%=#pakh0002@umn.edu
+Author{2}{Affiliation}#=%=#University of Minnesota
+
+==========

@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#202
+FinalPaperTitle#=%=#The NiuTrans System for WNGT 2020 Efficiency Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Chi Hu
+JobTitle#==#
+Organization#==#Northeastern University, China
+Abstract#==#This paper describes the submissions of the NiuTrans Team to the WNGT 2020 Efficiency Shared Task. We focus on the efficient implementation of deep Transformer models (Wang et al., 2019; Li et al., 2019) using NiuTensor, a flexible toolkit for NLP tasks. We explored the combination of deep encoder and shallow decoder in Transformer models via model compression and knowledge distillation. The neural machine translation decoding also benefits from FP16 inference, attention caching, dynamic batching, and batch pruning. Our systems achieve promising results in both translation quality and efficiency, e.g., our fastest system can translate more than 40,000 tokens per second with an RTX 2080 Ti while maintaining 42.9 BLEU on newstest2018.
+Author{1}{Firstname}#=%=#Chi
+Author{1}{Lastname}#=%=#Hu
+Author{1}{Username}#=%=#huchi
+Author{1}{Email}#=%=#huchinlp@foxmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Bei
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#libei
+Author{2}{Email}#=%=#libei_neu@outlook.com
+Author{2}{Affiliation}#=%=#Northeastern University
+Author{3}{Firstname}#=%=#Yinqiao
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#liyinqiao
+Author{3}{Email}#=%=#li.yin.qiao.2012@hotmail.com
+Author{3}{Affiliation}#=%=#Northeastern University
+Author{4}{Firstname}#=%=#Ye
+Author{4}{Lastname}#=%=#Lin
+Author{4}{Username}#=%=#linye0726
+Author{4}{Email}#=%=#linye2015@outlook.com
+Author{4}{Affiliation}#=%=#Northeastern University
+Author{5}{Firstname}#=%=#Yanyang
+Author{5}{Lastname}#=%=#Li
+Author{5}{Username}#=%=#yanyangli
+Author{5}{Email}#=%=#blamedrlee@outlook.com
+Author{5}{Affiliation}#=%=#Northeastern University
+Author{6}{Firstname}#=%=#Chenglong
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#clwang1119@gmail.com
+Author{6}{Affiliation}#=%=#Northeastern University
+Author{7}{Firstname}#=%=#Tong
+Author{7}{Lastname}#=%=#Xiao
+Author{7}{Username}#=%=#xiaotong
+Author{7}{Email}#=%=#xiaotong@mail.neu.edu.cn
+Author{7}{Affiliation}#=%=#Northeastern University
+Author{8}{Firstname}#=%=#Jingbo
+Author{8}{Lastname}#=%=#Zhu
+Author{8}{Username}#=%=#zhujingbo
+Author{8}{Email}#=%=#zhujingbo@mail.neu.edu.cn
+Author{8}{Affiliation}#=%=#Northeastern University
+
+==========

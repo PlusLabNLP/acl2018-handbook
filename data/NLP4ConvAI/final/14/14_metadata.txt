@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Probing Neural Dialog Models for Conversational Understanding
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Abdelrhman Saleh
+JobTitle#==#
+Organization#==#Harvard University, Cambridge, MA
+Abstract#==#The predominant approach to open-domain dialog generation relies on end-to-end training of neural models on chat datasets. However, this approach provides little insight as to what these models learn (or do not learn) about engaging in dialog. In this study, we analyze the internal representations learned by neural open-domain dialog systems and evaluate the quality of these representations for learning basic conversational skills. Our results suggest that standard open-domain dialog systems struggle with answering questions, inferring contradiction, and determining the topic of conversation, among other tasks. We also find that the dyadic, turn-taking nature of dialog is not fully leveraged by these models. By exploring these limitations, we highlight the need for additional research into architectures and training methods that can better capture high-level information about dialog.
+Author{1}{Firstname}#=%=#Abdelrhman
+Author{1}{Lastname}#=%=#Saleh
+Author{1}{Username}#=%=#abdulsaleh
+Author{1}{Email}#=%=#abdelrhman_saleh@college.harvard.edu
+Author{1}{Affiliation}#=%=#Harvard SEAS
+Author{2}{Firstname}#=%=#Tovly
+Author{2}{Lastname}#=%=#Deutsch
+Author{2}{Username}#=%=#tovly
+Author{2}{Email}#=%=#tdeutsch@college.harvard.edu
+Author{2}{Affiliation}#=%=#Harvard University
+Author{3}{Firstname}#=%=#Stephen
+Author{3}{Lastname}#=%=#Casper
+Author{3}{Email}#=%=#scasper@college.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard University
+Author{4}{Firstname}#=%=#Yonatan
+Author{4}{Lastname}#=%=#Belinkov
+Author{4}{Username}#=%=#belinkov
+Author{4}{Email}#=%=#belinkov@mit.edu
+Author{4}{Affiliation}#=%=#MIT CSAIL
+Author{5}{Firstname}#=%=#Stuart
+Author{5}{Lastname}#=%=#Shieber
+Author{5}{Username}#=%=#shieber
+Author{5}{Email}#=%=#shieber@seas.harvard.edu
+Author{5}{Affiliation}#=%=#Harvard University
+
+==========

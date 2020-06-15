@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Political Advertising Dataset: the use case of the Polish 2020 Presidential Elections
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Political campaigns are full of promises or political ads made by candidates on social media. We present the first publicly open dataset for detecting specific text chunks and categories of political advertising in the Polish language. It contains 1,701 human-annotated tweets tagged with nine categories, which constitute electioneering under Polish electoral law. We achieved a 0.65 inter-annotator agreement (Cohen's kappa score). Additional annotator resolved the mismatches between the first two annotators improving the consistency and complexity of the annotation process. We used the newly created dataset to train a well established neural tagger (achieving 70% percent points F1 score). We also present a possible direction of use cases for such datasets and models with an initial analysis of the Polish 2020 Presidential Elections Twitter buzz.
+Author{1}{Firstname}#=%=#Lukasz
+Author{1}{Lastname}#=%=#Augustyniak
+Author{1}{Username}#=%=#laugustyniak
+Author{1}{Email}#=%=#lukasz.augustyniak@pwr.edu.pl
+Author{1}{Affiliation}#=%=#Wroclaw University of Science and Technology
+Author{2}{Firstname}#=%=#Krzysztof
+Author{2}{Lastname}#=%=#Rajda
+Author{2}{Email}#=%=#krzysztof.rajda@pwr.edu.pl
+Author{2}{Affiliation}#=%=#Wrocław University of Science and Technology
+Author{3}{Firstname}#=%=#Tomasz
+Author{3}{Lastname}#=%=#Kajdanowicz
+Author{3}{Email}#=%=#tomasz.kajdanowicz@pwr.edu.pl
+Author{3}{Affiliation}#=%=#Wroclaw University of Science and Technology
+Author{4}{Firstname}#=%=#Michał
+Author{4}{Lastname}#=%=#Bernaczyk
+Author{4}{Email}#=%=#michal.bernaczyk@uwr.edu.pl
+Author{4}{Affiliation}#=%=#Wrocław University
+
+==========

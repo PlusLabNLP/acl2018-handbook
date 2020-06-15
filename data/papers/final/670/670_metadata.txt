@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#670
+FinalPaperTitle#=%=#{T}ree-{S}tructured {N}eural {T}opic {M}odel
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Masaru Isonuma
+JobTitle#==#
+Organization#==#The University of Tokyo
+Abstract#==#This paper presents a tree-structured neural topic model, which has a topic distribution over a tree with an infinite number of branches.
+Our model parameterizes an unbounded ancestral and fraternal topic distribution by applying doubly-recurrent neural networks.
+With the help of autoencoding variational Bayes, our model improves data scalability and achieves competitive performance when inducing latent topics and tree structures, as compared to a prior tree-structured topic model (Blei et al., 2010).
+This work extends the tree-structured topic model such that it can be incorporated with neural models for downstream tasks.
+Author{1}{Firstname}#=%=#Masaru
+Author{1}{Lastname}#=%=#Isonuma
+Author{1}{Username}#=%=#misonuma
+Author{1}{Email}#=%=#isonuma@ipr-ctr.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Junichiro
+Author{2}{Lastname}#=%=#Mori
+Author{2}{Username}#=%=#mori
+Author{2}{Email}#=%=#mori@mi.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Danushka
+Author{3}{Lastname}#=%=#Bollegala
+Author{3}{Username}#=%=#danushka
+Author{3}{Email}#=%=#danushka@liverpool.ac.uk
+Author{3}{Affiliation}#=%=#University of Liverpool/Amazon
+Author{4}{Firstname}#=%=#Ichiro
+Author{4}{Lastname}#=%=#Sakata
+Author{4}{Username}#=%=#isakata20
+Author{4}{Email}#=%=#isakata@ipr-ctr.t.u-tokyo.ac.jp
+Author{4}{Affiliation}#=%=#The University of Tokyo
+
+==========

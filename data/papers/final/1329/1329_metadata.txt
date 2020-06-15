@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#1329
+FinalPaperTitle#=%=#Using Context in Neural Machine Translation Training Objectives
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Danielle Saunders
+JobTitle#==#
+Organization#==#University of Cambridge
+Abstract#==#We present Neural Machine Translation (NMT) training using document-level metrics with batch-level documents. Previous sequence-objective approaches to NMT training focus exclusively on sentence-level metrics like sentence BLEU which do not correspond to the desired evaluation metric, typically document BLEU. Meanwhile research into document-level NMT training focuses on data or model architecture rather than training procedure. We find that each of these lines of research has a clear space in it for the other, and propose merging them with a scheme that allows a document-level evaluation metric to be used in the NMT training objective.
+
+We first sample pseudo-documents from sentence samples. We then approximate the expected document BLEU gradient with Monte Carlo sampling for use as a cost function in Minimum Risk Training (MRT). This two-level sampling procedure gives NMT performance gains over sequence MRT and maximum-likelihood training. We demonstrate that training is more robust for document-level metrics than with sequence metrics. We further demonstrate improvements on NMT with TER and Grammatical Error Correction (GEC) using GLEU, both metrics used at the document level for evaluations.
+Author{1}{Firstname}#=%=#Danielle
+Author{1}{Lastname}#=%=#Saunders
+Author{1}{Username}#=%=#dcsaunders
+Author{1}{Email}#=%=#ds636@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Felix
+Author{2}{Lastname}#=%=#Stahlberg
+Author{2}{Username}#=%=#fs439
+Author{2}{Email}#=%=#fstahlberg@gmail.com
+Author{2}{Affiliation}#=%=#Google Research
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Byrne
+Author{3}{Username}#=%=#wjb31
+Author{3}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

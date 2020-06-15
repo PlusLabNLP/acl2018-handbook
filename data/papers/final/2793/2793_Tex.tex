@@ -1,0 +1,501 @@
+%
+% File acl2020.tex
+%
+%% Based on the style files for ACL 2020, which were
+%% Based on the style files for ACL 2018, NAACL 2018/19, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2020}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+\aclfinalcopy % Uncomment this line for the final submission
+\def\aclpaperid{2793} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\title{Learning to Ask More: Semi-Autoregressive Sequential Question Generation under Dual-Graph Interaction}
+
+\author{ 
+	Zi Chai, Xiaojun Wan \\
+	Wangxuan Institue of Computer Technology, Peking University \\ 
+	The MOE Key Laboratory of Computational Linguistics, Peking University \\
+	\texttt{\{chaizi, wanxiaojun\}@pku.edu.cn}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Traditional Question Generation (TQG) aims to generate a question given an input passage and an answer.
+When there is a sequence of answers, we can perform Sequential Question Generation (SQG) to produce a series of interconnected questions. Since the frequently occurred information omission and coreference between questions, SQG is rather challenging.
+Prior works regarded SQG as a dialog generation task and recurrently produced each question. However, they suffered from problems caused by error cascades and could only capture limited context dependencies.
+To this end, we generate questions in a semi-autoregressive way. Our model divides questions into different groups and generates each group of them in parallel. During this process, it builds two graphs focusing on information from passages, answers respectively and performs dual-graph interaction to get information for generation. Besides, we design an answer-aware attention mechanism and the coarse-to-fine generation scenario. 
+Experiments on our new dataset containing 81.9K questions show that our model substantially outperforms prior works.
+\end{abstract}
+
+
+\section{Introduction}
+Question Generation (QG) aims to teach machines to ask human-like questions from a range of inputs such as natural language texts~\cite{du2017learning}, images~\cite{mostafazadeh2016generating} and knowledge bases~\cite{serban2016generating}. 
+In recent years, QG has received increasing attention due to its wide applications. Asking questions in dialog systems can enhance the interactiveness and persistence of human-machine interactions~\cite{Wang2018learning}. QG benefits Question Answering (QA) models through data augmentation~\cite{duan2017question} and joint learning~\cite{sun2019joint}. It also plays an important role in education~\cite{heilman2010good} and clinical~\cite{weizenbaum1966eliza} systems.
+
+Traditional Question Generation (TQG) is defined as the reverse task of QA, i.e., a passage and an answer (often a certain span from the passage) are provided as inputs, and the output is a question grounded in the input passage targeting on the given answer. 
+When there is a sequence of answers, we can perform Sequential Question Generation (SQG) to produce a series of interconnected questions. 
+Table~\ref{Tab:Example} shows an example comparing the two tasks. Intuitively, questions in SQG are much more concise and we can regard them with given answers as QA-style conversations.
+Since it is more natural for human beings to test knowledge or seek information through coherent questions~\cite{reddy2019coqa}, SQG has wide applications, e.g., enabling virtual assistants to ask questions based on previous discussions to get better user experiences.
+
+\begin{table*}[t!]
+	\small
+	\centering
+	\begin{tabular}{clll}
+		\hline
+		\multicolumn{4}{l}{\begin{tabular}[c]{@{}l@{}}\textit{(1)} A small boy named {\color{blue}[John]$_1$} was at the park one day. \\ \textit{(2)} He was {\color{blue}[swinging]$_2$} {\color{blue}[on the swings]$_3$} and {\color{blue}[his friend]$_4$} named {\color{blue}[Tim]$_5$} {\color{blue}[played on the slide]$_6$}.\\ \textit{(3)} John wanted to play on the slide now.\\ \textit{(4)} He asked Tim {\color{blue}[if he could play on the slide]}$_7$.\\ \textit{(5)} Tim said {\color{blue}[no]$_8$}, and he cried.\end{tabular}} \\ \hline
+		\multicolumn{1}{c|}{Turn}                                                                                  & \multicolumn{1}{c|}{TQG}                                                                                                                    & \multicolumn{1}{c|}{SQG}                                                                                                     & \multicolumn{1}{c}{Answer}                                                                                   \\ \hline
+		\multicolumn{1}{c|}{1}                                                                                 & \multicolumn{1}{l|}{Who was at the park?}                                                                                                   & \multicolumn{1}{l|}{Who was at the park?}                                                                                    & John                                                                                                         \\
+		\multicolumn{1}{c|}{2}                                                                                 & \multicolumn{1}{l|}{What was John doing at the park?}                                                                                       & \multicolumn{1}{l|}{What was he doing there?}                                                                                & swinging                                                                                                     \\
+		\multicolumn{1}{c|}{3}                                                                                 & \multicolumn{1}{l|}{Where was John swinging?}                                                                                               & \multicolumn{1}{l|}{On what?}                                                                                                & on the wings                                                                                                 \\
+		\multicolumn{1}{c|}{4}                                                                                 & \multicolumn{1}{l|}{Who was with John at the park?}                                                                                         & \multicolumn{1}{l|}{Who was he with?}                                                                                        & his friend                                                                                                   \\
+		\multicolumn{1}{c|}{5}                                                                                 & \multicolumn{1}{l|}{What is the name of John's friend?}                                                                                & \multicolumn{1}{l|}{Named?}                                                                                                  & Tim                                                                                                          \\
+		\multicolumn{1}{c|}{6}                                                                                 & \multicolumn{1}{l|}{What was Tim doing?}                                                                                               & \multicolumn{1}{l|}{What was he doing?}                                                                                      & played on the side                                                                                           \\
+		\multicolumn{1}{c|}{7}                                                                                 & \multicolumn{1}{l|}{What did John asked Tim?}                                                                                     & \multicolumn{1}{l|}{What did John asked him?}                                                                                & if he could play on the slide                                                                                \\
+		\multicolumn{1}{c|}{8}                                                                                 & \multicolumn{1}{l|}{What did Tim say to John?}                                                                                               & \multicolumn{1}{l|}{What did he say?}                                                                                        & no                                                                                                           \\ \hline
+	\end{tabular}
+	\caption{Comparison of Traditional Question Generation (TQG) and Sequential Question Generation (SQG). The given passage contains five sentences, and we mark the given answers in the passage as blue.}
+	\label{Tab:Example}
+\end{table*}
+
+SQG is a challenging task in two aspects. 
+First, information omissions between questions lead to complex context dependencies. Second, there are frequently occurred  coreference between questions.
+Prior works regarded SQG as a dialog generation task (namely conversational QG) where questions are generated \textbf{autoregressively} (recurrently), i.e., a new question is produced based on previous outputs.
+Although many powerful dialog generation models can be adopted to address the challenges mentioned above, there are two major obstacles. First, these models suffer from problems caused by error cascades. Empirical results from experiments reveal that the later generated questions tend to become shorter with lower quality, especially becoming more irrelevant to given answers, e.g., ``Why?'', ``What else?''. Second, models recurrently generating each question struggle to capture complex context dependencies, e.g., long-distance coreference.
+Essentially, SQG is rather different from dialog generation since all answers are given in advance and they act as strict semantic constraints during text generation.
+
+To deal with these problems, we perform SQG in a \textbf{semi-autoregressive} way. More specifically, we divide target questions into different groups (questions in the same group are closely-related) and generate all groups in parallel. Especially, our scenario becomes \textbf{non-autoregressive} if each group only contains a single question. 
+Since we eliminate the recurrent dependencies between questions in different groups, the generation process is much faster and our model can better deal with the problems caused by error cascades.
+To get information for the generation process, we perform dual-graph interaction where a \textit{passage-info graph} and an \textit{answer-info graph} are constructed and iteratively updated with each other. The passage-info graph is used for better capturing context dependencies, and the answer-info graph is used to make generated questions more relevant to given answers with the help of our answer-aware attention mechanism. 
+Besides, a coarse-to-fine text generation scenario is adopted for the coreference resolution between questions.
+
+Prior works performed SQG on CoQA~\cite{reddy2019coqa}, a high-quality dataset for conversational QA. As will be further illustrated, a number of data in CoQA are not suitable for SQG. Some researchers~\cite{gao2019interconnected} directly discarded these data, but the remaining questions may become incoherent, e.g., the antecedent words for many pronouns are unclear. To this end, we build a new dataset from CoQA containing 81.9K relabeled questions. 
+Above all, the main contributions of our work are:
+
+\begin{itemize}
+	\item We build a new dataset containing 7.2K passages and 81.9K questions from CoQA. It is \textbf{the first} dataset specially built for SQG as far as we know.
+	\item We perform semi-autoregressive SQG under dual-graph interaction. This is \textbf{the first time} that SQG is not regarded as a dialog generation task. We also propose an answer-aware attention mechanism and a coarse-to-fine generation scenario for better performance.
+	\item We use extensive experiments to show that our model outperforms previous work by a substantial margin. Further analysis illustrated the impact of different components.
+\end{itemize}
+
+Dataset for this paper is available at \url{https://github.com/ChaiZ-pku/Sequential-QG}.
+
+\section{Related Work}
+\subsection{Traditional Question Generation}
+TQG was traditionally tackled by rule-based methods~\cite{lindberg2013generating, mazidi2014linguistic, hussein2014automatic, labutov2015deep}, e.g., filling handcrafted templates under certain transformation rules. 
+With the rise of data-driven learning approaches, neural networks (NN) have gradually taken the mainstream. \citet{du2017learning} pioneered NN-based QG by adopting the Seq2seq architecture~\cite{sutskever2014sequence}. 
+Many ideas were proposed since then to make it more powerful, including answer position features~\cite{zhou2017neural}, specialized pointer mechanism~\cite{zhao2018paragraph}, self-attention~\cite{scialom2019self}, answer separation~\cite{kim2019improving}, etc. In addition, enhancing the Seq2seq model into more complicated structures using variational inference, adversarial training and reinforcement learning~\cite{yao2018teaching, kumar2019putting} have also gained much attention.
+There are also some works performing TQG under certain constraints, e.g., controlling the topic~\cite{hu2018aspect} and difficulty~\cite{gao2018difficulty} of questions.
+Besides, combining QG with QA~\cite{wang2017joint, tang2017question, sun2019joint} is also focused by many researchers.
+
+\subsection{Sequential Question Generation}
+As human beings tend to use coherent questions for knowledge testing or information seeking, SQG plays an important role in many applications. 
+Prior works regarded SQG as a dialog generation task (namely conversational QA). 
+\citet{pan2019reinforced} pre-trained a model performing dialog generation, and then fine-tuned its parameters by reinforcement learning to make generated questions relevant to given answers.
+\citet{gao2019interconnected} iteratively generated questions from previous outputs and leveraged off-the-shelf coreference resolution models to introduce a coreference loss. Besides, additional human annotations were performed on sentences from input passages for conversation flow modeling.
+
+Since SQG is essentially different from dialog generation, we discard its dialog view and propose \textbf{the first} semi-autoregressive SQG model. Compared with using the additional human annotation in \citet{gao2019interconnected}, our dual-graph interaction deals with context dependencies automatically. Besides, our answer-aware attention mechanism is much simpler than the fine-tuning process in \citet{pan2019reinforced} to make outputs more answer-relevant.
+
+\section{Dataset}
+As the reverse task of QA, QG is often performed on existing QA datasets, e.g., SQuAD~\cite{rajpurkar2016squad}, NewsQA~\cite{trischler2016newsqa}, etc. 
+However, questions are independent in most QA datasets, making TQG the only choice. 
+In recent years, the appearance of large-scale conversational QA datasets like CoQA~\cite{reddy2019coqa} and QuAC~\cite{choi2018quac} makes it possible to train data-driven SQG models, and the CoQA dataset was widely adopted by prior works. Since the test set of CoQA is not released to the public, its training set (7.2K passages with 108.6K questions) was split into new training and validation set, and its validation set (0.5K passages with 8.0K questions) was used as the new test set.
+
+Different from traditional QA datasets where the answers are certain spans from given passages, answers in CoQA are free-form text\footnote{Only 66.8\% of the answers overlap with the passage after ignoring punctuations and case mismatches.} with corresponding evidence highlighted in the passage. This brings a big trouble for QG. 
+As an example, consider the yes/no questions counting for 19.8\% among all questions. Given the answer ``\textit{yes}'' and a corresponding evidence ``\textit{...the group first met on July 5 , 1967 on the campus of the Ohio state university...}'', there are many potential outputs, e.g., ``\textit{Did the group first met in July?}'', ``\textit{Was the group first met in Ohio state?}''. When considering the context formed by previous questions, the potential outputs become even more (the original question in CoQA is ``\textit{Was it founded the same year?}''). 
+When there are too many potential outputs with significantly different semantic meanings, training a converged QG model becomes extremely difficult. 
+For this reason, \citet{gao2019interconnected} directly discarded questions that cannot be answered by spans from passages. However, the remaining questions can become incoherent, e.g., antecedent words for many pronouns become unclear. 
+
+To this end, we build a new dataset from CoQA by preserving all 7.7K passages and rewriting all questions and answers. More specifically, we first discarded questions that are unsuitable for SQG. To do so, three annotators were hired to vote for the preservation/deletion of each question. A question is preserved if and only if it can be answered by a certain span from the input passage\footnote{Using certain spans from input passages (instead of free-formed text) as answers is a conversion in QG. In this way, the number of potential output questions is greatly reduced.}. As a result, most deleted questions were yes/no questions and unanswerable questions. Besides, the kappa score between results given by different annotators was 0.83, indicating that there was a strong inter-agreement between annotators. 
+For the remaining QA-pairs, we preserved their original order and replaced all answers by spans from input passages. After that, we rewrote all questions to make them coherent. To avoid over-editing, annotators were asked to modify as little as possible. It turned out that in most cases, they only needed to deal with coreference since the prototype of pronouns were no longer existed. To further guarantee the annotation quality, we hired another project manager who daily examined 10\% of the annotations from each annotator and provided feedbacks. The annotation was considered valid only when the accuracy of examined results surpasses 95\%. 
+Our annotation process took 2 months, and we finally got a dataset containing 7.7K passage with 81.9K QA-pairs.
+
+\begin{figure*}
+	\centering
+	\includegraphics[scale=0.33]{pics/model.png}
+	\caption{Architecture of our model. The example is corresponding with Table~\ref{Tab:Example}}
+	\label{Fig:model}
+\end{figure*}
+
+\section{Model}
+In this section, we formalize the SQG task and introduce our model in details. 
+As shown in Figure~\ref{Fig:model}, the model first builds a passage-info graph and an answer-info graph by its passage-info encoder and answer-info encoder respectively. 
+After that, it performs dual-graph interaction to get representations for the decoder.
+Finally, different groups of questions are generated in parallel under a coarse-to-fine scenario. 
+Both encoders and decoder take the form of Transformer architecture~\cite{vaswani2017attention}.
+  
+\subsection{Problem Formalization} \label{Sec:Problem}
+In SQG, we input a passage composed by $n$ sentences $P = \{S_i\}_{i=1}^{n}$ and a sequence of $l$ answers $\{A_i\}_{i=1}^{l}$, each $A_i$ is a certain span of $P$. 
+The target output is a series of questions $\{Q_i\}_{i=1}^{l}$, where $Q_i$ can be answered by $A_i$ according to the input passage $P$ and previous QA-pairs.
+
+As mentioned above, we perform SQG in an semi-autoregressive way, i.e., target questions are divided into into different groups. Ideally, questions in the same group are expected to be closely-related, while questions in different groups should be as independent as possible. Our model takes a simple but effective unsupervised question clustering method. The intuition is: if two answers come from the same sentence, the two corresponding questions are likely to be closely-related. 
+More specifically, if the $k$-th sentence $S_k$ contains $p$ answers from $\{A_i\}_{i=1}^{l}$, we cluster them into an \textit{answer-group} $\mathbb{G}^{ans}_k = \{A_{j_1}, A_{j_2}, ..., A_{j_p}\}$ where $j_1 < j_2 < ... < j_p$ are continuous indexes from $\{1, 2, ..., l\}$. By replacing each answer in $\mathbb{G}^{ans}_k$ with its corresponding question, we get a \textit{question-group} $\mathbb{G}^{ques}_k = \{Q_{j_1}, Q_{j_2}, ..., Q_{j_p}\}$, and we further define a corresponding \textit{target-output} $T_k$ as  ``$Q_{j_1}~[sep]~Q_{j_2}~[sep]~...~ [sep]~Q_{j_p}$'' where ``$[sep]$'' is a special token.
+In Table~\ref{Tab:Example}, there are four target outputs $T_1, T_2, T_4, T_5$ (no $T_3$ since the third sentence in Table~\ref{Tab:Example} do not contain any answer), $T_2$ is ``\textit{What was he doing there? [sep] On What? [sep] ... [sep] What was Tim doing?}'' corresponding with the second sentence, and $T_5$ is ``\textit{What did he say?}'' corresponding with the last sentence. 
+Supposing there are $m$ answer- and question-groups, then our model generates all the $m$ target-outputs in parallel, i.e., all questions are generated in a semi-autoregressive way.
+
+\subsection{Passage-Info encoder}
+As shown in Figure~\ref{Fig:model}, our passage-info encoder maps input sentences $\{S_i\}_{i = 1}^{n}$ into their sentence representations $\{\bm{s}_i\}_{i = 1}^{n}$ where every $\bm{s}_i \in \mathbb{R}^{2 d_s}$.
+We regard each sentence as a sequence of words and replace each word by its pre-trained word embeddings~\cite{mikolov2013distributed} which is a dense vector. 
+After that, the sequence of word embeddings is sent to a Transformer-encoder that outputs a corresponding sequence of vectors. By averaging these vectors, we get the \textit{local representation} $\bm{s}^{local}_i \in \mathbb{R}^{d_s}$ of $S_i$.
+
+After we get the local representations of all sentences $\{S_i\}_{i = 1}^{n}$ in passage $P$, another Transformer-encoder is adopted to map the sequence $\{\bm{s}^{local}_i\}_{i = 1}^{n}$ into $\{\bm{s}^{global}_i\}_{i = 1}^{n}$, where $\bm{s}^{global}_i \in \mathbb{R}^{d_s}$ is called the \textit{global representation} for $S_i$.
+In other words, the passage-info encoder takes a hiarachical structure.
+We expect the local and global representations capture intra- and inter- sentence context dependencies respectively, and the final representation for $S_i$ is $\bm{s}_i = [\bm{s}^{local}_i; \bm{s}^{global}_i] \in \mathbb{R}^{2 d_s}$.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.3]{pics/encoder.png}
+	\caption{Illustration of answer embeddings and an answer-attention head for the forth sentence in Table~\ref{Tab:Example}.}
+	\label{Fig:encoder}
+\end{figure}
+
+\subsection{Answer-Info Encoder} \label{Sec:AnswerEncoder}
+As described in Section~\ref{Sec:Problem}, the input answers are split into $m$ answer-groups. For $\mathbb{G}^{ans}_k$ corresponding with the $k$-th sentence of the input passage, we define \{$\mathbb{G}^{ans}_k$, $S_k$\} as a ``rationale'' $R_k$, and further obtain its representation $\bm{r}_k \in \mathbb{R}^{2 d_r}$ by our answer-info encoder, which is based on a Transformer-encoder regarding sentence $S_k$ as its input.
+ 
+To further consider information from $\mathbb{G}^{ans}_k$, two more components are added into the answer-info encoder, as shown in Figure~\ref{Fig:encoder}.
+First, we adopt the \textit{answer-tag features.} For each word $w_i$ in sentence $S_k$, the embedding layer computes $[\bm{x_i}^w; \bm{x_i}^a] \in \mathbb{R}^{d_r}$ as its final embedding, where $\bm{x_i}^w$ is the pre-trained word embedding and $\bm{x_i}^a$ contains answer-tag features. More specifically, we give $w_i$ a label from \{O, B, I\} if it is ``outside'', ``the beginning of'', ``inside of'' any answer from $\mathbb{G}^{ans}_k$, and use a vector corresponding with this label as $\bm{x_i}^a$. Second, we design the \textit{answer-aware attention mechanism.} In the multi-head attention layer, there are not only $l_h$ vanilla ``self-attention heads'', but also $l_a$ ``answer-aware heads'' for each answer in $\mathbb{G}^{ans}_k$. In an answer-aware head corresponding with answer $A$, words not belonging to $A$ are masked out during the attention mechanism. The output of the Transformer-encoder is a sequence of vectors $\bm{H}_k^{enc} = \{\bm{h}_k^{enc}\}$ ($\bm{h}_k^{enc} \in \mathbb{R}^{d_r}$) corresponding with the input word sequence from $S_k$. 
+
+After getting $\bm{H}_k^{enc}$, we further send the sequence of vectors to a bi-directional GRU network~\cite{chung2014empirical} and take its last hidden state as the final rationale embedding $\bm{r}_k \in \mathbb{R}^{2 d_r}$.
+
+\subsection{Graph Construction}
+In our SQG task, the input passage contain $n$ sentences, which can be represented by $\{\bm{s}_i\}_{i=1}^n \in \mathbb{R}^{2 d_s}$ leveraging the passage-info encoder.
+Among all input sentences, only $m$ of them contain certain answers ($m \le n$), and we further define $m$ rationales based on these sentences, $ \{\mathbb{G}^{ans}_{F(j)}, S_{F(j)}\}_{j=1}^m$, where the $j$-th rationale ($j \in \{1, 2, ..., m\}$) corresponds with the $F(j)$-th sentence of the input passage ($F(j) \in \{1, 2, ..., n\}$). For the example in Table~\ref{Tab:Example}, $n = 5, m = 4, F(j)$ maps $\{1, 2, 3, 4\}$ into $\{1, 2, 4, 5\}$ respectively. 
+Using the answer-info encoder, we can get representations $\{\bm{r}_{F(j)}\}_{j=1}^m \in \mathbb{R}^{2 d_s}$ for all rationales. 
+
+We further build a passage-info graph $\mathcal{V}$ and an answer-info graph $\mathcal{U}$ based on these representations. 
+For the rationale corresponding with the $k$-th sentence of the input passage, we add node $u_k, v_k$ in graph $\mathcal{U}, \mathcal{V}$ respectively. 
+For the example in Table~\ref{Tab:Example}, $\mathcal{U}$ is compused by $\{u_1, u_2, u_4, u_5\}$ and $\mathcal{V}$ is compused by $\{v_1, v_2, v_4, v_5\}$, as shown in Figure~\ref{Fig:model}.
+The initial representation for $u_k$ is computed by:
+\begin{equation}
+\bm{u}_k^{(0)} = ReLU(\bm{W}_u [\bm{r}_k; \bm{e}_k] + \bm{b}_u) \in \mathbb{R}^{d_g}
+\end{equation}
+where $\bm{r}_k \in \mathbb{R}^{2 d_r}$ is the rationale representation, $\bm{e}_k \in \mathbb{R}^{d_e}$ is the embedding of index $k$, and $\bm{W}_u \in \mathbb{R}^{(d_e + 2 d_r) \times d_g}, \bm{b}_u \in \mathbb{R}^{d_g}$ are trainable parameters. 
+And the initial representation for $v_k$ is:
+\begin{equation}
+\bm{v}_k^{(0)} = ReLU(\bm{W}_v [\bm{s}_k; \bm{e}_k] + \bm{b}_v) \in \mathbb{R}^{d_g}
+\end{equation}
+where $\bm{s}_k \in \mathbb{R}^{2 d_s}$ is the sentence representation and $\bm{W}_v \in \mathbb{R}^{(d_e + 2 d_s) \times d_g}, \bm{b}_v \in \mathbb{R}^{d_g}$ are parameters.
+
+After adding these points, there are $m$ nodes in $\mathcal{U}$ and $\mathcal{V}$ respectively. For $u_i, u_j \in \mathcal{U}$ corresponding with the $i$-th, $j$-th input sentences respectively, we add an edge between them if $|i-j| < \delta$ ($\delta$ is a hyper-parameter). Similarly, we add edges into $\mathcal{V}$ and the two graphs are isomorphic. 
+
+\subsection{Dual-Graph Interaction}
+In our answer-info graph $\mathcal{U}$, node representations contain information focused on input answers. In the passage-info graph $\mathcal{V}$, node representations capture inter- and intra-sentence context dependencies. 
+As mentioned above, a good question should be answer-relevant as well as capturing complex context dependencies. So we should combine information in both $\mathcal{U}$ and $\mathcal{V}$. 
+Our dual-graph interaction is a process where $\mathcal{U}$ and $\mathcal{V}$ iteratively update node representations with each other. At time step $t$, representations $\bm u_i^{(t-1)}, \bm v_i^{(t-1)}$ are updated into $\bm u_i^{(t)}, \bm v_i^{(t)}$ respectively under three steps.
+
+First, we introduce the \textit{information transfer step}. Taking $\mathcal{U}$ as an example. Each $\bm u_i^{(t-1)}$ receives $\bm a_i^{(t)}$ from its neighbors (two nodes are neighbors if there is an edge between them) by:
+\begin{equation} \label{Eq:first}
+\bm a^{(t)}_i = \sum_{u_j \in \mathcal{N}(u_i)} \bm W_{ij} ~ \bm u^{(t-1)}_j + \bm b_{ij} 
+\end{equation}
+where $\mathcal{N}(u_i)$ is composed by all neighbors of node $u_i$ and $\bm{W}_{ij} \in \mathbb{R}^{d_g \times d_g}$, $\bm{b}_{ij} \in \mathbb{R}^{d_g}$ are parameters controlling the information transfer. For $u_i, u_j$ and $u_{i'}, u_{j'}$ whose $|i-j| = |i'- j'|$, we use the same $\bm{W}$ and $\bm{b}$. In other words, we can first create a sequence of matrices $\{\bm{W}_1, \bm{W}_2, ...\} \in \mathbb{R}^{d_g \times d_g}$ and vectors $\{\bm{b}_1, \bm{b}_2, ...\} \in \mathbb{R}^{d_g}$, and then use $|i-j|$ as the index to retrieve the corresponding $\bm W_{ij}, \bm b_{ij}$. For graph $\mathcal{V}$, we similarly compute
+\begin{equation} 
+\tilde{\bm a}^{(t)}_i = \sum_{v_j \in \mathcal{N}(v_i)} \tilde{\bm W}_{ij} ~ \bm v^{(t-1)}_j + \tilde{\bm b}_{ij}
+\end{equation}
+
+In the second step, we \textit{compute multiple gates}. For each $\bm u_i^{(t-1)}$ in $\mathcal{U}$, we compute an ``update gate'' $\bm y_i^{(t)}$ and a ``reset gate'' $\bm z_i^{(t)}$ by:
+\begin{equation}
+\begin{split}
+\bm y_i^{(t)} &= \sigma (\bm W_y [\bm a_i^{(t)}; \bm u_i^{(t-1)}]) \\
+\bm z_i^{(t)} &= \sigma (\bm W_z [\bm a_i^{(t)}; \bm u_i^{(t-1)}]) \\
+\end{split}
+\end{equation}
+where $\bm W_y, \bm W_z \in \mathbb{R}^{2 d_g \times d_g}$ are paramenters. Similarly, for each $\bm v_i^{(t-1)}$ in $\mathcal{V}$ we compute:
+\begin{equation}
+\begin{split}
+\tilde{\bm y}_i^{(t)} &= \sigma (\tilde{\bm W}_y [\tilde{\bm a}_i^{(t)}; \bm v_i^{(t-1)}]) \\
+\tilde{\bm z}_i^{(t)} &= \sigma (\tilde{\bm W}_z [\tilde{\bm a}_i^{(t)}; \bm v_i^{(t-1)}])
+\end{split}
+\end{equation}
+
+Finally, we perform the \textit{information interaction}, where each graph updates its node representations under the control of gates computed by \textbf{the other graph}. More specifically, node representations are updated by:
+\begin{equation} \label{Eq:last}
+\begin{split}
+\bm u_i^{(t)} =& ~\tilde{\bm z}_i^{(t)} \odot \bm u_i^{(t-1)} + (\bm 1 - \tilde{\bm z}_i^{(t)}) ~\odot \\
+& ~ tanh (\bm W_a \bm [\bm a_i^{(t)}; \tilde{\bm y}_i^{(t)} \odot \bm u_i^{(t-1)}]) \\
+\bm v_i^{(t)} =& \bm z_i^{(t)} \odot \bm v_i^{(t-1)} + (\bm 1 - \bm z_i^{(t)}) ~\odot \\
+& ~ tanh (\tilde{\bm W}_a \bm [\tilde{\bm a}_i^{(t)}; \bm y_i^{(t)} \odot \bm v_i^{(t-1)}])
+\end{split}
+\end{equation}
+The idea of using gates computed by the other graph to update node representations in each graph enables the information in input passage and answers interact more frequently, both of which act as strong constraints to the output questions. 
+
+By iteratively performing the three steps for $T$ times, we get the final representations $\bm u_i^{(T)}$ and $\bm v_i^{(T)}$ for $u_i \in \mathcal{U}$ and $v_i \in \mathcal{V}$.
+
+\subsection{Decoder}
+For the $k$-th input sentence $S_k$ containing certain answers, our decoder generates the corresponding target-output $T_k$. As mentioned above, the generation process of all target-outputs are independent.
+The decoder is based on the Transformer-decoder containing a (masked) multi-head self-attention layer, a multi-head encoder-attention layer, a feed-forward projection layer and the softmax layer.
+To compute keys and values for the multi-head encoder-attention layer, it leverages the outputs from our answer-info encoder, i.e., it uses $\bm{H}_k^{enc}$ described in Section~\ref{Sec:AnswerEncoder} to generate $T_k$ corresponding with the $k$-th sentence.
+
+To generate coherent questions, we need to capture the context dependencies between input answers and passages. To this end, both $\bm u_k^{(T)}$ and $\bm v_k^{(T)}$, which comes from the dual-graph interaction process, are used as additional inputs for generating $T_k$.  
+First, they are concatenated with the output of each head from both (masked) multi-head self-attention layer and multi-head encoder-attention layer before sending to the next layer.
+Second, they are concatenated with inputs of the feed-forward projection layer.
+The two representations are also expected to make generated questions more relevant to given inputs.
+
+\subsection{Coarse-To-Fine Generation}
+Since the semi-autoregressive generation scenario makes it more challenging to deal with coreferences between questions (especially questions in different groups), we perform question generation in a coarse-to-fine manner.
+The decoder only needs to generate ``coarse questions'' where all pronouns are replaced by a placeholder  ``\textit{[p]}''. To get final results, we use an additional pre-trained coreference resolution model to fill pronouns into different placeholders. 
+To make a fair comparison, we use the coreference resolution model~\cite{clark2016deep} adopted by prior works \textit{CoreNQG}~\cite{du2018harvesting} and \textit{CorefNet}~\cite{gao2019interconnected}. 
+
+\begin{table*}[t!]
+	\centering
+	\begin{tabular}{c|ccc|cc|c}
+		\hline
+		Model                                 & BLEU$_1$          & BLEU$_2$          & BLEU$_3$          & ROUGE         & METEOR            & Length                    \\ \hline
+		Seq2seq~\cite{du2017learning}         & 28.72             & 10.16             & 6.30              & 31.75             & 13.10             & 5.78                      \\
+		CopyNet~\cite{see2017get}             & 29.40             & 12.14             & 6.53              & 33.71             & 14.20             & 5.77                      \\
+		CoreNQG~\cite{du2018harvesting}      & \underline{33.84} & 14.69             & 8.72              & 34.38             & 14.05             & \underline{\textbf{6.08}} \\ \hline
+		VHRED~\cite{serban2017hierarchical}   & 30.51             & 11.95             & 6.94              & 31.93             & 12.42             & 4.83                      \\
+		HRAN~\cite{xing2018hierarchical}      & 30.18             & 12.53             & 7.65              & 35.06             & 12.95             & 5.02                      \\ \hline
+		ReDR~\cite{pan2019reinforced}         & 30.84             & 15.17             & 9.81             & 35.58             & 15.41             & 5.58                      \\
+		CorefNet~\cite{gao2019interconnected} & 32.72             & \underline{16.01} & \underline{10.97} & \underline{37.48} & \underline{16.09} & 5.96                      \\ \hline
+		Ours                                  & \textbf{35.70}    & \textbf{19.64}    & \textbf{12.06}    & \textbf{38.15}    & \textbf{17.26}    & 6.03                      \\ \hline
+	\end{tabular}
+	\caption{Experimental results. In each column, we bold / underline the best performance over all / baseline methods, respectively. Under the evaluation of BLEU, ROUGE-L and METEOR, our model differs from others (except the METEOR score of CorefNet) significantly based on the one-side paired t-test with $p < 0.05$.}
+	\label{Tab:Results}
+\end{table*}
+
+\section{Experiments}
+In this section, we first introduce the three kinds of baselines. After that, we compare and analyse the results of different models under both automatic and human evaluation metrics.
+
+\subsection{Baselines}
+We compared our model with seven baselines that can be divided into three groups. First, we used three TQG models: the \textit{Seq2seq~\cite{du2017learning}} model which pioneered NN-based QG, the \textit{CopyNet~\cite{see2017get}} model that introduced pointer mechanism, and \textit{CoreNQG~\cite{du2018harvesting}} which used hybrid features (word, answer and coreference embeddings) for encoder and adopted copy mechanism for decoder.
+Second, since prior works regarded SQG as a conversation generation task, we directly used two powerful multi-turn dialog systems: the latent variable hierarchical recurrent encoder-decoder architecture \textit{VHRED~\cite{serban2017hierarchical}}, and the hierarchical recurrent attention architecture \textit{HRAN~\cite{xing2018hierarchical}}. 
+Third, we used prior works mentioned above. For \citet{pan2019reinforced}, we adopted the \textit{ReDR} model which had the best performance. For \citet{gao2019interconnected}, we used the \textit{CorefNet} model. Although a \textit{CFNet} in this paper got better results, it required additional human annotations denoting the relationship between input sentences and target questions. So it is unfair to compare \textit{CFNet} with other methods. 
+
+It is worth mentioning that when generating questions using the second and third groups of baselines, \textbf{only previously generated} outputs were used as dialog history, i.e., the gold standard questions are \textbf{remain unknown} (in some prior works, they were directly used as dialog history, which we think is inappropriate in practice).
+
+\begin{table}[t!]
+	\centering
+	\begin{tabular}{cccc}
+		\hline
+		& SQuAD & CoQA & Ours \\ \hline
+		Passage  & 117   & 271  & 271  \\
+		Question & 10.1  & 5.5  & 6.6  \\
+		Answer   & 3.2   & 2.7  & 3.2  \\ \hline
+	\end{tabular}
+	\caption{Average number of words in passage, question and answer in different datasets.}
+	\label{Tab:Length}
+\end{table}
+
+
+\subsection{Automatic Evaluation Metrics}
+Following the conventions, we used BLEU~\cite{papineni2002bleu}, ROUGE-L~\cite{lin2004rouge} and METEOR~\cite{lavie2007meteor} as automatic evaluation metrics. We also computed the average word-number of generated questions. As shown in Table~\ref{Tab:Results}, our semi-autoregressive model outperformed other methods substantially.
+
+When we focus on the second and third groups of baselines regarding SQG as multi-turn dialog generation tasks, we can find that models from the third group are more powerful since they make better use of information from input passages. Besides, models from the second group tend to generate shortest questions. Finally, similar to the problem that dialog systems often generate dull and responses, these models also suffer from producing general but meaningless questions like ``What?'', ``How?'', ``And else?''.
+
+When we compare the first and third groups of baselines (which are all QG models), it is not surprising that SQG models show more advantages than TQG models, as they take the relationships between questions into consideration. Besides, CorefNet gets better performance among all baselines, especially ReDR. This indicates that comparing with implicitly performing reinforcement learning through QA models, explicitly using target answers as inputs can be more effective.
+
+Note that if we directly compare the performance between SQG task and TQG task under the same model (e.g., the Seq2seq model), evaluation scores for TQG tasks are much higher, which is not surprising since SQG is harder than TQG dealing with dependencies between questions. 
+Another fact lies in the computation of automatic evaluation metrics. As shown in Table~\ref{Tab:Results}, questions in SQG datasets are much shorter than TQG. Since our automatic evaluation metrics are based on $n$-gram overlaps between generated and gold standard questions, the scores significantly go down with the growth of $n$ (for this reason, the BLEU$_4$ scores are not listed in Table~\ref{Tab:Results}). This also illustrates the importance of performing human evaluation. 
+
+\begin{table}[t!]
+	\centering
+	\begin{tabular}{cccc}
+		\hline
+		& CoreNQG & CorefNet      & Ours          \\ \hline
+		Fluency      & 2.36    & \textbf{2.51} & 2.44          \\
+		Coherence    & 1.53    & 2.04		   & \textbf{2.17} \\
+		Coreference  & 1.15    & \textbf{1.56} & 1.54 \\
+		Answerability & 1.12    & 1.18          & \textbf{1.45} \\
+		Relevance    & 1.47    & 1.24          & \textbf{1.62} \\ \hline
+	\end{tabular}
+	\caption{Human evaluation results. Scores of each metric ranges between 1 to 3 and larger scores are better.}
+	\label{Tab:Human}
+\end{table}
+
+\subsection{Human Evaluation}
+It is generally acknowledged that automatic evaluation metrics are far from enough for SQG. So we perform human evaluation in five aspects. \textit{Fluency} measures if a question is grammatically correct and is fluent to read. \textit{Coherence} measures if a question is coherent with previous ones. \textit{Coreference} measures if a question uses correct pronouns. \textit{Answerability} measures if a question is targeting on the given answer. \textit{Relevance} measures if a question is grounded in the given passage. 
+Since performing human evaluation is rather expensive and time-consuming, we picked up the best TQG model (CoreNQG), SQG model (CorefNet) to compare with our model. 
+We randomly selected 20 passages from the test set with 207 given answers and asked 10 native speakers to evaluate the outputs of each model independently. Under each aspect, reviewers are asked to choose a score from \{1, 2, 3\}, where 3 indicates the best quality. 
+
+The average scores for each evaluation metric are shown in Table~\ref{Tab:Human}.
+We can find that our model gets the best or competitive performance in each metric. When it comes to fluency, all models get high performance, and the CorefNet that outputs shortest questions gets the best score. As for coherence, CoreNQG gets poor results since it generates questions independently. When it comes to coreference, our model only slightly lower than CorefNet, which added direct supervision to attention weights by a coreference resolution model. 
+Finally, our model gets the best performance on both answerabity and relevance. However, it is worth noticing that all models get rather poor performances under these two aspects, indicating that making a concise question meaningful (i.e., targeting on given answers) with more information from input passage (i.e., performing proper information elimination) is a major challenge in SQG. Besides, as pointed out by Table~\ref{Tab:Length}, questions in our SQG dataset are significantly shorter compared with TQG dataset, making subtle errors much easier to be noticed.
+
+\begin{table}[t!]
+	\centering
+	\begin{tabular}{cccc}
+		\hline
+		& BLEU$_3$ & ROUGE & METEOR \\ \hline
+		\textit{No interact}  & 11.35    & 37.31     & 17.05  \\
+		\textit{Uni-graph} & 9.86     & 36.44     & 15.87  \\
+		\textit{Uni-heads} & 10.33    & 37.48     & 16.24  \\
+		\textit{No co2fine}       & 11.75    & 37.92     & 17.17  \\
+		\textit{Non-auto}     & 7.79     & 33.62     & 14.83  \\ \hline
+		Ours         & 12.06    & 38.15     & 17.26  \\ \hline
+	\end{tabular}
+	\caption{Results for ablation tests.}
+	\label{Tab:Ablation}
+\end{table}
+
+
+\begin{table*}[t!]
+	\small
+	\centering
+	\begin{tabular}{clll}
+		\hline
+		\multicolumn{4}{l}{\begin{tabular}[c]{@{}l@{}} Peter was a very sad puppy. He had been inside of the pet store for a very long time. In fact, he had been there for \\ {\color{blue}[three months]$_1$}! Peter had seen many other puppies find a person; he began to wonder why he could not get one. \\ He thought that {\color{blue}[maybe his fur was not pretty enough or maybe his bark was not loud enough]$_2$}. He tried and tried \\ to please every person who came to the store, but they all picked smaller puppies. However, one day all of this \\ changed. {\color{blue}[Sammie]$_3$} came into the  store looking for {\color{blue}[a golden puppy]$_4$}. She wanted a puppy she could snuggle \\ with. It so happened that Peter was very sad and tired that day. Sammie came to hold him. Peter wanted to show off \\ {\color{blue}[his bark]$_5$}, but he was {\color{blue}[too tired]$_6$}. He {\color{blue}[fell right to sleep]$_7$}. Sammie loved him at once and loved holding him in her \\ arms. Sammie took {\color{blue}[Peter]$_8$} home that day, and they made lots of fun memories. \end{tabular}} \\ 
+		\hline
+		\multicolumn{1}{c|}{Turn} & 
+		\multicolumn{1}{c|}{Gold Standard} & \multicolumn{1}{c|}{CorefNet} & \multicolumn{1}{c}{Ours} \\ 
+		\hline
+		\multicolumn{1}{c|}{1} &
+		\multicolumn{1}{l|}{How long was Peter at pet store?} &  
+		\multicolumn{1}{l|}{How long he had been there?} & 
+		\multicolumn{1}{l}{How long was Peter there?} \\
+		
+		\multicolumn{1}{c|}{2} &
+		\multicolumn{1}{l|}{Why couldn't he get someone?} &  
+		\multicolumn{1}{l|}{What his fur was?} &  
+		\multicolumn{1}{l}{What did he thought?}  \\
+		
+		\multicolumn{1}{c|}{3} &
+		\multicolumn{1}{l|}{Who came into the store?} &
+		\multicolumn{1}{l|}{Who came into the store?} &
+		\multicolumn{1}{l}{Who came into the store?} \\
+		 
+		\multicolumn{1}{c|}{4} &
+		\multicolumn{1}{l|}{What for?} &
+		\multicolumn{1}{l|}{What was Sammie looking?} &
+		\multicolumn{1}{l}{Who was she looking for?} \\
+		
+		\multicolumn{1}{c|}{5} &
+		\multicolumn{1}{l|}{What did peter wanted to show off?} &
+		\multicolumn{1}{l|}{What Peter wanted show off?} &
+		\multicolumn{1}{l}{What he show off?} \\
+		
+		\multicolumn{1}{c|}{6} &
+		\multicolumn{1}{l|}{Why not?} &
+		\multicolumn{1}{l|}{Why he wanted?} &
+		\multicolumn{1}{l}{What was he?} \\
+		
+		\multicolumn{1}{c|}{7} &
+		\multicolumn{1}{l|}{What did he do with her?} &
+		\multicolumn{1}{l|}{And else?} &
+		\multicolumn{1}{l}{What did he do?} \\
+		
+		\multicolumn{1}{c|}{8} &
+		\multicolumn{1}{l|}{Who did she take?} &
+		\multicolumn{1}{l|}{Who was Sammie took?} &
+		\multicolumn{1}{l}{What Sammie took that day?} \\
+		\hline
+
+	\end{tabular}
+	\caption{Example outputs from different models. We mark the given answers in the passage as blue.}
+	\label{Tab:RunningExamples}
+	\end{table*}
+
+\section{Analysis}
+\subsection{Ablation Test}
+In this section, we perform ablation test to verify the influence of different components in our model. First, we modify Equation~\ref{Eq:last} into
+\begin{equation} \label{Eq:new}
+\begin{split}
+\bm u_i^{(t)} =& ~\bm z_i^{(t)} \odot \bm u_i^{(t-1)} + (\bm 1 - \bm z_i^{(t)}) ~\odot \\
+& ~ tanh (\bm W_a \bm [\bm a_i^{(t)}; \bm y_i^{(t)} \odot \bm u_i^{(t-1)}]) \\
+\bm v_i^{(t)} =& \tilde{\bm z}_i^{(t)} \odot \bm v_i^{(t-1)} + (\bm 1 - \tilde{\bm z_i}^{(t)}) ~\odot \\
+& ~ tanh (\tilde{\bm W}_a \bm [\tilde{\bm a}_i^{(t)}; \tilde{\bm y}_i^{(t)} \odot \bm v_i^{(t-1)}])
+\end{split}
+\end{equation} to get the \textit{no interact} model, i.e., two graphs are independently updated without any interaction. Second, we build a \textit{uni-graph} model by removing the passage-info encoder (the remaining rationale graph is updated similarly to \citet{li2015gated}). Third, we discard the attention-aware heads in the rationale encoder to get a \textit{uni-heads} model. Then, we build the \textit{no co2fine} model without the coarse-to-fine generation scenario. Finally, we build a \textit{non-auto} model that performs SQG in an non-autoregressive way, i.e., each question is generated in parallel.
+
+As shown in Table~\ref{Tab:Ablation}, each component in our model plays an important part. 
+Results for the \textit{no interact} model indicate that compared with independently updating the passage-info graph and answer-info graph, making these information more interacted by our dual-graph interaction scenario is more powerful. 
+Not surprisingly, the \textit{uni-graph} model removing the passage encoder (i.e., less focusing on context dependencies between sentences from input passage), and the \textit{uni-heads} model discarding our answer-aware attention mechanism  (i.e., less focusing on given answers) get significant worse performance compared with our full model. 
+Besides, our coarse-to-fine scenario helps to better deal with the dependencies between questions since there are widespread coreferences. 
+Finally, although the architecture of \textit{non-auto} model is a special case of our model where each group only contains a single question, the performance drops significantly, indicating the importance of using semi-autoregressive generation. However, the dual-graph interaction still makes its performance better than the Seq2seq and CopyNet in Table~\ref{Tab:Results}.
+
+\subsection{Running Examples}
+In Table~\ref{Tab:RunningExamples}, we present some generated examples comparing our model and the strongest baseline CorefNet. On the one hand, our model performs better than CorefNet, especially that the output questions are more targeting on given answers (turn 2, 6, 7). It also correctly deals with coreferences (e.g., distinguishing ``Peter'' and ``Sammie''). On the other hand, the generated questions have poor quality when gold standard questions involve more reasoning (turn 2, 6). Besides, the gold standard questions are more concise as well (turn 4, 6).
+
+\section{Conclusion}
+In this paper, we focus on SQG which is an important yet challenging task. Different from prior works regarding SQG as a dialog generation task, we propose the first semi-autoregressive SQG model, which divides questions into different groups and further generates each group of closely-related questions in parallel. During this process, we first build a passage-info graph, an answer-info graph, and then perform dual-graph interaction to get representations capturing the context dependencies between passages and questions. These representations are further used during our coarse-to-fine generation process. To perform experiments, we analyze the limitation of existing datasets and create the first dataset specially used for SQG containing 81.9K questions. Experimental results show that our model outperforms previous works by a substantial margin.
+
+For future works, the major challenge is generating more meaningful, informative but concise questions. Besides, more powerful question clustering and coarse-to-fine generation scenarios are also worth exploration. Finally, performing SQG on other types of inputs, e.g., images and knowledge graphs, is an interesting topic.
+
+\section*{Acknowledgments}
+This work was supported by National Natural Science Foundation of China (61772036) and Key Laboratory of Science, Technology and Standard in Press Industry (Key Laboratory of Intelligent Press Media Technology). We thank the anonymous reviewers for their helpful comments. Xiaojun Wan is the corresponding author.
+
+\bibliography{acl2020}
+\bibliographystyle{acl_natbib}
+
+\clearpage
+\appendix
+
+\section{Examples of Data Labeling}
+In Table~\ref{Tab:Label}, we use a typical example to show how we relabeled CoQA. As introduced in our paper, we first deleted questions that cannot be answered by certain span from the passage. In Table~\ref{Tab:Label}, we deleted QA-pairs in turn 15, 18, 19 since they are yes/no questions, turn 3, 16 since the answer ``female'' is not a span from the input passage, and turn 13 since its answer is scattered in the sentence ``Some of his cats have orange fur, some have black fur, some are spotted and one is white''.
+
+After deleting questions that are not suitable for SQG, we replaced the remaining answers into certain spans from the input passage. As shown in Table~\ref{Tab:Label}, in most cases the original answers were already a certain span. We slightly modified answers in turn 2, 7 from ``Eight'', ``Three'' into ``8'', ``3'' respectively. Finally, we rewrote all remaining questions to make them coherent. During this process, we mainly deal with information omission and coreference. In our example, we added a word ``feline'' into questions in turn 14 since the question 13 was deleted.
+
+
+\section{Details of Experiments}
+We used the 200-dimentional pre-trained GloVe word embeddings~\footnote{\url{https://nlp.stanford.edu/projects/glove/}} as initial value of word embeddings. During the training process, these embeddings were further fine-tuned. The NLTK\footnote{\url{https://www.nltk.org/}} package was used for sentence splitting and word tokenization. In our model, we set $d_s$, $d_r$, $d_g$ to 200, 256 and 128. For the passage-info encoder, we used 16 heads in the multil-attention layer. For the answer-info encoder, we used 8 vanilla self-attention heads and additional 6 answer-aware heads for each answer. To construct the two graphs, we set $\delta$ into 3. In our dual-graph interaction, we set $T$ into 4. 
+
+To train our model, we used an Adam optimizer with momentums $\beta_1 = 0.9$, $\beta_2 = 0.99$ and $\epsilon = 10^{-8}$ to minimize the loss function. We varied the learning rate throughout training, including a warm-up step and a decreasing step similar to the original Transformer. Besides, we applied dropout between 0.4 and 0.5 to prevent over-fitting. Our model was trained on two Nvidia RTX 2080Ti graphics cards.
+
+Since we noticed that the available baseline codes used different scripts to compute BLEU, ROUGE and METEOR, we used new scripts\footnote{\url{https://github.com/tylin/coco-caption/tree/master/pycocoevalcap}} to compute the evaluation metrics in this paper.
+
+\begin{table*}[t!]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\multicolumn{3}{|l|}{\begin{tabular}[c]{@{}l@{}}Brendan loves cats. He owns 8 cats. He has 7 girl cats and only 1 boy cat. Brendan brushes \\ the cats' hair every day. He makes sure to feed them every morning and evening and always \\ checks to see if the cats have water. Sometimes he feeds them special treats because he loves \\ them. Each cat gets 3 treats. He doesn't give them food like chips and cake and candy, because \\ those foods aren't good for cats. He likes to play with the cats. The cats like to chase balls of \\ paper that Brendan makes for them. Some of his cats have orange fur, some have black fur, \\ some are spotted and one is white. The white cat is Brendan's favorite. She is the first cat he \\ owned. Her name is Snowball. When he first got Snowball she was a kitten. His other cats are \\ named Fluffy, Salem, Jackie, Cola, Snickers, Pumpkin and Whiskers.\end{tabular}} \\ \hline
+		turn                                                                                                                                                                                                                                        & Original QA-Pairs                                                                                                                                                                                                                                                                                                                                 & New QA-Pairs                                                                                                                                                                                                                                                                                                                                  \\ \hline
+		1                                                                                                                                                                                                                                           & What does he care for?  (cats)                                                                                                                                                                                                                                                                                                                    & What does he care for?  (cats)                                                                                                                                                                                                                                                                                                                \\ \hline
+		2                                                                                                                                                                                                                                           & How many does he have? (Eight)                                                                                                                                                                                                                                                                                                                    & How many does he have? (8)                                                                                                                                                                                                                                                                                                                    \\ \hline
+		3                                                                                                                                                                                                                                           & Are there more males or females? (females)                                                                                                                                                                                                                                                                                                        & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+		4                                                                                                                                                                                                                                           & How many? (7 girl cats and only 1 boy cat)                                                                                                                                                                                                                                                                                                        & \begin{tabular}[c]{@{}c@{}}How many males and females? \\ (7 girl cats and only 1 boy cat)\end{tabular}                                                                                                                                                                                                                                       \\ \hline
+		5                                                                                                                                                                                                                                           & What is groomed? (cat's hair)                                                                                                                                                                                                                                                                                                                     & What is groomed? (cat's hair)                                                                                                                                                                                                                                                                                                                 \\ \hline
+		6                                                                                                                                                                                                                                           & What do they get fed? (treats)                                                                                                                                                                                                                                                                                                                    & What do they get fed? (treats)                                                                                                                                                                                                                                                                                                                \\ \hline
+		7                                                                                                                                                                                                                                           & How many? (Three)                                                                                                                                                                                                                                                                                                                                 & How many? (3)                                                                                                                                                                                                                                                                                                                                 \\ \hline
+		8                                                                                                                                                                                                                                           & Why (because he loves them)                                                                                                                                                                                                                                                                                                                       & Why (because he loves them)                                                                                                                                                                                                                                                                                                                   \\ \hline
+		9                                                                                                                                                                                                                                           & \begin{tabular}[c]{@{}c@{}}What foods are avoided? \\ (chips and cake and candy)\end{tabular}                                                                                                                                                                                                                                                     & \begin{tabular}[c]{@{}c@{}}What foods are avoided? \\ (chips and cake and candy)\end{tabular}                                                                                                                                                                                                                                                 \\ \hline
+		10                                                                                                                                                                                                                                          & \begin{tabular}[c]{@{}c@{}}Why? (because those foods aren't \\ good for cats)\end{tabular}
+		& \begin{tabular}[c]{@{}c@{}}Why? (because those foods \\ aren't good for cats)\end{tabular}                                                                                                                                                                                                                                                                                              \\ \hline
+		11                                                                                                                                                                                                                                          & What toys do they like? (balls of paper)                                                                                                                                                                                                                                                                                                          & What toys do they like? (balls of paper)                                                                                                                                                                                                                                                                                                      \\ \hline
+		12                                                                                                                                                                                                                                          & Who creates them? (Brendan)                                                                                                                                                                                                                                                                                                                       & Who creates them? (Brendan)                                                                                                                                                                                                                                                                                                                   \\ \hline
+		13                                                                                                                                                                                                                                          & \begin{tabular}[c]{@{}c@{}}What colors are the felines?\\  (orange, black, spotted, and white)\end{tabular}                                                                                                                                                                                                                                       & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+		14                                                                                                                                                                                                                                          & 
+		\begin{tabular}[c]{@{}c@{}}Which is the most liked?\\  (The white cat) \end{tabular} 
+		
+		& \begin{tabular}[c]{@{}c@{}}Which is the most liked?\\  (The white cat) \end{tabular}                                                                                                                                                                                                                                                                                                \\ \hline
+		15                                                                                                                                                                                                                                          & Is this his original one? (yes)                                                                                                                                                                                                                                                                                                                   & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+		16                                                                                                                                                                                                                                          & What is its gender? (female)                                                                                                                                                                                                                                                                                                                      & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+		17                                                                                                                                                                                                                                          & What does he call it? (Snowball)                                                                                                                                                                                                                                                                                                                  & What does he call it? (Snowball)                                                                                                                                                                                                                                                                                                              \\ \hline
+		18                                                                                                                                                                                                                                          & Is there one called Binky? (No)                                                                                                                                                                                                                                                                                                                   & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+		19                                                                                                                                                                                                                                          & How about Scruff? (No)                                                                                                                                                                                                                                                                                                                            & Deleted                                                                                                                                                                                                                                                                                                                                       \\ \hline
+	\end{tabular}
+	\caption{Example for data labeling.}
+	\label{Tab:Label}
+\end{table*}
+
+\end{document}

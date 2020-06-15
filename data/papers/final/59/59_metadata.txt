@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#A Unified MRC Framework for Named Entity Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#xiaoya li
+JobTitle#==#
+Organization#==#ShannonAI, Beijing
+Abstract#==#The task of named entity recognition (NER)  is normally divided into nested NER and flat NER depending  on whether named entities are nested or not.Models are usually separately developed for the two tasks, since   sequence labeling models, the most widely used backbone for  flat NER,  are only able to assign a single label to a particular token, which is unsuitable for nested NER where a token may be assigned several labels.
+
+In this paper, we propose a unified framework  that is capable of handling both flat and nested NER tasks. Instead of treating the task of NER as a sequence labeling problem, we propose to formulate it as a machine reading comprehension (MRC) task. For example, extracting entities with the \textsc{per} label is formalized as extracting answer spans to the question  ``{\it which person is mentioned in the text}".This formulation naturally  tackles the entity overlapping issue in nested NER: the extraction of two overlapping entities with different categories requires answering two independent questions. Additionally, since the query encodes informative prior knowledge, this strategy facilitates the process of entity extraction, leading to better performances for not only nested NER, but flat NER. 
+
+We conduct experiments on both nested and flat NER datasets.Experiment results demonstrate  the effectiveness of the proposed formulation. We are able to achieve a vast amount of performance boost over current SOTA models on nested NER datasets, i.e.,   +1.28, +2.55, +5.44, +6.37,respectively on ACE04, ACE05, GENIA and KBP17, along with SOTA results on flat NER datasets, i.e., +0.24, +1.95, +0.21, +1.49 respectively on English CoNLL 2003, English OntoNotes 5.0, Chinese MSRA and Chinese OntoNotes 4.0.
+Author{1}{Firstname}#=%=#Xiaoya
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#xiaoyli
+Author{1}{Email}#=%=#xiaoya_li@shannonai.com
+Author{1}{Affiliation}#=%=#Shannon.AI
+Author{2}{Firstname}#=%=#Jingrong
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Username}#=%=#jingrong_feng
+Author{2}{Email}#=%=#jingrong_feng@shannonai.com
+Author{2}{Affiliation}#=%=#Shannon.AI
+Author{3}{Firstname}#=%=#Yuxian
+Author{3}{Lastname}#=%=#Meng
+Author{3}{Username}#=%=#yuxian
+Author{3}{Email}#=%=#yuxian_meng@shannonai.com
+Author{3}{Affiliation}#=%=#Shannon.AI
+Author{4}{Firstname}#=%=#Qinghong
+Author{4}{Lastname}#=%=#Han
+Author{4}{Username}#=%=#beingaway
+Author{4}{Email}#=%=#qinghong_han@shannonai.com
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Fei
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Username}#=%=#wufeizju
+Author{5}{Email}#=%=#wufei@zju.edu.cn
+Author{5}{Affiliation}#=%=#Zhejiang University
+Author{6}{Firstname}#=%=#Jiwei
+Author{6}{Lastname}#=%=#Li
+Author{6}{Username}#=%=#bdlijiwei
+Author{6}{Email}#=%=#jiwei_li@shannonai.com
+Author{6}{Affiliation}#=%=#Shannon.AI
+
+==========

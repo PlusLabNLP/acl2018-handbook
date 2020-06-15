@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Data Augmentation for Transformer-based G2P
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Mans Hulden
+JobTitle#==#
+Organization#==#University of Colorado
+Abstract#==#The Transformer model has been shown to outperform other neural seq2seq models in several character-level tasks. It is unclear, however, if the Transformer would benefit as much as other seq2seq models from data augmentation strategies in the low-resource setting. In this paper we explore strategies for data augmentation in the g2p task together with the Transformer model.  Our results show that a relatively simple alignment-based strategy of identifying consistent input-output subsequences in grapheme-phoneme data coupled together with a subsequent splicing together of such pieces to generate hallucinated data works well in the low-resource setting, often delivering substantial performance improvement over a standard Transformer model.
+Author{1}{Firstname}#=%=#Zach
+Author{1}{Lastname}#=%=#Ryan
+Author{1}{Email}#=%=#Zachary.J.Ryan@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado
+Author{2}{Firstname}#=%=#Mans
+Author{2}{Lastname}#=%=#Hulden
+Author{2}{Username}#=%=#mhulden
+Author{2}{Email}#=%=#mhulden@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Colorado
+
+==========

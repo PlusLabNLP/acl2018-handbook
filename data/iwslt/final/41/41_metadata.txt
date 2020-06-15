@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#CUNI Neural ASR with Phoneme-Level Intermediate Step for~Non-Native~SLT at IWSLT 2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Peter Polak
+JobTitle#==#
+Organization#==#Institute of Formal and Applied Linguistics, Charles University, Prague, Czech republic
+Abstract#==#In this paper, we present our submission to the Non-Native Speech Translation Task for IWSLT 2020. Our main contribution is a proposed speech recognition pipeline that consists of an acoustic model and a phoneme-to-grapheme model. As an intermediate representation, we utilize phonemes.
+We demonstrate that the proposed pipeline surpasses commercially used automatic speech recognition (ASR) and submit it into the ASR track. We complement this ASR with off-the-shelf MT systems to take part also in the speech translation track.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Polák
+Author{1}{Username}#=%=#polak
+Author{1}{Email}#=%=#polak@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University, MFF UFAL
+Author{2}{Firstname}#=%=#Sangeet
+Author{2}{Lastname}#=%=#Sagar
+Author{2}{Username}#=%=#sangeet2020
+Author{2}{Email}#=%=#sagar@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University, MFF UFAL
+Author{3}{Firstname}#=%=#Dominik
+Author{3}{Lastname}#=%=#Macháček
+Author{3}{Username}#=%=#dominik
+Author{3}{Email}#=%=#machacek@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University, Faculty of Mathematics and Physics
+Author{4}{Firstname}#=%=#Ondřej
+Author{4}{Lastname}#=%=#Bojar
+Author{4}{Username}#=%=#bojar
+Author{4}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University, MFF UFAL
+
+==========

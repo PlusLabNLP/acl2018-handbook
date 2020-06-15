@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Developing a Monolingual Sentence Simplification Corpus for Urdu
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#
+Author{1}{Firstname}#=%=#Yusra
+Author{1}{Lastname}#=%=#Anees
+Author{1}{Username}#=%=#y.anees
+Author{1}{Email}#=%=#yusra.anees96@gmail.com
+Author{1}{Affiliation}#=%=#Fatima Jinnah Women University
+Author{2}{Firstname}#=%=#Sadaf
+Author{2}{Lastname}#=%=#Abdul Rauf
+Author{2}{Username}#=%=#sadaf.abdulrauf
+Author{2}{Email}#=%=#sadaf.abdulrauf@gmail.com
+Author{2}{Affiliation}#=%=#Fatima Jinnah Women University
+Author{3}{Firstname}#=%=#Nauman
+Author{3}{Lastname}#=%=#Iqbal
+Author{3}{Username}#=%=#rmnauman
+Author{3}{Email}#=%=#nauman@biit.edu.pk
+Author{3}{Affiliation}#=%=#Capital University of Science and Technology
+Author{4}{Firstname}#=%=#Abdul Basit
+Author{4}{Lastname}#=%=#Siddiqi
+Author{4}{Email}#=%=#abasit.siddiqui@cust.edu.pk
+Author{4}{Affiliation}#=%=#Capital University of Science and Technology
+
+==========

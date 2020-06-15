@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2435
+FinalPaperTitle#=%=#Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Peng Li
+JobTitle#==#
+Organization#==#Pattern Recognition Center, WeChat AI, Tencent Inc., China
+Abstract#==#Non-autoregressive neural machine translation (NAT) predicts the entire target sequence simultaneously and significantly accelerates inference process. However, NAT discards the dependency information in a sentence, and thus inevitably suffers from the multi-modality problem: the target tokens may be provided by different possible translations, often causing token repetitions or missing. To alleviate this problem, we propose a novel semi-autoregressive model RecoverSAT in this work, which generates a translation as a sequence of segments. The segments are generated simultaneously while each segment is predicted token-by-token. By dynamically determining segment length and deleting repetitive segments, RecoverSAT is capable of recovering from repetitive and missing token errors. Experimental results on three widely-used benchmark datasets show that our proposed model achieves more than 4 times speedup while maintaining comparable performance compared with the corresponding autoregressive model.
+Author{1}{Firstname}#=%=#Qiu
+Author{1}{Lastname}#=%=#Ran
+Author{1}{Username}#=%=#qiuran
+Author{1}{Email}#=%=#soulcaptran@tencent.com
+Author{1}{Affiliation}#=%=#Tencent Inc.
+Author{2}{Firstname}#=%=#Yankai
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Username}#=%=#lyk423
+Author{2}{Email}#=%=#yankailin@tencent.com
+Author{2}{Affiliation}#=%=#Pattern Recognition Center, WeChat, Tencent
+Author{3}{Firstname}#=%=#Peng
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#lipeng17
+Author{3}{Email}#=%=#patrickpli@tencent.com
+Author{3}{Affiliation}#=%=#WeChat AI, Tencent Inc., China
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Username}#=%=#jerryitp
+Author{4}{Email}#=%=#withtomzhou@tencent.com
+Author{4}{Affiliation}#=%=#Tencent Inc.
+
+==========

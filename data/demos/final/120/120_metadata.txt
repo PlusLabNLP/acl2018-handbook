@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#Prta: A System to Support the Analysis of Propaganda Techniques in the News
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#
+Organization#==#Qatar Computing Research Institute, HBKU
+Abstract#==#Recent events, such as the 2016 US Presidential Campaign, Brexit and the COVID-19 "infodemic", have brought into the spotlight the dangers of online disinformation. There has been a lot of research focusing on fact-checking and disinformation detection. However, little attention has been paid to the specific rhetorical and psychological techniques used to convey propaganda messages. Revealing the use of such techniques can help promote media literacy and critical thinking, and eventually contribute to limiting the impact of "fake news" and disinformation campaigns.
+ Prta (Propaganda Persuasion Techniques Analyzer) allows users to explore the articles crawled on a regular basis by highlighting the spans in which propaganda techniques occur and to compare them on the basis of their use of propaganda techniques. The system further reports statistics about the use of such techniques, overall and over time, or according to filtering criteria specified by the user based on time interval, keywords, and/or political orientation of the media. Moreover, it allows users to analyze any text or URL through a dedicated interface or via an API. The system is available online: https://www.tanbih.org/prta.
+Author{1}{Firstname}#=%=#Giovanni
+Author{1}{Lastname}#=%=#Da San Martino
+Author{1}{Username}#=%=#gmartino
+Author{1}{Email}#=%=#joedsm@gmail.com
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{2}{Firstname}#=%=#Shaden
+Author{2}{Lastname}#=%=#Shaar
+Author{2}{Username}#=%=#sshaar
+Author{2}{Email}#=%=#sshaar31@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Yifan
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#yifan
+Author{3}{Email}#=%=#yzhang@qf.org.qa
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{4}{Firstname}#=%=#Seunghak
+Author{4}{Lastname}#=%=#Yu
+Author{4}{Username}#=%=#seunghak.yu
+Author{4}{Email}#=%=#seunghak.yu@gmail.com
+Author{4}{Affiliation}#=%=#MIT CSAIL
+Author{5}{Firstname}#=%=#Alberto
+Author{5}{Lastname}#=%=#Barrón-Cedeño
+Author{5}{Username}#=%=#albarron
+Author{5}{Email}#=%=#albarron@gmail.com
+Author{5}{Affiliation}#=%=#Università di Bologna
+Author{6}{Firstname}#=%=#Preslav
+Author{6}{Lastname}#=%=#Nakov
+Author{6}{Username}#=%=#preslav
+Author{6}{Email}#=%=#preslav.nakov@gmail.com
+Author{6}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

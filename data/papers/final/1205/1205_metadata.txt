@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1205
+FinalPaperTitle#=%=#Connecting Embeddings for Knowledge Graph Entity Typing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yu Zhao
+JobTitle#==#
+Organization#==#Southwestern University of Finance and Economics, Liutai Road 555, Wenjiang District, Chengdu, China
+Abstract#==#Knowledge graph (KG) entity typing aims at inferring possible missing entity type instances in KG, which is a very significant but still under-explored subtask of knowledge graph completion. In this paper, we propose a novel approach for KG entity typing which is trained by jointly utilizing local typing knowledge from existing entity type assertions and global triple knowledge in KGs. Specifically, we present two distinct knowledge-driven effective mechanisms of entity type inference. Accordingly, we build two novel embedding models to realize the mechanisms. Afterward, a joint model via connecting them is used to infer missing entity type instances, which favors inferences that agree with both entity type instances and triple knowledge in KGs. Experimental results on two real-world datasets (Freebase and YAGO) demonstrate the effectiveness of our proposed mechanisms and models for improving KG entity typing. The source code and data of this paper can be obtained from: https://github.com/Adam1679/ConnectE .
+Author{1}{Firstname}#=%=#Yu
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Username}#=%=#yuzhao
+Author{1}{Email}#=%=#zhaoyu@swufe.edu.cn
+Author{1}{Affiliation}#=%=#Southwestern University of Finance and Economics
+Author{2}{Firstname}#=%=#anxiang
+Author{2}{Lastname}#=%=#zhang
+Author{2}{Username}#=%=#anxiangz
+Author{2}{Email}#=%=#anxiangz@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#carnegie mellon university
+Author{3}{Firstname}#=%=#Ruobing
+Author{3}{Lastname}#=%=#Xie
+Author{3}{Username}#=%=#thu_xrb
+Author{3}{Email}#=%=#xrbsnowing@163.com
+Author{3}{Affiliation}#=%=#WeChat Search Application Department, Tencent, China
+Author{4}{Firstname}#=%=#Kang
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#micalkang
+Author{4}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Xiaojie
+Author{5}{Lastname}#=%=#WANG
+Author{5}{Username}#=%=#xjwang
+Author{5}{Email}#=%=#xjwang@bupt.edu.cn
+Author{5}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+
+==========

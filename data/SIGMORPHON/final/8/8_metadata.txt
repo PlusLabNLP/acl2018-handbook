@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Multi-Tiered Strictly Local Functions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Phillip Burness
+JobTitle#==#
+Organization#==#University of Ottawa, Canada
+Abstract#==#Tier-based Strictly Local functions, as they have so far been defined, are equipped with just a single tier. In light of this fact, they are currently incapable of modelling simultaneous phonological processes that would require different tiers. In this paper we consider whether and how we can allow a single function to operate over more than one tier. We conclude that multiple tiers can and should be permitted, but that the relationships between them must be restricted in some way to avoid overgeneration. The particular restriction that we propose comes in two parts. First, each input element is associated with a set of tiers that on their own can fully determine what the element is mapped to. Second, the set of tiers associated to a given input element must form a strict superset-subset hierarchy. In this way, we can track multiple, related sources of information when deciding how to process a particular input element. We demonstrate that doing so enables simple and intuitive analyses to otherwise challenging phonological phenomena.
+Author{1}{Firstname}#=%=#Phillip
+Author{1}{Lastname}#=%=#Burness
+Author{1}{Username}#=%=#phillip.burness
+Author{1}{Email}#=%=#pburn036@uottawa.ca
+Author{1}{Affiliation}#=%=#University of Ottawa
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#McMullin
+Author{2}{Email}#=%=#kevin.mcmullin@uottawa.ca
+Author{2}{Affiliation}#=%=#University of Ottawa
+
+==========

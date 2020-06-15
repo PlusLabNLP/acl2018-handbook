@@ -1,0 +1,147 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#40
+CopyrightSigned#=%=#Ryan Cotterell
+JobTitle#==#Assistant Professor
+Organization#==#ETH Zürich
+Abstract#==#A broad goal in natural language processing (NLP) is to develop a system that has the capacity to process any natural language. Most systems, however, are developed using data from just one language such as English. The SIGMORPHON 2020 shared task on morphological reinflection aims to investigate systems' ability to generalize across typologically distinct languages, many of which are low resource. Systems were developed using data from 45 languages and just 5 language families, fine-tuned with data from an additional 45 languages and 10 language families (13 in total), and evaluated on all 90 languages. A total of 22 systems (19 neural) from 10 teams were submitted to the task.
+All four winning systems were neural (two monolingual transformers and two massively multilingual RNN-based models with gated attention). Most teams demonstrate utility of data hallucination and augmentation, ensembles, and multilingual training for low-resource languages. Non-neural learners and manually designed grammars showed competitive and even superior performance on some languages (such as Ingrian, Tajik, Tagalog, Zarma, Lingala), especially with very limited data. Some language families (Afro-Asiatic, Niger-Congo, Turkic) were relatively easy for most systems and achieved over 90\%  mean accuracy while others were more challenging.
+Author{1}{Firstname}#=%=#Ekaterina
+Author{1}{Lastname}#=%=#Vylomova
+Author{1}{Username}#=%=#ivri
+Author{1}{Email}#=%=#evylomova@gmail.com
+Author{1}{Affiliation}#=%=#University of Melbourne
+Author{2}{Firstname}#=%=#Jennifer
+Author{2}{Lastname}#=%=#White
+Author{2}{Username}#=%=#jw2088
+Author{2}{Email}#=%=#jw2088@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Elizabeth
+Author{3}{Lastname}#=%=#Salesky
+Author{3}{Username}#=%=#esalesky
+Author{3}{Email}#=%=#elizabeth.salesky@gmail.com
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Sabrina J.
+Author{4}{Lastname}#=%=#Mielke
+Author{4}{Username}#=%=#sjmielke
+Author{4}{Email}#=%=#sjm@sjmielke.com
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+Author{5}{Firstname}#=%=#Shijie
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Username}#=%=#w5s5j
+Author{5}{Email}#=%=#shijie.wu@jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+Author{6}{Firstname}#=%=#Edoardo Maria
+Author{6}{Lastname}#=%=#Ponti
+Author{6}{Username}#=%=#ducadauge
+Author{6}{Email}#=%=#ep490@cam.ac.uk
+Author{6}{Affiliation}#=%=#University of Cambridge
+Author{7}{Firstname}#=%=#Rowan
+Author{7}{Lastname}#=%=#Hall Maudslay
+Author{7}{Username}#=%=#rowanhm
+Author{7}{Email}#=%=#rh635@cam.ac.uk
+Author{7}{Affiliation}#=%=#University of Cambridge
+Author{8}{Firstname}#=%=#Ran
+Author{8}{Lastname}#=%=#Zmigrod
+Author{8}{Username}#=%=#rzmigrod
+Author{8}{Email}#=%=#rz279@cam.ac.uk
+Author{8}{Affiliation}#=%=#University of Cambridge
+Author{9}{Firstname}#=%=#Josef
+Author{9}{Lastname}#=%=#Valvoda
+Author{9}{Username}#=%=#josefvalvoda
+Author{9}{Email}#=%=#jv406@cam.ac.uk
+Author{9}{Affiliation}#=%=#University of Cambridge
+Author{10}{Firstname}#=%=#Svetlana
+Author{10}{Lastname}#=%=#Toldova
+Author{10}{Username}#=%=#toldova
+Author{10}{Email}#=%=#toldova@yandex.ru
+Author{10}{Affiliation}#=%=#National Research University Higher School of Economics
+Author{11}{Firstname}#=%=#Francis
+Author{11}{Lastname}#=%=#Tyers
+Author{11}{Username}#=%=#fmt
+Author{11}{Email}#=%=#ftyers@prompsit.com
+Author{11}{Affiliation}#=%=#Indiana University
+Author{12}{Firstname}#=%=#Elena
+Author{12}{Lastname}#=%=#Klyachko
+Author{12}{Email}#=%=#elenaklyachko@gmail.com
+Author{12}{Affiliation}#=%=#National Research University Higher School of Economics
+Author{13}{Firstname}#=%=#Ilya
+Author{13}{Lastname}#=%=#Yegorov
+Author{13}{Email}#=%=#dkeg95@yandex.ru
+Author{13}{Affiliation}#=%=#Moscow State University
+Author{14}{Firstname}#=%=#Natalia
+Author{14}{Lastname}#=%=#Krizhanovsky
+Author{14}{Email}#=%=#nataly.krizhanovsky@gmail.com
+Author{14}{Affiliation}#=%=#Karelian Research Centre
+Author{15}{Firstname}#=%=#Paula
+Author{15}{Lastname}#=%=#Czarnowska
+Author{15}{Username}#=%=#paula.czarnowska
+Author{15}{Email}#=%=#pjc211@cam.ac.uk
+Author{15}{Affiliation}#=%=#University of Cambridge
+Author{16}{Firstname}#=%=#Irene
+Author{16}{Lastname}#=%=#Nikkarinen
+Author{16}{Username}#=%=#irenenikkarinen
+Author{16}{Email}#=%=#irene.nikkarinen@gmail.com
+Author{16}{Affiliation}#=%=#University of Cambridge
+Author{17}{Firstname}#=%=#Andrew
+Author{17}{Lastname}#=%=#Krizhanovsky
+Author{17}{Email}#=%=#andrew.krizhanovsky@gmail.com
+Author{17}{Affiliation}#=%=#Karelian Research Centre
+Author{18}{Firstname}#=%=#Tiago
+Author{18}{Lastname}#=%=#Pimentel
+Author{18}{Username}#=%=#tpimentel
+Author{18}{Email}#=%=#tpimentelms@gmail.com
+Author{18}{Affiliation}#=%=#University of Cambridge
+Author{19}{Firstname}#=%=#Lucas
+Author{19}{Lastname}#=%=#Torroba Hennigen
+Author{19}{Username}#=%=#ltorroba
+Author{19}{Email}#=%=#lucasfth@gmail.com
+Author{19}{Affiliation}#=%=#University of Cambridge
+Author{20}{Firstname}#=%=#Christo
+Author{20}{Lastname}#=%=#Kirov
+Author{20}{Username}#=%=#ckirov
+Author{20}{Email}#=%=#ckirov@gmail.com
+Author{20}{Affiliation}#=%=#Google
+Author{21}{Firstname}#=%=#Garrett
+Author{21}{Lastname}#=%=#Nicolai
+Author{21}{Username}#=%=#nicolai
+Author{21}{Email}#=%=#garrett.nicolai@ubc.ca
+Author{21}{Affiliation}#=%=#University of British Columbia
+Author{22}{Firstname}#=%=#Adina
+Author{22}{Lastname}#=%=#Williams
+Author{22}{Username}#=%=#adinawilliams
+Author{22}{Email}#=%=#adinawilliams@nyu.edu
+Author{22}{Affiliation}#=%=#Facebook, Inc.
+Author{23}{Firstname}#=%=#Antonios
+Author{23}{Lastname}#=%=#Anastasopoulos
+Author{23}{Username}#=%=#aanastas
+Author{23}{Email}#=%=#aanastas@cs.cmu.edu
+Author{23}{Affiliation}#=%=#Carnegie Mellon University
+Author{24}{Firstname}#=%=#hilaria
+Author{24}{Lastname}#=%=#cruz
+Author{24}{Username}#=%=#hilaria
+Author{24}{Email}#=%=#hilaria.cruz@louisville.edu
+Author{24}{Affiliation}#=%=#University of Louisville
+Author{25}{Firstname}#=%=#Eleanor
+Author{25}{Lastname}#=%=#Chodroff
+Author{25}{Username}#=%=#echodroff
+Author{25}{Email}#=%=#eleanor.chodroff@york.ac.uk
+Author{25}{Affiliation}#=%=#University of York
+Author{26}{Firstname}#=%=#Ryan
+Author{26}{Lastname}#=%=#Cotterell
+Author{26}{Username}#=%=#rcotterell
+Author{26}{Email}#=%=#ryan.cotterell@gmail.com
+Author{26}{Affiliation}#=%=#ETH Zürich
+Author{27}{Firstname}#=%=#Miikka
+Author{27}{Lastname}#=%=#Silfverberg
+Author{27}{Username}#=%=#mpsilfve
+Author{27}{Email}#=%=#miikka.silfverberg@ubc.ca
+Author{27}{Affiliation}#=%=#University of British Columbia
+Author{28}{Firstname}#=%=#Mans
+Author{28}{Lastname}#=%=#Hulden
+Author{28}{Username}#=%=#mhulden
+Author{28}{Email}#=%=#mhulden@email.arizona.edu
+Author{28}{Affiliation}#=%=#University of Colorado
+
+==========

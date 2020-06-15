@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#1945
+FinalPaperTitle#=%=#Span Selection Pre-training for Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michael Glass
+JobTitle#==#
+Organization#==#IBM, 51 Astor Pl, New York, NY 10003
+Abstract#==#BERT (Bidirectional Encoder Representations from Transformers) and related pre-trained
+Transformers have provided large gains across many language understanding tasks, achieving a new state-of-the-art (SOTA).  BERT is pretrained on two auxiliary tasks: Masked Language Model and Next Sentence Prediction.  In this paper we introduce a new pre-training task inspired by reading comprehension to better align the pre-training from memorization to understanding. Span Selection PreTraining (SSPT) poses cloze-like training instances, but rather than draw the answer from the model’s parameters, it is selected from a relevant passage. We find significant and consistent improvements over both BERT-BASE and BERT-LARGE on multiple Machine Reading Comprehension (MRC) datasets. Specifically, our proposed model has strong empirical evidence as it obtains SOTA results on Natural Questions, a new benchmark MRC dataset, outperforming BERT-LARGE by 3 F1 points on
+short answer prediction. We also show significant impact in HotpotQA, improving answer
+prediction F1 by 4 points and supporting fact prediction F1 by 1 point and outperforming the previous best system. Moreover, we show that our pre-training approach is particularly effective
+when training data is limited, improving the learning curve by a large amount.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Glass
+Author{1}{Username}#=%=#mrglass
+Author{1}{Email}#=%=#mrglass@us.ibm.com
+Author{1}{Affiliation}#=%=#IBM
+Author{2}{Firstname}#=%=#Alfio
+Author{2}{Lastname}#=%=#Gliozzo
+Author{2}{Username}#=%=#gliozzo
+Author{2}{Email}#=%=#gliozzo@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research AI
+Author{3}{Firstname}#=%=#Rishav
+Author{3}{Lastname}#=%=#Chakravarti
+Author{3}{Username}#=%=#rishavc
+Author{3}{Email}#=%=#rchakravarti@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM
+Author{4}{Firstname}#=%=#Anthony
+Author{4}{Lastname}#=%=#Ferritto
+Author{4}{Username}#=%=#aferritto
+Author{4}{Email}#=%=#aferritto@ibm.com
+Author{4}{Affiliation}#=%=#IBM
+Author{5}{Firstname}#=%=#Lin
+Author{5}{Lastname}#=%=#Pan
+Author{5}{Username}#=%=#panl
+Author{5}{Email}#=%=#panl@us.ibm.com
+Author{5}{Affiliation}#=%=#IBM
+Author{6}{Firstname}#=%=#G P Shrivatsa
+Author{6}{Lastname}#=%=#Bhargav
+Author{6}{Username}#=%=#gpsbhargav
+Author{6}{Email}#=%=#bhargavs@iisc.ac.in
+Author{6}{Affiliation}#=%=#Indian Institute of Science Bengaluru
+Author{7}{Firstname}#=%=#Dinesh
+Author{7}{Lastname}#=%=#Garg
+Author{7}{Username}#=%=#dgarg
+Author{7}{Email}#=%=#garg.dinesh@in.ibm.com
+Author{7}{Affiliation}#=%=#IBM Research AI
+Author{8}{Firstname}#=%=#Avi
+Author{8}{Lastname}#=%=#Sil
+Author{8}{Username}#=%=#avi
+Author{8}{Email}#=%=#avi@us.ibm.com
+Author{8}{Affiliation}#=%=#IBM Research AI
+
+==========

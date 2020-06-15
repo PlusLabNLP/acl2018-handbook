@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1034
+FinalPaperTitle#=%=#Weight Poisoning Attacks on Pretrained Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Paul Michel
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213, USA
+Abstract#==#Recently, NLP has seen a surge in the usage of large pre-trained models. Users download weights of models pre-trained on large datasets, then fine-tune the weights on a task of their choice. This raises the question of whether downloading untrusted pre-trained weights can pose a security threat. In this paper, we show that it is possible to construct ``weight poisoning'' attacks where pre-trained weights are injected with vulnerabilities that expose ``backdoors'' after fine-tuning, enabling the attacker to manipulate the model prediction simply by injecting an arbitrary keyword. We show that by applying a regularization method which we call RIPPLe and an initialization procedure we call Embedding Surgery, such attacks are possible even with limited knowledge of the dataset and fine-tuning procedure. Our experiments on sentiment classification, toxicity detection, and spam detection show that this attack is widely applicable and poses a serious threat. Finally, we outline practical defenses against such attacks.\footnote{Our code will be made publicly available on publication.}
+Author{1}{Firstname}#=%=#Keita
+Author{1}{Lastname}#=%=#Kurita
+Author{1}{Username}#=%=#keitakurita
+Author{1}{Email}#=%=#kkurita@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Paul
+Author{2}{Lastname}#=%=#Michel
+Author{2}{Username}#=%=#pmichel31415
+Author{2}{Email}#=%=#pmichel1@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Graham
+Author{3}{Lastname}#=%=#Neubig
+Author{3}{Username}#=%=#gneubig
+Author{3}{Email}#=%=#gneubig@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

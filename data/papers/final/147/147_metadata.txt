@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#147
+FinalPaperTitle#=%=#SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xingyi Cheng
+JobTitle#==#Senior Engineer
+Organization#==#Ant Financial Services Group
+Abstract#==#Chinese Spelling Check (CSC) is a task to detect and correct spelling errors in Chinese natural language. Existing methods have made attempts to incorporate the similarity knowledge between Chinese characters. However, they take the similarity knowledge as either an external input resource or just heuristic rules. This paper proposes to incorporate phonological and visual similarity knowledge into language models for CSC via a specialized graph convolutional network (SpellGCN). The model builds a graph over the characters, and SpellGCN is learned to map this graph into a set of inter-dependent character classifiers. These classifiers are applied to the representations extracted by another network, such as BERT, enabling the whole network to be end-to-end trainable. Experiments are conducted on three human-annotated datasets. Our method achieves superior performance against previous models by a large margin.
+Author{1}{Firstname}#=%=#Xingyi
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Username}#=%=#cxysteven
+Author{1}{Email}#=%=#fanyin.cxy@alibaba-inc.com
+Author{1}{Affiliation}#=%=#Ant Financial Services Group
+Author{2}{Firstname}#=%=#Weidi
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Username}#=%=#wead_hsu
+Author{2}{Email}#=%=#weidi.xwd@antfin.com
+Author{2}{Affiliation}#=%=#Ant Financial Services Group
+Author{3}{Firstname}#=%=#Kunlong
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#kunlong.ckl
+Author{3}{Email}#=%=#kunlong.ckl@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Ant Financial Service
+Author{4}{Firstname}#=%=#Shaohua
+Author{4}{Lastname}#=%=#Jiang
+Author{4}{Username}#=%=#jshaohua003
+Author{4}{Email}#=%=#shaohua.jsh@alipay.com
+Author{4}{Affiliation}#=%=#Alibaba
+Author{5}{Firstname}#=%=#Feng
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#windking84
+Author{5}{Email}#=%=#zifan.wf@antfin.com
+Author{5}{Affiliation}#=%=#Ant Financial Services Group
+Author{6}{Firstname}#=%=#Taifeng
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Username}#=%=#taifengw
+Author{6}{Email}#=%=#taifeng.wang@alibaba-inc.com
+Author{6}{Affiliation}#=%=#Ant Finance
+Author{7}{Firstname}#=%=#Wei
+Author{7}{Lastname}#=%=#Chu
+Author{7}{Username}#=%=#chuwei
+Author{7}{Email}#=%=#weichu.cw@alibaba-inc.com
+Author{7}{Affiliation}#=%=#Ant Financial
+Author{8}{Firstname}#=%=#Yuan
+Author{8}{Lastname}#=%=#Qi
+Author{8}{Username}#=%=#alanqi
+Author{8}{Email}#=%=#alanqi0@outlook.com
+Author{8}{Affiliation}#=%=#Ant Financial
+
+==========

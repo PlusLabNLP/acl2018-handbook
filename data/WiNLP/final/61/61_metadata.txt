@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#Outcomes of coming out: Analyzing stories of LGBTQ+
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The Internet is frequently used as a platform through which opinions and views on various topics can be expressed. One such topic that draws controversial attention is LGBTQ+ rights. This paper attempts to analyze the reaction that members of the LGBTQ+ community face when they reveal their gender or sexuality, or in other words, when they ‘come out of the closet’. We aim to classify the experiences shared by them as positive or negative. We collected data from various sources, primarily Twitter. We have applied deep learning techniques and compared the results to other classifiers, and the results obtained from applying classical sentiment analysis techniques to it.
+Author{1}{Firstname}#=%=#Krithika
+Author{1}{Lastname}#=%=#Ramesh
+Author{1}{Username}#=%=#krithikar
+Author{1}{Email}#=%=#kramesh.tlw@gmail.com
+Author{1}{Affiliation}#=%=#Manipal Institute of Technology
+Author{2}{Firstname}#=%=#Tanvi
+Author{2}{Lastname}#=%=#Anand
+Author{2}{Username}#=%=#tanvi15
+Author{2}{Email}#=%=#tanviaanand@gmail.com
+Author{2}{Affiliation}#=%=#Manipal Academy of Higher Education
+
+==========

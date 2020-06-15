@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#439
+FinalPaperTitle#=%=#Improving Entity Linking through Semantic Reinforced Entity Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ruili Wang
+JobTitle#==#
+Organization#==#Massey University, New Zealand
+Abstract#==#Entity embeddings, which represent different aspects of each entity with a single vector like word embeddings, are a key component of neural entity linking models. Existing entity embeddings are learned from canonical Wikipedia articles and local contexts surrounding target entities. Such entity embeddings are effective, but too distinctive for linking models to learn contextual commonality. We propose a simple yet effective method, FGS2EE, to inject fine-grained semantic information into entity embeddings to reduce the distinctiveness and facilitate the learning of contextual commonality. FGS2EE first uses the embeddings of semantic type words to generate semantic embeddings, and then combines them with existing entity embeddings through linear aggregation. Extensive experiments show the effectiveness of such embeddings. Based on our entity embeddings, we achieved new sate-of-the-art performance on entity linking.
+Author{1}{Firstname}#=%=#Feng
+Author{1}{Lastname}#=%=#Hou
+Author{1}{Username}#=%=#krude
+Author{1}{Email}#=%=#f.hou@massey.ac.nz
+Author{1}{Affiliation}#=%=#School of Natural and Computational Sciences, Massey University
+Author{2}{Firstname}#=%=#Ruili
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#ruili_acl
+Author{2}{Email}#=%=#ruili.wang@massey.ac.nz
+Author{2}{Affiliation}#=%=#Massey University
+Author{3}{Firstname}#=%=#Jun
+Author{3}{Lastname}#=%=#He
+Author{3}{Username}#=%=#hejun_acl
+Author{3}{Email}#=%=#hejun_nudt@nudt.edu.cn
+Author{3}{Affiliation}#=%=#National University of Defense Technology, China
+Author{4}{Firstname}#=%=#Yi
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Username}#=%=#yi_acl
+Author{4}{Email}#=%=#yzhou@bsbii.cn
+Author{4}{Affiliation}#=%=#Shanghai Research Center for Brain Science and Brain-Inspired Intelligence, Zhangjiang Lab, China.
+
+==========

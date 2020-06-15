@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Topic-Based Measures of Conversation for Detecting Mild CognitiveImpairment
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Liu Chen
+JobTitle#==#
+Organization#==#Center for Spoken Language Understanding, Oregon Health & Science University, Portland, OR, USA
+Abstract#==#Conversation is a complex cognitive task that engages multiple aspects of cognitive functions to remember the discussed topics, monitor the semantic and linguistic elements, and recognize others' emotions. In this paper, we propose a computational method based on the lexical coherence of consecutive utterances to quantify topical variations  in semi-structured conversations of older adults with  cognitive impairments. Extracting the lexical knowledge of conversational utterances, our method  generate a set of novel conversational measures that indicate underlying cognitive deficits among subjects with mild cognitive impairment (MCI). Our preliminary results verifies the utility of the proposed conversation-based measures in distinguishing MCI from healthy controls.
+Author{1}{Firstname}#=%=#Meysam
+Author{1}{Lastname}#=%=#Asgari
+Author{1}{Username}#=%=#meysam9323
+Author{1}{Email}#=%=#meysam_asgari@yahoo.com
+Author{1}{Affiliation}#=%=#Oregon Health & Science University
+Author{2}{Firstname}#=%=#Liu
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#samchen
+Author{2}{Email}#=%=#chliu@ohsu.edu
+Author{2}{Affiliation}#=%=#Oregon Health & Science University
+Author{3}{Firstname}#=%=#Hiroko
+Author{3}{Lastname}#=%=#Dodge
+Author{3}{Email}#=%=#dodgeh@ohsu.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+
+==========

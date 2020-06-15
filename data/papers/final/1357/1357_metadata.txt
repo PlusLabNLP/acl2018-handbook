@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1357
+FinalPaperTitle#=%=#Neural Mixed Counting Models for Dispersed Topic Discovery
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yanghui Rao
+JobTitle#==#
+Organization#==#School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China
+Abstract#==#Mixed counting models that use the negative binomial distribution as the prior can well model over-dispersed and hierarchically dependent random variables; thus they have attracted much attention in mining dispersed document topics. However, the existing parameter inference method like Monte Carlo sampling is quite time-consuming. In this paper, we propose two efficient neural mixed counting models, i.e., the Negative Binomial-Neural Topic Model (NB-NTM) and the Gamma Negative Binomial-Neural Topic Model (GNB-NTM) for dispersed topic discovery. Neural variational inference algorithms are developed to infer model parameters by using the reparameterization of Gamma distribution and the Gaussian approximation of Poisson distribution. Experiments on real-world datasets indicate that our models outperform state-of-the-art baseline models in terms of perplexity and topic coherence. The results also validate that both NB-NTM and GNB-NTM can produce explainable intermediate variables by generating dispersed proportions of document topics.
+Author{1}{Firstname}#=%=#Jiemin
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Username}#=%=#jieminwu
+Author{1}{Email}#=%=#wujm29@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#Sun Yat-sen University
+Author{2}{Firstname}#=%=#Yanghui
+Author{2}{Lastname}#=%=#Rao
+Author{2}{Username}#=%=#yanghuirao
+Author{2}{Email}#=%=#raoyangh@mail.sysu.edu.cn
+Author{2}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{3}{Firstname}#=%=#Zusheng
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#zusheng_zhang
+Author{3}{Email}#=%=#zhangzsh3@mail2.sysu.edu.cn
+Author{3}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{4}{Firstname}#=%=#Haoran
+Author{4}{Lastname}#=%=#Xie
+Author{4}{Username}#=%=#hrxie
+Author{4}{Email}#=%=#hrxie2@gmail.com
+Author{4}{Affiliation}#=%=#Lingnan University
+Author{5}{Firstname}#=%=#Qing
+Author{5}{Lastname}#=%=#Li
+Author{5}{Username}#=%=#csqli
+Author{5}{Email}#=%=#csqli@comp.polyu.edu.hk
+Author{5}{Affiliation}#=%=#the Hong Kong Polytechnic University
+Author{6}{Firstname}#=%=#Fu Lee
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Username}#=%=#philipswang
+Author{6}{Email}#=%=#pwang@ouhk.edu.hk
+Author{6}{Affiliation}#=%=#The Open University of Hong Kong
+Author{7}{Firstname}#=%=#Ziye
+Author{7}{Lastname}#=%=#Chen
+Author{7}{Username}#=%=#czydeserve
+Author{7}{Email}#=%=#chenzy35@mail2.sysu.edu.cn
+Author{7}{Affiliation}#=%=#Sun Yat-sen University
+
+==========

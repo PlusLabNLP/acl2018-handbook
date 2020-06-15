@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#FFR v1.0 : Fon-French Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#All over the world and especially Africa, researchers are putting efforts in building Neural Machine Translation (NMT) systems to help tackle the language barriers in Africa, a continent of over 2000 different languages. However, the low-resources, diacritical and tonal complexities of African languages are major issues facing African NLP today. The FFR is a major step towards creating a robust translation model from Fon, a very low-resource and tonal language, to French, for research and public use. In this paper, we describe our pilot project: the creation of a large growing corpora for Fon-to-French translations and our FFR v1.0 model, trained on this dataset. The dataset and model are made publicly available to promote collaboration and reproducibility.
+Author{1}{Firstname}#=%=#Chris Chinenye
+Author{1}{Lastname}#=%=#Emezue
+Author{1}{Username}#=%=#chrisjay
+Author{1}{Email}#=%=#chris.emezue@gmail.com
+Author{1}{Affiliation}#=%=#Kazan(Volga) Federal University
+Author{2}{Firstname}#=%=#Femi Pancrace Bonaventure
+Author{2}{Lastname}#=%=#Dossou
+Author{2}{Username}#=%=#bonadossou
+Author{2}{Email}#=%=#femipancrace.dossou@gmail.com
+Author{2}{Affiliation}#=%=#Kazan (Volga) Federal University
+
+==========

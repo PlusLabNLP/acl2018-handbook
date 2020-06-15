@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2506
+FinalPaperTitle#=%=#Reverse Engineering Configurations of Neural Text Generation Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yi Tay
+JobTitle#==#
+Organization#==#Google Inc
+Abstract#==#Recent advances in neural text generation modeling have resulted in a number of societal concerns related to how such approaches might be used in malicious ways. It is therefore desirable to develop a deeper understanding of the fundamental properties of such models. The study of artifacts that emerge in machine generated text as a result of modeling choices is a nascent research area. To this end, the extent and degree to which these artifacts surface in generated text is still unclear. In the spirit of better understanding generative text models and their artifacts, we propose the new task of distinguishing which of several variants of a given model generated some piece of text. Specifically, we conduct an extensive suite of diagnostic tests to observe whether modeling choices (e.g., sampling methods, top-k probabilities, model architectures, etc.) leave detectable artifacts in the text they generate. Our key finding, which is backed by a rigorous set of experiments, is that such artifacts are present and that different modeling choices can be inferred by looking at generated text alone. This suggests that neural text generators may actually be more sensitive to various modeling choices than previously thought.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Tay
+Author{1}{Username}#=%=#ytay017
+Author{1}{Email}#=%=#ytay017@gmail.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Dara
+Author{2}{Lastname}#=%=#Bahri
+Author{2}{Username}#=%=#dbahri
+Author{2}{Email}#=%=#dbahri123@gmail.com
+Author{2}{Affiliation}#=%=#Google AI
+Author{3}{Firstname}#=%=#Che
+Author{3}{Lastname}#=%=#Zheng
+Author{3}{Username}#=%=#chezheng
+Author{3}{Email}#=%=#xvblue@gmail.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Clifford
+Author{4}{Lastname}#=%=#Brunk
+Author{4}{Username}#=%=#cliff_brunk
+Author{4}{Email}#=%=#cliff_brunk@yahoo.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Donald
+Author{5}{Lastname}#=%=#Metzler
+Author{5}{Username}#=%=#metzlerd
+Author{5}{Email}#=%=#metzler@gmail.com
+Author{5}{Affiliation}#=%=#Google
+Author{6}{Firstname}#=%=#Andrew
+Author{6}{Lastname}#=%=#Tomkins
+Author{6}{Username}#=%=#tomkins
+Author{6}{Email}#=%=#atomkins@gmail.com
+Author{6}{Affiliation}#=%=#Google
+
+==========

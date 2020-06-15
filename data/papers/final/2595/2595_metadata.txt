@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2595
+FinalPaperTitle#=%=#Simple and Effective Retrieve-Edit-Rerank Text Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Nabil Hossain
+JobTitle#==#
+Organization#==#University of Rochester, Rochester, NY
+Abstract#==#Retrieve-and-edit seq2seq methods typically retrieve an output from the training set and learn a model to edit it to produce the final output. We propose to extend this framework with a simple and effective post-generation ranking approach. Our framework (i) retrieves several potentially relevant outputs for each input, (ii) edits each candidate independently, and (iii) re-ranks the edited candidates to select the final output. We use a standard editing model with simple task-specific re-ranking approaches, and we show empirically that this approach outperforms existing, significantly more complex methodologies. Experiments on two machine translation (MT) datasets show new state-of-art results. We also achieve near state-of-art performance on the Gigaword summarization dataset, where our analyses show that there is significant room for performance improvement with better candidate output selection in future work.
+Author{1}{Firstname}#=%=#Nabil
+Author{1}{Lastname}#=%=#Hossain
+Author{1}{Username}#=%=#nabilhossain
+Author{1}{Email}#=%=#nhossain@cs.rochester.edu
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Marjan
+Author{2}{Lastname}#=%=#Ghazvininejad
+Author{2}{Username}#=%=#mghazvininejad
+Author{2}{Email}#=%=#ghazvini@fb.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#Luke
+Author{3}{Lastname}#=%=#Zettlemoyer
+Author{3}{Username}#=%=#lsz
+Author{3}{Email}#=%=#lsz@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington; Facebook
+
+==========

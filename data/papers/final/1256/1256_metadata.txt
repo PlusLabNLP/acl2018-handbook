@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1256
+FinalPaperTitle#=%=#ExpBERT: Representation Engineering with Natural Language Explanations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Pang Wei Koh
+JobTitle#==#
+Organization#==#Stanford University, 450 Serra Mall, Stanford, CA 94305
+Abstract#==#Suppose we want to specify the inductive bias that married couples typically go on honeymoons for the task of extracting pairs of spouses from text.  In this paper, we allow model developers to specify these types of inductive biases as natural language explanations. We use BERT fine-tuned on MultiNLI to "interpret" these explanations with respect to the input sentence, producing explanation-guided representations of the input. Across three relation extraction tasks, our method, ExpBERT, matches a BERT baseline but with 3--20x less labeled data and improves on the baseline by 3--10 F1 points with the same amount of labeled data.
+Author{1}{Firstname}#=%=#Shikhar
+Author{1}{Lastname}#=%=#Murty
+Author{1}{Username}#=%=#smurtypants
+Author{1}{Email}#=%=#shikhar.murty@gmail.com
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Pang Wei
+Author{2}{Lastname}#=%=#Koh
+Author{2}{Username}#=%=#pangwei
+Author{2}{Email}#=%=#koh.pangwei@gmail.com
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Percy
+Author{3}{Lastname}#=%=#Liang
+Author{3}{Username}#=%=#pliang
+Author{3}{Email}#=%=#pliang@cs.stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

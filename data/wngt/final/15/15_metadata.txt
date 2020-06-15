@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#A Generative Approach to Titling and Clustering Wikipedia Sections
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Anjalie Field
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We evaluate the performance of transformer encoders with various decoders for information organization through a new task: generation of section headings for Wikipedia articles. Our analysis shows that decoders containing attention mechanisms over the encoder output achieve high-scoring results by generating extractive text. In contrast, a decoder without attention better facilitates semantic encoding and can be used to generate section embeddings. We additionally introduce a new loss function, which further encourages the decoder to generate high-quality embeddings.
+Author{1}{Firstname}#=%=#Anjalie
+Author{1}{Lastname}#=%=#Field
+Author{1}{Username}#=%=#anjalief
+Author{1}{Email}#=%=#anjalief@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie-Mellon University
+Author{2}{Firstname}#=%=#Sascha
+Author{2}{Lastname}#=%=#Rothe
+Author{2}{Username}#=%=#sascha
+Author{2}{Email}#=%=#rothe@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Simon
+Author{3}{Lastname}#=%=#Baumgartner
+Author{3}{Username}#=%=#baumgartn3r
+Author{3}{Email}#=%=#simonba@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Cong
+Author{4}{Lastname}#=%=#Yu
+Author{4}{Username}#=%=#congyu
+Author{4}{Email}#=%=#congyu@google.com
+Author{4}{Affiliation}#=%=#Google Research
+Author{5}{Firstname}#=%=#Abe
+Author{5}{Lastname}#=%=#Ittycheriah
+Author{5}{Username}#=%=#aittycheriah
+Author{5}{Email}#=%=#aittycheriah@google.com
+Author{5}{Affiliation}#=%=#Google
+
+==========

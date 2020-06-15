@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1977
+FinalPaperTitle#=%=#Integrating Multimodal Information in Large Pretrained Transformers
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Wasifur Rahman
+JobTitle#==#
+Organization#==#University Of Rochester, USA
+Abstract#==#Recent Transformer-based contextual word representations, including BERT and XLNet, have shown state-of-the-art performance in multiple disciplines within NLP. Fine-tuning the trained contextual models on task-specific datasets has been the key to achieving superior performance downstream. While fine-tuning these pre-trained models is straightforward for lexical applications (applications with only language modality), it is not trivial for multimodal language (a growing area in NLP focused on modeling face-to-face communication). More specifically, this is due to the fact that pre-trained models don't have the necessary components to accept two extra modalities of vision and acoustic. In this paper, we proposed an attachment to BERT and XLNet called Multimodal Adaptation Gate (MAG). MAG allows BERT and XLNet to accept multimodal nonverbal data during fine-tuning. It does so by generating a shift to internal representation of BERT and XLNet; a shift that is conditioned on the visual and acoustic modalities. In our experiments, we study the commonly used CMU-MOSI and CMU-MOSEI datasets for multimodal sentiment analysis. Fine-tuning MAG-BERT and MAG-XLNet significantly boosts the sentiment analysis performance over previous baselines as well as language-only fine-tuning of BERT and XLNet. On the CMU-MOSI dataset, MAG-XLNet achieves human-level multimodal sentiment analysis performance for the first time in the NLP community.
+Author{1}{Firstname}#=%=#Wasifur
+Author{1}{Lastname}#=%=#Rahman
+Author{1}{Username}#=%=#wasifurrahman
+Author{1}{Email}#=%=#echowdh2@ur.rochester.edu
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Md Kamrul
+Author{2}{Lastname}#=%=#Hasan
+Author{2}{Username}#=%=#mhasan8
+Author{2}{Email}#=%=#mhasan8@cs.rochester.edu
+Author{2}{Affiliation}#=%=#University of Rochester
+Author{3}{Firstname}#=%=#Sangwu
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Username}#=%=#sangwulee
+Author{3}{Email}#=%=#slee232@u.rochester.edu
+Author{3}{Affiliation}#=%=#University of Rochester, HCI Lab
+Author{4}{Firstname}#=%=#AmirAli
+Author{4}{Lastname}#=%=#Bagher Zadeh
+Author{4}{Username}#=%=#abagherz
+Author{4}{Email}#=%=#abagherz@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{5}{Firstname}#=%=#Chengfeng
+Author{5}{Lastname}#=%=#Mao
+Author{5}{Username}#=%=#maocf1993
+Author{5}{Email}#=%=#maocf1993@gmail.com
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Louis-Philippe
+Author{6}{Lastname}#=%=#Morency
+Author{6}{Username}#=%=#lmorency
+Author{6}{Email}#=%=#morency@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+Author{7}{Firstname}#=%=#Ehsan
+Author{7}{Lastname}#=%=#Hoque
+Author{7}{Username}#=%=#mehoque
+Author{7}{Email}#=%=#mehoque@gmail.com
+Author{7}{Affiliation}#=%=#University of rochester
+
+==========

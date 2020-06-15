@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#The HW-TSC Video Speech Translation System at IWSLT 2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Minghan Wang
+JobTitle#==#
+Organization#==#Huawei Translation Service Center, Beijing, China
+Abstract#==#The paper presents details of our system in the IWSLT Video Speech Translation evaluation. The system works in a cascade form, which contains three modules: 1) A proprietary ASR system. 2) A disfluency correction system aims to remove interregnums or other disfluent expressions with a fine-tuned BERT and a series of rule-based algorithms. 3) An NMT System based on the Transformer and trained with massive publicly available corpus.
+Author{1}{Firstname}#=%=#Minghan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangminghan@huawei.com
+Author{1}{Affiliation}#=%=#HuaWei
+Author{2}{Firstname}#=%=#Hao
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yanghao30@huawei.com
+Author{2}{Affiliation}#=%=#HuaWei
+Author{3}{Firstname}#=%=#Yao
+Author{3}{Lastname}#=%=#Deng
+Author{3}{Email}#=%=#dengyao3@huawei.com
+Author{3}{Affiliation}#=%=#HuaWei
+Author{4}{Firstname}#=%=#Ying
+Author{4}{Lastname}#=%=#Qin
+Author{4}{Email}#=%=#qinying@huawei.com
+Author{4}{Affiliation}#=%=#HuaWei
+Author{5}{Firstname}#=%=#Lizhi
+Author{5}{Lastname}#=%=#Lei
+Author{5}{Email}#=%=#leilizhi@huawei.com
+Author{5}{Affiliation}#=%=#HuaWei
+Author{6}{Firstname}#=%=#Daimeng
+Author{6}{Lastname}#=%=#Wei
+Author{6}{Email}#=%=#weidaimeng@huawei.com
+Author{6}{Affiliation}#=%=#HuaWei
+Author{7}{Firstname}#=%=#Hengchao
+Author{7}{Lastname}#=%=#Shang
+Author{7}{Email}#=%=#shanghengchao@huawei.com
+Author{7}{Affiliation}#=%=#HuaWei
+Author{8}{Firstname}#=%=#Ning
+Author{8}{Lastname}#=%=#Xie
+Author{8}{Email}#=%=#nicolas.xie@huawei.com
+Author{8}{Affiliation}#=%=#HuaWei
+Author{9}{Firstname}#=%=#Xiaochun
+Author{9}{Lastname}#=%=#Li
+Author{9}{Email}#=%=#carol.lixiaochun@huawei.com
+Author{9}{Affiliation}#=%=#HuaWei
+Author{10}{Firstname}#=%=#Jiaxian
+Author{10}{Lastname}#=%=#Guo
+Author{10}{Email}#=%=#guojiaxin1@huawei.com
+Author{10}{Affiliation}#=%=#HuaWei
+
+==========

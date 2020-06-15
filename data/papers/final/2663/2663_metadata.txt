@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#2663
+FinalPaperTitle#=%=#Would you Rather? A New Benchmark for Learning Machine Alignment with Cultural Values and Social Preferences
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yi Tay
+JobTitle#==#
+Organization#==#Nanyang Technological University
+Abstract#==#Understanding human preferences, along with cultural and social nuances, lives at the heart of natural language understanding. Concretely, we present a new task and corpus for learning alignments between machine and human preferences. Our newly introduced problem is concerned with predicting the preferable options from two sentences describing scenarios that may involve social, cultural, ethical, or moral situations. Our problem is framed as a natural language inference task with crowd-sourced preference votes by human players, obtained from a gamified voting platform. Along with the release of a new dataset of 200K data points, we benchmark several state-of-the-art neural models, along with BERT and friends on this task. Our experimental results show that current state-of-the-art NLP models still leave much room for improvement.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Tay
+Author{1}{Username}#=%=#ytay017
+Author{1}{Email}#=%=#ytay017@gmail.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Donovan
+Author{2}{Lastname}#=%=#Ong
+Author{2}{Username}#=%=#donovanong
+Author{2}{Email}#=%=#donovan_ong@i2r.a-star.edu.sg
+Author{2}{Affiliation}#=%=#Institute for Infocomm Research, A*STAR
+Author{3}{Firstname}#=%=#Jie
+Author{3}{Lastname}#=%=#Fu
+Author{3}{Username}#=%=#bigaidream
+Author{3}{Email}#=%=#jie.fu@polymtl.ca
+Author{3}{Affiliation}#=%=#Mila, Polytechnique Montreal
+Author{4}{Firstname}#=%=#Alvin
+Author{4}{Lastname}#=%=#Chan
+Author{4}{Username}#=%=#alvinchan
+Author{4}{Email}#=%=#guoweial001@e.ntu.edu.sg
+Author{4}{Affiliation}#=%=#Nanyang Technological University
+Author{5}{Firstname}#=%=#Nancy
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Username}#=%=#nfychen
+Author{5}{Email}#=%=#nancychen@alum.mit.edu
+Author{5}{Affiliation}#=%=#Institute for Infocomm Research, A*STAR
+Author{6}{Firstname}#=%=#Anh Tuan
+Author{6}{Lastname}#=%=#Luu
+Author{6}{Username}#=%=#tuanluu
+Author{6}{Email}#=%=#tuanluu@csail.mit.edu
+Author{6}{Affiliation}#=%=#MIT
+Author{7}{Firstname}#=%=#Chris
+Author{7}{Lastname}#=%=#Pal
+Author{7}{Username}#=%=#cjpal
+Author{7}{Email}#=%=#christopher.pal@polymtl.ca
+Author{7}{Affiliation}#=%=#Polytechnique Montreal & the Montreal Institute for Learning Algorithms
+
+==========

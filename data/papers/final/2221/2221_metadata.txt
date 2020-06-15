@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2221
+FinalPaperTitle#=%=#Discourse-Aware Neural Extractive Text Summarization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jiacheng Xu
+JobTitle#==#
+Organization#==#The University of Texas at Austin; 2317 Speedway, Stop D9500 Austin, TX 78712
+Abstract#==#Recently BERT has been adopted for document encoding in state-of-the-art text summarization models. However, sentence-based extractive models often result in redundant or uninformative phrases in the extracted summaries. Also, long-range dependencies throughout a document are not well captured by BERT, which is pre-trained on sentence pairs instead of documents. To address these issues, we present a discourse-aware neural summarization model - DiscoBert. DiscoBert extracts sub-sentential discourse units (instead of sentences) as candidates for extractive selection on a finer granularity. To capture the long-range dependencies among discourse units, structural discourse graphs are constructed based on RST trees and coreference mentions, encoded with Graph Convolutional Networks. Experiments show that the proposed model outperforms state-of-the-art methods by a significant margin on popular summarization benchmarks compared to other BERT-base models.
+Author{1}{Firstname}#=%=#Jiacheng
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#sharhoo
+Author{1}{Email}#=%=#jcxu@cs.utexas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Austin
+Author{2}{Firstname}#=%=#Zhe
+Author{2}{Lastname}#=%=#Gan
+Author{2}{Username}#=%=#zhegan27
+Author{2}{Email}#=%=#zhe.gan@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Yu
+Author{3}{Lastname}#=%=#Cheng
+Author{3}{Username}#=%=#ych.thu
+Author{3}{Email}#=%=#yu.cheng@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#Jingjing
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#jingl
+Author{4}{Email}#=%=#jingl@csail.mit.edu
+Author{4}{Affiliation}#=%=#Microsoft
+
+==========

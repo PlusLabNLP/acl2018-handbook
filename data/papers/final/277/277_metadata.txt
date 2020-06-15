@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#277
+FinalPaperTitle#=%=#Efficient Pairwise Annotation of Argument Quality
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lukas Gienapp
+JobTitle#==#
+Organization#==#Leipzig University, Augustusplatz 10, 04109 Leipzig, Germany
+Abstract#==#We present an efficient annotation framework for argument quality, a feature difficult to be measured reliably as per previous work. A stochastic transitivity model is combined with an effective sampling strategy to infer high-quality labels with low effort from crowdsourced pairwise judgments. The model's capabilities are showcased by compiling Webis-ArgQuality-20, an argument quality corpus that comprises scores for rhetorical, logical, dialectical, and overall quality inferred from a total of 41,859 pairwise judgments among 1,271 arguments. With up to 93% cost savings, our approach significantly outperforms existing annotation procedures. Furthermore, novel insight into argument quality is provided through statistical analysis, and a new aggregation method to infer overall quality from individual quality dimensions is proposed.
+Author{1}{Firstname}#=%=#Lukas
+Author{1}{Lastname}#=%=#Gienapp
+Author{1}{Username}#=%=#lgienapp
+Author{1}{Email}#=%=#lukas.gienapp@uni-leipzig.de
+Author{1}{Affiliation}#=%=#Leipzig University
+Author{2}{Firstname}#=%=#Benno
+Author{2}{Lastname}#=%=#Stein
+Author{2}{Username}#=%=#benno.stein
+Author{2}{Email}#=%=#benno.stein@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Matthias
+Author{3}{Lastname}#=%=#Hagen
+Author{3}{Username}#=%=#matthias.hagen
+Author{3}{Email}#=%=#matthias.hagen@informatik.uni-halle.de
+Author{3}{Affiliation}#=%=#Martin-Luther-Universität Halle-Wittenberg
+Author{4}{Firstname}#=%=#Martin
+Author{4}{Lastname}#=%=#Potthast
+Author{4}{Username}#=%=#potthast
+Author{4}{Email}#=%=#martin.potthast@uni-leipzig.de
+Author{4}{Affiliation}#=%=#Leipzig University
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#RPD: A Distance Function Between Word Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Xuhui Zhou
+JobTitle#==#
+Organization#==#University of Washington, Seattle, WA, United States
+Abstract#==#It is well-understood that different algorithms, training processes, and corpora produce different word embeddings. However, less is known about the relation between different embedding spaces,  i.e. how far different sets of em-beddings deviate from each other.  In this paper,  we propose a  novel metric called  Relative Pairwise Inner Product Distance (RPD) to quantify the distance between different sets of word embeddings.  This unitary-invariant metric has a unified scale for comparing different sets of word embeddings.  Based on the properties of RPD, we study the relations of word embeddings of different algorithms systematically and investigate the influence of different training processes and corpora. The results shed light on the poorly understood word embeddings and justify RPD as a measure of the distance of embedding space.
+Author{1}{Firstname}#=%=#Xuhui
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#xuhuiz
+Author{1}{Email}#=%=#Xuhuizh@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Shujian
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Username}#=%=#huangshujian
+Author{2}{Email}#=%=#huangshujian@gmail.com
+Author{2}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+Author{3}{Firstname}#=%=#Zaixiang
+Author{3}{Lastname}#=%=#Zheng
+Author{3}{Username}#=%=#zhengzx-nju
+Author{3}{Email}#=%=#zhengzx.142857@gmail.com
+Author{3}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+
+==========

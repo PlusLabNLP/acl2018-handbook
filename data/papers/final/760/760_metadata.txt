@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#760
+FinalPaperTitle#=%=#Regularized Context Gates on Transformer for Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Xintong Li
+JobTitle#==#
+Organization#==#The Chinese University of Hong Kong
+Abstract#==#Context gates are effective to control the contributions from the source and target contexts in the recurrent neural network (RNN) based neural machine translation (NMT). However, it is challenging to extend them into the advanced Transformer architecture, which is more complicated than RNN. This paper first provides a method to identify source and target contexts and then introduce a gate mechanism to control the source and target contributions in Transformer. In addition, to further reduce the bias problem in the gate mechanism, this paper proposes a regularization method to guide the learning of the gates with supervision automatically generated using pointwise mutual information. Extensive experiments on 4 translation datasets demonstrate that the proposed model obtains an averaged gain of 1.0 BLEU score over a strong Transformer baseline.
+Author{1}{Firstname}#=%=#Xintong
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#xtli
+Author{1}{Email}#=%=#znculee@gmail.com
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Lemao
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#lemaoliu
+Author{2}{Email}#=%=#lemaoliu@gmail.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Rui
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#wangrui.nlp
+Author{3}{Email}#=%=#wangrui@nict.go.jp
+Author{3}{Affiliation}#=%=#NICT
+Author{4}{Firstname}#=%=#Guoping
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Username}#=%=#hgpatswu
+Author{4}{Email}#=%=#donkeyhuang@tencent.com
+Author{4}{Affiliation}#=%=#Tencent AI Lab
+Author{5}{Firstname}#=%=#Max
+Author{5}{Lastname}#=%=#Meng
+Author{5}{Username}#=%=#maxmeng
+Author{5}{Email}#=%=#max.meng@ieee.org
+Author{5}{Affiliation}#=%=#The Chinese University of Hong Kong
+
+==========

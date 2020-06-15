@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1541
+FinalPaperTitle#=%=#Improving Image Captioning Evaluation by Considering Inter References Variance
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yanzhi Yi
+JobTitle#==#
+Organization#==#Graduate School of Information, Production and Systems, Waseda University, 2-7 Hibikino, Wakamatsu, Kitakyushu-shi, Fukuoka, Japan, 808-0135
+Abstract#==#Evaluating image captions is very challenging partially due to the fact that there are multiple correct captions for every single image. Most of the existing one-to-one metrics operate by penalizing mismatches between reference and generative caption without considering the intrinsic variance between ground truth captions. It usually leads to over-penalization and thus a bad correlation to human judgment. Recently, the latest one-to-one metric BERTScore can achieve high human correlation in system-level tasks while some issues can be fixed for better performance. In this paper, we propose a novel metric based on BERTScore that could handle such a challenge and extend BERTScore with a few new features appropriately for image captioning evaluation. The experimental results show that our metric achieves state-of-the-art human judgment correlation.
+Author{1}{Firstname}#=%=#Yanzhi
+Author{1}{Lastname}#=%=#Yi
+Author{1}{Username}#=%=#yiyanzhi
+Author{1}{Email}#=%=#yiyanzhi@akane.waseda.jp
+Author{1}{Affiliation}#=%=#Waseda University
+Author{2}{Firstname}#=%=#Hangyu
+Author{2}{Lastname}#=%=#Deng
+Author{2}{Username}#=%=#hangyudeng
+Author{2}{Email}#=%=#deng.hangyu@fuji.waseda.jp
+Author{2}{Affiliation}#=%=#Waseda University
+Author{3}{Firstname}#=%=#Jinglu
+Author{3}{Lastname}#=%=#Hu
+Author{3}{Username}#=%=#jinglu_hu
+Author{3}{Email}#=%=#jinglu@waseda.jp
+Author{3}{Affiliation}#=%=#Waseda University
+
+==========

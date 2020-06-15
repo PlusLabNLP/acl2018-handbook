@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#2846
+FinalPaperTitle#=%=#Crossing Variational Autoencoders for Answer Retrieval
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Wenhao Yu
+JobTitle#==#
+Organization#==#University of Notre Dame, Notre Dame, IN, USA
+Abstract#==#Answer retrieval is to find the most aligned answer from a large set of candidates given a question. Learning vector representations of questions/answers is the key factor. Question-answer alignment and question/answer semantics are two important signals for learning the representations. Existing methods learned semantic representations with dual encoders or dual variational auto-encoders. The semantic information was learned from language models or question-to-question (answer-to-answer) generative processes. However, the alignment and semantics were too separate to capture the aligned semantics between question and answer. In this work, we propose to cross variational auto-encoders by generating questions with aligned answers and generating answers with aligned questions. Experiments show that our method outperforms the state-of-the-art answer retrieval method on SQuAD.
+Author{1}{Firstname}#=%=#Wenhao
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#wenhaoyu97
+Author{1}{Email}#=%=#wyu1@nd.edu
+Author{1}{Affiliation}#=%=#University of Notre Dame
+Author{2}{Firstname}#=%=#Lingfei
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Username}#=%=#teddylfwu
+Author{2}{Email}#=%=#lwu@email.wm.edu
+Author{2}{Affiliation}#=%=#IBM Research AI
+Author{3}{Firstname}#=%=#Qingkai
+Author{3}{Lastname}#=%=#Zeng
+Author{3}{Username}#=%=#qingkaizeng
+Author{3}{Email}#=%=#qzeng@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+Author{4}{Firstname}#=%=#Shu
+Author{4}{Lastname}#=%=#Tao
+Author{4}{Email}#=%=#shutao@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research AI
+Author{5}{Firstname}#=%=#Yu
+Author{5}{Lastname}#=%=#Deng
+Author{5}{Email}#=%=#dengy@us.ibm.com
+Author{5}{Affiliation}#=%=#IBM Research AI
+Author{6}{Firstname}#=%=#Meng
+Author{6}{Lastname}#=%=#Jiang
+Author{6}{Username}#=%=#mjiang89
+Author{6}{Email}#=%=#mjiang2@nd.edu
+Author{6}{Affiliation}#=%=#University of Notre Dame
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Nikita Bhutani
+JobTitle#==#
+Organization#==#UNIVERSITY OF MICHIGAN, ANN ARBOR
+Abstract#==#Knowledge-based question answering (KB_QA) has long focused on simple questions that can be answered from a single knowledge source, a manually curated or an automatically extracted KB. In this work, we look at answering complex questions which often require combining information from multiple sources. We present a novel KB-QA system, Multique, which can map a complex question to a complex query pattern using a sequence of simple queries each targeted at a specific KB. It finds simple queries using a neural-network based model capable of collective inference over textual relations in extracted KB and ontological relations in curated KB. Experiments show that our proposed system outperforms previous KB-QA systems on benchmark datasets, ComplexWebQuestions and WebQuestionsSP.
+Author{1}{Firstname}#=%=#Nikita
+Author{1}{Lastname}#=%=#Bhutani
+Author{1}{Username}#=%=#nbhutani
+Author{1}{Email}#=%=#nikita@megagon.ai
+Author{1}{Affiliation}#=%=#Megagon Labs
+Author{2}{Firstname}#=%=#Xinyi
+Author{2}{Lastname}#=%=#Zheng
+Author{2}{Username}#=%=#zxycarol
+Author{2}{Email}#=%=#zxycarol@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan, Ann Arbor
+Author{3}{Firstname}#=%=#Kun
+Author{3}{Lastname}#=%=#Qian
+Author{3}{Email}#=%=#qian.kun@ibm.com
+Author{3}{Affiliation}#=%=#IBM Research - Almaden
+Author{4}{Firstname}#=%=#Yunyao
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#yunyaoli
+Author{4}{Email}#=%=#yunyaoli@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research - Almaden
+Author{5}{Firstname}#=%=#H.
+Author{5}{Lastname}#=%=#Jagadish
+Author{5}{Username}#=%=#hjagadish
+Author{5}{Email}#=%=#jag@umich.edu
+Author{5}{Affiliation}#=%=#University of Michigan
+
+==========

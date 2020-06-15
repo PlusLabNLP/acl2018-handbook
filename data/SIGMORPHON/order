@@ -1,0 +1,43 @@
+* July 10, 2020
+= 08:30--10:30 Morning Session
+! 08:30--09:30 Invited Talk: On Understanding Character-level Models for Representing Morphology %by Clara Vania, NYU
+! 09:30--10:30 Invited Talk: Recursive Schemes for Phonological Analysis %by Jane Chandlee, Haverford College
+= 10:30--10:45 Break #1
+= 10:45--12:30 Shared Task
+39 10:45--11:00  # SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection
+38 11:00--11:15  # The SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion
+37 11:15--11:30  # The SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion
+! 11:30--12:30 Shared Task Poster Session %by Multiple
+18   # One-Size-Fits-All Multilingual Models
+19   # Ensemble Self-Training for Low-Resource Languages: Grapheme-to-Phoneme Conversion and Morphological Inflection
+21   # The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer
+22   # Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model
+23   # The NYU-CUBoulder Systems for SIGMORPHON 2020 Task 0 and Task 2
+24   # The IMS___CUBoulder System for the SIGMORPHON 2020 Shared Task on Unsupervised Morphological Paradigm Completion
+25   # SIGMORPHON 2020 Task 0 System Description: ETH Z__rich Team
+26   # KU-CST at the SIGMORPHON 2020 Task 2 on Unsupervised Morphological Paradigm Completion
+27   # Low-Resource G2P and P2G Conversion with Synthetic Training Data
+28   # Frustratingly Easy Multilingual Grapheme-to-Phoneme Conversion
+29   # Exploring Neural Architectures And Techniques For Typologically Diverse Morphological Inflection
+30   # University of Illinois Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection
+31   # One Model to Pronounce Them All: Multilingual Grapheme-to-Phoneme Conversion With a Transformer Ensemble
+32   # Leveraging Principal Parts for Morphological Inflection
+33   # Linguist vs. Machine: Rapid Development of Finite-State Morphological Grammars
+34   # CLUZH at SIGMORPHON 2020 Shared Task on Multilingual Grapheme-to-Phoneme Conversion
+35   # The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection
+36   # Data Augmentation for Transformer-based G2P
+= 12:30--14:00 Lunch
+= 14:00--15:06 Paper Session
+7 14:00--14:10  # Transliteration for Cross-Lingual Morphological Inflection
+11 14:11--14:21  # Evaluating Neural Morphological Taggers for Sanskrit
+14 14:22--14:32  # Getting the ##life out of living: How Adequate Are Word-Pieces for Modelling Complex Morphology?
+3 14:33--14:43  # Induced Inflection-Set Keyword Search in Speech
+2 14:44--14:54  # Representation Learning for Discovering Phonemic Tone Contours
+6 14:55--15:05  # Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization
+= 15:06--15:30 Best Paper Session
+13 15:06--15:18  # In search of isoglosses: continuous and discrete language embeddings in Slavic historical phonology
+8 15:18--15:30  # Multi-Tiered Strictly Local Functions
+= 15:30--16:00 Break #2
+= 16:00--18:00 Afternoon Session
+! 16:00--17:00 Invited Talk: Inflectional data science and human/computer-aided linguistic analysis %by Robert Malouf, San Diego State University
+!  Invited Talk: Modeling failure in morphophonological learning %by Bruce Hayes, UCLA

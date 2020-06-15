@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#IlliniMet: Illinois System for Metaphor Detection with Contextual and Linguistic Information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Hongyu Gong
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+Abstract#==#Metaphors are rhetorical use of words based on the conceptual mapping as opposed to their literal use. Metaphor detection, an important task in language understanding, aims to identify metaphors in word level from given sentences. We present IlliniMet, a system to automatically detect metaphorical words. Our model combines the strengths of the contextualized representation by the widely used RoBERTa model and the rich linguistic information from external resources such as WordNet. The proposed approach is shown to outperform strong baselines on a benchmark dataset. Our best model achieves F1 scores of $73.0\%$ on VUA ALLPOS, $77.1\%$ on VUA VERB, $70.3\%$ on TOEFL ALLPOS and $71.9\%$ on TOEFL VERB.
+Author{1}{Firstname}#=%=#Hongyu
+Author{1}{Lastname}#=%=#Gong
+Author{1}{Username}#=%=#hongyugong
+Author{1}{Email}#=%=#hgong6@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Kshitij
+Author{2}{Lastname}#=%=#Gupta
+Author{2}{Email}#=%=#kg9@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Akriti
+Author{3}{Lastname}#=%=#Jain
+Author{3}{Email}#=%=#akritij2@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana-Chamapaign
+Author{4}{Firstname}#=%=#Suma
+Author{4}{Lastname}#=%=#Bhat
+Author{4}{Username}#=%=#sumapramod
+Author{4}{Email}#=%=#spbhat2@illinois.edu
+Author{4}{Affiliation}#=%=#University of Illinois, Urbana-Champaign
+
+==========

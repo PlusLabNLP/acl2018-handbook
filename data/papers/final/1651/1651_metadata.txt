@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1651
+FinalPaperTitle#=%=#Span-based Localizing Network for Natural Language Video Localization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Zhang Hao
+JobTitle#==#
+Organization#==#School of Computer Science and Engineering, Nanyang Technological University, 50 Nanyang Avenue, Singapore
+Abstract#==#Given an untrimmed video and a text query, natural language video localization (NLVL) is to locate a matching span from the video that semantically corresponds to the query. Existing solutions formulate NLVL either as a ranking task and apply multimodal matching architecture, or as a regression task to directly regress the target video span. In this work, we address NLVL task with a span-based QA approach by treating the input video as text passage. We propose a video span localizing network (VSLNet), on top of the standard span-based QA framework, to address NLVL. The proposed VSLNet tackles the differences between NLVL and span-based QA through a simple and yet effective query-guided highlighting (QGH) strategy. The QGH guides VSLNet to search for matching video span within a highlighted region. Through extensive experiments on three benchmark datasets, we show that the proposed VSLNet outperforms the state-of-the-art methods; and adopting span-based QA framework is a promising direction to solve NLVL.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#isaacchanghau
+Author{1}{Email}#=%=#isaac.changhau@gmail.com
+Author{1}{Affiliation}#=%=#Agency for Science, Technology and Research
+Author{2}{Firstname}#=%=#Aixin
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#aixinsun
+Author{2}{Email}#=%=#axsun@ntu.edu.sg
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Jing
+Author{3}{Username}#=%=#wjing
+Author{3}{Email}#=%=#21wjing@gmail.com
+Author{3}{Affiliation}#=%=#A*STAR
+Author{4}{Firstname}#=%=#Joey Tianyi
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Username}#=%=#joeyzhouty
+Author{4}{Email}#=%=#joey.tianyi.zhou@gmail.com
+Author{4}{Affiliation}#=%=#Institute of High Performance Computing
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3248
+FinalPaperTitle#=%=#Single Model Ensemble using Pseudo-Tags and Distinct Vectors
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ryosuke Kuwabara
+JobTitle#==#
+Organization#==#The University of Tokyo
+Abstract#==#Model ensemble techniques often increase task performance in neural networks; however, they require increased time, memory, and management effort. In this study, we propose a novel method that replicates the effects of a model ensemble with a single model. Our approach creates K-virtual models within a single parameter space using K-distinct pseudo-tags and K-distinct vectors. Experiments on text classification and sequence labeling tasks on several datasets demonstrate that our method emulates or outperforms a traditional model ensemble with 1/K-times fewer parameters.
+Author{1}{Firstname}#=%=#Ryosuke
+Author{1}{Lastname}#=%=#Kuwabara
+Author{1}{Username}#=%=#ryosukekuwabara
+Author{1}{Email}#=%=#kuwabara@nlab.ci.i.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Jun
+Author{2}{Lastname}#=%=#Suzuki
+Author{2}{Username}#=%=#jun
+Author{2}{Email}#=%=#dr.jun.suzuki@gmail.com
+Author{2}{Affiliation}#=%=#Tohoku University / RIKEN Center for AIP
+Author{3}{Firstname}#=%=#Hideki
+Author{3}{Lastname}#=%=#Nakayama
+Author{3}{Username}#=%=#n_hidekey
+Author{3}{Email}#=%=#nakayama@ci.i.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#The University of Tokyo
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#531
+FinalPaperTitle#=%=#Generating Counter Narratives against Online Hate Speech: Data and Strategies
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Serra Sinem Tekiroğlu
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler, Via Sommarive 18, Povo, Trento, Italy
+Abstract#==#Recently research has started focusing on avoiding undesired effects that come with content moderation, such as censorship and overblocking, when dealing with hatred online. The core idea is to directly intervene in the discussion with textual responses that are meant to counter the hate content and prevent it from further spreading. Accordingly, automation strategies, such as natural language generation, are beginning to be investigated. Still, they suffer from the lack of sufficient amount of quality data and tend to produce generic/repetitive responses. Being aware of the aforementioned limitations, we present a study on how to collect responses to hate effectively, employing large scale unsupervised language models such as GPT-2 for the generation of silver data, and the best annotation strategies/neural architectures that can be used for data filtering before expert validation/post-editing.
+Author{1}{Firstname}#=%=#Serra Sinem
+Author{1}{Lastname}#=%=#Tekiroğlu
+Author{1}{Username}#=%=#serrasinem
+Author{1}{Email}#=%=#serrasinem@gmail.com
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Yi-Ling
+Author{2}{Lastname}#=%=#Chung
+Author{2}{Username}#=%=#yilingchung
+Author{2}{Email}#=%=#ychung@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Guerini
+Author{3}{Username}#=%=#marco.guerini
+Author{3}{Email}#=%=#guerini@fbk.eu
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#DeepMet: A Reading Comprehension Paradigm for Token-level Metaphor Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chuandong Su
+JobTitle#==#
+Organization#==#University of Yamanashi, Yamanashi, Japan
+Abstract#==#Machine metaphor understanding is one of the major topics in NLP. Most of the recent attempts consider it as classification or sequence tagging task. However, few types of research introduce the rich linguistic
+information into the field of computational metaphor by leveraging powerful pre-training language models. We focus a novel reading comprehension paradigm for solving the token-level metaphor detection task which provides an innovative type of solution for this task. We propose an end-to-end deep metaphor detection model named DeepMet based on this paradigm. The proposed approach encodes the global text context (whole sentence), local text context (sentence fragments), and question (query word) information as well as incorporating two types of part-of-speech (POS) features by making use of the advanced pre-training language model. The experimental results by using several metaphor datasets show that our model achieves competitive results in the second shared task on metaphor detection.
+Author{1}{Firstname}#=%=#Chuandong
+Author{1}{Lastname}#=%=#Su
+Author{1}{Username}#=%=#suchuandong
+Author{1}{Email}#=%=#suchuandong@hdu.edu.cn
+Author{1}{Affiliation}#=%=#Hangzhou Dianzi University
+Author{2}{Firstname}#=%=#Fumiyo
+Author{2}{Lastname}#=%=#Fukumoto
+Author{2}{Username}#=%=#fukumoto
+Author{2}{Email}#=%=#fukumoto@yamanashi.ac.jp
+Author{2}{Affiliation}#=%=#University of Yamanashi
+Author{3}{Firstname}#=%=#Xiaoxi
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Username}#=%=#huangxx
+Author{3}{Email}#=%=#huangxx@hdu.edu.cn
+Author{3}{Affiliation}#=%=#Hangzhou Dianzi University
+Author{4}{Firstname}#=%=#Jiyi
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#garfieldpigljy
+Author{4}{Email}#=%=#jyli@yamanashi.ac.jp
+Author{4}{Affiliation}#=%=#University of Yamanashi
+Author{5}{Firstname}#=%=#Rongbo
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#wangrongbo@hdu.edu.cn
+Author{5}{Affiliation}#=%=#Hangzhou Dianzi University
+Author{6}{Firstname}#=%=#Zhiqun
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#chenzq@hdu.edu.cn
+Author{6}{Affiliation}#=%=#Hangzhou Dianzi University
+
+==========

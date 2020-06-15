@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2484
+FinalPaperTitle#=%=#Query Graph Generation for Answering Multi-hop Complex Questions from Knowledge Bases
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yunshi Lan
+JobTitle#==#
+Organization#==#Singapore Management University, Singapore
+Abstract#==#Previous work on answering complex questions from knowledge bases usually separately addresses two types of complexity: questions with constraints and questions with multiple hops of relations. In this paper, we handle both types of complexity at the same time. Motivated by the observation that early incorporation of constraints into query graphs can more effectively prune the search space, we propose a modified staged query graph generation method with more flexible ways to generate query graphs. Our experiments clearly show that our method achieves the state of the art on three benchmark KBQA datasets.
+Author{1}{Firstname}#=%=#Yunshi
+Author{1}{Lastname}#=%=#Lan
+Author{1}{Username}#=%=#yunshi
+Author{1}{Email}#=%=#yslan.2015@phdis.smu.edu.sg
+Author{1}{Affiliation}#=%=#Singapore Management University
+Author{2}{Firstname}#=%=#Jing
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#jingjiang
+Author{2}{Email}#=%=#jingjiang@smu.edu.sg
+Author{2}{Affiliation}#=%=#Singapore Management University
+
+==========

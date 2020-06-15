@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#3291
+FinalPaperTitle#=%=#Speaker Sensitive Response Evaluation Model
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#JinYeong Bak
+JobTitle#==#
+Organization#==#KAIST, 291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea
+Abstract#==#Automatic evaluation of open-domain dialogue response generation is very challenging because there are many appropriate responses for a given context.  
+Existing evaluation models merely compare the generated response with the ground truth response and rate many of the appropriate responses as inappropriate if they deviate from the ground truth.
+One approach to resolve this problem is to consider the similarity of the generated response with the conversational context.
+In this paper, we propose an automatic evaluation model based on that idea and learn the model parameters from an unlabeled conversation corpus.
+Our approach considers the speakers in defining the different levels of similar context.
+We use a Twitter conversation corpus that contains many speakers and conversations to test our evaluation model.
+Experiments show that our model outperforms the other existing evaluation metrics in terms of high correlation with human annotation scores.
+We also show that our model trained on Twitter can be applied to movie dialogues without any additional training.
+We provide our code and the learned parameters so that they can be used for automatic evaluation of dialogue response generation models.
+Author{1}{Firstname}#=%=#JinYeong
+Author{1}{Lastname}#=%=#Bak
+Author{1}{Username}#=%=#nosyu
+Author{1}{Email}#=%=#jy.bak@kaist.ac.kr
+Author{1}{Affiliation}#=%=#KAIST
+Author{2}{Firstname}#=%=#Alice
+Author{2}{Lastname}#=%=#Oh
+Author{2}{Username}#=%=#alice.oh
+Author{2}{Email}#=%=#alice.oh@kaist.edu
+Author{2}{Affiliation}#=%=#KAIST
+
+==========

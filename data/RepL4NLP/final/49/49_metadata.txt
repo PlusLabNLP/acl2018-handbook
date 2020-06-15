@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Enhancing Transformer with Sememe Knowledge
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yuhui Zhang
+JobTitle#==#
+Organization#==#Stanford University, Stanford, CA 94305
+Abstract#==#While large-scale pretraining has achieved great success in many NLP tasks, it has not been fully studied whether external linguistic knowledge can improve data-driven models.
+In this work, we introduce sememe knowledge into Transformer and propose three sememe-enhanced Transformer models. Sememes, by linguistic definition, are the minimum semantic units of language, which can well represent implicit semantic meanings behind words. 
+Our experiments demonstrate that introducing sememe knowledge into Transformer can consistently improve language modeling and downstream tasks. The adversarial test further demonstrates that sememe knowledge can substantially improve model robustness.
+Author{1}{Firstname}#=%=#Yuhui
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#yuhuiz
+Author{1}{Email}#=%=#yuhuiz@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Chenghao
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Username}#=%=#chrome01
+Author{2}{Email}#=%=#yangalan1996@gmail.com
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Zhengping
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Username}#=%=#zhouzp15
+Author{3}{Email}#=%=#zhouzp15@mails.tsinghua.edu.cn
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Zhiyuan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#lzy.thu
+Author{4}{Email}#=%=#liuzy@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+
+==========

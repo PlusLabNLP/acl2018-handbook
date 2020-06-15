@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2112
+FinalPaperTitle#=%=#A Multitask Learning Approach for Diacritic Restoration
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Sawsan Alqahtani
+JobTitle#==#
+Organization#==#AWS, Amazon AI
+Abstract#==#In many languages like Arabic, diacritics are used to specify pronunciations as well as meanings. Such diacritics are often omitted in written text, increasing the number of possible pronunciations and meanings for a word. This results in a more ambiguous text making computational  processing on such text more difficult. Diacritic restoration is the task of restoring missing diacritics in the written text. Most state-of-the-art diacritic restoration models are built on character level information which helps generalize the model to unseen data, but presumably lose  useful information at the word level.  Thus, to compensate for this loss, we investigate the use of multi-task learning to jointly optimize diacritic restoration with related NLP problems namely word segmentation, part-of-speech tagging, and syntactic  diacritization. We  use  Arabic  as  a  case study since it has sufficient data  resources  for  tasks  that  we  consider  in our joint modeling. Our joint models significantly  outperform the baselines and are comparable to the state-of-the-art models that are more complex relying on morphological analyzers and/or a lot more data (e.g. dialectal data).
+Author{1}{Firstname}#=%=#Sawsan
+Author{1}{Lastname}#=%=#Alqahtani
+Author{1}{Username}#=%=#sawsanq
+Author{1}{Email}#=%=#sawsanq@gwmail.gwu.edu
+Author{1}{Affiliation}#=%=#Amazon Web Services
+Author{2}{Firstname}#=%=#Ajay
+Author{2}{Lastname}#=%=#Mishra
+Author{2}{Username}#=%=#misaja
+Author{2}{Email}#=%=#misaja@amazon.com
+Author{2}{Affiliation}#=%=#Amazon Web Services
+Author{3}{Firstname}#=%=#Mona
+Author{3}{Lastname}#=%=#Diab
+Author{3}{Username}#=%=#mdiab
+Author{3}{Email}#=%=#mtdiab@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Xiang Gao
+JobTitle#==#
+Organization#==#Microsoft Research, Redmond, WA 98052
+Abstract#==#We present MixingBoard, a platform for quickly building demos with a focus on knowledge grounded stylized text generation. We unify existing text generation algorithms in a shared codebase and further adapt earlier algorithms for constrained generation. To borrow advantages from different models, we implement strategies for cross-model integration, from the token probability level to the latent space level. An interface to external knowledge is provided via a module that retrieves, on-the-fly, relevant knowledge from passages on the web or a document collection. A user interface for local development, remote webpage access, and a RESTful API are provided to make it simple for users to build their own demos.
+Author{1}{Firstname}#=%=#Xiang
+Author{1}{Lastname}#=%=#Gao
+Author{1}{Username}#=%=#gxiang1228
+Author{1}{Email}#=%=#xiag@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research
+Author{2}{Firstname}#=%=#Michel
+Author{2}{Lastname}#=%=#Galley
+Author{2}{Username}#=%=#mgalley
+Author{2}{Email}#=%=#mgalley@acm.org
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Dolan
+Author{3}{Username}#=%=#billdol
+Author{3}{Email}#=%=#billdol@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+
+==========

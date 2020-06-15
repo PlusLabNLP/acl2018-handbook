@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2341
+FinalPaperTitle#=%=#Benefits of Intermediate Annotations in Reading Comprehension
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Dheeru Dua
+JobTitle#==#
+Organization#==#University of California, Irvine
+Abstract#==#Complex compositional reading comprehension datasets require performing latent sequential decisions that are learned via supervision from the final answer. A large combinatorial space of possible decision paths that result in the same answer, compounded by the lack of intermediate supervision to help choose the right path, makes the learning particularly hard for this task. In this work, we study the benefits of collecting intermediate reasoning supervision along with the answer during data collection. We find that these intermediate annotations can provide two-fold benefits. First, we observe that for any collection budget, spending a fraction of it on intermediate annotations results in improved model performance, for two complex compositional datasets: DROP and Quoref. Second, these annotations encourage the model to learn the correct latent reasoning steps, helping combat some of the biases introduced during the data collection process.
+Author{1}{Firstname}#=%=#Dheeru
+Author{1}{Lastname}#=%=#Dua
+Author{1}{Username}#=%=#ddua
+Author{1}{Email}#=%=#dheeru_dua@hotmail.com
+Author{1}{Affiliation}#=%=#University of California, Irvine
+Author{2}{Firstname}#=%=#Sameer
+Author{2}{Lastname}#=%=#Singh
+Author{2}{Username}#=%=#sameer
+Author{2}{Email}#=%=#sameer@uci.edu
+Author{2}{Affiliation}#=%=#University of California, Irvine
+Author{3}{Firstname}#=%=#Matt
+Author{3}{Lastname}#=%=#Gardner
+Author{3}{Username}#=%=#mattg
+Author{3}{Email}#=%=#mattg@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

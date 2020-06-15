@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Neural Simultaneous Speech Translation Using Alignment-Based Chunking
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Evgeny Matusov
+JobTitle#==#
+Organization#==#AppTek GmbH, Theaterplatz 6, 52066 Aachen, Germany.
+Abstract#==#In simultaneous machine translation, the objective is to determine when to produce a partial translation given a continuous stream of source words, with a trade-off between latency  and quality. We propose a neural machine translation (NMT) model that makes dynamic decisions when to continue feeding on input or generate output words. The model is composed of two main components: one to dynamically decide on ending a source chunk, and another that translates the consumed chunk. We train the components jointly and in a manner consistent with the inference conditions. To generate chunked training data, we propose a method that utilizes word alignment while also preserving enough context. We compare models with bidirectional and unidirectional encoders of different depths, both on real speech and text input.  Our results on the IWSLT 2020 English-to-German task outperform a wait-k baseline by 2.6 to 3.7% BLEU absolute.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Wilken
+Author{1}{Email}#=%=#pwilken@apptek.com
+Author{1}{Affiliation}#=%=#AppTek
+Author{2}{Firstname}#=%=#Tamer
+Author{2}{Lastname}#=%=#Alkhouli
+Author{2}{Username}#=%=#alkhouli
+Author{2}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#AppTek
+Author{3}{Firstname}#=%=#Evgeny
+Author{3}{Lastname}#=%=#Matusov
+Author{3}{Username}#=%=#ematusov
+Author{3}{Email}#=%=#evgeny.matusov@gmail.com
+Author{3}{Affiliation}#=%=#AppTek
+Author{4}{Firstname}#=%=#Pavel
+Author{4}{Lastname}#=%=#Golik
+Author{4}{Email}#=%=#pgolik@apptek.com
+Author{4}{Affiliation}#=%=#AppTek
+
+==========

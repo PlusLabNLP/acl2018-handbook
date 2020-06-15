@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2120
+FinalPaperTitle#=%=#{A}nalyzing the {P}ersuasive {E}ffect of {S}tyle in {N}ews {E}ditorial {A}rgumentation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Roxanne El Baff
+JobTitle#==#
+Organization#==#German Aerospace Center (DLR), Oberpfaffenhofen, Germany
+Abstract#==#News editorials argue about political issues in order to challenge or reinforce the stance of readers with different ideologies. Previous research has investigated such persuasive effects for argumentative content. In contrast, this paper studies how important the style of news editorials is to achieve persuasion. To this end, we first compare content- and style-oriented classifiers on editorials from the liberal NYTimes with ideology-specific effect annotations. We find that conservative readers are resistant to NYTimes style, but on liberals, style even has more impact than content. Focusing on liberals, we then cluster the leads, bodies, and endings of editorials, in order to learn about writing style patterns of effective argumentation.
+Author{1}{Firstname}#=%=#Roxanne
+Author{1}{Lastname}#=%=#El Baff
+Author{1}{Username}#=%=#roxanneelbaff
+Author{1}{Email}#=%=#roxanne.elbaff@dlr.de
+Author{1}{Affiliation}#=%=#German Aerospace Center
+Author{2}{Firstname}#=%=#Henning
+Author{2}{Lastname}#=%=#Wachsmuth
+Author{2}{Username}#=%=#hwachsmuth
+Author{2}{Email}#=%=#henningw@upb.de
+Author{2}{Affiliation}#=%=#Paderborn University
+Author{3}{Firstname}#=%=#Khalid
+Author{3}{Lastname}#=%=#Al Khatib
+Author{3}{Username}#=%=#khalid
+Author{3}{Email}#=%=#khalid.alkhatib@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Username}#=%=#benno.stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

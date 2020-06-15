@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Monolingual corpus creation and evaluation of truly low-resource languages from Peru
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce new monolingual corpora for four indigenous and endangered languages from Peru: Shipibo-konibo, Ashaninka, Yanesha and Yine. Given the total absence of these languages in the web, the extraction and processing of texts from PDF files is relevant in a truly low-resource language scenario. Our procedure for corpus creation considers multiple filtering steps, and focuses on educational PDF documents. Throughout an evaluation based on language modelling and character-level perplexity, we determine that our method allows the creation of clean monolingual corpora to support further Natural Language Processing (NLP) tasks in four languages.
+Author{1}{Firstname}#=%=#Gina
+Author{1}{Lastname}#=%=#Bustamante
+Author{1}{Username}#=%=#gbustamante
+Author{1}{Email}#=%=#gina.bustamante@pucp.edu.pe
+Author{1}{Affiliation}#=%=#Research Group on Artificial Intelligence
+Author{2}{Firstname}#=%=#Arturo
+Author{2}{Lastname}#=%=#Oncevay
+Author{2}{Username}#=%=#aoncevay
+Author{2}{Email}#=%=#a.oncevay@ed.ac.uk
+Author{2}{Affiliation}#=%=#The University of Edinburgh
+
+==========

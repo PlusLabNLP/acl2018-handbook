@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1377
+FinalPaperTitle#=%=#AMR Parsing via Graph-Sequence Iterative Inference
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Deng Cai
+JobTitle#==#
+Organization#==#The Chinese University of Hong Kong
+Abstract#==#We propose a new end-to-end model that treats AMR parsing as a series of dual decisions on the input sequence and the incrementally constructed graph. At each time step, our model performs multiple rounds of attention, reasoning, and composition that aim to answer two critical questions: (1) which part of the input \textit{sequence} to abstract; and (2) where in the output \textit{graph} to construct the new concept. We show that the answers to these two questions are mutually causalities. We design a model based on iterative inference that helps achieve better answers in both perspectives, leading to greatly improved parsing accuracy. Our experimental results significantly outperform all previously reported \textsc{Smatch} scores by large margins. Remarkably, without the help of any large-scale pre-trained language model (e.g., BERT), our model already surpasses previous state-of-the-art using BERT. With the help of BERT, we can push the state-of-the-art results to 80.2\% on LDC2017T10 (AMR 2.0) and 75.4\% on LDC2014T12 (AMR 1.0).
+Author{1}{Firstname}#=%=#Deng
+Author{1}{Lastname}#=%=#Cai
+Author{1}{Username}#=%=#jcykcd
+Author{1}{Email}#=%=#thisisjcykcd@gmail.com
+Author{1}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Wai
+Author{2}{Lastname}#=%=#Lam
+Author{2}{Username}#=%=#wlam
+Author{2}{Email}#=%=#wlam@se.cuhk.edu.hk
+Author{2}{Affiliation}#=%=#The Chinese University of Hong Kong
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1938
+FinalPaperTitle#=%=#What is Learned in Visually Grounded Neural Syntax Acquisition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#21
+CopyrightSigned#=%=#Noriyuki Kojima
+JobTitle#==#
+Organization#==#Department of Computer Science and Cornell Tech, Cornell University, 2 W Loop Rd New York, NY 10044
+Abstract#==#Visual features are a promising signal for learning bootstrap textual models. However, blackbox learning models make it difficult to isolate the specific contribution of visual components. In this analysis, we consider the case study of the Visually Grounded Neural Syntax Learner (Shi et al., 2019), a recent approach for learning syntax from a visual training signal. By constructing simplified versions of the model, we isolate the core factors that yield the model's strong performance. Contrary to what the model might be capable of learning, we find significantly less expressive versions produce similar predictions and perform just as well, or even better. We also find that a simple lexical signal of noun concreteness plays the main role in the model's predictions as opposed to more complex syntactic reasoning.
+Author{1}{Firstname}#=%=#Noriyuki
+Author{1}{Lastname}#=%=#Kojima
+Author{1}{Username}#=%=#kojimano
+Author{1}{Email}#=%=#nk654@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Hadar
+Author{2}{Lastname}#=%=#Averbuch-Elor
+Author{2}{Username}#=%=#hadarelor
+Author{2}{Email}#=%=#he93@cornell.edu
+Author{2}{Affiliation}#=%=#Cornell-Tech
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Rush
+Author{3}{Username}#=%=#srush
+Author{3}{Email}#=%=#arush@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Yoav
+Author{4}{Lastname}#=%=#Artzi
+Author{4}{Username}#=%=#yoav
+Author{4}{Email}#=%=#yoav@cs.cornell.edu
+Author{4}{Affiliation}#=%=#Cornell University
+
+==========

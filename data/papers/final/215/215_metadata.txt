@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#215
+FinalPaperTitle#=%=#It Takes Two to Lie: One to Lie, and One to Listen
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#44
+CopyrightSigned#=%=#Denis Peskov
+JobTitle#==#
+Organization#==#University of Maryland
+Abstract#==#Trust is implicit in many online text conversations---striking up new friendships, or asking for tech support.  But trust can be betrayed through deception.  We study the language and dynamics of deception in the negotiation-based game Diplomacy, where seven players compete for world domination by forging and breaking alliances with each other.  Our study with players from the Diplomacy community gathers 17,289 messages annotated by the sender for their intended truthfulness and by the receiver for their perceived truthfulness. Unlike existing datasets, this captures deception in long-lasting relationships, where the interlocutors strategically combine truth with lies to advance objectives. A model that uses power dynamics and conversational contexts can predict when a lie occurs nearly as well as human players.
+Author{1}{Firstname}#=%=#Denis
+Author{1}{Lastname}#=%=#Peskov
+Author{1}{Username}#=%=#dpeskov
+Author{1}{Email}#=%=#dpeskov@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Benny
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Username}#=%=#bcheng
+Author{2}{Email}#=%=#bcheng96@umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+Author{3}{Firstname}#=%=#Ahmed
+Author{3}{Lastname}#=%=#Elgohary
+Author{3}{Username}#=%=#elgohary
+Author{3}{Email}#=%=#elgohary@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland
+Author{4}{Firstname}#=%=#Joe
+Author{4}{Lastname}#=%=#Barrow
+Author{4}{Username}#=%=#jdbarrow
+Author{4}{Email}#=%=#jdbarrow@cs.umd.edu
+Author{4}{Affiliation}#=%=#University of Maryland
+Author{5}{Firstname}#=%=#Cristian
+Author{5}{Lastname}#=%=#Danescu-Niculescu-Mizil
+Author{5}{Username}#=%=#cristian
+Author{5}{Email}#=%=#cristian@cs.cornell.edu
+Author{5}{Affiliation}#=%=#Cornell University
+Author{6}{Firstname}#=%=#Jordan
+Author{6}{Lastname}#=%=#Boyd-Graber
+Author{6}{Username}#=%=#ezubaric
+Author{6}{Email}#=%=#jbg@umiacs.umd.edu
+Author{6}{Affiliation}#=%=#University of Maryland
+
+==========

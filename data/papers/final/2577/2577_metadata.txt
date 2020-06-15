@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2577
+FinalPaperTitle#=%=#Speakers enhance contextually confusable words
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Leon Bergen
+JobTitle#==#
+Organization#==#UCSD, La Jolla, CA, USA 92093
+Abstract#==#Recent work has found evidence that natural languages are shaped by pressures for efficient communication — e.g. the more contextually predictable a word is, the fewer speech sounds or syllables it has (Piantadosi et al. 2011). Research on the degree to which speech and language are shaped by pressures for effective communication — robustness in the face of noise and uncertainty — has been more equivocal. We develop a measure of contextual confusability during word recognition based on psychoacoustic data. Applying this measure to naturalistic speech corpora, we find evidence suggesting that speakers alter their productions to make contextually more confusable words easier to understand.
+Author{1}{Firstname}#=%=#Eric
+Author{1}{Lastname}#=%=#Meinhardt
+Author{1}{Username}#=%=#emeinhardt
+Author{1}{Email}#=%=#emeinhar@ucsd.edu
+Author{1}{Affiliation}#=%=#University of California, San Diego
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Bakovic
+Author{2}{Username}#=%=#ebakovic
+Author{2}{Email}#=%=#ebakovic@ucsd.edu
+Author{2}{Affiliation}#=%=#UC San Diego
+Author{3}{Firstname}#=%=#Leon
+Author{3}{Lastname}#=%=#Bergen
+Author{3}{Username}#=%=#lbergen
+Author{3}{Email}#=%=#lbergen@ucsd.edu
+Author{3}{Affiliation}#=%=#University of California, San Diego
+
+==========

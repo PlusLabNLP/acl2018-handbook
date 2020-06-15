@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1283
+FinalPaperTitle#=%=#Evaluating and Enhancing the Robustness of Neural Network-based Dependency Parsing Models with Adversarial Examples
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xiaoqing Zheng
+JobTitle#==#
+Organization#==#Fudan University, 220 Handan Road, Yangpu District, Shanghai, China
+Abstract#==#Despite achieving prominent performance on many important tasks, it has been reported that neural networks are vulnerable to adversarial examples. Previously studies along this line mainly focused on semantic tasks such as sentiment analysis, question answering and reading comprehension. 
+In this study, we show that adversarial examples also exist in dependency parsing: we propose two approaches to study where and how parsers make mistakes by searching over perturbations to existing texts at sentence and phrase levels, and design algorithms to construct such examples in both of the black-box and white-box settings. Our experiments with one of state-of-the-art parsers on the English Penn Treebank (PTB) show that up to 77% of input examples admit adversarial perturbations, and we also show that the robustness of parsing models can be improved by crafting high-quality adversaries and including them in the training stage, while suffering little to no performance drop on the clean input data.
+Author{1}{Firstname}#=%=#Xiaoqing
+Author{1}{Lastname}#=%=#Zheng
+Author{1}{Username}#=%=#zxqingcn
+Author{1}{Email}#=%=#zhengxq@fudan.edu.cn
+Author{1}{Affiliation}#=%=#Fudan University
+Author{2}{Firstname}#=%=#Jiehang
+Author{2}{Lastname}#=%=#Zeng
+Author{2}{Email}#=%=#jhzeng18@fudan.edu.cn
+Author{2}{Affiliation}#=%=#Fudan University
+Author{3}{Firstname}#=%=#Yi
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Username}#=%=#zhouyi
+Author{3}{Email}#=%=#yizhou17@fudan.edu.cn
+Author{3}{Affiliation}#=%=#Fudan University
+Author{4}{Firstname}#=%=#Cho-Jui
+Author{4}{Lastname}#=%=#Hsieh
+Author{4}{Username}#=%=#chohsieh
+Author{4}{Email}#=%=#chohsieh@cs.ucla.edu
+Author{4}{Affiliation}#=%=#University of California, Los Angeles
+Author{5}{Firstname}#=%=#Minhao
+Author{5}{Lastname}#=%=#Cheng
+Author{5}{Username}#=%=#cmhcbb
+Author{5}{Email}#=%=#mhcheng@ucla.edu
+Author{5}{Affiliation}#=%=#UCLA
+Author{6}{Firstname}#=%=#Xuanjing
+Author{6}{Lastname}#=%=#Huang
+Author{6}{Username}#=%=#xjhuang
+Author{6}{Email}#=%=#xjhuang@fudan.edu.cn
+Author{6}{Affiliation}#=%=#Fudan University
+
+==========

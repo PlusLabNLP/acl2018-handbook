@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2487
+FinalPaperTitle#=%=#Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Masahiro Kaneko
+JobTitle#==#
+Organization#==#Tokyo Metropolitan University, Tokyo, Japan
+Abstract#==#This paper investigates how to effectively incorporate a pre-trained masked language model (MLM), such as BERT, into an encoder-decoder (EncDec) model for grammatical error correction (GEC).
+The answer to this question is not as straightforward as one might expect because the previous common methods for incorporating a MLM into an EncDec model have potential drawbacks when applied to GEC. 
+For example, the distribution of the inputs to a GEC model can be considerably different (erroneous, clumsy, etc.) from that of the corpora used for pre-training MLMs; however, this issue is not addressed in the previous methods. 
+Our experiments show that our proposed method, where we first fine-tune a MLM with a given GEC corpus and then use the output of the fine-tuned MLM as additional features in the GEC model, maximizes the benefit of the MLM.
+The best-performing model achieves state-of-the-art performances on the BEA-2019 and CoNLL-2014 benchmarks.
+Our code is publicly available at: https://github.com/kanekomasahiro/bert-gec.
+Author{1}{Firstname}#=%=#Masahiro
+Author{1}{Lastname}#=%=#Kaneko
+Author{1}{Username}#=%=#kanekomasahiro
+Author{1}{Email}#=%=#kaneko-masahiro@ed.tmu.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{2}{Firstname}#=%=#Masato
+Author{2}{Lastname}#=%=#Mita
+Author{2}{Username}#=%=#masato-mi
+Author{2}{Email}#=%=#masato.mita@riken.jp
+Author{2}{Affiliation}#=%=#RIKEN AIP / Tohoku University
+Author{3}{Firstname}#=%=#Shun
+Author{3}{Lastname}#=%=#Kiyono
+Author{3}{Username}#=%=#shunk52
+Author{3}{Email}#=%=#shun.kiyono@riken.jp
+Author{3}{Affiliation}#=%=#RIKEN AIP / Tohoku University
+Author{4}{Firstname}#=%=#Jun
+Author{4}{Lastname}#=%=#Suzuki
+Author{4}{Username}#=%=#jun
+Author{4}{Email}#=%=#dr.jun.suzuki@gmail.com
+Author{4}{Affiliation}#=%=#Tohoku University / RIKEN Center for AIP
+Author{5}{Firstname}#=%=#Kentaro
+Author{5}{Lastname}#=%=#Inui
+Author{5}{Username}#=%=#k.inui
+Author{5}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{5}{Affiliation}#=%=#Tohoku University / Riken
+
+==========

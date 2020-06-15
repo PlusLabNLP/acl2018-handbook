@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#108
+FinalPaperTitle#=%=#Growing Together: Modeling Human Language Learning With n-Best Multi-Checkpoint Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#EN
+JobTitle#==#
+Organization#==#UBC
+Abstract#==#We describe our submission to the 2020 Duolingo Shared Task on Simultaneous Translation And Paraphrase for Language Education (STAPLE). We view MT models at various training stages (i.e., checkpoints) as human learners at different levels. Hence, we employ an ensemble of multi-checkpoints from the same model to generate translation sequences with various levels of fluency. From each checkpoint, for our best model, we sample n-Best sequences (n=10) with a beam width =100. We achieve an 37.57 macro  F1 with a 6 checkpoint model ensemble on the official shared task test data, outperforming a baseline Amazon translation system of 21.30 macro F1 and ultimately demonstrating the utility of our intuitive method.
+Author{1}{Firstname}#=%=#El Moatez Billah
+Author{1}{Lastname}#=%=#Nagoudi
+Author{1}{Username}#=%=#e_nagoudi
+Author{1}{Email}#=%=#e_nagoudi@esi.dz
+Author{1}{Affiliation}#=%=#Natural Language Processing Lab, University of British Columbia
+Author{2}{Firstname}#=%=#Muhammad
+Author{2}{Lastname}#=%=#Abdul-Mageed
+Author{2}{Username}#=%=#mageed
+Author{2}{Email}#=%=#muhammad.mageed@ubc.ca
+Author{2}{Affiliation}#=%=#The University of British Columbia
+Author{3}{Firstname}#=%=#Hasan
+Author{3}{Lastname}#=%=#Cavusoglu
+Author{3}{Email}#=%=#cavusoglu@sauder.ubc.ca
+Author{3}{Affiliation}#=%=#The University of British Columbia
+
+==========

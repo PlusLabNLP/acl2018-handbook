@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2475
+FinalPaperTitle#=%=#Modeling Morphological Typology for Unsupervised Learning of Language Morphology
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Hongzhi Xu
+JobTitle#==#
+Organization#==#Shanghai International Studies University, Shanghai, China
+Abstract#==#This paper describes a language-independent model for fully unsupervised morphological analysis that exploits a universal framework leveraging morphological typology. By modeling morphological processes including suffixation, prefixation, infixation, and full and partial reduplication with constrained stem change rules, our system effectively constrains the search space and offers a wide coverage in terms of morphological typology. The system is tested on nine typologically and genetically diverse languages, and shows superior performance over leading systems. We also investigate the effect of an oracle that provides only a handful of bits per language to signal morphological type.
+Author{1}{Firstname}#=%=#Hongzhi
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#hellant
+Author{1}{Email}#=%=#hxu@shisu.edu.cn
+Author{1}{Affiliation}#=%=#Shanghai International Studies University
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Kodner
+Author{2}{Username}#=%=#jkodner
+Author{2}{Email}#=%=#jordan.kodner@stonybrook.edu
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#Mitchell
+Author{3}{Lastname}#=%=#Marcus
+Author{3}{Username}#=%=#mitchmarcus
+Author{3}{Email}#=%=#mitch@cis.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Charles
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Username}#=%=#charles.yang
+Author{4}{Email}#=%=#charles.yang@ling.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

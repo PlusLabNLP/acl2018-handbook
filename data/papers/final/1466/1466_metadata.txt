@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#1466
+FinalPaperTitle#=%=#Coupling Distant Annotation and Adversarial Training for Cross-Domain Chinese Word Segmentation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ning Ding
+JobTitle#==#Author
+Organization#==#Tsinghua University, Beijing, China
+Abstract#==#Fully supervised neural approaches have achieved significant progress in the task of Chinese word segmentation (CWS). 
+Nevertheless, the performance of supervised models always drops gravely if the domain shifts due to the distribution gap across domains and the out of vocabulary (OOV) problem. 
+In order to simultaneously alleviate the issues, this paper intuitively couples distant annotation and adversarial training for cross-domain CWS. 
+1) We rethink the essence of ``Chinese words'' and design an automatic distant annotation mechanism, which does not need any supervision or pre-defined dictionaries on the target domain. The method could effectively explore domain-specific words and distantly annotate the raw texts for the target domain. 2) We further develop a sentence-level adversarial training procedure to perform noise reduction and maximum utilization of the source domain information. Experiments on multiple real-world datasets across various domains show the superiority and robustness of our model, significantly outperforming previous state-of-the-arts cross-domain CWS methods.
+Author{1}{Firstname}#=%=#Ning
+Author{1}{Lastname}#=%=#Ding
+Author{1}{Username}#=%=#stingning
+Author{1}{Email}#=%=#dingn18@mails.tsinghua.edu.cn
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Dingkun
+Author{2}{Lastname}#=%=#Long
+Author{2}{Username}#=%=#get_accpted
+Author{2}{Email}#=%=#dingkun.ldk@alibaba-inc.com
+Author{2}{Affiliation}#=%=#Alibaba Group
+Author{3}{Firstname}#=%=#Guangwei
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Username}#=%=#ahxgw
+Author{3}{Email}#=%=#ahxgwOnePiece@gmail.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Muhua
+Author{4}{Lastname}#=%=#Zhu
+Author{4}{Username}#=%=#zhumuhua
+Author{4}{Email}#=%=#zhumuhua@gmail.com
+Author{4}{Affiliation}#=%=#Tencent
+Author{5}{Firstname}#=%=#Pengjun
+Author{5}{Lastname}#=%=#Xie
+Author{5}{Username}#=%=#xpjandy
+Author{5}{Email}#=%=#chengchen.xpj@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group
+Author{6}{Firstname}#=%=#Xiaobin
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Username}#=%=#xiaobinwang
+Author{6}{Email}#=%=#xuanjie.wxb@alibaba-inc.com
+Author{6}{Affiliation}#=%=#Alibaba Group
+Author{7}{Firstname}#=%=#Haitao
+Author{7}{Lastname}#=%=#Zheng
+Author{7}{Username}#=%=#zheng.haitao
+Author{7}{Email}#=%=#2568771@qq.com
+Author{7}{Affiliation}#=%=#Tsinghua University, Shenzhen International Graduate School.
+
+==========

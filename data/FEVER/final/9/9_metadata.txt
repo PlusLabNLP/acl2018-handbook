@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Simple Compounded-Label Training for Fact Extraction and Verification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yixin Nie
+JobTitle#==#
+Organization#==#UNC Chapel Hill
+Abstract#==#Automatic fact checking is an important task motivated by the need for detecting and preventing the spread of misinformation across the web. The recently released FEVER challenge provides a benchmark task that assesses systems’ capability for both the retrieval of required evidence and the identification of authentic claims. Previous approaches share a similar pipeline training paradigm that decomposes the task into three subtasks, with each component built and trained separately. Although achieving acceptable scores, these methods induce difficulty for practical application development due to unnecessary complexity and expensive computation. In this paper, we explore the potential of simplifying the system design and reducing training computation by proposing a joint training setup in which a single sequence matching model is trained with compounded labels that give supervision for both sentence selection and claim verification subtasks, eliminating the duplicate computation that occurs when models are designed and trained separately. Empirical results on FEVER indicate that our method: (1) outperforms the typical multi-task learning approach, and (2) gets comparable results to top performing systems with a much simpler training setup and less training computation (in terms of the amount of data consumed and the number of model parameters), facilitating future works on the automatic fact checking task and its practical usage.
+Author{1}{Firstname}#=%=#Yixin
+Author{1}{Lastname}#=%=#Nie
+Author{1}{Username}#=%=#easonnie
+Author{1}{Email}#=%=#yixin1@cs.unc.edu
+Author{1}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{2}{Firstname}#=%=#Lisa
+Author{2}{Lastname}#=%=#Bauer
+Author{2}{Username}#=%=#lbauer6
+Author{2}{Email}#=%=#lbauer6@cs.unc.edu
+Author{2}{Affiliation}#=%=#University of North Carolina-Chapel Hill
+Author{3}{Firstname}#=%=#Mohit
+Author{3}{Lastname}#=%=#Bansal
+Author{3}{Username}#=%=#mbansal
+Author{3}{Email}#=%=#mbansal@cs.unc.edu
+Author{3}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+
+==========

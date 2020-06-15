@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1751
+FinalPaperTitle#=%=#The State and Fate of Linguistic Diversity and Inclusion in the NLP World
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Sebastin Santy
+JobTitle#==#
+Organization#==#Microsoft Research, India
+Abstract#==#Language technologies contribute to promoting multilingualism and linguistic diversity around the world. However, only a very small number of the over 7000 languages of the world are represented in the rapidly evolving language technologies and applications. In this paper we look at the relation between the types of languages, resources, and their representation in NLP conferences to understand the trajectory that different languages have followed over time. Our quantitative investigation underlines the disparity between languages, especially in terms of their resources, and calls into question the "language agnostic" status of current models and systems. Through this paper, we attempt to convince the ACL community to prioritise the resolution of the predicaments highlighted here, so that no language is left behind.
+Author{1}{Firstname}#=%=#Pratik
+Author{1}{Lastname}#=%=#Joshi
+Author{1}{Username}#=%=#pratikjoshi
+Author{1}{Email}#=%=#t-prjo@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research India
+Author{2}{Firstname}#=%=#Sebastin
+Author{2}{Lastname}#=%=#Santy
+Author{2}{Username}#=%=#sebastin
+Author{2}{Email}#=%=#sebastinssanty@gmail.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Amar
+Author{3}{Lastname}#=%=#Budhiraja
+Author{3}{Username}#=%=#amar026
+Author{3}{Email}#=%=#amar.budhiraja@alumni.iiit.ac.in
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Kalika
+Author{4}{Lastname}#=%=#Bali
+Author{4}{Username}#=%=#kalikab
+Author{4}{Email}#=%=#kalikab@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Labs
+Author{5}{Firstname}#=%=#Monojit
+Author{5}{Lastname}#=%=#Choudhury
+Author{5}{Username}#=%=#monojit
+Author{5}{Email}#=%=#monojitc@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+
+==========

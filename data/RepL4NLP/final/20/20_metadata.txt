@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Improving Bilingual Lexicon Induction with Unsupervised Post-Processing of Monolingual Word Vector Spaces
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ivan Vulić
+JobTitle#==#
+Organization#==#Language Technology Lab, University of Cambridge, Faculty of English, Cambridge CB3 9DP, United Kingdom
+Abstract#==#Work on projection-based induction of cross-lingual word embedding spaces (CLWEs) predominantly focuses on the improvement of the projection (i.e., mapping) mechanisms. In this work, in contrast, we show that a simple method for post-processing monolingual embedding spaces  facilitates learning of the cross-lingual alignment and, in turn, substantially improves bilingual lexicon induction (BLI). The post-processing method we examine is grounded in the generalisation of first- and second-order monolingual similarities to the nth-order similarity. By post-processing monolingual spaces before the cross-lingual alignment, the method can be coupled with any projection-based method for inducing CLWE spaces. We demonstrate the effectiveness of this simple monolingual post-processing across a set of 15 typologically diverse languages (i.e., 15*14 BLI setups), and in combination with two different projection methods.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Vulić
+Author{1}{Username}#=%=#ivulic
+Author{1}{Email}#=%=#iv250@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Korhonen
+Author{2}{Username}#=%=#anna.korhonen
+Author{2}{Email}#=%=#alk23@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Goran
+Author{3}{Lastname}#=%=#Glavaš
+Author{3}{Username}#=%=#gg42554
+Author{3}{Email}#=%=#goran@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+
+==========

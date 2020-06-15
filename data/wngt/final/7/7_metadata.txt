@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Meta-Learning for Few-Shot NMT Adaptation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Amr Sharaf
+JobTitle#==#Research Assistant
+Organization#==#University of Maryland, College Park
+Abstract#==#We present META-MT, a meta-learning approach to adapt Neural Machine Translation (NMT) systems in a few-shot setting. META-MT provides a new approach to make NMT models easily adaptable to many target do- mains with the minimal amount of in-domain data. We frame the adaptation of NMT systems as a meta-learning problem, where we learn to adapt to new unseen domains based on simulated offline meta-training domain adaptation tasks. We evaluate the proposed meta-learning strategy on ten domains with general large scale NMT systems. We show that META-MT significantly outperforms classical domain adaptation when very few in- domain examples are available. Our experiments shows that META-MT can outperform classical fine-tuning by up to 2.5 BLEU points after seeing only 4, 000 translated words (300 parallel sentences).
+Author{1}{Firstname}#=%=#Amr
+Author{1}{Lastname}#=%=#Sharaf
+Author{1}{Username}#=%=#amr
+Author{1}{Email}#=%=#amr@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Hany
+Author{2}{Lastname}#=%=#Hassan
+Author{2}{Username}#=%=#hanyh
+Author{2}{Email}#=%=#hanyh@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Hal
+Author{3}{Lastname}#=%=#Daumé III
+Author{3}{Username}#=%=#hal
+Author{3}{Email}#=%=#me@hal3.name
+Author{3}{Affiliation}#=%=#UMD
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#393
+FinalPaperTitle#=%=#Self-Attention with Cross-Lingual Position Representation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Liang Ding
+JobTitle#==#PhD student
+Organization#==#UBTECH Sydney AI Centre, School of Computer Science, Faculty of Engineering, University of Sydney, Australia
+Abstract#==#Position encoding (PE), an essential part of self-attention networks (SANs), is used to preserve the word order information for natural language processing tasks, generating fixed position indices for input sequences. However, in cross-lingual scenarios, \eg machine translation, the PEs of source and target sentences are modeled independently. Due to word order divergences in different languages, modeling the cross-lingual positional relationships might help SANs tackle this problem.
+In this paper, we augment SANs with \emph{cross-lingual position representations} to model the bilingually aware latent structure for the input sentence. Specifically, we utilize bracketing transduction grammar (BTG)-based reordering information to encourage SANs to learn bilingual diagonal alignments. Experimental results on WMT'14 English$\Rightarrow$German, WAT'17 Japanese$\Rightarrow$English, and WMT'17 Chinese$\Leftrightarrow$English translation tasks demonstrate that our approach significantly and consistently improves translation quality over strong baselines. Extensive analyses confirm that the performance gains come from the cross-lingual information.
+Author{1}{Firstname}#=%=#Liang
+Author{1}{Lastname}#=%=#Ding
+Author{1}{Username}#=%=#ldin3097
+Author{1}{Email}#=%=#liangding_liam@hotmail.com
+Author{1}{Affiliation}#=%=#School of Computer Science, FEIT, The University of Sydney
+Author{2}{Firstname}#=%=#Longyue
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#wly0229
+Author{2}{Email}#=%=#vincentwang0229@gmail.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Dacheng
+Author{3}{Lastname}#=%=#Tao
+Author{3}{Username}#=%=#dacheng.tao
+Author{3}{Email}#=%=#dacheng.tao@sydney.edu.au
+Author{3}{Affiliation}#=%=#UBTECH Sydney AI Center; School of Computer Science, The University of Sydney
+
+==========

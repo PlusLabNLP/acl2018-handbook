@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#703
+FinalPaperTitle#=%=#Effective Inter-Clause Modeling for End-to-End Emotion-Cause Pair Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Penghui Wei
+JobTitle#==#
+Organization#==#Institute of Automation, Chinese Academy of Sciences, No. 95 Zhongguancun East Road, Haidian District, 100190, Beijing, China
+Abstract#==#Emotion-cause pair extraction aims to extract all emotion clauses coupled with their cause clauses from a given document. Previous work employs two-step approaches, in which the first step extracts emotion clauses and cause clauses separately, and the second step trains a classifier to filter out negative pairs. However, such pipeline-style system for emotion-cause pair extraction is suboptimal because it suffers from error propagation and the two steps may not adapt to each other well. In this paper, we tackle emotion-cause pair extraction from a ranking perspective, i.e., ranking clause pair candidates in a document, and propose a one-step neural approach which emphasizes inter-clause modeling to perform end-to-end extraction. It models the interrelations between the clauses in a document to learn clause representations with graph attention, and enhances clause pair representations with kernel-based relative position embedding for effective ranking. Experimental results show that our approach significantly outperforms the current two-step systems, especially in the condition of extracting multiple pairs in one document.
+Author{1}{Firstname}#=%=#Penghui
+Author{1}{Lastname}#=%=#Wei
+Author{1}{Username}#=%=#penghui
+Author{1}{Email}#=%=#weipenghui2016@ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Jiahao
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Username}#=%=#andrewzhao
+Author{2}{Email}#=%=#zhaojiahao2019@ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Wenji
+Author{3}{Lastname}#=%=#Mao
+Author{3}{Username}#=%=#wenji.mao
+Author{3}{Email}#=%=#wenji.mao@ia.ac.cn
+Author{3}{Affiliation}#=%=#Chinese Academy of Sciences
+
+==========

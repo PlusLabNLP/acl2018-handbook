@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#A Study on the Influence of Architecture Complexity of RNNs for Intent Classification in E-Commerce Chats in Bahasa Indonesia
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present our work in the intent classification of chat utterances. We use several recurrent neural network (RNN) architectures of different complexity levels; basic RNN, GRU, LSTM, and BiLSTM. Experiments are performed on e-commerce smartphone sales chats in Bahasa Indonesia, which has the natural characteristics of irregular language and short text. We found that for such cases GRU gives the best performance, with 87.10% accuracy and 86.67% F1-measure. GRU is also fast to train compared to other architectures.
+Author{1}{Firstname}#=%=#Renny Pradina
+Author{1}{Lastname}#=%=#Kusumawardani
+Author{1}{Username}#=%=#rennypradina
+Author{1}{Email}#=%=#renny.pradina@gmail.com
+Author{1}{Affiliation}#=%=#Department of Information Systems, Institut Teknologi Sepuluh Nopember
+Author{2}{Firstname}#=%=#Muhammad
+Author{2}{Lastname}#=%=#Azzam
+Author{2}{Email}#=%=#muhammadazzam1602@gmail.com
+Author{2}{Affiliation}#=%=#Department of Information Systems, Institut Teknologi Sepuluh Nopember
+
+==========

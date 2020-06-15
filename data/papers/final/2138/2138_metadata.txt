@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2138
+FinalPaperTitle#=%=#Agreement Prediction of Arguments in Cyber Argumentation for Detecting Stance Polarity and Intensity
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Joseph Winstead Sirrianni
+JobTitle#==#
+Organization#==#University of Arkansas, 1 University of Arkansas, Fayetteville, AR 72701
+Abstract#==#In online debates, users express different levels of agreement/disagreement with one another's arguments and ideas. 
+Often levels of agreement/disagreement are implicit in the text, and must be predicted to analyze collective opinions. 
+Existing stance detection methods predict the polarity of a post's stance toward a topic or post, but don't consider the stance's degree of intensity. 
+We introduce a new research problem, stance polarity and intensity prediction in response relationships between posts. 
+This problem is challenging because differences in stance intensity are often subtle and require nuanced language understanding. 
+Cyber argumentation research has shown that incorporating both stance polarity and intensity data in online debates leads to better discussion analysis. 
+We explore five different learning models: Ridge-M regression, Ridge-S regression, SVR-RF-R, pkudblab-PIP, and T-PAN-PIP for predicting stance polarity and intensity in argumentation. 
+These models are evaluated using a new dataset for stance polarity and intensity prediction collected using a cyber argumentation platform. 
+The SVR-RF-R model performs best for prediction of stance polarity with an accuracy of 70.43% and intensity with RMSE of 0.596. 
+This work is the first to train models for predicting a post's stance polarity and intensity in one combined value in cyber argumentation with reasonably good accuracy.
+Author{1}{Firstname}#=%=#Joseph
+Author{1}{Lastname}#=%=#Sirrianni
+Author{1}{Username}#=%=#jwsirria
+Author{1}{Email}#=%=#jwsirria@uark.edu
+Author{1}{Affiliation}#=%=#University of Arkansas
+Author{2}{Firstname}#=%=#Xiaoqing
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#fliustart2019
+Author{2}{Email}#=%=#frankliu@uark.edu
+Author{2}{Affiliation}#=%=#UNiversity of Arkansas
+Author{3}{Firstname}#=%=#Douglas
+Author{3}{Lastname}#=%=#Adams
+Author{3}{Username}#=%=#djadams
+Author{3}{Email}#=%=#djadams@uark.edu
+Author{3}{Affiliation}#=%=#University of Arkansas
+
+==========

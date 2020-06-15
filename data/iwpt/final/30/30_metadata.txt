@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#How Much of Enhanced UD Is Contained in UD?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adam Ek
+JobTitle#==#
+Organization#==#University of Gothenburg
+Abstract#==#In this paper, we present the submission of team CLASP to the IWPT 2020 Shared Task on parsing enhanced universal dependencies. We develop a tree-to-graph transformation algorithm based on dependency patterns. This algorithm can transform gold UD trees to EUD graphs with an ELAS score of 81.55 and a EULAS score of 96.70.  These results show that much of the information needed to construct EUD graphs from UD trees are present in the UD trees. Coupled with a standard UD parser, the method applies to the official test data and yields and ELAS score of 67.85 and a EULAS score is 80.18.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#Ek
+Author{1}{Username}#=%=#adamekgu
+Author{1}{Email}#=%=#adam.ek@gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Jean-Philippe
+Author{2}{Lastname}#=%=#Bernardy
+Author{2}{Username}#=%=#jyp7
+Author{2}{Email}#=%=#jean-philippe.bernardy@gu.se
+Author{2}{Affiliation}#=%=#University of Gothenburg
+
+==========

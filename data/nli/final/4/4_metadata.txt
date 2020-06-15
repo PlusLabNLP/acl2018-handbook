@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Neural Multi-task Text Normalization and Sanitization with Pointer-Generator
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Van-Hoang Nguyen
+JobTitle#==#
+Organization#==#Innovation Lab, Paypal Singapore
+Abstract#==#Text normalization and sanitization are intrinsic components of Natural Language Inferences. In Information Retrieval or Dialogue Generation, normalization of user queries or utterances enhances linguistic understanding by translating non-canonical text to its canonical form, on which many state-of-the-art language models are trained. On the other hand, text sanitization removes sensitive information to guarantee user privacy and anonymity. Existing approaches to normalization and sanitization mainly rely on hand-crafted heuristics and syntactic features of individual tokens while disregarding the linguistic context. Moreover, such context-unaware solutions cannot dynamically determine whether out-of-vocab tokens are misspelt or are entity names. In this work, we formulate text normalization and sanitization as a multi-task text generation approach and propose a neural hybrid pointer-generator network based on multi-head attention. Its generator effectively captures linguistic context during normalization and sanitization while its pointer dynamically preserves the entities that are generally missing in the vocabulary. Experiments show that our generation approach outperforms both token-based text normalization and sanitization, while the hybrid pointer-generator improves the generator-only baseline in terms of BLEU4 score, and classical attentional pointer networks in terms of pointing accuracy.
+Author{1}{Firstname}#=%=#Hoang
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Username}#=%=#vanhoang
+Author{1}{Email}#=%=#vhnguyen@u.nus.edu
+Author{1}{Affiliation}#=%=#National University of Singapore, Paypal
+Author{2}{Firstname}#=%=#Sandro
+Author{2}{Lastname}#=%=#Cavallari
+Author{2}{Username}#=%=#andompesta
+Author{2}{Email}#=%=#sandro001@e.ntu.edu.sg
+Author{2}{Affiliation}#=%=#NTU
+
+==========

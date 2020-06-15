@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#2426
+FinalPaperTitle#=%=#Integrating Semantic and Structural Information with Graph Convolutional Network for Controversy Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Juan Cao
+JobTitle#==#
+Organization#==#Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China
+Abstract#==#Identifying controversial posts on social media is a fundamental task for mining public sentiment, assessing the influence of events, and alleviating the polarized views. However, existing methods fail to 1) effectively incorporate the semantic information from content-related posts; 2) preserve the structural information for reply relationship modeling; 3) properly handle posts from topics dissimilar to those in the training set. To overcome the first two limitations, we propose Topic-Post-Comment Graph Convolutional Network (TPC-GCN), which integrates the information from the graph structure and content of topics, posts, and comments for post-level controversy detection. As to the third limitation, we extend our model to Disentangled TPC-GCN (DTPC-GCN), to disentangle topic-related and topic-unrelated features and then fuse dynamically.
+Extensive experiments on two real-world datasets demonstrate that our models outperform existing methods. Analysis of the results and cases proves that our models can integrate both semantic and structural information with significant generalizability.
+Author{1}{Firstname}#=%=#Lei
+Author{1}{Lastname}#=%=#Zhong
+Author{1}{Username}#=%=#leizhong
+Author{1}{Email}#=%=#zhonglei18s@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Juan
+Author{2}{Lastname}#=%=#Cao
+Author{2}{Username}#=%=#juancao
+Author{2}{Email}#=%=#caojuan@ict.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Qiang
+Author{3}{Lastname}#=%=#Sheng
+Author{3}{Username}#=%=#shengqiang
+Author{3}{Email}#=%=#shengqiang18z@ict.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Junbo
+Author{4}{Lastname}#=%=#Guo
+Author{4}{Username}#=%=#guojunbo
+Author{4}{Email}#=%=#guojunbo@ict.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Ziang
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#ziangwang
+Author{5}{Email}#=%=#gnaizgnaw@gmail.com
+Author{5}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences; University of Chinese Academy of Sciences
+
+==========

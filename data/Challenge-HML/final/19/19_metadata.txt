@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#A Transformer-based joint-encoding for Emotion Recognition and Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Delbrouck
+JobTitle#==#
+Organization#==#University of Mons
+Abstract#==#Understanding expressed sentiment and emotions are two crucial factors in human multimodal language. This paper describes a Transformer-based joint-encoding (TBJE) for the task of Emotion Recognition and Sentiment Analysis. In addition to use the Transformer architecture, our approach relies on a modular co-attention and a glimpse layer to jointly encode one or more modalities. The proposed solution has also been submitted to the ACL20: Second Grand-Challenge on Multimodal Language to be evaluated on the CMU-MOSEI dataset. The code to replicate the presented experiments is open-source \footnote{\url{https://github.com/jbdel/MOSEI_UMONS}}.
+Author{1}{Firstname}#=%=#Jean-Benoit
+Author{1}{Lastname}#=%=#Delbrouck
+Author{1}{Username}#=%=#doom3jbd
+Author{1}{Email}#=%=#jean-benoit.delbrouck@umons.ac.be
+Author{1}{Affiliation}#=%=#UMONS
+Author{2}{Firstname}#=%=#Noé
+Author{2}{Lastname}#=%=#Tits
+Author{2}{Username}#=%=#noetits
+Author{2}{Email}#=%=#noe.tits@gmail.com
+Author{2}{Affiliation}#=%=#University of Mons
+Author{3}{Firstname}#=%=#Mathilde
+Author{3}{Lastname}#=%=#Brousmiche
+Author{3}{Email}#=%=#mathilde.brousmiche@umons.ac.be
+Author{3}{Affiliation}#=%=#UMONS
+Author{4}{Firstname}#=%=#Stéphane
+Author{4}{Lastname}#=%=#Dupont
+Author{4}{Username}#=%=#stephane.dupont
+Author{4}{Email}#=%=#stephane.dupont@umons.ac.be
+Author{4}{Affiliation}#=%=#University of Mons
+
+==========

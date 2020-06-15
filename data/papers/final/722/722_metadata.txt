@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#722
+FinalPaperTitle#=%=#Investigating Word-Class Distributions in Word Vector Spaces
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ryohei Sasano
+JobTitle#==#
+Organization#==#Nagoya University, Japan
+Abstract#==#This paper presents an investigation on the distribution of word vectors belonging to a certain word class in a pre-trained word vector space. To this end, we made several assumptions about the distribution, modeled the distribution accordingly, and validated each assumption by comparing the goodness of each model. Specifically, we considered two types of word classes – the semantic class of direct objects of a verb and the semantic class in a thesaurus – and tried to build models that properly estimate how likely it is that a word in the vector space is a member of a given word class. Our results on selectional preference and WordNet datasets show that the centroid-based model will fail to achieve good enough performance, the geometry of the distribution and the existence of subgroups will have limited impact, and also the negative instances need to be considered for adequate modeling of the distribution.  We further investigated the relationship between the scores calculated by each model and the degree of membership and found that discriminative learning-based models are best in finding the boundaries of a class, while models based on the offset between positive and negative instances perform best in determining the degree of membership.
+Author{1}{Firstname}#=%=#Ryohei
+Author{1}{Lastname}#=%=#Sasano
+Author{1}{Username}#=%=#sasano
+Author{1}{Email}#=%=#sasano@i.nagoya-u.ac.jp
+Author{1}{Affiliation}#=%=#Nagoya University
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Korhonen
+Author{2}{Username}#=%=#anna.korhonen
+Author{2}{Email}#=%=#alk23@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

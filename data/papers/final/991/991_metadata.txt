@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#991
+FinalPaperTitle#=%=#"The Boating Store Had Its Best Sail Ever": Pronunciation-attentive Contextualized Pun Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yichao Zhou
+JobTitle#==#
+Organization#==#University of California, Los Angeles, 405 Hilgard Avenue, 90095, CA
+Abstract#==#Humor plays an important role in human languages and it is essential to model humor when building intelligence systems. Among different forms of humor, puns perform wordplay for humorous effects by employing words with double entendre and high phonetic similarity. However, identifying and modeling puns are challenging as puns usually involved implicit semantic or phonological tricks. In this paper, we propose Pronunciation-attentive Contextualized Pun Recognition (PCPR) to perceive human humor, detect if a sentence contains puns and locate them in the sentence.  PCPR derives contextualized representation for each word in a sentence by capturing the association between the surrounding context and its corresponding phonetic symbols. Extensive experiments are conducted on two benchmark datasets. Results demonstrate that the proposed approach significantly outperforms the state-of-the-art methods in pun detection and location tasks. In-depth analyses verify the effectiveness and robustness of PCPR.
+Author{1}{Firstname}#=%=#Yichao
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#joey1993
+Author{1}{Email}#=%=#yz@cs.ucla.edu
+Author{1}{Affiliation}#=%=#University of California, Los Angeles
+Author{2}{Firstname}#=%=#Jyun-Yu
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#jyunyu.jiang
+Author{2}{Email}#=%=#jyunyu.jiang@gmail.com
+Author{2}{Affiliation}#=%=#University of California, Los Angeles
+Author{3}{Firstname}#=%=#Jieyu
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Username}#=%=#jieyuzh
+Author{3}{Email}#=%=#jyzhao@cs.ucla.edu
+Author{3}{Affiliation}#=%=#University of California, Los Angeles
+Author{4}{Firstname}#=%=#Kai-Wei
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Username}#=%=#kchang10
+Author{4}{Email}#=%=#kw@kwchang.net
+Author{4}{Affiliation}#=%=#UCLA
+Author{5}{Firstname}#=%=#Wei
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#weiwangucla
+Author{5}{Email}#=%=#weiwang@cs.ucla.edu
+Author{5}{Affiliation}#=%=#UCLA
+
+==========

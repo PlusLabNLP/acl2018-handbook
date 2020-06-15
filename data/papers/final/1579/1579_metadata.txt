@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1579
+FinalPaperTitle#=%=#Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yanbin Zhao
+JobTitle#==#
+Organization#==#Shanghai Jiao Tong University, SEIEE 3-502, 800 Dongchuan Road, Minhang District, Shanghai, China
+Abstract#==#Efficient structure encoding for graphs with labeled edges is an important yet challenging point in many graph-based models. This work focuses on AMR-to-text generation -- A graph-to-sequence task aiming to recover natural language from Abstract Meaning Representations (AMR). Existing graph-to-sequence approaches generally utilize graph neural networks as their encoders, which have two limitations: 1) The message propagation process in AMR graphs is only guided by the first-order adjacency information. 2) The relationships between labeled edges are not fully considered. In this work, we propose a novel graph encoding framework which can effectively explore the edge relations. We also adopt graph attention networks with higher-order neighborhood information to encode the rich structure in AMR graphs. Experiment results show that our approach obtains new state-of-the-art performance on English AMR benchmark datasets. The ablation analyses also demonstrate that both edge relations and higher-order information are beneficial to graph-to-sequence modeling.
+Author{1}{Firstname}#=%=#Yanbin
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Username}#=%=#ybz79
+Author{1}{Email}#=%=#zhaoyb@sjtu.edu.cn
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Lu
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#lc918
+Author{2}{Email}#=%=#chenlusz@sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Zhi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#donmaclean
+Author{3}{Email}#=%=#zhenchi713@sjtu.edu.cn
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Ruisheng
+Author{4}{Lastname}#=%=#Cao
+Author{4}{Username}#=%=#rshcao
+Author{4}{Email}#=%=#ruishengcao@gmail.com
+Author{4}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{5}{Firstname}#=%=#Su
+Author{5}{Lastname}#=%=#Zhu
+Author{5}{Username}#=%=#paul2204
+Author{5}{Email}#=%=#zhusu.china@gmail.com
+Author{5}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{6}{Firstname}#=%=#Kai
+Author{6}{Lastname}#=%=#Yu
+Author{6}{Username}#=%=#ky219
+Author{6}{Email}#=%=#kai.yu@sjtu.edu.cn
+Author{6}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

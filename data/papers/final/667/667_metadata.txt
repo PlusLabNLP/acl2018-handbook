@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#667
+FinalPaperTitle#=%=#BPE-Dropout: Simple and Effective Subword Regularization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Elena Voita
+JobTitle#==#
+Organization#==#University of Edinburgh, Scotland
+Abstract#==#Subword segmentation is widely used to address the open vocabulary problem in machine translation. The dominant approach to subword segmentation is Byte Pair Encoding (BPE), which keeps the most frequent words intact while splitting the rare ones into multiple tokens. While multiple segmentations are possible even with the same vocabulary, BPE splits words into unique sequences; this may prevent a model from better learning the compositionality of words and being robust to segmentation errors. So far, the only way to overcome this BPE imperfection, its deterministic nature, was to create another subword segmentation algorithm (Kudo, 2018). In contrast, we show that BPE itself incorporates the ability to produce multiple segmentations of the same word. We introduce BPE-dropout - simple and effective subword regularization method based on and compatible with conventional BPE. It stochastically corrupts the segmentation procedure of BPE, which leads to producing multiple segmentations within the same fixed BPE framework. Using BPE-dropout during training and the standard BPE during inference improves translation quality up to 2.3 BLEU compared to BPE and up to 0.9 BLEU compared to the previous subword regularization.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Provilkov
+Author{1}{Username}#=%=#iv-provilkov
+Author{1}{Email}#=%=#iv-provilkov@yandex-team.ru
+Author{1}{Affiliation}#=%=#Yandex; Moscow Institute of Physics and Technology
+Author{2}{Firstname}#=%=#Dmitrii
+Author{2}{Lastname}#=%=#Emelianenko
+Author{2}{Username}#=%=#dimdi-y
+Author{2}{Email}#=%=#dimdi-y@yandex-team.ru
+Author{2}{Affiliation}#=%=#Yandex, Russia; National Research University Higher School of Economics, Russia
+Author{3}{Firstname}#=%=#Elena
+Author{3}{Lastname}#=%=#Voita
+Author{3}{Username}#=%=#lena-voita
+Author{3}{Email}#=%=#lena-voita@hotmail.com
+Author{3}{Affiliation}#=%=#University of Edinburgh / University of Amsterdam
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1817
+FinalPaperTitle#=%=#Don’t Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Margaret Li
+JobTitle#==#Research Engineer
+Organization#==#Facebook AI Research, 1 Hacker Way, Menlo Park, CA 94025
+Abstract#==#Generative dialogue models currently suffer from a number of problems which standard maximum likelihood training does not address. They tend to produce generations that (i) rely too much on copying from the context, (ii) contain repetitions within utterances, (iii) overuse frequent words, and (iv) at a deeper level, contain logical flaws.In this work we show how all of these problems can be addressed by extending the recently introduced unlikelihood loss (Welleck et al., 2019) to these cases. We show that appropriate loss functions which regularize generated outputs to match human distributions are effective for the first three issues. For the last important general issue, we show applying unlikelihood to  collected data of what a model should not do is effective for improving logical consistency, potentially paving the way to generative models with greater reasoning ability. We demonstrate the efficacy of our approach across several dialogue tasks.
+Author{1}{Firstname}#=%=#Margaret
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#hadasah
+Author{1}{Email}#=%=#hadasah@gmail.com
+Author{1}{Affiliation}#=%=#Facebook AI Research
+Author{2}{Firstname}#=%=#Stephen
+Author{2}{Lastname}#=%=#Roller
+Author{2}{Username}#=%=#stephenroller
+Author{2}{Email}#=%=#roller@fb.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+Author{3}{Firstname}#=%=#Ilia
+Author{3}{Lastname}#=%=#Kulikov
+Author{3}{Username}#=%=#uralik
+Author{3}{Email}#=%=#kulikov@cs.nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+Author{4}{Firstname}#=%=#Sean
+Author{4}{Lastname}#=%=#Welleck
+Author{4}{Username}#=%=#wellecks
+Author{4}{Email}#=%=#wellecks@nyu.edu
+Author{4}{Affiliation}#=%=#New York University
+Author{5}{Firstname}#=%=#Y-Lan
+Author{5}{Lastname}#=%=#Boureau
+Author{5}{Username}#=%=#ylan
+Author{5}{Email}#=%=#ylan@fb.com
+Author{5}{Affiliation}#=%=#Facebook AI Research
+Author{6}{Firstname}#=%=#Kyunghyun
+Author{6}{Lastname}#=%=#Cho
+Author{6}{Username}#=%=#kyunghyun.cho
+Author{6}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{6}{Affiliation}#=%=#New York University
+Author{7}{Firstname}#=%=#Jason
+Author{7}{Lastname}#=%=#Weston
+Author{7}{Username}#=%=#jaseweston
+Author{7}{Email}#=%=#jaseweston@gmail.com
+Author{7}{Affiliation}#=%=#Facebook
+
+==========

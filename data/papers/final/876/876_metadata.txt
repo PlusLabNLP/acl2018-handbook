@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#876
+FinalPaperTitle#=%=#Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Changmao Li
+JobTitle#==#
+Organization#==#Department of Computer Science, Emory University, Atlanta, GA, USA
+Abstract#==#We introduce a novel approach to transformers that learns hierarchical representations in multiparty dialogue. First, three language modeling tasks are used to pre-train the transformers, token- and utterance-level language modeling and utterance order prediction, that learn both token and utterance embeddings for better understanding in dialogue contexts. Then, multi-task learning between the utterance prediction and the token span prediction is applied to fine-tune for span-based question answering (QA). Our approach is evaluated on the FriendsQA dataset and shows improvements of 3.8% and 1.4% over the two state-of-the-art transformer models, BERT and RoBERTa, respectively.
+Author{1}{Firstname}#=%=#Changmao
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#changmao.li
+Author{1}{Email}#=%=#changmao.li@alumni.emory.edu
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Jinho D.
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Username}#=%=#jdchoi77
+Author{2}{Email}#=%=#jinho.choi@emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+
+==========

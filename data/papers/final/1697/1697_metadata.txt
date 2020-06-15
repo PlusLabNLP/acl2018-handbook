@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1697
+FinalPaperTitle#=%=#Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Bo Zhang
+JobTitle#==#
+Organization#==#Soochow University, Suzhou, China
+Abstract#==#Opinion role labeling (ORL) is a ﬁne-grained opinion analysis task and aims to answer “who expressed what kind of sentiment towards what?”. Due to the scarcity of labeled data, ORL remains challenging for data-driven methods. In this work, we try to enhance neural ORL models with syntactic knowledge by comparing and integrating different representations. We also propose dependency graph convolutional networks (DEPGCN) to encode parser information at different processing levels. In order to compensate for parser inaccuracy and reduce error propagation, we introduce multi-task learning (MTL) to train the parser and the ORL model simultaneously. We verify our methods on the benchmark MPQA corpus. The experimental results show that syntactic information is highly valuable for ORL, and our ﬁnal MTL model effectively boosts the F1 score by 9.29 over the syntax-agnostic baseline. In addition, we ﬁnd that the contributions from syntactic knowledge do not fully overlap with contextualized word representations (BERT). Our best model achieves 4.34 higher F1 score than the current state-ofthe-art.
+Author{1}{Firstname}#=%=#Bo
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#sdzhangbo
+Author{1}{Email}#=%=#1477865955@qq.com
+Author{1}{Affiliation}#=%=#Soochow University
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Username}#=%=#zhangyue_nlp
+Author{2}{Email}#=%=#shiyu.zy@alibaba-inc.com
+Author{2}{Affiliation}#=%=#Alibaba Group
+Author{3}{Firstname}#=%=#Rui
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#mars198356
+Author{3}{Email}#=%=#masi.wr@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Zhenghua
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#zhenghualiir
+Author{4}{Email}#=%=#zhli13@suda.edu.cn
+Author{4}{Affiliation}#=%=#Soochow University
+Author{5}{Firstname}#=%=#Min
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Username}#=%=#zhangminsuda
+Author{5}{Email}#=%=#minzhang@suda.edu.cn
+Author{5}{Affiliation}#=%=#Suda
+
+==========

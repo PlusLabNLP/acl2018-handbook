@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#203
+FinalPaperTitle#=%=#Efficient and High-Quality Neural Machine Translation with OpenNMT
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Guillaume Klein
+JobTitle#==#
+Organization#==#SYSTRAN, 5 rue Feydeau 75002 Paris
+Abstract#==#This paper describes the OpenNMT submissions to the WNGT 2020 efficiency shared task. We explore training and acceleration of Transformer models with various sizes that are trained in a teacher-student setup. We also present a custom and optimized C++ inference engine that enables fast CPU and GPU decoding with few dependencies. By combining additional optimizations and parallelization techniques, we create small, efficient, and high-quality neural machine translation models.
+Author{1}{Firstname}#=%=#Guillaume
+Author{1}{Lastname}#=%=#Klein
+Author{1}{Username}#=%=#guillaumekln
+Author{1}{Email}#=%=#guillaume.klein@systrangroup.com
+Author{1}{Affiliation}#=%=#SYSTRAN
+Author{2}{Firstname}#=%=#Dakun
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Username}#=%=#zhangdakun
+Author{2}{Email}#=%=#dakun.zhang@systrangroup.com
+Author{2}{Affiliation}#=%=#SYSTRAN
+Author{3}{Firstname}#=%=#Clément
+Author{3}{Lastname}#=%=#Chouteau
+Author{3}{Email}#=%=#clement.chouteau@systrangroup.com
+Author{3}{Affiliation}#=%=#SYSTRAN
+Author{4}{Firstname}#=%=#Josep
+Author{4}{Lastname}#=%=#Crego
+Author{4}{Username}#=%=#josep.crego
+Author{4}{Email}#=%=#josep.crego@systrangroup.com
+Author{4}{Affiliation}#=%=#SYSTRAN
+Author{5}{Firstname}#=%=#Jean
+Author{5}{Lastname}#=%=#Senellart
+Author{5}{Username}#=%=#senellart
+Author{5}{Email}#=%=#jean@senellart.com
+Author{5}{Affiliation}#=%=#SYSTRAN
+
+==========

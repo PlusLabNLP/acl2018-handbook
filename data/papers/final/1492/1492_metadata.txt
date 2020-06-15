@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#1492
+FinalPaperTitle#=%=#Hierarchy-Aware Global Model for Hierarchical Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jie Zhou
+JobTitle#==#
+Organization#==#Shanghai Jiao Tong University, No. 800 Dong Chuan Road, Shanghai, China
+Abstract#==#Hierarchical text classification is an essential yet challenging subtask of multi-label text classification with a taxonomic hierarchy. Existing methods have difficulties in modeling the hierarchical label structure in a global view. Furthermore, they cannot make full use of the mutual interactions between the text feature space and the label space. In this paper, we formulate the hierarchy as a directed graph and introduce hierarchy-aware structure encoders for modeling label dependencies. Based on the hierarchy encoder, we propose a novel end-to-end hierarchy-aware global model (HiAGM) with two variants.
+A multi-label attention variant (HiAGM-LA) learns hierarchy-aware label embeddings through the hierarchy encoder and conducts inductive fusion of label-aware text features. A text feature propagation model (HiAGM-TP) is proposed as the deductive variant that directly feeds text features into hierarchy encoders. Compared with previous works, both HiAGM-LA and HiAGM-TP achieve significant and consistent improvements on three benchmark datasets.
+Author{1}{Firstname}#=%=#Jie
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#sanny0208
+Author{1}{Email}#=%=#sanny02@sjtu.edu.cn
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Chunping
+Author{2}{Lastname}#=%=#Ma
+Author{2}{Username}#=%=#machunping
+Author{2}{Email}#=%=#chunping.mcp@alibaba-inc.com
+Author{2}{Affiliation}#=%=#Alibaba Group
+Author{3}{Firstname}#=%=#Dingkun
+Author{3}{Lastname}#=%=#Long
+Author{3}{Username}#=%=#get_accpted
+Author{3}{Email}#=%=#dingkun.ldk@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Guangwei
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Username}#=%=#ahxgw
+Author{4}{Email}#=%=#ahxgwOnePiece@gmail.com
+Author{4}{Affiliation}#=%=#Alibaba Group
+Author{5}{Firstname}#=%=#Ning
+Author{5}{Lastname}#=%=#Ding
+Author{5}{Username}#=%=#stingning
+Author{5}{Email}#=%=#dingn18@mails.tsinghua.edu.cn
+Author{5}{Affiliation}#=%=#Tsinghua University
+Author{6}{Firstname}#=%=#Haoyu
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Username}#=%=#cairohy
+Author{6}{Email}#=%=#zhanghaoyu10@nudt.edu.cn
+Author{6}{Affiliation}#=%=#National University of Defense Technology
+Author{7}{Firstname}#=%=#Pengjun
+Author{7}{Lastname}#=%=#Xie
+Author{7}{Username}#=%=#xpjandy
+Author{7}{Email}#=%=#chengchen.xpj@alibaba-inc.com
+Author{7}{Affiliation}#=%=#Alibaba Group
+Author{8}{Firstname}#=%=#Gongshen
+Author{8}{Lastname}#=%=#Liu
+Author{8}{Username}#=%=#samleo
+Author{8}{Email}#=%=#lgshen@sjtu.edu.cn
+Author{8}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

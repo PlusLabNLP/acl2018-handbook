@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Assisting Undergraduate Students in Writing Spanish Methodology Sections
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Samuel González-López
+JobTitle#==#Associate professor
+Organization#==#Technological University of Nogales, Nogales, Sonora, México CP 84094
+Abstract#==#In undergraduate theses, a good methodology section should describe the series of steps that were followed in performing the research.
+  To assist students in this task, we develop machine-learning models and an app that uses them to provide feedback while students write.
+  We construct an annotated corpus that identifies sentences representing methodological steps and labels when a methodology contains a logical sequence of such steps.
+  We train machine-learning models based on language modeling and lexical features that can identify sentences representing methodological steps with 0.939 f-measure, and identify methodology sections containing a logical sequence of steps with an accuracy of 87\%.
+  We incorporate these models into a Microsoft Office Add-in, and show that students who improved their methodologies according to the model feedback received better grades on their methodologies.
+Author{1}{Firstname}#=%=#Samuel
+Author{1}{Lastname}#=%=#González-López
+Author{1}{Username}#=%=#vbrz
+Author{1}{Email}#=%=#samuelgonzalezlopez@gmail.com
+Author{1}{Affiliation}#=%=#Technological University of Nogales
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bethard
+Author{2}{Username}#=%=#steven.bethard
+Author{2}{Email}#=%=#bethard@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Aurelio
+Author{3}{Lastname}#=%=#Lopez-Lopez
+Author{3}{Username}#=%=#allopez
+Author{3}{Email}#=%=#allopez@inaoep.mx
+Author{3}{Affiliation}#=%=#Instituto Nacional de Astrofisica, Optica y Electronica
+
+==========

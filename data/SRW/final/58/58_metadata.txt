@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yuma Tsuta
+JobTitle#==#
+Organization#==#The University of Tokyo, 7-3-1, Hongo, Bunkyo-ku, Tokyo, Japan
+Abstract#==#Because open-domain dialogues allow diverse responses, basic reference-based metrics such as BLEU do not work well unless we prepare a massive reference set of high-quality responses for input utterances. To reduce this burden, a human-aided, uncertainty-aware metric, ΔBLEU, has been proposed;  it embeds human judgment on the quality of reference outputs into the computation of multiple-reference BLEU. In this study, we instead propose a fully automatic, uncertainty-aware evaluation method for open-domain dialogue systems, υBLEU. This method first collects diverse reference responses from massive dialogue data and then annotates their quality judgments by using a neural network trained on automatically collected training data. Experimental results on massive Twitter data confirmed that υBLEU is comparable to ΔBLEU in terms of its correlation with human judgment and that the state of the art automatic evaluation method, RUBER, is improved by integrating υBLEU.
+Author{1}{Firstname}#=%=#Tsuta
+Author{1}{Lastname}#=%=#Yuma
+Author{1}{Username}#=%=#tsuta
+Author{1}{Email}#=%=#tsuta@tkl.iis.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Naoki
+Author{2}{Lastname}#=%=#Yoshinaga
+Author{2}{Username}#=%=#ynaga
+Author{2}{Email}#=%=#ynaga@iis.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#Institute of Industrial Science, the University of Tokyo
+Author{3}{Firstname}#=%=#Masashi
+Author{3}{Lastname}#=%=#Toyoda
+Author{3}{Username}#=%=#toyoda
+Author{3}{Email}#=%=#toyoda@tkl.iis.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#The University of Tokyo
+
+==========

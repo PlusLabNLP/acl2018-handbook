@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Zero-Resource Cross-Domain Named Entity Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#ZIHAN LIU
+JobTitle#==#
+Organization#==#Hong Kong University of Science and Technology
+Abstract#==#Existing models for cross-domain named entity recognition (NER) rely on numerous unlabeled corpus or labeled NER training data in target domains. However, collecting data for low-resource target domains is not only expensive but also time-consuming. Hence, we propose a cross-domain NER model that does not use any external resources. We first introduce a Multi-Task Learning (MTL) by adding a new objective function to detect whether tokens are named entities or not. We then introduce a framework called Mixture of Entity Experts (MoEE) to improve the robustness for zero-resource domain adaptation. Finally, experimental results show that our model outperforms strong unsupervised cross-domain sequence labeling models, and the performance of our model is close to that of the state-of-the-art model which leverages extensive resources.
+Author{1}{Firstname}#=%=#Zihan
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Username}#=%=#zihanliu
+Author{1}{Email}#=%=#zliucr@connect.ust.hk
+Author{1}{Affiliation}#=%=#Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Genta Indra
+Author{2}{Lastname}#=%=#Winata
+Author{2}{Username}#=%=#giwinata
+Author{2}{Email}#=%=#giwinata@connect.ust.hk
+Author{2}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{3}{Firstname}#=%=#Pascale
+Author{3}{Lastname}#=%=#Fung
+Author{3}{Username}#=%=#pascale
+Author{3}{Email}#=%=#pascale@ece.ust.hk
+Author{3}{Affiliation}#=%=#Hong Kong University of Science and Technology
+
+==========

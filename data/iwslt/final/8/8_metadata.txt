@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#From Speech-to-Speech Translation to Automatic Dubbing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Marcello Federico
+JobTitle#==#
+Organization#==#Amazon.com, Inc 440 Terry Ave N Seattle, WA
+Abstract#==#We present enhancements to a  speech-to-speech translation pipeline in order to perform automatic dubbing. Our architecture features neural machine translation generating output of preferred length, prosodic alignment of the translation with the original speech segments, neural text-to-speech with fine tuning of the duration of each utterance, and, finally, audio rendering to enriches text-to-speech output with background noise and reverberation extracted from the original audio. We report and discuss results of a first subjective evaluation of automatic dubbing of excerpts of TED Talks from English into Italian, which measures the perceived naturalness  of automatic dubbing and the relative importance of each proposed enhancement.
+Author{1}{Firstname}#=%=#Marcello
+Author{1}{Lastname}#=%=#Federico
+Author{1}{Username}#=%=#federico
+Author{1}{Email}#=%=#mrcfdr@gmail.com
+Author{1}{Affiliation}#=%=#Amazon AI
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Enyedi
+Author{2}{Email}#=%=#renyedi@amazon.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Roberto
+Author{3}{Lastname}#=%=#Barra-Chicote
+Author{3}{Email}#=%=#rchicote@amazon.co.uk
+Author{3}{Affiliation}#=%=#Amazon
+Author{4}{Firstname}#=%=#Ritwik
+Author{4}{Lastname}#=%=#Giri
+Author{4}{Email}#=%=#ritwikg@amazon.com
+Author{4}{Affiliation}#=%=#Amazon
+Author{5}{Firstname}#=%=#Umut
+Author{5}{Lastname}#=%=#Isik
+Author{5}{Email}#=%=#umutisik@amazon.com
+Author{5}{Affiliation}#=%=#Amazon
+Author{6}{Firstname}#=%=#Arvindh
+Author{6}{Lastname}#=%=#Krishnaswamy
+Author{6}{Email}#=%=#arvindhk@amazon.com
+Author{6}{Affiliation}#=%=#Amazon
+Author{7}{Firstname}#=%=#Hassan
+Author{7}{Lastname}#=%=#Sawaf
+Author{7}{Username}#=%=#sawaf
+Author{7}{Email}#=%=#hassan@sawaf.de
+Author{7}{Affiliation}#=%=#Facebook
+
+==========

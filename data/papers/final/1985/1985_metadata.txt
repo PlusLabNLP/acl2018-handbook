@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1985
+FinalPaperTitle#=%=#Uncertain Natural Language Inference
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Tongfei Chen
+JobTitle#==#PhD student
+Organization#==#Johns Hopkins University
+Abstract#==#We introduce Uncertain Natural Language Inference (UNLI), a refinement of Natural Language Inference (NLI) that shifts away from categorical labels, targeting instead the direct prediction of subjective probability assessments. We demonstrate the feasibility of collecting annotations for UNLI by relabeling a portion of the SNLI dataset under a probabilistic scale, where items even with the same categorical label differ in how likely people judge them to be true given a premise. We describe a direct scalar regression modeling approach, and find that existing categorically-labeled NLI data can be used in pre-training. Our best models correlate well with humans, demonstrating models are capable of more subtle inferences than the categorical bin assignment employed in current NLI tasks.
+Author{1}{Firstname}#=%=#Tongfei
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#chentongfei
+Author{1}{Email}#=%=#tongfei@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Zhengping
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#zpjiang
+Author{2}{Email}#=%=#zj2265@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#Poliak
+Author{3}{Username}#=%=#azpoliak
+Author{3}{Email}#=%=#azpoliak@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Keisuke
+Author{4}{Lastname}#=%=#Sakaguchi
+Author{4}{Username}#=%=#keisks
+Author{4}{Email}#=%=#keisukes@allenai.org
+Author{4}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{5}{Firstname}#=%=#Benjamin
+Author{5}{Lastname}#=%=#Van Durme
+Author{5}{Username}#=%=#vandurme
+Author{5}{Email}#=%=#vandurme@cs.jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+
+==========

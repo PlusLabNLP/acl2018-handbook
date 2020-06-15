@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#2806
+FinalPaperTitle#=%=#That is a Known Lie: Detecting Previously Fact-Checked Claims
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#
+Organization#==#Qatar Computing Research Institute, HBKU
+Abstract#==#The recent proliferation of ''fake news'' has triggered a number of responses, most notably the emergence of several manual fact-checking initiatives. As a result and over time, a large number of fact-checked claims have been accumulated, which increases the likelihood that a new claim in social media or a new statement by a politician might have already been fact-checked by some trusted fact-checking organization, as viral claims often come back after a while in social media, and politicians like to repeat their favorite statements, true or false, over and over again. As manual fact-checking is very time-consuming (and fully automatic fact-checking has credibility issues), it is important to try to save this effort and to avoid wasting time on claims that have already been fact-checked. 
+Interestingly, despite the importance of the task, it has been largely ignored by the research community so far. Here, we aim to bridge this gap. In particular, we formulate the task and we discuss how it relates to, but also differs from, previous work. We further create a specialized dataset, which we release to the research community. Finally, we present learning-to-rank experiments that demonstrate sizable improvements over state-of-the-art retrieval and textual similarity approaches.
+Author{1}{Firstname}#=%=#Shaden
+Author{1}{Lastname}#=%=#Shaar
+Author{1}{Username}#=%=#sshaar
+Author{1}{Email}#=%=#sshaar31@gmail.com
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{2}{Firstname}#=%=#Nikolay
+Author{2}{Lastname}#=%=#Babulkov
+Author{2}{Username}#=%=#nbabulkov
+Author{2}{Email}#=%=#nbabulkov@gmail.com
+Author{2}{Affiliation}#=%=#Sofia University
+Author{3}{Firstname}#=%=#Giovanni
+Author{3}{Lastname}#=%=#Da San Martino
+Author{3}{Username}#=%=#gmartino
+Author{3}{Email}#=%=#joedsm@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{4}{Firstname}#=%=#Preslav
+Author{4}{Lastname}#=%=#Nakov
+Author{4}{Username}#=%=#preslav
+Author{4}{Email}#=%=#preslav.nakov@gmail.com
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

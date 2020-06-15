@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner's Error Tendency
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#yujin takahashi
+JobTitle#==#
+Organization#==#Tokyo Metropolitan University Faculty of System Design, 6-6 Asahigaoka, Hino-shi, Tokyo, Japan 191-0065
+Abstract#==#Recently, several studies have focused on improving the performance of grammatical error correction (GEC) tasks using pseudo data. However, a large amount of pseudo data are required to train an accurate GEC model. To address the limitations of language and computational resources, we assume that introducing pseudo errors into sentences similar to those written by the language learners is more efficient, rather than incorporating random pseudo errors into monolingual data. In this regard, we study the effect of pseudo data on GEC task performance using two approaches. First, we extract sentences that are similar to the learners' sentences from monolingual data. Second, we generate realistic pseudo errors by considering error types that learners often make. Based on our comparative results, we observe that F0.5 scores for the Russian GEC task are significantly improved.
+Author{1}{Firstname}#=%=#Yujin
+Author{1}{Lastname}#=%=#Takahashi
+Author{1}{Username}#=%=#wkwkgg
+Author{1}{Email}#=%=#takahashi-yujin@ed.tmu.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{2}{Firstname}#=%=#Satoru
+Author{2}{Lastname}#=%=#Katsumata
+Author{2}{Username}#=%=#satoru
+Author{2}{Email}#=%=#satoru.katsumata@retrieva.jp
+Author{2}{Affiliation}#=%=#Retrieva, Inc.
+Author{3}{Firstname}#=%=#Mamoru
+Author{3}{Lastname}#=%=#Komachi
+Author{3}{Username}#=%=#komachi
+Author{3}{Email}#=%=#komachi@tmu.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Metropolitan University
+
+==========

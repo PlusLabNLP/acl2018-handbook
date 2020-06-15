@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Addressing Challenges of Indigenous Languages through Neural Machine Translation: The case of Inuktitut-English
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Ngoc Tan Le
+JobTitle#==#Researcher
+Organization#==#Universite du Quebec a Montreal
+Abstract#==#There is a growing amount of research interests towards Indigenous languages, realities and challenges within the NLP international community. Up do date, these Indigenous languages have been very challenging when dealing with many NLP tasks and applications because of multiple features such as polysynthesis, morphological complexity, dialectal variation with rich morpho-phonemics, spelling with noisy data and low resource scenarios. 
+In this research, we systematically review the literature related to Machine Translation systems for Indigenous languages. Through this review, we make our focus on Inuktitut, one of the Indigenous polysynthetic languages spoken in Northern Canada. Experiments and evaluations on our first Inuktitut-English neural machine translation are conducted considering additional features extracted from the source-target alignment information and other bilingual lexicons.
+Author{1}{Firstname}#=%=#Tan
+Author{1}{Lastname}#=%=#Ngoc Le
+Author{1}{Email}#=%=#letan.dhcn@gmail.com
+Author{1}{Affiliation}#=%=#UQAM
+Author{2}{Firstname}#=%=#Fatiha
+Author{2}{Lastname}#=%=#Sadat
+Author{2}{Username}#=%=#sadatf
+Author{2}{Email}#=%=#fatiha.sadat@gmail.com
+Author{2}{Affiliation}#=%=#UQAM
+
+==========

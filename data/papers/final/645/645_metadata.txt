@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#645
+FinalPaperTitle#=%=#Modelling Context and Syntactical Features for Aspect-based Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Minh Hieu Phan
+JobTitle#==#
+Organization#==#University of Wollongong
+Abstract#==#The aspect-based sentiment analysis (ABSA) consists of two conceptual tasks, namely an aspect extraction and an aspect sentiment classification. Rather than considering the tasks separately, we build an end-to-end ABSA solution. Previous works in ABSA tasks did not fully leverage the importance of syntactical information. Hence, the aspect extraction model often failed to detect the boundaries of multi-word aspect terms. On the other hand, the aspect sentiment classifier was unable to account for the syntactical correlation between aspect terms and the context words. This paper explores the grammatical aspect of the sentence and employs the self-attention mechanism for syntactical learning. We combine part-of-speech embeddings, dependency-based embeddings and  contextualized embeddings (e.g. BERT, RoBERTa) to enhance the performance of the aspect extractor. We also propose the syntactic relative distance to de-emphasize the adverse effects of unrelated words, having weak syntactic connection with the aspect terms. This increases the accuracy of the aspect sentiment classifier. Our solutions outperform the state-of-the-art models on SemEval-2014 dataset in both two subtasks.
+Author{1}{Firstname}#=%=#Minh Hieu
+Author{1}{Lastname}#=%=#Phan
+Author{1}{Username}#=%=#steve.phan
+Author{1}{Email}#=%=#vmhp806@uowmail.edu.au
+Author{1}{Affiliation}#=%=#University of Wollongong
+Author{2}{Firstname}#=%=#Philip O.
+Author{2}{Lastname}#=%=#Ogunbona
+Author{2}{Username}#=%=#philipo
+Author{2}{Email}#=%=#philipo@uow.edu.au
+Author{2}{Affiliation}#=%=#University of Wollongong
+
+==========

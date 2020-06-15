@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Global Locality in Biomedical Relation and Event Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ella Shafiei
+JobTitle#==#
+Organization#==#IBM Research
+Abstract#==#Due to the exponential growth of biomedical literature, event and relation extraction are important tasks in biomedical text mining. Most work only focus on relation extraction, and detect a single entity pair mention on a short span of text, which is not ideal due to long sentences that appear in biomedical contexts. We propose an approach to both relation and event extraction, for simultaneously predicting relationships between all mention pairs in a text. We also perform an empirical study to discuss different network setups for this purpose. The best performing model includes a set of multi-head attentions and convolutions, an adaptation of the transformer architecture, which offers self-attention the ability to strengthen dependencies among related elements, and models the interaction between features extracted by multiple attention heads. Experiment results demonstrate that our approach outperforms the state of the art on a set of benchmark biomedical corpora including BioNLP 2009, 2011, 2013 and BioCreative 2017 shared tasks.
+Author{1}{Firstname}#=%=#Elaheh
+Author{1}{Lastname}#=%=#ShafieiBavani
+Author{1}{Username}#=%=#elahehs
+Author{1}{Email}#=%=#elaheh.shafieibavani@ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Antonio
+Author{2}{Lastname}#=%=#Jimeno Yepes
+Author{2}{Username}#=%=#ajjimeno
+Author{2}{Email}#=%=#antonio.jimeno@gmail.com
+Author{2}{Affiliation}#=%=#IBM
+Author{3}{Firstname}#=%=#Xu
+Author{3}{Lastname}#=%=#Zhong
+Author{3}{Username}#=%=#peterz
+Author{3}{Email}#=%=#peter.zhong49@gmail.com
+Author{3}{Affiliation}#=%=#IBM Research Australia
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Martinez Iraola
+Author{4}{Email}#=%=#david.martinez.iraola1@ibm.com
+Author{4}{Affiliation}#=%=#IBM Research
+
+==========

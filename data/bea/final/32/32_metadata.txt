@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Should You Fine-Tune BERT for Automated Essay Scoring?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Elijah Mayfield
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh PA 15213
+Abstract#==#Most natural language processing research now recommends large Transformer-based models with fine-tuning for supervised classification tasks; older strategies like bag-of-words features and linear models have fallen out of favor. Here we investigate whether, in automated essay scoring (AES) research, deep neural models are an appropriate technological choice. We find that fine-tuning BERT produces similar performance to classical models at significant additional cost. We argue that while state-of-the-art strategies do match existing best results, they come with opportunity costs in computational resources. We conclude with a review of promising areas for research on student essays where the unique characteristics of Transformers may provide benefits over classical methods to justify the costs.
+Author{1}{Firstname}#=%=#Elijah
+Author{1}{Lastname}#=%=#Mayfield
+Author{1}{Username}#=%=#emayfiel
+Author{1}{Email}#=%=#elijah@cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Alan W
+Author{2}{Lastname}#=%=#Black
+Author{2}{Email}#=%=#awb@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

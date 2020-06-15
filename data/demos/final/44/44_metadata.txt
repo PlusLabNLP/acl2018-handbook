@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Syntactic Search by Example
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#yoav goldberg
+JobTitle#==#author
+Organization#==#Bar Ilan University and AI2 Israel
+Abstract#==#We present a system that allows a user to search a large linguistically annotated corpus using syntactic patterns over dependency graphs. In contrast to previous attempts to this effect, we introduce a light-weight query language that does not require the user to know the details of the underlying syntactic representations, and instead to query the corpus by providing an example sentence coupled with simple markup. Search is performed at an interactive speed due to efficient linguistic graph-indexing and retrieval engine. This allows for rapid exploration, development and refinement of syntax-based queries. We demonstrate the system using queries over two corpora: the English wikipedia, and a collection of English pubmed abstracts. A demo of the wikipedia system is available at https://allenai.github.io/spike/ .
+Author{1}{Firstname}#=%=#Micah
+Author{1}{Lastname}#=%=#Shlain
+Author{1}{Email}#=%=#micahs@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for AI, and Bar Ilan University
+Author{2}{Firstname}#=%=#Hillel
+Author{2}{Lastname}#=%=#Taub-Tabib
+Author{2}{Email}#=%=#hillelt@allenai.org
+Author{2}{Affiliation}#=%=#AllenInstitute for AI
+Author{3}{Firstname}#=%=#Shoval
+Author{3}{Lastname}#=%=#Sadde
+Author{3}{Email}#=%=#shovals@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for AI
+Author{4}{Firstname}#=%=#Yoav
+Author{4}{Lastname}#=%=#Goldberg
+Author{4}{Username}#=%=#yoav.goldberg
+Author{4}{Email}#=%=#yoav.goldberg@gmail.com
+Author{4}{Affiliation}#=%=#Bar Ilan University
+
+==========

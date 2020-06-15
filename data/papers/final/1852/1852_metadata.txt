@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1852
+FinalPaperTitle#=%=#OpinionDigest: A Simple Framework for Opinion Summarization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yoshihiko Suhara
+JobTitle#==#
+Organization#==#Megagon Labs, 444 Castro Street Suite 720, Mountain View, CA 94022, USA
+Abstract#==#We present OpinionDigest, an abstractive opinion summarization framework, which does not rely on gold-standard summaries for training. The framework uses an Aspect-based Sentiment Analysis model to extract opinion phrases from reviews, and trains a Transformer model to reconstruct the original reviews from these extractions. At summarization time, we merge extractions from multiple reviews and select the most popular ones. The selected opinions are used as input to the trained Transformer model, which verbalizes them into an opinion summary. OpinionDigest can also generate customized summaries, tailored to specific user needs, by filtering the selected opinions according to their aspect and/or sentiment. Automatic evaluation on Yelp data shows that our framework outperforms competitive baselines. Human studies on two corpora verify that OpinionDigest produces informative summaries and shows promising customization capabilities.
+Author{1}{Firstname}#=%=#Yoshihiko
+Author{1}{Lastname}#=%=#Suhara
+Author{1}{Username}#=%=#suhara
+Author{1}{Email}#=%=#yoshi@megagon.ai
+Author{1}{Affiliation}#=%=#Megagon Labs
+Author{2}{Firstname}#=%=#Xiaolan
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#xiaolanwang
+Author{2}{Email}#=%=#xiaolan@megagon.ai
+Author{2}{Affiliation}#=%=#Megagon Labs
+Author{3}{Firstname}#=%=#Stefanos
+Author{3}{Lastname}#=%=#Angelidis
+Author{3}{Username}#=%=#stangelid
+Author{3}{Email}#=%=#s.angelidis@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Wang-Chiew
+Author{4}{Lastname}#=%=#Tan
+Author{4}{Username}#=%=#wangchiew
+Author{4}{Email}#=%=#wangchiew@gmail.com
+Author{4}{Affiliation}#=%=#Megagon Labs
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Can Neural Networks Automatically Score Essay Traits?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sandeep Albert Mathias
+JobTitle#==#
+Organization#==#Indian Institute of Technoloyg Bombay, Powai, Mumbai - 400076, Maharashtra, India.
+Abstract#==#Essay traits are attributes of an essay that can help explain how well written (or badly written) the essay is. Examples of traits include Content, Organization, Language, Sentence Fluency, Word Choice, etc. A lot of research in the last decade has dealt with automatic holistic essay scoring - where a machine rates an essay and gives a score for the essay. However, writers need feedback, especially if they want to improve their writing - which is why trait-scoring is important. In this paper, we show how a deep-learning based system can outperform feature-based machine learning systems, as well as a string kernel system in scoring essay traits.
+Author{1}{Firstname}#=%=#Sandeep
+Author{1}{Lastname}#=%=#Mathias
+Author{1}{Username}#=%=#lwsam
+Author{1}{Email}#=%=#sam@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Pushpak
+Author{2}{Lastname}#=%=#Bhattacharyya
+Author{2}{Username}#=%=#pushpak
+Author{2}{Email}#=%=#pushpakbh@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Bombay and Patna
+
+==========

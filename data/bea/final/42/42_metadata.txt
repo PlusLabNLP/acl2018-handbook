@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#A Comparative Study of Synthetic Data Generation Methods for Grammatical Error Correction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Alla Rozovskaya
+JobTitle#==#
+Organization#==#Department of Computer Science, Queens College, CUNY
+Abstract#==#Grammatical Error Correction (GEC) is concerned with correcting grammatical errors in written text. Current GEC systems, namely those leveraging statistical and neural machine translation, require large quantities of annotated training data, which can be expensive or impractical to obtain. This research compares techniques for generating synthetic data utilized by the two highest scoring submissions
+to the restricted and low-resource tracks in the BEA-2019 Shared Task on Grammatical Error
+Correction.
+Author{1}{Firstname}#=%=#Max
+Author{1}{Lastname}#=%=#White
+Author{1}{Username}#=%=#maxjwhite
+Author{1}{Email}#=%=#maxwell.white@qc.cuny.edu
+Author{1}{Affiliation}#=%=#Queens College
+Author{2}{Firstname}#=%=#Alla
+Author{2}{Lastname}#=%=#Rozovskaya
+Author{2}{Username}#=%=#rozovska
+Author{2}{Email}#=%=#sigaliyah@gmail.com
+Author{2}{Affiliation}#=%=#City University of New York
+
+==========

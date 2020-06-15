@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1167
+FinalPaperTitle#=%=#Dynamic Memory Induction Networks for Few-Shot Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ruiying Geng
+JobTitle#==#NLP Algorithm Engineer
+Organization#==#Alibaba Group, Beijing, China
+Abstract#==#This paper proposes Dynamic Memory Induction Networks (DMIN) for few-short text classification. The model develops a dynamic routing mechanism over static memory, enabling it to better adapt to unseen classes, a critical capability for few-short classification. The model also expands the induction process with supervised learning weights and query information to enhance the generalization ability of meta-learning. The proposed model brings forward the state-of-the-art performance significantly by 2~4% improvement on the miniRCV1 and ODIC datasets. Detailed analysis is further performed to show how the proposed network achieves the new performance.
+Author{1}{Firstname}#=%=#Ruiying
+Author{1}{Lastname}#=%=#Geng
+Author{1}{Username}#=%=#rygeng
+Author{1}{Email}#=%=#ruiying.gry@alibaba-inc.com
+Author{1}{Affiliation}#=%=#Alibaba Group
+Author{2}{Firstname}#=%=#Binhua
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#binhua.lbh
+Author{2}{Email}#=%=#binhua.lbh@alibaba-inc.com
+Author{2}{Affiliation}#=%=#Alibaba Group
+Author{3}{Firstname}#=%=#Yongbin
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#liyb821
+Author{3}{Email}#=%=#shuide.lyb@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Jian
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Username}#=%=#qianjue.sj
+Author{4}{Email}#=%=#jian.sun@alibaba-inc.com
+Author{4}{Affiliation}#=%=#Alibaba Group
+Author{5}{Firstname}#=%=#Xiaodan
+Author{5}{Lastname}#=%=#Zhu
+Author{5}{Username}#=%=#zhu2048
+Author{5}{Email}#=%=#zhu2048@gmail.com
+Author{5}{Affiliation}#=%=#Queen's University
+
+==========

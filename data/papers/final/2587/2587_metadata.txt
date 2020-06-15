@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#2587
+FinalPaperTitle#=%=#A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yongjing Yin
+JobTitle#==#
+Organization#==#Xiamen University, Xiamen, China
+Abstract#==#Multi-modal neural machine translation (NMT) aims to translate source sentences into a target language paired with images. However, dominant multi-modal NMT models do not fully exploit fine-grained semantic correspondences between semantic units of different modalities, which have potential to refine multi-modal representation learning. To deal with this issue, in this paper, we propose a novel graph-based multi-modal fusion encoder for NMT. Specifically, we first represent the input sentence and image using a unified multi-modal graph, which captures various semantic relationships between multi-modal semantic units (words and visual objects). We then stack multiple graph-based multi-modal fusion layers that iteratively perform semantic interactions to learn node representations. Finally, these representations provide an attention-based context vector for the decoder.
+We evaluate our proposed encoder on the Multi30K datasets. Experimental results and in-depth analysis show the superiority of our multi-modal NMT model.
+Author{1}{Firstname}#=%=#Yongjing
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Username}#=%=#yinyongjing
+Author{1}{Email}#=%=#yinyongjing@stu.xmu.edu.cn
+Author{1}{Affiliation}#=%=#Xiamen University
+Author{2}{Firstname}#=%=#Fandong
+Author{2}{Lastname}#=%=#Meng
+Author{2}{Username}#=%=#mengfandong
+Author{2}{Email}#=%=#fandongmeng@tencent.com
+Author{2}{Affiliation}#=%=#Pattern Recognition Center, WeChat AI, Tencent
+Author{3}{Firstname}#=%=#Jinsong
+Author{3}{Lastname}#=%=#Su
+Author{3}{Username}#=%=#jssu
+Author{3}{Email}#=%=#jssu@xmu.edu.cn
+Author{3}{Affiliation}#=%=#Xiamen university
+Author{4}{Firstname}#=%=#Chulun
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Username}#=%=#zhouchulun
+Author{4}{Email}#=%=#clzhou@stu.xmu.edu.cn
+Author{4}{Affiliation}#=%=#Xiamen University
+Author{5}{Firstname}#=%=#Zhengyuan
+Author{5}{Lastname}#=%=#Yang
+Author{5}{Username}#=%=#zyang39
+Author{5}{Email}#=%=#zhengyuan.yang13@gmail.com
+Author{5}{Affiliation}#=%=#University of Rochester
+Author{6}{Firstname}#=%=#Jie
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Username}#=%=#jerryitp
+Author{6}{Email}#=%=#withtomzhou@tencent.com
+Author{6}{Affiliation}#=%=#Tencent Inc.
+Author{7}{Firstname}#=%=#Jiebo
+Author{7}{Lastname}#=%=#Luo
+Author{7}{Username}#=%=#jieboluo
+Author{7}{Email}#=%=#jluo@cs.rochester.edu
+Author{7}{Affiliation}#=%=#University of Rochester
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#2667
+FinalPaperTitle#=%=#Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Vikas Yadav
+JobTitle#==#Research Assistant
+Organization#==#University of Arizona, 1103 E 2nd St, Tucson, AZ 85721, USA
+Abstract#==#Evidence retrieval is a critical stage of question answering (QA), necessary not only to improve performance, but also to explain the decisions of the QA method. We introduce a simple, fast, and unsupervised iterative evidence retrieval method, which relies on three ideas:
+(a) an unsupervised alignment approach to soft-align questions and answers with justification sentences using only GloVe embeddings, 
+(b) an iterative process that reformulates queries focusing on terms that are not covered by existing justifications, which (c) stops when the terms in the given question and candidate answers are covered by the retrieved justifications.
+Despite its simplicity, our approach outperforms all the previous methods (including supervised methods) on the evidence selection task on two datasets: MultiRC and QASC. When these evidence sentences are fed into a RoBERTa answer classification component, we achieve state-of-the-art QA performance on these two datasets.
+Author{1}{Firstname}#=%=#Vikas
+Author{1}{Lastname}#=%=#Yadav
+Author{1}{Username}#=%=#vikasy95
+Author{1}{Email}#=%=#vikasy@email.arizona.edu
+Author{1}{Affiliation}#=%=#University of Arizona, Tucson
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bethard
+Author{2}{Username}#=%=#steven.bethard
+Author{2}{Email}#=%=#bethard@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Arizona
+Author{3}{Firstname}#=%=#Mihai
+Author{3}{Lastname}#=%=#Surdeanu
+Author{3}{Username}#=%=#surdeanu
+Author{3}{Email}#=%=#surdeanu@gmail.com
+Author{3}{Affiliation}#=%=#University of Arizona
+
+==========

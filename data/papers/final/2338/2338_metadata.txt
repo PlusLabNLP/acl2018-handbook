@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#2338
+FinalPaperTitle#=%=#SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#xinyan xiao
+JobTitle#==#
+Organization#==#Baidu Inc., Beijing, China
+Abstract#==#Recently, sentiment analysis has seen remarkable advance with the help of pre-training approaches. However, sentiment knowledge, such as sentiment words and aspect-sentiment pairs, is ignored in the process of pre-training, despite the fact that they are widely used in traditional sentiment analysis approaches. In this paper, we introduce Sentiment Knowledge Enhanced Pre-training (SKEP) in order to learn a unified sentiment representation for multiple sentiment analysis tasks. With the help of automatically-mined knowledge, SKEP conducts sentiment masking and constructs three sentiment knowledge prediction objectives, so as to embed sentiment information at the word, polarity and aspect level into pre-trained sentiment representation. In particular, the prediction of aspect-sentiment pairs is converted into multi-label classification, aiming to capture the dependency between words in a pair. Experiments on three kinds of sentiment tasks show that SKEP significantly outperforms strong pre-training baseline, and achieves new state-of-the-art results on most of the test datasets. We release our code at https://github.com/baidu/Senta.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Tian
+Author{1}{Username}#=%=#tianhao_baidu
+Author{1}{Email}#=%=#tianhao.pku@gmail.com
+Author{1}{Affiliation}#=%=#University of Science and Technology of China & Baidu Inc
+Author{2}{Firstname}#=%=#Can
+Author{2}{Lastname}#=%=#Gao
+Author{2}{Username}#=%=#xfcygaocan
+Author{2}{Email}#=%=#xfcygaocan@gmail.com
+Author{2}{Affiliation}#=%=#Baidu Inc.
+Author{3}{Firstname}#=%=#Xinyan
+Author{3}{Lastname}#=%=#Xiao
+Author{3}{Username}#=%=#xxy
+Author{3}{Email}#=%=#xiaoxinyan@baidu.com
+Author{3}{Affiliation}#=%=#Baidu Inc.
+Author{4}{Firstname}#=%=#Hao
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#chinaliuhao
+Author{4}{Email}#=%=#liuhao19900412@gmail.com
+Author{4}{Affiliation}#=%=#Baidu
+Author{5}{Firstname}#=%=#Bolei
+Author{5}{Lastname}#=%=#He
+Author{5}{Username}#=%=#hebolei
+Author{5}{Email}#=%=#hebolei@baidu.com
+Author{5}{Affiliation}#=%=#Baidu
+Author{6}{Firstname}#=%=#Hua
+Author{6}{Lastname}#=%=#Wu
+Author{6}{Username}#=%=#wu_hua
+Author{6}{Email}#=%=#wu_hua@baidu.com
+Author{6}{Affiliation}#=%=#Baidu
+Author{7}{Firstname}#=%=#Haifeng
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Username}#=%=#wanghaifeng
+Author{7}{Email}#=%=#wanghaifeng@baidu.com
+Author{7}{Affiliation}#=%=#Baidu
+Author{8}{Firstname}#=%=#feng
+Author{8}{Lastname}#=%=#wu
+Author{8}{Username}#=%=#fengwuustc
+Author{8}{Email}#=%=#fengwuustc@163.com
+Author{8}{Affiliation}#=%=#ustc
+
+==========

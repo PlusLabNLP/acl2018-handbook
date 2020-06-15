@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Sarcasm Detection Using an Ensemble Approach
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jens Lemmens
+JobTitle#==#
+Organization#==#CLiPS, Lange Winkelstraat 40, 2000 Antwerp, Belgium
+Abstract#==#We present an ensemble approach for the detection of sarcasm in Reddit and Twitter responses in the context of The Second Workshop on Figurative Language Processing held in conjunction with ACL 2020. The ensemble is trained on the predicted sarcasm probabilities of four component models and on additional features, such as the sentiment of the comment, its length, and source (Reddit or Twitter) in order to learn which of the component models is the most reliable for which input. The component models consist of an LSTM with hashtag and emoji representations; a CNN-LSTM with casing, stop word, punctuation, and sentiment representations; an MLP based on Infersent embeddings; and an SVM trained on stylometric and emotion-based features. All component models use the two conversational turns preceding the response as context, except for the SVM, which only uses features extracted from the response. The ensemble itself consists of an adaboost classifier with the decision tree algorithm as base estimator and yields F1-scores of 67% and 74% on the Reddit and Twitter test data, respectively.
+Author{1}{Firstname}#=%=#Jens
+Author{1}{Lastname}#=%=#Lemmens
+Author{1}{Username}#=%=#jenslemmens
+Author{1}{Email}#=%=#jens.lemmens2@student.uantwerpen.be
+Author{1}{Affiliation}#=%=#University of Antwerp
+Author{2}{Firstname}#=%=#Ben
+Author{2}{Lastname}#=%=#Burtenshaw
+Author{2}{Username}#=%=#burtenshaw
+Author{2}{Email}#=%=#ben.burtenshaw@gmail.com
+Author{2}{Affiliation}#=%=#University of Antwerp
+Author{3}{Firstname}#=%=#Ehsan
+Author{3}{Lastname}#=%=#Lotfi
+Author{3}{Username}#=%=#elotfi
+Author{3}{Email}#=%=#ehsan.lotfi@uantwerpen.be
+Author{3}{Affiliation}#=%=#University of Antwerp
+Author{4}{Firstname}#=%=#Ilia
+Author{4}{Lastname}#=%=#Markov
+Author{4}{Username}#=%=#markov
+Author{4}{Email}#=%=#ilia.markov@uantwerpen.be
+Author{4}{Affiliation}#=%=#University of Antwerp, CLiPS
+Author{5}{Firstname}#=%=#Walter
+Author{5}{Lastname}#=%=#Daelemans
+Author{5}{Username}#=%=#daelemans
+Author{5}{Email}#=%=#walter.daelemans@uantwerpen.be
+Author{5}{Affiliation}#=%=#University of Antwerp, CLiPS
+
+==========

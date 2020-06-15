@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#2461
+FinalPaperTitle#=%=#Enhancing Answer Boundary Detection for Multilingual Machine Reading Comprehension
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Fei Yuan
+JobTitle#==#Student
+Organization#==#University of Electronic Science and Technology of China
+Abstract#==#Multilingual pre-trained models could leverage the training data from a rich source language (such as English) to improve performance on low resource languages. However, the transfer quality for multilingual Machine Reading Comprehension (MRC) is significantly worse than sentence classification tasks mainly due to the requirement of MRC to detect the word level answer boundary. In this paper, we propose two auxiliary tasks in the fine-tuning stage to create additional phrase boundary supervision: (1) A mixed MRC task, which translates the question or passage to other languages and builds cross-lingual question-passage pairs; (2) A language-agnostic knowledge masking task by leveraging knowledge phrases mined from web. Besides, extensive experiments on two cross-lingual MRC datasets show the effectiveness of our proposed approach.
+Author{1}{Firstname}#=%=#Fei
+Author{1}{Lastname}#=%=#Yuan
+Author{1}{Username}#=%=#feiyuan
+Author{1}{Email}#=%=#feiyuan@std.uestc.edu.cn
+Author{1}{Affiliation}#=%=#University of Electronic Science and Technology of China
+Author{2}{Firstname}#=%=#Linjun
+Author{2}{Lastname}#=%=#Shou
+Author{2}{Username}#=%=#linjunshou
+Author{2}{Email}#=%=#lisho@microsoft.com
+Author{2}{Affiliation}#=%=#STCA NLP Group, Microsoft
+Author{3}{Firstname}#=%=#Xuanyu
+Author{3}{Lastname}#=%=#Bai
+Author{3}{Username}#=%=#xybai
+Author{3}{Email}#=%=#xybaiwhite@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Gong
+Author{4}{Username}#=%=#yiming1013
+Author{4}{Email}#=%=#migon@microsoft.com
+Author{4}{Affiliation}#=%=#STCA NLP Group, Microsoft (China)
+Author{5}{Firstname}#=%=#Yaobo
+Author{5}{Lastname}#=%=#Liang
+Author{5}{Username}#=%=#eurekaliang
+Author{5}{Email}#=%=#yalia@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft.com
+Author{6}{Firstname}#=%=#Nan
+Author{6}{Lastname}#=%=#Duan
+Author{6}{Username}#=%=#nanduan
+Author{6}{Email}#=%=#nanduan@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research Asia
+Author{7}{Firstname}#=%=#Yan
+Author{7}{Lastname}#=%=#Fu
+Author{7}{Username}#=%=#fuyan
+Author{7}{Email}#=%=#fuyan@uestc.edu.cn
+Author{7}{Affiliation}#=%=#University of Electronic Science and Technology of China
+Author{8}{Firstname}#=%=#Daxin
+Author{8}{Lastname}#=%=#Jiang
+Author{8}{Username}#=%=#djiang
+Author{8}{Email}#=%=#djiang@microsoft.com
+Author{8}{Affiliation}#=%=#STCA NLP Group, Microsoft
+
+==========

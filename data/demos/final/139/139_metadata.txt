@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#139
+FinalPaperTitle#=%=#LinggleWrite: a Coaching System for Essay Writing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jhih-Jie Chen
+JobTitle#==#
+Organization#==#National Tsing Hua University, 30013 , Hsinchu City, Taiwan
+Abstract#==#This paper presents LinggleWrite, a writing coach that provides writing suggestions, assesses writing proficiency levels, detects grammatical errors, and offers corrective feedback in response to user's essay. The method involves extracting grammar patterns, training models for automated essay scoring (AES) and grammatical error detection (GED), and finally retrieving plausible corrections from a n-gram search engine. Experiments on public test sets indicate that both AES and GED models achieve state-of-the-art performance. These results show that LinggleWrite is potentially useful in helping learners improve their writing skills.
+Author{1}{Firstname}#=%=#Chung-Ting
+Author{1}{Lastname}#=%=#Tsai
+Author{1}{Email}#=%=#ting@nlplab.cc
+Author{1}{Affiliation}#=%=#National Tsing Hua University
+Author{2}{Firstname}#=%=#Jhih-Jie
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#dspp779
+Author{2}{Email}#=%=#jjc@nlplab.cc
+Author{2}{Affiliation}#=%=#National Tsing Hua University
+Author{3}{Firstname}#=%=#Ching-Yu
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Username}#=%=#chingyuyang
+Author{3}{Email}#=%=#chingyu@nlplab.cc
+Author{3}{Affiliation}#=%=#National Tsing Hua University
+Author{4}{Firstname}#=%=#Jason S.
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Username}#=%=#jschang
+Author{4}{Email}#=%=#jschang@cs.nthu.edu.tw
+Author{4}{Affiliation}#=%=#National Tsing Hua University
+
+==========

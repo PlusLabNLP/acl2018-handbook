@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#2725
+FinalPaperTitle#=%=#Asking and Answering Questions to Evaluate the Factual Consistency of Summaries
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Alex Wang
+JobTitle#==#
+Organization#==#New York University
+Abstract#==#Practical applications of abstractive summarization models are limited by frequent factual
+inconsistencies with respect to their input. Existing automatic evaluation metrics for summarization are largely insensitive to such errors. We propose QAGS (pronounced ``kags''), an automatic evaluation protocol that is designed to identify factual inconsistencies
+in a generated summary. QAGS is based on the intuition that if we ask questions
+about a summary and its source, we will receive similar answers if the summary is factually
+consistent with the source. To evaluate QAGS, we collect human judgments of factual
+consistency on model-generated summaries for the CNN/DailyMail (Hermann et al., 2015)
+and XSUM (Narayan et al., 2018) summarization datasets. QAGS has substantially higher
+correlations with these judgments than other automatic evaluation metrics. Also, QAGS offers a natural form of interpretability: The answers and questions generated while computing QAGS indicate which tokens of a summary are inconsistent and why. We believe QAGS is a promising tool in automatically generating usable and factually consistent text. Code for QAGS will be available at https://github.com/W4ngatang/qags.
+Author{1}{Firstname}#=%=#Alex
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#alexwang
+Author{1}{Email}#=%=#alexwang@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Kyunghyun
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Username}#=%=#kyunghyun.cho
+Author{2}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Lewis
+Author{3}{Username}#=%=#mikelewis0
+Author{3}{Email}#=%=#mikelewis0@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+
+==========

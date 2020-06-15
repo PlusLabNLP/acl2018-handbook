@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#SRPOL's System for the IWSLT 2020 End-to-End Speech Translation Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tomasz Potapczyk
+JobTitle#==#
+Organization#==#Samsung R&D Institute Poland
+Abstract#==#We took part in the offline End-to-End English to German TED lectures translation task. We based our solution on our last year's submission. We used a slightly altered Transformer architecture with ResNet-like convolutional layer preparing the audio input to Transformer encoder. To improve the model's quality of translation we introduced two regularization techniques and trained on machine translated Librispeech corpus in addition to iwslt-corpus, TEDLIUM2 andMust_C corpora. Our best model scored almost 3 BLEU higher than last year's model. To segment 2020 test set we used exactly the same procedure as last year.
+Author{1}{Firstname}#=%=#Tomasz
+Author{1}{Lastname}#=%=#Potapczyk
+Author{1}{Username}#=%=#tompota
+Author{1}{Email}#=%=#t.potapczyk@samsung.com
+Author{1}{Affiliation}#=%=#Samsung R&D
+Author{2}{Firstname}#=%=#Pawel
+Author{2}{Lastname}#=%=#Przybysz
+Author{2}{Email}#=%=#p.przybysz@samsung.com
+Author{2}{Affiliation}#=%=#Samsung R&D
+
+==========

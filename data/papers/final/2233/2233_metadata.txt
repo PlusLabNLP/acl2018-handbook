@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2233
+FinalPaperTitle#=%=#"None of the Above": Measure Uncertainty in Dialog Response Retrieval
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yulan Feng
+JobTitle#==#
+Organization#==#Language Technologies Institute, Carnegie Mellon University,5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#This paper discusses the importance of uncovering uncertainty in end-to-end dialog tasks and presents our experimental results on uncertainty classification on the processed Ubuntu Dialog Corpus. We show that instead of retraining models for this specific purpose, we can capture the original retrieval model's underlying confidence concerning the best prediction using trivial additional computation.
+Author{1}{Firstname}#=%=#Yulan
+Author{1}{Lastname}#=%=#Feng
+Author{1}{Username}#=%=#yulanfeng
+Author{1}{Email}#=%=#yulanf@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Shikib
+Author{2}{Lastname}#=%=#Mehri
+Author{2}{Username}#=%=#shikibm
+Author{2}{Email}#=%=#amehri@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Maxine
+Author{3}{Lastname}#=%=#Eskenazi
+Author{3}{Username}#=%=#max
+Author{3}{Email}#=%=#max@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Tiancheng
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Username}#=%=#tianchez
+Author{4}{Email}#=%=#tianchez@soco.ai
+Author{4}{Affiliation}#=%=#SOCO.AI
+
+==========

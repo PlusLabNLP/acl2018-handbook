@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#2553
+FinalPaperTitle#=%=#Review-based Question Generation with Adaptive Instance Transfer and Augmentation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Qian Yu
+JobTitle#==#
+Organization#==#The Chinese University of Hong Kong
+Abstract#==#While online reviews of products and services become an important information source, it remains inefficient for potential consumers to exploit verbose reviews for fulfilling their information need. We propose to explore question generation as a new way of review information exploitation, namely generating questions that can be answered by the corresponding review sentences. One major challenge of this generation task is the lack of training data, i.e. explicit mapping relation between the user-posed questions and review sentences. To obtain proper training instances for the generation model, we propose an iterative learning framework with adaptive instance transfer and augmentation. To generate to the point questions about the major aspects in reviews, related features extracted in an unsupervised manner are incorporated without the burden of aspect annotation. Experiments on data from various categories of a popular E-commerce site demonstrate the effectiveness of the framework, as well as the potentials of the proposed review-based question generation task.
+Author{1}{Firstname}#=%=#Qian
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#yuqian
+Author{1}{Email}#=%=#yuqian@se.cuhk.edu.hk
+Author{1}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Lidong
+Author{2}{Lastname}#=%=#Bing
+Author{2}{Username}#=%=#binglidong
+Author{2}{Email}#=%=#binglidong@gmail.com
+Author{2}{Affiliation}#=%=#Alibaba DAMO Academy
+Author{3}{Firstname}#=%=#Qiong
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#qzhangali
+Author{3}{Email}#=%=#zhangwisc@gmail.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Wai
+Author{4}{Lastname}#=%=#Lam
+Author{4}{Username}#=%=#wlam
+Author{4}{Email}#=%=#wlam@se.cuhk.edu.hk
+Author{4}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{5}{Firstname}#=%=#Luo
+Author{5}{Lastname}#=%=#Si
+Author{5}{Username}#=%=#warmstar
+Author{5}{Email}#=%=#luo.si@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group Inc
+
+==========

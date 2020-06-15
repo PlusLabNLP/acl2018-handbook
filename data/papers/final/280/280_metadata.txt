@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#280
+FinalPaperTitle#=%=#Adversarial NLI: A New Benchmark for Natural Language Understanding
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Douwe Kiela
+JobTitle#==#
+Organization#==#Facebook AI Research, 1 Hacker Way, Menlo Park CA
+Abstract#==#We introduce a new large-scale NLI benchmark dataset, collected via an iterative, adversarial human-and-model-in-the-loop procedure. We show that training models on this new dataset leads to state-of-the-art performance on a variety of popular NLI benchmarks, while posing a more difficult challenge with its new test set. Our analysis sheds light on the shortcomings of current state-of-the-art models, and shows that non-expert annotators are successful at finding their weaknesses. The data collection method can be applied in a never-ending learning scenario, becoming a moving target for NLU, rather than a static benchmark that will quickly saturate.
+Author{1}{Firstname}#=%=#Yixin
+Author{1}{Lastname}#=%=#Nie
+Author{1}{Username}#=%=#easonnie
+Author{1}{Email}#=%=#yixin1@cs.unc.edu
+Author{1}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{2}{Firstname}#=%=#Adina
+Author{2}{Lastname}#=%=#Williams
+Author{2}{Username}#=%=#adinawilliams
+Author{2}{Email}#=%=#adinawilliams@nyu.edu
+Author{2}{Affiliation}#=%=#Facebook, Inc.
+Author{3}{Firstname}#=%=#Emily
+Author{3}{Lastname}#=%=#Dinan
+Author{3}{Username}#=%=#edinan
+Author{3}{Email}#=%=#emdinan1@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Mohit
+Author{4}{Lastname}#=%=#Bansal
+Author{4}{Username}#=%=#mbansal
+Author{4}{Email}#=%=#mbansal@cs.unc.edu
+Author{4}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{5}{Firstname}#=%=#Jason
+Author{5}{Lastname}#=%=#Weston
+Author{5}{Username}#=%=#jaseweston
+Author{5}{Email}#=%=#jaseweston@gmail.com
+Author{5}{Affiliation}#=%=#Facebook
+Author{6}{Firstname}#=%=#Douwe
+Author{6}{Lastname}#=%=#Kiela
+Author{6}{Username}#=%=#douwe.kiela
+Author{6}{Email}#=%=#douwe.kiela@cl.cam.ac.uk
+Author{6}{Affiliation}#=%=#Facebook
+
+==========

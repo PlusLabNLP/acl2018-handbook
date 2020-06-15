@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2055
+FinalPaperTitle#=%=#Bayesian Hierarchical Words Representation Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Avi Caciularu
+JobTitle#==#
+Organization#==#Bar-Ilan University, Ramat Gan, 5290002 Israel
+Abstract#==#This paper presents the Bayesian Hierarchical Words Representation (BHWR) learning algorithm. BHWR facilitates Variational Bayes word representation learning combined with semantic taxonomy modeling via hierarchical priors. By propagating relevant information between related words, BHWR utilizes the taxonomy to improve the quality of such representations. Evaluation of several linguistic datasets demonstrates the advantages of BHWR over suitable alternatives that facilitate Bayesian modeling with or without semantic priors. Finally, we further show that BHWR produces better representations for rare words.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Barkan
+Author{1}{Username}#=%=#loyeamen
+Author{1}{Email}#=%=#barkanoren@gmail.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Idan
+Author{2}{Lastname}#=%=#Rejwan
+Author{2}{Username}#=%=#idanrejwan
+Author{2}{Email}#=%=#idanrejwan91@gmail.com
+Author{2}{Affiliation}#=%=#Tel Aviv University
+Author{3}{Firstname}#=%=#Avi
+Author{3}{Lastname}#=%=#Caciularu
+Author{3}{Username}#=%=#codevan
+Author{3}{Email}#=%=#avi.c33@gmail.com
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+Author{4}{Firstname}#=%=#Noam
+Author{4}{Lastname}#=%=#Koenigstein
+Author{4}{Username}#=%=#noamk
+Author{4}{Email}#=%=#nick.student@gmail.com
+Author{4}{Affiliation}#=%=#Microsoft
+
+==========

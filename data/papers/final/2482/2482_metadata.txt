@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2482
+FinalPaperTitle#=%=#From English to Code-Switching: Transfer Learning with Strong Morphological Clues
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Gustavo Aguilar
+JobTitle#==#PhD Student
+Organization#==#University of Houston, 4800 Calhoun Rd, Houston TX 77004
+Abstract#==#Linguistic Code-switching (CS) is still an understudied phenomenon in natural language processing. The NLP community has mostly focused on monolingual and multi-lingual scenarios, but little attention has been given to CS in particular. This is partly because of the lack of resources and annotated data, despite its increasing occurrence in social media platforms. In this paper, we aim at adapting monolingual models to code-switched text in various tasks. Specifically, we transfer English knowledge from a pre-trained ELMo model to different code-switched language pairs (i.e., Nepali-English, Spanish-English, and Hindi-English) using the task of language identification. Our method, CS-ELMo, is an extension of ELMo with a simple yet effective position-aware attention mechanism inside its character convolutions. We show the effectiveness of this transfer learning step by outperforming multilingual BERT and homologous CS-unaware ELMo models and establishing a new state of the art in CS tasks, such as NER and POS tagging. Our technique can be expanded to more English-paired code-switched languages, providing more resources to the CS community.
+Author{1}{Firstname}#=%=#Gustavo
+Author{1}{Lastname}#=%=#Aguilar
+Author{1}{Username}#=%=#gaguilar
+Author{1}{Email}#=%=#gustavoaguilar91@gmail.com
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Thamar
+Author{2}{Lastname}#=%=#Solorio
+Author{2}{Username}#=%=#solorio
+Author{2}{Email}#=%=#thamar.solorio@gmail.com
+Author{2}{Affiliation}#=%=#University of Houston
+
+==========

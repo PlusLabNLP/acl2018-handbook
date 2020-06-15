@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#789
+FinalPaperTitle#=%=#Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Dong Bok Lee
+JobTitle#==#
+Organization#==#Dong Bok Lee, KAIST
+Abstract#==#One of the most crucial challenges in question answering (QA) is the scarcity of labeled data, since it is costly to obtain question-answer (QA) pairs for a target text domain with human annotation. An alternative approach to tackle the problem is to use automatically generated QA pairs from either the problem context or from large amount of unstructured texts (e.g. Wikipedia). In this work, we propose a hierarchical conditional variational autoencoder (HCVAE) for generating QA pairs given unstructured texts as contexts, while maximizing the mutual information between generated QA pairs to ensure their consistency. We validate our Information Maximizing Hierarchical Conditional Variational AutoEncoder (Info-HCVAE) on several benchmark datasets by evaluating the performance of the QA model (BERT-base) using only the generated QA pairs (QA-based evaluation) or by using both the generated and human-labeled pairs (semi-supervised learning) for training, against state-of-the-art baseline models. The results show that our model obtains impressive performance gains over all baselines on both tasks, using only a fraction of data for training.
+Author{1}{Firstname}#=%=#Dong Bok
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Username}#=%=#dongboklee
+Author{1}{Email}#=%=#markhi@kaist.ac.kr
+Author{1}{Affiliation}#=%=#KAIST
+Author{2}{Firstname}#=%=#Seanie
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Username}#=%=#lsnfamily02
+Author{2}{Email}#=%=#lsnfamily02@kaist.ac.kr
+Author{2}{Affiliation}#=%=#KAIST
+Author{3}{Firstname}#=%=#Woo Tae
+Author{3}{Lastname}#=%=#Jeong
+Author{3}{Username}#=%=#jerrian
+Author{3}{Email}#=%=#wtjeong@42maru.ai
+Author{3}{Affiliation}#=%=#42Maru, Inc.
+Author{4}{Firstname}#=%=#Donghwan
+Author{4}{Lastname}#=%=#Kim
+Author{4}{Username}#=%=#scissors
+Author{4}{Email}#=%=#scissors@42maru.ai
+Author{4}{Affiliation}#=%=#42Maru, Inc.
+Author{5}{Firstname}#=%=#Sung Ju
+Author{5}{Lastname}#=%=#Hwang
+Author{5}{Username}#=%=#sjhwang82
+Author{5}{Email}#=%=#sjhwang82@kaist.ac.kr
+Author{5}{Affiliation}#=%=#KAIST
+
+==========

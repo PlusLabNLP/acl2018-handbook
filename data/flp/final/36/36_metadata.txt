@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Neural Sarcasm Detection using Conversation Context
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#NIKHIL JAISWAL
+JobTitle#==#
+Organization#==#TCS Research, New Delhi, India
+Abstract#==#Social media platforms and discussion forums such as Reddit, Twitter, etc. are filled with figurative languages. Sarcasm is one such category of figurative language whose presence in a conversation makes language understanding a challenging task. In this paper, we present a deep neural architecture for sarcasm detection. We investigate various pre-trained language representation models (PLRMs) like BERT, RoBERTa, etc. and fine-tune it on the Twitter dataset. We experiment with a variety of PLRMs either on the twitter utterance in isolation or utilizing the contextual information along with the utterance. Our findings indicate that by taking into consideration the previous three most recent utterances, the model is more accurately able to classify a conversation as being sarcastic or not. Our best performing ensemble model achieves an overall F1 score of 0.790, which ranks us second on the leaderboard of the Sarcasm Shared Task 2020.
+Author{1}{Firstname}#=%=#Nikhil
+Author{1}{Lastname}#=%=#Jaiswal
+Author{1}{Username}#=%=#nikhiljais
+Author{1}{Email}#=%=#nikhil.jais@tcs.com
+Author{1}{Affiliation}#=%=#TCS Research
+
+==========

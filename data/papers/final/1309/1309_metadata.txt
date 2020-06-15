@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1309
+FinalPaperTitle#=%=#Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Xiao Huang
+JobTitle#==#
+Organization#==#University of Southern California, Los Angeles, CA
+Abstract#==#Sequence labeling is a fundamental task for a range of natural language processing problems. When used in practice, its performance is largely influenced by the annotation quality and quantity, and meanwhile, obtaining ground truth labels is often costly. In many cases, ground truth labels do not exist, but noisy annotations or annotations from different domains are accessible. In this paper, we propose a novel framework Consensus Network (ConNet) that can be trained on annotations from multiple sources (e.g., crowd annotation, cross-domain data). It learns individual representation for every source and dynamically aggregates source-specific knowledge by a context-aware attention module. Finally, it leads to a model reflecting the agreement (consensus) among multiple sources. We evaluate the proposed framework in two practical settings of multi-source learning: learning with crowd annotations and unsupervised cross-domain model adaptation. Extensive experimental results show that our model achieves significant improvements over existing methods in both settings. We also demonstrate that the method can apply to various tasks and cope with different encoders.
+Author{1}{Firstname}#=%=#Ouyu
+Author{1}{Lastname}#=%=#Lan
+Author{1}{Username}#=%=#ouyulan
+Author{1}{Email}#=%=#olan@usc.edu
+Author{1}{Affiliation}#=%=#University of Southern California
+Author{2}{Firstname}#=%=#Xiao
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Username}#=%=#huan183
+Author{2}{Email}#=%=#huan183@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Bill Yuchen
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Username}#=%=#yuchenlin
+Author{3}{Email}#=%=#yuchen.lin@usc.edu
+Author{3}{Affiliation}#=%=#University of Southern California
+Author{4}{Firstname}#=%=#He
+Author{4}{Lastname}#=%=#Jiang
+Author{4}{Username}#=%=#hejiang_usc
+Author{4}{Email}#=%=#jian567@usc.edu
+Author{4}{Affiliation}#=%=#University of Southern California
+Author{5}{Firstname}#=%=#Liyuan
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Username}#=%=#llychinalz
+Author{5}{Email}#=%=#llychinalz@gmail.com
+Author{5}{Affiliation}#=%=#University of Illinois at Urbana Champaign
+Author{6}{Firstname}#=%=#Xiang
+Author{6}{Lastname}#=%=#Ren
+Author{6}{Username}#=%=#xren7
+Author{6}{Email}#=%=#xiangren@usc.edu
+Author{6}{Affiliation}#=%=#University of Southern California
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#682
+FinalPaperTitle#=%=#Do Neural Models Learn Systematicity of Monotonicity Inference in Natural Language?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Hitomi Yanaka
+JobTitle#==#
+Organization#==#RIKEN
+Abstract#==#Despite the success of language models using neural networks, it remains unclear to what extent neural models have the generalization ability to perform inferences. In this paper, we introduce a method for evaluating whether neural models can learn systematicity of monotonicity inference in natural language, namely, the regularity for performing arbitrary inferences with generalization on composition. We consider four aspects of monotonicity inferences and test whether the models can systematically interpret lexical and logical phenomena on different training/test splits. A series of experiments show that three neural models systematically draw inferences on unseen combinations of lexical and logical phenomena when the syntactic structures of the sentences are similar between the training and test sets. However, the performance of the models significantly decreases when the structures are slightly changed in the test set while retaining all vocabularies and constituents already appearing in the training set. This indicates that the generalization ability of neural models is limited to cases where the syntactic structures are nearly the same as those in the training set.
+Author{1}{Firstname}#=%=#Hitomi
+Author{1}{Lastname}#=%=#Yanaka
+Author{1}{Username}#=%=#verypluming
+Author{1}{Email}#=%=#hitomi.yanaka@riken.jp
+Author{1}{Affiliation}#=%=#RIKEN AIP
+Author{2}{Firstname}#=%=#Koji
+Author{2}{Lastname}#=%=#Mineshima
+Author{2}{Username}#=%=#kojimineshima
+Author{2}{Email}#=%=#minesima@abelard.flet.keio.ac.jp
+Author{2}{Affiliation}#=%=#Keio University
+Author{3}{Firstname}#=%=#Daisuke
+Author{3}{Lastname}#=%=#Bekki
+Author{3}{Username}#=%=#bekki
+Author{3}{Email}#=%=#bekki@is.ocha.ac.jp
+Author{3}{Affiliation}#=%=#Ochanomizu University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Username}#=%=#k.inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University / Riken
+
+==========

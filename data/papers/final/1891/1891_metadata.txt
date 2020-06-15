@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#1891
+FinalPaperTitle#=%=#Contrastive Self-Supervised Learning for Commonsense Reasoning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Tassilo Klein
+JobTitle#==#
+Organization#==#SAP SE, Berlin, Germany
+Abstract#==#We propose a self-supervised method to solve Pronoun Disambiguation and Winograd Schema Challenge problems.
+Our approach exploits the characteristic structure of training corpora related to so-called ``trigger'' words, which are responsible for flipping the answer in pronoun disambiguation.  
+We achieve such commonsense reasoning by constructing pair-wise contrastive auxiliary predictions. To this end, we leverage a mutual exclusive loss regularized by a contrastive margin.
+Our architecture is based on the recently introduced transformer networks, BERT, that exhibits strong performance on many NLP benchmarks. Empirical results show that our method alleviates the limitation of current supervised approaches for commonsense reasoning. This study opens up avenues for exploiting inexpensive self-supervision to achieve performance gain in commonsense reasoning tasks.
+Author{1}{Firstname}#=%=#Tassilo
+Author{1}{Lastname}#=%=#Klein
+Author{1}{Username}#=%=#tjklein
+Author{1}{Email}#=%=#tassilo.klein@sap.com
+Author{1}{Affiliation}#=%=#SAP SE
+Author{2}{Firstname}#=%=#Moin
+Author{2}{Lastname}#=%=#Nabi
+Author{2}{Username}#=%=#moinnabi
+Author{2}{Email}#=%=#m.nabi@sap.com
+Author{2}{Affiliation}#=%=#SAP AI Research
+
+==========

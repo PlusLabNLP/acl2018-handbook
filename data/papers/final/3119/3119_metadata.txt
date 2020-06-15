@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3119
+FinalPaperTitle#=%=#Efficient Strategies for Hierarchical Text Classification: External Knowledge and Auxiliary Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gina Bustamante
+JobTitle#==#
+Organization#==#Pontificia Universidad Católica del Perú
+Abstract#==#In hierarchical text classification, we perform a sequence of inference steps to predict the category of a document from top to bottom of a given class taxonomy. Most of the studies have focused on developing novels neural network architectures to deal with the hierarchical structure, but we prefer to look for efficient ways to strengthen a baseline model. We first define the task as a sequence-to-sequence problem. Afterwards, we propose an auxiliary synthetic task of bottom-up-classification. Then, from external dictionaries, we retrieve textual definitions for the classes of all the hierarchy's layers, and map them into the word vector space. We use the class-definition embeddings as an additional input to condition the prediction of the next layer and in an adapted beam search. Whereas the modified search did not provide large gains, the combination of the auxiliary task and the additional input of class-definitions significantly enhance the classification accuracy. With our efficient approaches, we outperform previous studies, using a drastically reduced number of parameters, in two well-known English datasets.
+Author{1}{Firstname}#=%=#Kervy
+Author{1}{Lastname}#=%=#Rivas Rojas
+Author{1}{Username}#=%=#kervyrivas
+Author{1}{Email}#=%=#k.rivas@pucp.pe
+Author{1}{Affiliation}#=%=#student
+Author{2}{Firstname}#=%=#Gina
+Author{2}{Lastname}#=%=#Bustamante
+Author{2}{Username}#=%=#gbustamante
+Author{2}{Email}#=%=#gina.bustamante@pucp.edu.pe
+Author{2}{Affiliation}#=%=#Research Group on Artificial Intelligence
+Author{3}{Firstname}#=%=#Arturo
+Author{3}{Lastname}#=%=#Oncevay
+Author{3}{Username}#=%=#aoncevay
+Author{3}{Email}#=%=#a.oncevay@ed.ac.uk
+Author{3}{Affiliation}#=%=#The University of Edinburgh
+Author{4}{Firstname}#=%=#Marco Antonio
+Author{4}{Lastname}#=%=#Sobrevilla Cabezudo
+Author{4}{Username}#=%=#msobrevillac
+Author{4}{Email}#=%=#msobrevillac@usp.br
+Author{4}{Affiliation}#=%=#University of São Paulo
+
+==========

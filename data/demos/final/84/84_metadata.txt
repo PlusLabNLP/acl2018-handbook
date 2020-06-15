@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#ex{BERT}: {A} {V}isual {A}nalysis {T}ool to {E}xplore {L}earned {R}epresentations in {T}ransformer {M}odels
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Benjamin Hoover
+JobTitle#==#
+Organization#==#IBM Research, 75 Binney St, Cambridge, MA 02142
+Abstract#==#Large Transformer-based language models can route and reshape complex information via their multi-headed attention mechanism. Although the attention never receives explicit supervision, it can exhibit recognizable patterns following linguistic or positional information. Analyzing the learned representations and attentions is paramount to furthering our understanding of the inner workings of these models. However, analyses have to catch up with the rapid release of new models and the growing diversity of investigation techniques.  To support analysis for a wide variety of models, we introduce exBERT, a tool to help humans conduct flexible, interactive investigations and formulate hypotheses for the model-internal reasoning process. exBERT provides insights into the meaning of the contextual representations and attention by matching a human-specified input to similar contexts in large annotated datasets. By aggregating the annotations of the matched contexts, exBERT can quickly replicate findings from literature and extend them to previously not analyzed models.
+Author{1}{Firstname}#=%=#Benjamin
+Author{1}{Lastname}#=%=#Hoover
+Author{1}{Username}#=%=#benjaminhoover40
+Author{1}{Email}#=%=#benjamin.hoover@ibm.com
+Author{1}{Affiliation}#=%=#IBM Research; MIT-IBM Lab
+Author{2}{Firstname}#=%=#Hendrik
+Author{2}{Lastname}#=%=#Strobelt
+Author{2}{Email}#=%=#hendrik.strobelt@ibm.com
+Author{2}{Affiliation}#=%=#IBM Research; MIT-IBM Lab
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Gehrmann
+Author{3}{Username}#=%=#sgehrmann
+Author{3}{Email}#=%=#gehrmann@google.com
+Author{3}{Affiliation}#=%=#Google AI
+
+==========

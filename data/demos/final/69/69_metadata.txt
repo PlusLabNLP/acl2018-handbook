@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Marco Maru
+JobTitle#==#
+Organization#==#Sapienza University of Rome - Piazzale Aldo Moro 5, 00185, Rome, RM, Italy
+Abstract#==#Exploiting syntagmatic information is an encouraging research focus to be pursued in an effort to close the gap between knowledge-based and supervised Word Sense Disambiguation (WSD) performance.
+We follow this direction in our next-generation knowledge-based WSD system, SyntagRank, which we make available via a Web interface and a RESTful API. 
+SyntagRank leverages the disambiguated pairs of co-occurring words included in SyntagNet, a lexical-semantic combination resource, to perform state-of-the-art knowledge-based WSD in a multilingual setting. 
+Our service provides both a user-friendly interface, available at http://syntagnet.org/, and a RESTful endpoint to query the system programmatically (accessible at http://api.syntagnet.org/).
+Author{1}{Firstname}#=%=#Federico
+Author{1}{Lastname}#=%=#Scozzafava
+Author{1}{Username}#=%=#vascofazza
+Author{1}{Email}#=%=#scozzafava@di.uniroma1.it
+Author{1}{Affiliation}#=%=#La Sapienza University of Rome
+Author{2}{Firstname}#=%=#Marco
+Author{2}{Lastname}#=%=#Maru
+Author{2}{Username}#=%=#marcomaru
+Author{2}{Email}#=%=#marco.maru@uniroma1.it
+Author{2}{Affiliation}#=%=#"Sapienza" University of Rome
+Author{3}{Firstname}#=%=#Fabrizio
+Author{3}{Lastname}#=%=#Brignone
+Author{3}{Email}#=%=#brignone@babelscape.com
+Author{3}{Affiliation}#=%=#Babelscape
+Author{4}{Firstname}#=%=#Giovanni
+Author{4}{Lastname}#=%=#Torrisi
+Author{4}{Email}#=%=#torrisi@babelscape.com
+Author{4}{Affiliation}#=%=#Babelscape
+Author{5}{Firstname}#=%=#Roberto
+Author{5}{Lastname}#=%=#Navigli
+Author{5}{Username}#=%=#navigli
+Author{5}{Email}#=%=#navigli@di.uniroma1.it
+Author{5}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

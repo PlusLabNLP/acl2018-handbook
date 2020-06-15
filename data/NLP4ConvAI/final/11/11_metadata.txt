@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Efficient Intent Detection with Dual Sentence Encoders
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ivan Vulić
+JobTitle#==#Senior Scientist
+Organization#==#PolyAI Limited, Petersham House, 57A Hatton Garden, London EC1N 8JG United Kingdom
+Abstract#==#Building conversational systems in new domains and with added functionality requires resource-efficient models that work under low-data regimes (i.e., in few-shot setups). Motivated by these requirements, we introduce intent detection methods backed by pretrained dual sentence encoders such as USE and ConveRT. We demonstrate the usefulness and wide applicability of the proposed intent detectors, showing that: 1) they outperform intent detectors based on fine-tuning the full BERT-Large model or using BERT as a fixed black-box encoder on three diverse intent detection data sets; 2) the gains are especially pronounced in few-shot setups (i.e., with only 10 or 30 annotated examples per intent); 3) our intent detectors can be trained in a matter of minutes on a single CPU; and 4) they are stable across different hyperparameter settings. In hope of facilitating and democratizing research focused on intention detection, we release our code, as well as a new challenging single-domain intent detection dataset comprising 13,083 annotated examples over 77 intents.
+Author{1}{Firstname}#=%=#Iñigo
+Author{1}{Lastname}#=%=#Casanueva
+Author{1}{Username}#=%=#i.casanueva
+Author{1}{Email}#=%=#inigo@poly-ai.com
+Author{1}{Affiliation}#=%=#PolyAI
+Author{2}{Firstname}#=%=#Tadas
+Author{2}{Lastname}#=%=#Temčinas
+Author{2}{Email}#=%=#temcinas@gmail.com
+Author{2}{Affiliation}#=%=#University of Oxford
+Author{3}{Firstname}#=%=#Daniela
+Author{3}{Lastname}#=%=#Gerz
+Author{3}{Username}#=%=#dgerz
+Author{3}{Email}#=%=#dan@poly-ai.com
+Author{3}{Affiliation}#=%=#PolyAI
+Author{4}{Firstname}#=%=#Matthew
+Author{4}{Lastname}#=%=#Henderson
+Author{4}{Username}#=%=#matthen
+Author{4}{Email}#=%=#matt@matthen.com
+Author{4}{Affiliation}#=%=#PolyAI
+Author{5}{Firstname}#=%=#Ivan
+Author{5}{Lastname}#=%=#Vulić
+Author{5}{Username}#=%=#ivulic
+Author{5}{Email}#=%=#iv250@cam.ac.uk
+Author{5}{Affiliation}#=%=#University of Cambridge
+
+==========

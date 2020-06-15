@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1029
+FinalPaperTitle#=%=#Overestimation of Syntactic Representation in Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jordan Kodner
+JobTitle#==#
+Organization#==#University of Pennsylvania
+Abstract#==#With the advent of powerful neural language models over the last few years, research attention has increasingly focused on what aspects of language they represent that make them so successful. Several testing methodologies have been developed to probe models' syntactic representations. One popular method for determining a model's ability to induce syntactic structure trains a model on strings generated according to a template then tests the model's ability to distinguish such strings from superficially similar ones with different syntax. We illustrate a fundamental problem with this approach by reproducing positive results from a recent paper with two non-syntactic baseline language models: an n-gram model and an LSTM model trained on scrambled inputs.
+Author{1}{Firstname}#=%=#Jordan
+Author{1}{Lastname}#=%=#Kodner
+Author{1}{Username}#=%=#jkodner
+Author{1}{Email}#=%=#jordan.kodner@stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Nitish
+Author{2}{Lastname}#=%=#Gupta
+Author{2}{Username}#=%=#nitishgupta
+Author{2}{Email}#=%=#nitishg@seas.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========

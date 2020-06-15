@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1014
+FinalPaperTitle#=%=#Revisiting the Context Window for Cross-lingual Word Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ryokan Ri
+JobTitle#==#
+Organization#==#The Univsersity of Tokyo, 7-3-1, Hongo, Bunkyo-ku, Tokyo-to, Japan
+Abstract#==#Existing approaches to mapping-based cross-lingual word embeddings are based on the assumption that the source and target embedding spaces are structurally similar. The structures of embedding spaces largely depend on the co-occurrence statistics of each word, which the choice of context window determines. Despite this obvious connection between the context window and mapping-based cross-lingual embeddings, their relationship has been underexplored in prior work. In this work, we provide a thorough evaluation, in various languages, domains, and tasks, of bilingual embeddings trained with different context windows. The highlight of our findings is that increasing the size of both the source and target window sizes improves the performance of bilingual lexicon induction, especially the performance on frequent nouns.
+Author{1}{Firstname}#=%=#Ryokan
+Author{1}{Lastname}#=%=#Ri
+Author{1}{Username}#=%=#ryo0634
+Author{1}{Email}#=%=#li0123@logos.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Yoshimasa
+Author{2}{Lastname}#=%=#Tsuruoka
+Author{2}{Username}#=%=#tsuruoka
+Author{2}{Email}#=%=#tsuruoka@logos.t.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#University of Tokyo
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#822
+FinalPaperTitle#=%=#A Frame-based Sentence Representation for Machine Reading Comprehension
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shaoru Guo
+JobTitle#==#
+Organization#==#School of Computer and Information Technology of Shanxi University, Taiyuan, China
+Abstract#==#Sentence representation (SR) is the most crucial and challenging task in Machine Reading Comprehension (MRC). MRC systems typically only utilize the information contained in the sentence itself, while human beings can leverage their semantic knowledge. To bridge the gap, we proposed a novel Frame-based Sentence Representation (FSR) method, which employs frame semantic knowledge to facilitate sentence modelling. Specifically, different from existing methods that only model lexical units (LUs), Frame Representation Models, which utilize both LUs in frame and Frame-to-Frame (F-to-F) relations, are designed to model frames and sentences with attention schema. Our proposed FSR method is able to integrate multiple-frame semantic information to get much better sentence representations. Our extensive experimental results show that it performs better than state-of-the-art technologies on machine reading comprehension task.
+Author{1}{Firstname}#=%=#Shaoru
+Author{1}{Lastname}#=%=#Guo
+Author{1}{Username}#=%=#guoshaoru
+Author{1}{Email}#=%=#guoshaoru0928@163.com
+Author{1}{Affiliation}#=%=#Shanxi University
+Author{2}{Firstname}#=%=#Ru
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#liru
+Author{2}{Email}#=%=#liru@sxu.edu.cn
+Author{2}{Affiliation}#=%=#School of Computer and Information Technology，Shanxi University
+Author{3}{Firstname}#=%=#Hongye
+Author{3}{Lastname}#=%=#Tan
+Author{3}{Username}#=%=#tanhongye
+Author{3}{Email}#=%=#tanhongye@sxu.edu.cn
+Author{3}{Affiliation}#=%=#School of Computer Science and Info. Tech. of Shanxi University
+Author{4}{Firstname}#=%=#Xiaoli
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#xiaolili
+Author{4}{Email}#=%=#xlli@i2r.a-star.edu.sg
+Author{4}{Affiliation}#=%=#Institute for Infocomm Research/Nanyang Technological University
+Author{5}{Firstname}#=%=#Yong
+Author{5}{Lastname}#=%=#Guan
+Author{5}{Username}#=%=#batian
+Author{5}{Email}#=%=#guanyong0130@163.com
+Author{5}{Affiliation}#=%=#Shanxi University
+Author{6}{Firstname}#=%=#Hongyan
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Username}#=%=#lrxzhy
+Author{6}{Email}#=%=#lrxzhy@163.com
+Author{6}{Affiliation}#=%=#School of Computer and Information Technology，Shanxi University
+Author{7}{Firstname}#=%=#Yueping
+Author{7}{Lastname}#=%=#Zhang
+Author{7}{Username}#=%=#zhangyueping
+Author{7}{Email}#=%=#919583730@qq.com
+Author{7}{Affiliation}#=%=#Shanxi University
+
+==========

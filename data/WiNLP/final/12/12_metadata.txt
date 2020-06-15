@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Token Level Identification of Multiword Expressions Using Contextual Information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Reyhaneh Hashempour
+JobTitle#==#
+Organization#==#
+Abstract#==#Studies on detecting idiomatic expressions mostly focus on discovering potentially idiomatic
+expressions disregarding the context. However, many idioms like kick the bucket could be idiomatic/literal depending on the context. In this work, we use Context2Vec model to include
+contextual information. The model learns a generic context embedding function from large
+corpora, using bidirectional LSTM. We build a simple nearest neighbor classification on Context2Vec which outperforms the popular context representation of average-of-word-embeddings. Through lexical substitution task, we further show that the Context2Vec model is able to place MWEs into distinct ‘sense’(idiomatic/literal) regions of the embedding space, while traditional word embedding i.e. Skip Gram lacks this ability.
+Author{1}{Firstname}#=%=#REYHANEH
+Author{1}{Lastname}#=%=#HASHEMPOUR
+Author{1}{Username}#=%=#reyhaneh
+Author{1}{Email}#=%=#rh18456@essex.ac.uk
+Author{1}{Affiliation}#=%=#University of Essex
+Author{2}{Firstname}#=%=#Aline
+Author{2}{Lastname}#=%=#Villavicencio
+Author{2}{Username}#=%=#alinev
+Author{2}{Email}#=%=#alinev@gmail.com
+Author{2}{Affiliation}#=%=#University of Sheffield, UK
+
+==========

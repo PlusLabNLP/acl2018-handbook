@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3110
+FinalPaperTitle#=%=#Towards Emotion-aided Multi-modal Dialogue Act Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#TULIKA SAHA
+JobTitle#==#
+Organization#==#Tulika saha, IIT Patna, India
+Abstract#==#The task of Dialogue Act Classification (DAC) that purports to capture communicative intent has been studied extensively. But these studies limit themselves to text. Non-verbal features (change of tone, facial expressions etc.) can provide cues to identify DAs, thus stressing the benefit of incorporating multi-modal inputs in the task. Also, the emotional state of the speaker has a substantial effect on the choice of the dialogue act, since conversations are often influenced by emotions. Hence, the effect of emotion too on automatic identification of DAs needs to be studied. In this work, we address the role of {\it both} multi-modality and emotion recognition (ER) in DAC. DAC and ER help each other by way of multi-task learning. One of the major contributions of this work is a new dataset- multimodal Emotion aware Dialogue Act dataset called EMOTyDA, collected from open-sourced dialogue datasets. To demonstrate the utility of EMOTyDA, we  build an attention based (self, inter-modal, inter-task) multi-modal, multi-task Deep Neural Network (DNN) for joint learning of DAs and emotions. We show empirically that multi-modality and multi-tasking achieve better performance of DAC compared to uni-modal and single task DAC variants.
+Author{1}{Firstname}#=%=#Tulika
+Author{1}{Lastname}#=%=#Saha
+Author{1}{Username}#=%=#sahatulika
+Author{1}{Email}#=%=#sahatulika15@gmail.com
+Author{1}{Affiliation}#=%=#INDIAN INSTITUTE OF TECHNOLOGY PATNA
+Author{2}{Firstname}#=%=#Aditya
+Author{2}{Lastname}#=%=#Patra
+Author{2}{Username}#=%=#kaiser17
+Author{2}{Email}#=%=#aditya.cs16@iitp.ac.in
+Author{2}{Affiliation}#=%=#IIT Patna
+Author{3}{Firstname}#=%=#Sriparna
+Author{3}{Lastname}#=%=#Saha
+Author{3}{Username}#=%=#sriparna
+Author{3}{Email}#=%=#sriparna@iitp.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Pushpak
+Author{4}{Lastname}#=%=#Bhattacharyya
+Author{4}{Username}#=%=#pushpak
+Author{4}{Email}#=%=#pushpakbh@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Bombay and Patna
+
+==========

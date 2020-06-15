@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2468
+FinalPaperTitle#=%=#Refer360$^{\circ}$: A Referring Expression Recognition Dataset in 360$^{\circ}$ Images
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#volkan cirik
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We propose a novel large-scale referring expression recognition dataset, Refer360°, consisting of 17,137 instruction sequences and ground-truth actions for completing these instructions in 360° scenes. Refer360° differs from existing related datasets in three ways. First, we propose a more realistic scenario where instructors and the followers have partial, yet dynamic, views of the scene – followers continuously modify their field-of-view (FoV) while interpreting instructions that specify a final target location. Second, instructions to find the target location consist of multiple steps for followers who will start at random FoVs. As a result, intermediate instructions are strongly grounded in object references, and followers must identify intermediate FoVs to find the final target location correctly. Third, the target locations are neither restricted to predefined objects nor chosen by annotators; instead, they are distributed randomly across scenes. This “point anywhere” approach leads to more linguistically complex instructions, as shown in our analyses. Our examination of the dataset shows that Refer360° manifests linguistically rich phenomena in a language grounding task that poses novel challenges for computational modeling of language, vision, and navigation.
+Author{1}{Firstname}#=%=#Volkan
+Author{1}{Lastname}#=%=#Cirik
+Author{1}{Username}#=%=#volkancirik
+Author{1}{Email}#=%=#vcirik@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Taylor
+Author{2}{Lastname}#=%=#Berg-Kirkpatrick
+Author{2}{Username}#=%=#tberg
+Author{2}{Email}#=%=#tberg@eng.ucsd.edu
+Author{2}{Affiliation}#=%=#University of California San Diego
+Author{3}{Firstname}#=%=#Louis-Philippe
+Author{3}{Lastname}#=%=#Morency
+Author{3}{Username}#=%=#lmorency
+Author{3}{Email}#=%=#morency@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

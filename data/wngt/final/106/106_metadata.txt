@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#Expand and Filter: CUNI and LMU Systems for the WNGT 2020 Duolingo Shared Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Zdenek Kasner
+JobTitle#==#
+Organization#==#Charles University
+Abstract#==#We present our submission to the Simultaneous Translation And Paraphrase for
+Language Education (STAPLE) challenge.
+We used a standard Transformer model for translation, with a crosslingual
+classifier predicting correct translations on the output n-best list.
+To increase the diversity of the outputs, we used additional data to train the
+translation model, and
+we trained a paraphrasing model based on the Levenshtein Transformer
+architecture to generate further synonymous translations.
+The paraphrasing results were again filtered using our classifier.
+While the use of additional data and our classifier filter were able to improve
+results, the paraphrasing model produced too many invalid outputs to
+further improve the output quality.
+Our model without the paraphrasing component finished in the middle of the
+field for the shared task, improving over the best baseline by a margin of
+10-22 % weighted F1 absolute.
+Author{1}{Firstname}#=%=#Jindřich
+Author{1}{Lastname}#=%=#Libovický
+Author{1}{Username}#=%=#libovicky
+Author{1}{Email}#=%=#libovicky@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Ludwig Maximilian University of Munich
+Author{2}{Firstname}#=%=#Zdeněk
+Author{2}{Lastname}#=%=#Kasner
+Author{2}{Username}#=%=#kasnerz
+Author{2}{Email}#=%=#kasner@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University
+Author{3}{Firstname}#=%=#Jindřich
+Author{3}{Lastname}#=%=#Helcl
+Author{3}{Username}#=%=#jindra.helcl
+Author{3}{Email}#=%=#helcl@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University in Prague
+Author{4}{Firstname}#=%=#Ondřej
+Author{4}{Lastname}#=%=#Dušek
+Author{4}{Username}#=%=#odusek
+Author{4}{Email}#=%=#odusek@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University
+
+==========

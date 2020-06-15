@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#870
+FinalPaperTitle#=%=#Learning to Tag OOV Tokens by Integrating Contextual Representation and Background Knowledge
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#keqing he
+JobTitle#==#
+Organization#==#Beijing University of Posts and Telecommunications, Beijing, China
+Abstract#==#Neural-based context-aware models for slot tagging have achieved state-of-the-art performance. However, the presence of OOV(out-of-vocab) words significantly degrades the performance of neural-based models, especially in a few-shot scenario. In this paper, we propose a novel knowledge-enhanced slot tagging model to integrate contextual representation of input text and the large-scale lexical background knowledge. Besides, we use multi-level graph attention to explicitly model lexical relations. The experiments show that our proposed knowledge integration mechanism achieves consistent improvements across settings with different sizes of training data on two public benchmark datasets.
+Author{1}{Firstname}#=%=#Keqing
+Author{1}{Lastname}#=%=#He
+Author{1}{Username}#=%=#heliche
+Author{1}{Email}#=%=#kqin@bupt.edu.cn
+Author{1}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{2}{Firstname}#=%=#Yuanmeng
+Author{2}{Lastname}#=%=#Yan
+Author{2}{Username}#=%=#yanyuanmeng
+Author{2}{Email}#=%=#yanyuanmeng@bupt.edu.cn
+Author{2}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{3}{Firstname}#=%=#Weiran
+Author{3}{Lastname}#=%=#XU
+Author{3}{Username}#=%=#xuweiran
+Author{3}{Email}#=%=#xuweiran@bupt.edu.cn
+Author{3}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+
+==========

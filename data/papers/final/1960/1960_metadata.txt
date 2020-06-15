@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1960
+FinalPaperTitle#=%=#Empower Entity Set Expansion via Language Model Probing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yunyi Zhang
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+Abstract#==#Entity set expansion, aiming at expanding a small seed entity set with new entities belonging to the same semantic class, is a critical task that benefits many downstream NLP and IR applications, such as question answering, query understanding, and taxonomy construction. Existing set expansion methods bootstrap the seed entity set by adaptively selecting context features and extracting new entities. A key challenge for entity set expansion is to avoid selecting ambiguous context features which will shift the class semantics and lead to accumulative errors in later iterations. In this study, we propose a novel iterative set expansion framework that leverages automatically generated class names to address the semantic drift issue. In each iteration, we select one positive and several negative class names by probing a pre-trained language model, and further score each candidate entity based on selected class names. Experiments on two datasets show that our framework generates high-quality class names and outperforms previous state-of-the-art methods significantly.
+Author{1}{Firstname}#=%=#Yunyi
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#yzhan238
+Author{1}{Email}#=%=#yzhan238@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Jiaming
+Author{2}{Lastname}#=%=#Shen
+Author{2}{Username}#=%=#mickeysjm
+Author{2}{Email}#=%=#js2@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Jingbo
+Author{3}{Lastname}#=%=#Shang
+Author{3}{Username}#=%=#shangjingbo
+Author{3}{Email}#=%=#jshang@ucsd.edu
+Author{3}{Affiliation}#=%=#University of California, San Diego
+Author{4}{Firstname}#=%=#Jiawei
+Author{4}{Lastname}#=%=#Han
+Author{4}{Username}#=%=#hanj
+Author{4}{Email}#=%=#hanj@cs.uiuc.edu
+Author{4}{Affiliation}#=%=#UIUC
+
+==========

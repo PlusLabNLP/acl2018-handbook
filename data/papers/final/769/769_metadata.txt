@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#769
+FinalPaperTitle#=%=#Knowledge Distillation for Multilingual Unsupervised Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Haipeng Sun
+JobTitle#==#
+Organization#==#Harbin Institute of Technology, Harbin, China
+Abstract#==#Unsupervised neural machine translation (UNMT) has recently achieved remarkable results for several language pairs. However, it can only translate between a single language pair and cannot produce translation results for multiple language pairs at the same time. That is, research on multilingual UNMT has been limited. In this paper, we empirically introduce a simple method to translate between thirteen languages using a single encoder and a single decoder, making use of multilingual data to improve UNMT for all language pairs. On the basis of the empirical findings, we propose two knowledge distillation methods to further enhance multilingual UNMT performance. Our experiments on a dataset with English translated to and from twelve other languages (including three language families and six language branches) show remarkable results, surpassing strong unsupervised individual baselines while achieving promising performance between non-English language pairs in zero-shot translation scenarios and alleviating poor performance in low-resource language pairs.
+Author{1}{Firstname}#=%=#Haipeng
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Username}#=%=#hpsun
+Author{1}{Email}#=%=#shpdallas1109@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Rui
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#wangrui.nlp
+Author{2}{Email}#=%=#wangrui@nict.go.jp
+Author{2}{Affiliation}#=%=#NICT
+Author{3}{Firstname}#=%=#Kehai
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#kehai
+Author{3}{Email}#=%=#khchen@nict.go.jp
+Author{3}{Affiliation}#=%=#National Institute of Information and Communications Technology
+Author{4}{Firstname}#=%=#Masao
+Author{4}{Lastname}#=%=#Utiyama
+Author{4}{Username}#=%=#mutiyama
+Author{4}{Email}#=%=#mutiyama@nict.go.jp
+Author{4}{Affiliation}#=%=#NICT
+Author{5}{Firstname}#=%=#Eiichiro
+Author{5}{Lastname}#=%=#Sumita
+Author{5}{Username}#=%=#eiichirosumita
+Author{5}{Email}#=%=#eiichiro.sumita@nict.go.jp
+Author{5}{Affiliation}#=%=#NICT
+Author{6}{Firstname}#=%=#Tiejun
+Author{6}{Lastname}#=%=#Zhao
+Author{6}{Username}#=%=#tjzhao
+Author{6}{Email}#=%=#tjzhao@hit.edu.cn
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

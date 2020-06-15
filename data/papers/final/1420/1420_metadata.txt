@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1420
+FinalPaperTitle#=%=#MuTual: A Dataset for Multi-Turn Dialogue Reasoning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Leyang Cui
+JobTitle#==#
+Organization#==#Zhejiang University, China
+Abstract#==#Non-task oriented dialogue systems have achieved great success in recent years due to largely accessible conversation data and the development of deep learning techniques. Given a context, current systems are able to yield a relevant and fluent response, but  sometimes make logical mistakes because of  weak reasoning capabilities. To facilitate the conversation reasoning research, we introduce MuTual, a novel dataset for Multi-Turn dialogue Reasoning, consisting of 8,860 manually annotated dialogues based on Chinese student English listening comprehension exams. Compared to previous benchmarks for non-task oriented dialogue systems, MuTual is much more challenging since it requires a model that be able to handle various reasoning problems. 
+Empirical results show that state-of-the-art methods only reach 71%, which is far behind human performance of 94%, indicating that there is ample room for improving reasoning ability.
+Author{1}{Firstname}#=%=#Leyang
+Author{1}{Lastname}#=%=#Cui
+Author{1}{Username}#=%=#leyangcui
+Author{1}{Email}#=%=#cuileyang@westlake.edu.cn
+Author{1}{Affiliation}#=%=#Zhejiang University , Westlake University
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Username}#=%=#wumark
+Author{2}{Email}#=%=#wumark@126.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Shujie
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Username}#=%=#shujliu
+Author{3}{Email}#=%=#shujliu@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia, Beijing, China
+Author{4}{Firstname}#=%=#Yue
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Username}#=%=#frcchang
+Author{4}{Email}#=%=#yue.zhang@wias.org.cn
+Author{4}{Affiliation}#=%=#Westlake University
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Username}#=%=#mingzhou
+Author{5}{Email}#=%=#mingzhou@microsoft.com
+Author{5}{Affiliation}#=%=#microsoft research asia
+
+==========

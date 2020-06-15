@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1553
+FinalPaperTitle#=%=#Universal Decompositional Semantic Parsing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Elias Stengel-Eskin
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Abstract#==#We introduce a transductive model for parsing into Universal Decompositional Semantics (UDS) representations, which jointly learns to map natural language utterances into UDS graph structures and annotate the graph with decompositional semantic attribute scores. We also introduce a strong pipeline model for parsing into the UDS graph structure, and show that our transductive parser performs comparably while additionally performing attribute prediction. By analyzing the attribute prediction errors, we find the model captures natural relationships between attribute groups.
+Author{1}{Firstname}#=%=#Elias
+Author{1}{Lastname}#=%=#Stengel-Eskin
+Author{1}{Username}#=%=#esteng
+Author{1}{Email}#=%=#elias@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Aaron Steven
+Author{2}{Lastname}#=%=#White
+Author{2}{Username}#=%=#aswhite
+Author{2}{Email}#=%=#aaron.white@rochester.edu
+Author{2}{Affiliation}#=%=#University of Rochester
+Author{3}{Firstname}#=%=#Sheng
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#shengzhang
+Author{3}{Email}#=%=#zsheng2@jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Benjamin
+Author{4}{Lastname}#=%=#Van Durme
+Author{4}{Username}#=%=#vandurme
+Author{4}{Email}#=%=#vandurme@cs.jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+
+==========

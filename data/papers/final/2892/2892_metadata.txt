@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2892
+FinalPaperTitle#=%=#Language-aware Interlingua for Multilingual Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Changfeng Zhu
+JobTitle#==#
+Organization#==#Alibaba Group, Hangzhou, China
+Abstract#==#Multilingual neural machine translation (NMT) has led to impressive accuracy improvements in low-resource scenarios by sharing common linguistic information across languages. However, the traditional multilingual model fails to capture the diversity and specificity of different languages, resulting in inferior performance compared with individual models that are sufficiently trained. In this paper, we incorporate a language-aware interlingua into the Encoder-Decoder architecture. The interlingual network enables the model to learn a language-independent representation from the semantic spaces of different languages, while still allowing for language-specific specialization of a particular language-pair. Experiments show that our proposed method achieves remarkable improvements over state-of-the-art multilingual NMT baselines and produces comparable performance with strong individual models.
+Author{1}{Firstname}#=%=#Changfeng
+Author{1}{Lastname}#=%=#Zhu
+Author{1}{Username}#=%=#stupigcavin
+Author{1}{Email}#=%=#bajiuchangfeng@126.com
+Author{1}{Affiliation}#=%=#Alibaba Group
+Author{2}{Firstname}#=%=#Heng
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Username}#=%=#sameyh
+Author{2}{Email}#=%=#yuheng@ict.ac.cn
+Author{2}{Affiliation}#=%=#Alibaba
+Author{3}{Firstname}#=%=#Shanbo
+Author{3}{Lastname}#=%=#Cheng
+Author{3}{Username}#=%=#jsxycsb
+Author{3}{Email}#=%=#cshanbo@gmail.com
+Author{3}{Affiliation}#=%=#Alibaba Group
+Author{4}{Firstname}#=%=#Weihua
+Author{4}{Lastname}#=%=#Luo
+Author{4}{Username}#=%=#luoweihua
+Author{4}{Email}#=%=#weihua.luowh@alibaba-inc.com
+Author{4}{Affiliation}#=%=#Alibaba Group
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2009
+FinalPaperTitle#=%=#Hierarchical Entity Typing via Multi-level Learning to Rank
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tongfei Chen
+JobTitle#==#PhD student
+Organization#==#Johns Hopkins University
+Abstract#==#We propose a novel method for hierarchical entity classification that  embraces ontological structure at both training and during prediction.  At training, our novel multi-level learning-to-rank loss compares positive types against negative siblings according to the type tree.  During prediction, we define a coarse-to-fine decoder that restricts viable candidates at each level of the ontology based on already predicted parent type(s). Our approach significantly outperform prior work on strict accuracy, demonstrating the effectiveness of our method.
+Author{1}{Firstname}#=%=#Tongfei
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#chentongfei
+Author{1}{Email}#=%=#tongfei@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Yunmo
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#yunmochen
+Author{2}{Email}#=%=#yunmo@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Van Durme
+Author{3}{Username}#=%=#vandurme
+Author{3}{Email}#=%=#vandurme@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+
+==========

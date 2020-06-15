@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#351
+FinalPaperTitle#=%=#On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Chaojun Wang
+JobTitle#==#
+Organization#==#School of Informatics, University of Edinburgh
+Abstract#==#The standard training algorithm in neural machine translation (NMT) suffers from exposure bias, and alternative algorithms have been proposed to mitigate this. However, the practical impact of exposure bias is under debate. In this paper, we link exposure bias to another well-known problem in NMT, namely the tendency to generate hallucinations under domain shift. In experiments on three datasets with multiple test domains, we show that exposure bias is partially to blame for hallucinations, and that training with Minimum Risk Training, which avoids exposure bias, can mitigate this. Our analysis explains why exposure bias is more problematic under domain shift, and also links exposure bias to the beam search problem, i.e. performance deterioration with increasing beam size. Our results provide a new justiﬁcation for methods that reduce exposure bias: even if they do not increase performance on in-domain test sets, they can increase model robustness to domain shift.
+Author{1}{Firstname}#=%=#Chaojun
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#zippo
+Author{1}{Email}#=%=#zippo_wang@foxmail.com
+Author{1}{Affiliation}#=%=#Westlake University
+Author{2}{Firstname}#=%=#Rico
+Author{2}{Lastname}#=%=#Sennrich
+Author{2}{Username}#=%=#rsennrich
+Author{2}{Email}#=%=#sennrich@cl.uzh.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+
+==========

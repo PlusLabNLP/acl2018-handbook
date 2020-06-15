@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#795
+FinalPaperTitle#=%=#Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Daya Guo
+JobTitle#==#
+Organization#==#Sun Yat-sen University
+Abstract#==#Generating inferential texts about an event in different perspectives requires reasoning over different contexts that the event occurs. Existing works usually ignore the context that is not explicitly provided, resulting in a context-independent semantic representation that struggles to support the generation. To address this, we propose an approach that  automatically finds evidence for an event from a large text corpus, and leverages the evidence to guide the generation of inferential texts. Our approach works in an encoderdecoder
+manner and is equipped with Vector Quantised-Variational Autoencoder, where the encoder outputs representations from a distribution over discrete variables. Such discrete representations enable automatically selecting relevant evidence, which not only facilitates evidence-aware generation, but also provides a natural way to uncover rationales behind the generation. Our approach provides state-of-the-art performance on both Event2mind and Atomic datasets. More importantly, we find that with discrete representations, our model selectively uses evidence to generate different inferential texts.
+Author{1}{Firstname}#=%=#Daya
+Author{1}{Lastname}#=%=#Guo
+Author{1}{Username}#=%=#guody
+Author{1}{Email}#=%=#guody5@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#Sun Yat-Sen University
+Author{2}{Firstname}#=%=#Duyu
+Author{2}{Lastname}#=%=#Tang
+Author{2}{Username}#=%=#dytang
+Author{2}{Email}#=%=#dutang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Nan
+Author{3}{Lastname}#=%=#Duan
+Author{3}{Username}#=%=#nanduan
+Author{3}{Email}#=%=#nanduan@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia
+Author{4}{Firstname}#=%=#Jian
+Author{4}{Lastname}#=%=#Yin
+Author{4}{Username}#=%=#yinjian
+Author{4}{Email}#=%=#issjyin@mail.sysu.edu.cn
+Author{4}{Affiliation}#=%=#Sun Yat-Sen University
+Author{5}{Firstname}#=%=#Daxin
+Author{5}{Lastname}#=%=#Jiang
+Author{5}{Username}#=%=#djiang
+Author{5}{Email}#=%=#djiang@microsoft.com
+Author{5}{Affiliation}#=%=#STCA NLP Group, Microsoft
+Author{6}{Firstname}#=%=#Ming
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Username}#=%=#mingzhou
+Author{6}{Email}#=%=#mingzhou@microsoft.com
+Author{6}{Affiliation}#=%=#microsoft research asia
+
+==========

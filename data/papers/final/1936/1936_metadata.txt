@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1936
+FinalPaperTitle#=%=#Joint Modelling of Emotion and Abusive Language Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Santhosh Rajamanickam
+JobTitle#==#
+Organization#==#ILLC, University of Amsterdam, Science Park 107, 1098 XG Amsterdam
+Abstract#==#The rise of online communication platforms has been accompanied by some undesirable effects, such as the proliferation of aggressive and abusive behaviour online. Aiming to tackle this problem, the natural language processing (NLP) community has experimented with a range of techniques for abuse detection. While achieving substantial success, these methods have so far only focused on modelling the linguistic properties of the comments and the online communities of users, disregarding the emotional state of the users and how this might affect their language. The latter is, however, inextricably linked to abusive behaviour. In this paper, we present the first joint model of emotion and abusive language detection, experimenting in a multi-task learning framework that allows one task to inform the other. Our results demonstrate that incorporating affective features leads to significant improvements in abuse detection performance across datasets.
+Author{1}{Firstname}#=%=#Santhosh
+Author{1}{Lastname}#=%=#Rajamanickam
+Author{1}{Username}#=%=#santhoshrajamanickam
+Author{1}{Email}#=%=#rajamanickamsanthosh@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Pushkar
+Author{2}{Lastname}#=%=#Mishra
+Author{2}{Username}#=%=#pushkarmishra
+Author{2}{Email}#=%=#pushkarmishra@fb.com
+Author{2}{Affiliation}#=%=#Facebook AI
+Author{3}{Firstname}#=%=#Helen
+Author{3}{Lastname}#=%=#Yannakoudakis
+Author{3}{Username}#=%=#egian
+Author{3}{Email}#=%=#hyannakoudakis@gmail.com
+Author{3}{Affiliation}#=%=#King's College London, University of Cambridge
+Author{4}{Firstname}#=%=#Ekaterina
+Author{4}{Lastname}#=%=#Shutova
+Author{4}{Username}#=%=#katia
+Author{4}{Email}#=%=#shutova.e@gmail.com
+Author{4}{Affiliation}#=%=#University of Amsterdam
+
+==========

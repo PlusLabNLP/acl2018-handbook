@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#462
+FinalPaperTitle#=%=#Coach: A Coarse-to-Fine Approach for Cross-domain Slot Filling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Zihan Liu
+JobTitle#==#
+Organization#==#Hong Kong University of Science and Technology; Clear Water Bay, Hong Kong
+Abstract#==#As an essential task in task-oriented dialog systems, slot filling requires extensive training data in a certain domain. However, such data are not always available. Hence, cross-domain slot filling has naturally arisen to cope with this data scarcity problem. In this paper, we propose a Coarse-to-fine approach (Coach) for cross-domain slot filling. Our model first learns the general pattern of slot entities by detecting whether the tokens are slot entities or not. It then predicts the specific types for the slot entities. In addition, we propose a template regularization approach to improve the adaptation robustness by regularizing the representation of utterances based on utterance templates. Experimental results show that our model significantly outperforms state-of-the-art approaches in slot filling. Furthermore, our model can also be applied to the cross-domain named entity recognition task, and it achieves better adaptation performance than other existing baselines. The code is available at https://github.com/zliucr/coach.
+Author{1}{Firstname}#=%=#Zihan
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Username}#=%=#zihanliu
+Author{1}{Email}#=%=#zliucr@connect.ust.hk
+Author{1}{Affiliation}#=%=#Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Genta Indra
+Author{2}{Lastname}#=%=#Winata
+Author{2}{Username}#=%=#giwinata
+Author{2}{Email}#=%=#giwinata@connect.ust.hk
+Author{2}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{3}{Firstname}#=%=#Peng
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Username}#=%=#pxuab
+Author{3}{Email}#=%=#pxuab@connect.ust.hk
+Author{3}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{4}{Firstname}#=%=#Pascale
+Author{4}{Lastname}#=%=#Fung
+Author{4}{Username}#=%=#pascale
+Author{4}{Email}#=%=#pascale@ece.ust.hk
+Author{4}{Affiliation}#=%=#Hong Kong University of Science and Technology
+
+==========

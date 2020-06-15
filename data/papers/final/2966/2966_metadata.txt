@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2966
+FinalPaperTitle#=%=#NILE : Natural Language Inference with Faithful Natural Language Explanations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Sawan Kumar
+JobTitle#==#
+Organization#==#Indian Institute of Science, Bangalore, India
+Abstract#==#The recent growth in the popularity and success of deep learning models on NLP classification tasks has accompanied the need for generating some form of  natural language explanation of the predicted labels. Such generated natural language (NL) explanations are expected to be faithful, i.e., they should correlate well with the model's internal  decision making. In this work, we focus on the task of natural language inference (NLI) and address the following question: can we build NLI systems which produce labels with high accuracy, while also generating faithful explanations of its decisions? We propose Natural-language Inference over Label-specific Explanations (NILE), a novel NLI method which utilizes auto-generated label-specific NL explanations to produce labels along with its faithful explanation. We demonstrate NILE's effectiveness over previously reported methods through automated and human evaluation of the produced labels and explanations. Our evaluation of NILE also supports the claim that accurate systems capable of providing testable explanations of their decisions can be designed. We discuss the faithfulness of NILE's explanations in terms of sensitivity of the decisions to the corresponding explanations. We argue that explicit evaluation of faithfulness, in addition to label and explanation accuracy, is an important step in evaluating model's explanations. Further, we demonstrate that task-specific probes are necessary to establish  such sensitivity.
+Author{1}{Firstname}#=%=#Sawan
+Author{1}{Lastname}#=%=#Kumar
+Author{1}{Username}#=%=#sawankumar
+Author{1}{Email}#=%=#sawankumar@iisc.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Science
+Author{2}{Firstname}#=%=#Partha
+Author{2}{Lastname}#=%=#Talukdar
+Author{2}{Username}#=%=#partha.talukdar
+Author{2}{Email}#=%=#ppt@iisc.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Science
+
+==========

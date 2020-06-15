@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#300
+FinalPaperTitle#=%=#Keyphrase Generation for Scientific Document Retrieval
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Florian Boudin
+JobTitle#==#
+Organization#==#LS2N, Université de Nantes, France
+Abstract#==#Sequence-to-sequence models have lead to significant progress in keyphrase generation, but it remains unknown whether they are reliable enough to be beneficial for document retrieval. This study provides empirical evidence that such models can significantly improve retrieval performance, and introduces a new extrinsic evaluation framework that allows for a better understanding of the limitations of keyphrase generation models. Using this framework, we point out and discuss the difficulties encountered with supplementing documents with -not present in text- keyphrases, and generalizing models across domains. Our code is available at https://github.com/boudinfl/ir-using-kg
+Author{1}{Firstname}#=%=#Florian
+Author{1}{Lastname}#=%=#Boudin
+Author{1}{Username}#=%=#boudin-f
+Author{1}{Email}#=%=#florian.boudin@univ-nantes.fr
+Author{1}{Affiliation}#=%=#Université de Nantes
+Author{2}{Firstname}#=%=#Ygor
+Author{2}{Lastname}#=%=#Gallina
+Author{2}{Username}#=%=#ygorg
+Author{2}{Email}#=%=#ygor.gallina@univ-nantes.fr
+Author{2}{Affiliation}#=%=#Univsersité de Nantes
+Author{3}{Firstname}#=%=#Akiko
+Author{3}{Lastname}#=%=#Aizawa
+Author{3}{Username}#=%=#aizawa
+Author{3}{Email}#=%=#aizawa@nii.ac.jp
+Author{3}{Affiliation}#=%=#National Institute of Informatics
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3180
+FinalPaperTitle#=%=#Learning and Evaluating Emotion Lexicons for 91 Languages
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Sven Buechel
+JobTitle#==#
+Organization#==#Friedrich-Schiller-Universität Jena, Fürstengraben 27, 07743 Jena, Germany
+Abstract#==#Emotion lexicons describe the affective meaning of words and thus constitute a centerpiece for advanced sentiment and emotion analysis. Yet, manually curated lexicons are only available for a handful of languages, leaving most languages of the world without such a precious resource for downstream applications. Even worse, their coverage is often limited both in terms of the lexical units they contain and the emotional variables they feature. In order to break this bottleneck, we here introduce a methodology for creating almost arbitrarily large emotion lexicons for any target language. Our approach requires nothing but a source language emotion lexicon, a bilingual word translation model, and a target language embedding model. Fulfilling these requirements for 91 languages, we are able to generate representationally rich high-coverage lexicons comprising eight emotional variables with more than 100k lexical entries each. We evaluated the automatically generated lexicons against human judgment from 26 datasets, spanning 12 typologically diverse languages, and found that our approach produces results in line with state-of-the-art monolingual approaches to lexicon creation and even surpasses human reliability for some languages and variables. Code and data are available at https://github.com/JULIELab/MEmoLon archived under DOI 10.5281/zenodo.3779901.
+Author{1}{Firstname}#=%=#Sven
+Author{1}{Lastname}#=%=#Buechel
+Author{1}{Username}#=%=#svbu
+Author{1}{Email}#=%=#sven.buechel@uni-jena.de
+Author{1}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+Author{2}{Firstname}#=%=#Susanna
+Author{2}{Lastname}#=%=#Rücker
+Author{2}{Username}#=%=#susannaruecker
+Author{2}{Email}#=%=#susanna.ruecker@uni-jena.de
+Author{2}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+Author{3}{Firstname}#=%=#Udo
+Author{3}{Lastname}#=%=#Hahn
+Author{3}{Username}#=%=#udo.hahn
+Author{3}{Email}#=%=#udo.hahn@uni-jena.de
+Author{3}{Affiliation}#=%=#Friedrich-Schiller-Universität Jena
+
+==========

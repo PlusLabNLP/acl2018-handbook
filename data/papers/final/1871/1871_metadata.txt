@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1871
+FinalPaperTitle#=%=#AMR Parsing with Latent Structural Information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Qiji Zhou
+JobTitle#==#
+Organization#==#Key Laboratory of Aerospace Information Security and Trusted Computing,Ministry of Education, School of Cyber Science and Engineering, Wuhan University, China
+Abstract#==#Abstract Meaning Representations (AMRs) capture sentence-level semantics structural representations to broad-coverage natural sentences.
+We investigate parsing AMR with explicit dependency structures and interpretable latent structures. We generate the latent soft structure without additional annotations, and fuse both dependency and latent structure via an extended graph neural networks.
+The fused structural information helps our experiments results to achieve the best reported results on both AMR 2.0 (77.5\% \textrm{Smatch} F1 on LDC2017T10) and AMR 1.0 ((71.8\% \textrm{Smatch} F1 on LDC2014T12).
+Author{1}{Firstname}#=%=#Qiji
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#zhouqiji
+Author{1}{Email}#=%=#qiji.zhou@whu.edu.cn
+Author{1}{Affiliation}#=%=#Wuhan University
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Username}#=%=#frcchang
+Author{2}{Email}#=%=#yue.zhang@wias.org.cn
+Author{2}{Affiliation}#=%=#Westlake University
+Author{3}{Firstname}#=%=#Donghong
+Author{3}{Lastname}#=%=#Ji
+Author{3}{Username}#=%=#dhji
+Author{3}{Email}#=%=#dhji@whu.edu.cn
+Author{3}{Affiliation}#=%=#Wuhan University
+Author{4}{Firstname}#=%=#Hao
+Author{4}{Lastname}#=%=#Tang
+Author{4}{Username}#=%=#tomsonsgs
+Author{4}{Email}#=%=#1543290089@qq.com
+Author{4}{Affiliation}#=%=#wuhan university
+
+==========

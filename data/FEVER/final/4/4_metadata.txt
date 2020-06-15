@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Developing a How-to Tip Machine Comprehension Dataset and its Evaluation in Machine Comprehension by BERT
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Takehito Utsuro
+JobTitle#==#
+Organization#==#University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8573, Japan
+Abstract#==#In the field of factoid question answering (QA), it is known that the
+ state-of-the-art technology has achieved an accuracy comparable to that
+ of humans in a certain benchmark challenge.  On the other hand, in the
+ area of non-factoid QA, there is still a limited number of datasets for
+ training QA models, i.e., machine comprehension models.  Considering
+ such a situation within the field of the non-factoid QA, this paper
+ aims to develop a dataset for training Japanese how-to tip QA models.  This
+ paper applies one of the state-of-the-art machine comprehension models
+ to the Japanese how-to tip QA dataset. The trained how-to tip QA model is also
+ compared with a factoid QA model trained with a Japanese factoid QA
+ dataset. Evaluation results revealed that the how-to tip machine
+ comprehension performance was almost comparative with that of the
+ factoid machine comprehension even with the training data size reduced
+ to around 4% of the factoid machine comprehension.  Thus, the how-to tip
+ machine comprehension task requires much less training data compared
+ with the factoid machine comprehension task.
+Author{1}{Firstname}#=%=#Tengyang
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#utsuro@iit.tsukuba.ac.jp
+Author{1}{Affiliation}#=%=#University of Tsukuba
+Author{2}{Firstname}#=%=#Hongyu
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#utsuro@iit.tsukuba.ac.jp
+Author{2}{Affiliation}#=%=#University of Tsukuba
+Author{3}{Firstname}#=%=#Miho
+Author{3}{Lastname}#=%=#Kasamatsu
+Author{3}{Email}#=%=#utsuro@iit.tsukuba.ac.jp
+Author{3}{Affiliation}#=%=#University of Tsukuba
+Author{4}{Firstname}#=%=#Takehito
+Author{4}{Lastname}#=%=#Utsuro
+Author{4}{Username}#=%=#utsuro
+Author{4}{Email}#=%=#t.utsuro@gmail.com
+Author{4}{Affiliation}#=%=#University of Tsukuba
+Author{5}{Firstname}#=%=#Yasuhide
+Author{5}{Lastname}#=%=#Kawada
+Author{5}{Email}#=%=#utsuro@iit.tsukuba.ac.jp
+Author{5}{Affiliation}#=%=#Logworks Co., Ltd.
+
+==========

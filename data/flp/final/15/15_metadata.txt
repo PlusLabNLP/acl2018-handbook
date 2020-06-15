@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Oxymorons: a preliminary corpus investigation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Francesca Masini
+JobTitle#==#
+Organization#==#LILEC Department, University of Bologna, Via Zamboni 33, 40126 Bologna (Italy)
+Abstract#==#This paper contains a preliminary corpus study of oxymorons, a figure of speech so far under-investigated in NLP-oriented research. The study resulted in a list of 376 oxymorons, identified by extracting a set of antonymous pairs (under various configurations) from corpora of written Italian and by manually checking the results. A complementary method is also envisaged for discovering contextual oxymorons, which are highly relevant for the detection of humor, irony and sarcasm.
+Author{1}{Firstname}#=%=#Marta
+Author{1}{Lastname}#=%=#La Pietra
+Author{1}{Username}#=%=#marta_la-pietra
+Author{1}{Email}#=%=#marta.lapietra93@gmail.com
+Author{1}{Affiliation}#=%=#University of Bologna
+Author{2}{Firstname}#=%=#Francesca
+Author{2}{Lastname}#=%=#Masini
+Author{2}{Username}#=%=#francesca_masini
+Author{2}{Email}#=%=#francesca.masini@unibo.it
+Author{2}{Affiliation}#=%=#University of Bologna
+
+==========

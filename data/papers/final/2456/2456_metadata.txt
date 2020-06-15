@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#2456
+FinalPaperTitle#=%=#Leveraging Monolingual Data with Self-Supervision for Multilingual Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Aditya Siddhant
+JobTitle#==#
+Organization#==#Google, 1600 Amphitheatre Parkway
+Abstract#==#Over the last few years two promising research directions in low-resource neural machine translation (NMT) have emerged. The first focuses on utilizing high-resource languages to improve the quality of low-resource languages via multilingual NMT. The second direction employs monolingual data with self-supervision to pre-train translation models, followed by fine-tuning on small amounts of supervised data. In this work, we join these two lines of research and demonstrate the efficacy of monolingual data with self-supervision in multilingual NMT. We offer three major results: (i) Using monolingual data significantly boosts the translation quality of low-resource languages in multilingual models. (ii) Self-supervision improves zero-shot translation quality in multilingual models. (iii) Leveraging monolingual data with self-supervision provides a viable path towards adding new languages to multilingual models, getting up to 33 BLEU on ro-en translation without any parallel data or back-translation.
+Author{1}{Firstname}#=%=#Aditya
+Author{1}{Lastname}#=%=#Siddhant
+Author{1}{Username}#=%=#asiddhan
+Author{1}{Email}#=%=#siddhantaditya01@gmail.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Ankur
+Author{2}{Lastname}#=%=#Bapna
+Author{2}{Username}#=%=#ankurbpn
+Author{2}{Email}#=%=#ankurbpn@google.com
+Author{2}{Affiliation}#=%=#Google AI
+Author{3}{Firstname}#=%=#Yuan
+Author{3}{Lastname}#=%=#Cao
+Author{3}{Username}#=%=#cao_yuan
+Author{3}{Email}#=%=#yuancao@google.com
+Author{3}{Affiliation}#=%=#Google Brain
+Author{4}{Firstname}#=%=#Orhan
+Author{4}{Lastname}#=%=#Firat
+Author{4}{Username}#=%=#orhanf
+Author{4}{Email}#=%=#orhanf@google.com
+Author{4}{Affiliation}#=%=#Google AI
+Author{5}{Firstname}#=%=#Mia
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Username}#=%=#miachen
+Author{5}{Email}#=%=#miachen@google.com
+Author{5}{Affiliation}#=%=#Google Brain
+Author{6}{Firstname}#=%=#Sneha
+Author{6}{Lastname}#=%=#Kudugunta
+Author{6}{Username}#=%=#snehark
+Author{6}{Email}#=%=#snehakudugunta@google.com
+Author{6}{Affiliation}#=%=#Google AI
+Author{7}{Firstname}#=%=#Naveen
+Author{7}{Lastname}#=%=#Arivazhagan
+Author{7}{Username}#=%=#naveen.a
+Author{7}{Email}#=%=#navari@google.com
+Author{7}{Affiliation}#=%=#Google AI
+Author{8}{Firstname}#=%=#Yonghui
+Author{8}{Lastname}#=%=#Wu
+Author{8}{Username}#=%=#yonghui
+Author{8}{Email}#=%=#yonghui@google.com
+Author{8}{Affiliation}#=%=#Google Brain
+
+==========

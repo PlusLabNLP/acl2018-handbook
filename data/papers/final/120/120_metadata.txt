@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#Relational Graph Attention Network for Aspect-based Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Xiaojun Quan
+JobTitle#==#
+Organization#==#Xiaojun Quan/ School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China
+Abstract#==#Aspect-based sentiment analysis aims to determine the sentiment polarity towards a specific aspect in online reviews. Most recent efforts adopt attention-based neural network models to implicitly connect aspects with opinion words. However, due to the complexity of language and the existence of multiple aspects in a single sentence, these models often confuse the connections. In this paper, we address this problem by means of effective encoding of syntax information. Firstly, we define a unified aspect-oriented dependency tree structure rooted at a target aspect by reshaping and pruning an ordinary dependency parse tree. Then, we propose a relational graph attention network (R-GAT) to encode the new tree structure for sentiment prediction. Extensive experiments are conducted on the SemEval 2014 and Twitter datasets, and the experimental results confirm that the connections between aspects and opinion words can be better established with our approach, and the performance of the graph attention network (GAT) is significantly improved as a consequence.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#sysuwk
+Author{1}{Email}#=%=#wangk73@mail2.sysu.edu.cn
+Author{1}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{2}{Firstname}#=%=#Weizhou
+Author{2}{Lastname}#=%=#Shen
+Author{2}{Username}#=%=#joeshen
+Author{2}{Email}#=%=#shenwzh3@mail2.sysu.edu.cn
+Author{2}{Affiliation}#=%=#Sun Yat-sen  University
+Author{3}{Firstname}#=%=#Yunyi
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Username}#=%=#tonyyang37
+Author{3}{Email}#=%=#yangyy37@mail2.sysu.edu.cn
+Author{3}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{4}{Firstname}#=%=#Xiaojun
+Author{4}{Lastname}#=%=#Quan
+Author{4}{Username}#=%=#passerqxj2
+Author{4}{Email}#=%=#quanxj3@mail.sysu.edu.cn
+Author{4}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{5}{Firstname}#=%=#Rui
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#mars198356
+Author{5}{Email}#=%=#masi.wr@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Leveraging Multimodal Behavioral Analytics for Automated Job Interview Performance Assessment and Feedback
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Anumeha Agrawal
+JobTitle#==#
+Organization#==#National Institute of Technology Karnataka, Surathkal. NH 66, Srinivasnagar, Surathkal, Mangalore, Karnataka 575025
+Abstract#==#Behavioral cues play a significant part in human communication and cognitive perception. In most professional domains, employee recruitment policies are framed such that both professional skills and personality traits are adequately assessed. Hiring interviews are structured to evaluate expansively a potential employee's suitability for the position - their professional qualifications, interpersonal skills, ability to perform in critical and stressful situations, in the presence of time and resource constraints, etc. Candidates, therefore, need to be aware of their positive and negative attributes and be mindful of behavioral cues that might have adverse effects on their success. 
+We propose a multimodal analytical framework that analyzes the candidate in an interview scenario and provides feedback for predefined labels such as engagement, speaking rate, eye contact, etc. We perform a comprehensive analysis that includes the interviewee's facial expressions, speech, and prosodic information, using the video, audio, and text transcripts obtained from the recorded interview. We use these multimodal data sources to construct a composite representation, which is used for training machine learning classifiers to predict the class labels. Such analysis is then used to provide constructive feedback to the interviewee for their behavioral cues and body language. Experimental validation showed that the proposed methodology achieved promising results.
+Author{1}{Firstname}#=%=#Anumeha
+Author{1}{Lastname}#=%=#Agrawal
+Author{1}{Username}#=%=#ars_nitk
+Author{1}{Email}#=%=#16it107.anumeha@nitk.edu.in
+Author{1}{Affiliation}#=%=#NITK Surathkal
+Author{2}{Firstname}#=%=#Rosa
+Author{2}{Lastname}#=%=#Anil George
+Author{2}{Username}#=%=#rosageorge
+Author{2}{Email}#=%=#rosageorge97@gmail.com
+Author{2}{Affiliation}#=%=#National Institute of Technology Karnataka
+Author{3}{Firstname}#=%=#Selvan Sunitha
+Author{3}{Lastname}#=%=#Ravi
+Author{3}{Username}#=%=#sunitha98
+Author{3}{Email}#=%=#sunitha98selvan@gmail.com
+Author{3}{Affiliation}#=%=#National Institute of Technology Karnataka
+Author{4}{Firstname}#=%=#Sowmya
+Author{4}{Lastname}#=%=#Kamath S
+Author{4}{Username}#=%=#sskin2010
+Author{4}{Email}#=%=#sowmyakamath@nitk.edu.in
+Author{4}{Affiliation}#=%=#NITK Surathkal
+Author{5}{Firstname}#=%=#Anand
+Author{5}{Lastname}#=%=#Kumar
+Author{5}{Username}#=%=#anandkumar
+Author{5}{Email}#=%=#m_anandkumar@cb.amrita.edu
+Author{5}{Affiliation}#=%=#National Institute of Technology Karnataka
+
+==========

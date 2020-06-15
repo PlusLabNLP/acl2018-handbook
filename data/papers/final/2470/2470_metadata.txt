@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2470
+FinalPaperTitle#=%=#A Joint Neural Model for Information Extraction with Global Features
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ying Lin
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign, Champaign, IL
+Abstract#==#Most existing joint neural models for Information Extraction (IE) use local task-specific classifiers to predict labels for individual instances (e.g., trigger, relation) regardless of their interactions. For example, a victim of a die event is likely to be a victim of an attack event in the same sentence. In order to capture such cross-subtask and cross-instance inter-dependencies, we propose a joint neural framework, OneIE, that aims to extract the globally optimal IE result as a graph from an input sentence. OneIE performs end-to-end IE in four stages: (1) Encoding a given sentence as contextualized word representations; (2) Identifying entity mentions and event triggers as nodes; (3) Computing label scores for all nodes and their pairwise links using local classifiers; (4) Searching for the globally optimal graph with a beam decoder. At the decoding stage, we incorporate global features to capture the cross-subtask and cross-instance interactions. Experiments show that adding global features improves the performance of our model and achieves new state of-the-art on all subtasks. In addition, as OneIE does not use any language-specific feature, we prove it can be easily applied to new languages or trained in a multilingual manner.
+Author{1}{Firstname}#=%=#Ying
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Username}#=%=#limteng
+Author{1}{Email}#=%=#yinglin8@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Heng
+Author{2}{Lastname}#=%=#Ji
+Author{2}{Username}#=%=#hengjirpi
+Author{2}{Email}#=%=#hengji@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Fei
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Username}#=%=#fei.huang
+Author{3}{Email}#=%=#feirhuang@gmail.com
+Author{3}{Affiliation}#=%=#Alibaba DAMO Academy
+Author{4}{Firstname}#=%=#Lingfei
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Username}#=%=#teddylfwu
+Author{4}{Email}#=%=#lwu@email.wm.edu
+Author{4}{Affiliation}#=%=#IBM Research AI
+
+==========

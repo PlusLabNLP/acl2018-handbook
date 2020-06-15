@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1827
+FinalPaperTitle#=%=#Predicting Declension Class from Form and Meaning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Adina Williams
+JobTitle#==#
+Organization#==#Facebook Inc. 770 Broadway, New York City, NY, 10003
+Abstract#==#The noun lexica of many natural languages are divided into several declension classes with characteristic morphological properties. Class membership is far from deterministic, but the phonological form of a noun and/or its meaning can often provide imperfect clues. Here, we investigate the strength of those clues. More specifically, we operationalize this by measuring how much information, in bits, we can glean about declension class from knowing the form and/or meaning of nouns. We know that form and meaning are often also indicative of grammatical gender—which, as we  quantitatively verify, can itself share information with declension class—so we also control for gender. We find for two Indo-European languages (Czech and German) that form and meaning respectively share significant amounts of information with class (and contribute additional information above and beyond gender). The three-way interaction between class, form, and meaning (given gender) is also significant. Our study is important for two reasons: First, we introduce a new method that provides  additional quantitative support for a classic linguistic finding that form and meaning are relevant for the classification of nouns into declensions. Secondly, we show not only that individual declensions classes vary in the strength of their clues within a language, but also that these variations themselves vary across languages.
+Author{1}{Firstname}#=%=#Adina
+Author{1}{Lastname}#=%=#Williams
+Author{1}{Username}#=%=#adinawilliams
+Author{1}{Email}#=%=#adinawilliams@nyu.edu
+Author{1}{Affiliation}#=%=#Facebook, Inc.
+Author{2}{Firstname}#=%=#Tiago
+Author{2}{Lastname}#=%=#Pimentel
+Author{2}{Username}#=%=#tpimentel
+Author{2}{Email}#=%=#tpimentelms@gmail.com
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Hagen
+Author{3}{Lastname}#=%=#Blix
+Author{3}{Username}#=%=#hblix
+Author{3}{Email}#=%=#hagen.blix@nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+Author{4}{Firstname}#=%=#Arya D.
+Author{4}{Lastname}#=%=#McCarthy
+Author{4}{Username}#=%=#arya
+Author{4}{Email}#=%=#arya@jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+Author{5}{Firstname}#=%=#Eleanor
+Author{5}{Lastname}#=%=#Chodroff
+Author{5}{Username}#=%=#echodroff
+Author{5}{Email}#=%=#eleanor.chodroff@york.ac.uk
+Author{5}{Affiliation}#=%=#University of York
+Author{6}{Firstname}#=%=#Ryan
+Author{6}{Lastname}#=%=#Cotterell
+Author{6}{Username}#=%=#rcotterell
+Author{6}{Email}#=%=#ryan.cotterell@gmail.com
+Author{6}{Affiliation}#=%=#ETH Zürich
+
+==========

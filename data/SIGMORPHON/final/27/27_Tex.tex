@@ -1,0 +1,653 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2020}
+\usepackage{times}
+\usepackage{latexsym}
+\renewcommand{\UrlFont}{\ttfamily\small}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{centernot}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{tipa}
+
+\usepackage{booktabs}
+\usepackage{ragged2e}
+
+\usepackage{array}
+
+\aclfinalcopy
+
+\newcolumntype{x}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+
+
+\newcommand{\moderngreek}{Greek}
+\newcommand{\ngram}{FST}
+\newcommand{\tf}{TF}
+\newcommand{\transformer}{{\sc Transformer}}
+
+\newcommand{\task}{SIGMORPHON 2020 Task 1: 
+Multilingual Grapheme-to-Phoneme Conversion}
+
+\title{Low-Resource G2P and P2G Conversion \\ with Synthetic Training Data}
+
+\author{
+ Bradley Hauer,
+ Amir Ahmad Habibi,
+ Yixing Luan,
+ Arnob Mallik,
+ Grzegorz Kondrak\\
+ Department of Computing Science\\
+ University of Alberta, Edmonton, Canada\\
+ {\tt {\{bmhauer,amirahmad,yixing1,amallik,gkondrak\}}@ualberta.ca}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper presents 
+the University of Alberta systems and results
+in the \task{}.
+Following previous SIGMORPHON shared tasks,
+we define a low-resource setting  
+with 100 training instances. 
+We experiment with three transduction approaches
+in both standard and low-resource settings,
+as well as on 
+the related task of phoneme-to-grapheme conversion.
+We propose a method for synthesizing training data 
+using a combination of diverse models.
+\end{abstract}
+
+\section{Introduction}
+\label{intro}
+
+
+
+In this system paper,
+we discuss the participation of the University of Alberta team 
+in the \task{} \cite{sigmorphon2020}. 
+This is a sequence-to-sequence transduction task,
+in which a word, represented by a sequence of graphemes,
+must be converted into the sequence of phonemes
+representing its pronunciation.
+For example, given the French word {\em connaissent}
+the correct output is the phoneme sequence [\textipa{k~O~n~E~s}].
+
+
+Following previous SIGMORPHON shared tasks,
+in addition to the standard setting with 3600 training examples for
+each language (which we refer to as the high-resource setting),
+we define a low-resource setting % (LR), 
+in which training data is limited to 100 examples.
+This emulates a plausible scenario 
+of working with a low-resource language
+for which only a small quantity 
+of reliable phonological data is available.
+For example, a typical IPA description of the phonological inventory
+of a single language
+contains about a hundred phonetic transcriptions of individual words
+\cite{international1999handbook}.
+We analyze the relative performance of different systems
+depending on the size of the training data.
+
+
+The task of phoneme-to-grapheme (P2G) conversion 
+is the inverse of grapheme-to-phoneme Conversion (G2P),
+in which the goal is to
+predict the spelling of a word given its phonetic transcription 
+\cite{rentzepopoulos1996}.
+While G2P reflects the difficulty of reading,
+P2G may indicate the complexity of writing in a given language.
+Training instances for one of the two tasks
+can easily be applied to the other one
+by simply reversing the input and output.
+We use the shared task datasets 
+to investigate how systems designed for G2P perform on P2G.
+We also leverage 
+raw text corpora to improve the accuracy on P2G,
+which indirectly leads to improvements on G2P as well. 
+
+
+We develop a novel method of mitigating resource limitations
+by synthesizing additional training data
+using a combination of multiple G2P and P2G models.
+The underlying intuition is 
+that a P2G model should be the inverse of the corresponding G2P model.
+Since models trained on a small number of instances
+tend to have limited accuracy,
+we attempt to distinguish between the correct and incorrect predictions  
+by ensuring that P2G model output matches the corresponding G2P model input.
+The precision of this approach is further improved 
+by comparing predictions of different systems.
+Figure~\ref{fig-methods} illustrates this idea.
+
+
+
+The principal contributions of this paper include
+a novel G2P data augmentation method 
+that leverages multiple systems and text corpora,
+as well as 
+a thorough comparison of several G2P and P2G systems 
+in both low-resource and high-resource settings.
+
+\begin{figure*}[t]
+  \center
+  \includegraphics[width=\textwidth]{fig-aug.pdf}
+   \caption{Our approach to synthesizing additional G2P training data.}
+  \label{fig-methods}
+\end{figure*}
+
+\section{Prior Work}
+\label{relwork}
+
+
+
+
+
+
+
+
+
+Our methods build upon the prior work of the University of Alberta teams
+on string transduction.
+DirecTL,
+a feature-based discriminative transducer,
+was originally designed for the G2P task \cite{jiampojamarn2008joint}.
+In DirecTL+ \cite{jiampojamarn-etal-2010-transliteration},
+the feature set was augmented with joint n-grams
+defined on both source and target substrings.
+The system was applied to related tasks 
+such as transliteration \cite{jiampojamarn-etal-2009-directl},
+morphological inflection \cite{nicolai2015inflection},
+stemming \cite{nicolai2016leveraging},
+and cognate projection \cite{hauer-etal-2019-cognate},
+proving to be particularly competitive in low-resource settings.
+DTLM \cite{nicolai2018},
+our principal tool in this work, 
+is a successor of DirecTL+,
+which incorporates target-side language models 
+and a high-precision alignment.
+DTLM achieved state-of-the-art results on several tasks
+in which plain word types constitute the transduction target strings.
+Finally, our data augmentation approach is inspired by 
+the self-training approach of 
+\newcite{hauer2017}.
+
+
+
+
+\section{Methods}
+\label{methods}
+
+In this section, 
+we first describe DTLM, % \cite{nicolai2018},
+a multipurpose string discriminative transduction system
+which we apply to both G2P and P2G tasks.
+We then introduce  
+our approach to synthesizing additional training data
+from unannotated texts.
+
+\subsection{Discriminative String Transduction}
+
+The core of DTLM, adapted from DirecTL+, is a dynamic programming
+algorithm which uses a set of feature templates to transduce
+multiple characters in a single operation. The feature set 
+includes context features (n-grams on the source side), transition features
+(target side bigrams), linear-chain features
+(conjunction of context and transition features),
+and joint n-gram features (on both source and target).
+
+The transduction quality of DTLM depends on 
+a high precision one-to-many alignment,
+which is performed with M2M+ aligner \cite{jiampojamarn-etal-2007-applying}
+in a two-step process. 
+In the first step, M2M+ induces a one-to-one alignment % with insertion 
+in which null symbols may be inserted on either side.
+In the second step, 
+the null links on the source side are removed
+by merging adjacent target symbols.
+
+The accuracy of DTLM can be
+enhanced by leveraging
+target character and word language models.
+A 4-gram character languages model,
+which is induced from a set of word types extracted from a text corpus,
+encourages the prediction of high-probability letter sequences.
+A unigram word language model
+(which we also refer to as {\em word counts})
+biases DTLM toward the production of known word-forms,
+with more common words and prefixes being preferred.
+Thus, DTLM is able to take advantage of existing multi-lingual
+text corpora, such as Wikipedia,
+to improve its accuracy on P2G.
+Since we have no access to any corpora of
+phonetic transcriptions, % for most languages,
+the language model component is not used for G2P.
+
+
+\subsection{Data Augmentation}
+\label{augmentation}
+
+
+Inspired by the data hallucination technique for neural model training 
+\cite{silfverberg2017, anastasopoulos2019},
+we introduce a method to 
+synthesize additional training instances from unannotated texts.
+For each language under consideration,
+we train base transduction models on the available training data,
+and extract a list of words from a text corpus.
+A naive self-training approach would be
+to simply apply a base G2P model to the words in the list
+to produce new training instances.
+However, 
+without some mechanism to filter out incorrect predictions,
+a model trained on the augmented data
+would learn to replicate many of the errors made by the base model.
+Instead, we reduce the noise
+by cross-checking the predictions of 
+the independent base transduction systems
+applied in both % G2P and P2G 
+directions.
+
+
+Figure \ref{fig-methods} illustrates the data augmentation process.
+For each word in the word list,
+we perform multiple sanity checks 
+before accepting a new training instance.
+First, both G2P models
+(in this case, DTLM and FST)
+must agree on their phoneme predictions.
+Second, 
+when applied to the common G2P prediction,
+the corresponding base P2G models must not only agree,
+but also output the original orthographic word.
+If both G2P models predict the same phoneme sequence,
+and both P2G models recover the original grapheme sequence,
+that grapheme--phoneme pair is added to the synthetic training data.
+The final augmented model is trained
+on the combined original and synthetic data.
+
+
+
+
+
+
+\section{Development}
+\label{development}
+
+In this section, 
+we describe our development experiments on both G2P and P2G
+with three different transduction systems % string transduction systems
+and the synthetic training data.
+
+\subsection{Datasets}
+
+We created low-resource datasets of 100 instances
+from each standard (high-resource) 
+training set of 3600 instances \cite{WikiPron}.
+We extracted every 36th instance,
+starting from the first instance,
+in a deterministic manner, to ensure replicability.
+The P2G datasets were created by swapping the grapheme
+and phoneme strings in the task datasets.
+The official development sets of 450 instances
+were used for model tuning only.
+
+\subsection{Task Baselines} 
+
+The task organizers provided implementations of three baseline systems,
+which are referred to as FST, LSTM, and {\transformer}.
+These are not baselines in the traditional sense
+of ``the simplest possible algorithm'' \cite[page 234]{manning01},
+but rather sophisticated systems 
+capable of achieving state-of-the-art results on related tasks.
+Rather than develop a novel competitive approach,
+our goal was to combine the unmodified baselines and DTLM to achieve 
+a relative improvement with respect to the individual systems.
+
+
+
+
+
+
+As our neural base system, we selected {\transformer},
+an encoder-decoder architecture with fully-connected layers 
+and self-attention mechanism,
+which was originally developed for machine translation \cite{vaswani2017}. 
+Our choice of {\transformer} over LSTM was based on initial
+development experiments.\footnote{However, the official baseline results,
+show LSTM as more accurate than {\transformer} on most languages. 
+The model results and predictions were not available at the 
+system submission time.}
+The system is implemented using the Fairseq toolkit \cite{ott2019}.
+
+Unlike FST, 
+which only needs to be tuned on the size of n-grams, % in the range of 3 to 9.
+{\transformer} requires extensive tuning
+which may take several days to complete.
+We attempted to follow the tuning guidelines
+as they became available.
+We kept the hyperparameters as specified in the source code,
+with the maximum number of training epochs set to 400. 
+The tuning was performed separately for each language 
+in terms of word error rate (WER). 
+We trained the models on two Nvidia Titan RTX GPUs,
+using Adam optimizer. %with learning rate $1e^{-3}$
+We varied dropout probability between 0.1, 0.2, and 0.3.
+and batch size between 256, 512, and 1024 in the high-resource setting, 
+and 64 in the low-resource setting.
+Due to the underspecification in the guidelines,
+instead of tuning the number of epochs, %  for each language,
+we took the model checkpoint of the last epoch.
+
+Unfortunately, 
+we were ultimately unsuccessful in replicating the official results
+of {\transformer}.
+The implementation used for 
+producing the official results was not available 
+at the system submission time, 
+and used different hyperparameter settings.\footnote{Unlike
+the earlier implementation that we used, 
+it tuned the number of training epochs without a fixed maximum.
+} % \cite{gorman}.
+
+
+
+\subsection{DTLM and P2G}
+\label{dtlm}
+
+DTLM was our principal system for both G2P and P2G.
+The models were tuned % separately for low and high resource settings 
+on the official development sets 
+separately for each task (G2P and P2G), language, 
+and setting (high-resource and low-resource).
+The context size was varied from 1 to 3 in low-resource, 
+and from 2 to 7 in high-resource settings. 
+We also varied joint n-gram features from 1 to 6, 
+and Markov order from 0 to 2, 
+with and without linear chain features.
+
+
+\begin{table}[t]
+  \small
+  \centering
+  \begin{tabular}{|l|R{7mm}R{7mm}R{7mm}R{13mm}|}
+  \hline
+  Language     & DTLM & -LM & -WC & -LM -WC  \\ \hline
+  Dutch        &  21.6 & 25.6 & 25.1       & 29.8                \\
+  French       &  28.2 & 28.4 & 48.4        & 52.2             \\
+{\moderngreek} &  33.1 & 40.9 & 52.0       & 59.6             \\ 
+  \hline
+  \end{tabular}
+  \caption{WER for variants of DTLM on P2G development sets 
+in the standard (high-resource) setting.}
+  \label{tab-ablation}
+\end{table}
+
+
+For P2G models,
+we extracted word frequency lists for each language 
+from the first one million lines of 
+Wikipedia\footnote{\emph{https://dumps.wikimedia.org}},
+excluding words with frequency less than 10,
+shorter than 4 characters,
+or containing non-alphabetic characters.
+From the word lists, we generated 4-gram character language models
+using the CMU Toolkit\footnote{\em http://www.speech.cs.cmu.edu/SLM}.
+Target language models are not used for the G2P task
+because of the lack of phonetic transcription corpora.
+
+Table~\ref{tab-ablation} demonstrates the impact of 
+word counts (WC) and character language models (LM) on P2G accuracy.
+The results on three challenging languages 
+suggest that most of the DTLM advantage
+comes from leveraging monolingual text corpora.
+Furthermore, word counts help more than character LMs.
+Without those two components, 
+DTLM results on P2G in the standard (high-resource) setting
+were in the same range as {\ngram} and {\transformer}.
+
+
+\subsection{Synthetic Training Data}
+\label{synthetic}
+
+
+For our data augmentation approach
+outlined in Section \ref{augmentation},
+we required base G2P and P2G transduction systems.
+We preferred FST and DTLM over {\transformer},
+as they performed better on small training datasets
+in terms of both accuracy and speed.
+Although % in principle, 
+data augmentation could also be applied to P2G,
+we used it exclusively for G2P, 
+which is the primary focus of this shared task.
+
+
+
+
+The starting point for generating the synthetic training data
+were the word lists extracted from Wikipedia,
+as described in Section \ref{dtlm}.
+We applied the base models to the lists,
+and filtered out the instances on which the models disagreed
+or failed to recover the original spelling from their own phonetic predictions.
+We further limited the number of synthetic training instances to
+20,000 per language.
+This process failed to produce a substantial number of new instances
+for Vietnamese and Korean,
+which we attribute to the unusual characteristics of the two scripts.
+
+
+The data augmentation approach
+was successful in our development experiments
+on the standard high-resource datasets,
+reducing the average WER with respect to base {\transformer}
+from 17.0\% to 16.0\%,
+We obtained improvements on 13 out of 15 languages,
+with the exception of 
+Bulgarian and Korean.\footnote{Only 36\% of the graphemes 
+in the Korean test set are observed in the low-resource train set.
+The corresponding number in Japanese is 90\%.}
+
+
+\section{Test Results}
+\label{results}
+
+
+
+
+
+
+
+
+\begin{table}[t]
+    \small
+    \centering
+    \tabcolsep=0.09cm
+    \begin{tabular}{|l|R{7mm}R{7mm}R{7mm}|R{7mm}R{7mm}R{7mm}|}
+      \hline
+      \multicolumn{1}{|c|}{} & \multicolumn{3}{c|}{High Resource} &
+\multicolumn{3}{c|}{Low Resource} \\ 
+      Language & DTLM  & \ngram    & \tf    & DTLM  & \ngram    & \tf    \\ 
+\hline
+  Adyghe           & 18.2  & 16.7   & 21.3   & 53.1  & 56.0   & 87.8   \\
+  Armenian         & 4.9   & 5.1    & 8.0    & 14.0  & 27.3   & 80.7   \\
+  Bulgarian        & 6.0   & 6.4    & 8.4    & 20.9  & 28.7   & 83.8   \\
+  Dutch            & 23.8  & 27.3   & 21.1   & 34.0  & 66.7   & 90.4   \\
+  French           & 28.7  & 50.4   & 51.3   & 51.6  & 72.4   & 94.0   \\
+  Georgian         & 1.1   & 0.7    & 1.1    & 4.4   & 6.4    & 74.7   \\
+  {\moderngreek}   & 32.9  & 59.6   & 56.9   & 41.3  & 89.1   & 97.6   \\
+  Hindi            & 3.8   & 12.0   & 15.1   & 18.0  & 45.8   & 86.9   \\
+  Hungarian        & 4.0   & 6.9    & 8.0    & 14.9  & 28.7   & 81.8   \\
+  Icelandic        & 13.6  & 12.0   & 15.6   & 28.0  & 45.6   & 82.4   \\
+  Japanese         & 4.4   & 9.8    & 3.6    & 61.1  & 59.3   & 97.8   \\
+  Korean           & 39.1  & 50.0   & 32.7   & 96.7  & 97.3   & 100  \\
+  Lithuanian       & 4.0   & 3.6    & 3.3    & 15.1  & 25.8   & 75.1   \\
+  Romanian         & 1.8   & 1.3    & 2.9    & 17.8  & 15.6   & 57.3   \\
+  Vietnamese       & 16.2  & 18.4   & 16.2   & 71.8  & 85.6   & 96.9   \\ 
+\hline
+  {\bf Average}    & \textbf{13.5}  & \textbf{18.7}   & \textbf{17.7}   
+                   & \textbf{36.2}  & \textbf{50.0}   & \textbf{85.8}   \\
+      \hline
+    \end{tabular}
+    \caption{WER on P2G test sets.}
+    \label{tab-p2g}
+\end{table}
+
+Table~\ref{tab-p2g} shows the P2G results on the test sets.
+All models are trained on the same training sets, 
+without any synthesized instances.
+{\transformer} (\tf) 
+completely fails with only 100 training instances (low resource),
+but outperforms {\ngram} with 3600 training instances
+(high resource).\footnote{We note that the P2G accuracy is particularly high 
+on Georgian, which, unlike French, seems to be easier to write than to read.}
+DTLM is substantially more accurate on average than the other two systems
+in both settings.
+Although DTLM benefits from information extracted from freely-available
+unannotated text corpora, 
+the results of the three systems are directly comparable 
+because they all use the same annotated training material.
+This further confirms the claim of \newcite{nicolai2018}
+that DTLM achieves
+state-of-the-art results on the task of phoneme-to-grapheme conversion.
+
+
+
+
+
+
+ 
+Table~\ref{tab-results} shows the G2P results on the test sets.
+The DTLM models were trained without any synthetic data
+or target language models.
+Although DTLM results are generally lower than on P2G,
+it outperforms FST in both settings.\footnote{
+FST, which is not included in Table~\ref{tab-results},
+obtains 22.0\% WER average in the standard setting
+according to the official results,
+and 58.1\% WER average in the low-resource setting,
+as our submission with RunID=5.}
+{\transformer} again fails in the low resource setting,
+In the standard (high resource) setting,
+DTLM is about 6\% worse on average than {\transformer}
+in terms of WER, % the average word error rate (WER),
+but 10\% better in terms of PER % the average phoneme error rate (PER).
+(3.9\% vs 4.3\% according to the official results).
+In addition, DTLM is much easier and faster to train.
+
+
+\begin{table}[t]
+  \small
+  \tabcolsep=0.1cm
+  \centering
+  \begin{tabular}{|l|R{7mm}R{7mm}R{7mm}|R{7mm}R{7mm}R{7mm}|}
+    \hline
+    & \multicolumn{3}{c|}{High Resource}   & \multicolumn{3}{c|}{Low Resource} \\
+    Language       & DTLM   & \tf     & \tf+   & DTLM   & \tf   & \tf+\\
+    \hline
+    RunID          & 1      & 2       & 3      & 4      & 6     &   - \\ \hline
+    Adyghe         & 29.8   & 28.9    & 28.2   & 54.4   & 92.9  &  58.4   \\
+    Armenian       & 16.9   & 13.1    & 16.0   & 36.4   & 82.9  &  36.2   \\
+    Bulgarian      & 35.8   & 30.0    & 36.7   & 67.6   & 93.3  &  66.4   \\
+    Dutch          & 19.6   & 19.3    & 16.9   & 58.7   & 93.6  &  57.6   \\
+    French         & 7.6    & 6.4     & 6.4    & 53.3   & 94.9  &  44.9   \\
+    Georgian       & 28.2   & 25.8    & 27.1   & 39.6   & 84.4  &  42.2   \\
+    {\moderngreek} & 15.8   & 17.1    & 17.3   & 39.1   & 88.0  &  44.0   \\
+    Hindi          & 12.2   & 10.7    & 8.7    & 48.2   & 89.8  &  43.1   \\
+    Hungarian      & 5.3    & 6.0     & 5.3    & 27.6   & 87.6  &  22.7   \\
+    Icelandic      & 13.1   & 10.2    & 11.3   & 61.6   & 90.9  &  62.0   \\
+    Japanese       & 8.7    & 6.7     & 6.7    & 57.8   & 98.0  &  53.1   \\
+    Korean         & 45.3   & 45.1    & 45.1   & 95.1   & 100   &  100    \\
+    Lithuanian     & 21.8   & 22.7    & 24.4   & 62.7   & 90.7  &  64.0   \\  
+    Romanian       & 11.3   & 12.7    & 10.7   & 30.2   & 69.3  &  28.9   \\
+    Vietnamese     & 7.8    & 7.3     & 8.7    & 75.3   & 95.3  &  87.3   \\ \hline
+ {\bf Average}     & \textbf{18.6}   & \textbf{17.5}    & \textbf{18.0}   
+                   & \textbf{53.8}   & \textbf{90.1}  &  \textbf{54.1}   \\ 
+    \hline
+  \end{tabular}
+    \caption{WER on G2P test sets.}
+  \label{tab-results}
+\end{table}
+  
+
+
+
+
+
+
+
+
+
+The {\transformer} models trained on the data augmented 
+with synthesized instances
+(labeled as {\tf+} in Table~\ref{tab-results})
+achieved consistently higher results in our development experiments
+in the standard (high resource) setting
+(Section~\ref{synthetic}).
+Unfortunately, a corresponding improvement is not seen
+in the official test results. 
+Possible explanations include
+the limit of 400 on the number of epochs made by the task organizers,
+as well as the suboptimal tuning procedure,
+which might have accidentally resulted 
+in the overfitting of the augmented model.
+This is also suggested by the fact that
+the results of our {\transformer} models are often better 
+than the official results on the test datasets.
+
+On the other hand,
+the data augmentation approach is remarkably successful 
+in the low-resource setting,
+yielding
+an average WER improvement over 35\%  % on average.
+with respect to base {\transformer}.
+We interpret these results
+as a strong proof-of-concept of the validity of our 
+data augmentation approach;
+when training data is limited,
+it can dramatically improve the accuracy of neural models,
+without any change to their architecture.
+
+
+
+\section{Conclusion}
+\label{conclusion}
+
+
+We have presented a novel data augmentation method
+that combines the strengths of multiple string transduction methods.
+We have also explored both G2P and P2G tasks
+in both the standard high-resource setting,
+and a low-resource setting of our own design.
+The results demonstrate 
+that the weakness of neural systems
+in low-resource settings
+can be mitigated through the application of data augmentation.
+
+
+\section*{Acknowledgements}
+
+We thank Garrett Nicolai for the assistance with DTLM.
+We thank the organizers of the shared task for their effort.
+In particular, 
+we thank Kyle Gorman for promptly answering our questions
+during the pandemic lockout.
+
+This research was supported by
+the Natural Sciences and Engineering Research Council of Canada,
+Alberta Innovates, and Alberta Advanced Education.
+
+\bibliography{wsd}
+\bibliographystyle{acl_natbib}
+
+\end{document}
+

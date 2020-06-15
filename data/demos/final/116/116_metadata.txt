@@ -1,0 +1,64 @@
+SubmissionNumber#=%=#116
+FinalPaperTitle#=%=#Multilingual Universal Sentence Encoder for Semantic Retrieval
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Daniel Cer
+JobTitle#==#
+Organization#==#Google Research
+Abstract#==#We present easy-to-use retrieval focused multilingual sentence embedding models, made available on TensorFlow Hub. The models embed text from 16 languages into a shared semantic space using a multi-task trained dual-encoder that learns tied cross-lingual representations via translation bridge tasks  (Chidambaram et al., 2018). The models achieve a new state-of-the-art in performance on monolingual and cross-lingual semantic retrieval (SR). Competitive performance is obtained on the related tasks of translation pair bitext retrieval (BR) and retrieval question answering (ReQA). On transfer learning tasks, our multilingual embeddings approach, and in some cases exceed, the performance of English only sentence embeddings.
+Author{1}{Firstname}#=%=#Yinfei
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Username}#=%=#yinfeiy
+Author{1}{Email}#=%=#yangyin7@gmail.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Cer
+Author{2}{Username}#=%=#danielcer
+Author{2}{Email}#=%=#danielcer@acm.org
+Author{2}{Affiliation}#=%=#Google Research
+Author{3}{Firstname}#=%=#Amin
+Author{3}{Lastname}#=%=#Ahmad
+Author{3}{Email}#=%=#aahmad@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Mandy
+Author{4}{Lastname}#=%=#Guo
+Author{4}{Username}#=%=#mandyguo
+Author{4}{Email}#=%=#xyguo@google.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Jax
+Author{5}{Lastname}#=%=#Law
+Author{5}{Email}#=%=#jaxlaw@google.com
+Author{5}{Affiliation}#=%=#Google
+Author{6}{Firstname}#=%=#Noah
+Author{6}{Lastname}#=%=#Constant
+Author{6}{Username}#=%=#nconstant
+Author{6}{Email}#=%=#nconstant@google.com
+Author{6}{Affiliation}#=%=#Google Research
+Author{7}{Firstname}#=%=#Gustavo Hernandez
+Author{7}{Lastname}#=%=#Abrego
+Author{7}{Email}#=%=#gustavoha@google.com
+Author{7}{Affiliation}#=%=#Google
+Author{8}{Firstname}#=%=#Steve
+Author{8}{Lastname}#=%=#Yuan
+Author{8}{Email}#=%=#steveyuan@google.com
+Author{8}{Affiliation}#=%=#Google
+Author{9}{Firstname}#=%=#Chris
+Author{9}{Lastname}#=%=#Tar
+Author{9}{Email}#=%=#ctar@google.com
+Author{9}{Affiliation}#=%=#Google
+Author{10}{Firstname}#=%=#Yun-hsuan
+Author{10}{Lastname}#=%=#Sung
+Author{10}{Username}#=%=#yhsung
+Author{10}{Email}#=%=#yhsung@google.com
+Author{10}{Affiliation}#=%=#Google
+Author{11}{Firstname}#=%=#Brian
+Author{11}{Lastname}#=%=#Strope
+Author{11}{Username}#=%=#bps
+Author{11}{Email}#=%=#bps@google.com
+Author{11}{Affiliation}#=%=#Google
+Author{12}{Firstname}#=%=#Ray
+Author{12}{Lastname}#=%=#Kurzweil
+Author{12}{Email}#=%=#raykurzweil@google.com
+Author{12}{Affiliation}#=%=#Google
+
+==========

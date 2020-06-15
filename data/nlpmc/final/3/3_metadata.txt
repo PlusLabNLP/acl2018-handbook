@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Heart Failure Education of African American and Hispanic/Latino Patients: Data Collection and Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Itika Gupta
+JobTitle#==#
+Organization#==#University of Illinois at Chicago
+Abstract#==#Heart failure is a global epidemic with debilitating effects. People with heart failure need to actively participate in home self-care regimens to maintain good health. However, these regimens are not as effective as they could be and are influenced by a variety of factors. Patients from minority communities like African American (AA) and Hispanic/Latino (H/L), often have poor outcomes compared to the average Caucasian population. In this paper, we lay the groundwork to develop an interactive dialogue agent that can assist AA and H/L patients in a culturally sensitive and linguistically accurate manner with their heart health care needs. This will be achieved by extracting relevant educational concepts from the interactions between health educators and patients. Thus far we have recorded and transcribed 20 such interactions. In this paper, we describe our data collection process, thematic and initiative analysis of the interactions, and outline our future steps.
+Author{1}{Firstname}#=%=#Itika
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Username}#=%=#itikagupta
+Author{1}{Email}#=%=#igupta5@uic.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Chicago
+Author{2}{Firstname}#=%=#Barbara
+Author{2}{Lastname}#=%=#Di Eugenio
+Author{2}{Username}#=%=#bdieugen
+Author{2}{Email}#=%=#bdieugen@uic.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Chicago
+Author{3}{Firstname}#=%=#Devika
+Author{3}{Lastname}#=%=#Salunke
+Author{3}{Email}#=%=#dsalun2@uic.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Chicago
+Author{4}{Firstname}#=%=#Andrew
+Author{4}{Lastname}#=%=#Boyd
+Author{4}{Email}#=%=#boyda@uic.edu
+Author{4}{Affiliation}#=%=#University of Illinois at Chicago
+Author{5}{Firstname}#=%=#Paula
+Author{5}{Lastname}#=%=#Allen-Meares
+Author{5}{Email}#=%=#pameares@uic.edu
+Author{5}{Affiliation}#=%=#University of Illinois at Chicago
+Author{6}{Firstname}#=%=#Carolyn
+Author{6}{Lastname}#=%=#Dickens
+Author{6}{Email}#=%=#cdickens@uic.edu
+Author{6}{Affiliation}#=%=#University of Illinois at Chicago
+Author{7}{Firstname}#=%=#Olga
+Author{7}{Lastname}#=%=#Garcia
+Author{7}{Email}#=%=#ogarciab@uic.edu
+Author{7}{Affiliation}#=%=#University of Illinois at Chicago
+
+==========

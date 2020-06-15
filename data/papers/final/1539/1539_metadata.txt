@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1539
+FinalPaperTitle#=%=#Multi-Granularity Interaction Network for Extractive and Abstractive Multi-Document Summarization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hanqi Jin
+JobTitle#==#
+Organization#==#Peking University, Beijing, China
+Abstract#==#In this paper, we propose a multi-granularity interaction network for extractive and abstractive multi-document summarization, which jointly learn semantic representations for words, sentences, and documents. The word representations are used to generate an abstractive summary while the sentence representations are used to produce an extractive summary. We employ attention mechanisms to interact between different granularity of semantic representations, which helps to capture multi-granularity key information and improves the performance of both abstractive and extractive summarization. Experiment results show that our proposed model substantially outperforms all strong baseline methods and achieves the best results on the Multi-News dataset.
+Author{1}{Firstname}#=%=#Hanqi
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Username}#=%=#jinhanqi
+Author{1}{Email}#=%=#jinhanqi@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Tianming
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#soda
+Author{2}{Email}#=%=#wangtm@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Xiaojun
+Author{3}{Lastname}#=%=#Wan
+Author{3}{Username}#=%=#wanxiaojun
+Author{3}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

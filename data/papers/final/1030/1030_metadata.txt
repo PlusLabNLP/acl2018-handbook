@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1030
+FinalPaperTitle#=%=#Language to Network: Conditional Parameter Adaptation with Natural Language Descriptions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Tian Jin
+JobTitle#==#
+Organization#==#IBM Thomas J. Watson Research Center, 200 Aqueduct Rd, Ossining, NY 10562
+Abstract#==#Transfer learning using ImageNet pre-trained models has been the de facto approach in a wide range of computer vision tasks. However, fine-tuning still requires task-specific training data. In this paper, we propose \textbf{N\textsuperscript{3}} (\textbf{N}eural \textbf{N}etworks from \textbf{N}atural Language) - a new paradigm of synthesizing task-specific neural networks from language descriptions and a generic pre-trained model. \textbf{N\textsuperscript{3}} leverages language descriptions to generate parameter adaptations as well as a new task-specific classification layer for a pre-trained neural network, effectively ``fine-tuning'' the network for a new task using only language descriptions as input. To the best of our knowledge, \textbf{N\textsuperscript{3}} is the first method to synthesize entire neural networks from natural language. Experimental results show that \textbf{N\textsuperscript{3}} can out-perform previous natural-language based zero-shot learning methods across 4 different zero-shot image classification benchmarks. We also demonstrate a simple method to help identify keywords in language descriptions leveraged by \textbf{N\textsuperscript{3}} when synthesizing model parameters.
+Author{1}{Firstname}#=%=#Tian
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Username}#=%=#tjingrant
+Author{1}{Email}#=%=#tjingrant@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Zhun
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#tetheras
+Author{2}{Email}#=%=#zhunliu@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Shengjia
+Author{3}{Lastname}#=%=#Yan
+Author{3}{Username}#=%=#yanshengjia
+Author{3}{Email}#=%=#sjyan@nyu.edu
+Author{3}{Affiliation}#=%=#NYU
+Author{4}{Firstname}#=%=#Alexandre
+Author{4}{Lastname}#=%=#Eichenberger
+Author{4}{Username}#=%=#alexeichenberger
+Author{4}{Email}#=%=#alexe@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM T.J. Watson Research Center
+Author{5}{Firstname}#=%=#Louis-Philippe
+Author{5}{Lastname}#=%=#Morency
+Author{5}{Username}#=%=#lmorency
+Author{5}{Email}#=%=#morency@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

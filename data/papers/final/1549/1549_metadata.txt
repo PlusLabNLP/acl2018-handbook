@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1549
+FinalPaperTitle#=%=#Syn-QG: Syntactic and Shallow Semantic Rules for Question Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Kaustubh Dhole
+JobTitle#==#
+Organization#==#IPsoft, 17 State Street, 14th Floor New York, NY 10004, USA
+Abstract#==#Question Generation (QG) is fundamentally a simple syntactic transformation; however, many aspects of semantics influence what questions are good to form. We implement this observation by developing Syn-QG, a set of transparent syntactic rules leveraging universal dependencies, shallow semantic parsing, lexical resources, and custom rules which transform declarative sentences into question-answer pairs. We utilize PropBank argument descriptions and VerbNet state predicates to incorporate shallow semantic content, which helps generate questions of a descriptive nature and produce inferential and semantically richer questions than existing systems. In order to improve syntactic fluency and eliminate grammatically incorrect questions, we employ back-translation over the output of these syntactic rules. A set of crowd-sourced evaluations shows that our system can generate a larger number of highly grammatical and relevant questions than previous QG systems and that back-translation drastically improves grammaticality at a slight cost of generating irrelevant questions.
+Author{1}{Firstname}#=%=#Kaustubh
+Author{1}{Lastname}#=%=#Dhole
+Author{1}{Username}#=%=#kaustubhdhole
+Author{1}{Email}#=%=#kaustubhdhole@hotmail.com
+Author{1}{Affiliation}#=%=#R&D,India, IPsoft Global Services
+Author{2}{Firstname}#=%=#Christopher D.
+Author{2}{Lastname}#=%=#Manning
+Author{2}{Username}#=%=#manning
+Author{2}{Email}#=%=#manning@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

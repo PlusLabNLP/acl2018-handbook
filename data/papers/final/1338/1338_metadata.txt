@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#1338
+FinalPaperTitle#=%=#Joint Diacritization, Lemmatization, Normalization, and Fine-Grained Morphological Tagging
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nasser Zalmout
+JobTitle#==#Graduate Research Assistant
+Organization#==#New York University Abu Dhabi
+Abstract#==#The written forms of Semitic languages are both highly ambiguous and morphologically rich: a word can have multiple interpretations and is one of many inflected forms of the same concept or lemma. This is further exacerbated for dialectal content, which is more prone to noise and lacks a standard orthography. The morphological features can be lexicalized, like lemmas and diacritized forms, or non-lexicalized, like gender, number, and part-of-speech tags, among others. Joint modeling of the lexicalized and non-lexicalized features can identify more intricate morphological patterns, which provide better context modeling, and further disambiguate ambiguous lexical choices. However, the different modeling granularity can make joint modeling more difficult. Our approach models the different features jointly, whether lexicalized (on the character-level), or non-lexicalized (on the word-level). We use Arabic as a test case, and achieve state-of-the-art results for Modern Standard Arabic with 20% relative error reduction, and Egyptian Arabic with 11% relative error reduction.
+Author{1}{Firstname}#=%=#Nasser
+Author{1}{Lastname}#=%=#Zalmout
+Author{1}{Username}#=%=#nasser_zalmout
+Author{1}{Email}#=%=#nasser.zalmout@gmail.com
+Author{1}{Affiliation}#=%=#Amazon
+Author{2}{Firstname}#=%=#Nizar
+Author{2}{Lastname}#=%=#Habash
+Author{2}{Username}#=%=#habash
+Author{2}{Email}#=%=#nizar.habash@nyu.edu
+Author{2}{Affiliation}#=%=#New York University Abu Dhabi
+
+==========

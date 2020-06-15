@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#Dialogue-Based Relation Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Dian Yu
+JobTitle#==#researcher
+Organization#==#Tencent AI Lab
+Abstract#==#We present the first human-annotated dialogue-based relation extraction (RE) dataset DialogRE, aiming to support the prediction of relation(s) between two arguments that appear in a dialogue. We further offer DialogRE as a platform for studying cross-sentence RE as most facts span multiple sentences. We argue that speaker-related information plays a critical role in the proposed task, based on an analysis of similarities and differences between dialogue-based and traditional RE tasks. Considering the timeliness of communication in a dialogue, we design a new metric to evaluate the performance of RE methods in a conversational setting and investigate the performance of several representative RE methods on DialogRE. Experimental results demonstrate that a speaker-aware extension on the best-performing model leads to gains in both the standard and conversational evaluation settings. DialogRE is available at https://dataset.org/dialogre/.
+Author{1}{Firstname}#=%=#Dian
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#dian
+Author{1}{Email}#=%=#yudiandoris@gmail.com
+Author{1}{Affiliation}#=%=#Tencent AI Lab
+Author{2}{Firstname}#=%=#Kai
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#sunkaicn
+Author{2}{Email}#=%=#ks985@cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Claire
+Author{3}{Lastname}#=%=#Cardie
+Author{3}{Username}#=%=#cardie
+Author{3}{Email}#=%=#cardie@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Dong
+Author{4}{Lastname}#=%=#Yu
+Author{4}{Username}#=%=#dongyu
+Author{4}{Email}#=%=#dongyu@ieee.org
+Author{4}{Affiliation}#=%=#Tencent AI Lab
+
+==========

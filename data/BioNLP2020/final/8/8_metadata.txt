@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Benchmark and Best Practices for Biomedical Knowledge Graph Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#David Chang
+JobTitle#==#
+Organization#==#Yale University
+Abstract#==#Much of biomedical and healthcare data is encoded in discrete, symbolic form such as text and medical codes. There is a wealth of expert-curated biomedical domain knowledge stored in knowledge bases and ontologies, but the lack of reliable methods for learning knowledge representation has limited their usefulness in machine learning applications. While text-based representation learning has significantly improved in recent years through advances in natural language processing, attempts to learn biomedical concept embeddings so far have been lacking. A recent family of models called knowledge graph embeddings have shown promising results on general domain knowledge graphs, and we explore their capabilities in the biomedical domain. We train several state-of-the-art knowledge graph embedding models on the SNOMED-CT knowledge graph, provide a benchmark with comparison to existing methods and in-depth discussion on best practices, and make a case for the importance of leveraging the multi-relational nature of knowledge graphs for learning biomedical knowledge representation. The embeddings, code, and materials will be made available to the community.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Chang
+Author{1}{Username}#=%=#davidchang56
+Author{1}{Email}#=%=#david.chang@yale.edu
+Author{1}{Affiliation}#=%=#Yale University
+Author{2}{Firstname}#=%=#Ivana
+Author{2}{Lastname}#=%=#Balažević
+Author{2}{Username}#=%=#ibalazevic
+Author{2}{Email}#=%=#ivana.balazevic@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Carl
+Author{3}{Lastname}#=%=#Allen
+Author{3}{Username}#=%=#carlyboy76
+Author{3}{Email}#=%=#carl.allen@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Daniel
+Author{4}{Lastname}#=%=#Chawla
+Author{4}{Username}#=%=#dgc34
+Author{4}{Email}#=%=#daniel.chawla@yale.edu
+Author{4}{Affiliation}#=%=#Yale University
+Author{5}{Firstname}#=%=#Cynthia
+Author{5}{Lastname}#=%=#Brandt
+Author{5}{Username}#=%=#cbrandt13
+Author{5}{Email}#=%=#cynthia.brandt@yale.edu
+Author{5}{Affiliation}#=%=#Yale
+Author{6}{Firstname}#=%=#Andrew
+Author{6}{Lastname}#=%=#Taylor
+Author{6}{Username}#=%=#taylorr9
+Author{6}{Email}#=%=#richard.taylor@yale.edu
+Author{6}{Affiliation}#=%=#Yale University
+
+==========

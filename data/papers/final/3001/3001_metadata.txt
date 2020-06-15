@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#3001
+FinalPaperTitle#=%=#Sense{BERT}: Driving Some Sense into {BERT}
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Yoav Levine
+JobTitle#==#
+Organization#==#AI21 Labs Tel Aviv Israel
+Abstract#==#The ability to learn from large unlabeled corpora has allowed neural language models to advance the frontier in natural language understanding. However, existing self-supervision techniques operate at the word form level, which serves as a surrogate for the underlying semantic content. This paper proposes a method to employ weak-supervision directly at the word sense level. Our model, named SenseBERT, is pre-trained to predict not only the masked words but also their WordNet supersenses. Accordingly, we attain a lexical-semantic level language model, without the use of human annotation. SenseBERT achieves significantly improved lexical understanding, as we demonstrate by experimenting on SemEval Word Sense Disambiguation, and by attaining a state of the art result on the `Word in Context' task.
+Author{1}{Firstname}#=%=#Yoav
+Author{1}{Lastname}#=%=#Levine
+Author{1}{Username}#=%=#yoavl
+Author{1}{Email}#=%=#yoavl@ai21.com
+Author{1}{Affiliation}#=%=#AI21 Labs
+Author{2}{Firstname}#=%=#Barak
+Author{2}{Lastname}#=%=#Lenz
+Author{2}{Username}#=%=#barakl
+Author{2}{Email}#=%=#barakl@ai21.com
+Author{2}{Affiliation}#=%=#AI21 Labs
+Author{3}{Firstname}#=%=#Or
+Author{3}{Lastname}#=%=#Dagan
+Author{3}{Username}#=%=#ordagan
+Author{3}{Email}#=%=#theorchoo@gmail.com
+Author{3}{Affiliation}#=%=#AI21 Labs
+Author{4}{Firstname}#=%=#Ori
+Author{4}{Lastname}#=%=#Ram
+Author{4}{Username}#=%=#orirai21
+Author{4}{Email}#=%=#orir@ai21.com
+Author{4}{Affiliation}#=%=#AI21 Labs
+Author{5}{Firstname}#=%=#Dan
+Author{5}{Lastname}#=%=#Padnos
+Author{5}{Username}#=%=#danpadnos
+Author{5}{Email}#=%=#danp@ai21.com
+Author{5}{Affiliation}#=%=#AI21 Labs
+Author{6}{Firstname}#=%=#Or
+Author{6}{Lastname}#=%=#Sharir
+Author{6}{Username}#=%=#orsharir_ai21
+Author{6}{Email}#=%=#ors@ai21.com
+Author{6}{Affiliation}#=%=#AI21 Labs
+Author{7}{Firstname}#=%=#Shai
+Author{7}{Lastname}#=%=#Shalev-Shwartz
+Author{7}{Username}#=%=#shais
+Author{7}{Email}#=%=#shais@ai21.com
+Author{7}{Affiliation}#=%=#AI21 Labs
+Author{8}{Firstname}#=%=#Amnon
+Author{8}{Lastname}#=%=#Shashua
+Author{8}{Username}#=%=#amnons
+Author{8}{Email}#=%=#amnons@ai21.com
+Author{8}{Affiliation}#=%=#AI21 Labs
+Author{9}{Firstname}#=%=#Yoav
+Author{9}{Lastname}#=%=#Shoham
+Author{9}{Username}#=%=#yoavshoham
+Author{9}{Email}#=%=#yoavs@ai21.com
+Author{9}{Affiliation}#=%=#AI21 Labs
+
+==========

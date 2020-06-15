@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#465
+FinalPaperTitle#=%=#Lexically Constrained Neural Machine Translation with Levenshtein Transformer
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Raymond Hendy Susanto
+JobTitle#==#
+Organization#==#Rakuten Institute of Technology, 138 Market St, #32-01 CapitaGreen, Singapore 048946
+Abstract#==#This paper proposes a simple and effective algorithm for incorporating lexical constraints in neural machine translation. Previous work either required re-training existing models with the lexical constraints or incorporating them during beam search decoding with significantly higher computational overheads. Leveraging the flexibility and speed of a recently proposed Levenshtein Transformer model (Gu et al., 2019), our method injects terminology constraints at inference time without any impact on decoding speed. Our method does not require any modification to the training procedure and can be easily applied at runtime with custom dictionaries. Experiments on English-German WMT datasets show that our approach improves an unconstrained baseline and previous approaches.
+Author{1}{Firstname}#=%=#Raymond Hendy
+Author{1}{Lastname}#=%=#Susanto
+Author{1}{Username}#=%=#raymondhs
+Author{1}{Email}#=%=#raymhs91@gmail.com
+Author{1}{Affiliation}#=%=#Rakuten, Inc.
+Author{2}{Firstname}#=%=#Shamil
+Author{2}{Lastname}#=%=#Chollampatt
+Author{2}{Username}#=%=#shamilcm
+Author{2}{Email}#=%=#shamil.cm@gmail.com
+Author{2}{Affiliation}#=%=#Rakuten
+Author{3}{Firstname}#=%=#Liling
+Author{3}{Lastname}#=%=#Tan
+Author{3}{Username}#=%=#alvations
+Author{3}{Email}#=%=#alvations@gmail.com
+Author{3}{Affiliation}#=%=#Rakuten Institute of Technology
+
+==========

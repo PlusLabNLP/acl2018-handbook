@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#95
+FinalPaperTitle#=%=#Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jishnu Ray Chowdhury
+JobTitle#==#
+Organization#==#University of Illinois at Chicago, 1200 W Harrison St, Chicago, IL 60607
+Abstract#==#Distinguishing informative and actionable messages from a social media platform like Twitter is critical for facilitating disaster management. For this purpose, we compile a multilingual dataset of over 130K samples for multi-label classification of disaster-related tweets. We present a masking-based loss function for partially labelled samples and demonstrate the effectiveness of Manifold Mixup in the text domain. Our main model is based on Multilingual BERT, which we further improve with Manifold Mixup. We show that our model generalizes to unseen disasters in the test set. Furthermore, we analyze the capability of our model for zero-shot generalization to new languages.  Our code, dataset, and other resources are available on Github.
+Author{1}{Firstname}#=%=#Jishnu
+Author{1}{Lastname}#=%=#Ray Chowdhury
+Author{1}{Username}#=%=#jishnurc
+Author{1}{Email}#=%=#jraych2@uic.edu
+Author{1}{Affiliation}#=%=#University of Illinois, at Chicago
+Author{2}{Firstname}#=%=#Cornelia
+Author{2}{Lastname}#=%=#Caragea
+Author{2}{Username}#=%=#cornelia.caragea
+Author{2}{Email}#=%=#cornelia@uic.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Chicago
+Author{3}{Firstname}#=%=#Doina
+Author{3}{Lastname}#=%=#Caragea
+Author{3}{Username}#=%=#dcaragea
+Author{3}{Email}#=%=#dcaragea@ksu.edu
+Author{3}{Affiliation}#=%=#Kansas State University
+
+==========

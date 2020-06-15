@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#158
+FinalPaperTitle#=%=#BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#18
+CopyrightSigned#=%=#Hexiang Hu
+JobTitle#==#
+Organization#==#USC, Los Angeles
+Abstract#==#Learning to follow instructions is of fundamental importance to autonomous agents for vision-and-language navigation (VLN). In this paper, we study how an agent can navigate long paths when learning from a corpus that consists of shorter ones.  We show that existing state-of-the-art agents do not generalize well. To this end, we propose BabyWalk, a new VLN agent that is learned to navigate by decomposing long instructions into shorter ones (BabySteps) and completing them sequentially. A special design memory buffer is used by the agent to turn its past experiences into contexts for future steps. The learning process is composed of two phases. In the first phase, the agent uses imitation learning from demonstration to accomplish BabySteps. In the second phase, the agent uses curriculum-based reinforcement learning to maximize rewards on navigation tasks with increasingly longer instructions. We create two new benchmark datasets (of long navigation tasks) and use them in conjunction with existing ones to examine BabyWalk's generalization ability. Empirical results show that BabyWalk achieves state-of-the-art results on several metrics, in particular, is able to follow long instructions better.  The codes and the datasets are released on our project page: https://github.com/Sha-Lab/babywalk.
+Author{1}{Firstname}#=%=#Wang
+Author{1}{Lastname}#=%=#Zhu
+Author{1}{Username}#=%=#zhuwangz
+Author{1}{Email}#=%=#zhuwangz@sfu.ca
+Author{1}{Affiliation}#=%=#Simon Fraser University
+Author{2}{Firstname}#=%=#Hexiang
+Author{2}{Lastname}#=%=#Hu
+Author{2}{Username}#=%=#hexianghu
+Author{2}{Email}#=%=#hexiang.frank.hu@gmail.com
+Author{2}{Affiliation}#=%=#USC
+Author{3}{Firstname}#=%=#Jiacheng
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#cjc
+Author{3}{Email}#=%=#cjc0722hz@gmail.com
+Author{3}{Affiliation}#=%=#University of Southern California
+Author{4}{Firstname}#=%=#Zhiwei
+Author{4}{Lastname}#=%=#Deng
+Author{4}{Username}#=%=#lucas2012
+Author{4}{Email}#=%=#zhiweid@princeton.edu
+Author{4}{Affiliation}#=%=#Princeton University
+Author{5}{Firstname}#=%=#Vihan
+Author{5}{Lastname}#=%=#Jain
+Author{5}{Username}#=%=#vihanj
+Author{5}{Email}#=%=#vihanjain@google.com
+Author{5}{Affiliation}#=%=#Google LLC
+Author{6}{Firstname}#=%=#Eugene
+Author{6}{Lastname}#=%=#Ie
+Author{6}{Username}#=%=#eugeneie
+Author{6}{Email}#=%=#eugeneie@google.com
+Author{6}{Affiliation}#=%=#Google
+Author{7}{Firstname}#=%=#Fei
+Author{7}{Lastname}#=%=#Sha
+Author{7}{Username}#=%=#feisha
+Author{7}{Email}#=%=#fsha@google.com
+Author{7}{Affiliation}#=%=#Google
+
+==========

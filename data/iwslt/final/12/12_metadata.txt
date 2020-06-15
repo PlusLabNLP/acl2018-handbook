@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Re-translation versus Streaming for Simultaneous Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Colin Cherry
+JobTitle#==#
+Organization#==#Google, 1600 Amphitheatre Parkway, Mountain View, CA, 94043
+Abstract#==#There has been great progress in improving streaming machine translation, a simultaneous paradigm where the system appends to a growing hypothesis as more source content becomes available. We study a related problem in which revisions to the hypothesis beyond strictly appending words are permitted. This is suitable for applications such as live captioning an audio feed. In this setting, we compare custom streaming approaches to re-translation, a straightforward strategy where each new source token triggers a distinct translation from scratch. We find re-translation to be as good or better than state-of-the-art streaming systems, even when operating under constraints that allow very few revisions. We attribute much of this success to a previously proposed data-augmentation technique that adds prefix-pairs to the training data, which alongside wait-k inference forms a strong baseline for streaming translation. We also highlight re-translation’s ability to wrap arbitrarily powerful MT systems with an experiment showing large improvements from an upgrade to its base model.
+Author{1}{Firstname}#=%=#Naveen
+Author{1}{Lastname}#=%=#Arivazhagan
+Author{1}{Username}#=%=#naveen.a
+Author{1}{Email}#=%=#navari@google.com
+Author{1}{Affiliation}#=%=#Google AI
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Cherry
+Author{2}{Username}#=%=#colincherry
+Author{2}{Email}#=%=#colin.a.cherry@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Wolfgang
+Author{3}{Lastname}#=%=#Macherey
+Author{3}{Username}#=%=#wmach
+Author{3}{Email}#=%=#wmach@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#George
+Author{4}{Lastname}#=%=#Foster
+Author{4}{Username}#=%=#foster
+Author{4}{Email}#=%=#geord.foster@gmail.com
+Author{4}{Affiliation}#=%=#Google
+
+==========
