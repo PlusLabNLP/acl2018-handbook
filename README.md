@@ -11,28 +11,28 @@
 
 Adapted from 2018 version without any content change. Dayx schedules need to be updated according to this year's plan.
 
-[ ] TACL entries
-[ ] frontmatter preface-chair
-[ ] frontmatter preface-pc
-[ ] frontmatter committee
-[ ] Meal Info
-[ ] Welcome Reception
-[ ] Social Event
-[ ] Tutorials
-[ ] Local Guide
-[ ] New CL author/reviewer guidelines
-[ ] Sponsors
-[ ] Day1 presidential address
-[ ] Day2 invited talk 1
-[ ] Day3 invited talk 2
-[ ] Day3 lifetime achievement award
-[ ] Day3 best paper session (session 9; remove parallel overview)
-[ ] add sponsors to sessions
-[ ] add printer name (page 2)
-[ ] fix second last page map (rotate and split into 2 pages)
-[ ] locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
-[ ] email drago to check index
-[ ] update registration time
+- [ ] TACL entries
+- [ ] frontmatter preface-chair
+- [ ] frontmatter preface-pc
+- [ ] frontmatter committee
+- [ ] Meal Info
+- [ ] Welcome Reception
+- [ ] Social Event
+- [ ] Tutorials
+- [ ] Local Guide
+- [ ] New CL author/reviewer guidelines
+- [ ] Sponsors
+- [ ] Day1 presidential address
+- [ ] Day2 invited talk 1
+- [ ] Day3 invited talk 2
+- [ ] Day3 lifetime achievement award
+- [ ] Day3 best paper session (session 9; remove parallel overview)
+- [ ] add sponsors to sessions
+- [ ] add printer name (page 2)
+- [ ] fix second last page map (rotate and split into 2 pages)
+- [ ] locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
+- [ ] email drago to check index
+- [ ] update registration time
 
 # Sponsors
 
