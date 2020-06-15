@@ -9,7 +9,7 @@ with open('../input/conferences.txt') as f:
 content = [x.strip() for x in content] 
 
 for c in content:
-    url = "http://www.softconf.com/acl2018/"+c+"/pub/aclpub/proceedings.tgz"
+    url = "http://www.softconf.com/acl2020/"+c+"/pub/aclpub/proceedings.tgz"
     directory = "../" + output_dir + "/"+c
     if not os.path.exists(directory):
         os.makedirs(directory)
