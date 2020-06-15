@@ -8,56 +8,33 @@
 - Handbook for printing: 25 June
 
 # TODOs
-- ~~TACL entries~~
-- ~~frontmatter preface-chair~~
-- ~~frontmatter preface-pc~~
-- ~~frontmatter committee~~
-- ~~Meal Info~~
-- ~~Welcome Reception~~
-- ~~Social Event~~
-- Tutorials
-- Local Guide
-- ~~New CL author/reviewer guidelines~~
-- ~~sponsors (largely done)~~
-- ~~Day1 presidential address~~
-- ~~Day2 invited talk 1~~
-- ~~Day3 invited talk 2~~
-- ~~Day3 lifetime achievement award~~
-- ~~Day3 best paper session (session 9; remove parallel overview)~~
-- ~~add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)~~
-- ~~add printer name (page 2)~~
-- ~~fix second last page map (rotate and split into 2 pages)~~
-- ~~locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'~~
-- ~~email drago to check index~~
-- ~~update registration time~~
+
+Adapted from 2018 version without any content change. Dayx schedules need to be updated according to this year's plan.
+
+[ ] TACL entries
+[ ] frontmatter preface-chair
+[ ] frontmatter preface-pc
+[ ] frontmatter committee
+[ ] Meal Info
+[ ] Welcome Reception
+[ ] Social Event
+[ ] Tutorials
+[ ] Local Guide
+[ ] New CL author/reviewer guidelines
+[ ] Sponsors
+[ ] Day1 presidential address
+[ ] Day2 invited talk 1
+[ ] Day3 invited talk 2
+[ ] Day3 lifetime achievement award
+[ ] Day3 best paper session (session 9; remove parallel overview)
+[ ] add sponsors to sessions
+[ ] add printer name (page 2)
+[ ] fix second last page map (rotate and split into 2 pages)
+[ ] locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
+[ ] email drago to check index
+[ ] update registration time
 
 # Sponsors
-
-5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
-
-• One page mono advertisement in program booklet
-
-5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
-
-• One page mono advertisement in program bookle
- 
-Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
-
-• Half page mono advertisement in program booklet
-
-Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
-
-• Quarter page mono advertisement in program booklet
-
-Bronze sponsors (ISI, DSTG, Sintelix)
-
-• Quarter page mono advertisement in program booklet
-
-Student volunteer sponsor (CSIRO)
-
-• Quarter page mono advertisement in program booklet
-
-Supporter (SAP, Monash Faculty of IT)
 
 # Changes from Matt's original repository
 
@@ -418,7 +395,7 @@ Directories:
 # Task list
 
 - Download all the main conference proceedings and workshops using
-  `scripts/download-proceedings.sh` (after editing
+  `scripts/download-proceedings.py` (after editing
   `input/conferences.txt`). This creates a proceedings tarball in each
   of `data/SUBCONF/proceedings`.
 
@@ -516,3 +493,55 @@ This document was written by Matt Post during assembly of the NAACL
 2013 and ACL 2014 handbooks. I inherited from Ulrich Germann the code
 and data he used to assemble the 2012 NAACL handbook. I don't know
 about any history prior to that.
+
+# TODOs for 2018
+- ~~TACL entries~~
+- ~~frontmatter preface-chair~~
+- ~~frontmatter preface-pc~~
+- ~~frontmatter committee~~
+- ~~Meal Info~~
+- ~~Welcome Reception~~
+- ~~Social Event~~
+- Tutorials
+- Local Guide
+- ~~New CL author/reviewer guidelines~~
+- ~~sponsors (largely done)~~
+- ~~Day1 presidential address~~
+- ~~Day2 invited talk 1~~
+- ~~Day3 invited talk 2~~
+- ~~Day3 lifetime achievement award~~
+- ~~Day3 best paper session (session 9; remove parallel overview)~~
+- ~~add sponsors to sessions (Welcome & Presidential Address: Facebook & Baidu; Invited Talk 1: Samsung & Recruit; Invited Talk 2: ByteDance & Tencent; Best Paper Session: Apple & Amazon; Lifetime Achievement Award: Google & Jingdong/JD.com)~~
+- ~~add printer name (page 2)~~
+- ~~fix second last page map (rotate and split into 2 pages)~~
+- ~~locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'~~
+- ~~email drago to check index~~
+- ~~update registration time~~
+
+# Sponsors for 2018
+
+5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
+
+• One page mono advertisement in program booklet
+
+5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
+
+• One page mono advertisement in program bookle
+ 
+Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
+
+• Half page mono advertisement in program booklet
+
+Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
+
+• Quarter page mono advertisement in program booklet
+
+Bronze sponsors (ISI, DSTG, Sintelix)
+
+• Quarter page mono advertisement in program booklet
+
+Student volunteer sponsor (CSIRO)
+
+• Quarter page mono advertisement in program booklet
+
+Supporter (SAP, Monash Faculty of IT)
