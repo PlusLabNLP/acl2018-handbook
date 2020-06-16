@@ -25,3 +25,7 @@ data/tar
 .#*
 .DS_Store
 data_original
+# do not stage pdf files in data/*/final/*.pdf
+*.pdf
+# do not stage zip files in data/*/final/*.zip
+*.zip
