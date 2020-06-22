@@ -12,6 +12,8 @@
 Adapted from 2018 version without any content change. Dayx schedules need to be updated according to this year's plan.
 
 - [ ] TACL entries
+- [ ] Generate the workshop schedules, double check, previous has error messages
+- [ ] Update content/setup/venues.tex
 - [ ] frontmatter preface-chair
 - [ ] frontmatter preface-pc
 - [ ] frontmatter committee
@@ -402,7 +404,7 @@ Directories:
 - Verify each of them with `scripts/verify_schedule.py`:
 
         for file in $(ls data); do 
-          num=$(cat data/$file/proceedings/order | ./scripts/verify_schedule.py > /dev/null 2>&1; echo $?) 
+          num=$(cat data/$file/order | ./scripts/verify_schedule.py > /dev/null 2>&1; echo $?) 
           if test $num -ne 0; then 
             echo -e "$file\t$num"
           fi
@@ -412,7 +414,7 @@ Directories:
 
         for dir in $(ls data); do 
           [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
-          ./scripts/meta2bibtex.py data/$dir/proceedings/final $dir
+          python2 ./scripts/meta2bibtex.py data/$dir/final $dir
         done
     
   This creates abstracts in `auto/abstracts` (read in via LaTeX calls
@@ -423,18 +425,20 @@ Directories:
 
        for dir in $(ls data); do 
          [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
-         cat data/$dir/proceedings/order | ./scripts/order2schedule_workshop.pl $dir > auto/$dir/schedule.tex
+         cat data/$dir/order | ./scripts/order2schedule_workshop.pl $dir > auto/$dir/schedule.tex
        done
     
   This leaves you with a ton of `schedule.tex` files which can be
   `\input`ed via LaTeX
   
 - Edit `content/workshops/overview.tex` and
-  `content/workshops/workshops.tex` to include these files and to be correct.
+  `content/workshops/workshops.tex` to include these files and to be correct. Also edit `content/setup/venues.tex` to update workshop locations.
 
 - Create the workshops bibtex entries in
   `content/workshops/papers.bib`. This is included in the main
   `handbook.tex` so that you can cite the workshop chairs and title automatically.
+
+- Change bibliography import part in `handbook.tex` to match workshop/conf names listed in `input/conferences.txt`
 
 - Next, fill in the tutorials manually, editing
   `content/tutorials/tutorials-001.tex` and so on. Also edit the tutorial
