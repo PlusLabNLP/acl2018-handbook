@@ -29,3 +29,4 @@ data_original
 *.pdf
 # do not stage zip files in data/*/final/*.zip
 *.zip
+draft

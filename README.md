@@ -14,9 +14,9 @@ Adapted from 2018 version without any content change. Dayx schedules need to be 
 - [ ] TACL entries
 - [ ] Generate the workshop schedules, double check, previous has error messages
 - [ ] Update content/setup/venues.tex
-- [ ] frontmatter preface-chair
-- [ ] frontmatter preface-pc
-- [ ] frontmatter committee
+- [x] frontmatter preface-chair
+- [x] frontmatter preface-pc
+- [x] frontmatter committee
 - [ ] Meal Info
 - [ ] Welcome Reception
 - [ ] Social Event
@@ -35,6 +35,8 @@ Adapted from 2018 version without any content change. Dayx schedules need to be 
 - [ ] locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
 - [ ] email drago to check index
 - [ ] update registration time
+- [ ] confirm: anti harassment policy do not include `implementation` section. (it's updated from 2018 version)
+- [ ] confirm: do we need to add reviews (primary/secondary/outstanding) to handbook? 2018 version not added.
 
 # Sponsors
 
@@ -449,6 +451,8 @@ Directories:
        for name in tacl demos papers srw; do
            cat data/$name/order | ./scripts/order2schedule.perl $name
        done
+
+       sh run_order2schedule.sh
 
 - Generate the daily overviews, munge them a bit, pull them in
 
