@@ -398,12 +398,17 @@ Directories:
 
 # Task list
 
-- Download all the main conference proceedings and workshops using
-  `scripts/download-proceedings.py` (after editing
-  `input/conferences.txt`). This creates a proceedings tarball in each
+1. Edit `input/conferences.txt` to make sure corresponding http://www.softconf.com/acl2020/$CONFNAME is valid. Note that tutorials use a unique url like http://www.softconf.com/j/acl-tutorials2020/
+
+2. Download all the main conference proceedings and workshops using `scripts/download-proceedings.py`. This creates a proceedings tarball in each
   of `data/SUBCONF/proceedings`.
 
-- Verify each of them with `scripts/verify_schedule.py`:
+    ```
+    cd scripts
+    python2 download-proceedings.py
+    ```
+
+3. Verify each of them with `scripts/verify_schedule.py`:
 
         for file in $(ls data); do 
           num=$(cat data/$file/order | ./scripts/verify_schedule.py > /dev/null 2>&1; echo $?) 
@@ -412,41 +417,53 @@ Directories:
           fi
         done
 
-- Generate the bibtex metadata from each workshop's paper metadata:
+4. Generate the bibtex metadata from each workshop's paper metadata:
 
         for dir in $(ls data); do 
           [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
           python2 ./scripts/meta2bibtex.py data/$dir/final $dir
         done
     
-  This creates abstracts in `auto/abstracts` (read in via LaTeX calls
-  to `\paperabstract`) and BibTeX metadata used for the index and
-  other things (in `auto/SUBCONF/papers.bib`)
+    This creates abstracts in `auto/abstracts` (read in via LaTeX calls to `\paperabstract`) and BibTeX metadata used for the index and other things (in `auto/SUBCONF/papers.bib`)
 
-- Generate the workshop schedules:
+5. Prepare bibtex metadata for TACL/CL papers: TACL and CL papers presented at *ACL conferences are not included in the proceedings ACLPUB package, so we need to separately prepare them.
+    * Add TACL and CL papers to the files `input/tacl_papers.yaml`.
+      * Download BibTeX files for recent years TACL and CL volumes from ACL Anthology and put them into `tacl_cl_bibs`
+      * Use script to automatically 1) filter out all TACL/CL papers from `data/papers/order` file; 2) string match to find corrensponding record in bib files of previous TACL/CL volumes; 3) extract bib record info and save to yaml file and display left out papers for manual processing
+
+          ```
+          cd scripts/
+          python3 retrieve_tacl_entries.py
+          ```
+      * Entries that cannot be automatically extracted needs the help of human intelligence
+    * Add info from the yaml file to bibliograph and abstracts, just like other paper
+          ```
+          python2 ./scripts/tacl_builder.py
+          ```
+
+6. Generate the workshop schedules:
 
        for dir in $(ls data); do 
          [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
          cat data/$dir/order | ./scripts/order2schedule_workshop.pl $dir > auto/$dir/schedule.tex
        done
     
-  This leaves you with a ton of `schedule.tex` files which can be
-  `\input`ed via LaTeX
+    This leaves you with a ton of `schedule.tex` files which can be `\input`ed via LaTeX
   
-- Edit `content/workshops/overview.tex` and
+7. Edit `content/workshops/overview.tex` and
   `content/workshops/workshops.tex` to include these files and to be correct. Also edit `content/setup/venues.tex` to update workshop locations.
 
-- Create the workshops bibtex entries in
+8. Create the workshops bibtex entries in
   `content/workshops/papers.bib`. This is included in the main
   `handbook.tex` so that you can cite the workshop chairs and title automatically.
 
-- Change bibliography import part in `handbook.tex` to match workshop/conf names listed in `input/conferences.txt`
+9. Change bibliography import part in `handbook.tex` to match workshop/conf names listed in `input/conferences.txt`
 
-- Next, fill in the tutorials manually, editing
+10. Next, fill in the tutorials manually, editing
   `content/tutorials/tutorials-001.tex` and so on. Also edit the tutorial
   overview page in `content/tutorials/tutorials-overview.tex`.
 
-- Generate the paper and poster session files (which you'll have to edit a bit afterwards):
+11. Generate the paper and poster session files (which you'll have to edit a bit afterwards):
 
        for name in tacl demos papers srw; do
            cat data/$name/order | ./scripts/order2schedule.perl $name
@@ -454,11 +471,11 @@ Directories:
 
        sh run_order2schedule.sh
 
-- Generate the daily overviews, munge them a bit, pull them in
+12. Generate the daily overviews, munge them a bit, pull them in
 
         cat data/{papers,shortpapers,demos,tacl,srw}/order | ./scripts/order2schedule_overview.py
 
-- Email Dragomir Radev, who will run your index against
+13. Email Dragomir Radev, who will run your index against
   [the ACL Anthology Network](http://clair.eecs.umich.edu/aan/index.php),
   correcting spellings and collapsing redundancies.
 
