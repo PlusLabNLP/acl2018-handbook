@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2659
+FinalPaperTitle#=%=#Worse WER, but Better BLEU? Leveraging Word Embedding as Intermediate in Multitask End-to-End Speech Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shun-Po Chuang
+JobTitle#==#
+Organization#==#National Taiwan University. No.1, Sec. 4, Roosevelt Road, Taipei, 10617 Taiwan.
+Abstract#==#Speech translation (ST) aims to learn transformations from speech in the source language to the text in the target language. Previous works show that multitask learning improves the ST performance, in which the recognition decoder generates the text of the source language, and the translation decoder obtains the final translations based on the output of the recognition decoder. Because whether the output of the recognition decoder has the correct semantics is more critical than its accuracy, we propose to improve the multitask ST model by utilizing word embedding as the intermediate.
+Author{1}{Firstname}#=%=#Shun-Po
+Author{1}{Lastname}#=%=#Chuang
+Author{1}{Username}#=%=#alex82528
+Author{1}{Email}#=%=#alex82528@hotmail.com.tw
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Tzu-Wei
+Author{2}{Lastname}#=%=#Sung
+Author{2}{Username}#=%=#tzsung
+Author{2}{Email}#=%=#b03902042@ntu.edu.tw
+Author{2}{Affiliation}#=%=#University of California San Diego
+Author{3}{Firstname}#=%=#Alexander H.
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Username}#=%=#alexliu36
+Author{3}{Email}#=%=#r07922013@ntu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan University
+Author{4}{Firstname}#=%=#Hung-yi
+Author{4}{Lastname}#=%=#Lee
+Author{4}{Username}#=%=#tlkagk
+Author{4}{Email}#=%=#tlkagkb93901106@gmail.com
+Author{4}{Affiliation}#=%=#National Taiwan University (NTU)
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2413
+FinalPaperTitle#=%=#MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jiaao Chen
+JobTitle#==#
+Organization#==#Georgia Institute of Technology, North Ave NW, Atlanta, GA 30332
+Abstract#==#This paper presents MixText, a semi-supervised learning method for text classification, which uses our newly designed data augmentation method called TMix. TMix creates a large amount of augmented training samples by interpolating text in hidden space. Moreover, we leverage recent advances in data augmentation to guess low-entropy labels for unlabeled data, hence making them as easy to use as labeled data. By mixing labeled, unlabeled and augmented data, MixText significantly outperformed current pre-trained and fined-tuned models and other state-of-the-art semi-supervised learning methods on several text classification benchmarks. The improvement is especially prominent when supervision is extremely limited. We have publicly released our code at https://github.com/GT-SALT/MixText.
+Author{1}{Firstname}#=%=#Jiaao
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#jiaaoc
+Author{1}{Email}#=%=#jchen896@gatech.edu
+Author{1}{Affiliation}#=%=#Georgia Institute of Technology
+Author{2}{Firstname}#=%=#Zichao
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Username}#=%=#zichaoy
+Author{2}{Email}#=%=#zichaoy@cs.cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+Author{3}{Firstname}#=%=#Diyi
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Username}#=%=#diyiy
+Author{3}{Email}#=%=#diyi.yang@cc.gatech.edu
+Author{3}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

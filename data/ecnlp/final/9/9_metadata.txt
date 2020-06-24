@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Using Large Pretrained Language Models for Answering User Queries from Product Specifications
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kalyani Roy
+JobTitle#==#
+Organization#==#Indian Institute of Technology Kharagpur
+Abstract#==#While buying a product from the e-commerce websites, customers generally have a plethora of questions. From the perspective of both the e-commerce service provider as well as the customers, there must be an effective question answering system to provide immediate answer to the user queries. While certain questions can only be answered after using the product, there are many questions which can be answered from the product specification itself. Our work takes a first step in this direction by finding out the relevant product specifications, that can help answering the user questions. We propose an approach to automatically create a training dataset for this problem. We utilize recently proposed XLNet and BERT architectures for this problem and find that they provide much better performance than the Siamese model, previously applied for this problem. Our model gives a good performance even when trained on one vertical and tested across different verticals.
+Author{1}{Firstname}#=%=#Kalyani
+Author{1}{Lastname}#=%=#Roy
+Author{1}{Username}#=%=#kroy
+Author{1}{Email}#=%=#kroy@iitkgp.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Kharagpur
+Author{2}{Firstname}#=%=#Smit
+Author{2}{Lastname}#=%=#Shah
+Author{2}{Email}#=%=#smitsunny11@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Kharagpur
+Author{3}{Firstname}#=%=#Nithish
+Author{3}{Lastname}#=%=#Pai
+Author{3}{Email}#=%=#nithish.p@flipkart.com
+Author{3}{Affiliation}#=%=#Flipkart, Bangalore
+Author{4}{Firstname}#=%=#Jaidam
+Author{4}{Lastname}#=%=#Ramtej
+Author{4}{Email}#=%=#jaidam.ramtej@flipkart.com
+Author{4}{Affiliation}#=%=#Flipkart, Bangalore
+Author{5}{Firstname}#=%=#Prajit
+Author{5}{Lastname}#=%=#Nadkarni
+Author{5}{Email}#=%=#prajit.pn@flipkart.com
+Author{5}{Affiliation}#=%=#Flipkart, Bangalore
+Author{6}{Firstname}#=%=#Jyotirmoy
+Author{6}{Lastname}#=%=#Banerjee
+Author{6}{Email}#=%=#jyotirmoy.b@flipkart.com
+Author{6}{Affiliation}#=%=#Flipkart, Bangalore
+Author{7}{Firstname}#=%=#Pawan
+Author{7}{Lastname}#=%=#Goyal
+Author{7}{Email}#=%=#pawang@cse.iitkgp.ac.in
+Author{7}{Affiliation}#=%=#Indian Institute of Technology Kharagpur
+Author{8}{Firstname}#=%=#Surender
+Author{8}{Lastname}#=%=#Kumar
+Author{8}{Email}#=%=#surender.k@flipkart.com
+Author{8}{Affiliation}#=%=#Flipkart, Bangalore
+
+==========

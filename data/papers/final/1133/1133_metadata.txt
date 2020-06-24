@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1133
+FinalPaperTitle#=%=#How to Ask Good Questions? Try to Leverage Paraphrases
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xin Jia
+JobTitle#==#
+Organization#==#MOE Key Lab of Computational Linguistics, School of EECS, Peking University, Beijing, China
+Abstract#==#Given a sentence and its relevant answer, how to ask good questions is a challenging task, which has many real applications. Inspired by human's paraphrasing capability to ask questions of the same meaning but with diverse expressions, we propose to incorporate paraphrase knowledge into question generation(QG) to generate human-like questions. Specifically, we present a two-hand hybrid model leveraging a self-built paraphrase resource, which is automatically conducted by a simple back-translation method. On the one hand, we conduct multi-task learning with sentence-level paraphrase generation (PG) as an auxiliary task to supplement paraphrase knowledge to the task-share encoder. On the other hand, we adopt a new loss function for diversity training to introduce more question patterns to QG. Extensive experimental results show that our proposed model obtains obvious performance gain over several strong baselines, and further human evaluation validates that our model can ask questions of high quality by leveraging paraphrase knowledge.
+Author{1}{Firstname}#=%=#Xin
+Author{1}{Lastname}#=%=#Jia
+Author{1}{Username}#=%=#jemmryx
+Author{1}{Email}#=%=#jemmryx@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Wenjie
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Username}#=%=#wenjiezhou
+Author{2}{Email}#=%=#wjzhou013@pku.edu.cn
+Author{2}{Affiliation}#=%=#Key Laboratory of Computational Linguistics, Ministry of EducationSchool of Electronics Engineering and Computer Science, Peking University, Beijing, China
+Author{3}{Firstname}#=%=#Xu
+Author{3}{Lastname}#=%=#SUN
+Author{3}{Username}#=%=#xusun26
+Author{3}{Email}#=%=#xusun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Yunfang
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Username}#=%=#wuyunfang
+Author{4}{Email}#=%=#wuyf@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#The Amazing World of Neural Language Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural Language Generation (NLG) -- using neural network models to generate coherent text -- is among the most promising methods for automated text creation.  Recent years have seen a paradigm shift in neural text generation, caused by the advances in deep contextual language modeling (e.g., LSTMs, GPT, GPT2) and transfer learning (e.g., ELMo, BERT). While these tools have dramatically improved the state of NLG, particularly for low resources tasks, state-of-the-art NLG models still face many challenges: a lack of diversity in generated text, commonsense violations in depicted situations, difficulties in making use of factual information, and difficulties in designing reliable evaluation metrics. In this tutorial, we will present an overview of the current state-of-the-art in neural network architectures, and how they shaped recent research directions in text generation. We will discuss how and why these models succeed/fail at generating coherent text, and provide insights on several applications.
+Author{1}{Firstname}#=%=#Yangfeng
+Author{1}{Lastname}#=%=#Ji
+Author{1}{Username}#=%=#yangfengji
+Author{1}{Email}#=%=#jiyfeng@gmail.com
+Author{1}{Affiliation}#=%=#University of Virginia
+Author{2}{Firstname}#=%=#Antoine
+Author{2}{Lastname}#=%=#Bosselut
+Author{2}{Username}#=%=#antoineb
+Author{2}{Email}#=%=#antoineb@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Thomas
+Author{3}{Lastname}#=%=#Wolf
+Author{3}{Username}#=%=#thomwolf
+Author{3}{Email}#=%=#thomwolf@gmail.com
+Author{3}{Affiliation}#=%=#HuggingFace Inc.
+Author{4}{Firstname}#=%=#Asli
+Author{4}{Lastname}#=%=#Celikyilmaz
+Author{4}{Username}#=%=#asli
+Author{4}{Email}#=%=#asli.ca@live.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=##NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Grusha Bhalla
+JobTitle#==#
+Organization#==#Delhi Technological University, Bawana Rd, Shahbad Daulatpur Village, Rohini, Delhi, India, 110042
+Abstract#==#The recent surge in online forums and movements supporting sexual assault survivors has led to the emergence of a  `virtual bubble' where survivors can recount their stories. However, this also makes the survivors vulnerable to bullying, trolling and victim blaming. Specifically, victim blaming has been shown to have acute psychological effects on the survivors and further discourage formal reporting of such crimes. Therefore, it is important to devise computationally relevant methods to identify and prevent victim blaming to protect the victims. In our work, we discuss the drastic effects of victim blaming through a short case study and then propose a single step transfer-learning based classification  method to identify victim blaming language on Twitter. Finally, we compare the performance of our proposed model against various deep learning and machine learning models on a manually annotated domain-specific dataset.
+Author{1}{Firstname}#=%=#Ashima
+Author{1}{Lastname}#=%=#Suvarna
+Author{1}{Username}#=%=#asuvarna31
+Author{1}{Email}#=%=#asuvarna31@gmail.com
+Author{1}{Affiliation}#=%=#Delhi Technological University
+Author{2}{Firstname}#=%=#Grusha
+Author{2}{Lastname}#=%=#Bhalla
+Author{2}{Username}#=%=#grusha
+Author{2}{Email}#=%=#grushabhalla@gmail.com
+Author{2}{Affiliation}#=%=#Delhi Technological University
+
+==========

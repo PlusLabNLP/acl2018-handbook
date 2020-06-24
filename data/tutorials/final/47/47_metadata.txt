@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Challenges in Dialog Research
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#With the emergence of Amazon Echo, Apple Siri and Google Home, billions of users are using conversational systems at work and home. Conversational agents assist users on a diverse range of tasks, such as alarms setting, recipes searching and even shopping. Recently a growing number of researchers illustrated interests in dialog systems. However, user satisfaction on these assistant systems is still relatively low. Due to the wide application of dialog systems, more and more researchers are taking an interest in solving dialog research questions.
+Dialog paper submission is growing from under 1\% to more than 7\% in ACL community for the last five years. Dialog system is now the fourth most popular topics (after information extraction, machine learning and machine translation). Dialog research has transitioned from modular-based dialog pipeline to end-to-end pipelines. In this proposal, we describe the major challenges in building dialog systems. We believe the first step to solving these problems is to understand them. We will also describe all the related work that tackles these challenges. We hope by being aware of previous work will motivate researchers to avoid reinventing the wheels and producing more innovative contributions.  
+
+This tutorial is a 3-hour long cutting-edge dialog tutorial with an estimated audience size of 200. The tutorial instructors are gender-balanced (two female) and seniority balanced. 
+All tutorial materials will be public, including slides, code and lecture video recording.
+Author{1}{Firstname}#=%=#Zhou
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#zhouyu
+Author{1}{Email}#=%=#echoyuzhou@gmail.com
+Author{1}{Affiliation}#=%=#University of California, Davis
+Author{2}{Firstname}#=%=#Dilek
+Author{2}{Lastname}#=%=#Hakkani-Tur
+Author{2}{Username}#=%=#dilekha
+Author{2}{Email}#=%=#dilek@ieee.org
+Author{2}{Affiliation}#=%=#Amazon Alexa AI
+Author{3}{Firstname}#=%=#Tiancheng
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Username}#=%=#tianchez
+Author{3}{Email}#=%=#tianchez@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{4}{Firstname}#=%=#wei
+Author{4}{Lastname}#=%=#wei
+Author{4}{Username}#=%=#soul1987
+Author{4}{Email}#=%=#wewei@google.com
+Author{4}{Affiliation}#=%=#Google
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hwichan Kim
+JobTitle#==#
+Organization#==#Tokyo Metropolitan University 6-6 Asahigaoka, Hino, Tokyo 191-0065, Japan
+Abstract#==#The primary limitation of North Korean to English translation is the lack of a parallel corpus; therefore, high translation accuracy cannot be achieved. To address this problem, we propose a zero-shot approach using South Korean data, which are remarkably similar to North Korean data. We train a neural machine translation model after tokenizing a South Korean text at the character level and decomposing characters into phonemes.We demonstrate that our method can effectively learn North Korean to English translation and improve the BLEU scores by +1.01 points in comparison with the baseline.
+Author{1}{Firstname}#=%=#Hwichan
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Username}#=%=#hwichan
+Author{1}{Email}#=%=#hwichan@komachi.live
+Author{1}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{2}{Firstname}#=%=#Tosho
+Author{2}{Lastname}#=%=#Hirasawa
+Author{2}{Username}#=%=#toshohirasawa
+Author{2}{Email}#=%=#hirasawa-tosho@ed.tmu.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Metropolitan University
+Author{3}{Firstname}#=%=#Mamoru
+Author{3}{Lastname}#=%=#Komachi
+Author{3}{Username}#=%=#komachi
+Author{3}{Email}#=%=#komachi@tmu.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Metropolitan University
+
+==========

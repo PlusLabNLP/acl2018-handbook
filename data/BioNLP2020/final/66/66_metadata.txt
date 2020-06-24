@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#Improving Biomedical Analogical Retrieval with Embedding of Structural Dependencies
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Amandalynne Paullada
+JobTitle#==#
+Organization#==#University of Washington, 850 Republican St Seattle, WA 98109
+Abstract#==#Inferring the nature of the relationships between biomedical entities from text is an important problem due to the difficulty of maintaining human-curated knowledge bases in rapidly evolving fields. Neural word embeddings have earned attention for an apparent ability to encode relational information. However, word embedding models that disregard syntax during training are limited in their ability to encode the structural relationships fundamental to cognitive theories of analogy. In this paper, we demonstrate the utility of encoding dependency structure in word embeddings in a model we call Embedding of Structural Dependencies (ESD) as a way to represent biomedical relationships in two analogical retrieval tasks: a relationship retrieval (RR) task, and a literature-based discovery (LBD) task meant to hypothesize plausible relationships between pairs of entities unseen in training. We compare our model to skip-gram with negative sampling (SGNS), using 19 databases of biomedical relationships as our evaluation data, with improvements in performance on 17 (LBD) and 18 (RR) of these sets. These results suggest embeddings encoding dependency path information are of value for biomedical analogy retrieval.
+Author{1}{Firstname}#=%=#Amandalynne
+Author{1}{Lastname}#=%=#Paullada
+Author{1}{Username}#=%=#paullada
+Author{1}{Email}#=%=#paullada@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Bethany
+Author{2}{Lastname}#=%=#Percha
+Author{2}{Email}#=%=#bethany.percha@mssm.edu
+Author{2}{Affiliation}#=%=#Icahn School of Medicine at Mount Sinai
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohen
+Author{3}{Username}#=%=#trovc
+Author{3}{Email}#=%=#cohenta@uw.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

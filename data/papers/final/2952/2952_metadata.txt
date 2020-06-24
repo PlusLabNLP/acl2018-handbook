@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2952
+FinalPaperTitle#=%=#Learning Web-based Procedures by Reasoning over Explanations and Demonstrations in Context
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shashank Srivastava
+JobTitle#==#
+Organization#==#UNC Chapel Hill
+Abstract#==#We explore learning web-based tasks from a human teacher through natural language explanations and a single demonstration. Our approach investigates a new direction for semantic parsing that models explaining a demonstration in a context, rather than mapping explanations to demonstrations. By leveraging the idea of inverse semantics from program synthesis to reason backwards from observed demonstrations, we ensure that all considered interpretations are consistent with executable actions in any context, thus simplifying the problem of search over logical forms. We present a dataset of explanations paired with demonstrations for web-based tasks. Our methods show better task completion rates than a supervised semantic parsing baseline (40% relative improvement on average), and are competitive with simple exploration-and-demonstration based methods, while requiring no exploration of the environment. In learning to align explanations with demonstrations, basic properties of natural language syntax emerge as learned behavior. This is an interesting example of pragmatic language acquisition without any linguistic annotation.
+Author{1}{Firstname}#=%=#Shashank
+Author{1}{Lastname}#=%=#Srivastava
+Author{1}{Username}#=%=#shsriva
+Author{1}{Email}#=%=#shsriva@gmail.com
+Author{1}{Affiliation}#=%=#UNC Chapel Hill
+Author{2}{Firstname}#=%=#Oleksandr
+Author{2}{Lastname}#=%=#Polozov
+Author{2}{Username}#=%=#polozov
+Author{2}{Email}#=%=#polozov@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Nebojsa
+Author{3}{Lastname}#=%=#Jojic
+Author{3}{Username}#=%=#jojic
+Author{3}{Email}#=%=#jojic@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Christopher
+Author{4}{Lastname}#=%=#Meek
+Author{4}{Username}#=%=#chrismeek
+Author{4}{Email}#=%=#meek@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+
+==========

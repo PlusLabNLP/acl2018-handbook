@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#3067
+FinalPaperTitle#=%=#What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ramy Baly
+JobTitle#==#
+Organization#==#Massachusetts Institute of Technology, 77 Massachusetts Ave, Cambridge, MA 02139
+Abstract#==#Predicting the political bias and the factuality of reporting of entire news outlets are critical elements of media profiling, which is an understudied but an increasingly important research direction. The present level of proliferation of fake, biased, and propagandistic content online has made it impossible to fact-check every single suspicious claim, either manually or automatically. Thus, it has been proposed to profile entire news outlets and to look for those that are likely to publish fake or biased content. This makes it possible to detect likely “fake news” the moment they are published, by simply checking the reliability of their source.
+
+From a practical perspective, political bias and factuality of reporting have a linguistic aspect but also a social context. Here, we study the impact of both, namely (i) what was written (i.e., what was published by the target medium, and how it describes itself in Twitter) vs. (ii) who reads it (i.e., analyzing the target medium’s audience on social media). We further study (iii) what was written about the target medium (in Wikipedia). The evaluation results show that what was written matters most, and we further show that putting all information sources together yields huge improvements over the current state-of-the-art.
+Author{1}{Firstname}#=%=#Ramy
+Author{1}{Lastname}#=%=#Baly
+Author{1}{Username}#=%=#ramybaly
+Author{1}{Email}#=%=#baly@mit.edu
+Author{1}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{2}{Firstname}#=%=#Georgi
+Author{2}{Lastname}#=%=#Karadzhov
+Author{2}{Username}#=%=#gogokaradjov
+Author{2}{Email}#=%=#gmk34@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Jisun
+Author{3}{Lastname}#=%=#An
+Author{3}{Username}#=%=#ghdi6758
+Author{3}{Email}#=%=#jisun.an@acm.org
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, Hamad Bin Khalifa University
+Author{4}{Firstname}#=%=#Haewoon
+Author{4}{Lastname}#=%=#Kwak
+Author{4}{Username}#=%=#haewoon
+Author{4}{Email}#=%=#haewoon@acm.org
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute, Hamad Bin Khalifa University
+Author{5}{Firstname}#=%=#Yoan
+Author{5}{Lastname}#=%=#Dinkov
+Author{5}{Username}#=%=#yoandinkov
+Author{5}{Email}#=%=#jdinkov@uni-sofia.bg
+Author{5}{Affiliation}#=%=#Sofia University
+Author{6}{Firstname}#=%=#Ahmed
+Author{6}{Lastname}#=%=#Ali
+Author{6}{Username}#=%=#amali
+Author{6}{Email}#=%=#amali@hbku.edu.qa
+Author{6}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{7}{Firstname}#=%=#James
+Author{7}{Lastname}#=%=#Glass
+Author{7}{Username}#=%=#glass
+Author{7}{Email}#=%=#glass@mit.edu
+Author{7}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{8}{Firstname}#=%=#Preslav
+Author{8}{Lastname}#=%=#Nakov
+Author{8}{Username}#=%=#preslav
+Author{8}{Email}#=%=#preslav.nakov@gmail.com
+Author{8}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

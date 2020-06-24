@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1542
+FinalPaperTitle#=%=#Treebank Embedding Vectors for Out-of-domain Dependency Parsing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Joachim Wagner
+JobTitle#==#
+Organization#==#Dublin City University, Glasnevin, D9, Ireland
+Abstract#==#A recent advance in monolingual dependency parsing is the idea of a treebank embedding vector, which allows all treebanks for a particular language to be used as training data while at the same time allowing the model to prefer training data from one treebank over others and to select the preferred treebank at test time. We build on this idea by 1) introducing a method to predict a treebank vector for sentences that do not come from a treebank used in training, and 2) exploring what happens when we move away from predefined treebank embedding vectors during test time and instead devise tailored interpolations. We show that 1) there are interpolated vectors that are superior to the predefined ones, and 2) treebank vectors can be predicted with sufficient accuracy, for nine out of ten test languages, to match the performance of an oracle approach that knows the most suitable predefined treebank embedding for the test set.
+Author{1}{Firstname}#=%=#Joachim
+Author{1}{Lastname}#=%=#Wagner
+Author{1}{Username}#=%=#jwagner
+Author{1}{Email}#=%=#jwagner@computing.dcu.ie
+Author{1}{Affiliation}#=%=#ADAPT Centre, Dublin City University
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Barry
+Author{2}{Username}#=%=#james.barry
+Author{2}{Email}#=%=#james.barry@adaptcentre.ie
+Author{2}{Affiliation}#=%=#ADAPT Centre DCU
+Author{3}{Firstname}#=%=#Jennifer
+Author{3}{Lastname}#=%=#Foster
+Author{3}{Username}#=%=#jfoster
+Author{3}{Email}#=%=#fosterjen@gmail.com
+Author{3}{Affiliation}#=%=#Dublin City University
+
+==========

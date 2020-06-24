@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1802
+FinalPaperTitle#=%=#Joint Chinese Word Segmentation and Part-of-speech Tagging via Two-way Attentions of Auto-analyzed Knowledge
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yuanhe Tian
+JobTitle#==#
+Organization#==#University of Washington
+Abstract#==#Chinese word segmentation (CWS) and part-of-speech (POS) tagging are important fundamental tasks for Chinese language processing, where joint learning of them is an effective one-step solution for both tasks. Previous studies for joint CWS and POS tagging mainly follow the character-based tagging paradigm with introducing contextual information such as n-gram features or sentential representations from recurrent neural models. However, for many cases, the joint tagging needs not only modeling from context features but also knowledge attached to them (e.g., syntactic relations among words); limited efforts have been made by existing research to meet such needs. In this paper, we propose a neural model named TwASP for joint CWS and POS tagging following the character-based sequence labeling paradigm, where a two-way attention mechanism is used to incorporate both context feature and their corresponding syntactic knowledge for each input character. Particularly, we use existing language processing toolkits to obtain the auto-analyzed syntactic knowledge for the context, and the proposed attention module can learn and benefit from them although their quality may not be perfect. Our experiments illustrate the effectiveness of the two-way attentions for joint CWS and POS tagging, where state-of-the-art performance is achieved on five benchmark datasets.
+Author{1}{Firstname}#=%=#Yuanhe
+Author{1}{Lastname}#=%=#Tian
+Author{1}{Username}#=%=#yhtian
+Author{1}{Email}#=%=#yhtian@uw.edu
+Author{1}{Affiliation}#=%=#Department of Linguistics, University of Washington
+Author{2}{Firstname}#=%=#Yan
+Author{2}{Lastname}#=%=#Song
+Author{2}{Username}#=%=#mattsure
+Author{2}{Email}#=%=#mattsure@gmail.com
+Author{2}{Affiliation}#=%=#Sinovation Ventures
+Author{3}{Firstname}#=%=#Xiang
+Author{3}{Lastname}#=%=#Ao
+Author{3}{Username}#=%=#aoxiang
+Author{3}{Email}#=%=#aoxiang@ict.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Fei
+Author{4}{Lastname}#=%=#Xia
+Author{4}{Username}#=%=#fxia
+Author{4}{Email}#=%=#fxia@uw.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Xiaojun
+Author{5}{Lastname}#=%=#Quan
+Author{5}{Username}#=%=#passerqxj2
+Author{5}{Email}#=%=#quanxj3@mail.sysu.edu.cn
+Author{5}{Affiliation}#=%=#School of Data and Computer Science, Sun Yat-sen University
+Author{6}{Firstname}#=%=#Tong
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Username}#=%=#tongzhang
+Author{6}{Email}#=%=#tongzhang@tongzhang-ml.org
+Author{6}{Affiliation}#=%=#HKUST
+Author{7}{Firstname}#=%=#Yonggang
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Username}#=%=#wixette
+Author{7}{Email}#=%=#wangyonggang@chuangxin.com
+Author{7}{Affiliation}#=%=#Sinovation Ventures
+
+==========

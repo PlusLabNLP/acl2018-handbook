@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3195
+FinalPaperTitle#=%=#Toxicity Detection: Does Context Really Matter?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lucas Dixon
+JobTitle#==#
+Organization#==#Google
+Abstract#==#Moderation is crucial to promoting healthy online discussions. Although several ‘toxicity’ detection datasets and models have been published, most of them ignore the context of the posts, implicitly assuming that comments may be judged independently. We investigate this assumption by focusing on two questions: (a) does context affect the human judgement, and (b) does conditioning on context improve performance of toxicity detection systems? We experiment with Wikipedia conversations, limiting the notion of context to the previous post in the thread and the discussion title. We find that context can both amplify or mitigate the perceived toxicity of posts. Moreover, a small but significant subset of manually labeled posts (5% in one of our experiments) end up having the opposite toxicity labels if the annotators are not provided with context. Surprisingly, we also find no evidence that context actually improves the performance of toxicity classifiers, having tried a range of classifiers and mechanisms to make them context aware. This points to the need for larger datasets of comments annotated in context. We make our code and data publicly available.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Pavlopoulos
+Author{1}{Username}#=%=#annis.pavlo
+Author{1}{Email}#=%=#annis@aueb.gr
+Author{1}{Affiliation}#=%=#Athens University of Economics and Business
+Author{2}{Firstname}#=%=#Jeffrey
+Author{2}{Lastname}#=%=#Sorensen
+Author{2}{Username}#=%=#sorenj
+Author{2}{Email}#=%=#sorenj@google.com
+Author{2}{Affiliation}#=%=#Jigsaw
+Author{3}{Firstname}#=%=#Lucas
+Author{3}{Lastname}#=%=#Dixon
+Author{3}{Username}#=%=#ldixon
+Author{3}{Email}#=%=#ldixon@google.com
+Author{3}{Affiliation}#=%=#Google Research
+Author{4}{Firstname}#=%=#Nithum
+Author{4}{Lastname}#=%=#Thain
+Author{4}{Username}#=%=#nthain
+Author{4}{Email}#=%=#nthain@google.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Ion
+Author{5}{Lastname}#=%=#Androutsopoulos
+Author{5}{Username}#=%=#ionandr
+Author{5}{Email}#=%=#IONANDR@GMAIL.COM
+Author{5}{Affiliation}#=%=#Athens University of Economics and Business
+
+==========

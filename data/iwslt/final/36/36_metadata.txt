@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Octanove Labs' Japanese-Chinese Open Domain Translation System
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Masato Hagiwara
+JobTitle#==#
+Organization#==#Octanove Labs LLC, Seattle, WA
+Abstract#==#This paper describes Octanove Labs' submission to the IWSLT 2020 open domain translation challenge. In order to build a high-quality Japanese-Chinese neural machine translation (NMT) system, we use a combination of 1) parallel corpus filtering and 2) back-translation. We have shown that, by using heuristic rules and learned classifiers, the size of the parallel data can be reduced by 70% to 90% without much impact on the final MT performance. We have also shown that including the artificially generated parallel data through back-translation further boosts the metric by 17% to 27%, while self-training contributes little. Aside from a small number of parallel sentences annotated for filtering, no external resources have been used to build our system.
+Author{1}{Firstname}#=%=#Masato
+Author{1}{Lastname}#=%=#Hagiwara
+Author{1}{Username}#=%=#mhagiwara
+Author{1}{Email}#=%=#masato@octanove.com
+Author{1}{Affiliation}#=%=#Octanove Labs LLC
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3353
+FinalPaperTitle#=%=#On the Limitations of Cross-lingual Encoders as Exposed by Reference-Free Machine Translation Evaluation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Wei Zhao
+JobTitle#==#
+Organization#==#TU Darmstadt, zhao@aiphes.tu-darmstadt.de
+Abstract#==#Evaluation of cross-lingual encoders is usually performed either via zero-shot cross-lingual transfer in supervised downstream tasks or via unsupervised cross-lingual textual similarity. In this paper, we concern ourselves with reference-free machine translation (MT) evaluation where we directly compare source texts to (sometimes low-quality) system translations, which represents a natural adversarial setup for multilingual encoders. Reference-free evaluation holds the promise of web-scale comparison of MT systems. We systematically investigate a range of metrics based on state-of-the-art cross-lingual semantic representations obtained with pretrained M-BERT and LASER. We find that they perform poorly as semantic encoders for reference-free MT evaluation and identify their two key limitations, namely, (a) a semantic mismatch between representations of mutual translations and, more prominently, (b) the inability to punish "translationese", i.e., low-quality literal translations. We propose two partial remedies: (1) post-hoc re-alignment of the vector spaces and (2) coupling of semantic-similarity based metrics with target-side language modeling. In segment-level MT evaluation, our best metric surpasses reference-based BLEU by 5.7 correlation points.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Username}#=%=#andyweizhao1
+Author{1}{Email}#=%=#andyweizhao1@gmail.com
+Author{1}{Affiliation}#=%=#TU Darmstadt
+Author{2}{Firstname}#=%=#Goran
+Author{2}{Lastname}#=%=#Glavaš
+Author{2}{Username}#=%=#gg42554
+Author{2}{Email}#=%=#goran@informatik.uni-mannheim.de
+Author{2}{Affiliation}#=%=#University of Mannheim
+Author{3}{Firstname}#=%=#Maxime
+Author{3}{Lastname}#=%=#Peyrard
+Author{3}{Username}#=%=#peyrardm
+Author{3}{Email}#=%=#maxime.peyrard@epfl.ch
+Author{3}{Affiliation}#=%=#EPFL
+Author{4}{Firstname}#=%=#Yang
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Username}#=%=#gaoyang_alex_hotmail
+Author{4}{Email}#=%=#yang.gao@rhul.ac.uk
+Author{4}{Affiliation}#=%=#Royal Holloway, University of London
+Author{5}{Firstname}#=%=#Robert
+Author{5}{Lastname}#=%=#West
+Author{5}{Username}#=%=#cervisiarius
+Author{5}{Email}#=%=#robert.west@epfl.ch
+Author{5}{Affiliation}#=%=#EPFL
+Author{6}{Firstname}#=%=#Steffen
+Author{6}{Lastname}#=%=#Eger
+Author{6}{Username}#=%=#steffen2
+Author{6}{Email}#=%=#eger.steffen@gmail.com
+Author{6}{Affiliation}#=%=#NLLG Lab, Technische Universität Darmstadt
+
+==========

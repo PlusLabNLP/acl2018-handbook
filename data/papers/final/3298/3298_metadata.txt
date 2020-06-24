@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3298
+FinalPaperTitle#=%=#A Mixture of h - 1 Heads is Better than h Heads
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Hao Peng
+JobTitle#==#
+Organization#==#Paul G. Allen Center for Computer Science & Engineering. University of Washington. 185 E Stevens Way NE, Seattle, WA 98195. USA
+Abstract#==#Multi-head attentive neural architectures have achieved state-of-the-art results on a variety of natural language processing tasks. Evidence has shown that they are overparameterized; attention heads can be pruned without significant performance loss. In this work, we instead “reallocate” them—the model learns to activate different heads on different inputs. Drawing connections between multi-head attention and mixture of experts, we propose the mixture of attentive experts model (MAE). MAE is trained using a block coordinate descent algorithm that alternates between updating (1) the responsibilities of the experts and (2) their parameters. Experiments on machine translation and language modeling show that MAE outperforms strong baselines on both tasks. Particularly, on the WMT14 English to German translation dataset, MAE improves over “transformer-base” by 0.8 BLEU, with a comparable number of parameters. Our analysis shows that our model learns to specialize different experts to different inputs.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Username}#=%=#haopeng
+Author{1}{Email}#=%=#hapeng@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Roy
+Author{2}{Lastname}#=%=#Schwartz
+Author{2}{Username}#=%=#roys02
+Author{2}{Email}#=%=#roys@allenai.org
+Author{2}{Affiliation}#=%=#The Allen Institute for AI
+Author{3}{Firstname}#=%=#Dianqi
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#cookielee77
+Author{3}{Email}#=%=#dianqili@uw.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Noah A.
+Author{4}{Lastname}#=%=#Smith
+Author{4}{Username}#=%=#nasmith
+Author{4}{Email}#=%=#nasmith@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

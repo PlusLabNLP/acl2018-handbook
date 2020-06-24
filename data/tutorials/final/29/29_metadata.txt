@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#A guide to the dataset explosion in QA, NLI, and commonsense reasoning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Question answering, natural language inference and commonsense reasoning are increasingly popular as general NLP system benchmarks, driving both modeling and dataset work. Only for QA there is already over 80 datasets, with over 25 published after 2018. However, most new datasets get "solved" soon after publication, and this is largely due to annotation artifacts and shallow cues that can be exploited by models without much actual verbal reasoning.
+
+This tutorial aims to (1) provide an up-to-date guide to the recent datasets, (2) survey the old and new methodological issues with dataset construction, and (3) outline the existing proposals for overcoming them. The target audience is the NLP practitioners who are lost in dozens of the recent datasets, and would like to know what these datasets are actually measuring. Our overview of the problems with the current datasets and the latest tips and tricks for overcoming them will also be useful to the researchers working on future benchmarks.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Rogers
+Author{1}{Username}#=%=#anna_gld
+Author{1}{Email}#=%=#anna.gld@gmail.com
+Author{1}{Affiliation}#=%=#University of Massachusets Lowell
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Rumshisky
+Author{2}{Username}#=%=#arumshisky
+Author{2}{Email}#=%=#arumshisky@gmail.com
+Author{2}{Affiliation}#=%=#University of Massachusetts Lowell
+
+==========

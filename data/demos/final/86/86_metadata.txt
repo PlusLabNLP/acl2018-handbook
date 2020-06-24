@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#SUPP.AI: finding evidence for supplement-drug interactions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lucy Lu Wang
+JobTitle#==#
+Organization#==#Allen Institute for AI, 2157 N Northlake Way #110, Seattle, WA 98103
+Abstract#==#Dietary supplements are used by a large portion of the population, but information on their pharmacologic interactions is incomplete. To address this challenge, we present SUPP.AI, an application for browsing evidence of supplement-drug interactions (SDIs) extracted from the biomedical literature. We train a model to automatically extract supplement information and identify such interactions from the scientific literature. To address the lack of labeled data for SDI identification, we use labels of the closely related task of identifying drug-drug interactions (DDIs) for supervision. We fine-tune the contextualized word representations of the RoBERTa language model using labeled DDI data, and apply the fine-tuned model to identify supplement interactions. We extract 195k evidence sentences from 22M articles (P=0.82, R=0.58, F1=0.68) for 60k interactions. We create the SUPP.AI application for users to search evidence sentences extracted by our model. SUPP.AI is an attempt to close the information gap on dietary supplements by making up-to-date evidence on SDIs more discoverable for researchers, clinicians, and consumers.
+
+An informational video on how to use SUPP.AI is available at: https://youtu.be/dR0ucKdORwc
+Author{1}{Firstname}#=%=#Lucy
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#lucylw
+Author{1}{Email}#=%=#lucyw@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for AI
+Author{2}{Firstname}#=%=#Oyvind
+Author{2}{Lastname}#=%=#Tafjord
+Author{2}{Username}#=%=#oyvindtafjord
+Author{2}{Email}#=%=#oyvindt@allenai.org
+Author{2}{Affiliation}#=%=#AI2
+Author{3}{Firstname}#=%=#Arman
+Author{3}{Lastname}#=%=#Cohan
+Author{3}{Username}#=%=#arman
+Author{3}{Email}#=%=#armanc@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for AI
+Author{4}{Firstname}#=%=#Sarthak
+Author{4}{Lastname}#=%=#Jain
+Author{4}{Username}#=%=#successar
+Author{4}{Email}#=%=#successar@gmail.com
+Author{4}{Affiliation}#=%=#Northeastern University
+Author{5}{Firstname}#=%=#Sam
+Author{5}{Lastname}#=%=#Skjonsberg
+Author{5}{Email}#=%=#sams@allenai.org
+Author{5}{Affiliation}#=%=#Allen Institute for AI
+Author{6}{Firstname}#=%=#Carissa
+Author{6}{Lastname}#=%=#Schoenick
+Author{6}{Email}#=%=#carissas@allenai.org
+Author{6}{Affiliation}#=%=#Allen Institute for AI
+Author{7}{Firstname}#=%=#Nick
+Author{7}{Lastname}#=%=#Botner
+Author{7}{Email}#=%=#nickb@allenai.org
+Author{7}{Affiliation}#=%=#Allen Institute for AI
+Author{8}{Firstname}#=%=#Waleed
+Author{8}{Lastname}#=%=#Ammar
+Author{8}{Username}#=%=#wammar
+Author{8}{Email}#=%=#wammar@google.com
+Author{8}{Affiliation}#=%=#Google
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#A Hitchhikers guide to using Transformers for multiple scenarios and languages
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Natural language process (NLP) has undergone tremendous changes in recent years. In the past two years, breakthroughs have been happening at an unprecedented pace.  However, while the performance of the NLP models gets better, models and techniques become more complex. As a result, these new developments have become less accessible to practitioners, including software engineers and data scientists, to understand and interpret. This tutorial attempts to review the recent developments in NLP models and make them accessible to practitioners.  
+
+At the center of the recent developments in NLP is the transformer architecture. The BERT (Bidirectional Encoder Representations from Transformers) paper published in late 2018 has spurred a wave of transformer-based and pre-train-and-fine-tuning NLP techniques, such as XLNet, RoBERTa, among others. These new techniques have set the new state-of-the-art (SOTA) performance in many NLP tasks. In this tutorial, we will have a close study of these transformer-based approaches and apply them in a few standard NLP tasks and across multiple languages.  We will use the open source repository (https://github.com/microsoft/nlp) to illustrate the use of transformers across different scenarios and languages. Special attention will be paid to applying these advances to non-English (and non left-to-right) languages.
+Author{1}{Firstname}#=%=#Said
+Author{1}{Lastname}#=%=#Bleik
+Author{1}{Email}#=%=#said.bleik@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Miguel
+Author{2}{Lastname}#=%=#Fierro
+Author{2}{Email}#=%=#Miguel.GonzalezFierro@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Hong
+Author{3}{Lastname}#=%=#Lu
+Author{3}{Email}#=%=#honglu@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft
+Author{4}{Firstname}#=%=#Daisy
+Author{4}{Lastname}#=%=#Deng
+Author{4}{Email}#=%=#daden@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft
+Author{5}{Firstname}#=%=#Yijing
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#Yijing.Chen@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft
+Author{6}{Firstname}#=%=#Heather
+Author{6}{Lastname}#=%=#Spetalnick
+Author{6}{Email}#=%=#heather.spetalnick@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft
+Author{7}{Firstname}#=%=#Tao
+Author{7}{Lastname}#=%=#Wu
+Author{7}{Email}#=%=#tao.wu@microsoft.com
+Author{7}{Affiliation}#=%=#Microsoft
+Author{8}{Firstname}#=%=#Sharat
+Author{8}{Lastname}#=%=#Chikkerur
+Author{8}{Username}#=%=#sharatsc
+Author{8}{Email}#=%=#sharat.chikkerur@microsoft.com
+Author{8}{Affiliation}#=%=#Microsoft
+
+==========

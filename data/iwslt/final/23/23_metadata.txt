@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#CASIA’s System for IWSLT 2020 Open Domain Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Qian Wang
+JobTitle#==#
+Organization#==#National Laboratory of Pattern Recognition, CASIA, Beijing, China
+Abstract#==#This paper describes the CASIA’s system for the IWSLT 2020 open domain translation task. This year we participate in both Chinese→Japanese and Japanese→Chinese translation tasks. Our system is neural machine translation system based on Transformer model. We augment the training data with knowledge distillation and back translation to improve the translation performance. Domain data classiﬁcation and weighted domain model ensemble are introduced to generate the ﬁnal translation result. We compare and analyze the performance on development data with different model settings and different data processing techniques.
+Author{1}{Firstname}#=%=#Qian
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#qianwang
+Author{1}{Email}#=%=#qian.wang@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yuchen
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#yuchenliu
+Author{2}{Email}#=%=#liuyuchen2016@ia.ac.cn
+Author{2}{Affiliation}#=%=#National Laboratory of Pattern Recognition, CASIA
+Author{3}{Firstname}#=%=#Cong
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#cong.ma@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#National Laboratory of Pattern Recognition, CASIA
+Author{4}{Firstname}#=%=#Yu
+Author{4}{Lastname}#=%=#Lu
+Author{4}{Username}#=%=#luyu
+Author{4}{Email}#=%=#yu.lu@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Yining
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Username}#=%=#raulwang
+Author{5}{Email}#=%=#yining.wang@nlpr.ia.ac.cn
+Author{5}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{6}{Firstname}#=%=#Long
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Username}#=%=#long.zhou
+Author{6}{Email}#=%=#long.zhou@nlpr.ia.ac.cn
+Author{6}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{7}{Firstname}#=%=#Yang
+Author{7}{Lastname}#=%=#Zhao
+Author{7}{Email}#=%=#zhaoyang2015@ia.ac.cn
+Author{7}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{8}{Firstname}#=%=#Jiajun
+Author{8}{Lastname}#=%=#Zhang
+Author{8}{Username}#=%=#jjzhang
+Author{8}{Email}#=%=#jiajun.zhang@nlpr.ia.ac.cn
+Author{8}{Affiliation}#=%=#Institute of Automation Chinese Academy of Sciences
+Author{9}{Firstname}#=%=#Chengqing
+Author{9}{Lastname}#=%=#Zong
+Author{9}{Username}#=%=#zong
+Author{9}{Email}#=%=#cqzong@nlpr.ia.ac.cn
+Author{9}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+
+==========

@@ -1,0 +1,56 @@
+SubmissionNumber#=%=#2343
+FinalPaperTitle#=%=#Zero-shot Text Classification via Reinforced Self-training
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zhiquan Ye
+JobTitle#==#
+Organization#==#Zhejiang University, Hangzhou, China
+Abstract#==#Zero-shot learning has been a tough problem since no labeled data is available for unseen classes during training, especially for classes with low similarity. In this situation, transferring from seen classes to unseen classes is extremely hard. To tackle this problem, in this paper we propose a self-training based method to efficiently leverage unlabeled data. Traditional self-training methods use fixed heuristics to select instances from unlabeled data, whose performance varies among different datasets. We propose a reinforcement learning framework to learn data selection strategy automatically and provide more reliable selection. Experimental results on both benchmarks and a real-world e-commerce dataset show that
+our approach significantly outperforms previous methods in zero-shot text classification
+Author{1}{Firstname}#=%=#Zhiquan
+Author{1}{Lastname}#=%=#Ye
+Author{1}{Username}#=%=#yezq
+Author{1}{Email}#=%=#yezq@zju.edu.cn
+Author{1}{Affiliation}#=%=#Zhejiang University
+Author{2}{Firstname}#=%=#Yuxia
+Author{2}{Lastname}#=%=#Geng
+Author{2}{Username}#=%=#gengyuxia
+Author{2}{Email}#=%=#gengyx@zju.edu.cn
+Author{2}{Affiliation}#=%=#Zhejiang University
+Author{3}{Firstname}#=%=#Jiaoyan
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#jiaoyan
+Author{3}{Email}#=%=#jiaoyan.chen@cs.ox.ac.uk
+Author{3}{Affiliation}#=%=#University of Oxford
+Author{4}{Firstname}#=%=#Jingmin
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Username}#=%=#chenjingmin
+Author{4}{Email}#=%=#26787041@qq.com
+Author{4}{Affiliation}#=%=#Alibaba Group
+Author{5}{Firstname}#=%=#Xiaoxiao
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Username}#=%=#xiaoxiao.xuxx
+Author{5}{Email}#=%=#xiaoxiao.xuxx@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group
+Author{6}{Firstname}#=%=#SuHang
+Author{6}{Lastname}#=%=#Zheng
+Author{6}{Username}#=%=#zhengsuhang
+Author{6}{Email}#=%=#suhang.zhengsh@alibaba-inc.com
+Author{6}{Affiliation}#=%=#Alibaba Group
+Author{7}{Firstname}#=%=#Feng
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Username}#=%=#windpls
+Author{7}{Email}#=%=#wf135777@alibaba-inc.com
+Author{7}{Affiliation}#=%=#Alibaba Group
+Author{8}{Firstname}#=%=#Jun
+Author{8}{Lastname}#=%=#Zhang
+Author{8}{Username}#=%=#junzhang
+Author{8}{Email}#=%=#socialnetwork@gmail.com
+Author{8}{Affiliation}#=%=#Alibaba
+Author{9}{Firstname}#=%=#Huajun
+Author{9}{Lastname}#=%=#Chen
+Author{9}{Username}#=%=#huajunsir
+Author{9}{Email}#=%=#huajunsir@zju.edu.cn
+Author{9}{Affiliation}#=%=#Zhejiang University
+
+==========

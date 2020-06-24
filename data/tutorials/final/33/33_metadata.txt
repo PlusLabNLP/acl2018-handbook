@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Tutorial: Representation, Learning and Reasoning on Spatial Language for Down-stream NLP Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Understanding spatial semantics expressed in natural language can become highly complex in real-world applications. This includes applications of language grounding, navigation, visual question answering, and more generic human-machine interaction and dialogue systems. In many of such down-stream tasks, explicit representation of spatial concepts and relationships can improve the capabilities of machine learning models in reasoning and deep language understanding. In this tutorial, we overview the cutting-edge research results and existing challenges related to spatial language understanding including semantic annotations, existing corpora, symbolic and sub-symbolic representations, qualitative spatial reasoning, deep and structured learning models.  We discuss the recent results on the above-mentioned applications --that need spatial language learning and reasoning -- and highlight the research gaps and future directions.
+Author{1}{Firstname}#=%=#Parisa
+Author{1}{Lastname}#=%=#Kordjamshidi
+Author{1}{Username}#=%=#parisa
+Author{1}{Email}#=%=#kordjams@msu.edu
+Author{1}{Affiliation}#=%=#Michigan State University
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Pustejovsky
+Author{2}{Username}#=%=#jamesp
+Author{2}{Email}#=%=#jamesp@cs.brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Marie-Francine
+Author{3}{Lastname}#=%=#Moens
+Author{3}{Username}#=%=#sien.moens
+Author{3}{Email}#=%=#sien.moens@cs.kuleuven.be
+Author{3}{Affiliation}#=%=#KU Leuven
+
+==========

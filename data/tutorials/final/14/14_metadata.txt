@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Integrating Ethics into the NLP Curriculum
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Emily M.Bender
+JobTitle#==#
+Organization#==#
+Abstract#==#To raise awareness among future NLP practitioners and prevent inertia in the field, we need to place ethics in the curriculum for all NLP students---not as an elective, but as a core part of their education. Our goal in this tutorial is to empower NLP researchers and practitioners with tools and resources to teach others about how to ethically apply NLP techniques. We will present both high-level strategies for developing an ethics-oriented curriculum, based on experience and best practices, as well as specific sample exercises that can be brought to a classroom. This highly interactive work session will culminate in a shared online resource page that pools lesson plans, assignments, exercise ideas, reading suggestions, and ideas from the attendees. Though the tutorial will focus particularly on examples for university classrooms, we believe these ideas can extend to company-internal workshops or tutorials in a variety of organizations. In this setting, a key lesson is that there is no single approach to ethical NLP: each project requires thoughtful consideration about what steps can be taken to best support people affected by that project. However, we can learn (and teach) what issues to be aware of, what questions to ask, and what strategies are available to mitigate harm.
+Author{1}{Firstname}#=%=#Emily M.
+Author{1}{Lastname}#=%=#Bender
+Author{1}{Username}#=%=#ebender
+Author{1}{Email}#=%=#ebender@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Dirk
+Author{2}{Lastname}#=%=#Hovy
+Author{2}{Username}#=%=#dirkh1981
+Author{2}{Email}#=%=#mail@dirkhovy.com
+Author{2}{Affiliation}#=%=#Bocconi University
+Author{3}{Firstname}#=%=#Alexandra
+Author{3}{Lastname}#=%=#Schofield
+Author{3}{Username}#=%=#xandaschofield
+Author{3}{Email}#=%=#xanda@cs.hmc.edu
+Author{3}{Affiliation}#=%=#Harvey Mudd College
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2573
+FinalPaperTitle#=%=#Multi-Cell Compositional LSTM for NER Domain Adaptation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Chen Jia
+JobTitle#==#
+Organization#==#Fudan University, China
+Abstract#==#Cross-domain NER is a challenging yet practical problem. Entity mentions can be highly different across domains. However, the correlations between entity types can be relatively more stable across domains. We investigate a multi-cell compositional LSTM structure for multi-task learning, modeling each entity type using a separate cell state. With the help of entity typed units, cross-domain knowledge transfer can be made in an entity type level. Theoretically, the resulting distinct feature distributions for each entity type make it more powerful for cross-domain transfer. Empirically, experiments on four few-shot and zero-shot datasets show our method significantly outperforms a series of multi-task learning methods and achieves the best results.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Jia
+Author{1}{Username}#=%=#chen_jia
+Author{1}{Email}#=%=#jiachen@westlake.edu.cn
+Author{1}{Affiliation}#=%=#Fudan University
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Username}#=%=#frcchang
+Author{2}{Email}#=%=#yue.zhang@wias.org.cn
+Author{2}{Affiliation}#=%=#Westlake University
+
+==========

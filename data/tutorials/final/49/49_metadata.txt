@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Multi-hop Question Answering over Knowledge Bases and Text
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The ability to do reasoning and inference by combining multiple pieces of evidence is an important aspect of intelligence. These evidence can possibly originate from disparate sources of information (e.g. text, images, knowledge bases), and developing models that can seamlessly reason over them, has been a long-standing challenge of artificial intelligence. Question answering (QA) provides a natural way of testing a models capability to do such \emph{multi-hop reasoning} --- by probing it with queries that require such kind of reasoning. This tutorial will be focused on the recent progress in multi-hop reasoning over knowledge bases (KB) and text.\footnote{Although, there is a rich literature of work combining text and visual reasoning, it will be out of scope for this tutorial.}
+Author{1}{Firstname}#=%=#Rajarshi
+Author{1}{Lastname}#=%=#Das
+Author{1}{Username}#=%=#rajdas14
+Author{1}{Email}#=%=#rajarshi@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#Bhuwan
+Author{2}{Lastname}#=%=#Dhingra
+Author{2}{Username}#=%=#bdhingra
+Author{2}{Email}#=%=#bdhingra@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Xi Victoria
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Username}#=%=#purenanya
+Author{3}{Email}#=%=#purenanya@gmail.com
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Manzil
+Author{4}{Lastname}#=%=#Zaheer
+Author{4}{Username}#=%=#manzilzaheer
+Author{4}{Email}#=%=#manzil@zaheer.ml
+Author{4}{Affiliation}#=%=#Google Inc
+Author{5}{Firstname}#=%=#William
+Author{5}{Lastname}#=%=#Cohen
+Author{5}{Username}#=%=#wcohen
+Author{5}{Email}#=%=#wcohen@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Andrew
+Author{6}{Lastname}#=%=#McCallum
+Author{6}{Username}#=%=#mccallum
+Author{6}{Email}#=%=#mccallum@cs.umass.edu
+Author{6}{Affiliation}#=%=#UMass Amherst
+
+==========

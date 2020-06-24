@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#AI Sensing for Robotics using Deep Learning based Visual and Language Modeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#vijaya yuvaram singh
+JobTitle#==#
+Organization#==#hcl technology Noida, India, 201304
+Abstract#==#An artificial intelligence(AI) system should be capable of processing the sensory inputs to extract both task-specific and general information about its environment. However, most of the existing algorithms extract only task specific information. In this work, an innovative approach to address the problem of processing visual sensory data is presented by utilizing convolutional neural network (CNN). It recognizes and represents the physical and semantic nature of the surrounding in both human readable and machine processable format. This work utilizes the image captioning model to capture the semantics of the input image and a modular design to generate a probability distribution for semantic topics. It gives any autonomous system the ability to process visual information in a human-like way and generates more insights which are hardly possible with a conventional algorithm. Here a model and data collection method are proposed.
+Author{1}{Firstname}#=%=#yuvaram
+Author{1}{Lastname}#=%=#singh
+Author{1}{Username}#=%=#yuvaram
+Author{1}{Email}#=%=#yuvaramsingh94@gmail.com
+Author{1}{Affiliation}#=%=#HCL
+Author{2}{Firstname}#=%=#Kameshwar Rao
+Author{2}{Lastname}#=%=#JV
+Author{2}{Email}#=%=#kameshjvkr@gmail.com
+Author{2}{Affiliation}#=%=#HCL
+
+==========

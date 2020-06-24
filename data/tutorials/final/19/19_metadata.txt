@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Self-Supervised Deep Learning for NLP
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Self-supervised deep learning (SSDL) methods emerge as a promising learning paradigm in the field of Computer Vision recently. The approach cleverly formulates supervised learning problems using dense learning signals, without the need of external human annotations. Beyond Vision, it is a general framework that enables a variety of learning models, including deep reinforcement learning and the success of AlphaGo Zero. In NLP, SSDL has also achieved promising results in representation learning, including masked language models, such as BERT and XLNet.
+
+In this tutorial, we provide a gentle introduction to the foundation of self-supervised deep learning, as well as some practical problem formulations and solutions in NLP. We describe recent advances in self-supervised deep learning for NLP, with a special focus on generation and language models. We provide an overview of the research area, categorize different types of self-supervised learning models, and discuss pros and cons, aiming to provide some interpretations and practical perspectives on the future of self-supervised learning for solving real-world NLP problems.
+Author{1}{Firstname}#=%=#William Yang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#wangwilliamyang
+Author{1}{Email}#=%=#william@cs.ucsb.edu
+Author{1}{Affiliation}#=%=#Unversity of California, Santa Barbara
+Author{2}{Firstname}#=%=#Zhilin
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Username}#=%=#kimiyoung
+Author{2}{Email}#=%=#kimi_yang@rcrai.com
+Author{2}{Affiliation}#=%=#Recurrent AI
+
+==========

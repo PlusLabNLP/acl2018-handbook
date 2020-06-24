@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1978
+FinalPaperTitle#=%=#Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Katherine Keith
+JobTitle#==#
+Organization#==#University of Massachusetts Amherst, 140 Governors Dr, Amherst, MA 01002
+Abstract#==#Many applications of computational social science aim to infer causal conclusions from non-experimental data. Such observational data often contains confounders, variables that influence both potential causes and potential effects. Unmeasured or latent confounders can bias causal estimates, and this has motivated interest in measuring potential confounders from observed text. For example, an individual’s entire history of social media posts or the content of a news article could provide a rich measurement of multiple confounders.Yet, methods and applications for this problem are scattered across different communities and evaluation practices are inconsistent.This review is the first to gather and categorize these examples and provide a guide to data-processing and evaluation decisions. Despite increased attention on adjusting for confounding using text, there are still many open problems, which we highlight in this paper.
+Author{1}{Firstname}#=%=#Katherine
+Author{1}{Lastname}#=%=#Keith
+Author{1}{Username}#=%=#kkeith
+Author{1}{Email}#=%=#kkeith@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Jensen
+Author{2}{Username}#=%=#ddjensen
+Author{2}{Email}#=%=#jensen@cs.umass.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{3}{Firstname}#=%=#Brendan
+Author{3}{Lastname}#=%=#O'Connor
+Author{3}{Username}#=%=#brenocon
+Author{3}{Email}#=%=#brenocon@cs.umass.edu
+Author{3}{Affiliation}#=%=#University of Massachusetts Amherst
+
+==========

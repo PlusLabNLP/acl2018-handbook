@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#945
+FinalPaperTitle#=%=#Beyond Possession Existence: Duration and Co-Possession
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Dhivya Chinnappa
+JobTitle#==#
+Organization#==#Dhivya Chinnappa, Thomson Reuters
+Abstract#==#This paper introduces two tasks: determining (a) the duration of possession relations and (b) co-possessions, i.e., whether multiple possessors possess a possessee at the same time.
+We present new annotations on top of corpora annotating possession existence and experimental results. Regarding possession duration, we derive the time spans we work with empirically from annotations indicating lower and upper bounds. Regarding co-possessions, we use a binary label. Cohen's kappa coefficients indicate substantial agreement, and experimental results show that text is more useful than the image for solving these tasks.
+Author{1}{Firstname}#=%=#Dhivya
+Author{1}{Lastname}#=%=#Chinnappa
+Author{1}{Username}#=%=#dhivya
+Author{1}{Email}#=%=#dhivya.chinnappa@thomsonreuters.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Srikala
+Author{2}{Lastname}#=%=#Murugan
+Author{2}{Username}#=%=#msrikala
+Author{2}{Email}#=%=#srikalamurugan@my.unt.edu
+Author{2}{Affiliation}#=%=#University of North Texas
+Author{3}{Firstname}#=%=#Eduardo
+Author{3}{Lastname}#=%=#Blanco
+Author{3}{Username}#=%=#edublv
+Author{3}{Email}#=%=#eduardo.blanco@unt.edu
+Author{3}{Affiliation}#=%=#University of North Texas
+
+==========

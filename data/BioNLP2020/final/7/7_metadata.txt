@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Sequence-to-Set Semantic Tagging for Complex Query Reformulation and Automated Text Categorization in Biomedical IR using Self-Attention
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Manirupa Das
+JobTitle#==#
+Organization#==#Amazon, 550 Terry Ave N., Seattle, WA 98109
+Abstract#==#Novel contexts, comprising a set of terms referring to one or more concepts, may often arise in complex querying scenarios such as in evidence-based medicine (EBM) involving biomedical literature. These may not explicitly refer to entities or canonical concept forms occurring in a fact-based knowledge source, e.g. the UMLS ontology. Moreover, hidden associations between related concepts meaningful in the current context, may not exist within a single document, but across documents in the collection. Predicting semantic concept tags of documents can therefore serve to associate  documents related in unseen contexts, or categorize them, in information filtering or retrieval scenarios. Thus, inspired by the success of sequence-to-sequence neural models, we develop a novel sequence-to-set framework with attention, for learning document representations in a unique unsupervised setting, using no human-annotated document labels or external knowledge resources and only corpus-derived term statistics to drive the training, that can effect term transfer within a corpus for semantically tagging a large collection of documents. Our sequence-to-set modeling approach to predict semantic tags, gives to the best of our knowledge, the state-of-the-art for both, an unsupervised query expansion (QE) task for the TREC CDS 2016 challenge dataset when evaluated on an Okapi BM25--based document retrieval system; and also over the MLTM system baseline baseline (Soleimani and Miller, 2016), for both supervised and semi-supervised multi-label prediction tasks on the del.icio.us and Ohsumed datasets. We make our code and data publicly available.
+Author{1}{Firstname}#=%=#Manirupa
+Author{1}{Lastname}#=%=#Das
+Author{1}{Username}#=%=#manirupa
+Author{1}{Email}#=%=#manirupa@gmail.com
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Juanxi
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#li.8767@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Username}#=%=#fosler
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Simon
+Author{4}{Lastname}#=%=#Lin
+Author{4}{Email}#=%=#Simon.Lin@nationwidechildrens.org
+Author{4}{Affiliation}#=%=#Nationwide Childrens' Hospital
+Author{5}{Firstname}#=%=#Steve
+Author{5}{Lastname}#=%=#Rust
+Author{5}{Email}#=%=#Steve.Rust@nationwidechildrens.org
+Author{5}{Affiliation}#=%=#Nationwide Childrens' Hospital
+Author{6}{Firstname}#=%=#Yungui
+Author{6}{Lastname}#=%=#Huang
+Author{6}{Email}#=%=#Yungui.Huang@nationwidechildrens.org
+Author{6}{Affiliation}#=%=#Nationwide Childrens' Hospital
+Author{7}{Firstname}#=%=#Rajiv
+Author{7}{Lastname}#=%=#Ramnath
+Author{7}{Email}#=%=#ramnath.6@osu.edu
+Author{7}{Affiliation}#=%=#The Ohio State University
+
+==========

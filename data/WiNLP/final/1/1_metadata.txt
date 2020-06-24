@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Corpus based Amharic sentiment lexicon generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Girma Neshir
+JobTitle#==#
+Organization#==#Addis Ababa University
+Abstract#==#Sentiment classification is an active research area with several applications including analysis of political opinions, classifying comments, movie reviews, news reviews and product reviews. To employ rule based sentiment classification, we require sentiment lexicons. However, manual construction of sentiment lexicon is time consuming and costly for resource-limited languages. To bypass manual development time and costs, we tried to build Amharic Sentiment Lexicons relying on corpus based approach. The intention of this approach is to handle sentiment terms specific to Amharic language from Amharic Corpus. Small set of seed terms are manually prepared from three parts of speech such as noun, adjective and verb. We developed algorithms for constructing Amharic sentiment lexicons automatically from Amharic news corpus. Corpus based approach is proposed relying on the word co-occurrence distributional embedding including frequency based embedding (i.e. Positive Point-wise Mutual Information PPMI). Using PPMI with threshold value of 100 and 200, we got corpus based Amharic Sentiment lexicons of size 1811 and 3794 respectively by expanding 519 seeds. Finally, the lexicon generated in corpus based approach is evaluated.
+Author{1}{Firstname}#=%=#Girma Neshir
+Author{1}{Lastname}#=%=#Alemneh
+Author{1}{Username}#=%=#girma2010
+Author{1}{Email}#=%=#girma1978@gmail.com
+Author{1}{Affiliation}#=%=#Addis Ababa University
+Author{2}{Firstname}#=%=#Andreas
+Author{2}{Lastname}#=%=#Rauber
+Author{2}{Email}#=%=#rauber@ifs.tuwien.ac.at
+Author{2}{Affiliation}#=%=#Technical University of Vienna, Institute of Information Systems Engineering, Austria,
+Author{3}{Firstname}#=%=#Solomon
+Author{3}{Lastname}#=%=#Atnafu
+Author{3}{Email}#=%=#solomon.atnafu@aau.edu.et
+Author{3}{Affiliation}#=%=#Addis Ababa University , Ethiopia
+
+==========

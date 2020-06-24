@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#438
+FinalPaperTitle#=%=#Taxonomy Construction of Unseen Domains via Graph-based Cross-Domain Knowledge Transfer
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chao Shang
+JobTitle#==#
+Organization#==#University of Connecticut
+Abstract#==#Extracting lexico-semantic relations as graph-structured taxonomies, also known as taxonomy construction, has been beneficial in a variety of NLP applications. Recently Graph Neural Network (GNN) has shown to be powerful in successfully tackling many tasks. However, there has been no attempt to exploit GNN to create taxonomies. In this paper, we propose Graph2Taxo, a GNN-based cross-domain transfer framework for the taxonomy construction task. Our main contribution is to learn the latent features of taxonomy construction from existing domains to guide the structure learning of an unseen domain. We also propose a novel method of directed acyclic graph (DAG) generation for taxonomy construction. Specifically, our proposed Graph2Taxo uses a noisy graph constructed from automatically extracted noisy hyponym hypernym candidate pairs, and a set of taxonomies for some known domains for training. The learned model is then used to generate taxonomy for a new unknown domain given a set of terms for that domain. Experiments on benchmark datasets from science and environment domains show that our approach attains significant improvements correspondingly over the state of the art.
+Author{1}{Firstname}#=%=#Chao
+Author{1}{Lastname}#=%=#Shang
+Author{1}{Username}#=%=#chaoshang
+Author{1}{Email}#=%=#chao.shang@uconn.edu
+Author{1}{Affiliation}#=%=#University of Connecticut
+Author{2}{Firstname}#=%=#Sarthak
+Author{2}{Lastname}#=%=#Dash
+Author{2}{Username}#=%=#sdash
+Author{2}{Email}#=%=#sdash@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM
+Author{3}{Firstname}#=%=#Md. Faisal Mahbub
+Author{3}{Lastname}#=%=#Chowdhury
+Author{3}{Username}#=%=#fmchowdhury
+Author{3}{Email}#=%=#mchowdh@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research AI
+Author{4}{Firstname}#=%=#Nandana
+Author{4}{Lastname}#=%=#Mihindukulasooriya
+Author{4}{Username}#=%=#nandana
+Author{4}{Email}#=%=#nandana.sampath.mihindukulasooriya@ibm.com
+Author{4}{Affiliation}#=%=#IBM Research AI
+Author{5}{Firstname}#=%=#Alfio
+Author{5}{Lastname}#=%=#Gliozzo
+Author{5}{Username}#=%=#gliozzo
+Author{5}{Email}#=%=#gliozzo@us.ibm.com
+Author{5}{Affiliation}#=%=#IBM Research AI
+
+==========

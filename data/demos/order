@@ -1,0 +1,222 @@
+* Monday, July 6, 2020 UTC+0
+= 
+= 05:00--05:45 Demo Session 1A
+= 
+35   # {X}iaomingbot: {A} {M}ultilingual {R}obot {N}ews {R}eporter
++  
+= 05:45--06:30 Demo Session 1B
+= 
+46   # {T}ext{B}rewer: {A}n {O}pen-{S}ource {K}nowledge {D}istillation {T}oolkit for {N}atural {L}anguage {P}rocessing
++  
+= 06:30--07:15 Demo Session 1C
+44   # Syntactic Search by Example
++  
+= 08:00--08:45 Demo Session 2A
+32   # {T}abouid: a {W}ikipedia-based word guessing game
++  
+48   # Talk to Papers: Bringing Neural Question Answering to Academic Search
++  
+= 08:45--09:30 Demo Session 2B
+69   # Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation
++  
+= 09:30--10:15 Demo Session 2C
+59   # pyBART: Evidence-based Syntactic Transformations for IE
++  
+= 12:00--12:45 Demo Session 3A
+24   # EVIDENCEMINER: Textual Evidence Discovery for Life Sciences
++  
+107   # Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time
++  
+= 12:45--13:30 Demo Session 3B
+#46  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {T}ext{B}rewer: {A}n {O}pen-{S}ource {K}nowledge {D}istillation {T}oolkit for {N}atural {L}anguage {P}rocessing
++  
+90   # SyntaxGym: An Online Platform for Targeted Evaluation of Language Models
++  
+= 13:30--14:15 Demo Session 3C
+#32  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {T}abouid: a {W}ikipedia-based word guessing game
++  
+#44  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Syntactic Search by Example
++  
+= 17:00--17:45 Demo Session 4A
+#69  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation
++  
+94   # GAIA: A Fine-grained Multimedia Knowledge Extraction System
++  
+116   # Multilingual Universal Sentence Encoder for Semantic Retrieval
++  
+= 17:45--18:30 Demo Session 4B
+#48  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Talk to Papers: Bringing Neural Question Answering to Academic Search
++  
+104   # BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab
++  
+115   # Stanza: A Python Natural Language Processing Toolkit for Many Human Languages
++  
+= 18:30--19:15 Demo Session 4C
+#35  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {X}iaomingbot: {A} {M}ultilingual {R}obot {N}ews {R}eporter
++  
+47   # jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models
++  
+91   # The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding
++  
+= 20:00--20:45 Demo Session 5A
+#94  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # GAIA: A Fine-grained Multimedia Knowledge Extraction System
++  
+#107  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time
++  
+#59  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # pyBART: Evidence-based Syntactic Transformations for IE
++  
+= 20:45--21:30 Demo Session 5B
+#116  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Multilingual Universal Sentence Encoder for Semantic Retrieval
++  
+#90  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # SyntaxGym: An Online Platform for Targeted Evaluation of Language Models
++  
+= 21:30--22:15 Demo Session 5C
+#47  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models
++  
+#91  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding
++  
+#115  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Stanza: A Python Natural Language Processing Toolkit for Many Human Languages
++  
+* Tuesday, July 7, 2020 UTC+0
+= 05:00--05:45 Demo Session 1A
+139   # LinggleWrite: a Coaching System for Essay Writing
++  
+= 05:45--06:30 Demo Session 1B
+66   # CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task
++  
+= 06:30--07:15 Demo Session 1C
+49   # ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems
++  
+= 08:00--08:45 Demo Session 2A
+54   # OpusFilter: A Configurable Parallel Corpus Filtering Toolbox
++  
+= 08:45--09:30 Demo Session 2B
+#139  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # LinggleWrite: a Coaching System for Essay Writing
++  
+= 12:00--12:45 Demo Session 3A
+#24  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # EVIDENCEMINER: Textual Evidence Discovery for Life Sciences
++  
+#49  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems
++  
+= 12:45--13:30 Demo Session 3B
+#66  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task
++  
+89   # Label Noise in Context
++  
+= 13:30--14:15 Demo Session 3C
+84   # ex{BERT}: {A} {V}isual {A}nalysis {T}ool to {E}xplore {L}earned {R}epresentations in {T}ransformer {M}odels
++  
+= 17:00--17:45 Demo Session 4A
+45   # Nakdan: Professional Hebrew Diacritizer
++  
+130   # Photon: A Robust Cross-Domain Text-to-SQL System
++  
+#54  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # OpusFilter: A Configurable Parallel Corpus Filtering Toolbox
++  
+= 17:45--18:30 Demo Session 4B
+#104  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab
++  
+41   # Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations
++  
+28   # MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform
++  
+= 18:30--19:15 Demo Session 4C
+39   # NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature
++  
+96   # Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines
++  
+102   # Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing
++  
+= 20:00--20:45 Demo Session 5A
+37   # DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation
++  
+#89  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Label Noise in Context
++  
+#130  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Photon: A Robust Cross-Domain Text-to-SQL System
++  
+= 20:45--21:30 Demo Session 5B
+#41  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations
++  
+#84  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # ex{BERT}: {A} {V}isual {A}nalysis {T}ool to {E}xplore {L}earned {R}epresentations in {T}ransformer {M}odels
++  
+= 21:30--22:15 Demo Session 5C
+#39  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature
++  
+#96  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines
++  
+#102  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing
++  
+* Wednesday, July 8, 2020 UTC+0
+= 05:00--05:45 Demo Session 1A
+61   # ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents
++  
+120   # Prta: A System to Support the Analysis of Propaganda Techniques in the News
++  
+= 05:45--06:30 Demo Session 1B
+31   # Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes
++  
+67   # ESPnet-ST: All-in-One Speech Translation Toolkit
++  
+= 06:30--07:15 Demo Session 1C
+124   # Penman: An Open-Source Library and Tool for AMR Graphs
++  
+= 08:00--08:45 Demo Session 2A
+93   # Embedding-based Scientific Literature Discovery in a Text Editor Application
++  
+= 08:45--09:30 Demo Session 2B
+33   # {MMPE}: {A} {M}ulti-{M}odal {I}nterface using {H}andwriting, {T}ouch {R}eordering, and {S}peech {C}ommands for {P}ost-{E}diting {M}achine {T}ranslation
++  
+= 09:30--10:15 Demo Session 2C
+#61  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents
++  
+= 12:00--12:45 Demo Session 3A
+101   # Torch-Struct: Deep Structured Prediction Library
++  
+79   # {C}onversation {L}earner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems
++  
+#67  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # ESPnet-ST: All-in-One Speech Translation Toolkit
++  
+= 12:45--13:30 Demo Session 3B
+#31  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes
++  
+#120  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Prta: A System to Support the Analysis of Propaganda Techniques in the News
++  
+58   # NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg
++  
+= 13:30--14:15 Demo Session 3C
+#93  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Embedding-based Scientific Literature Discovery in a Text Editor Application
++  
+#124  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Penman: An Open-Source Library and Tool for AMR Graphs
++  
+= 17:00--17:45 Demo Session 4A
+#45  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Nakdan: Professional Hebrew Diacritizer
++  
+86   # SUPP.AI: finding evidence for supplement-drug interactions
++  
+= 17:45--18:30 Demo Session 4B
+#79  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {C}onversation {L}earner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems
++  
+87   # LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation
++  
+= 18:30--19:15 Demo Session 4C
+#33  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {MMPE}: {A} {M}ulti-{M}odal {I}nterface using {H}andwriting, {T}ouch {R}eordering, and {S}peech {C}ommands for {P}ost-{E}diting {M}achine {T}ranslation
++  
+100   # What___s The Latest? A Question-driven News Chatbot
++  
+= 20:00--20:45 Demo Session 5A
+#28  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform
++  
+#37  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation
++  
+#86  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # SUPP.AI: finding evidence for supplement-drug interactions
++  
+= 20:45--21:30 Demo Session 5B
+#58  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg
++  
+#87  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation
++  
+= 21:30--22:15 Demo Session 5C
+#100  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # What___s The Latest? A Question-driven News Chatbot
++  
+#101  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Torch-Struct: Deep Structured Prediction Library
++  

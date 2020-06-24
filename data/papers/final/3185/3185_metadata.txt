@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3185
+FinalPaperTitle#=%=#In Neural Machine Translation, What Does Transfer Learning Transfer?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alham Fikri Aji
+JobTitle#==#
+Organization#==#University of Edinburgh
+Abstract#==#Transfer learning improves quality for low-resource machine translation, but it is unclear what exactly it transfers. We perform several ablation studies that limit information transfer, then measure the quality impact across three language pairs to gain a black-box understanding of transfer learning.  Word embeddings play an important role in transfer learning, particularly if they are properly aligned.  Although transfer learning can be performed without embeddings, results are sub-optimal. In contrast, transferring only the embeddings but nothing else yields catastrophic results. We then investigate diagonal alignments with auto-encoders over real languages and randomly generated sequences, finding even randomly generated sequences as parents yield noticeable but smaller gains. Finally, transfer learning can eliminate the need for a warm-up phase when training transformer models in high resource language pairs.
+Author{1}{Firstname}#=%=#Alham Fikri
+Author{1}{Lastname}#=%=#Aji
+Author{1}{Username}#=%=#afaji321
+Author{1}{Email}#=%=#afaji321@gmail.com
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Nikolay
+Author{2}{Lastname}#=%=#Bogoychev
+Author{2}{Username}#=%=#xapajiamnu
+Author{2}{Email}#=%=#nbogoych@exseed.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Kenneth
+Author{3}{Lastname}#=%=#Heafield
+Author{3}{Username}#=%=#heafield
+Author{3}{Email}#=%=#softconf@kheafield.com
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Rico
+Author{4}{Lastname}#=%=#Sennrich
+Author{4}{Username}#=%=#rsennrich
+Author{4}{Email}#=%=#sennrich@cl.uzh.ch
+Author{4}{Affiliation}#=%=#University of Zurich
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1814
+FinalPaperTitle#=%=#Obtaining Faithful Interpretations from Compositional Neural Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Sanjay Subramanian
+JobTitle#==#
+Organization#==#Allen Institute for Artificial Intelligence, 2157 North Northlake Way, Seattle, WA 98103
+Abstract#==#Neural module networks (NMNs) are a popular approach for modeling compositionality: they achieve high accuracy when applied to problems in language and vision, while  reflecting the compositional structure of the problem in the network architecture. However, prior work implicitly assumed that the structure of the network modules, describing the abstract reasoning process, provides a faithful explanation of the model's reasoning; that is, that all modules perform their intended behaviour. In this work, we propose and conduct a systematic evaluation of the intermediate outputs of NMNs on NLVR2 and DROP, two datasets which require composing multiple reasoning steps. We find that the intermediate outputs differ from the expected output, illustrating that the network structure does not provide a faithful explanation of model behaviour. To remedy that, we train the model with auxiliary supervision and propose particular choices for module architecture that yield much better faithfulness, at a minimal cost to accuracy.
+Author{1}{Firstname}#=%=#Sanjay
+Author{1}{Lastname}#=%=#Subramanian
+Author{1}{Username}#=%=#sanjayss34
+Author{1}{Email}#=%=#sanjays@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{2}{Firstname}#=%=#Ben
+Author{2}{Lastname}#=%=#Bogin
+Author{2}{Username}#=%=#benb
+Author{2}{Email}#=%=#ben.bogin@cs.tau.ac.il
+Author{2}{Affiliation}#=%=#Tel Aviv University
+Author{3}{Firstname}#=%=#Nitish
+Author{3}{Lastname}#=%=#Gupta
+Author{3}{Username}#=%=#nitishgupta
+Author{3}{Email}#=%=#nitishg@seas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Tomer
+Author{4}{Lastname}#=%=#Wolfson
+Author{4}{Username}#=%=#tomerwolfson
+Author{4}{Email}#=%=#tomerwol@mail.tau.ac.il
+Author{4}{Affiliation}#=%=#Tel Aviv University
+Author{5}{Firstname}#=%=#Sameer
+Author{5}{Lastname}#=%=#Singh
+Author{5}{Username}#=%=#sameer
+Author{5}{Email}#=%=#sameer@uci.edu
+Author{5}{Affiliation}#=%=#University of California, Irvine
+Author{6}{Firstname}#=%=#Jonathan
+Author{6}{Lastname}#=%=#Berant
+Author{6}{Username}#=%=#joberant
+Author{6}{Email}#=%=#joberant@cs.tau.ac.il
+Author{6}{Affiliation}#=%=#Tel Aviv University and AI2
+Author{7}{Firstname}#=%=#Matt
+Author{7}{Lastname}#=%=#Gardner
+Author{7}{Username}#=%=#mattg
+Author{7}{Email}#=%=#mattg@allenai.org
+Author{7}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#2183
+FinalPaperTitle#=%=#{C}amem{BERT}: a Tasty French Language Model
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Louis Martin
+JobTitle#==#
+Organization#==#Inria: Domaine de Voluceau, 78150 Rocquencourt, France
+Abstract#==#Pretrained language models are now ubiquitous in Natural Language Processing. 
+Despite their success, most available models have either been trained on English data or on the concatenation of data in multiple languages. This makes practical use of such models --in all languages except English-- very limited. In this paper, we investigate the feasibility of training monolingual Transformer-based language models for other languages, taking French as an example and evaluating our language models on part-of-speech tagging, dependency parsing, named entity recognition and natural language inference tasks. We show that the use of web crawled data is preferable to the use of Wikipedia data. More surprisingly, we show that a relatively small web crawled dataset (4GB) leads to results that are as good as those obtained using larger datasets (130+GB). Our best performing model CamemBERT reaches or improves the state of the art in all four downstream tasks.
+Author{1}{Firstname}#=%=#Louis
+Author{1}{Lastname}#=%=#Martin
+Author{1}{Username}#=%=#louismartin
+Author{1}{Email}#=%=#louismartincs@gmail.com
+Author{1}{Affiliation}#=%=#Facebook AI Research / Inria
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Muller
+Author{2}{Username}#=%=#bemuller
+Author{2}{Email}#=%=#benjamin.muller@inria.fr
+Author{2}{Affiliation}#=%=#INRIA
+Author{3}{Firstname}#=%=#Pedro Javier
+Author{3}{Lastname}#=%=#Ortiz Suárez
+Author{3}{Username}#=%=#pjox
+Author{3}{Email}#=%=#pedro.ortiz@inria.fr
+Author{3}{Affiliation}#=%=#Inria / Sorbonne Université
+Author{4}{Firstname}#=%=#Yoann
+Author{4}{Lastname}#=%=#Dupont
+Author{4}{Username}#=%=#yodube
+Author{4}{Email}#=%=#yoa.dupont@gmail.com
+Author{4}{Affiliation}#=%=#Sorbonne-Université
+Author{5}{Firstname}#=%=#Laurent
+Author{5}{Lastname}#=%=#Romary
+Author{5}{Username}#=%=#romary
+Author{5}{Email}#=%=#laurent.romary@inria.fr
+Author{5}{Affiliation}#=%=#Inria
+Author{6}{Firstname}#=%=#Éric
+Author{6}{Lastname}#=%=#de la Clergerie
+Author{6}{Username}#=%=#eric.de_la_clergerie
+Author{6}{Email}#=%=#eric.de_la_clergerie@inria.fr
+Author{6}{Affiliation}#=%=#INRIA
+Author{7}{Firstname}#=%=#Djamé
+Author{7}{Lastname}#=%=#Seddah
+Author{7}{Username}#=%=#djame
+Author{7}{Email}#=%=#djame.seddah@gmail.com
+Author{7}{Affiliation}#=%=#Inria
+Author{8}{Firstname}#=%=#Benoît
+Author{8}{Lastname}#=%=#Sagot
+Author{8}{Username}#=%=#benoit.sagot
+Author{8}{Email}#=%=#benoit.sagot@inria.fr
+Author{8}{Affiliation}#=%=#Inria
+
+==========

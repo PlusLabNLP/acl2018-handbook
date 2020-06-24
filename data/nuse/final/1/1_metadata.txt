@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mark Finlayson
+JobTitle#==#
+Organization#==#FIU SCIS, CASE 362, 11200 SW 8th St., Miami, FL 33199
+Abstract#==#Cross-Document Event Coreference (CDEC) is the task of finding coreference relationships between events in separate documents, most commonly assessed using the Event Coreference Bank+ corpus (ECB+). At least two different approaches have been proposed for CDEC on ECB+ that use only event triggers, and at least four have been proposed that use both triggers and entities. Comparing these approaches is complicated by variation in the systems’ use of gold vs. computed labels, as well as variation in the document clustering pre-processing step. We present an approach that matches or slightly beats state-of-the-art performance on CDEC over ECB+ with only event trigger annotations, but with a significantly simpler framework and much smaller feature set relative to prior work. This study allows us to directly compare with prior systems and draw conclusions about the effectiveness of various strategies. Additionally, we provide the first cross-validated evaluation on the ECB+ dataset; the first explicit evaluation of the pairwise event coreference classification step; and the first quantification of the effect of document clustering on system performance. The last in particular reveals that while document clustering is a crucial pre-processing step, improvements can at most provide for a 3 point improvement in CDEC performance, though this might be attributable to ease of document clustering on ECB+.
+Author{1}{Firstname}#=%=#Andres
+Author{1}{Lastname}#=%=#Cremisini
+Author{1}{Email}#=%=#acrem003@fiu.edu
+Author{1}{Affiliation}#=%=#Florida International Unviersity
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Finlayson
+Author{2}{Username}#=%=#markaf33
+Author{2}{Email}#=%=#markaf@fiu.edu
+Author{2}{Affiliation}#=%=#FIU
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1595
+FinalPaperTitle#=%=#Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zhiyong Wu
+JobTitle#==#
+Organization#==#University of Hong Kong, Hong Kong, China
+Abstract#==#By introducing a small set of additional parameters, a {\it probe} learns to solve specific linguistic tasks (e.g., dependency parsing) in a supervised manner using feature representations (e.g., contextualized embeddings). The effectiveness of such {\it probing} tasks is taken as evidence that the pre-trained model encodes linguistic knowledge. However, this approach of evaluating a language model is undermined by the uncertainty of the amount of knowledge that is learned by the probe itself. 
+Complementary to those works, we propose a parameter-free probing technique for analyzing pre-trained language models (e.g., BERT). 
+Our method does not require direct supervision from the probing tasks, nor do we introduce additional parameters to the probing process. Our experiments on BERT show that syntactic trees recovered from BERT using our method are significantly better than linguistically-uninformed baselines. We further feed the empirically induced dependency structures into a downstream sentiment classification task and find its improvement compatible with or even superior to a human-designed dependency schema.
+Author{1}{Firstname}#=%=#Zhiyong
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Username}#=%=#zsyzsx1823
+Author{1}{Email}#=%=#whucs2013wzy@gmail.com
+Author{1}{Affiliation}#=%=#The University of Hong Kong
+Author{2}{Firstname}#=%=#Yun
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#susie09
+Author{2}{Email}#=%=#yunchen@sufe.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai University of Finance and Economics
+Author{3}{Firstname}#=%=#Ben
+Author{3}{Lastname}#=%=#Kao
+Author{3}{Username}#=%=#benkao
+Author{3}{Email}#=%=#kao@cs.hku.hk
+Author{3}{Affiliation}#=%=#The University of Hong Kong
+Author{4}{Firstname}#=%=#Qun
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#liuqun
+Author{4}{Email}#=%=#qun.liu@huawei.com
+Author{4}{Affiliation}#=%=#Huawei Noah's Ark Lab
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Stylized Text Generation: Approaches and Applications
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Lili Mou
+JobTitle#==#
+Organization#==#University of Alberta, 116 St. and 85 Ave., Edmonton, AB, Canada T6G 2R3
+Abstract#==#Text generation has played an important role in various applications of natural language processing (NLP), and kn recent studies, researchers are paying increasing attention to modeling and manipulating the style of the generation text, which we call stylized text generation. In this tutorial, we will provide a comprehensive literature review in this direction. We start from the definition of style and different settings of stylized text generation, illustrated with various applications. Then, we present different settings of stylized generation, such as style-conditioned generation, style-transfer generation, and style-adversarial generation. In each setting, we delve deep into machine learning methods, including embedding learning techniques to represent style, adversarial learning, and reinforcement learning with cycle consistency to match content but to distinguish different styles. We also introduce current approaches to evaluating stylized text generation systems. We conclude our tutorial by presenting the challenges of stylized text generation and discussing future directions, such as small-data training, non-categorical style modeling, and a generalized scope of style transfer (e.g., controlling the syntax as a style).
+Author{1}{Firstname}#=%=#Lili
+Author{1}{Lastname}#=%=#Mou
+Author{1}{Username}#=%=#moulili
+Author{1}{Email}#=%=#doublepower.mou@gmail.com
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#Olga
+Author{2}{Lastname}#=%=#Vechtomova
+Author{2}{Username}#=%=#ovechtom
+Author{2}{Email}#=%=#ovechtom@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+
+==========

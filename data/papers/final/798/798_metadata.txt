@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#798
+FinalPaperTitle#=%=#Relation-Aware Collaborative Learning for Unified Aspect-Based Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tieyun Qian
+JobTitle#==#
+Organization#==#School of Computer Science, Wuhan University
+Abstract#==#Aspect-based sentiment analysis (ABSA) involves three subtasks, i.e., aspect term extraction, opinion term extraction, and aspect-level sentiment classification. Most existing studies focused on one of these subtasks only. Several recent researches made successful attempts to solve the complete ABSA problem with a unified framework. However, the interactive relations among three subtasks are still under-exploited. We argue that such relations encode collaborative signals between different subtasks. For example, when the opinion term is \emph{``delicious''}, the aspect term must be \emph{``food''}  rather than \emph{``place''}. In order to fully exploit these relations, we propose a Relation-Aware Collaborative Learning (RACL) framework which allows the subtasks to work coordinately via the multi-task learning and relation propagation mechanisms in a stacked multi-layer network. Extensive experiments on three real-world datasets demonstrate that RACL significantly outperforms the state-of-the-art methods for the complete ABSA task.
+Author{1}{Firstname}#=%=#Zhuang
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#woodong
+Author{1}{Email}#=%=#zhchen18@whu.edu.cn
+Author{1}{Affiliation}#=%=#School of Computer Science, Wuhan University, China
+Author{2}{Firstname}#=%=#Tieyun
+Author{2}{Lastname}#=%=#Qian
+Author{2}{Username}#=%=#qty100
+Author{2}{Email}#=%=#qty@whu.edu.cn
+Author{2}{Affiliation}#=%=#Wuhan University
+
+==========

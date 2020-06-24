@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#554
+FinalPaperTitle#=%=#The SOFC-Exp Corpus and Neural Approaches to Information Extraction in the Materials Science Domain
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Annemarie Friedrich
+JobTitle#==#
+Organization#==#Robert Bosch GmbH
+Abstract#==#This paper presents a new challenging information extraction task in the domain of materials science. We develop an annotation scheme for marking information on experiments related to solid oxide fuel cells in scientific publications, such as involved materials and measurement conditions. With this paper, we publish our annotation guidelines, as well as our SOFC-Exp corpus consisting of 45 open-access scholarly articles annotated by domain experts. A corpus and an inter-annotator agreement study demonstrate the complexity of the suggested named entity recognition and slot filling tasks as well as high annotation quality. We also present strong neural-network based models for a variety of tasks that can be addressed on the basis of our new data set. On all tasks, using BERT embeddings leads to large performance gains, but with increasing task complexity, adding a recurrent neural network on top seems beneficial. Our models will serve as competitive baselines in future work, and analysis of their performance highlights difficult cases when modeling the data and suggests promising research directions.
+Author{1}{Firstname}#=%=#Annemarie
+Author{1}{Lastname}#=%=#Friedrich
+Author{1}{Username}#=%=#afried
+Author{1}{Email}#=%=#annemarie.friedrich@gmail.com
+Author{1}{Affiliation}#=%=#Bosch Research
+Author{2}{Firstname}#=%=#Heike
+Author{2}{Lastname}#=%=#Adel
+Author{2}{Username}#=%=#heikeadel
+Author{2}{Email}#=%=#heike.adel@de.bosch.com
+Author{2}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+Author{3}{Firstname}#=%=#Federico
+Author{3}{Lastname}#=%=#Tomazic
+Author{3}{Username}#=%=#tomazic
+Author{3}{Email}#=%=#federico.tomazic@fau.de
+Author{3}{Affiliation}#=%=#Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
+Author{4}{Firstname}#=%=#Johannes
+Author{4}{Lastname}#=%=#Hingerl
+Author{4}{Username}#=%=#hingerlj
+Author{4}{Email}#=%=#johanneschristoph.hingerl@de.bosch.com
+Author{4}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+Author{5}{Firstname}#=%=#Renou
+Author{5}{Lastname}#=%=#Benteau
+Author{5}{Username}#=%=#renoub
+Author{5}{Email}#=%=#renou.benteau@ims.uni-stuttgart.de
+Author{5}{Affiliation}#=%=#University of Stuttgart
+Author{6}{Firstname}#=%=#Anika
+Author{6}{Lastname}#=%=#Marusczyk
+Author{6}{Username}#=%=#anikamarusczyk
+Author{6}{Email}#=%=#anika.marusczyk@de.bosch.com
+Author{6}{Affiliation}#=%=#Robert Bosch GmbH
+Author{7}{Firstname}#=%=#Lukas
+Author{7}{Lastname}#=%=#Lange
+Author{7}{Username}#=%=#llange
+Author{7}{Email}#=%=#lukas.lange@de.bosch.com
+Author{7}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+
+==========

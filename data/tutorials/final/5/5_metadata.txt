@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Cross-lingual Semantic Representation for NLP with UCCA
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose an introductory tutorial to UCCA (Universal Conceptual Cognitive Annotation), a cross-linguistically applicable framework for semantic representation, with corpora annotated in English, German and French, and ongoing annotation in Russian and Hebrew. UCCA builds on extensive typological work and supports rapid annotation. The tutorial will provide a detailed introduction to the UCCA annotation guidelines, design philosophy and the available resources; and a comparison to other meaning representations. It will also survey the existing parsing work, including shared tasks in SemEval and CoNLL. Finally, the tutorial will present recent applications and extensions to the scheme, demonstrating its value for natural language processing in a range of languages and domains.
+Author{1}{Firstname}#=%=#Omri
+Author{1}{Lastname}#=%=#Abend
+Author{1}{Username}#=%=#omria01
+Author{1}{Email}#=%=#omri.abend@mail.huji.ac.il
+Author{1}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Dotan
+Author{2}{Lastname}#=%=#Dvir
+Author{2}{Email}#=%=#dotan.dvir@mail.huji.ac.il
+Author{2}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Hershcovich
+Author{3}{Username}#=%=#danielh
+Author{3}{Email}#=%=#daniel.hershcovich@gmail.com
+Author{3}{Affiliation}#=%=#University of Copenhagen
+Author{4}{Firstname}#=%=#Jakob
+Author{4}{Lastname}#=%=#Prange
+Author{4}{Username}#=%=#jprange
+Author{4}{Email}#=%=#jp1724@georgetown.edu
+Author{4}{Affiliation}#=%=#Georgetown University
+Author{5}{Firstname}#=%=#Nathan
+Author{5}{Lastname}#=%=#Schneider
+Author{5}{Username}#=%=#nschneid
+Author{5}{Email}#=%=#nathan.schneider@georgetown.edu
+Author{5}{Affiliation}#=%=#Georgetown University
+
+==========

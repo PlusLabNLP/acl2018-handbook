@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Joint learning of constraint weights and gradient inputs in Gradient Symbolic Computation with constrained optimization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Max Nelson
+JobTitle#==#
+Organization#==#University of Massachusetts Amherst. Amherst, MA
+Abstract#==#This paper proposes a method for the joint optimization of constraint weights and symbol activations within the Gradient Symbolic Computation (GSC) framework. The set of grammars representable in GSC is proven to be a subset of those representable with lexically-scaled faithfulness constraints. This fact is then used to recast the problem of learning constraint weights and symbol activations in GSC as a quadratically-constrained version of learning lexically-scaled faithfulness grammars. This results in an optimization problem that can be solved using Sequential Quadratic Programming.
+Author{1}{Firstname}#=%=#Max
+Author{1}{Lastname}#=%=#Nelson
+Author{1}{Username}#=%=#manelson
+Author{1}{Email}#=%=#manelson@umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Amherst
+
+==========

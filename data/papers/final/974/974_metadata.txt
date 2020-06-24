@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#974
+FinalPaperTitle#=%=#History for Visual Dialog: Do we really need it?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Shubham Agarwal
+JobTitle#==#
+Organization#==#Heriot-Watt University, Edinburgh, UK
+Abstract#==#Visual Dialogue involves "understanding'' the dialogue history (what has been discussed previously) and the current question (what is asked), in addition to grounding information in the image, to accurately generate the correct response. In this paper, we show that co-attention models which explicitly encode dialoh history outperform models that don't, achieving state-of-the-art performance (72 % NDCG on val set). However, we also expose shortcomings of the crowdsourcing dataset collection procedure, by showing that dialogue history is indeed only required for a small amount of the data, and that the current evaluation metric encourages generic replies. To that end, we propose a challenging subset (VisdialConv) of the VisdialVal set and the benchmark NDCG of 63%.
+Author{1}{Firstname}#=%=#Shubham
+Author{1}{Lastname}#=%=#Agarwal
+Author{1}{Username}#=%=#shubhamagarwal
+Author{1}{Email}#=%=#sa201@hw.ac.uk
+Author{1}{Affiliation}#=%=#Heriot Watt University
+Author{2}{Firstname}#=%=#Trung
+Author{2}{Lastname}#=%=#Bui
+Author{2}{Username}#=%=#bhtrung
+Author{2}{Email}#=%=#bui@adobe.com
+Author{2}{Affiliation}#=%=#Adobe Research
+Author{3}{Firstname}#=%=#Joon-Young
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Username}#=%=#jolee
+Author{3}{Email}#=%=#jolee@adobe.com
+Author{3}{Affiliation}#=%=#Adobe Research
+Author{4}{Firstname}#=%=#Ioannis
+Author{4}{Lastname}#=%=#Konstas
+Author{4}{Username}#=%=#konstas
+Author{4}{Email}#=%=#i.konstas@hw.ac.uk
+Author{4}{Affiliation}#=%=#Heriot-Watt University
+Author{5}{Firstname}#=%=#Verena
+Author{5}{Lastname}#=%=#Rieser
+Author{5}{Username}#=%=#verena.rieser
+Author{5}{Email}#=%=#v.t.rieser@hw.ac.uk
+Author{5}{Affiliation}#=%=#Heriot-Watt University
+
+==========

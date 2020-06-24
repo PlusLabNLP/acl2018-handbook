@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1880
+FinalPaperTitle#=%=#A Two-Stage Masked LM Method for Term Set Expansion
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Guy Kushilevitz
+JobTitle#==#
+Organization#==#Technion, Haifa, Israel
+Abstract#==#We tackle the task of Term Set Expansion (TSE): given a small seed set of example terms from a semantic class, finding more members of that class. The task is of great practical utility, and also of theoretical utility as it requires generalization from few examples. Previous approaches to the TSE task can be characterized as either distributional or pattern-based. We harness the power of neural masked language models (MLM) and propose a novel TSE algorithm, which combines the pattern-based and distributional approaches. Due to the small size of the seed set, fine-tuning methods are not effective, calling for more creative use of the MLM. The gist of the idea is to use the MLM to first mine for informative patterns with respect to the seed set, and then to obtain more members of the seed class by generalizing these patterns. Our method outperforms state-of-the-art TSE algorithms. Implementation is available at: https://github.com/ guykush/TermSetExpansion-MPB/
+Author{1}{Firstname}#=%=#Guy
+Author{1}{Lastname}#=%=#Kushilevitz
+Author{1}{Username}#=%=#guykush
+Author{1}{Email}#=%=#guykushilevitz@gmail.com
+Author{1}{Affiliation}#=%=#Technion- Israel institute of technology
+Author{2}{Firstname}#=%=#Shaul
+Author{2}{Lastname}#=%=#Markovitch
+Author{2}{Username}#=%=#shaulm
+Author{2}{Email}#=%=#shaulm@cs.technion.ac.il
+Author{2}{Affiliation}#=%=#Technion
+Author{3}{Firstname}#=%=#Yoav
+Author{3}{Lastname}#=%=#Goldberg
+Author{3}{Username}#=%=#yoav.goldberg
+Author{3}{Email}#=%=#yoav.goldberg@gmail.com
+Author{3}{Affiliation}#=%=#Bar Ilan University
+
+==========

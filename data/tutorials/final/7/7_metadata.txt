@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Machine Reasoning for Knowledgeable, Explainable and Inferable Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In this tutorial, we will systematically introduce machine reasoning, including its definition, key components, typical methods and applications. Comparing to most traditional machine learning approaches, the key differences of machine reasoning are two-folds. First, it introduces knowledge as an explicit and indispensable component. Second, it makes each output explainable, by providing readable evidences used in reasoning. The type of this tutorial will be cutting-edge. The duration of this tutorial will be 3 hours. 30% of the tutorial will cover work by the tutorial presenters.
+Author{1}{Firstname}#=%=#Nan
+Author{1}{Lastname}#=%=#Duan
+Author{1}{Username}#=%=#nanduan
+Author{1}{Email}#=%=#nanduan@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research Asia
+Author{2}{Firstname}#=%=#Duyu
+Author{2}{Lastname}#=%=#Tang
+Author{2}{Username}#=%=#dytang
+Author{2}{Email}#=%=#dutang@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Ming
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Username}#=%=#mingzhou
+Author{3}{Email}#=%=#mingzhou@microsoft.com
+Author{3}{Affiliation}#=%=#microsoft research asia
+
+==========

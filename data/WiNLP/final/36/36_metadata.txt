@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#FFR v1.1: Fon-French Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Bonaventure F. P. Dossou
+JobTitle#==#
+Organization#==#Kazan Federal University, Kazan, Russia
+Abstract#==#All over the world and especially in Africa, researchers are putting efforts into building Neural Machine Translation (NMT) systems to help tackle the language barriers in Africa, a continent of over 2000 different languages. However, the low-resourceness, diacritical, and tonal complexities of African languages are major issues being faced. The FFR project is a major step towards creating a robust translation model from Fon, a very low-resource and tonal language, to French, for research and public use. In this paper, we introduce FFR Dataset, a corpus of Fon-to-French translations, describe the diacritical encoding process, and introduce our FFR v1.1 model, trained on the dataset. The dataset and model are made publicly available, to promote collaboration and reproducibility.
+Author{1}{Firstname}#=%=#Chris Chinenye
+Author{1}{Lastname}#=%=#Emezue
+Author{1}{Username}#=%=#chrisjay
+Author{1}{Email}#=%=#chris.emezue@gmail.com
+Author{1}{Affiliation}#=%=#Kazan(Volga) Federal University
+Author{2}{Firstname}#=%=#Femi Pancrace Bonaventure
+Author{2}{Lastname}#=%=#Dossou
+Author{2}{Username}#=%=#bonadossou
+Author{2}{Email}#=%=#femipancrace.dossou@gmail.com
+Author{2}{Affiliation}#=%=#Kazan (Volga) Federal University
+
+==========

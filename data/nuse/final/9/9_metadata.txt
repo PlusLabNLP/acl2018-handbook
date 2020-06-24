@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Improving the Identification of the Discourse Function of News Article Paragraphs
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Deya Banisakher
+JobTitle#==#
+Organization#==#Florida International Organization
+Abstract#==#Identifying the discourse structure of documents is an important task in understanding written text. Building on prior work, we demonstrate an improved approach to automatically identifying the discourse function of paragraphs in news articles. We start with the hierarchical theory of news discourse developed by van Dijk (1988) which proposes how paragraphs function within news articles. This discourse information is a level intermediate between phrase- or sentence-sized discourse segments and document genre, characterizing how individual paragraphs convey information about the events in the storyline of the article. Specifically, the theory categorizes the relationships between narrated events and (1) the overall storyline (such as Main Events, Background, or Consequences) as well as (2) commentary (such as Verbal Reactions and Evaluations). We trained and tested a linear chain conditional random field (CRF) with new features to model van Dijk's labels and compared it against several machine learning models presented in previous work. Our model significantly outperformed all baselines and prior approaches, achieving an average of 0.71 F1 score which represents a 31.5% improvement over the previously best-performing support vector machine model.
+Author{1}{Firstname}#=%=#Deya
+Author{1}{Lastname}#=%=#Banisakher
+Author{1}{Username}#=%=#dbani001
+Author{1}{Email}#=%=#dbani001@fiu.edu
+Author{1}{Affiliation}#=%=#Florida International University
+Author{2}{Firstname}#=%=#W. Victor
+Author{2}{Lastname}#=%=#Yarlott
+Author{2}{Username}#=%=#wvyar
+Author{2}{Email}#=%=#wvyar@cs.fiu.edu
+Author{2}{Affiliation}#=%=#Florida International University
+Author{3}{Firstname}#=%=#Mohammed
+Author{3}{Lastname}#=%=#Aldawsari
+Author{3}{Username}#=%=#malda021
+Author{3}{Email}#=%=#malda021@fiu.edu
+Author{3}{Affiliation}#=%=#Florida International University
+Author{4}{Firstname}#=%=#Naphtali
+Author{4}{Lastname}#=%=#Rishe
+Author{4}{Email}#=%=#rishen@cs.fiu.edu
+Author{4}{Affiliation}#=%=#Florida International University
+Author{5}{Firstname}#=%=#Mark
+Author{5}{Lastname}#=%=#Finlayson
+Author{5}{Username}#=%=#markaf33
+Author{5}{Email}#=%=#markaf@fiu.edu
+Author{5}{Affiliation}#=%=#FIU
+
+==========

@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#2919
+FinalPaperTitle#=%=#MIE: A Medical Information Extractor towards Medical Dialogues
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yuanzhe Zhang
+JobTitle#==#
+Organization#==#National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing, China
+Abstract#==#Electronic Medical Records (EMRs) have become key components of modern medical care systems. Despite the merits of EMRs, many doctors suffer from writing them, which is time-consuming and tedious. We believe that automatically converting medical dialogues to EMRs can greatly reduce the burdens of doctors, and extracting information from medical dialogues is an essential step. To this end, we annotate online medical consultation dialogues in a window-sliding style, which is much easier than the sequential labeling annotation. We then propose a Medical Information Extractor (MIE) towards medical dialogues. MIE is able to extract mentioned symptoms, surgeries, tests, other information and their corresponding status. To tackle the particular challenges of the task, MIE uses a deep matching architecture, taking dialogue turn-interaction into account. The experimental results demonstrate MIE is a promising solution to extract medical information from doctor-patient dialogues.
+Author{1}{Firstname}#=%=#Yuanzhe
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#yzzhang
+Author{1}{Email}#=%=#yzzhang@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Zhongtao
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#jiangzhongtao
+Author{2}{Email}#=%=#zhongtao.jiang@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Tao
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#zhangtao2020
+Author{3}{Email}#=%=#tao.zhang@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation，Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Shiwan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#swanliu
+Author{4}{Email}#=%=#shiwan.liu@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Jiarun
+Author{5}{Lastname}#=%=#Cao
+Author{5}{Username}#=%=#jerrycao
+Author{5}{Email}#=%=#jiarun.cao@postgrad.manchester.ac.uk
+Author{5}{Affiliation}#=%=#University of Manchester
+Author{6}{Firstname}#=%=#Kang
+Author{6}{Lastname}#=%=#Liu
+Author{6}{Username}#=%=#micalkang
+Author{6}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{6}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{7}{Firstname}#=%=#Shengping
+Author{7}{Lastname}#=%=#Liu
+Author{7}{Username}#=%=#liushengping
+Author{7}{Email}#=%=#liushengping@unisound.com
+Author{7}{Affiliation}#=%=#Unisound AI Labs
+Author{8}{Firstname}#=%=#Jun
+Author{8}{Lastname}#=%=#Zhao
+Author{8}{Username}#=%=#jzhao
+Author{8}{Email}#=%=#jzhao@nlpr.ia.ac.cn
+Author{8}{Affiliation}#=%=#Chinese Academy of Sciences
+
+==========

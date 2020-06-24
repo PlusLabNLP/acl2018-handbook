@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#3077
+FinalPaperTitle#=%=#To Boldly Query What No One Has Annotated Before? {T}he Frontiers of Corpus Querying
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Markus Gärtner
+JobTitle#==#Researcher
+Organization#==#University of Stuttgart, Institute for Natural Language Processing, Pfaffenwaldring 5b, 70569 Stuttgart, Germany
+Abstract#==#Corpus query systems exist to address the multifarious information needs of any person interested in the content of annotated corpora. In this role they play an important part in making those resources usable for a wider audience. Over the past decades, several such query systems and languages have emerged, varying greatly in their expressiveness and technical details. This paper offers a broad overview of the history of corpora and corpus query tools. It focusses strongly on the query side and hints at exciting directions for future development.
+Author{1}{Firstname}#=%=#Markus
+Author{1}{Lastname}#=%=#Gärtner
+Author{1}{Username}#=%=#mcgaerty
+Author{1}{Email}#=%=#markus.gaertner@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Kerstin
+Author{2}{Lastname}#=%=#Jung
+Author{2}{Username}#=%=#keckart
+Author{2}{Email}#=%=#kerstin.jung@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+
+==========

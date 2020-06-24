@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Topic Balancing with Additive Regularization of Topic Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Eugeniia Veselova
+JobTitle#==#
+Organization#==#Moscow Institute of Physics and Technology, Moscow, Russia
+Abstract#==#This article proposes a new approach for building topic models on unbalanced collections in topic modelling, based on the existing methods and our experiments with such methods. Real-world data collections contain topics in various proportions, and often documents of the relatively small theme become distributed all over the larger topics instead of being grouped into one topic. To address this issue, we design a new regularizer for Theta and Phi matrices in probabilistic Latent Semantic Analysis (pLSA) model. We make sure this regularizer increases the quality of topic models, trained on unbalanced collections. Besides, we conceptually support this regularizer by our experiments.
+Author{1}{Firstname}#=%=#Eugeniia
+Author{1}{Lastname}#=%=#Veselova
+Author{1}{Username}#=%=#xtonev
+Author{1}{Email}#=%=#veselova.er@phystech.edu
+Author{1}{Affiliation}#=%=#Moscow Institute of Physics and Technology
+Author{2}{Firstname}#=%=#Konstantin
+Author{2}{Lastname}#=%=#Vorontsov
+Author{2}{Email}#=%=#vokov@forecsys.ru
+Author{2}{Affiliation}#=%=#Moscow Institute of Physics and Technology
+
+==========

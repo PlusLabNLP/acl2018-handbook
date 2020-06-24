@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Achieving Common Ground in Multi-modal Dialogue
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#MA
+JobTitle#==#
+Organization#==#Rutgers University, New Brunswick, NJ
+Abstract#==#All communication aims at achieving common ground (grounding): interlocutors can work together effectively only with mutual beliefs about  what the state of the world is, about what their goals are, and about how they plan to make their goals a reality.  Computational dialogue research offers some classic results on grouding, which unfortunately offer scant guidance to the design of grounding modules and behaviors in cutting-edge systems. In this tutorial, we focus on three main topic areas: 1) grounding in human-human communication; 2) grounding in dialogue systems; and 3) grounding in multi-modal interactive systems, including image-oriented conversations and human-robot interactions.  We highlight a number of achievements of recent computational research in coordinating complex content, show how these results lead to rich and challenging opportunities for doing grounding in more flexible and powerful ways, and canvass relevant insights from the literature on human--human conversation.  We expect that the tutorial will be of interest to researchers in dialogue systems, computational semantics and cognitive modeling, and hope that it will catalyze research and system building that more directly explores the creative, strategic ways conversational agents might be able to seek and offer evidence about their understanding of their interlocutors.
+Author{1}{Firstname}#=%=#Malihe
+Author{1}{Lastname}#=%=#Alikhani
+Author{1}{Username}#=%=#mondial93
+Author{1}{Email}#=%=#ma1195@cs.rutgers.edu
+Author{1}{Affiliation}#=%=#Rutgers University
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Stone
+Author{2}{Username}#=%=#matthew.stone
+Author{2}{Email}#=%=#matthew.stone@rutgers.edu
+Author{2}{Affiliation}#=%=#Rutgers University
+
+==========

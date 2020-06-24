@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#A Probabilistic Model with Commonsense Constraints for Pattern-based Temporal Fact Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Meng Jiang
+JobTitle#==#
+Organization#==#University of Notre Dame, Notre Dame, IN 46556
+Abstract#==#Textual patterns (e.g., Country's president Person) are specified and/or generated for extracting factual information from unstructured data. Pattern-based information extraction methods have been recognized for their efficiency and transferability. However, not every pattern is reliable: A major challenge is to derive the most complete and accurate facts from diverse and sometimes conflicting extractions. In this work, we propose a probabilistic graphical model which formulates fact extraction in a generative process. It automatically infers true facts and pattern reliability without any supervision. It has two novel designs specially for temporal facts: (1) it models pattern reliability on two types of time signals, including temporal tag in text and text generation time; (2) it models commonsense constraints as observable variables. Experimental results demonstrate that our model significantly outperforms existing methods on extracting true temporal facts from news data.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#yzhou24@nd.edu
+Author{1}{Affiliation}#=%=#University of Notre Dame
+Author{2}{Firstname}#=%=#Tong
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#tzhao2@nd.edu
+Author{2}{Affiliation}#=%=#University of Notre Dame
+Author{3}{Firstname}#=%=#Meng
+Author{3}{Lastname}#=%=#Jiang
+Author{3}{Username}#=%=#mjiang89
+Author{3}{Email}#=%=#mjiang2@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Interpreting Predictions of NLP Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Although neural NLP models are becoming increasingly expressive and powerful, they systematically fail in counterintuitive ways and are opaque in their decision-making process. This tutorial will provide a background on interpretation techniques, i.e., methods for explaining the predictions of state-of-the-art NLP models. We will first situate example-specific interpretations in the context of other ways to understand these models (e.g., attention layers, activation visualization, probing, dataset analysis). Next, we will present a deep dive on example-specific interpretations, including saliency maps, input perturbations (e.g., LIME, input reduction, Anchors), and adversarial attacks (e.g., SEARs, HotFlip). Alongside these descriptions, we will walk through easy-to-use source code that creates and visualizes interpretations for a diverse set of tasks (e.g., question answering, sentiment analysis, language modeling). Finally, we will conclude with a discussion of open problems in the field, e.g., evaluating, extending, and improving interpretation methods.
+Author{1}{Firstname}#=%=#Eric
+Author{1}{Lastname}#=%=#Wallace
+Author{1}{Username}#=%=#ewallac2
+Author{1}{Email}#=%=#ericwallace@berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Matt
+Author{2}{Lastname}#=%=#Gardner
+Author{2}{Username}#=%=#mattg
+Author{2}{Email}#=%=#mattg@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{3}{Firstname}#=%=#Sameer
+Author{3}{Lastname}#=%=#Singh
+Author{3}{Username}#=%=#sameer
+Author{3}{Email}#=%=#sameer@uci.edu
+Author{3}{Affiliation}#=%=#University of California, Irvine
+
+==========

@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Towards Understanding ASR Error Correction for Medical Conversations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Anirudh Mani
+JobTitle#==#
+Organization#==#Abridge AI Inc.
+Abstract#==#Domain Adaptation for Automatic Speech Recognition (ASR) error correction via machine translation is a useful technique for improving out-of-domain outputs of pre-trained ASR systems to obtain optimal results for specific in-domain tasks. We use this technique on our dataset of Doctor-Patient conversations using two off-the-shelf ASR systems: Google ASR (commercial) and the ASPIRE model (open-source). We train a Sequence-to-Sequence Machine Translation model and evaluate it on seven specific UMLS Semantic types, including Pharmacological Substance, Sign or Symptom, and Diagnostic Procedure to name a few. Lastly, we breakdown, analyze and discuss the 7% overall improvement in word error rate in view of each Semantic type.
+Author{1}{Firstname}#=%=#Anirudh
+Author{1}{Lastname}#=%=#Mani
+Author{1}{Username}#=%=#amani_abridge
+Author{1}{Email}#=%=#amani@abridge.com
+Author{1}{Affiliation}#=%=#Abridge AI Inc.
+Author{2}{Firstname}#=%=#Shruti
+Author{2}{Lastname}#=%=#Palaskar
+Author{2}{Email}#=%=#spalaska@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Sandeep
+Author{3}{Lastname}#=%=#Konam
+Author{3}{Email}#=%=#san@abridge.com
+Author{3}{Affiliation}#=%=#Abridge AI Inc.
+
+==========

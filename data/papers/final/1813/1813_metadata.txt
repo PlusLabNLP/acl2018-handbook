@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1813
+FinalPaperTitle#=%=#Active Imitation Learning with Noisy Guidance
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Kiante Brantley
+JobTitle#==#
+Organization#==#The University of Maryland College Park and College Park, MD 20742
+Abstract#==#Imitation learning algorithms provide state-of-the-art results on many structured prediction tasks by learning near-optimal search policies. Such algorithms assume training-time access to an expert that can provide the optimal action at any queried state; unfortunately, the number of such queries is often prohibitive, frequently rendering these approaches impractical. To combat this query complexity, we consider an active learning setting in which the learning algorithm has additional access to a much cheaper noisy heuristic that provides noisy guidance. Our algorithm, LEAQI, learns a difference classifier that predicts when the expert is likely to disagree with the heuristic, and queries the expert only when necessary. We apply LEAQI to three sequence labelling tasks, demonstrating significantly fewer queries to the expert and comparable (or better) accuracies over a passive approach.
+Author{1}{Firstname}#=%=#Kianté
+Author{1}{Lastname}#=%=#Brantley
+Author{1}{Username}#=%=#kiante
+Author{1}{Email}#=%=#kdbrant@cs.umd.edu
+Author{1}{Affiliation}#=%=#The University of Maryland College Park
+Author{2}{Firstname}#=%=#Hal
+Author{2}{Lastname}#=%=#Daumé III
+Author{2}{Username}#=%=#hal
+Author{2}{Email}#=%=#me@hal3.name
+Author{2}{Affiliation}#=%=#UMD
+Author{3}{Firstname}#=%=#Amr
+Author{3}{Lastname}#=%=#Sharaf
+Author{3}{Username}#=%=#amr
+Author{3}{Email}#=%=#amr@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2638
+FinalPaperTitle#=%=#Contextualized Weak Supervision for Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jingbo Shang
+JobTitle#==#Assistant Professor
+Organization#==#University of California, San Diego
+Abstract#==#Weakly supervised text classification based on a few user-provided seed words has recently attracted much attention from researchers. Existing methods mainly generate pseudo-labels in a context-free manner (e.g., string matching), therefore, the ambiguous, context-dependent nature of human language has been long overlooked. In this paper, we propose a novel framework ConWea, providing contextualized weak supervision for text classification. Specifically, we leverage contextualized representations of word occurrences and seed word information to automatically differentiate multiple interpretations of the same word, and thus create a contextualized corpus. This contextualized corpus is further utilized to train the classifier and expand seed words in an iterative manner. This process not only adds new contextualized, highly label-indicative keywords but also disambiguates initial seed words, making our weak supervision fully contextualized. Extensive experiments and case studies on real-world datasets demonstrate the necessity and significant advantages of using contextualized weak supervision, especially when the class labels are fine-grained.
+Author{1}{Firstname}#=%=#Dheeraj
+Author{1}{Lastname}#=%=#Mekala
+Author{1}{Username}#=%=#dheeraj7596
+Author{1}{Email}#=%=#dmekala@ucsd.edu
+Author{1}{Affiliation}#=%=#University of California San Diego
+Author{2}{Firstname}#=%=#Jingbo
+Author{2}{Lastname}#=%=#Shang
+Author{2}{Username}#=%=#shangjingbo
+Author{2}{Email}#=%=#jshang@ucsd.edu
+Author{2}{Affiliation}#=%=#University of California, San Diego
+
+==========

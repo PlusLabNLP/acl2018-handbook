@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3028
+FinalPaperTitle#=%=#A Complete Shift-Reduce Chinese Discourse Parser with Robust Dynamic Oracle
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shyh-Shiun Hung
+JobTitle#==#student
+Organization#==#National Taiwan University
+Abstract#==#This work proposes a standalone, complete Chinese discourse parser for practical applications. We approach Chinese discourse parsing from a variety of aspects and improve the shift-reduce parser not only by integrating the pre-trained text encoder, but also by employing novel training strategies. We revise the dynamic-oracle procedure for training the shift-reduce parser, and apply unsupervised data augmentation to enhance rhetorical relation recognition. Experimental results show that our Chinese discourse parser achieves the state-of-the-art performance.
+Author{1}{Firstname}#=%=#Shyh-Shiun
+Author{1}{Lastname}#=%=#Hung
+Author{1}{Username}#=%=#perryhung
+Author{1}{Email}#=%=#shhung@nlg.csie.ntu.edu.tw
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Hen-Hsen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Username}#=%=#hhhuang
+Author{2}{Email}#=%=#hhhuang@nccu.edu.tw
+Author{2}{Affiliation}#=%=#Department of Computer Science, National Chengchi University
+Author{3}{Firstname}#=%=#Hsin-Hsi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#hhchen
+Author{3}{Email}#=%=#hhchen@ntu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan University
+
+==========

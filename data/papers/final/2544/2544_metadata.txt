@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2544
+FinalPaperTitle#=%=#When do Word Embeddings Accurately Reflect Surveys on our Beliefs About People?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#24
+CopyrightSigned#=%=#Kenneth Joseph
+JobTitle#==#
+Organization#==#University at Buffalo
+Abstract#==#Social biases are encoded in word embeddings. This presents a unique opportunity to study society historically and at scale, and a unique danger when embeddings are used in downstream applications. Here, we investigate the extent to which publicly-available word embeddings accurately reflect beliefs about certain kinds of people as measured via traditional survey methods. We find that biases found in word embeddings do, on average, closely mirror survey data across seventeen dimensions of social meaning. However, we also find that biases in embeddings are much more reflective of survey data for some dimensions of meaning (e.g. gender) than others (e.g. race), and that we can be highly confident that embedding-based measures reflect survey data only for the most salient biases.
+Author{1}{Firstname}#=%=#Kenneth
+Author{1}{Lastname}#=%=#Joseph
+Author{1}{Username}#=%=#kjoseph
+Author{1}{Email}#=%=#josephkena@gmail.com
+Author{1}{Affiliation}#=%=#University at Buffalo
+Author{2}{Firstname}#=%=#Jonathan
+Author{2}{Lastname}#=%=#Morgan
+Author{2}{Username}#=%=#jhm18
+Author{2}{Email}#=%=#jonathan.h.morgan@gmail.com
+Author{2}{Affiliation}#=%=#Fachhochschule Potsdam
+
+==========

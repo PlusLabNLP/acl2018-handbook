@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#2079
+FinalPaperTitle#=%=#A Call for More Rigor in Unsupervised Cross-lingual Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Mikel Artetxe
+JobTitle#==#
+Organization#==#University of the Basque Country (UPV/EHU), Manuel Lardizabal, 1 - 20018 Donostia, Spain
+Abstract#==#We review motivations, definition, approaches, and methodology for unsupervised cross-lingual learning and call for a more rigorous position in each of them. An existing rationale for such research is based on the lack of parallel data for many of the world's languages. However, we argue that a scenario without any parallel data and abundant monolingual data is unrealistic in practice. We also discuss different training signals that have been used in previous work, which depart from the pure unsupervised setting. We then describe common methodological issues in tuning and evaluation of unsupervised cross-lingual models and present best practices. Finally, we provide a unified outlook for different types of research in this area (i.e., cross-lingual word embeddings, deep multilingual pretraining, and unsupervised machine translation) and argue for comparable evaluation of these models.
+Author{1}{Firstname}#=%=#Mikel
+Author{1}{Lastname}#=%=#Artetxe
+Author{1}{Username}#=%=#artetxem
+Author{1}{Email}#=%=#mikel.artetxe@ehu.eus
+Author{1}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Ruder
+Author{2}{Username}#=%=#sebastianruder
+Author{2}{Email}#=%=#ruder.sebastian@gmail.com
+Author{2}{Affiliation}#=%=#DeepMind
+Author{3}{Firstname}#=%=#Dani
+Author{3}{Lastname}#=%=#Yogatama
+Author{3}{Username}#=%=#dyogatama
+Author{3}{Email}#=%=#dyogatama@google.com
+Author{3}{Affiliation}#=%=#DeepMind
+Author{4}{Firstname}#=%=#Gorka
+Author{4}{Lastname}#=%=#Labaka
+Author{4}{Username}#=%=#glabaka
+Author{4}{Email}#=%=#gorka.labaka@ehu.eus
+Author{4}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{5}{Firstname}#=%=#Eneko
+Author{5}{Lastname}#=%=#Agirre
+Author{5}{Username}#=%=#e.agirre
+Author{5}{Email}#=%=#e.agirre@ehu.eus
+Author{5}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+
+==========

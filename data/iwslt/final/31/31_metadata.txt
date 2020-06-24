@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#End-to-End Speech-Translation with Knowledge Distillation: FBK@IWSLT2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Marco Gaido
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler, Via Sommarive, 18, 38123 Povo (TN), Italy
+Abstract#==#This paper describes FBK’s participation in the IWSLT 2020 offline speech translation (ST) task. The task evaluates systems’ ability to translate English TED talks audio into German texts. The test talks are provided in two versions: one contains the data already segmented with automatic tools and the other is the raw data without any segmentation. Participants can decide whether to work on custom segmentation or not. We used the provided segmentation. Our system is an end-to-end model based on an adaptation of the Transformer for speech data. Its training process is the main focus of this paper and it is based on: i) transfer learning (ASR pretraining and knowledge distillation), ii) data augmentation (SpecAugment, time stretch and synthetic data), iii)combining synthetic and real data marked as different domains, and iv) multi-task learning using the CTC loss. Finally, after the training with word-level knowledge distillation is complete, our ST models are fine-tuned using label smoothed cross entropy. Our best model scored 29 BLEU on the MuST-CEn-De test set, which is an excellent result compared to recent papers, and 23.7 BLEU on the same data segmented with VAD, showing the need for researching solutions addressing this specific data condition.
+Author{1}{Firstname}#=%=#Marco
+Author{1}{Lastname}#=%=#Gaido
+Author{1}{Username}#=%=#mgaido91
+Author{1}{Email}#=%=#mgaido@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler, University of Trento
+Author{2}{Firstname}#=%=#Mattia A.
+Author{2}{Lastname}#=%=#Di Gangi
+Author{2}{Username}#=%=#mattiadg
+Author{2}{Email}#=%=#digangi@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler, University of Trento
+Author{3}{Firstname}#=%=#Matteo
+Author{3}{Lastname}#=%=#Negri
+Author{3}{Username}#=%=#negri
+Author{3}{Email}#=%=#negri@fbk.eu
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Turchi
+Author{4}{Username}#=%=#turchmo
+Author{4}{Email}#=%=#marco.turchi@gmail.com
+Author{4}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

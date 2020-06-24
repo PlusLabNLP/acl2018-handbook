@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#End-to-End Simultaneous Translation System for IWSLT2020 Using Modality Agnostic Meta-Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#HouJeung Han
+JobTitle#==#Research Engineer
+Organization#==#Next AI Solution Lab, Samsung Research, Seoul, South Korea
+Abstract#==#In this paper, we describe end-to-end simultaneous speech-to-text and text-to-text translation systems submitted to IWSLT2020 online translation challenge. The systems are built by adding wait-k and meta-learning approaches to the Transformer architecture. The systems are evaluated on different latency regimes. The simultaneous text-to-text translation achieved a BLEU score of  26.38 compared to the competition baseline score of 14.17  on the low latency regime (Average latency ≤ 3). The simultaneous speech-to-text system improves the BLEU score by 7.7 points over the competition baseline for the low latency regime (Average Latency ≤ 1000).
+Author{1}{Firstname}#=%=#Hou Jeung
+Author{1}{Lastname}#=%=#Han
+Author{1}{Username}#=%=#comc35
+Author{1}{Email}#=%=#comc35@gmail.com
+Author{1}{Affiliation}#=%=#Samsung Research
+Author{2}{Firstname}#=%=#Mohd Abbas
+Author{2}{Lastname}#=%=#Zaidi
+Author{2}{Username}#=%=#abbas.zaidi
+Author{2}{Email}#=%=#mzaidi59@gmail.com
+Author{2}{Affiliation}#=%=#Samsung Research
+Author{3}{Firstname}#=%=#Sathish Reddy
+Author{3}{Lastname}#=%=#Indurthi
+Author{3}{Username}#=%=#isathish
+Author{3}{Email}#=%=#sathish.indurthi@gmail.com
+Author{3}{Affiliation}#=%=#Samsung Research
+Author{4}{Firstname}#=%=#Nikhil Kumar
+Author{4}{Lastname}#=%=#Lakumarapu
+Author{4}{Username}#=%=#nikhilkl
+Author{4}{Email}#=%=#nikhilkumarlakumarapu@gmail.com
+Author{4}{Affiliation}#=%=#Samsung Research
+Author{5}{Firstname}#=%=#Beomseok
+Author{5}{Lastname}#=%=#Lee
+Author{5}{Username}#=%=#beomseok.lee
+Author{5}{Email}#=%=#scarletgunn37@gmail.com
+Author{5}{Affiliation}#=%=#Samsung Research
+Author{6}{Firstname}#=%=#Sangha
+Author{6}{Lastname}#=%=#Kim
+Author{6}{Username}#=%=#sangha
+Author{6}{Email}#=%=#shkim000@gmail.com
+Author{6}{Affiliation}#=%=#Samsung
+
+==========

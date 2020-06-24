@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#946
+FinalPaperTitle#=%=#Transition-based Directed Graph Construction for Emotion-Cause Pair Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chuang Fan
+JobTitle#==#
+Organization#==#Harbin Institute of Technology (Shenzhen), China; HIT Campus Shenzhen, University Town Xili, Shenzhen, P. R. China
+Abstract#==#Emotion-cause pair extraction aims to extract all potential pairs of emotions and corresponding causes from unannotated emotion text. Most existing methods are pipelined framework, which identifies emotions and extracts causes separately, leading to a drawback of error propagation. Towards this issue, we propose a transition-based model to transform the task into a procedure of parsing-like directed graph construction. The proposed model incrementally generates the directed graph with labeled edges based on a sequence of actions, from which we can recognize emotions with the corresponding causes simultaneously, thereby optimizing separate subtasks jointly and maximizing mutual benefits of tasks interdependently. Experimental results show that our approach achieves the best performance, outperforming the state-of-the-art methods by 6.71% (p<0.01) in F1 measure.
+Author{1}{Firstname}#=%=#Chuang
+Author{1}{Lastname}#=%=#Fan
+Author{1}{Username}#=%=#chuangfan
+Author{1}{Email}#=%=#fanchuanghit@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen
+Author{2}{Firstname}#=%=#Chaofa
+Author{2}{Lastname}#=%=#Yuan
+Author{2}{Username}#=%=#bbruceyuan
+Author{2}{Email}#=%=#bruceyuan123@gmail.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen
+Author{3}{Firstname}#=%=#Jiachen
+Author{3}{Lastname}#=%=#Du
+Author{3}{Username}#=%=#jacobvan
+Author{3}{Email}#=%=#jacobvan199165@163.com
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen
+Author{4}{Firstname}#=%=#Lin
+Author{4}{Lastname}#=%=#Gui
+Author{4}{Username}#=%=#monta3pt
+Author{4}{Email}#=%=#guilin.nlp@gmail.com
+Author{4}{Affiliation}#=%=#University of Warwick
+Author{5}{Firstname}#=%=#Min
+Author{5}{Lastname}#=%=#Yang
+Author{5}{Username}#=%=#mirandayang3
+Author{5}{Email}#=%=#min.yang@siat.ac.cn
+Author{5}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{6}{Firstname}#=%=#Ruifeng
+Author{6}{Lastname}#=%=#Xu
+Author{6}{Username}#=%=#xuruifeng.hitsz
+Author{6}{Email}#=%=#xuruifeng@hit.edu.cn
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen
+
+==========

@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#918
+FinalPaperTitle#=%=#GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Cheng-Te Li
+JobTitle#==#
+Organization#==#National Cheng Kung University
+Abstract#==#This paper solves the fake news detection problem under a more realistic scenario on social media. Given the source short-text tweet and the corresponding sequence of retweet users without text comments, we aim at predicting whether the source tweet is fake or not, and generating explanation by highlighting the evidences on suspicious retweeters and the words they concern. We develop a novel neural network-based model, Graph-aware Co-Attention Networks (GCAN), to achieve the goal. Extensive experiments conducted on real tweet datasets exhibit that GCAN can significantly outperform state-of-the-art methods by 16% in accuracy on average. In addition, the case studies also show that GCAN can produce reasonable explanations.
+Author{1}{Firstname}#=%=#Yi-Ju
+Author{1}{Lastname}#=%=#Lu
+Author{1}{Email}#=%=#l852888@gmail.com
+Author{1}{Affiliation}#=%=#National Cheng Kung University
+Author{2}{Firstname}#=%=#Cheng-Te
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#iamodd
+Author{2}{Email}#=%=#reliefli@gmail.com
+Author{2}{Affiliation}#=%=#National Cheng Kung University
+
+==========

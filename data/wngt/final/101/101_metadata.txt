@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#Training and Inference Methods for High-Coverage Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Michael Yang
+JobTitle#==#
+Organization#==#Language Technologies Institute, Carnegie Mellon University, Pittsburgh PA, U.S.A.
+Abstract#==#In this paper, we introduce a system built for the Duolingo Simultaneous Translation And Paraphrase for Language Education (STAPLE) shared task at the 4th Workshop on Neural Generation and Translation (WNGT 2020). We participated in the English-to-Japanese track with a Transformer model pretrained on the JParaCrawl corpus and fine-tuned in two steps on the JESC corpus and then the (smaller) Duolingo training corpus. First, during training, we find it is essential to deliberately expose the model to higher-quality translations more often during training for optimal translation performance. For inference, encouraging a small amount of diversity with Diverse Beam Search to improve translation coverage yielded marginal improvement over regular Beam Search. Finally, using an auxiliary filtering model to filter out unlikely candidates from Beam Search improves performance further. We achieve a weighted F1 score of 27.56% on our own test set, outperforming the STAPLE AWS translations baseline score of 4.31%.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Username}#=%=#michaelyang
+Author{1}{Email}#=%=#myang2@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yixin
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#yixinl2@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Rahul
+Author{3}{Lastname}#=%=#Mayuranath
+Author{3}{Email}#=%=#rmayuran@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

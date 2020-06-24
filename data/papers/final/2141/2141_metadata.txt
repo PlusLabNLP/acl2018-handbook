@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2141
+FinalPaperTitle#=%=#Stolen Probability: A Structural Weakness of Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David Demeter
+JobTitle#==#
+Organization#==#Northwestern University, 2233 Tech. Drive, Evanston IL 60208
+Abstract#==#Neural Network Language Models (NNLMs) generate probability distributions by applying a softmax function to a distance metric formed by taking the dot product of a prediction vector with all word vectors in a high-dimensional embedding space.  The dot-product distance metric forms part of the inductive bias of NNLMs.  Although NNLMs optimize well with this inductive bias, we show that this results in a sub-optimal ordering of the embedding space that structurally impoverishes some words at the expense of others when assigning probability.  We present numerical, theoretical and empirical analyses which show that words on the interior of the convex hull in the embedding space have their probability bounded by the probabilities of the words on the hull.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Demeter
+Author{1}{Username}#=%=#ddemeter
+Author{1}{Email}#=%=#dwdemeter@gmail.com
+Author{1}{Affiliation}#=%=#Northwestern University
+Author{2}{Firstname}#=%=#Gregory
+Author{2}{Lastname}#=%=#Kimmel
+Author{2}{Username}#=%=#gregorykimmel
+Author{2}{Email}#=%=#gregory.kimmel89@gmail.com
+Author{2}{Affiliation}#=%=#Moffitt Cancer Center
+Author{3}{Firstname}#=%=#Doug
+Author{3}{Lastname}#=%=#Downey
+Author{3}{Username}#=%=#ddowney
+Author{3}{Email}#=%=#ddowney@eecs.northwestern.edu
+Author{3}{Affiliation}#=%=#Allen Institute for AI, Northwestern University
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#One Model to Pronounce Them All: Multilingual Grapheme-to-Phoneme Conversion With a Transformer Ensemble
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kaili Vesik
+JobTitle#==#
+Organization#==#University of British Columbia Linguistics Department, 2613 West Mall, Vancouver BC Canada V6T 1Z4
+Abstract#==#The task of grapheme-to-phoneme (G2P) conversion is important for both speech recognition and synthesis. Similar to other speech and language processing tasks, in a scenario where only small-sized training data are available, learning G2P models is challenging. We describe a simple approach of exploiting model ensembles, based on multilingual Transformers and self-training, to develop a highly effective G2P solution for 15 languages. Our models are developed as part of our participation in the SIGMORPHON 2020 Shared Task 1 focused at G2P. Our best models achieve 14.99 word error rate (WER) and 3.30 phoneme error rate (PER), a sizeable improvement over the shared task competitive baselines.
+Author{1}{Firstname}#=%=#Kaili
+Author{1}{Lastname}#=%=#Vesik
+Author{1}{Username}#=%=#kvesik
+Author{1}{Email}#=%=#kaili.vesik@ubc.ca
+Author{1}{Affiliation}#=%=#University of British Columbia
+Author{2}{Firstname}#=%=#Muhammad
+Author{2}{Lastname}#=%=#Abdul-Mageed
+Author{2}{Username}#=%=#mageed
+Author{2}{Email}#=%=#muhammad.mageed@ubc.ca
+Author{2}{Affiliation}#=%=#The University of British Columbia
+Author{3}{Firstname}#=%=#Miikka
+Author{3}{Lastname}#=%=#Silfverberg
+Author{3}{Username}#=%=#mpsilfve
+Author{3}{Email}#=%=#miikka.silfverberg@ubc.ca
+Author{3}{Affiliation}#=%=#University of British Columbia
+
+==========

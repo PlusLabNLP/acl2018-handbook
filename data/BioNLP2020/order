@@ -1,0 +1,40 @@
+* Thursday July 9, 2020
+= 08:30--08:40 Opening remarks
+= 08:40--10:30 Session 1: High accuracy information retrieval, spin and bias # %chair1 Kirk Roberts
++ 08:40--09:10 Invited Talk -- Kirk Roberts
+56 09:10--09:20  # Quantifying 60 Years of Gender Bias in Biomedical Research with Word Embeddings
+7 09:20--09:30  # Sequence-to-Set Semantic Tagging for Complex Query Reformulation and Automated Text Categorization in Biomedical IR using Self-Attention
+53 09:30--09:40  # Interactive Extractive Search over Biomedical Corpora
+66 09:40--09:50  # Improving Biomedical Analogical Retrieval with Embedding of Structural Dependencies
+48 09:50--10:00  # DeSpin: a prototype system for detecting spin in biomedical publications
++ 10:00--10:30 Discussion
++ 10:30--10:45 Coffee Break
+= 10:45--13:00 Session 2: Clinical Language Processing # %chair1 Tim Miller
++ 10:45--11:15 Invited Talk -- Tim Miller
+16 11:15--11:25  # Towards Visual Dialog for Radiology
+30 11:25--11:35  # A BERT-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction
+11 11:35--11:45  # Experimental Evaluation and Development of a Silver-Standard for the MIMIC-III Clinical Coding Dataset
+34 11:45--11:55  # Comparative Analysis of Text Classification Approaches in Electronic Health Records
+40 11:55--12:05  # Noise Pollution in Hospital Readmission Prediction: Long Document Classification with Reinforcement Learning
+69 12:05--12:15  # Evaluating the Utility of Model Configurations and Data Augmentation on Clinical Semantic Textual Similarity
++ 12:15--12:45 Discussion
++ 12:45--13:30 Lunch
+= 13:30--15:30 Session 3: Language Understanding # %chair1 Anna  Rumshisky
++ 13:30--14:00 Invited Talk -- Anna  Rumshisky
+62 14:00--14:10  # Entity-Enriched Neural Models for Clinical Question Answering
+29 14:10--14:20  # Evidence Inference 2.0: More Data, Better Models
+59 14:20--14:30  # Personalized Early Stage Alzheimer___s Disease Detection: A Case Study of President Reagan___s Speeches
+21 14:30--14:40  # BioMRC: A Dataset for Biomedical Machine Reading Comprehension
+24 14:40--14:50  # Neural Transduction of Letter Position Dyslexia using an Anagram Matrix Representation
+36 14:50--15:00  # Domain Adaptation and Instance Selection for Disease Syndrome Classification over Veterinary Clinical Notes
++ 15:00--15:30 Discussion
++ 15:30--15:45 Coffee Break
+= 15:45--17:45 Session  4: Named Entity Recognition and Knowledge Representation # %chair1 Hoifung Poon
++ 15:45--16:25 Invited Talk: Machine Reading for Precision Medicine, Hoifung Poon
+8 16:25--16:35  # Benchmark and Best Practices for Biomedical Knowledge Graph Embeddings
+22 16:35--16:45  # Extensive Error Analysis and a Learning-Based Evaluation of Medical Entity Recognition Systems to Approximate User Experience
+23 16:45--16:55  # A Data-driven Approach for Noise Reduction in Distantly Supervised Biomedical Relation Extraction
+46 16:55--17:05  # Global Locality in Biomedical Relation and Event Extraction
+6 17:05--17:15  # An Empirical Study of Multi-Task Learning on BERT for Biomedical Text Mining
++ 17:15--17:45 Discussion
+= 17:45--18:00 Closing remarks

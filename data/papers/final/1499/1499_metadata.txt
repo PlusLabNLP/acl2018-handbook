@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1499
+FinalPaperTitle#=%=#Adaptive Compression of Word Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#yeachan kim
+JobTitle#==#
+Organization#==#Artificial intelligence research institute
+Abstract#==#Distributed representations of words have been an indispensable component for natural language processing (NLP) tasks. However, the large memory footprint of word embeddings makes it challenging to deploy NLP models to memory-constrained devices (e.g., self-driving cars, mobile devices). In this paper, we propose a novel method to adaptively compress word embeddings. We fundamentally follow a code-book approach that represents words as discrete codes such as (8, 5, 2, 4). However, unlike prior works that assign the same length of codes to all words, we adaptively assign different lengths of codes to each word by learning downstream tasks. The proposed method works in two steps. First, each word directly learns to select its code length in an end-to-end manner by applying the Gumbel-softmax tricks. After selecting the code length, each word learns discrete codes through a neural network with a binary constraint. To showcase the general applicability of the proposed method, we evaluate the performance on four different downstream tasks. Comprehensive evaluation results clearly show that our method is effective and makes the highly compressed word embeddings without hurting the task accuracy. Moreover, we show that our model assigns word to each code-book by considering the significance of tasks.
+Author{1}{Firstname}#=%=#Yeachan
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Username}#=%=#yeachankim
+Author{1}{Email}#=%=#yeachan@airi.kr
+Author{1}{Affiliation}#=%=#Artificial Intelligence Research Institute
+Author{2}{Firstname}#=%=#Kang-Min
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Username}#=%=#kangmin89
+Author{2}{Email}#=%=#kangmin89@korea.ac.kr
+Author{2}{Affiliation}#=%=#Korea University
+Author{3}{Firstname}#=%=#SangKeun
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Username}#=%=#yalphy
+Author{3}{Email}#=%=#yalphy@korea.ac.kr
+Author{3}{Affiliation}#=%=#Korea University
+
+==========

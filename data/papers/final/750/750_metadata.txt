@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#750
+FinalPaperTitle#=%=#Harnessing the linguistic signal to predict scalar inferences
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Sebastian Schuster
+JobTitle#==#
+Organization#==#Stanford University, Stanford, CA, USA
+Abstract#==#Pragmatic inferences often subtly depend on the presence or absence of linguistic features. For example, the presence of a partitive construction (of the) increases the strength of a so-called scalar inference: listeners perceive the inference that Chris did not eat all of the cookies to be stronger after hearing "Chris ate some of the cookies" than after hearing the same utterance without a partitive, "Chris ate some cookies". In this work, we explore to what extent neural network sentence encoders can learn to predict the strength of scalar inferences. We first show that an LSTM-based sentence encoder trained on an English dataset of human inference strength ratings is able to predict ratings with high accuracy (r = 0.78). We then probe the model's behavior using manually constructed minimal sentence pairs and corpus data. We first that the model inferred previously established associations between linguistic features and inference strength, suggesting that the model learns to use linguistic features to predict pragmatic inferences.
+Author{1}{Firstname}#=%=#Sebastian
+Author{1}{Lastname}#=%=#Schuster
+Author{1}{Username}#=%=#sebschu
+Author{1}{Email}#=%=#sebschu@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Yuxing
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#yxchen28
+Author{2}{Email}#=%=#yxchen28@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Judith
+Author{3}{Lastname}#=%=#Degen
+Author{3}{Username}#=%=#thegricean
+Author{3}{Email}#=%=#jdegen@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#3193
+FinalPaperTitle#=%=#Gated Convolutional Bidirectional Attention-based Model for Off-topic Spoken Response Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ruobing Li
+JobTitle#==#
+Organization#==#LAIX Inc. Building B Floor 2-3, Changyang Chuanggu, 1687 Changyang Rd, Yangpu District, Shanghai 200082, P.R. China
+Abstract#==#Off-topic spoken response detection, the task aiming at predicting whether a response is off-topic for the corresponding prompt, is important for an automated speaking assessment system. In many real-world educational applications, off-topic spoken response detectors are required to achieve high recall for off-topic responses not only on seen prompts but also on prompts that are unseen during training. In this paper, we propose a novel approach for off-topic spoken response detection with high off-topic recall on both seen and unseen prompts. We introduce a new model, Gated Convolutional Bidirectional Attention-based Model (GCBiA), which applies bi-attention mechanism and convolutions to extract topic words of prompts and key-phrases of responses, and introduces gated unit and residual connections between major layers to better represent the relevance of responses and prompts. Moreover, a new negative sampling method is proposed to augment training data. Experiment results demonstrate that our novel approach can achieve significant improvements in detecting off-topic responses with extremely high on-topic recall, for both seen and unseen prompts.
+Author{1}{Firstname}#=%=#Yefei
+Author{1}{Lastname}#=%=#Zha
+Author{1}{Email}#=%=#leo.zha@liulishuo.com
+Author{1}{Affiliation}#=%=#LAIX
+Author{2}{Firstname}#=%=#Ruobing
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#ruobing.li@liulishuo.com
+Author{2}{Affiliation}#=%=#LAIX
+Author{3}{Firstname}#=%=#Hui
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Email}#=%=#hui.lin@liulishuo.com
+Author{3}{Affiliation}#=%=#LAIX
+
+==========

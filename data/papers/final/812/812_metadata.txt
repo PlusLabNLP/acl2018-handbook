@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#812
+FinalPaperTitle#=%=#Harvesting and Refining Question-Answer Pairs for Unsupervised QA
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Zhongli Li
+JobTitle#==#
+Organization#==#Beihang University, Beijing, China
+Abstract#==#Question Answering (QA) has shown great success thanks to the availability of large-scale datasets and the effectiveness of neural models. Recent research works have attempted to extend these successes to the settings with few or no labeled data available. In this work, we introduce two approaches to improve unsupervised QA. First, we harvest lexically and syntactically divergent questions from Wikipedia to automatically construct a corpus of question-answer pairs (named as RefQA). Second, we take advantage of the QA model to extract more appropriate answers, which iteratively refines data over RefQA. We conduct experiments on SQuAD 1.1, and NewsQA by fine-tuning BERT without access to manually annotated data. Our approach outperforms previous unsupervised approaches by a large margin, and is competitive with early supervised models. We also show the effectiveness of our approach in the few-shot learning setting.
+Author{1}{Firstname}#=%=#Zhongli
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#neutralzz
+Author{1}{Email}#=%=#neutralzz96@gmail.com
+Author{1}{Affiliation}#=%=#Beihang University
+Author{2}{Firstname}#=%=#Wenhui
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#wangwenhui
+Author{2}{Email}#=%=#wenwan@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Li
+Author{3}{Lastname}#=%=#Dong
+Author{3}{Username}#=%=#donglixp
+Author{3}{Email}#=%=#donglixp@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Furu
+Author{4}{Lastname}#=%=#Wei
+Author{4}{Username}#=%=#fuwei
+Author{4}{Email}#=%=#fuwei@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#Ke
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Username}#=%=#kexubuaa
+Author{5}{Email}#=%=#kexu@nlsde.buaa.edu.cn
+Author{5}{Affiliation}#=%=#Beihang University
+
+==========

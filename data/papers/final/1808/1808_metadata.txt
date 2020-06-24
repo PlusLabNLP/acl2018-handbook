@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1808
+FinalPaperTitle#=%=#To Pretrain or Not to Pretrain: Examining the Benefits of Pretrainng on Resource Rich Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sinong Wang
+JobTitle#==#Research Scientist
+Organization#==#Facebook AI, Seattle, USA
+Abstract#==#Pretraining NLP models with variants of Masked Language Model (MLM) objectives  has recently led to a significant improvements on many tasks. This paper examines the benefits of pretrained models as a function of the number of training samples used in the downstream task. On several text classification tasks, we show that as the number of training examples grow into the millions, the accuracy gap between finetuning BERT-based model and training vanilla LSTM from scratch narrows to within 1\%. Our findings indicate that MLM-based models might reach a diminishing return point as the supervised data size increases significantly.
+Author{1}{Firstname}#=%=#Sinong
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#sinongwang
+Author{1}{Email}#=%=#sinongwang@fb.com
+Author{1}{Affiliation}#=%=#Facebook AI
+Author{2}{Firstname}#=%=#Madian
+Author{2}{Lastname}#=%=#Khabsa
+Author{2}{Username}#=%=#madian
+Author{2}{Email}#=%=#madian.kh@gmail.com
+Author{2}{Affiliation}#=%=#Facebook
+Author{3}{Firstname}#=%=#Hao
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Username}#=%=#gabema
+Author{3}{Email}#=%=#gabe.hao.ma@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI
+
+==========

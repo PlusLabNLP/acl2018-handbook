@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#You Impress Me: Dialogue Generation via Mutual Persona Perception
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Qian Liu
+JobTitle#==#
+Organization#==#Beihang University, Haidian District, Beijing, China
+Abstract#==#Despite the continuing efforts to improve the engagingness and consistency of chit-chat dialogue systems, the majority of current work simply focus on mimicking human-like responses, leaving understudied the aspects of modeling understanding between interlocutors. The research in cognitive science, instead, suggests that understanding is an essential signal for a high-quality chit-chat conversation. Motivated by this, we propose P^2 Bot, a transmitter-receiver based framework with the aim of explicitly modeling understanding. Specifically, P^2 Bot incorporates mutual persona perception to enhance the quality of personalized dialogue generation. Experiments on a large public dataset, Persona-Chat, demonstrate the effectiveness of our approach, with a considerable boost over the state-of-the-art baselines across both automatic metrics and human evaluations.
+Author{1}{Firstname}#=%=#Qian
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Username}#=%=#siviltaram
+Author{1}{Email}#=%=#qian.liu@buaa.edu.cn
+Author{1}{Affiliation}#=%=#Beihang University
+Author{2}{Firstname}#=%=#Yihong
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#yihong
+Author{2}{Email}#=%=#yihong.chen.19@ucl.ac.uk
+Author{2}{Affiliation}#=%=#University College London
+Author{3}{Firstname}#=%=#Bei
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#chenbei
+Author{3}{Email}#=%=#beichen@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Jian-Guang
+Author{4}{Lastname}#=%=#LOU
+Author{4}{Username}#=%=#substill
+Author{4}{Email}#=%=#jlou@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft
+Author{5}{Firstname}#=%=#Zixuan
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Username}#=%=#r3m
+Author{5}{Email}#=%=#remch183@outlook.com
+Author{5}{Affiliation}#=%=#Fudan University
+Author{6}{Firstname}#=%=#Bin
+Author{6}{Lastname}#=%=#Zhou
+Author{6}{Username}#=%=#zbbuaa
+Author{6}{Email}#=%=#zhoubin@buaa.edu.cn
+Author{6}{Affiliation}#=%=#Beihang  University
+Author{7}{Firstname}#=%=#Dongmei
+Author{7}{Lastname}#=%=#Zhang
+Author{7}{Username}#=%=#dzhang
+Author{7}{Email}#=%=#dongmeiz@microsoft.com
+Author{7}{Affiliation}#=%=#Microsoft Research
+
+==========

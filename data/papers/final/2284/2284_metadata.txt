@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#2284
+FinalPaperTitle#=%=#Recollection versus Imagination: Exploring Human Memory and Cognition via Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Maarten Sap
+JobTitle#==#
+Organization#==#Paul G. Allen School of Computer Science & Engineering, University of Washington, 185 E Stevens Way NE, Seattle, WA 98195
+Abstract#==#We investigate the use of NLP as a measure of the cognitive processes involved in storytelling, contrasting imagination and recollection of events. To facilitate this, we collect and release Hippocorpus, a dataset of 7,000 stories about imagined and recalled events.
+
+We introduce a measure of narrative flow and use this to examine the narratives for imagined and recalled events. Additionally, we measure the differential recruitment of knowledge attributed to semantic memory versus episodic memory (Tulving, 1972) for imagined and recalled storytelling by comparing the frequency of descriptions of general commonsense events with more specific realis events.
+
+Our analyses show that imagined stories have a substantially more linear narrative flow, compared to recalled stories in which adjacent sentences are more disconnected. In addition, while recalled stories rely more on autobiographical events based on episodic memory, imagined stories express more commonsense knowledge based on semantic memory. Finally, our measures reveal the effect of narrativization of memories in stories (e.g., stories about frequently recalled memories flow more linearly; Bartlett, 1932). Our findings highlight the potential of using NLP tools to study the traces of human cognition in language.
+Author{1}{Firstname}#=%=#Maarten
+Author{1}{Lastname}#=%=#Sap
+Author{1}{Username}#=%=#maartensap93
+Author{1}{Email}#=%=#msap@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#horvitz
+Author{2}{Username}#=%=#horvitz
+Author{2}{Email}#=%=#horvitz@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Yejin
+Author{3}{Lastname}#=%=#Choi
+Author{3}{Username}#=%=#ychoi
+Author{3}{Email}#=%=#yejin@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Noah A.
+Author{4}{Lastname}#=%=#Smith
+Author{4}{Username}#=%=#nasmith
+Author{4}{Email}#=%=#nasmith@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#James
+Author{5}{Lastname}#=%=#Pennebaker
+Author{5}{Username}#=%=#pennebaker
+Author{5}{Email}#=%=#pennebaker@utexas.edu
+Author{5}{Affiliation}#=%=#University of Texas at Austin
+
+==========

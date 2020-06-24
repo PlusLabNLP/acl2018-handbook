@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1916
+FinalPaperTitle#=%=#Topological Sort for Sentence Ordering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shrimai Prabhumoye
+JobTitle#==#
+Organization#==#Carnegie Mellon University, USA
+Abstract#==#Sentence ordering is the task of arranging the sentences of a given text in the correct order. Recent work using deep neural networks for this task has framed it as a sequence prediction problem. In this paper, we propose a new framing of this task as a constraint solving problem and introduce a new technique to solve it. Additionally, we propose a human evaluation for this task. The results on both automatic and human metrics across four different datasets show that this new technique is better at capturing coherence in documents.
+Author{1}{Firstname}#=%=#Shrimai
+Author{1}{Lastname}#=%=#Prabhumoye
+Author{1}{Username}#=%=#shrimai
+Author{1}{Email}#=%=#sprabhum@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Ruslan
+Author{2}{Lastname}#=%=#Salakhutdinov
+Author{2}{Username}#=%=#rsalakhu
+Author{2}{Email}#=%=#rsalakhu@cs.cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+Author{3}{Firstname}#=%=#Alan W
+Author{3}{Lastname}#=%=#Black
+Author{3}{Username}#=%=#awbcmu
+Author{3}{Email}#=%=#awb@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Evidence Inference 2.0: More Data, Better Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jay DeYoung
+JobTitle#==#
+Organization#==#Northeastern University 360 Huntington Ave., Boston, MA 02115
+Abstract#==#How do we most effectively treat a disease or condition?
+Ideally, we could consult a database of evidence gleaned from clinical trials to answer such questions. Unfortunately, no such database exists; clinical trial results are instead disseminated primarily via lengthy natural language articles. Perusing all such articles would be prohibitively time-consuming for healthcare practitioners; they instead tend to depend on manually compiled \emph{systematic reviews} of medical literature to inform care.
+
+NLP may speed this process up, and eventually facilitate immediate consult of published evidence. The \emph{Evidence Inference} dataset was recently released to facilitate research toward this end. This task entails inferring the comparative performance of two treatments, with respect to a given outcome, from a particular article (describing a clinical trial) and identifying supporting evidence. For instance: Does this article report that \textit{chemotherapy} performed better than \textit{surgery} for \textit{five-year survival rates} of operable cancers? In this paper, we collect additional annotations to expand the Evidence Inference dataset by 25\%, provide stronger baseline models, systematically inspect the errors that these make, and probe dataset quality. We also release an \emph{abstract only} (as opposed to full-texts) version of the task for rapid model prototyping. The updated corpus, documentation, and code for new baselines and evaluations are available at \url{http://evidence-inference.ebm-nlp.com/}.
+Author{1}{Firstname}#=%=#Jay
+Author{1}{Lastname}#=%=#DeYoung
+Author{1}{Username}#=%=#jaydeyoung
+Author{1}{Email}#=%=#jay.b.deyoung@gmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Lehman
+Author{2}{Username}#=%=#lehmer16
+Author{2}{Email}#=%=#lehman.e@husky.neu.edu
+Author{2}{Affiliation}#=%=#Northeastern University
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Nye
+Author{3}{Username}#=%=#bepnye
+Author{3}{Email}#=%=#bepnye@gmail.com
+Author{3}{Affiliation}#=%=#Northeastern University
+Author{4}{Firstname}#=%=#Iain
+Author{4}{Lastname}#=%=#Marshall
+Author{4}{Username}#=%=#ijmarshall
+Author{4}{Email}#=%=#iainjmarshall@gmail.com
+Author{4}{Affiliation}#=%=#King's College London
+Author{5}{Firstname}#=%=#Byron C.
+Author{5}{Lastname}#=%=#Wallace
+Author{5}{Username}#=%=#byroncw
+Author{5}{Email}#=%=#byron@ccs.neu.edu
+Author{5}{Affiliation}#=%=#Northeastern University
+
+==========

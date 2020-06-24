@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Induced Inflection-Set Keyword Search in Speech
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Oliver Adams
+JobTitle#==#
+Organization#==#Johns Hopkins University, 3400 North Charles Street, Baltimore, USA
+Abstract#==#We investigate the problem of searching for a lexeme-set in speech by searching for its inflectional variants. Experimental results indicate how lexeme-set search performance changes with the number of hypothesized inflections, while ablation experiments highlight the relative importance of different components in the lexeme-set search pipeline and the value of using curated inflectional paradigms. We provide a recipe and evaluation set for the community to use as an extrinsic measure of the performance of inflection generation approaches.
+Author{1}{Firstname}#=%=#Oliver
+Author{1}{Lastname}#=%=#Adams
+Author{1}{Username}#=%=#oadams
+Author{1}{Email}#=%=#oliver.adams@gmail.com
+Author{1}{Affiliation}#=%=#Miner & Kasch
+Author{2}{Firstname}#=%=#Matthew
+Author{2}{Lastname}#=%=#Wiesner
+Author{2}{Username}#=%=#mwiesner
+Author{2}{Email}#=%=#wiesner@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Trmal
+Author{3}{Username}#=%=#jtrmal
+Author{3}{Email}#=%=#jtrmal@gmail.com
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Garrett
+Author{4}{Lastname}#=%=#Nicolai
+Author{4}{Username}#=%=#nicolai
+Author{4}{Email}#=%=#gnicola2@jhu.edu
+Author{4}{Affiliation}#=%=#University of British Columbia
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Yarowsky
+Author{5}{Username}#=%=#yarowsky
+Author{5}{Email}#=%=#yarowsky@jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+
+==========

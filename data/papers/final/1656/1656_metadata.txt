@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1656
+FinalPaperTitle#=%=#How Does Selective Mechanism Improve Self-Attention Networks?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Xinwei Geng
+JobTitle#==#
+Organization#==#Harbin Institute of Technology
+Abstract#==#Self-attention networks (SANs) with selective mechanism has produced substantial improvements in various NLP tasks by concentrating on a subset of input words. However, the underlying reasons for their strong performance have not been well explained. In this paper, we bridge the gap by assessing the strengths of selective SANs (SSANs), which are implemented with a flexible and universal Gumbel-Softmax. Experimental results on several representative NLP tasks, including natural language inference, semantic role labelling, and machine translation, show that SSANs consistently outperform the standard SANs. Through well-designed probing experiments, we empirically validate that the improvement of SSANs can be attributed in part to mitigating two commonly-cited weaknesses of SANs: word order encoding and structure modeling. Specifically, the selective mechanism improves SANs by paying more attention to content words that contribute to the meaning of the sentence.
+Author{1}{Firstname}#=%=#Xinwei
+Author{1}{Lastname}#=%=#Geng
+Author{1}{Username}#=%=#xwgeng
+Author{1}{Email}#=%=#xwgeng@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Longyue
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#wly0229
+Author{2}{Email}#=%=#vincentwang0229@gmail.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Xing
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#wangxingsuda
+Author{3}{Email}#=%=#xingwsuda@gmail.com
+Author{3}{Affiliation}#=%=#Tencent
+Author{4}{Firstname}#=%=#Bing
+Author{4}{Lastname}#=%=#Qin
+Author{4}{Username}#=%=#qinb
+Author{4}{Email}#=%=#qinb@ir.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Username}#=%=#tliu72
+Author{5}{Email}#=%=#tliu72@qq.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Zhaopeng
+Author{6}{Lastname}#=%=#Tu
+Author{6}{Username}#=%=#tuzhaopeng
+Author{6}{Email}#=%=#tuzhaopeng@gmail.com
+Author{6}{Affiliation}#=%=#Tencent AI Lab
+
+==========

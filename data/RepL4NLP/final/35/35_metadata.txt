@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Adversarial Alignment of Multilingual Models for Extracting Temporal Expressions from Text
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lukas Lange
+JobTitle#==#
+Organization#==#Robert Bosch GmbH, Robert-Bosch-Campus 1, 71272 Renningen, Germany
+Abstract#==#Although temporal tagging is still dominated by rule-based systems, there have been recent attempts at neural temporal taggers. However, all of them focus on monolingual settings. In this paper, we explore multilingual methods for the extraction of temporal expressions from text and investigate adversarial training for aligning embedding spaces to one common space. With this, we create a single multilingual model that can also be transferred to unseen languages and set the new state of the art in those cross-lingual transfer experiments.
+Author{1}{Firstname}#=%=#Lukas
+Author{1}{Lastname}#=%=#Lange
+Author{1}{Username}#=%=#llange
+Author{1}{Email}#=%=#lukas.lange@de.bosch.com
+Author{1}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+Author{2}{Firstname}#=%=#Anastasiia
+Author{2}{Lastname}#=%=#Iurshina
+Author{2}{Email}#=%=#anastasiia.iurshina@gmail.com
+Author{2}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+Author{3}{Firstname}#=%=#Heike
+Author{3}{Lastname}#=%=#Adel
+Author{3}{Username}#=%=#heikeadel
+Author{3}{Email}#=%=#heike.adel@de.bosch.com
+Author{3}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+Author{4}{Firstname}#=%=#Jannik
+Author{4}{Lastname}#=%=#Strötgen
+Author{4}{Username}#=%=#jannik.stroetgen
+Author{4}{Email}#=%=#jannik.stroetgen@gmail.com
+Author{4}{Affiliation}#=%=#Bosch Center for Artificial Intelligence
+
+==========

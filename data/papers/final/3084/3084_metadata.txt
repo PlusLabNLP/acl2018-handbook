@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3084
+FinalPaperTitle#=%=#Inflecting When There's No Majority: Limitations of Encoder-Decoder Neural Networks as Cognitive Models for German Plurals
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Katherine McCurdy
+JobTitle#==#
+Organization#==#University of Edinburgh, 10 Crichton Street, EH8 9AB Edinburgh, UK
+Abstract#==#Can artificial  neural  networks  learn  to  represent  inflectional  morphology  and  generalize to new words as human speakers do?   Kirov and Cotterell (2018) argue that the answer is yes:  modern Encoder-Decoder (ED) architectures learn human-like behavior when inflecting English verbs,  such as extending the regular  past  tense  form  /-(e)d/  to  novel  words. However, their work does not address the criticism raised by Marcus et al. (1995): that neural models may learn to extend not the regular, but the most frequent class — and thus fail on tasks like German number inflection, where infrequent suffixes like /-s/ can still be productively generalized.  
+To investigate this question, we first collect a new dataset from German speakers (production and ratings of plural forms for novel nouns) that  is designed to avoid sources of information unavailable to the ED model. The speaker data show high variability, and two suffixes evince 
+'regular' behavior, appearing more often with phonologically atypical inputs. Encoder-decoder models do generalize the most frequently produced plural class, but do not show human-like variability or  'regular' extension of these other plural markers. We conclude that  modern neural models may still struggle with minority-class generalization.
+Author{1}{Firstname}#=%=#Kate
+Author{1}{Lastname}#=%=#McCurdy
+Author{1}{Username}#=%=#kmccurdy
+Author{1}{Email}#=%=#kate.mccurdy@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Sharon
+Author{2}{Lastname}#=%=#Goldwater
+Author{2}{Username}#=%=#sgwater
+Author{2}{Email}#=%=#sgwater@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Adam
+Author{3}{Lastname}#=%=#Lopez
+Author{3}{Username}#=%=#alopez
+Author{3}{Email}#=%=#alopez@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

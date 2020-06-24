@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#620
+FinalPaperTitle#=%=#Uncertainty-Aware Curriculum Learning for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yikai Zhou
+JobTitle#==#
+Organization#==#NLP2CT Lab, Department of Computer and Information Science, University of Macau
+Abstract#==#Neural machine translation (NMT) has proven to be facilitated by curriculum learning which presents examples in an easy-to-hard order at different training stages. The keys lie in the assessment of data difficulty and model competence. We propose uncertainty-aware curriculum learning, which is motivated by the intuition that: 1) the higher the uncertainty in a translation pair, the more complex and rarer the information it contains; and 2) the end of the decline in model uncertainty indicates the completeness of current training stage. Specifically, we serve cross-entropy of an example as its data difficulty and exploit the variance of distributions over the weights of the network to present the model uncertainty. Extensive experiments on various translation tasks reveal that our approach outperforms the strong baseline and related methods on both translation quality and convergence speed. Quantitative analyses reveal that the proposed strategy offers NMT the ability to automatically govern its learning schedule.
+Author{1}{Firstname}#=%=#Yikai
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#zhou_yikai
+Author{1}{Email}#=%=#nlp2ct.zhouyikai@gmail.com
+Author{1}{Affiliation}#=%=#University of Macau
+Author{2}{Firstname}#=%=#Baosong
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Username}#=%=#yangbaosong
+Author{2}{Email}#=%=#nlp2ct.baosong@gmail.com
+Author{2}{Affiliation}#=%=#Alibaba Damo Academy, Alibaba Inc.
+Author{3}{Firstname}#=%=#Derek F.
+Author{3}{Lastname}#=%=#Wong
+Author{3}{Username}#=%=#derekfw
+Author{3}{Email}#=%=#derekfw@um.edu.mo
+Author{3}{Affiliation}#=%=#University of Macau
+Author{4}{Firstname}#=%=#Yu
+Author{4}{Lastname}#=%=#Wan
+Author{4}{Username}#=%=#ywan
+Author{4}{Email}#=%=#nlp2ct.ywan@gmail.com
+Author{4}{Affiliation}#=%=#NLP2CT Lab, University of Macau
+Author{5}{Firstname}#=%=#Lidia S.
+Author{5}{Lastname}#=%=#Chao
+Author{5}{Username}#=%=#lidiasc
+Author{5}{Email}#=%=#lidiasc@um.edu.mo
+Author{5}{Affiliation}#=%=#University of Macau
+
+==========

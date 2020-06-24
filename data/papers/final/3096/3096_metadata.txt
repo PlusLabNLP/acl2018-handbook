@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3096
+FinalPaperTitle#=%=#Hard-Coded Gaussian Attention for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Simeng Sun
+JobTitle#==#
+Organization#==#College of Information and Computer Sciences, University of Massachusetts Amherst; Computer Science Building, Amherst, MA 01002
+Abstract#==#Recent work has questioned the importance of the Transformer's multi-headed attention for achieving high translation quality. We push further in this direction by developing a ``hard-coded'' attention variant without any learned parameters. Surprisingly, replacing all learned self-attention heads in the encoder and decoder with fixed, input-agnostic Gaussian distributions minimally impacts BLEU scores across four different language pairs. However, additionally, hard-coding cross attention (which connects the decoder to the encoder) significantly lowers BLEU, suggesting that it is more important than self-attention. Much of this  BLEU drop can be recovered by adding just a single learned cross attention head to an otherwise hard-coded Transformer. Taken as a whole, our results offer insight into which components of the Transformer are actually important, which we hope will guide future work into the development of simpler and more efficient attention-based models.
+Author{1}{Firstname}#=%=#Weiqiu
+Author{1}{Lastname}#=%=#You
+Author{1}{Username}#=%=#youweiqiu
+Author{1}{Email}#=%=#wyou@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{2}{Firstname}#=%=#Simeng
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#simsun
+Author{2}{Email}#=%=#simengsun@umass.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{3}{Firstname}#=%=#Mohit
+Author{3}{Lastname}#=%=#Iyyer
+Author{3}{Username}#=%=#miyyer
+Author{3}{Email}#=%=#m.iyyer@gmail.com
+Author{3}{Affiliation}#=%=#University of Massachusetts Amherst
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Contextual and Non-Contextual Word Embeddings: an in-depth Linguistic Investigation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alessio Miaschi
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Pisa
+Abstract#==#In this paper we present a comparison between the linguistic knowledge encoded in the internal representations of a contextual Language Model (BERT) and a contextual-independent one (Word2vec). We use a wide set of probing tasks, each of which corresponds to a distinct sentence-level feature extracted from different levels of linguistic annotation. We show that, although BERT is capable of understanding the full context of each word in an input sequence, the implicit knowledge encoded in its aggregated sentence representations is still comparable to that of a contextual-independent model. We also find that BERT is able to encode sentence-level properties even within single-word embeddings, obtaining comparable or even superior results than those obtained with sentence representations.
+Author{1}{Firstname}#=%=#Alessio
+Author{1}{Lastname}#=%=#Miaschi
+Author{1}{Username}#=%=#alessio.miaschi
+Author{1}{Email}#=%=#alessio.miaschi@phd.unipi.it
+Author{1}{Affiliation}#=%=#University of Pisa
+Author{2}{Firstname}#=%=#Felice
+Author{2}{Lastname}#=%=#Dell'Orletta
+Author{2}{Username}#=%=#felice
+Author{2}{Email}#=%=#felice.dellorletta@ilc.cnr.it
+Author{2}{Affiliation}#=%=#ItaliaNLP LAb @ Institute for Computational Linguistics "Antonio Zampolli", ILC - CNR
+
+==========

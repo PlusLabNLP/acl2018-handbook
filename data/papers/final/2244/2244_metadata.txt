@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2244
+FinalPaperTitle#=%=#A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Dongfang Xu
+JobTitle#==#
+Organization#==#School of Information, University of Arizona. Harvill Building, Tucson, Arizona 85721 United States
+Abstract#==#Concept normalization, the task of linking textual mentions of concepts to concepts in an ontology, is challenging because ontologies are large. In most cases, annotated datasets cover only a small sample of the concepts, yet concept normalizers are expected to predict all concepts in the ontology. In this paper, we propose an architecture consisting of a candidate generator and a list-wise ranker based on BERT. The ranker considers pairings of concept mentions and candidate concepts, allowing it to make predictions for any concept, not just those seen during training. We further enhance this list-wise approach with a semantic type regularizer that allows the model to incorporate semantic type information from the ontology during training. Our proposed concept normalization framework achieves state-of-the-art performance on multiple datasets.
+Author{1}{Firstname}#=%=#Dongfang
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#dongfangxu
+Author{1}{Email}#=%=#dongfangxu9@email.arizona.edu
+Author{1}{Affiliation}#=%=#University of Arizona
+Author{2}{Firstname}#=%=#Zeyu
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Username}#=%=#jerryzeyu
+Author{2}{Email}#=%=#zeyuzhang@email.arizona.edu
+Author{2}{Affiliation}#=%=#School of Information, the University of Arizona
+Author{3}{Firstname}#=%=#Steven
+Author{3}{Lastname}#=%=#Bethard
+Author{3}{Username}#=%=#steven.bethard
+Author{3}{Email}#=%=#bethard@email.arizona.edu
+Author{3}{Affiliation}#=%=#University of Arizona
+
+==========

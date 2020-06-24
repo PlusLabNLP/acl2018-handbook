@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Sketch-Fill-A-R: A Persona-Grounded Chit-Chat Generation Framework
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Wojciech Kryscinski
+JobTitle#==#Research Scientist
+Organization#==#Salesforce Research, 575 High Street, 94303 Palo Alto, CA
+Abstract#==#Human-like chit-chat conversation requires agents to generate responses that are fluent, engaging and consistent. We propose Sketch- Fill-A-R, a framework that uses a persona-memory to generate chit-chat responses in three phases. First, it generates dynamic sketch responses with open slots. Second, it generates candidate responses by filling slots with parts of its stored persona traits. Lastly, it ranks and selects the final response via a language model score. Sketch-Fill-A-R outperforms a state-of-the-art baseline both quantitatively (10-point lower perplexity) and qualitatively (preferred by 55% in head-to-head single-turn studies and 20% higher in consistency in multi-turn user studies) on the Persona-Chat dataset. Finally, we extensively analyze Sketch-Fill-A-R’s responses and human feedback, and show it is more consistent and engaging by using more relevant responses and questions.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Shum
+Author{1}{Username}#=%=#mshum
+Author{1}{Email}#=%=#mshum@mit.edu
+Author{1}{Affiliation}#=%=#Salesforce Research
+Author{2}{Firstname}#=%=#Stephan
+Author{2}{Lastname}#=%=#Zheng
+Author{2}{Username}#=%=#stephanzheng
+Author{2}{Email}#=%=#st.t.zheng@gmail.com
+Author{2}{Affiliation}#=%=#Salesforce Research
+Author{3}{Firstname}#=%=#Wojciech
+Author{3}{Lastname}#=%=#Kryscinski
+Author{3}{Username}#=%=#wkryscinski
+Author{3}{Email}#=%=#wojciech.kryscinski@salesforce.com
+Author{3}{Affiliation}#=%=#Salesforce Research
+Author{4}{Firstname}#=%=#Caiming
+Author{4}{Lastname}#=%=#Xiong
+Author{4}{Username}#=%=#cxiong
+Author{4}{Email}#=%=#cmxiong.lhi@gmail.com
+Author{4}{Affiliation}#=%=#Salesforce
+Author{5}{Firstname}#=%=#Richard
+Author{5}{Lastname}#=%=#Socher
+Author{5}{Username}#=%=#richard
+Author{5}{Email}#=%=#richard@socher.org
+Author{5}{Affiliation}#=%=#Salesforce
+
+==========

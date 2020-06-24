@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Becoming Linguistically Mature: Modeling English and German Children’s Writing Development Across School Grades
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Daniel Wiechmann
+JobTitle#==#
+Organization#==#University of Amsterdam, 1012VT Amsterdam, the Netherlands
+Abstract#==#In this paper we employ a novel approach to advancing our understanding of the development of writing in English and German children across school grades using classification tasks. The data used come from two recently compiled corpora: The English data come from the the GiC corpus (983 school children in second-, sixth-, ninth- and eleventh-grade) and the German data are from the FD-LEX corpus (930 school children in fifth- and ninth-grade). The key to this paper is the combined use of what we refer to as `complexity contours’, i.e. series of measurements that capture the progression of linguistic complexity within a text, and Recurrent Neural Network (RNN) classifiers that adequately capture the sequential information in those contours. Our experiments demonstrate that RNN classifiers trained on complexity contours achieve higher classification accuracy than one trained on text-average complexity scores. In a second step, we determine the relative importance of the features from four distinct categories through a Sensitivity-Based Pruning approach.
+Author{1}{Firstname}#=%=#Elma
+Author{1}{Lastname}#=%=#Kerz
+Author{1}{Username}#=%=#ek
+Author{1}{Email}#=%=#elma.kerz@ifaar.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Qiao
+Author{2}{Email}#=%=#yu.qiao@rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Wiechmann
+Author{3}{Username}#=%=#danpirelli
+Author{3}{Email}#=%=#d.wiechmann@uva.nl
+Author{3}{Affiliation}#=%=#Institute for Logic Language and Computation
+Author{4}{Firstname}#=%=#Marcus
+Author{4}{Lastname}#=%=#Ströbel
+Author{4}{Email}#=%=#marcus.stroebel@ifaar.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+
+==========

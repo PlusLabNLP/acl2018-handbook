@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1769
+FinalPaperTitle#=%=#A Transformer-based Approach for Source Code Summarization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wasi Uddin Ahmad
+JobTitle#==#
+Organization#==#UCLA, Los Angeles, CA
+Abstract#==#Generating a readable summary that describes the functionality of a program is known as source code summarization. In this task, learning code representation by modeling the pairwise relationship between code tokens to capture their long-range dependencies is crucial. To learn code representation for summarization, we explore the Transformer model that uses a self-attention mechanism and has shown to be effective in capturing long-range dependencies. In this work, we show that despite the approach is simple, it outperforms the state-of-the-art techniques by a significant margin. We perform extensive analysis and ablation studies that reveal several important findings, e.g., the absolute encoding of source code tokens' position hinders, while relative encoding significantly improves the summarization performance. We have made our code publicly available\footnote{https://github.com/wasiahmad/NeuralCodeSum} to facilitate future research.
+Author{1}{Firstname}#=%=#Wasi
+Author{1}{Lastname}#=%=#Ahmad
+Author{1}{Username}#=%=#wasiuva
+Author{1}{Email}#=%=#wasiahmad@ucla.edu
+Author{1}{Affiliation}#=%=#University of California, Los Angeles
+Author{2}{Firstname}#=%=#Saikat
+Author{2}{Lastname}#=%=#Chakraborty
+Author{2}{Username}#=%=#saikat107
+Author{2}{Email}#=%=#saikatc@cs.columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Baishakhi
+Author{3}{Lastname}#=%=#Ray
+Author{3}{Username}#=%=#baishakhir
+Author{3}{Email}#=%=#rayb@cs.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Kai-Wei
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Username}#=%=#kchang10
+Author{4}{Email}#=%=#kw@kwchang.net
+Author{4}{Affiliation}#=%=#UCLA
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1150
+FinalPaperTitle#=%=#HyperCore: Hyperbolic and Co-graph Representation for Automatic ICD Coding
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Pengfei Cao
+JobTitle#==#
+Organization#==#National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences; 95 Zhongguancun East Road, 100190, Beijing, China
+Abstract#==#The International Classification of Diseases (ICD) provides a standardized way for classifying diseases, which endows each disease with a unique code. ICD coding aims to assign proper ICD codes to a medical record. Since manual coding is very laborious and prone to errors, many methods have been proposed for the automatic ICD coding task. However, most of existing methods independently predict each code, ignoring two important characteristics: Code Hierarchy and Code Co-occurrence. In this paper, we propose a Hyperbolic and Co-graph Representation method (HyperCore) to address the above problem. Specifically, we propose a hyperbolic representation method to leverage the code hierarchy. Moreover, we propose a graph convolutional network to utilize the code co-occurrence. Experimental results on two widely used datasets demonstrate that our proposed model outperforms previous state-of-the-art methods.
+Author{1}{Firstname}#=%=#Pengfei
+Author{1}{Lastname}#=%=#Cao
+Author{1}{Username}#=%=#pengfei.cao
+Author{1}{Email}#=%=#pengfei.cao@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yubo
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#yubochen
+Author{2}{Email}#=%=#yubo.chen@nlpr.ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Kang
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Username}#=%=#micalkang
+Author{3}{Email}#=%=#kliu@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Jun
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Username}#=%=#jzhao
+Author{4}{Email}#=%=#jzhao@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Shengping
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Username}#=%=#liushengping
+Author{5}{Email}#=%=#liushengping@unisound.com
+Author{5}{Affiliation}#=%=#Unisound AI Labs
+Author{6}{Firstname}#=%=#Weifeng
+Author{6}{Lastname}#=%=#Chong
+Author{6}{Username}#=%=#chongweifeng
+Author{6}{Email}#=%=#chongweifeng@unisound.com
+Author{6}{Affiliation}#=%=#Unisound AI Technology Co.,Ltd
+
+==========

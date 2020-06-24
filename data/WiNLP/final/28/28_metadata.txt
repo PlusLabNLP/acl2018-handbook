@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#An Assessment of Language Identification Methods on Tweets and Wikipedia Articles
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Larissa A. de Freitas
+JobTitle#==#
+Organization#==#UFPel, Gomes Carneiro Street, number 1, Pelotas - RS - Brazil, CEP 96010-610
+Abstract#==#Language identification is the task of determining the language which a given text is written. This task is important for Natural Language Processing and Information Retrieval activities. Two popular approaches for language identification are the N-grams and  stopwords models. In this paper, these two models were tested on different types of documents such as short, irregular texts (tweets) and long, regular texts (Wikipedia articles).
+Author{1}{Firstname}#=%=#Pedro
+Author{1}{Lastname}#=%=#Vernetti
+Author{1}{Email}#=%=#pedrovernetti@gmail.com
+Author{1}{Affiliation}#=%=#UFPel
+Author{2}{Firstname}#=%=#Larissa
+Author{2}{Lastname}#=%=#Freitas
+Author{2}{Username}#=%=#larissaaf
+Author{2}{Email}#=%=#larissa.freitas@ufpel.edu.br
+Author{2}{Affiliation}#=%=#UFPel
+
+==========

@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#135
+FinalPaperTitle#=%=#Logical Inferences with Comparatives and Generalized Quantifiers
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Izumi Haruta
+JobTitle#==#
+Organization#==#Ochanomizu University, 2-1-1, Otsuka, Bunkyo-ku, Tokyo, 112-8610, Japan
+Abstract#==#Comparative constructions pose a challenge in Natural Language Inference (NLI), which is the task of determining whether a text entails a hypothesis. Comparatives are structurally complex in that they interact with other linguistic phenomena such as quantifiers, numerals, and lexical antonyms. In formal semantics, there is a rich body of work on comparatives and gradable expressions using the notion of degree. However, a logical inference system for comparatives has not been sufficiently developed for use in the NLI task. In this paper, we present a compositional semantics that maps various comparative constructions in English to semantic representations via Combinatory Categorial Grammar (CCG) parsers and combine it with an inference system based on automated theorem proving. We evaluate our system on three NLI datasets that contain complex logical inferences with comparatives, generalized quantifiers, and numerals. We show that the system outperforms previous logic-based systems as well as recent deep learning-based models.
+Author{1}{Firstname}#=%=#Izumi
+Author{1}{Lastname}#=%=#Haruta
+Author{1}{Username}#=%=#izumi
+Author{1}{Email}#=%=#haruta.izumi@is.ocha.ac.jp
+Author{1}{Affiliation}#=%=#Ochanomizu University
+Author{2}{Firstname}#=%=#Koji
+Author{2}{Lastname}#=%=#Mineshima
+Author{2}{Username}#=%=#kojimineshima
+Author{2}{Email}#=%=#minesima@abelard.flet.keio.ac.jp
+Author{2}{Affiliation}#=%=#Keio University
+Author{3}{Firstname}#=%=#Daisuke
+Author{3}{Lastname}#=%=#Bekki
+Author{3}{Username}#=%=#bekki
+Author{3}{Email}#=%=#bekki@is.ocha.ac.jp
+Author{3}{Affiliation}#=%=#Ochanomizu University
+
+==========

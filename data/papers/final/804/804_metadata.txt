@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#804
+FinalPaperTitle#=%=#Structure-Level Knowledge Distillation For Multilingual Sequence Labeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Xinyu Wang
+JobTitle#==#
+Organization#==#ShanghaiTech University, 393 Middle Huaxia Road, Pudong, Shanghai, China, 201210
+Abstract#==#Multilingual sequence labeling is a task of predicting label sequences using a single unified model for multiple languages. Compared with relying on multiple monolingual models, using a multilingual model has the benefit of a smaller model size, easier in online serving, and generalizability to low-resource languages. However, current multilingual models still underperform individual monolingual models significantly due to model capacity limitations. In this paper, we propose to reduce the gap between monolingual models and the unified multilingual model by distilling the structural knowledge of several monolingual models (teachers) to the unified multilingual model (student). We propose two novel KD methods based on structure-level information: (1) approximately minimizes the distance between the student's and the teachers' structure-level probability distributions, (2) aggregates the structure-level knowledge to local distributions and minimizes the distance between two local probability distributions. Our experiments on 4 multilingual tasks with 25 datasets show that our approaches outperform several strong baselines and have stronger zero-shot generalizability than both the baseline model and teacher models.
+Author{1}{Firstname}#=%=#Xinyu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#oriuta
+Author{1}{Email}#=%=#wangxy1@shanghaitech.edu.cn
+Author{1}{Affiliation}#=%=#ShanghaiTech University
+Author{2}{Firstname}#=%=#Yong
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#yong
+Author{2}{Email}#=%=#jiangyong.ml@gmail.com
+Author{2}{Affiliation}#=%=#Alibaba DAMO Academy
+Author{3}{Firstname}#=%=#Nguyen
+Author{3}{Lastname}#=%=#Bach
+Author{3}{Username}#=%=#nguyenhbach
+Author{3}{Email}#=%=#nguyen.bach@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba
+Author{4}{Firstname}#=%=#Tao
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Username}#=%=#leeo.wangt
+Author{4}{Email}#=%=#leeo.wangt@alibaba-inc.com
+Author{4}{Affiliation}#=%=#Alibaba Inc.
+Author{5}{Firstname}#=%=#Fei
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Username}#=%=#fei.huang
+Author{5}{Email}#=%=#feirhuang@gmail.com
+Author{5}{Affiliation}#=%=#Alibaba DAMO Academy
+Author{6}{Firstname}#=%=#Kewei
+Author{6}{Lastname}#=%=#Tu
+Author{6}{Username}#=%=#tukw
+Author{6}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{6}{Affiliation}#=%=#ShanghaiTech University
+
+==========

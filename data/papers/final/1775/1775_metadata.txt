@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1775
+FinalPaperTitle#=%=#MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jie Lei
+JobTitle#==#
+Organization#==#UNC Chapel Hill
+Abstract#==#Generating multi-sentence descriptions for videos is one of the most challenging captioning tasks due to its high requirements for not only visual relevance but also discourse-based coherence across the sentences in the paragraph. Towards this goal, we propose a new approach called Memory-Augmented Recurrent Transformer (MART), which uses a memory module to augment the transformer architecture. The memory module generates a highly summarized memory state from the video segments and the sentence history so as to help better prediction of the next sentence (w.r.t. coreference and repetition aspects), thus encouraging coherent paragraph generation. Extensive experiments, human evaluations, and qualitative analyses on two popular datasets ActivityNet Captions and YouCookII show that MART generates more coherent and less repetitive paragraph captions than baseline methods, while maintaining relevance to the input video events.
+Author{1}{Firstname}#=%=#Jie
+Author{1}{Lastname}#=%=#Lei
+Author{1}{Username}#=%=#jie
+Author{1}{Email}#=%=#jielei@cs.unc.edu
+Author{1}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{2}{Firstname}#=%=#Liwei
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#catcatcat
+Author{2}{Email}#=%=#liweiwang@tencent.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Yelong
+Author{3}{Lastname}#=%=#Shen
+Author{3}{Username}#=%=#shenyelong
+Author{3}{Email}#=%=#shengyelong@gmail.com
+Author{3}{Affiliation}#=%=#Tencent AI
+Author{4}{Firstname}#=%=#Dong
+Author{4}{Lastname}#=%=#Yu
+Author{4}{Username}#=%=#dongyu
+Author{4}{Email}#=%=#dongyu@ieee.org
+Author{4}{Affiliation}#=%=#Tencent AI Lab
+Author{5}{Firstname}#=%=#Tamara
+Author{5}{Lastname}#=%=#Berg
+Author{5}{Username}#=%=#berg.tamara
+Author{5}{Email}#=%=#berg.tamara@gmail.com
+Author{5}{Affiliation}#=%=#University of North Carolina Chapel Hill
+Author{6}{Firstname}#=%=#Mohit
+Author{6}{Lastname}#=%=#Bansal
+Author{6}{Username}#=%=#mbansal
+Author{6}{Email}#=%=#mbansal@cs.unc.edu
+Author{6}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+
+==========

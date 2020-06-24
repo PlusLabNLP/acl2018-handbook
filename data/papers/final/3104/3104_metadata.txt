@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3104
+FinalPaperTitle#=%=#Masked Language Model Scoring
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Julian Salazar
+JobTitle#==#
+Organization#==#Amazon AWS AI
+Abstract#==#Pretrained masked language models (MLMs) require finetuning for most NLP tasks. Instead, we evaluate MLMs out of the box via their pseudo-log-likelihood scores (PLLs), which are computed by masking tokens one by one. We show that PLLs outperform scores from autoregressive language models like GPT-2 in a variety of tasks. By rescoring ASR and NMT hypotheses, RoBERTa reduces an end-to-end LibriSpeech model's WER by 30% relative and adds up to +1.7 BLEU on state-of-the-art baselines for low-resource translation pairs, with further gains from domain adaptation. We attribute this success to PLL's unsupervised expression of linguistic acceptability without a left-to-right bias, greatly improving on scores from GPT-2 (+10 points on island effects, NPI licensing in BLiMP). One can finetune MLMs to give scores without masking, enabling computation in a single inference pass. In all, PLLs and their associated pseudo-perplexities (PPPLs) enable plug-and-play use of the growing number of pretrained MLMs; e.g., we use a single cross-lingual model to rescore translations in multiple languages. We release our library for language model scoring at https://github.com/awslabs/mlm-scoring.
+Author{1}{Firstname}#=%=#Julian
+Author{1}{Lastname}#=%=#Salazar
+Author{1}{Username}#=%=#julianslzr
+Author{1}{Email}#=%=#accounts+softconf@julianslzr.com
+Author{1}{Affiliation}#=%=#Amazon AWS AI
+Author{2}{Firstname}#=%=#Davis
+Author{2}{Lastname}#=%=#Liang
+Author{2}{Username}#=%=#davissblaine
+Author{2}{Email}#=%=#davisblaine.liang@gmail.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Toan Q.
+Author{3}{Lastname}#=%=#Nguyen
+Author{3}{Username}#=%=#tnguye28
+Author{3}{Email}#=%=#tnguye28@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+Author{4}{Firstname}#=%=#Katrin
+Author{4}{Lastname}#=%=#Kirchhoff
+Author{4}{Username}#=%=#katrinki
+Author{4}{Email}#=%=#katrinki@amazon.com
+Author{4}{Affiliation}#=%=#Amazon
+
+==========

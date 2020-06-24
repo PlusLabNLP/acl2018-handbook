@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#ELITR Non-Native Speech Translation at IWSLT 2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Dominik Macháček
+JobTitle#==#
+Organization#==#Charles Univesity, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics, Malostranské nám. 25, 11800 Praha 1, Czech Republic
+Abstract#==#This paper is an ELITR system submission for the non-native speech translation task at IWSLT 2020. 
+We describe systems for offline ASR, real-time ASR, and our cascaded approach to offline SLT and real-time SLT. 
+We select our primary candidates from a pool of pre-existing systems, develop a new end-to-end general ASR system, and a hybrid ASR trained on non-native speech. The provided small validation set prevents us from carrying out a complex validation, but we submit all the unselected candidates for contrastive evaluation on the test set.
+Author{1}{Firstname}#=%=#Dominik
+Author{1}{Lastname}#=%=#Macháček
+Author{1}{Username}#=%=#dominik
+Author{1}{Email}#=%=#machacek@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University, Faculty of Mathematics and Physics
+Author{2}{Firstname}#=%=#Jonáš
+Author{2}{Lastname}#=%=#Kratochvíl
+Author{2}{Email}#=%=#jkratochvil@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University, Faculty of Mathematics and Physics, UFAL
+Author{3}{Firstname}#=%=#Sangeet
+Author{3}{Lastname}#=%=#Sagar
+Author{3}{Email}#=%=#sagar@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University
+Author{4}{Firstname}#=%=#Matúš
+Author{4}{Lastname}#=%=#Žilinec
+Author{4}{Email}#=%=#zilinec@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University
+Author{5}{Firstname}#=%=#Ondřej
+Author{5}{Lastname}#=%=#Bojar
+Author{5}{Username}#=%=#bojar
+Author{5}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{5}{Affiliation}#=%=#Charles University, MFF UFAL
+Author{6}{Firstname}#=%=#Thai-Son
+Author{6}{Lastname}#=%=#Nguyen
+Author{6}{Email}#=%=#thai-son.nguyen@kit.edu
+Author{6}{Affiliation}#=%=#KIT
+Author{7}{Firstname}#=%=#Felix
+Author{7}{Lastname}#=%=#Schneider
+Author{7}{Email}#=%=#felix.schneider@kit.edu
+Author{7}{Affiliation}#=%=#KIT
+Author{8}{Firstname}#=%=#Philip
+Author{8}{Lastname}#=%=#Williams
+Author{8}{Email}#=%=#pwillia4@inf.ed.ac.uk
+Author{8}{Affiliation}#=%=#UEDIN
+Author{9}{Firstname}#=%=#Yuekun
+Author{9}{Lastname}#=%=#Yao
+Author{9}{Username}#=%=#ykyao
+Author{9}{Email}#=%=#ykyao.cs@gmail.com
+Author{9}{Affiliation}#=%=#University of Edinburgh
+
+==========

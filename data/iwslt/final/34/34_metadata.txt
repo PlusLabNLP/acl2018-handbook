@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#Generating Fluent Translations from Disfluent Text Without Access to Fluent References: IIT Bombay@IWSLT2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nikhil Saini
+JobTitle#==#
+Organization#==#Department of Computer Science & Engineering, Indian Institute of Technology Bombay, Powai, Mumbai, 400076
+Abstract#==#Machine translation systems perform reasonably well when the input is well-formed speech or text. Conversational speech is spontaneous and inherently consists of many disfluencies. Producing fluent translations of disfluent source text would typically require parallel disfluent to fluent training data. However, fluent translations of spontaneous speech are an additional resource that is tedious to obtain. This work describes the submission of IIT Bombay to the Conversational Speech Translation challenge at IWSLT 2020. We specifically tackle the problem of disfluency removal in disfluent-to-fluent text-to-text translation assuming no access to fluent references during training. Common patterns of disfluency are extracted from disfluent references and a noise induction model is used to simulate them starting from a clean monolingual corpus. This synthetically constructed dataset is then considered as a proxy for labeled data during training. We also make use of additional fluent text in the target language to help generate fluent translations. This work uses no fluent references during training and beats a baseline model by a margin of 4.21 and 3.11 BLEU points where the baseline uses disfluent and fluent references, respectively. 
+
+Index Terms- disfluency removal, machine translation, noise induction, leveraging monolingual data, denoising for disfluency removal.
+Author{1}{Firstname}#=%=#Nikhil
+Author{1}{Lastname}#=%=#Saini
+Author{1}{Username}#=%=#nikhil196
+Author{1}{Email}#=%=#nikhilra@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{2}{Firstname}#=%=#Jyotsana
+Author{2}{Lastname}#=%=#Khatri
+Author{2}{Username}#=%=#jyotsanak
+Author{2}{Email}#=%=#jyotsanak@cse.iitb.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Bombay, Mumbai
+Author{3}{Firstname}#=%=#Preethi
+Author{3}{Lastname}#=%=#Jyothi
+Author{3}{Username}#=%=#jyothi
+Author{3}{Email}#=%=#pjyothi@cse.iitb.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{4}{Firstname}#=%=#Pushpak
+Author{4}{Lastname}#=%=#Bhattacharyya
+Author{4}{Username}#=%=#pushpak
+Author{4}{Email}#=%=#pushpakbh@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Bombay and Patna
+
+==========

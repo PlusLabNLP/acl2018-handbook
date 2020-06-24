@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2133
+FinalPaperTitle#=%=#Supervised Grapheme-to-Phoneme Conversion of Orthographic Schwas in {H}indi and {P}unjabi
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Aryaman Arora
+JobTitle#==#
+Organization#==#School Without Walls High School, 2130 G Street NW, Washington, DC 20037
+Abstract#==#Hindi grapheme-to-phoneme (G2P) conversion is mostly trivial, with one exception: whether a schwa represented in the orthography is pronounced or unpronounced (deleted). Previous work has attempted to predict schwa deletion in a rule-based fashion using prosodic or phonetic analysis. We present the first statistical schwa deletion classifier for Hindi, which relies solely on the orthography as the input and outperforms previous approaches. We trained our model on a newly-compiled pronunciation lexicon extracted from various online dictionaries. Our best Hindi model achieves state of the art performance, and also achieves good performance on a closely related language, Punjabi, without modification.
+Author{1}{Firstname}#=%=#Aryaman
+Author{1}{Lastname}#=%=#Arora
+Author{1}{Username}#=%=#aryaman
+Author{1}{Email}#=%=#aa2190@georgetown.edu
+Author{1}{Affiliation}#=%=#School Without Walls High School
+Author{2}{Firstname}#=%=#Luke
+Author{2}{Lastname}#=%=#Gessler
+Author{2}{Username}#=%=#lgessler
+Author{2}{Email}#=%=#lukegessler@gmail.com
+Author{2}{Affiliation}#=%=#Georgetown University
+Author{3}{Firstname}#=%=#Nathan
+Author{3}{Lastname}#=%=#Schneider
+Author{3}{Username}#=%=#nschneid
+Author{3}{Email}#=%=#nathan.schneider@georgetown.edu
+Author{3}{Affiliation}#=%=#Georgetown University
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Enabling fast and correct typing in 'Leichte Sprache' (Easy Language)
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Ina Steinmetz
+JobTitle#==#
+Organization#==#Universität Koblenz-Landau
+Abstract#==#Simplified languages are instruments for inclusion aiming to overcome language barriers. Leichte Sprache (LS), for instance, is a variety of German with reduced complexity (cf. Basic English). So far, LS is mainly provided for, but rarely written by, its target groups, e.g. people with cognitive impairments. One reason may be the lack of technical support during the process from message conceptualization to sentence realization.
+In the following, we present a system for assisted typing in LS whose accuracy and speed is largely due to the deployment of real time natural-language processing enabling efficient prediction and context-sensitive grammar support.
+Author{1}{Firstname}#=%=#Ina
+Author{1}{Lastname}#=%=#Steinmetz
+Author{1}{Username}#=%=#inasteinmetz
+Author{1}{Email}#=%=#inaschroeder@uni-koblenz.de
+Author{1}{Affiliation}#=%=#University of Koblenz · Landau
+Author{2}{Firstname}#=%=#Karin
+Author{2}{Lastname}#=%=#Harbusch
+Author{2}{Email}#=%=#harbusch@uni-koblenz.de
+Author{2}{Affiliation}#=%=#University of Koblenz · Landau
+
+==========

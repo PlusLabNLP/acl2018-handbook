@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#731
+FinalPaperTitle#=%=#ScriptWriter: Narrative-Guided Script Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yutao Zhu
+JobTitle#==#
+Organization#==#University of Montreal, 2920 chemin de la Tour, Montréal, QC, Canada
+Abstract#==#It is appealing to have a system that generates a story or scripts automatically from a storyline, even though this is still out of our reach. In dialogue systems, it would also be useful to drive dialogues by a dialogue plan. In this paper, we address a key problem involved in these applications - guiding a dialogue by a narrative. The proposed model ScriptWriter selects the best response among the candidates that fit the context as well as the given narrative. It keeps track of what in the narrative has been said and what is to be said. A narrative plays a different role than the context (i.e., previous utterances), which is generally used in current dialogue systems. Due to the unavailability of data for this new application, we construct a new large-scale data collection GraphMovie from a movie website where end- users can upload their narratives freely when watching a movie. Experimental results on the dataset show that our proposed approach based on narratives significantly outperforms the baselines that simply use the narrative as a kind of context.
+Author{1}{Firstname}#=%=#Yutao
+Author{1}{Lastname}#=%=#Zhu
+Author{1}{Username}#=%=#z740876080
+Author{1}{Email}#=%=#yutao.zhu@umontreal.ca
+Author{1}{Affiliation}#=%=#University of Montreal
+Author{2}{Firstname}#=%=#Ruihua
+Author{2}{Lastname}#=%=#Song
+Author{2}{Username}#=%=#rsong
+Author{2}{Email}#=%=#rsong@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Xiaoice
+Author{3}{Firstname}#=%=#Zhicheng
+Author{3}{Lastname}#=%=#Dou
+Author{3}{Username}#=%=#douzc
+Author{3}{Email}#=%=#dou@ruc.edu.cn
+Author{3}{Affiliation}#=%=#Renmin University of China
+Author{4}{Firstname}#=%=#Jian-Yun
+Author{4}{Lastname}#=%=#NIE
+Author{4}{Username}#=%=#nie
+Author{4}{Email}#=%=#nie@iro.umontreal.ca
+Author{4}{Affiliation}#=%=#University of Montreal
+Author{5}{Firstname}#=%=#Jin
+Author{5}{Lastname}#=%=#Zhou
+Author{5}{Username}#=%=#jinzhou
+Author{5}{Email}#=%=#whitezj@vip.sina.com
+Author{5}{Affiliation}#=%=#Beijing Film Academy
+
+==========

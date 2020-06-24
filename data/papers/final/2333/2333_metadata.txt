@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2333
+FinalPaperTitle#=%=#Evaluating Robustness to Input Perturbations for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Xing Niu
+JobTitle#==#
+Organization#==#Amazon, 7 West 34th St. New York, NY 10001
+Abstract#==#Neural Machine Translation (NMT) models are sensitive to small perturbations in the input. Robustness to such perturbations is typically measured using translation quality metrics such as BLEU on the noisy input. This paper proposes additional metrics which measure the relative degradation and changes in translation when small perturbations are added to the input. We focus on a class of models employing subword regularization to address robustness and perform extensive evaluations of these models using the robustness measures proposed. Results show that our proposed metrics reveal a clear trend of improved robustness to perturbations when subword regularization methods are used.
+Author{1}{Firstname}#=%=#Xing
+Author{1}{Lastname}#=%=#Niu
+Author{1}{Username}#=%=#oxstar
+Author{1}{Email}#=%=#info@xingniu.org
+Author{1}{Affiliation}#=%=#Amazon AI
+Author{2}{Firstname}#=%=#Prashant
+Author{2}{Lastname}#=%=#Mathur
+Author{2}{Username}#=%=#prashant
+Author{2}{Email}#=%=#pm.prashant@gmail.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Georgiana
+Author{3}{Lastname}#=%=#Dinu
+Author{3}{Username}#=%=#georgiana.dinu
+Author{3}{Email}#=%=#gddinu@amazon.com
+Author{3}{Affiliation}#=%=#Amazon AWS
+Author{4}{Firstname}#=%=#Yaser
+Author{4}{Lastname}#=%=#Al-Onaizan
+Author{4}{Username}#=%=#onaizan-amazon
+Author{4}{Email}#=%=#onaizan2000@yahoo.com
+Author{4}{Affiliation}#=%=#Amazon AI
+
+==========

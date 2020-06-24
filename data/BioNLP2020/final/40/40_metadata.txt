@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Noise Pollution in Hospital Readmission Prediction: Long Document Classification with Reinforcement Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Liyan Xu
+JobTitle#==#
+Organization#==#Emory University, Atlanta, US
+Abstract#==#This paper presents a reinforcement learning approach to extract noise in long clinical documents for the task of readmission prediction after kidney transplant. We face the challenges of developing robust models on a small dataset where each document may consist of over 10K tokens with full of noise including tabular text and task-irrelevant sentences. We first experiment four types of encoders to empirically decide the best document representation, and then apply reinforcement learning to remove noisy text from the long documents, which models the noise extraction process as a sequential decision problem. Our results show that the old bag-of-words encoder outperforms deep learning-based encoders on this task, and reinforcement learning is able to improve upon baseline while pruning out 25% text segments. Our analysis depicts that reinforcement learning is able to identify both typical noisy tokens and task-specific noisy text.
+Author{1}{Firstname}#=%=#Liyan
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Username}#=%=#liyanxu94
+Author{1}{Email}#=%=#liyan.xu@emory.edu
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Julien
+Author{2}{Lastname}#=%=#Hogan
+Author{2}{Email}#=%=#julien.hogan@emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+Author{3}{Firstname}#=%=#Rachel E.
+Author{3}{Lastname}#=%=#Patzer
+Author{3}{Email}#=%=#rpatzer@emory.edu
+Author{3}{Affiliation}#=%=#Emory University
+Author{4}{Firstname}#=%=#Jinho D.
+Author{4}{Lastname}#=%=#Choi
+Author{4}{Username}#=%=#jdchoi77
+Author{4}{Email}#=%=#jinho.choi@emory.edu
+Author{4}{Affiliation}#=%=#Emory University
+
+==========

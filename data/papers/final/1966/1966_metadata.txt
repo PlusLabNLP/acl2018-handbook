@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1966
+FinalPaperTitle#=%=#Clinical Reading Comprehension: A Thorough Analysis of the emrQA Dataset
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Xiang Yue
+JobTitle#==#
+Organization#==#The Ohio State University
+Abstract#==#Machine reading comprehension has made great progress in recent years owing to large-scale annotated datasets. In the clinical domain, however, creating such datasets is quite difficult due to the domain expertise required for annotation. Recently, Pampari et al. (EMNLP'18) tackled this issue by using expert-annotated question templates and existing i2b2 annotations to create emrQA, the first large-scale dataset for question answering (QA) based on clinical notes. In this paper, we provide an in-depth analysis of this dataset and the clinical reading comprehension (CliniRC) task. From our qualitative analysis, we find that (i) emrQA answers are often incomplete, and (ii) emrQA questions are often answerable without using domain knowledge. From our quantitative experiments, surprising results include that (iii) using a small sampled subset (5%-20%), we can obtain roughly equal performance compared to the model trained on the entire dataset, (iv) this performance is close to human expert's performance, and (v) BERT models do not beat the best performing base model. Following our analysis of the emrQA, we further explore two desired aspects of CliniRC systems: the ability to utilize clinical domain knowledge and to generalize to unseen questions and contexts. We argue that both should be considered when creating future datasets.
+Author{1}{Firstname}#=%=#Xiang
+Author{1}{Lastname}#=%=#Yue
+Author{1}{Username}#=%=#yuexiang96
+Author{1}{Email}#=%=#yue.149@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Bernal
+Author{2}{Lastname}#=%=#Jimenez Gutierrez
+Author{2}{Username}#=%=#bernaljg
+Author{2}{Email}#=%=#jimenezgutierrez.1@buckeyemail.osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Huan
+Author{3}{Lastname}#=%=#Sun
+Author{3}{Username}#=%=#huansun
+Author{3}{Email}#=%=#sun.397@osu.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+
+==========

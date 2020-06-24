@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#331
+FinalPaperTitle#=%=#Meta-Transfer Learning for Code-Switched Speech Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#GENTA INDRA WINATA
+JobTitle#==#
+Organization#==#The Hong Kong University of Science and Technology, Clear Water Bay Kowloon Hong Kong
+Abstract#==#An increasing number of people in the world today speak a mixed-language as a result of being multilingual. However, building a speech recognition system for code-switching remains difficult due to the availability of limited resources and the expense and significant effort required to collect mixed-language data. We therefore propose a new learning method, meta-transfer learning, to transfer learn on a code-switched speech recognition system in a low-resource setting by judiciously extracting information from high-resource monolingual datasets. Our model learns to recognize individual languages, and transfer them so as to better recognize mixed-language speech by conditioning the optimization on the code-switching data. Based on experimental results, our model outperforms existing baselines on speech recognition and language modeling tasks, and is faster to converge.
+Author{1}{Firstname}#=%=#Genta Indra
+Author{1}{Lastname}#=%=#Winata
+Author{1}{Username}#=%=#giwinata
+Author{1}{Email}#=%=#giwinata@connect.ust.hk
+Author{1}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Samuel
+Author{2}{Lastname}#=%=#Cahyawijaya
+Author{2}{Username}#=%=#samuelc
+Author{2}{Email}#=%=#scahyawijaya@connect.ust.hk
+Author{2}{Affiliation}#=%=#HKUST
+Author{3}{Firstname}#=%=#Zhaojiang
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Username}#=%=#zlinao
+Author{3}{Email}#=%=#zlinao@connect.ust.hk
+Author{3}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{4}{Firstname}#=%=#Zihan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#zihanliu
+Author{4}{Email}#=%=#zliucr@connect.ust.hk
+Author{4}{Affiliation}#=%=#Hong Kong University of Science and Technology
+Author{5}{Firstname}#=%=#Peng
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Username}#=%=#pxuab
+Author{5}{Email}#=%=#pxuab@connect.ust.hk
+Author{5}{Affiliation}#=%=#The Hong Kong University of Science and Technology
+Author{6}{Firstname}#=%=#Pascale
+Author{6}{Lastname}#=%=#Fung
+Author{6}{Username}#=%=#pascale
+Author{6}{Email}#=%=#pascale@ece.ust.hk
+Author{6}{Affiliation}#=%=#Hong Kong University of Science and Technology
+
+==========

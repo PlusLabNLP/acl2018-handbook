@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1900
+FinalPaperTitle#=%=#Showing Your Work Doesn't Always Work
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Raphael Tang
+JobTitle#==#
+Organization#==#University of Waterloo, 200 University Ave W, Waterloo, ON, Canada
+Abstract#==#In natural language processing, a recently popular line of work explores how to best report the experimental results of neural networks. One exemplar publication, titled "Show Your Work: Improved Reporting of Experimental Results" (Dodge et al., 2019), advocates for reporting the expected validation effectiveness of the best-tuned model, with respect to the computational budget. In the present work, we critically examine this paper. As far as statistical generalizability is concerned, we find unspoken pitfalls and caveats with this approach. We analytically show that their estimator is biased and uses error-prone assumptions. We find that the estimator favors negative errors and yields poor bootstrapped confidence intervals. We derive an unbiased alternative and bolster our claims with empirical evidence from statistical simulation. Our codebase is at https://github.com/castorini/meanmax.
+Author{1}{Firstname}#=%=#Raphael
+Author{1}{Lastname}#=%=#Tang
+Author{1}{Username}#=%=#rtang123
+Author{1}{Email}#=%=#r33tang@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Jaejun
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Username}#=%=#ljj7975
+Author{2}{Email}#=%=#j474lee@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+Author{3}{Firstname}#=%=#Ji
+Author{3}{Lastname}#=%=#Xin
+Author{3}{Username}#=%=#xinji1996
+Author{3}{Email}#=%=#ji.xin@uwaterloo.ca
+Author{3}{Affiliation}#=%=#University of Waterloo
+Author{4}{Firstname}#=%=#Xinyu
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#x389liu
+Author{4}{Email}#=%=#x389liu@edu.uwaterloo.ca
+Author{4}{Affiliation}#=%=#University of Waterloo
+Author{5}{Firstname}#=%=#Yaoliang
+Author{5}{Lastname}#=%=#Yu
+Author{5}{Username}#=%=#yaoliang
+Author{5}{Email}#=%=#yaoliang.yu@uwaterloo.ca
+Author{5}{Affiliation}#=%=#University of Waterloo
+Author{6}{Firstname}#=%=#Jimmy
+Author{6}{Lastname}#=%=#Lin
+Author{6}{Username}#=%=#jimmylin
+Author{6}{Email}#=%=#jimmylin@uwaterloo.ca
+Author{6}{Affiliation}#=%=#University of Waterloo
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2508
+FinalPaperTitle#=%=#AdvAug: Robust Adversarial Augmentation for Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yong Cheng
+JobTitle#==#
+Organization#==#Google, 1600 Amphitheatre Parkway in Mountain View, California, United States
+Abstract#==#In this paper, we propose a new adversarial augmentation method for Neural Machine  Translation (NMT).  The main idea is to minimize the vicinal risk over virtual sentences sampled from two vicinity distributions, in which the crucial one is a novel vicinity distribution  for adversarial sentences that describes a smooth interpolated embedding space centered  around observed training sentence pairs. We then discuss our approach, AdvAug, to train  NMT models using the embeddings of virtual sentences in sequence-to-sequence learning.   Experiments on Chinese-English, English-French, and English-German translation benchmarks show that AdvAug achieves significant improvements over theTransformer (up to 4.9 BLEU points), and substantially outperforms other data augmentation techniques (e.g.back-translation) without using extra corpora.
+Author{1}{Firstname}#=%=#Yong
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Username}#=%=#chengyong
+Author{1}{Email}#=%=#chengyong@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Lu
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#roadjiang
+Author{2}{Email}#=%=#lujiang@google.com
+Author{2}{Affiliation}#=%=#Google Research
+Author{3}{Firstname}#=%=#Wolfgang
+Author{3}{Lastname}#=%=#Macherey
+Author{3}{Username}#=%=#wmach
+Author{3}{Email}#=%=#wmach@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Jacob
+Author{4}{Lastname}#=%=#Eisenstein
+Author{4}{Username}#=%=#jacobe
+Author{4}{Email}#=%=#jeisenstein@google.com
+Author{4}{Affiliation}#=%=#Google
+
+==========

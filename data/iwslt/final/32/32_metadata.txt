@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#The University of Helsinki Submission to the IWSLT2020 Offline SpeechTranslation Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Raul Vazquez
+JobTitle#==#
+Organization#==#University of Helsinki, Unioninkatu 40 A, Helsinki 00170
+Abstract#==#This paper describes the University of Helsinki Language Technology group's participation in the IWSLT 2020 offline speech translation task, addressing the translation of English audio into German text. In line with this year's task objective, we train both cascade and end-to-end systems for spoken language translation. We opt for an end-to-end multitasking architecture with shared internal representations and a cascade approach that follows a standard procedure consisting of ASR, correction, and MT stages. We also describe the experiments that served as a basis for the submitted systems. Our experiments reveal that multitasking training with shared internal representations is not only possible but allows for knowledge-transfer across modalities.
+Author{1}{Firstname}#=%=#Raúl
+Author{1}{Lastname}#=%=#Vázquez
+Author{1}{Username}#=%=#raul.vazquez
+Author{1}{Email}#=%=#raul.vazquez@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Mikko
+Author{2}{Lastname}#=%=#Aulamo
+Author{2}{Username}#=%=#mikko.aulamo
+Author{2}{Email}#=%=#mikko.aulamo@helsinki.fi
+Author{2}{Affiliation}#=%=#University of Helsinki
+Author{3}{Firstname}#=%=#Umut
+Author{3}{Lastname}#=%=#Sulubacak
+Author{3}{Username}#=%=#umut
+Author{3}{Email}#=%=#umut.sulubacak@helsinki.fi
+Author{3}{Affiliation}#=%=#University of Helsinki
+Author{4}{Firstname}#=%=#Jörg
+Author{4}{Lastname}#=%=#Tiedemann
+Author{4}{Username}#=%=#joerg
+Author{4}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{4}{Affiliation}#=%=#University of Helsinki
+
+==========

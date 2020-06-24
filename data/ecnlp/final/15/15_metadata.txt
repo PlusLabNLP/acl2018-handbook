@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Semi-Supervised Iterative Approach for Domain-Specific Complaint Detection in Social Media
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Akash Kumar Gautam
+JobTitle#==#
+Organization#==#MIDAS, IIIT-Delhi
+Abstract#==#In this paper, we present a semi-supervised bootstrapping approach to detect product or service related complaints in social media. Our approach begins with a small collection of annotated samples which are used to identify a preliminary set of linguistic indicators pertinent to complaints. These indicators are then used to expand the dataset. The expanded dataset is again used to extract more indicators. This process is applied for several iterations until we can no longer find any new indicators. We evaluated this approach on a Twitter corpus specifically to detect complaints about transportation services. We started with an annotated set of 326 samples of transportation complaints, and after four iterations of the approach, we collected 2,840 indicators and over 3,700 tweets. We annotated a random sample of 700 tweets from the final dataset and observed that nearly half the samples were actual transportation complaints. Lastly, we also studied how different features based on semantics, orthographic properties, and sentiment contribute towards the prediction of complaints.
+Author{1}{Firstname}#=%=#Akash
+Author{1}{Lastname}#=%=#Gautam
+Author{1}{Username}#=%=#akash15011
+Author{1}{Email}#=%=#akash15011@iiitd.ac.in
+Author{1}{Affiliation}#=%=#IIIT-Delhi
+Author{2}{Firstname}#=%=#Debanjan
+Author{2}{Lastname}#=%=#Mahata
+Author{2}{Username}#=%=#debanjanmahata
+Author{2}{Email}#=%=#debanjanmahata85@gmail.com
+Author{2}{Affiliation}#=%=#Bloomberg
+Author{3}{Firstname}#=%=#Rakesh
+Author{3}{Lastname}#=%=#Gosangi
+Author{3}{Username}#=%=#rgosangi
+Author{3}{Email}#=%=#rgosangi@bloomberg.net
+Author{3}{Affiliation}#=%=#Bloomberg LP
+Author{4}{Firstname}#=%=#Rajiv Ratn
+Author{4}{Lastname}#=%=#Shah
+Author{4}{Username}#=%=#rrshah
+Author{4}{Email}#=%=#rajivratn@iiitd.ac.in
+Author{4}{Affiliation}#=%=#IIIT Delhi
+
+==========

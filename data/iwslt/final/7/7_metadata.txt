@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Adapting End-to-End Speech Recognition for Readable Subtitles
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Danni Liu
+JobTitle#==#
+Organization#==#Maastricht University
+Abstract#==#Automatic speech recognition (ASR) systems are primarily evaluated on transcription accuracy. However, in some use cases such as subtitling, verbatim transcription would reduce output readability given limited screen size and reading time. Therefore, this work focuses on ASR with output compression, a task challenging for supervised approaches due to the scarcity of training data. We first investigate a cascaded system, where an unsupervised compression model is used to post-edit the transcribed speech. We then compare several methods of end-to-end speech recognition under output length constraints. The experiments show that with limited data far less than needed for training a model from scratch, we can adapt a Transformer-based ASR model to incorporate both transcription and compression capabilities. Furthermore, the best performance in terms of WER and ROUGE scores is achieved by explicitly modeling the length constraints within the end-to-end ASR system.
+Author{1}{Firstname}#=%=#Danni
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Username}#=%=#danni.liu
+Author{1}{Email}#=%=#danni.liu@maastrichtuniversity.nl
+Author{1}{Affiliation}#=%=#Maastricht University
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Niehues
+Author{2}{Username}#=%=#jniehues
+Author{2}{Email}#=%=#jan@niehues.info
+Author{2}{Affiliation}#=%=#Maastricht University
+Author{3}{Firstname}#=%=#Gerasimos
+Author{3}{Lastname}#=%=#Spanakis
+Author{3}{Email}#=%=#jerry.spanakis@maastrichtuniversity.nl
+Author{3}{Affiliation}#=%=#Maastricht University
+
+==========

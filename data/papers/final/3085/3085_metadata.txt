@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3085
+FinalPaperTitle#=%=#Predicting the Topical Stance and Political Leaning of Media using Tweets
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kareem Darwish
+JobTitle#==#
+Organization#==#QCRI, HBKU, PO Box 5825, Doha, Qatar
+Abstract#==#Discovering the stances of media outlets and influential people on current, debatable topics is important for social statisticians and policy makers. Many supervised solutions exist for determining viewpoints, but manually annotating training data is costly. In this paper, we propose a cascaded method that uses unsupervised learning to ascertain the stance of Twitter users with respect to a polarizing topic by leveraging their retweet behavior; then, it uses supervised learning based on user labels to characterize both the general political leaning of online media and of popular Twitter users, as well as their stance with respect to the target polarizing topic. We evaluate the model by comparing its predictions to gold labels from the Media Bias/Fact Check website, achieving 82.6% accuracy.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Stefanov
+Author{1}{Username}#=%=#psstefano1
+Author{1}{Email}#=%=#stefanov.peter.ps@gmail.com
+Author{1}{Affiliation}#=%=#SiteGround Hosting EOOD
+Author{2}{Firstname}#=%=#Kareem
+Author{2}{Lastname}#=%=#Darwish
+Author{2}{Username}#=%=#kdarwish
+Author{2}{Email}#=%=#kdarwish@hbku.edu.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+Author{3}{Firstname}#=%=#Atanas
+Author{3}{Lastname}#=%=#Atanasov
+Author{3}{Username}#=%=#amitkov
+Author{3}{Email}#=%=#amitkov@uni-sofia.bg
+Author{3}{Affiliation}#=%=#Sofia University / DataRobot Inc.
+Author{4}{Firstname}#=%=#Preslav
+Author{4}{Lastname}#=%=#Nakov
+Author{4}{Username}#=%=#preslav
+Author{4}{Email}#=%=#preslav.nakov@gmail.com
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+
+==========

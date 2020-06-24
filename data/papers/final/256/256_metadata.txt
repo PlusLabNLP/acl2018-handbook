@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#256
+FinalPaperTitle#=%=#Towards Interpretable Clinical Diagnosis with Bayesian Network Ensembles Stacked on Entity-Aware CNNs
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jun Chen
+JobTitle#==#
+Organization#==#Baidu Inc, Beijing, China
+Abstract#==#The automatic text-based diagnosis remains a challenging task for clinical use because it requires appropriate balance between accuracy and interpretability. In this paper, we attempt to propose a solution by introducing a novel framework that stacks Bayesian Network Ensembles on top of Entity-Aware Convolutional Neural Networks (CNN) towards building an accurate yet interpretable diagnosis system. The proposed framework takes advantage of the high accuracy and generality of deep neural networks as well as the interpretability of Bayesian Networks, which is critical for AI-empowered healthcare. The evaluation conducted on the real Electronic Medical Record (EMR) documents from hospitals and annotated by professional doctors proves that, the proposed framework outperforms the previous automatic diagnosis methods in accuracy performance and the diagnosis explanation of the framework is reasonable.
+Author{1}{Firstname}#=%=#Jun
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#chenjun_thu
+Author{1}{Email}#=%=#chenjun22@baidu.com
+Author{1}{Affiliation}#=%=#Baidu Inc
+Author{2}{Firstname}#=%=#Xiaoya
+Author{2}{Lastname}#=%=#Dai
+Author{2}{Username}#=%=#daixiaoya_bd
+Author{2}{Email}#=%=#daixiaoya@baidu.com
+Author{2}{Affiliation}#=%=#Baidu Inc
+Author{3}{Firstname}#=%=#Quan
+Author{3}{Lastname}#=%=#Yuan
+Author{3}{Username}#=%=#yuanquan_bd
+Author{3}{Email}#=%=#yuanquan02@baidu.com
+Author{3}{Affiliation}#=%=#Baidu Inc
+Author{4}{Firstname}#=%=#Chao
+Author{4}{Lastname}#=%=#Lu
+Author{4}{Username}#=%=#luchao_bd
+Author{4}{Email}#=%=#luchao@baidu.com
+Author{4}{Affiliation}#=%=#Baidu Inc
+Author{5}{Firstname}#=%=#Haifeng
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Username}#=%=#huanghaifeng_bd
+Author{5}{Email}#=%=#huanghaifeng@baidu.com
+Author{5}{Affiliation}#=%=#Baidu Inc
+
+==========

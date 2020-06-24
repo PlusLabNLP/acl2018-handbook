@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1923
+FinalPaperTitle#=%=#TaPas: Weakly Supervised Table Parsing via Pre-training
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Jonathan Herzig
+JobTitle#==#
+Organization#==#Tel Aviv University
+Abstract#==#Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only used as an intermediate step prior to retrieving the denotation. In this paper, we present TaPas, an approach to question answering over tables without generating logical forms. TaPas trains from weak supervision, and predicts the denotation by selecting table cells and optionally applying a corresponding aggregation operator to such selection. TaPas extends BERT's architecture to encode tables as input, initializes from an effective joint pre-training of text segments and tables crawled from Wikipedia, and is trained end-to-end. We experiment with three different semantic parsing datasets, and find that TaPas outperforms or rivals semantic parsing models by improving state-of-the-art accuracy on SQA from 55.1 to 67.2 and performing on par with the state-of-the-art on WikiSQL and WikiTQ, but with a simpler model architecture. We additionally find that transfer learning, which is trivial in our setting, from WikiSQL to WikiTQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Herzig
+Author{1}{Username}#=%=#jonathan_h
+Author{1}{Email}#=%=#jherzig@gmail.com
+Author{1}{Affiliation}#=%=#Tel-Aviv University
+Author{2}{Firstname}#=%=#Pawel Krzysztof
+Author{2}{Lastname}#=%=#Nowak
+Author{2}{Username}#=%=#pawelnow
+Author{2}{Email}#=%=#pawelnow@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Thomas
+Author{3}{Lastname}#=%=#Müller
+Author{3}{Username}#=%=#muelletm
+Author{3}{Email}#=%=#thomasmueller@google.com
+Author{3}{Affiliation}#=%=#Google AI
+Author{4}{Firstname}#=%=#Francesco
+Author{4}{Lastname}#=%=#Piccinno
+Author{4}{Username}#=%=#piccinno
+Author{4}{Email}#=%=#stack.box@gmail.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Julian
+Author{5}{Lastname}#=%=#Eisenschlos
+Author{5}{Username}#=%=#eisenjulian
+Author{5}{Email}#=%=#eisenjulian@gmail.com
+Author{5}{Affiliation}#=%=#Google
+
+==========

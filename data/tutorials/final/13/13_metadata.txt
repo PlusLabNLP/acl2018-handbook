@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#High Performance Natural Language Processing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This cutting-edge tutorial proposal, targeting ACL/EMNLP 2020, recapitulates state-of-the-art Natural Language models and dives into modern general techniques for reducing model
+size and latency without significant quality losses, which are essential for real-time inference under typical production serving constraints.
+
+Recent advances in Natural Language Processing have substantially improved model capabilities and for many industry applications, production systems with learned models up to date with the state-of-the-art are meeting high quality bars for adoption across a wide variety of language tasks.
+
+However, such cutting-edge models typically have hundreds of millions of parameters and therefore latency, cost and memory constraints remain a challenge. For diverse reasons, some applications require small models running cheaply on CPUs (on server or on device), while many need low latency models e.g. for a smooth user experience.
+
+The first core session focuses on fast inference. We discuss cutting-edge small and shallow network alternatives and the resource vs model quality trade-off, showing case for their usage under budget-constrained environments.
+
+The second core section dives into distillation techniques, covering the latest techniques to build accurate NLP models that fit memory and latency constraints.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Ilharco
+Author{1}{Username}#=%=#gamaga
+Author{1}{Email}#=%=#gamaga@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Cesar
+Author{2}{Lastname}#=%=#Ilharco Magalhaes
+Author{2}{Username}#=%=#ilharco
+Author{2}{Email}#=%=#cesar.ilharco@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Kenton
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Username}#=%=#kentonl
+Author{3}{Email}#=%=#kentonl@google.com
+Author{3}{Affiliation}#=%=#Google Research
+
+==========

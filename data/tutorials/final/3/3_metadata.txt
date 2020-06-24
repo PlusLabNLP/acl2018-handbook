@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Interpretability and Analysis in Neural NLP
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yonatan Belinkov
+JobTitle#==#
+Organization#==#Harvard University, 33 Oxford Street, Cambridge, MA 02138
+Abstract#==#While deep learning has transformed the natural language processing (NLP) field and impacted the larger computational linguistics community, the rise of neural networks is stained by their opaque nature: It is challenging to interpret the inner workings of neural network models, and explicate their behavior. Therefore, in the last few years, an increasingly large body of work has been devoted to the analysis and interpretation of neural network models in NLP.
+
+This body of work is so far lacking a common framework and methodology. Moreover, approaching the analysis of modern neural networks can be difficult for newcomers to the field. This tutorial aims to fill this gap and introduce the nascent field of interpretability and analysis of neural networks in NLP.
+
+The tutorial will cover the main lines of analysis work, such as structural analyses using probing classifiers, behavioral studies and test suites, and interactive visualizations. We will highlight not only the most commonly applied analysis methods, but also the specific limitations and shortcomings of current approaches, in order to inform participants where to focus future efforts.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Belinkov
+Author{1}{Username}#=%=#belinkov
+Author{1}{Email}#=%=#belinkov@mit.edu
+Author{1}{Affiliation}#=%=#MIT CSAIL
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Gehrmann
+Author{2}{Username}#=%=#sgehrmann
+Author{2}{Email}#=%=#gehrmann@seas.harvard.edu
+Author{2}{Affiliation}#=%=#Harvard University
+Author{3}{Firstname}#=%=#Ellie
+Author{3}{Lastname}#=%=#Pavlick
+Author{3}{Username}#=%=#epavlick
+Author{3}{Email}#=%=#ellie_pavlick@brown.edu
+Author{3}{Affiliation}#=%=#Brown University
+
+==========

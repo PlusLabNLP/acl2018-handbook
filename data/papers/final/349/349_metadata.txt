@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#349
+FinalPaperTitle#=%=#DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ji Xin
+JobTitle#==#
+Organization#==#University of Waterloo, 200 University Ave W, Waterloo, ON, Canada
+Abstract#==#Large-scale pre-trained language models such as BERT have brought significant improvements to NLP applications. However, they are also notorious for being slow in inference, which makes them difficult to deploy in real-time applications. We propose a simple but effective method, DeeBERT, to accelerate BERT inference. Our approach allows samples to exit earlier without passing through the entire model. Experiments show that DeeBERT is able to save up to ~40% inference time with minimal degradation in model quality. Further analyses show different behaviors in the BERT transformer layers and also reveal their redundancy. Our work provides new ideas to efficiently apply deep transformer-based models to downstream tasks. Code is available at https://github.com/castorini/DeeBERT.
+Author{1}{Firstname}#=%=#Ji
+Author{1}{Lastname}#=%=#Xin
+Author{1}{Username}#=%=#xinji1996
+Author{1}{Email}#=%=#ji.xin@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Raphael
+Author{2}{Lastname}#=%=#Tang
+Author{2}{Username}#=%=#rtang123
+Author{2}{Email}#=%=#r33tang@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+Author{3}{Firstname}#=%=#Jaejun
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Username}#=%=#ljj7975
+Author{3}{Email}#=%=#j474lee@uwaterloo.ca
+Author{3}{Affiliation}#=%=#University of Waterloo
+Author{4}{Firstname}#=%=#Yaoliang
+Author{4}{Lastname}#=%=#Yu
+Author{4}{Username}#=%=#yaoliang
+Author{4}{Email}#=%=#yaoliang.yu@uwaterloo.ca
+Author{4}{Affiliation}#=%=#University of Waterloo
+Author{5}{Firstname}#=%=#Jimmy
+Author{5}{Lastname}#=%=#Lin
+Author{5}{Username}#=%=#jimmylin
+Author{5}{Email}#=%=#jimmylin@uwaterloo.ca
+Author{5}{Affiliation}#=%=#University of Waterloo
+
+==========

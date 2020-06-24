@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Being neighbourly: Neural metaphor identification in discourse
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Verna Dankers
+JobTitle#==#
+Organization#==#University of Amsterdam, 1012 WX Amsterdam, The Netherlands
+Abstract#==#Existing approaches to metaphor processing typically rely on local features, such as immediate lexico-syntactic contexts or information within a given sentence. However, a large body of corpus-linguistic research suggests that situational information and broader discourse properties influence metaphor production and comprehension. In this paper, we present the first neural metaphor processing architecture that models a broader discourse through the use of attention mechanisms. Our models advance the state of the art on the all POS track of the 2018 VU Amsterdam metaphor identification task. The inclusion of discourse-level information yields further significant improvements.
+Author{1}{Firstname}#=%=#Verna
+Author{1}{Lastname}#=%=#Dankers
+Author{1}{Username}#=%=#vernadankers
+Author{1}{Email}#=%=#vernadankers@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Karan
+Author{2}{Lastname}#=%=#Malhotra
+Author{2}{Username}#=%=#kmalhotra30
+Author{2}{Email}#=%=#karan.malhotra@student.uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Gaurav
+Author{3}{Lastname}#=%=#Kudva
+Author{3}{Username}#=%=#gauravk_96
+Author{3}{Email}#=%=#gaurav.kudva@student.uva.nl
+Author{3}{Affiliation}#=%=#University of Amsterdam
+Author{4}{Firstname}#=%=#Volodymyr
+Author{4}{Lastname}#=%=#Medentsiy
+Author{4}{Username}#=%=#vovame
+Author{4}{Email}#=%=#volodymyr.medentsiy@student.uva.nl
+Author{4}{Affiliation}#=%=#University of Amsterdam
+Author{5}{Firstname}#=%=#Ekaterina
+Author{5}{Lastname}#=%=#Shutova
+Author{5}{Username}#=%=#katia
+Author{5}{Email}#=%=#shutova.e@gmail.com
+Author{5}{Affiliation}#=%=#University of Amsterdam
+
+==========

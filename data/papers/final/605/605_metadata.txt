@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#605
+FinalPaperTitle#=%=#Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Ahmed Elgohary Ghoneim
+JobTitle#==#
+Organization#==#University of Maryland, College Park, MD, USA
+Abstract#==#We study the task of semantic parse correction with natural language feedback. Given a natural language utterance, most semantic parsing systems pose the problem as one-shot translation where the utterance is mapped to a corresponding logical form. In this paper, we investigate a more interactive scenario where humans can further interact with the system by providing free-form natural language feedback to correct the system when it generates an inaccurate interpretation of an initial utterance. We focus on natural language to SQL systems and construct, SPLASH, a dataset of utterances, incorrect SQL interpretations and the corresponding natural language feedback. We compare various reference models for the correction task and show that incorporating such a rich form of feedback can significantly improve the overall semantic parsing accuracy while retaining the flexibility of natural language interaction. While we estimated human correction accuracy is 81.5\%, our best model achieves only 25.1\%,  which leaves a large gap for improvement in future research. SPLASH is publicly available at https://aka.ms/Splash_dataset.
+Author{1}{Firstname}#=%=#Ahmed
+Author{1}{Lastname}#=%=#Elgohary
+Author{1}{Username}#=%=#elgohary
+Author{1}{Email}#=%=#elgohary@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#saghar
+Author{2}{Lastname}#=%=#Hosseini
+Author{2}{Username}#=%=#saghar
+Author{2}{Email}#=%=#saghar.hosseini@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Ahmed
+Author{3}{Lastname}#=%=#Hassan Awadallah
+Author{3}{Username}#=%=#hassanam
+Author{3}{Email}#=%=#hassanam@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+
+==========

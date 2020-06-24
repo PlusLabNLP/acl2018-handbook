@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#864
+FinalPaperTitle#=%=#In Layman’s Terms: Semi-Open Relation Extraction from Scientific Texts
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Ruben Kruiper
+JobTitle#==#
+Organization#==#Heriot-Watt. University, Riccarton Campus, EH14 4AS, Edinburgh, Scotland
+Abstract#==#Information Extraction (IE) from scientific texts can be used to guide readers to the central information in scientific documents. But narrow IE systems extract only a fraction of the information captured, and Open IE systems do not perform well on the long and complex sentences encountered in scientific texts. In this work we combine the output of both types of systems to achieve Semi-Open Relation Extraction, a new task that we explore in the Biology domain. First, we present the Focused Open Biological Information Extraction (FOBIE) dataset and use FOBIE to train a state-of-the-art narrow scientific IE system to extract trade-off relations and arguments that are central to biology texts. We then run both the narrow IE system and a state-of-the-art Open IE system on a corpus of 10K open-access scientific biological texts. We show that a significant amount (65%) of erroneous and uninformative Open IE extractions can be filtered using narrow IE extractions. Furthermore, we show that the retained extractions are significantly more often informative to a reader.
+Author{1}{Firstname}#=%=#Ruben
+Author{1}{Lastname}#=%=#Kruiper
+Author{1}{Username}#=%=#kruiper
+Author{1}{Email}#=%=#rk22@hw.ac.uk
+Author{1}{Affiliation}#=%=#Heriot-Watt University
+Author{2}{Firstname}#=%=#Julian
+Author{2}{Lastname}#=%=#Vincent
+Author{2}{Username}#=%=#legrandjules
+Author{2}{Email}#=%=#julian.vincent@cantab.net
+Author{2}{Affiliation}#=%=#Heriot-Watt University
+Author{3}{Firstname}#=%=#Jessica
+Author{3}{Lastname}#=%=#Chen-Burger
+Author{3}{Username}#=%=#jchenburger
+Author{3}{Email}#=%=#jchenburger@gmail.com
+Author{3}{Affiliation}#=%=#Heriot-Watt University
+Author{4}{Firstname}#=%=#Marc
+Author{4}{Lastname}#=%=#Desmulliez
+Author{4}{Username}#=%=#ceemd
+Author{4}{Email}#=%=#m.desmulliez@hw.ac.uk
+Author{4}{Affiliation}#=%=#Heriot-Watt University
+Author{5}{Firstname}#=%=#Ioannis
+Author{5}{Lastname}#=%=#Konstas
+Author{5}{Username}#=%=#konstas
+Author{5}{Email}#=%=#i.konstas@hw.ac.uk
+Author{5}{Affiliation}#=%=#Heriot-Watt University
+
+==========

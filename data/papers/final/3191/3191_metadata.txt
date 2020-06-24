@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3191
+FinalPaperTitle#=%=#Towards Holistic and Automatic Evaluation of Open-Domain Dialogue Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Bo Pang
+JobTitle#==#
+Organization#==#UCLA, 520 Portola Plaza, Los Angeles, CA 90095
+Abstract#==#Open-domain dialogue generation has gained increasing attention in Natural Language Processing. Its evaluation requires a holistic means. Human ratings are deemed as the gold standard. As human evaluation is inefficient and costly, an automated substitute is highly desirable. In this paper, we propose holistic evaluation metrics that capture different aspects of open-domain dialogues. Our metrics consist of (1) GPT-2 based context coherence between sentences in a dialogue, (2) GPT-2 based fluency in phrasing, (3) $n$-gram based diversity in responses to augmented queries, and (4) textual-entailment-inference based logical self-consistency. The empirical validity of our metrics is demonstrated by strong correlations with human judgments. We open source the code and relevant materials.
+Author{1}{Firstname}#=%=#Bo
+Author{1}{Lastname}#=%=#Pang
+Author{1}{Username}#=%=#bopangucla
+Author{1}{Email}#=%=#bopang@g.ucla.edu
+Author{1}{Affiliation}#=%=#University of California, Los Angeles
+Author{2}{Firstname}#=%=#Erik
+Author{2}{Lastname}#=%=#Nijkamp
+Author{2}{Username}#=%=#enijkamp
+Author{2}{Email}#=%=#enijkamp@ucla.edu
+Author{2}{Affiliation}#=%=#UCLA
+Author{3}{Firstname}#=%=#Wenjuan
+Author{3}{Lastname}#=%=#Han
+Author{3}{Username}#=%=#wenjuanhan
+Author{3}{Email}#=%=#dcshanw@nus.edu.sg
+Author{3}{Affiliation}#=%=#National University of Singapore
+Author{4}{Firstname}#=%=#Linqi
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Username}#=%=#linqizhou
+Author{4}{Email}#=%=#linqizhou907@gmail.com
+Author{4}{Affiliation}#=%=#UCLA
+Author{5}{Firstname}#=%=#Yixian
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Username}#=%=#liuyixian0317
+Author{5}{Email}#=%=#liuyx@shanghaitech.edu.cn
+Author{5}{Affiliation}#=%=#Shanghaitech University
+Author{6}{Firstname}#=%=#Kewei
+Author{6}{Lastname}#=%=#Tu
+Author{6}{Username}#=%=#tukw
+Author{6}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{6}{Affiliation}#=%=#ShanghaiTech University
+
+==========

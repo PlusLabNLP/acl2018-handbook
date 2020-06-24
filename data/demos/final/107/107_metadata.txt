@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Benjamin E Nye
+JobTitle#==#
+Organization#==#Northeastern University, 360 Huntington Ave, Boston, MA 02115
+Abstract#==#We introduce Trialstreamer, a living database of clinical trial reports.
+
+Here we mainly describe the evidence extraction component; this extracts from biomedical abstracts key pieces of information that clinicians need when appraising the literature, and also the relations between these. Specifically, the system extracts descriptions of trial participants, the treatments compared in each arm (the interventions), and which outcomes were measured. The system then attempts to infer which interventions were reported to work best by determining their relationship with identified trial outcome measures. In addition to summarizing individual trials, these extracted data elements allow automatic synthesis of results across many trials on the same topic. We apply the system at scale to all reports of randomized controlled trials indexed in MEDLINE, powering the automatic generation of evidence maps, which provide a global view of the efficacy of different interventions combining data from all relevant clinical trials on a topic.
+
+We make all code and models freely available alongside a demonstration of the web interface.
+Author{1}{Firstname}#=%=#Benjamin
+Author{1}{Lastname}#=%=#Nye
+Author{1}{Username}#=%=#bepnye
+Author{1}{Email}#=%=#bepnye@gmail.com
+Author{1}{Affiliation}#=%=#Northeastern University
+Author{2}{Firstname}#=%=#Ani
+Author{2}{Lastname}#=%=#Nenkova
+Author{2}{Username}#=%=#nenkova
+Author{2}{Email}#=%=#nenkova@seas.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Iain
+Author{3}{Lastname}#=%=#Marshall
+Author{3}{Username}#=%=#ijmarshall
+Author{3}{Email}#=%=#iainjmarshall@gmail.com
+Author{3}{Affiliation}#=%=#King's College London
+Author{4}{Firstname}#=%=#Byron C.
+Author{4}{Lastname}#=%=#Wallace
+Author{4}{Username}#=%=#byroncw
+Author{4}{Email}#=%=#byron@ccs.neu.edu
+Author{4}{Affiliation}#=%=#Northeastern University
+
+==========

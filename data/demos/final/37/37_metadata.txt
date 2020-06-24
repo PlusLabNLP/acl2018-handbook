@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#YIZHE ZHANG
+JobTitle#==#
+Organization#==#MICROSOFT, ONE MICROSOFT WAY, REDMOND, WA, 98052
+Abstract#==#We present a large, tunable neural conversational response generation model, DIALOGPT (dialogue generative pre-trained transformer). Trained on 147M conversation-like exchanges extracted from Reddit comment chains over a period spanning from 2005 through 2017, DialoGPT extends the Hugging Face PyTorch transformer to attain a performance close to human both in terms of automatic and human evaluation in single-turn dialogue settings. We show that conversational systems that leverage DialoGPT generate more relevant, contentful and context-consistent responses than strong baseline systems. The pre-trained model and training pipeline are publicly released to facilitate research into neural response generation and the development of more intelligent open-domain dialogue systems.
+Author{1}{Firstname}#=%=#Yizhe
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#yizhe
+Author{1}{Email}#=%=#yizhe.zhang@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Siqi
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#siqisun
+Author{2}{Email}#=%=#siqisun@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Michel
+Author{3}{Lastname}#=%=#Galley
+Author{3}{Username}#=%=#mgalley
+Author{3}{Email}#=%=#mgalley@acm.org
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Yen-Chun
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Username}#=%=#yenchun
+Author{4}{Email}#=%=#Yen-Chun.Chen@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Dynamics 365 AI Research
+Author{5}{Firstname}#=%=#Chris
+Author{5}{Lastname}#=%=#Brockett
+Author{5}{Username}#=%=#chrisbkt
+Author{5}{Email}#=%=#chris.brockett@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+Author{6}{Firstname}#=%=#Xiang
+Author{6}{Lastname}#=%=#Gao
+Author{6}{Username}#=%=#gxiang1228
+Author{6}{Email}#=%=#xiag@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research
+Author{7}{Firstname}#=%=#Jianfeng
+Author{7}{Lastname}#=%=#Gao
+Author{7}{Username}#=%=#jfgao
+Author{7}{Email}#=%=#jfgao@microsoft.com
+Author{7}{Affiliation}#=%=#Microsoft Research, Redmond
+Author{8}{Firstname}#=%=#Jingjing
+Author{8}{Lastname}#=%=#Liu
+Author{8}{Username}#=%=#jingl
+Author{8}{Email}#=%=#jingl@csail.mit.edu
+Author{8}{Affiliation}#=%=#Microsoft
+Author{9}{Firstname}#=%=#Bill
+Author{9}{Lastname}#=%=#Dolan
+Author{9}{Username}#=%=#billdol
+Author{9}{Email}#=%=#billdol@microsoft.com
+Author{9}{Affiliation}#=%=#Microsoft Research
+
+==========

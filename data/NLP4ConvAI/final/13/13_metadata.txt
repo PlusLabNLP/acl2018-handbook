@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#How to Tame Your Data: Data Augmentation for Dialog State Tracking
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adam Summerville
+JobTitle#==#
+Organization#==#Cal Poly Pomona
+Abstract#==#Dialog State Tracking (DST) is a problem space in which the effective vocabulary is practically limitless. For example, the domain of possible movie titles or restaurant names is bound only by the limits of language.  As such, DST systems often encounter out-of-vocabulary words at inference time that were never encountered during training.  To combat this issue, we present a targeted data augmentation process, by which a practitioner observes the types of errors made on held-out evaluation data, and then modifies the training data with additional corpora to increase the vocabulary size at training time.  Using this with a RoBERTa-based Transformer architecture, we achieve state-of-the-art results in comparison to systems that only mask trouble slots with special tokens. Additionally, we present a data-representation scheme for seamlessly retargeting DST architectures to new domains.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#Summerville
+Author{1}{Username}#=%=#adamsumm
+Author{1}{Email}#=%=#adamsumm@gmail.com
+Author{1}{Affiliation}#=%=#Cal Poly Pomona
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Hashemi
+Author{2}{Username}#=%=#hashemij
+Author{2}{Email}#=%=#jordan.hashemi@raytheon.com
+Author{2}{Affiliation}#=%=#Raytheon BBN Technologies
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Ryan
+Author{3}{Username}#=%=#xfoml
+Author{3}{Email}#=%=#james.o.ryan@raytheon.com
+Author{3}{Affiliation}#=%=#BBN Technologies
+Author{4}{Firstname}#=%=#william
+Author{4}{Lastname}#=%=#ferguson
+Author{4}{Username}#=%=#wferguson-bbn
+Author{4}{Email}#=%=#wferguson@bbn.com
+Author{4}{Affiliation}#=%=#BBN Technologies
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Evaluating Natural Alpha Embeddings on Intrinsic and Extrinsic Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#Romanian Institute of Science and Technology, Cluj-Napoca, Romania
+Abstract#==#Skip-Gram is a simple, but effective, model to learn a word embedding mapping by estimating a conditional probability distribution for each word of the dictionary. In the context of Information Geometry, these distributions form a Riemannian statistical manifold, where word embeddings are interpreted as vectors in the tangent bundle of the manifold. In this paper we show how the choice of the geometry on the manifold allows impacts on the performances both on intrinsic and extrinsic tasks, in function of a deformation parameter alpha.
+Author{1}{Firstname}#=%=#Riccardo
+Author{1}{Lastname}#=%=#Volpi
+Author{1}{Username}#=%=#ricvo
+Author{1}{Email}#=%=#volpi@rist.ro
+Author{1}{Affiliation}#=%=#Romanian Institute of Science and Technology
+Author{2}{Firstname}#=%=#Luigi
+Author{2}{Lastname}#=%=#Malagò
+Author{2}{Username}#=%=#luigi.malago
+Author{2}{Email}#=%=#luigi.malago@gmail.com
+Author{2}{Affiliation}#=%=#Romanian Institute of Science and Technology
+
+==========

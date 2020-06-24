@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3129
+FinalPaperTitle#=%=#{L}anguage (Re)modelling: {T}owards Embodied Language Understanding
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Ronen Tamari
+JobTitle#==#
+Organization#==#The Hebrew University of Jerusalem, he Edmond J. Safra Campus - Givat Ram, Jerusalem, Israel
+Abstract#==#While natural language understanding (NLU) is advancing rapidly, today's technology differs from human-like language understanding in fundamental ways, notably in its inferior efficiency, interpretability, and generalization. This work proposes an approach to representation and learning based on the tenets of embodied cognitive linguistics (ECL). According to ECL, natural language is inherently executable (like programming languages), driven by mental simulation and metaphoric mappings over hierarchical compositions of structures and schemata learned through embodied interaction. This position paper argues that the use of grounding by metaphoric reasoning and simulation will greatly benefit NLU systems,  and proposes a system architecture along with a roadmap towards realizing this vision.
+Author{1}{Firstname}#=%=#Ronen
+Author{1}{Lastname}#=%=#Tamari
+Author{1}{Username}#=%=#ronent
+Author{1}{Email}#=%=#ronent@cs.huji.ac.il
+Author{1}{Affiliation}#=%=#Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Chen
+Author{2}{Lastname}#=%=#Shani
+Author{2}{Username}#=%=#chen.shani
+Author{2}{Email}#=%=#chenxshani@gmail.com
+Author{2}{Affiliation}#=%=#Ph. D. student
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#Hope
+Author{3}{Username}#=%=#tomhope
+Author{3}{Email}#=%=#tomh@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for AI
+Author{4}{Firstname}#=%=#Miriam R L
+Author{4}{Lastname}#=%=#Petruck
+Author{4}{Username}#=%=#miriam
+Author{4}{Email}#=%=#miriamp@icsi.berkeley.edu
+Author{4}{Affiliation}#=%=#International Computer Science Institute
+Author{5}{Firstname}#=%=#Omri
+Author{5}{Lastname}#=%=#Abend
+Author{5}{Username}#=%=#omria01
+Author{5}{Email}#=%=#omri.abend@mail.huji.ac.il
+Author{5}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{6}{Firstname}#=%=#Dafna
+Author{6}{Lastname}#=%=#Shahaf
+Author{6}{Username}#=%=#dshahaf
+Author{6}{Email}#=%=#dshahaf@cs.huji.ac.il
+Author{6}{Affiliation}#=%=#The Hebrew University of Jerusalem
+
+==========

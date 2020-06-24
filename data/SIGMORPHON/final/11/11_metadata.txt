@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Evaluating Neural Morphological Taggers for Sanskrit
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ashim Gupta
+JobTitle#==#
+Organization#==#School of Computing, University of Utah
+Abstract#==#Neural sequence labelling approaches have achieved state of the art results in morphological tagging. We evaluate the efficacy of four standard sequence labelling models on Sanskrit, a morphologically rich, fusional Indian language. As its label space can theoretically contain more than 40,000 labels, systems that explicitly model the internal structure of a label are more suited for the task, because of their ability to generalise to labels not seen during training. We find that although some neural models perform better than others, one of the common causes for error for all of these models is mispredictions due to syncretism.
+Author{1}{Firstname}#=%=#Ashim
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Username}#=%=#ashim95
+Author{1}{Email}#=%=#ashimgupta95@gmail.com
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Amrith
+Author{2}{Lastname}#=%=#Krishna
+Author{2}{Username}#=%=#krishnamrith12
+Author{2}{Email}#=%=#amrk@itu.dk
+Author{2}{Affiliation}#=%=#IT University of Copenhagen
+Author{3}{Firstname}#=%=#Pawan
+Author{3}{Lastname}#=%=#Goyal
+Author{3}{Username}#=%=#pawang
+Author{3}{Email}#=%=#pawang.iitk@gmail.com
+Author{3}{Affiliation}#=%=#IIT Kharagpur
+Author{4}{Firstname}#=%=#Oliver
+Author{4}{Lastname}#=%=#Hellwig
+Author{4}{Username}#=%=#oliver_hellwig
+Author{4}{Email}#=%=#hellwig7@gmx.de
+Author{4}{Affiliation}#=%=#University of Zürich, IVS
+
+==========

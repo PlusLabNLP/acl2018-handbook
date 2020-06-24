@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1112
+FinalPaperTitle#=%=#Evaluating Dialogue Generation Systems via Response Selection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Shiki Sato
+JobTitle#==#
+Organization#==#Tohoku University, Japan
+Abstract#==#Existing automatic evaluation metrics for open-domain dialogue response generation systems correlate poorly with human evaluation. 
+We focus on evaluating response generation systems via response selection.
+To evaluate systems properly via response selection, we propose a method to construct response selection test sets with well-chosen false candidates.
+Specifically, we propose to construct test sets filtering out some types of false candidates: (i) those unrelated to the ground-truth response and (ii) those acceptable as appropriate responses.
+Through experiments, we demonstrate that evaluating systems via response selection with the test set developed by our method correlates more strongly with human evaluation, compared with widely used automatic evaluation metrics such as BLEU.
+Author{1}{Firstname}#=%=#Shiki
+Author{1}{Lastname}#=%=#Sato
+Author{1}{Username}#=%=#shiki_sato
+Author{1}{Email}#=%=#shiki.sato@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Reina
+Author{2}{Lastname}#=%=#Akama
+Author{2}{Username}#=%=#reina.a
+Author{2}{Email}#=%=#reina.a@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Hiroki
+Author{3}{Lastname}#=%=#Ouchi
+Author{3}{Username}#=%=#hiroki
+Author{3}{Email}#=%=#hiroki.ouchi@riken.jp
+Author{3}{Affiliation}#=%=#Riken AIP / Tohoku University
+Author{4}{Firstname}#=%=#Jun
+Author{4}{Lastname}#=%=#Suzuki
+Author{4}{Username}#=%=#jun
+Author{4}{Email}#=%=#dr.jun.suzuki@gmail.com
+Author{4}{Affiliation}#=%=#Tohoku University / RIKEN Center for AIP
+Author{5}{Firstname}#=%=#Kentaro
+Author{5}{Lastname}#=%=#Inui
+Author{5}{Username}#=%=#k.inui
+Author{5}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{5}{Affiliation}#=%=#Tohoku University / Riken
+
+==========

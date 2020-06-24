@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Steinþór Steingrímsson
+JobTitle#==#
+Organization#==#Reykjavik University, Menntavegur 1, Reykjavik, Iceland
+Abstract#==#Parallel corpora are key to developing good machine translation systems. However, abundant parallel data are hard to come by, especially for languages with a low number of speakers. When rich morphology exacerbates the data sparsity problem, it is imperative to have accurate alignment and filtering methods that can help make the most of what is available by maximising the number of correctly translated segments in a corpus and minimising noise by removing incorrect translations and segments containing extraneous data.
+This paper sets out a research plan for improving alignment and filtering methods for parallel texts in low-resource settings. We propose an effective unsupervised alignment method to tackle the alignment problem. 
+Moreover, we propose a strategy to supplement state-of-the-art models with automatically extracted information using basic NLP tools to effectively handle rich morphology.
+Author{1}{Firstname}#=%=#Steinþór
+Author{1}{Lastname}#=%=#Steingrímsson
+Author{1}{Username}#=%=#steinst
+Author{1}{Email}#=%=#steinthor18@ru.is
+Author{1}{Affiliation}#=%=#Reykjavik University
+Author{2}{Firstname}#=%=#Hrafn
+Author{2}{Lastname}#=%=#Loftsson
+Author{2}{Username}#=%=#hrafn
+Author{2}{Email}#=%=#hrafn@ru.is
+Author{2}{Affiliation}#=%=#Reykjavik University
+Author{3}{Firstname}#=%=#Andy
+Author{3}{Lastname}#=%=#Way
+Author{3}{Username}#=%=#away
+Author{3}{Email}#=%=#away@computing.dcu.ie
+Author{3}{Affiliation}#=%=#ADAPT, Dublin City University
+
+==========

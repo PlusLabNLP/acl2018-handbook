@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#1844
+FinalPaperTitle#=%=#Generating Fact Checking Explanations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Pepa Atanasova
+JobTitle#==#
+Organization#==#University of Copenhagen, Copenhagen, Universitetsparken 1, 2100
+Abstract#==#Most existing work on automated fact checking is concerned with predicting the veracity of claims based on metadata, social network spread, language used in claims, and, more recently, evidence supporting or denying claims. A crucial piece of the puzzle that is still missing is to understand how to automate the most elaborate part of the process -- generating justifications for verdicts on claims.
+This paper provides the first study of how these explanations can be generated automatically based on available claim context, and how this task can be modelled jointly with veracity prediction. Our results indicate that optimising both objectives at the same time, rather than training them separately, improves the performance of a fact checking system. The results of a manual evaluation further suggest that the informativeness, coverage and overall quality of the generated explanations are also improved in the multi-task model.
+Author{1}{Firstname}#=%=#Pepa
+Author{1}{Lastname}#=%=#Atanasova
+Author{1}{Username}#=%=#pepa
+Author{1}{Email}#=%=#pepa.k.gencheva@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Jakob Grue
+Author{2}{Lastname}#=%=#Simonsen
+Author{2}{Username}#=%=#simonsen
+Author{2}{Email}#=%=#simonsen@diku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Christina
+Author{3}{Lastname}#=%=#Lioma
+Author{3}{Username}#=%=#c.lioma
+Author{3}{Email}#=%=#c.lioma@di.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+Author{4}{Firstname}#=%=#Isabelle
+Author{4}{Lastname}#=%=#Augenstein
+Author{4}{Username}#=%=#isabelle_augenstein
+Author{4}{Email}#=%=#augenstein@di.ku.dk
+Author{4}{Affiliation}#=%=#Department of Computer Science, University of Copenhagen
+
+==========

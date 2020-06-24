@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1931
+FinalPaperTitle#=%=#Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#19
+CopyrightSigned#=%=#Suchin Gururangan
+JobTitle#==#
+Organization#==#Allen Institute for AI, 2157 N Northlake Way #110, Seattle, WA 98103
+Abstract#==#Language models pretrained on text from a wide variety of sources form the foundation of today's NLP. In light of the success of these broad-coverage models, we investigate whether it is still helpful to tailor a pretrained model to the domain of a target task. We present a study across four domains (biomedical and computer science publications, news, and reviews) and eight classification tasks, showing that a second phase of pretraining in-domain (domain-adaptive pretraining) leads to performance gains, under both high- and low-resource settings. Moreover, adapting to the task's unlabeled data (task-adaptive pretraining) improves performance even after domain-adaptive pretraining. Finally, we show that adapting to a task corpus augmented using simple data selection strategies is an effective alternative, especially when resources for domain-adaptive pretraining might be unavailable. Overall, we consistently find that multi-phase adaptive pretraining offers large gains in task performance.
+Author{1}{Firstname}#=%=#Suchin
+Author{1}{Lastname}#=%=#Gururangan
+Author{1}{Username}#=%=#suching
+Author{1}{Email}#=%=#suching@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for AI
+Author{2}{Firstname}#=%=#Ana
+Author{2}{Lastname}#=%=#Marasović
+Author{2}{Username}#=%=#anamarasovic
+Author{2}{Email}#=%=#anam@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for AI
+Author{3}{Firstname}#=%=#Swabha
+Author{3}{Lastname}#=%=#Swayamdipta
+Author{3}{Username}#=%=#swabha
+Author{3}{Email}#=%=#swabhas@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence; University of Washington
+Author{4}{Firstname}#=%=#Kyle
+Author{4}{Lastname}#=%=#Lo
+Author{4}{Username}#=%=#kyleclo
+Author{4}{Email}#=%=#kylel@allenai.org
+Author{4}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{5}{Firstname}#=%=#Iz
+Author{5}{Lastname}#=%=#Beltagy
+Author{5}{Username}#=%=#islam.beltagy
+Author{5}{Email}#=%=#iz@beltagy.net
+Author{5}{Affiliation}#=%=#Allen Institute for AI (AI2)
+Author{6}{Firstname}#=%=#Doug
+Author{6}{Lastname}#=%=#Downey
+Author{6}{Username}#=%=#ddowney
+Author{6}{Email}#=%=#ddowney@eecs.northwestern.edu
+Author{6}{Affiliation}#=%=#Allen Institute for AI, Northwestern University
+Author{7}{Firstname}#=%=#Noah A.
+Author{7}{Lastname}#=%=#Smith
+Author{7}{Username}#=%=#nasmith
+Author{7}{Email}#=%=#nasmith@cs.washington.edu
+Author{7}{Affiliation}#=%=#University of Washington
+
+==========

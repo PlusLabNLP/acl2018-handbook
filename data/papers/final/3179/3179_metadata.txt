@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3179
+FinalPaperTitle#=%=#A Systematic Assessment of Syntactic Generalization in Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#20
+CopyrightSigned#=%=#Jennifer Hu
+JobTitle#==#
+Organization#==#Massachusetts Institute of Technology, 77 Massachusetts Ave, Cambridge, MA 02139
+Abstract#==#While state-of-the-art neural network models continue to achieve lower perplexity scores on language modeling benchmarks, it remains unknown whether optimizing for broad-coverage predictive performance leads to human-like syntactic knowledge. Furthermore, existing work has not provided a clear picture about the model properties required to produce proper syntactic generalizations. We present a systematic evaluation of the syntactic knowledge of neural language models, testing 20 combinations of model types and data sizes on a set of 34 English-language syntactic test suites.  We find substantial differences in syntactic generalization performance by model architecture, with sequential models underperforming other architectures. Factorially manipulating model architecture and training dataset size (1M-40M words), we find that variability in syntactic generalization performance is substantially greater by architecture than by dataset size for the corpora tested in our experiments. Our results also reveal a dissociation between perplexity and syntactic generalization performance.
+Author{1}{Firstname}#=%=#Jennifer
+Author{1}{Lastname}#=%=#Hu
+Author{1}{Username}#=%=#jennhu
+Author{1}{Email}#=%=#jennhu@mit.edu
+Author{1}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{2}{Firstname}#=%=#Jon
+Author{2}{Lastname}#=%=#Gauthier
+Author{2}{Username}#=%=#jgauthier
+Author{2}{Email}#=%=#jon@gauthiers.net
+Author{2}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{3}{Firstname}#=%=#Peng
+Author{3}{Lastname}#=%=#Qian
+Author{3}{Username}#=%=#pqian
+Author{3}{Email}#=%=#pqian@mit.edu
+Author{3}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{4}{Firstname}#=%=#Ethan
+Author{4}{Lastname}#=%=#Wilcox
+Author{4}{Username}#=%=#wilcoxeg
+Author{4}{Email}#=%=#wilcoxeg@g.harvard.edu
+Author{4}{Affiliation}#=%=#Harvard University
+Author{5}{Firstname}#=%=#Roger
+Author{5}{Lastname}#=%=#Levy
+Author{5}{Username}#=%=#rlevy
+Author{5}{Email}#=%=#rplevy@mit.edu
+Author{5}{Affiliation}#=%=#Massachusetts Institute of Technology
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2363
+FinalPaperTitle#=%=#INFOTABS: Inference on Tables as Semi-structured Data
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Vivek Gupta
+JobTitle#==#Graduate Student
+Organization#==#University of Utah
+Abstract#==#In this paper, we observe that semi-structured tabulated text is ubiquitous; understanding them requires not only comprehending the meaning of text fragments, but also implicit relationships between them. We argue that such data can prove as a testing ground for understanding how we reason about information. To study this, we introduce a new dataset called INFOTABS, comprising of human-written textual hypotheses based on premises that are tables extracted from Wikipedia info-boxes. Our analysis shows that the semi-structured, multi-domain and heterogeneous nature of the premises admits complex, multi-faceted reasoning. Experiments reveal that, while human annotators agree on the relationships between a table-hypothesis pair, several standard modeling strategies are unsuccessful at the task, suggesting that reasoning about tables can pose a difficult modeling challenge.
+Author{1}{Firstname}#=%=#Vivek
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Username}#=%=#vgupta
+Author{1}{Email}#=%=#keviv9@gmail.com
+Author{1}{Affiliation}#=%=#School of Computing, University of Utah
+Author{2}{Firstname}#=%=#Maitrey
+Author{2}{Lastname}#=%=#Mehta
+Author{2}{Username}#=%=#maitrey
+Author{2}{Email}#=%=#maitreydams@gmail.com
+Author{2}{Affiliation}#=%=#University of Utah
+Author{3}{Firstname}#=%=#Pegah
+Author{3}{Lastname}#=%=#Nokhiz
+Author{3}{Username}#=%=#pnokhiz
+Author{3}{Email}#=%=#pegah.nokhiz@gmail.com
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#Vivek
+Author{4}{Lastname}#=%=#Srikumar
+Author{4}{Username}#=%=#vsrikum2
+Author{4}{Email}#=%=#svivek@cs.utah.edu
+Author{4}{Affiliation}#=%=#University of Utah
+
+==========

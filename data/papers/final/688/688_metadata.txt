@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#688
+FinalPaperTitle#=%=#A Batch Normalized Inference Network Keeps the KL Vanishing Away
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Qile Zhu
+JobTitle#==#
+Organization#==#University Of Florida
+Abstract#==#Variational Autoencoder (VAE) is widely used as a generative model to approximate a model's posterior on latent variables by combining the amortized variational inference and deep neural networks. However, when paired with strong autoregressive decoders, VAE often converges to a degenerated local optimum known as ``posterior collapse''. Previous approaches consider the Kullback–Leibler divergence (KL) individual for each datapoint. We propose to let the KL follow a distribution across the whole dataset, and analyze that it is sufficient to prevent posterior collapse by keeping the expectation of the KL's distribution positive. Then we propose Batch Normalized-VAE (BN-VAE), a simple but effective approach to set a lower bound of the expectation by regularizing the distribution of the approximate posterior's parameters. Without introducing any new model component or modifying the objective, our approach can avoid the posterior collapse effectively and efficiently. We further show that the proposed BN-VAE can be extended to conditional VAE (CVAE). Empirically, our approach surpasses strong autoregressive baselines on language modeling, text classification and dialogue generation, and rivals more complex approaches while keeping almost the same training time as VAE.
+Author{1}{Firstname}#=%=#Qile
+Author{1}{Lastname}#=%=#Zhu
+Author{1}{Username}#=%=#valder
+Author{1}{Email}#=%=#valder@ufl.edu
+Author{1}{Affiliation}#=%=#University of florida
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Bi
+Author{2}{Username}#=%=#weibi
+Author{2}{Email}#=%=#victoriabi@tencent.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Xiaojiang
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Username}#=%=#kieranliu
+Author{3}{Email}#=%=#kieranliu@tencent.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+Author{4}{Firstname}#=%=#Xiyao
+Author{4}{Lastname}#=%=#Ma
+Author{4}{Username}#=%=#maxiyao1993
+Author{4}{Email}#=%=#maxiy@ufl.edu
+Author{4}{Affiliation}#=%=#University of Florida
+Author{5}{Firstname}#=%=#Xiaolin
+Author{5}{Lastname}#=%=#Li
+Author{5}{Username}#=%=#andyli.ece
+Author{5}{Email}#=%=#andyli.ece@gmail.com
+Author{5}{Affiliation}#=%=#Tongdun Technology
+Author{6}{Firstname}#=%=#Dapeng
+Author{6}{Lastname}#=%=#Wu
+Author{6}{Username}#=%=#dpwu
+Author{6}{Email}#=%=#dpwu@ieee.org
+Author{6}{Affiliation}#=%=#University of Florida
+
+==========

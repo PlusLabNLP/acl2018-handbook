@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Embeddings in Natural Language Processing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Embeddings have been the dominating buzzword in 2010s for Natural Language Processing (NLP). Representing knowledge through a low-dimensional vector which is easily integrable in modern machine learning algorithms has played a central role in the development of the field. Embedding techniques initially focused on words but the attention soon started to shift to other forms. This tutorial will provide a high level synthesis of the main embedding techniques in NLP, in the broad sense. We will start by conventional word embeddings (e.g. Word2Vec and GloVe) and then move to other types of embeddings, such as sense-specific and knowledge-based alternatives. We will finalise with an overview of the recent successful contextualized representations (e.g. ELMo, BERT) and explain their potential in NLP.
+Author{1}{Firstname}#=%=#Jose
+Author{1}{Lastname}#=%=#Camacho-Collados
+Author{1}{Username}#=%=#pedrada
+Author{1}{Email}#=%=#camachocolladosj@cardiff.ac.uk
+Author{1}{Affiliation}#=%=#Cardiff University
+Author{2}{Firstname}#=%=#Mohammad Taher
+Author{2}{Lastname}#=%=#Pilehvar
+Author{2}{Username}#=%=#pilehvar
+Author{2}{Email}#=%=#mp792@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

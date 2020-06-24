@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2059
+FinalPaperTitle#=%=#What determines the order of adjectives in English? Comparing efficiency-based theories using dependency treebanks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#William Dyer
+JobTitle#==#
+Organization#==#Oracle Corporation
+Abstract#==#We take up the scientific question of what determines the preferred order of adjectives in English, in phrases such as big blue box where multiple adjectives modify a following noun. We implement and test four quantitative theories, all of which are theoretically motivated in terms of efficiency in human language production and comprehension. The four theories we test are subjectivity (Scontras et al., 2017), information locality (Futrell, 2019), integration cost (Dyer, 2017), and information gain, which we introduce. We evaluate theories based on their ability to predict orders of unseen adjectives in hand-parsed and automatically-parsed dependency treebanks. We find that subjectivity, information locality, and information gain are all strong predictors, with some evidence for a two-factor account, where subjectivity and information gain reflect a factor involving semantics, and information locality reflects collocational preferences.
+Author{1}{Firstname}#=%=#Richard
+Author{1}{Lastname}#=%=#Futrell
+Author{1}{Username}#=%=#futrell
+Author{1}{Email}#=%=#rfutrell@uci.edu
+Author{1}{Affiliation}#=%=#UC Irvine
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Username}#=%=#wdyer
+Author{2}{Email}#=%=#william.dyer@oracle.com
+Author{2}{Affiliation}#=%=#Oracle Corp
+Author{3}{Firstname}#=%=#Greg
+Author{3}{Lastname}#=%=#Scontras
+Author{3}{Username}#=%=#g.scontras
+Author{3}{Email}#=%=#g.scontras@uci.edu
+Author{3}{Affiliation}#=%=#UC Irvine
+
+==========

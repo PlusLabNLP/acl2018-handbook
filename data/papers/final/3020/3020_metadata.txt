@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3020
+FinalPaperTitle#=%=#Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yufeng Zhang
+JobTitle#==#
+Organization#==#Institute of Automation, Chinese Academy of Sciences
+Abstract#==#Text classification is fundamental in natural language processing (NLP) and Graph Neural Networks (GNN) are recently applied in this task. However, the existing graph-based works can neither capture the contextual word relationships within each document nor fulfil the inductive learning of new words. Therefore in this work, to overcome such problems, we propose TextING for inductive text classification via GNN. We first build individual graphs for each document and then use GNN to learn the fine-grained word representations based on their local structure, which can also effectively produce embeddings for unseen words in the new document. Finally, the word nodes are aggregated as the document embedding. Extensive experiments on four benchmark datasets show that our method outperforms state-of-the-art text classification methods.
+Author{1}{Firstname}#=%=#Yufeng
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#magicat
+Author{1}{Email}#=%=#yufeng.zhang@cripac.ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Xueli
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Username}#=%=#sherryu
+Author{2}{Email}#=%=#xueli.yu@cripac.ia.ac.cn
+Author{2}{Affiliation}#=%=#Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Zeyu
+Author{3}{Lastname}#=%=#Cui
+Author{3}{Username}#=%=#zeyucui
+Author{3}{Email}#=%=#zeyu.cui@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Chinese academy of Science, Institute of Automation
+Author{4}{Firstname}#=%=#Shu
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Username}#=%=#shuwu
+Author{4}{Email}#=%=#shu.wu@nlpr.ia.ac.cn
+Author{4}{Affiliation}#=%=#NLPR, CASIA
+Author{5}{Firstname}#=%=#Zhongzhen
+Author{5}{Lastname}#=%=#Wen
+Author{5}{Username}#=%=#wenzhongzhen
+Author{5}{Email}#=%=#burning21@stu.xjtu.edu.cn
+Author{5}{Affiliation}#=%=#Xi'an Jiaotong University
+Author{6}{Firstname}#=%=#Liang
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Username}#=%=#wangliangnlpr
+Author{6}{Email}#=%=#wangliang@nlpr.ia.ac.cn
+Author{6}{Affiliation}#=%=#NLPR, CAS
+
+==========

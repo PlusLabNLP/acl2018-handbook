@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Grapheme-to-Phoneme Conversion with a Multilingual Transformer Model
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Benjamin Suter
+JobTitle#==#
+Organization#==#University of Zurich
+Abstract#==#In this paper, we describe our three submissions to the SIGMORPHON 2020 shared task 1 on grapheme-to-phoneme conversion for 15 languages. We experimented with a single multilingual transformer model. We observed that the multilingual model achieves results on par with our separately trained monolingual models and is even able to avoid a few of the errors made by the monolingual models.
+Author{1}{Firstname}#=%=#Omnia
+Author{1}{Lastname}#=%=#ElSaadany
+Author{1}{Username}#=%=#omnia
+Author{1}{Email}#=%=#omnia.elsaadany@uzh.ch
+Author{1}{Affiliation}#=%=#University of Zurich
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Suter
+Author{2}{Username}#=%=#besu
+Author{2}{Email}#=%=#benjamin.suter@uzh.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+
+==========

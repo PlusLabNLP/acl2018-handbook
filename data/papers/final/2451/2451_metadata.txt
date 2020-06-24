@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2451
+FinalPaperTitle#=%=#Shaping Visual Representations with Language for Few-Shot Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jesse Mu
+JobTitle#==#
+Organization#==#Stanford University, Stanford, CA
+Abstract#==#By describing the features and abstractions of our world, language is a crucial tool for human learning and a promising source of supervision for machine learning models. We use language to improve few-shot visual classification in the underexplored scenario where natural language task descriptions are available during training, but unavailable for novel tasks at test time. Existing models for this setting sample new descriptions at test time and use those to classify images. Instead, we propose language-shaped learning (LSL), an end-to-end model that regularizes visual representations to predict language. LSL is conceptually simpler, more data efficient, and outperforms baselines in two challenging few-shot domains.
+Author{1}{Firstname}#=%=#Jesse
+Author{1}{Lastname}#=%=#Mu
+Author{1}{Username}#=%=#jayelm
+Author{1}{Email}#=%=#muj@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Percy
+Author{2}{Lastname}#=%=#Liang
+Author{2}{Username}#=%=#pliang
+Author{2}{Email}#=%=#pliang@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Noah
+Author{3}{Lastname}#=%=#Goodman
+Author{3}{Username}#=%=#ngoodman
+Author{3}{Email}#=%=#ngoodman@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

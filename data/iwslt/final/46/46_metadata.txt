@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#ISTIC's Neural Machine Translation System for IWSLT’2020
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#iaze Wei, Wenbin Liu, Zhenfeng Wu, You Pan, Yanqing He
+JobTitle#==#
+Organization#==#Institute of Scientific and Technical Information of China，No 15, Fuxing Road, Haidian District,Beijing, China, 100038
+Abstract#==#This paper introduces technical details of machine translation system of Institute of Scientific and Technical Information of China (ISTIC) for the 17th International Conference on Spoken Language Translation (IWSLT 2020). ISTIC participated in both translation tasks of the Open Domain Translation track: Japanese-to-Chinese MT task and Chinese-to-Japanese MT task. The paper mainly elaborates on the model framework, data preprocessing methods and decoding strategies adopted in our system. In addition, the system performance on the development set are given under different settings.
+Author{1}{Firstname}#=%=#jiaze
+Author{1}{Lastname}#=%=#wei
+Author{1}{Email}#=%=#weijz2018@istic.ac.cn
+Author{1}{Affiliation}#=%=#ISTIC
+Author{2}{Firstname}#=%=#wenbin
+Author{2}{Lastname}#=%=#liu
+Author{2}{Email}#=%=#liuwb2019@istic.ac.cn
+Author{2}{Affiliation}#=%=#ISTIC
+Author{3}{Firstname}#=%=#zhenfeng
+Author{3}{Lastname}#=%=#wu
+Author{3}{Email}#=%=#wuzf@istic.ac.cn
+Author{3}{Affiliation}#=%=#ISTIC
+Author{4}{Firstname}#=%=#you
+Author{4}{Lastname}#=%=#pan
+Author{4}{Email}#=%=#pany@istic.ac.cn
+Author{4}{Affiliation}#=%=#ISTIC
+Author{5}{Firstname}#=%=#yanqing
+Author{5}{Lastname}#=%=#he
+Author{5}{Email}#=%=#heyq@istic.ac.cn
+Author{5}{Affiliation}#=%=#ISTIC
+
+==========

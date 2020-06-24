@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1079
+FinalPaperTitle#=%=#Fast and Accurate Deep Bidirectional Language Representations for Unsupervised Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Joongbo Shin
+JobTitle#==#
+Organization#==#Seoul National University (1 Gwanak-ro, Gwanak-gu, Seoul, Korea)
+Abstract#==#Even though BERT has achieved successful performance improvements in various supervised learning tasks, BERT is still limited by repetitive inferences on unsupervised tasks for the computation of contextual language representations. To resolve this limitation, we propose a novel deep bidirectional language model called a Transformer-based Text Autoencoder (T-TA). The T-TA computes contextual language representations without repetition and displays the benefits of a deep bidirectional architecture, such as that of BERT. In computation time experiments in a CPU environment, the proposed T-TA performs over six times faster than the BERT-like model on a reranking task and twelve times faster on a semantic similarity task. Furthermore, the T-TA shows competitive or even better accuracies than those of BERT on the above tasks. Code is available at https://github.com/joongbo/tta.
+Author{1}{Firstname}#=%=#Joongbo
+Author{1}{Lastname}#=%=#Shin
+Author{1}{Username}#=%=#jbshin
+Author{1}{Email}#=%=#jbshin@snu.ac.kr
+Author{1}{Affiliation}#=%=#Seoul National University
+Author{2}{Firstname}#=%=#Yoonhyung
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Username}#=%=#cpi1234
+Author{2}{Email}#=%=#cpi1234@snu.ac.kr
+Author{2}{Affiliation}#=%=#Seoul National University
+Author{3}{Firstname}#=%=#Seunghyun
+Author{3}{Lastname}#=%=#Yoon
+Author{3}{Username}#=%=#mysmilesh
+Author{3}{Email}#=%=#mysmilesh@gmail.com
+Author{3}{Affiliation}#=%=#Seoul National University
+Author{4}{Firstname}#=%=#Kyomin
+Author{4}{Lastname}#=%=#Jung
+Author{4}{Username}#=%=#kjung
+Author{4}{Email}#=%=#kjung@snu.ac.kr
+Author{4}{Affiliation}#=%=#Seoul National University
+
+==========

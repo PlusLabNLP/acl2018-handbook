@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3145
+FinalPaperTitle#=%=#It's Easier to Translate out of {E}nglish than into it: {M}easuring Neural Translation Difficulty by Cross-Mutual Information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Emanuele Bugliarello
+JobTitle#==#
+Organization#==#University of Copenhagen, Universitetsparken 5, 2100 Copenhagen, Denmark
+Abstract#==#The performance of neural machine translation systems is commonly evaluated in terms of BLEU. However, due to its reliance on target language properties and generation, the BLEU metric does not allow an assessment of which translation directions are more difficult to model. In this paper, we propose cross-mutual information (XMI): an asymmetric information-theoretic metric of machine translation difficulty that exploits the probabilistic nature of most neural machine translation models. XMI allows us to better evaluate the difficulty of translating text into the target language while controlling for the difficulty of the target-side generation component independent of the translation task. We then present the first systematic and controlled study of cross-lingual translation difficulties using modern neural translation systems. Code for replicating our experiments is available online at https://github.com/e-bug/nmt-difficulty.
+Author{1}{Firstname}#=%=#Emanuele
+Author{1}{Lastname}#=%=#Bugliarello
+Author{1}{Username}#=%=#bugliarello.e
+Author{1}{Email}#=%=#emanuele@di.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Sabrina J.
+Author{2}{Lastname}#=%=#Mielke
+Author{2}{Username}#=%=#sjmielke
+Author{2}{Email}#=%=#sjm@sjmielke.com
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Antonios
+Author{3}{Lastname}#=%=#Anastasopoulos
+Author{3}{Username}#=%=#aanastas
+Author{3}{Email}#=%=#aanastas@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Ryan
+Author{4}{Lastname}#=%=#Cotterell
+Author{4}{Username}#=%=#rcotterell
+Author{4}{Email}#=%=#ryan.cotterell@gmail.com
+Author{4}{Affiliation}#=%=#ETH Zürich
+Author{5}{Firstname}#=%=#Naoaki
+Author{5}{Lastname}#=%=#Okazaki
+Author{5}{Username}#=%=#okazaki
+Author{5}{Email}#=%=#okazaki@c.titech.ac.jp
+Author{5}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

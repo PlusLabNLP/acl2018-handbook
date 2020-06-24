@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2988
+FinalPaperTitle#=%=#Are Natural Language Inference Models {IMPPRESsive}? {L}earning {IMPlicature} and {PRESupposition}
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Adina Williams
+JobTitle#==#
+Organization#==#Facebook Inc. 770 Broadway, New York City, NY, 10003
+Abstract#==#Natural language inference (NLI) is an increasingly important task for natural language understanding, which requires one to infer whether a sentence entails another. However, the ability of NLI models to make pragmatic inferences remains understudied. We create an IMPlicature and PRESupposition diagnostic dataset (IMPPRES), consisting of 32K semi-automatically generated sentence pairs illustrating well-studied pragmatic inference types. We use IMPPRES to evaluate whether BERT, InferSent, and BOW NLI models trained on MultiNLI (Williams et al., 2018) learn to make pragmatic inferences. Although MultiNLI appears to contain very few pairs illustrating these inference types, we find that BERT learns to draw pragmatic inferences. It reliably treats scalar implicatures triggered by "some" as entailments. For some presupposition triggers like "only", BERT reliably recognizes the presupposition as an entailment, even when the trigger is embedded under an entailment canceling operator like negation. BOW and InferSent show weaker evidence of pragmatic reasoning. We conclude that NLI training encourages models to learn some, but not all, pragmatic inferences.
+Author{1}{Firstname}#=%=#Paloma
+Author{1}{Lastname}#=%=#Jeretic
+Author{1}{Username}#=%=#pjere
+Author{1}{Email}#=%=#paloma@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Alex
+Author{2}{Lastname}#=%=#Warstadt
+Author{2}{Username}#=%=#alexwarstadt
+Author{2}{Email}#=%=#alexwarstadt@gmail.com
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Suvrat
+Author{3}{Lastname}#=%=#Bhooshan
+Author{3}{Username}#=%=#suvrat96
+Author{3}{Email}#=%=#sbh@fb.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Adina
+Author{4}{Lastname}#=%=#Williams
+Author{4}{Username}#=%=#adinawilliams
+Author{4}{Email}#=%=#adinawilliams@nyu.edu
+Author{4}{Affiliation}#=%=#Facebook, Inc.
+
+==========

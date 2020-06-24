@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#NLP for Healthcare in the Absence of a Healthcare Dataset
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Since MYCIN in the 1980s, deploying artificial intelligence for health care has been an attractive proposition. With the rise of digital textual data, natural language processing (NLP) for healthcare has witnessed increasing attention. However, due to privacy and access restrictions, official healthcare datasets such as hospital records may not always be available. The proposed cutting-edge tutorial discusses past work in NLP for healthcare with a rather realistic constraint: official healthcare datasets are not available.
+Author{1}{Firstname}#=%=#Sarvnaz
+Author{1}{Lastname}#=%=#Karimi
+Author{1}{Username}#=%=#sarvnaz
+Author{1}{Email}#=%=#sarvnaz.karimi@csiro.au
+Author{1}{Affiliation}#=%=#CSIRO
+Author{2}{Firstname}#=%=#Aditya
+Author{2}{Lastname}#=%=#Joshi
+Author{2}{Username}#=%=#adityajo
+Author{2}{Email}#=%=#aditya.joshi@csiro.au
+Author{2}{Affiliation}#=%=#CSIRO
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2639
+FinalPaperTitle#=%=#Towards end-2-end learning for predicting behavior codes from spoken utterances in psychotherapy conversations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Karan Singla
+JobTitle#==#
+Organization#==#University of Southern Calirfornia, Los Angeles, CA - 90007
+Abstract#==#Spoken language understanding tasks usually rely on pipelines involving complex processing blocks such as voice activity detection, speaker diarization and Automatic speech recognition (ASR). We propose a novel framework for predicting utterance level labels directly from speech features, thus removing the dependency on first generating transcripts, and transcription free behavioral coding. Our classifier uses a pretrained Speech-2-Vector encoder as bottleneck to generate word-level representations from speech features. This pretrained encoder learns to encode speech features for a word using an objective similar to Word2Vec. Our proposed approach just uses speech features and word segmentation information for predicting spoken utterance-level target labels. We show that our model achieves competitive results to other state-of-the-art approaches which use transcribed text for the task of predicting psychotherapy-relevant behavior codes.
+Author{1}{Firstname}#=%=#Karan
+Author{1}{Lastname}#=%=#Singla
+Author{1}{Username}#=%=#ksingla025
+Author{1}{Email}#=%=#singlak@usc.edu
+Author{1}{Affiliation}#=%=#SAIL, University of Southern California
+Author{2}{Firstname}#=%=#Zhuohao
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#zhuohaochen
+Author{2}{Email}#=%=#zhuohaoc@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Atkins
+Author{3}{Username}#=%=#datkins
+Author{3}{Email}#=%=#datkins@uw.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Shrikanth
+Author{4}{Lastname}#=%=#Narayanan
+Author{4}{Username}#=%=#shri
+Author{4}{Email}#=%=#shri@sipi.usc.edu
+Author{4}{Affiliation}#=%=#University of Southern California
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1516
+FinalPaperTitle#=%=#Hypernymy Detection for Low-Resource Languages via Meta Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Changlong Yu
+JobTitle#==#
+Organization#==#HKUST, Hong Kong China
+Abstract#==#Hypernymy detection, a.k.a, lexical entailment, is a fundamental sub-task of many natural language understanding tasks. Previous explorations mostly focus on monolingual hypernymy detection on high-resource languages, e.g., English, but few investigate the low-resource scenarios. This paper addresses the problem of low-resource hypernymy detection by combining high-resource languages. We extensively compare three joint training paradigms and for the first time propose applying meta learning to relieve the low-resource issue. Experiments demonstrate the superiority of our method among the three settings, which substantially improves the performance of extremely low-resource languages by preventing over-fitting on small datasets.
+Author{1}{Firstname}#=%=#Changlong
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#ccclyu
+Author{1}{Email}#=%=#cyuaq@cse.ust.hk
+Author{1}{Affiliation}#=%=#HKUST
+Author{2}{Firstname}#=%=#Jialong
+Author{2}{Lastname}#=%=#Han
+Author{2}{Username}#=%=#jialonghan
+Author{2}{Email}#=%=#jialonghan@gmail.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Haisong
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Username}#=%=#hansonzhang
+Author{3}{Email}#=%=#hansonzhang@tencent.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+Author{4}{Firstname}#=%=#Wilfred
+Author{4}{Lastname}#=%=#Ng
+Author{4}{Username}#=%=#wilfred
+Author{4}{Email}#=%=#wilfred@cse.ust.hk
+Author{4}{Affiliation}#=%=#HKUST
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#367
+FinalPaperTitle#=%=#Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xinya Du
+JobTitle#==#PhD Student
+Organization#==#Cornell University, Ithaca, NY, USA
+Abstract#==#Few works in the literature of event extraction have gone beyond individual sentences to make extraction decisions. This is problematic when the information needed to recognize an event argument is spread across multiple sentences. We argue that document-level event extraction is a difﬁcult task since it requires a view of a larger context to determine which spans of text correspond to event role ﬁllers. We ﬁrst investigate how end-to-end neural sequence models (with pre-trained language model representations) perform on document-level role ﬁller extraction, as well as how the length of context captured affects the models’ performance. To dynamically aggregate information captured by neural representations learned at different levels of granularity (e.g., the sentence- and paragraph-level), we propose a novel multi-granularity reader. We evaluate our models on the MUC-4 event extraction dataset, and show that our best system performs substantially better than prior work. We also report ﬁndings on the relationship between context length and neural model performance on the task.
+Author{1}{Firstname}#=%=#Xinya
+Author{1}{Lastname}#=%=#Du
+Author{1}{Username}#=%=#xinyadu
+Author{1}{Email}#=%=#xd75@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Cardie
+Author{2}{Username}#=%=#cardie
+Author{2}{Email}#=%=#cardie@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+
+==========

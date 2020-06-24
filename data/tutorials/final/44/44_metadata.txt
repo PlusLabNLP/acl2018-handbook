@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Open-Domain Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Danqi Chen
+JobTitle#==#Assistant Professor
+Organization#==#Princeton University
+Abstract#==#This tutorial provides a comprehensive and coherent overview of cutting-edge research in open-domain question answering (QA), the task of answering questions using a large collection of documents of diversified topics. We will start by first giving a brief historical background, discussing the basic setup and core technical challenges of the research problem, and then describe modern datasets with the common evaluation metrics and benchmarks.  The focus will then shift to cutting-edge models proposed for open-domain QA, including two-stage retriever-reader approaches, dense retriever and end-to-end training, and retriever-free methods.  Finally, we will cover some hybrid approaches using both text and large knowledge bases and conclude the tutorial with important open questions.  We hope that the tutorial will not only help the audience to acquire up-to-date knowledge but also provide new perspectives to stimulate the advances of open-domain QA research in the next phase.
+Author{1}{Firstname}#=%=#Danqi
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#cdq10131
+Author{1}{Email}#=%=#danqic@cs.princeton.edu
+Author{1}{Affiliation}#=%=#Princeton University
+Author{2}{Firstname}#=%=#Wen-tau
+Author{2}{Lastname}#=%=#Yih
+Author{2}{Username}#=%=#scottyih
+Author{2}{Email}#=%=#scottyih.review@gmail.com
+Author{2}{Affiliation}#=%=#Facebook AI Research
+
+==========

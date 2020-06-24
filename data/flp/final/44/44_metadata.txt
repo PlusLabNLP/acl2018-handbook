@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Recognizing Euphemisms and Dysphemisms Using Sentiment Analysis
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ellen Riloff
+JobTitle#==#professor
+Organization#==#University of Utah
+Abstract#==#This paper presents the first research aimed at recognizing euphemistic and dysphemistic phrases with natural language processing.  Euphemisms soften references to topics that are sensitive, disagreeable, or taboo.  Conversely, dysphemisms refer to sensitive topics in a harsh or rude way. For example, "passed away'' and "departed'' are euphemisms for death, while "croaked'' and "six feet under'' are dysphemisms for death. Our work explores the use of sentiment analysis to recognize euphemistic and dysphemistic language. First, we identify near-synonym phrases for three topics (firing, lying, and stealing) using a bootstrapping algorithm for semantic lexicon induction. Next, we classify phrases as euphemistic, dysphemistic, or neutral using lexical sentiment cues and contextual sentiment analysis.  We introduce a new gold standard data set and present our experimental results for this task.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Felt
+Author{1}{Email}#=%=#christianlewisfelt@gmail.com
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Ellen
+Author{2}{Lastname}#=%=#Riloff
+Author{2}{Username}#=%=#riloff
+Author{2}{Email}#=%=#riloff@cs.utah.edu
+Author{2}{Affiliation}#=%=#University of Utah
+
+==========

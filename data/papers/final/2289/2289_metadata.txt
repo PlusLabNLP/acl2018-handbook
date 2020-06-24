@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2289
+FinalPaperTitle#=%=#Climbing towards {NLU}: {On} Meaning, Form, and Understanding in the Age of Data
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Emily M. Bender
+JobTitle#==#
+Organization#==#University of Washington, Box 352425, Seattle WA 98195-2425 USA
+Abstract#==#The success of the large neural language models on many NLP tasks is exciting. However, we find that these successes sometimes lead to hype in which these models are being described as ``understanding'' language or capturing ``meaning''. In this position paper, we argue that a system trained only on form has a priori no way to learn meaning. In keeping with the ACL 2020 theme of ``Taking Stock of Where We've Been and Where We're Going'', we argue that a clear understanding of the distinction between form and meaning will help guide the field towards better science around natural language understanding.
+Author{1}{Firstname}#=%=#Emily M.
+Author{1}{Lastname}#=%=#Bender
+Author{1}{Username}#=%=#ebender
+Author{1}{Email}#=%=#ebender@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Koller
+Author{2}{Username}#=%=#akoller
+Author{2}{Email}#=%=#koller@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+
+==========

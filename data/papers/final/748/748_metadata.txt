@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#748
+FinalPaperTitle#=%=#What Does BERT with Vision Look At?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Liunian Harold Li
+JobTitle#==#
+Organization#==#University of California, Los Angeles
+Abstract#==#Pre-trained visually grounded language models such as ViLBERT, LXMERT, and UNITER have achieved significant performance improvement on vision-and-language tasks but what they learn during pre-training remains unclear. In this work, we demonstrate that certain attention heads of a visually grounded language model actively ground elements of language to image regions. Specifically, some heads can map entities to image regions, performing the task known as entity grounding. Some heads can even detect the syntactic relations between non-entity words and image regions, tracking, for example, associations between verbs and regions corresponding to their arguments. We denote this ability as \emph{syntactic grounding}. We verify grounding both quantitatively and qualitatively, using Flickr30K Entities as a testbed.
+Author{1}{Firstname}#=%=#Liunian Harold
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#liunian_li
+Author{1}{Email}#=%=#liunian.harold.li@cs.ucla.edu
+Author{1}{Affiliation}#=%=#UCLA
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Yatskar
+Author{2}{Username}#=%=#my89
+Author{2}{Email}#=%=#my89@cs.washington.edu
+Author{2}{Affiliation}#=%=#Allen Institute for AI
+Author{3}{Firstname}#=%=#Da
+Author{3}{Lastname}#=%=#Yin
+Author{3}{Username}#=%=#wade_yin
+Author{3}{Email}#=%=#wade_yin9712@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Cho-Jui
+Author{4}{Lastname}#=%=#Hsieh
+Author{4}{Username}#=%=#chohsieh
+Author{4}{Email}#=%=#chohsieh@cs.ucla.edu
+Author{4}{Affiliation}#=%=#University of California, Los Angeles
+Author{5}{Firstname}#=%=#Kai-Wei
+Author{5}{Lastname}#=%=#Chang
+Author{5}{Username}#=%=#kchang10
+Author{5}{Email}#=%=#kw@kwchang.net
+Author{5}{Affiliation}#=%=#UCLA
+
+==========

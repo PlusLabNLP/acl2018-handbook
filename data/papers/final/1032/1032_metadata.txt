@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#1032
+FinalPaperTitle#=%=#A Formal Hierarchy of RNN Architectures
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#William Cooper Merrill
+JobTitle#==#
+Organization#==#Allen Institute for AI
+Abstract#==#We develop a formal hierarchy of the expressive capacity of RNN architectures. The hierarchy is based on two formal properties: space complexity, which measures the RNN's memory, and rational recurrence, defined as whether the recurrent update can be described by a weighted finite-state machine. We place several RNN variants within this hierarchy. For example, we prove the LSTM is not rational, which formally separates it from the related QRNN (Bradbury et al., 2016). We also show how these models' expressive capacity is expanded by stacking multiple layers or composing them with different pooling functions.
+Our results build on the theory of ``saturated" RNNs (Merrill, 2019). While formally extending these findings to unsaturated RNNs is left to future work, we hypothesize that the practical learnable capacity of unsaturated RNNs obeys a similar hierarchy. We provide empirical results to support this conjecture. Experimental findings from training unsaturated networks on formal languages support this conjecture.
+Author{1}{Firstname}#=%=#William
+Author{1}{Lastname}#=%=#Merrill
+Author{1}{Username}#=%=#lambdaviking
+Author{1}{Email}#=%=#vikingarnir.will@gmail.com
+Author{1}{Affiliation}#=%=#Allen Institute for AI
+Author{2}{Firstname}#=%=#Gail
+Author{2}{Lastname}#=%=#Weiss
+Author{2}{Username}#=%=#gailweiss
+Author{2}{Email}#=%=#gail_weiss@msn.com
+Author{2}{Affiliation}#=%=#Technion - Israel Institute of Technology
+Author{3}{Firstname}#=%=#Yoav
+Author{3}{Lastname}#=%=#Goldberg
+Author{3}{Username}#=%=#yoav.goldberg
+Author{3}{Email}#=%=#yoav.goldberg@gmail.com
+Author{3}{Affiliation}#=%=#Bar Ilan University
+Author{4}{Firstname}#=%=#Roy
+Author{4}{Lastname}#=%=#Schwartz
+Author{4}{Username}#=%=#roys02
+Author{4}{Email}#=%=#roys@allenai.org
+Author{4}{Affiliation}#=%=#The Allen Institute for AI
+Author{5}{Firstname}#=%=#Noah A.
+Author{5}{Lastname}#=%=#Smith
+Author{5}{Username}#=%=#nasmith
+Author{5}{Email}#=%=#nasmith@cs.washington.edu
+Author{5}{Affiliation}#=%=#University of Washington
+Author{6}{Firstname}#=%=#Eran
+Author{6}{Lastname}#=%=#Yahav
+Author{6}{Username}#=%=#yahave
+Author{6}{Email}#=%=#yahave@gmail.com
+Author{6}{Affiliation}#=%=#Technion
+
+==========

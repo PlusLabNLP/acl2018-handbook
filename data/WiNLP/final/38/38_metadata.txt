@@ -1,0 +1,17 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Classification and Analysis of Neologisms Produced by Learners of Spanish: Effects of Proficiency and Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Shira Wein
+JobTitle#==#Ph.D. Student of Computer Science
+Organization#==#Georgetown University
+Abstract#==#The Spanish Learner Language Oral Corpora (SPLLOC) of transcribed conversations between investigators and language learners contains a set of neologism tags. In this work, the utterances tagged as neologisms are broken down into three categories: true neologisms, loanwords, and errors. This work examines the relationships between neologism, loanword, and error production and both language learner level and conversation task.
+
+The results of this study suggest that loanwords and errors are produced most frequently by language learners with moderate experience, while neologisms are produced most frequently by native speakers. This study also indicates that tasks that require descriptions of images draw more neologism, loanword and error production. We ultimately present a unique analysis of the implications of neologism, loanword, and error production useful for further work in second language acquisition research, as well as for language educators.
+Author{1}{Firstname}#=%=#Shira
+Author{1}{Lastname}#=%=#Wein
+Author{1}{Username}#=%=#shirawein
+Author{1}{Email}#=%=#sw1158@georgetown.edu
+Author{1}{Affiliation}#=%=#Georgetown University
+
+==========

@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1198
+FinalPaperTitle#=%=#Word-level Textual Adversarial Attacking as Combinatorial Optimization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Yuan Zang
+JobTitle#==#
+Organization#==#Tsinghua University, Haidian District, Beijing, China
+Abstract#==#Adversarial attacks are carried out to reveal the vulnerability of deep neural networks. Textual adversarial attacking is challenging because text is discrete and a small perturbation can bring significant change to the original input. Word-level attacking, which can be regarded as a combinatorial optimization problem, is a well-studied class of textual attack methods. However, existing word-level attack models are far from perfect, largely because unsuitable search space reduction methods and inefficient optimization algorithms are employed. In this paper, we propose a novel attack model, which incorporates the sememe-based word substitution method and particle swarm optimization-based search algorithm to solve the two problems separately. We conduct exhaustive experiments to evaluate our attack model by attacking BiLSTM and BERT on three benchmark datasets. Experimental results demonstrate that our model consistently achieves much higher attack success rates and crafts more high-quality adversarial examples as compared to baseline methods. Also, further experiments show our model has higher transferability and can bring more robustness enhancement to victim models by adversarial training. All the code and data of this paper can be obtained on https://github.com/thunlp/SememePSO-Attack.
+Author{1}{Firstname}#=%=#Yuan
+Author{1}{Lastname}#=%=#Zang
+Author{1}{Username}#=%=#zangy17
+Author{1}{Email}#=%=#zangy17@mails.tsinghua.edu.cn
+Author{1}{Affiliation}#=%=#Department of Computer Science and Technology, Tsinghua University
+Author{2}{Firstname}#=%=#Fanchao
+Author{2}{Lastname}#=%=#Qi
+Author{2}{Username}#=%=#qfc.thu
+Author{2}{Email}#=%=#qfc17@mails.tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua Univeristy
+Author{3}{Firstname}#=%=#Chenghao
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Username}#=%=#chrome01
+Author{3}{Email}#=%=#yangalan1996@gmail.com
+Author{3}{Affiliation}#=%=#Data Science Institute, Columbia University
+Author{4}{Firstname}#=%=#Zhiyuan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Username}#=%=#lzy.thu
+Author{4}{Email}#=%=#liuzy@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+Author{5}{Firstname}#=%=#Meng
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Username}#=%=#mengzhang
+Author{5}{Email}#=%=#zhangmeng92@huawei.com
+Author{5}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{6}{Firstname}#=%=#Qun
+Author{6}{Lastname}#=%=#Liu
+Author{6}{Username}#=%=#liuqun
+Author{6}{Email}#=%=#qun.liu@huawei.com
+Author{6}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{7}{Firstname}#=%=#Maosong
+Author{7}{Lastname}#=%=#Sun
+Author{7}{Username}#=%=#sms
+Author{7}{Email}#=%=#sms@tsinghua.edu.cn
+Author{7}{Affiliation}#=%=#Tsinghua University
+
+==========

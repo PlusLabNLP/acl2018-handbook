@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#912
+FinalPaperTitle#=%=#KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hao Zhou
+JobTitle#==#
+Organization#==#Department of Computer Science and Technology,  Institute for Artificial Intelligence,  State Key Lab of Intelligent Technology and Systems,  Beijing National Research Center for Information Science and Technology,  Tsinghua University, Beijing 100084, China
+Abstract#==#The research of knowledge-driven conversational systems is largely limited due to the lack of dialog data which consists of multi-turn conversations on multiple topics and with knowledge annotations. In this paper, we propose a Chinese multi-domain knowledge-driven conversation dataset, KdConv, which grounds the topics in multi-turn conversations to knowledge graphs. Our corpus contains 4.5K conversations from three domains (film, music, and travel), and 86K utterances with an average turn number of 19.0. These conversations contain in-depth discussions on related topics and natural transition between multiple topics.
+To facilitate the following research on this corpus, we provide several benchmark models. 
+Comparative results show that the models can be enhanced by introducing background knowledge, yet there is still a large space for leveraging knowledge to model multi-turn conversations for further research. Results also show that there are obvious performance differences between different domains, indicating that it is worth further explore transfer learning and domain adaptation. The corpus and benchmark models are publicly available.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#zhh032002
+Author{1}{Email}#=%=#zhouhao16@mails.tsinghua.edu.cn
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Chujie
+Author{2}{Lastname}#=%=#Zheng
+Author{2}{Username}#=%=#chujiezheng
+Author{2}{Email}#=%=#zcj16@tsinghua.org.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Kaili
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Username}#=%=#khuang
+Author{3}{Email}#=%=#kaili.khuang@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Minlie
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Username}#=%=#aihuang
+Author{4}{Email}#=%=#aihuang@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+Author{5}{Firstname}#=%=#Xiaoyan
+Author{5}{Lastname}#=%=#Zhu
+Author{5}{Username}#=%=#zxy
+Author{5}{Email}#=%=#zxy-dcs@tsinghua.edu.cn
+Author{5}{Affiliation}#=%=#Tsinghua University
+
+==========

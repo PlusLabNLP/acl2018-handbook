@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#ESPnet-ST: All-in-One Speech Translation Toolkit
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Hirofumi Inaguma
+JobTitle#==#
+Organization#==#Kyoto University
+Abstract#==#We present ESPnet-ST, which is designed for the quick development of speech-to-speech translation systems in a single framework.
+ESPnet-ST is a new project inside end-to-end speech processing toolkit, ESPnet, which integrates or newly implements automatic speech recognition, machine translation, and text-to-speech functions for speech translation.
+We provide all-in-one recipes including data pre-processing, feature extraction, training, and decoding pipelines for a wide range of benchmark datasets.
+Our reproducible results can match or even outperform the current state-of-the-art performances; these pre-trained models are downloadable.
+The toolkit is publicly available at https://github.com/espnet/espnet.
+Author{1}{Firstname}#=%=#Hirofumi
+Author{1}{Lastname}#=%=#Inaguma
+Author{1}{Username}#=%=#hirofumi0810
+Author{1}{Email}#=%=#inaguma@sap.ist.i.kyoto-u.ac.jp
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Shun
+Author{2}{Lastname}#=%=#Kiyono
+Author{2}{Username}#=%=#shunk52
+Author{2}{Email}#=%=#shun.kiyono@riken.jp
+Author{2}{Affiliation}#=%=#RIKEN AIP / Tohoku University
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Duh
+Author{3}{Username}#=%=#kevinduh
+Author{3}{Email}#=%=#kevinduh@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Shigeki
+Author{4}{Lastname}#=%=#Karita
+Author{4}{Username}#=%=#shigekikarita
+Author{4}{Email}#=%=#shigekikarita@gmail.com
+Author{4}{Affiliation}#=%=#NTT Communication Science Laboratories
+Author{5}{Firstname}#=%=#Nelson
+Author{5}{Lastname}#=%=#Yalta
+Author{5}{Username}#=%=#fhrozen
+Author{5}{Email}#=%=#nelson.yalta@ruri.waseda.jp
+Author{5}{Affiliation}#=%=#Waseda University
+Author{6}{Firstname}#=%=#Tomoki
+Author{6}{Lastname}#=%=#Hayashi
+Author{6}{Username}#=%=#t_hayashi
+Author{6}{Email}#=%=#hayashi.tomoki@g.sp.m.is.nagoya-u.ac.jp
+Author{6}{Affiliation}#=%=#Nagoya University
+Author{7}{Firstname}#=%=#Shinji
+Author{7}{Lastname}#=%=#Watanabe
+Author{7}{Username}#=%=#shinjiw
+Author{7}{Email}#=%=#shinjiw@ieee.org
+Author{7}{Affiliation}#=%=#Johns Hopkins University
+
+==========

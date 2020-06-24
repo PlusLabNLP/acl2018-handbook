@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Deep Learning-based Online Alternative Product Recommendations at Scale
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Mingming Guo
+JobTitle#==#
+Organization#==#The Home Depot, Atlanta, GA, USA
+Abstract#==#Alternative recommender systems are critical for ecommerce companies. They guide customers to explore a massive product catalog and assist customers to find the right products among an overwhelming number of options. However, it is a non-trivial task to recommend alternative products that fit customers’ needs. In this paper, we use both textual product information (e.g. product titles and descriptions) and customer behavior data to recommend alternative products. Our results show that the coverage of alternative products is significantly improved in offline evaluations as well as recall and precision. The final A/B test shows that our algorithm increases the conversion rate by 12% in a statistically significant way. In order to better capture the semantic meaning of product information, we build a Siamese Network with Bidirectional LSTM to learn product embeddings. In order to learn a similarity space that better matches the preference of real customers, we use co-compared data from historical customer behavior as labels to train the network. In addition, we use NMSLIB to accelerate the computationally expensive kNN computation for millions of products so that the alternative recommendation is able to scale across the entire catalog of a major ecommerce site.
+Author{1}{Firstname}#=%=#Mingming
+Author{1}{Lastname}#=%=#Guo
+Author{1}{Username}#=%=#mguo
+Author{1}{Email}#=%=#mingming_guo@homedepot.com
+Author{1}{Affiliation}#=%=#The Home Depot
+Author{2}{Firstname}#=%=#Nian
+Author{2}{Lastname}#=%=#Yan
+Author{2}{Email}#=%=#nian_yan@homedepot.com
+Author{2}{Affiliation}#=%=#The Home Depot
+Author{3}{Firstname}#=%=#Xiquan
+Author{3}{Lastname}#=%=#Cui
+Author{3}{Email}#=%=#xiquan_cui@homedepot.com
+Author{3}{Affiliation}#=%=#The Home Depot
+Author{4}{Firstname}#=%=#San He
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Email}#=%=#san_h_wu@homedepot.com
+Author{4}{Affiliation}#=%=#The Home Depot
+Author{5}{Firstname}#=%=#Unaiza
+Author{5}{Lastname}#=%=#Ahsan
+Author{5}{Email}#=%=#unaiza_ahsan@homedepot.com
+Author{5}{Affiliation}#=%=#The Home Depot
+Author{6}{Firstname}#=%=#Rebecca
+Author{6}{Lastname}#=%=#West
+Author{6}{Email}#=%=#rebecca_west@homedepot.com
+Author{6}{Affiliation}#=%=#The Home Depot
+Author{7}{Firstname}#=%=#Khalifeh
+Author{7}{Lastname}#=%=#Al Jadda
+Author{7}{Email}#=%=#khalifeh_al_jadda@homedepot.com
+Author{7}{Affiliation}#=%=#The Home Depot
+
+==========

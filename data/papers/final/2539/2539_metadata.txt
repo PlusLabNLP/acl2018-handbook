@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2539
+FinalPaperTitle#=%=#Probing Linguistic Systematicity
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Emily Goodwin
+JobTitle#==#
+Organization#==#McGill University 845 Sherbrooke St W, Montreal, Quebec H3A 0G4
+Abstract#==#Recently, there has been much interest in the question of whether deep natural language understanding (NLU) models exhibit systematicity, generalizing such that units like words make consistent contributions to the meaning of the sentences in which they appear. There is accumulating evidence that neural models do not learn systematically. We examine the notion of  systematicity from a linguistic perspective, defining a set of probing tasks and a set of metrics to measure systematic behaviour. We also identify ways in which network architectures can generalize non-systematically, and discuss why such forms of generalization may be unsatisfying. As a case study, we perform a series of experiments in the setting of natural language inference (NLI). We provide evidence that current state-of-the-art NLU systems do not generalize systematically, despite overall high performance.
+Author{1}{Firstname}#=%=#Emily
+Author{1}{Lastname}#=%=#Goodwin
+Author{1}{Username}#=%=#emilygoodwin
+Author{1}{Email}#=%=#emily.goodwin@mail.mcgill.ca
+Author{1}{Affiliation}#=%=#McGill University
+Author{2}{Firstname}#=%=#Koustuv
+Author{2}{Lastname}#=%=#Sinha
+Author{2}{Username}#=%=#koustuvs
+Author{2}{Email}#=%=#koustuv.sinha@mail.mcgill.ca
+Author{2}{Affiliation}#=%=#McGill University / Mila / FAIR
+Author{3}{Firstname}#=%=#Timothy J.
+Author{3}{Lastname}#=%=#O'Donnell
+Author{3}{Username}#=%=#timod
+Author{3}{Email}#=%=#timothy.odonnell@mcgill.ca
+Author{3}{Affiliation}#=%=#McGill University
+
+==========

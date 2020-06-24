@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2878
+FinalPaperTitle#=%=#Exploring Content Selection in Summarization of Novel Chapters
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Faisal Ladhak
+JobTitle#==#
+Organization#==#Columbia University
+Abstract#==#We present a new summarization task, generating summaries of novel chapters using summary/chapter pairs from online study guides. This is a harder task than the news summarization task, given the chapter length as well as the extreme paraphrasing and generalization found in the summaries. We focus on extractive summarization, which requires the creation of a gold-standard set of extractive summaries. We present a new metric for aligning reference summary sentences with chapter sentences to create gold extracts and also experiment with different alignment methods. Our experiments demonstrate significant improvement over prior alignment approaches for our task as shown through automatic metrics and a crowd-sourced pyramid analysis.
+Author{1}{Firstname}#=%=#Faisal
+Author{1}{Lastname}#=%=#Ladhak
+Author{1}{Username}#=%=#kvothe
+Author{1}{Email}#=%=#faisal.ladhak@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Bryan
+Author{2}{Lastname}#=%=#Li
+Author{2}{Username}#=%=#bryanli
+Author{2}{Email}#=%=#b.li@columbia.edu
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Yaser
+Author{3}{Lastname}#=%=#Al-Onaizan
+Author{3}{Username}#=%=#onaizan-amazon
+Author{3}{Email}#=%=#onaizan2000@yahoo.com
+Author{3}{Affiliation}#=%=#Amazon AI
+Author{4}{Firstname}#=%=#Kathleen
+Author{4}{Lastname}#=%=#McKeown
+Author{4}{Username}#=%=#kathy
+Author{4}{Email}#=%=#kathy@cs.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University and Amazon (Amazon Scholar)
+
+==========

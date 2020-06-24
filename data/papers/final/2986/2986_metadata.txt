@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2986
+FinalPaperTitle#=%=#Parallel Data Augmentation for Formality Style Transfer
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yi Zhang
+JobTitle#==#
+Organization#==#Peking University
+Abstract#==#The main barrier to progress in the task of Formality Style Transfer is the inadequacy of training data. In this paper, we study how to augment parallel data and propose novel and simple data augmentation methods for this task to obtain useful sentence pairs with easily accessible models and systems. Experiments demonstrate that our augmented parallel data largely helps improve formality style transfer when it is used to pre-train the model, leading to the state-of-the-art results in the GYAFC benchmark dataset.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#yizhang_cs
+Author{1}{Email}#=%=#zhangyi16@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Tao
+Author{2}{Lastname}#=%=#Ge
+Author{2}{Username}#=%=#getao
+Author{2}{Email}#=%=#tage@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Xu
+Author{3}{Lastname}#=%=#SUN
+Author{3}{Username}#=%=#xusun26
+Author{3}{Email}#=%=#xusun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Considering Likelihood in NLP Classiﬁcation Explanations with Occlusion and Language Modeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David Harbecke
+JobTitle#==#
+Organization#==#German Research Center for Artificial Intelligence (DFKI), Alt-Moabit 91c, 10559 Berlin, Germany
+Abstract#==#Recently, state-of-the-art NLP models gained an increasing syntactic and semantic understanding of language, and explanation methods are crucial to understand their decisions. Occlusion is a well established method that provides explanations on discrete language data, e.g. by removing a language unit from an input and measuring the impact on a model's decision. We argue that current occlusion-based methods often produce invalid or syntactically incorrect language data, neglecting the improved abilities of recent NLP models. Furthermore, gradient-based explanation methods disregard the discrete distribution of data in NLP. Thus, we propose OLM: a novel explanation method that combines occlusion and language models to sample valid and syntactically correct replacements with high likelihood, given the context of the original input. We lay out a theoretical foundation that alleviates these weaknesses of other explanation methods in NLP and provide results that underline the importance of considering data likelihood in occlusion-based explanation.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Harbecke
+Author{1}{Username}#=%=#harbecke
+Author{1}{Email}#=%=#d.harbecke@gmx.de
+Author{1}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+Author{2}{Firstname}#=%=#Christoph
+Author{2}{Lastname}#=%=#Alt
+Author{2}{Username}#=%=#christoph.alt
+Author{2}{Email}#=%=#christoph.alt@dfki.de
+Author{2}{Affiliation}#=%=#German Research Center for Artificial Intelligence
+
+==========

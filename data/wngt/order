@@ -1,0 +1,33 @@
+205   # Findings of the Fourth Workshop on Neural Generation and Translation
+2   # Learning to Generate Multiple Style Transfer Outputs for an Input Sentence
+4   # Balancing Cost and Benefit with Tied-Multi Transformers
+5   # Compressing Neural Machine Translation Models with 4-bit Precision
+7   # Meta-Learning for Few-Shot NMT Adaptation
+8   # Automatically Ranked Russian Paraphrase Corpus for Text Generation
+9   # Increasing Lexical Diversity in Plug and Play Language Models
+10   # A Deep Reinforced Model for Zero-Shot Cross-Lingual Summarization with Bilingual Semantic Similarity Rewards
+11   # A Question Type Driven and Copy Loss Enhanced Frameworkfor Answer-Agnostic Neural Question Generation
+13   # When and Why is Unsupervised Neural Machine Translation Useless?
+15   # A Generative Approach to Titling and Clustering Wikipedia Sections
+17   # The Unreasonable Volatility of Neural Machine Translation Models
+18   # Leveraging Sentence Similarity in Natural Language Generation: Improving Beam Search using Range Voting
+22   # Transformers without Tears: Improving the Normalization of Self-Attention
+23   # Masked Language Model Scoring
+27   # Distill, Adapt, Distill: Training Small, In-Domain Models for Neural Machine Translation
+28   # Improving Neural Machine Translation Using Energy-Based Models
+101   # Training and Inference Methods for High-Coverage Neural Machine Translation
+102   # Meeting the 2020 Duolingo Challenge on a Shoestring
+103   # English-to-Japanese Diverse Translation by Combining Forward and Backward Outputs
+104   # POSTECH Submission on Duolingo Shared Task
+105   # The ADAPT System Description for the STAPLE 2020 English-to-Portuguese Translation Task
+106   # Expand and Filter: CUNI and LMU Systems for the WNGT 2020 Duolingo Shared Task
+107   # Exploring Model Consensus to Generate Translation Paraphrases
+108   # Growing Together: Modeling Human Language Learning With n-Best Multi-Checkpoint Machine Translation
+109   # Generating Diverse Translations via Weighted Fine-tuning and Hypotheses Filtering for the Duolingo STAPLE Task
+110   # The JHU Submission to the 2020 Duolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education
+200   # Simultaneous paraphrasing and translation by fine-tuning Transformer models
+202   # The NiuTrans System for WNGT 2020 Efficiency Task
+203   # Efficient and High-Quality Neural Machine Translation with OpenNMT
+204   # Edinburgh___s Submissions to the 2020 Machine Translation Efficiency Task
+201   # Improving Document-Level Neural Machine Translation with Domain Adaptation
+206   # Simultaneous Translation and Paraphrase for Language Education

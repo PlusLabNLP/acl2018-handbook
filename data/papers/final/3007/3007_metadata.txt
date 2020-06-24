@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3007
+FinalPaperTitle#=%=#Modeling Label Semantics for Predicting Emotional Reactions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#Stony Brook University, Stony Brook, New York
+Abstract#==#Predicting how events induce emotions in the characters of a story is typically seen as a standard multi-label classification task, which usually treats labels as anonymous classes to predict. They ignore information that may be conveyed by the emotion labels themselves. We propose that the semantics of emotion labels can guide a model’s attention when representing the input story. Further, we observe that the emotions evoked by an event are often related: an event that evokes joy is unlikely to also evoke sadness. In this work, we explicitly model label classes via label embeddings, and add mechanisms that track label-label correlations both during training and inference. We also introduce a new semi-supervision strategy that regularizes for the correlations on unlabeled data. Our empirical evaluations show that modeling label semantics yields consistent benefits, and we advance the state-of-the-art on an emotion inference task.
+Author{1}{Firstname}#=%=#Radhika
+Author{1}{Lastname}#=%=#Gaonkar
+Author{1}{Username}#=%=#rgaonkar
+Author{1}{Email}#=%=#rgaonkar@cs.stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Heeyoung
+Author{2}{Lastname}#=%=#Kwon
+Author{2}{Username}#=%=#in2uitive
+Author{2}{Email}#=%=#heekwon@cs.stonybrook.edu
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#Mohaddeseh
+Author{3}{Lastname}#=%=#Bastan
+Author{3}{Username}#=%=#mhdbst
+Author{3}{Email}#=%=#mbastan@cs.stonybrook.edu
+Author{3}{Affiliation}#=%=#Stony Brook University
+Author{4}{Firstname}#=%=#Niranjan
+Author{4}{Lastname}#=%=#Balasubramanian
+Author{4}{Username}#=%=#niranjan
+Author{4}{Email}#=%=#niranjan@cs.stonybrook.edu
+Author{4}{Affiliation}#=%=#Stony Brook University
+Author{5}{Firstname}#=%=#Nathanael
+Author{5}{Lastname}#=%=#Chambers
+Author{5}{Username}#=%=#nchamber
+Author{5}{Email}#=%=#nchamber@usna.edu
+Author{5}{Affiliation}#=%=#US Naval Academy
+
+==========

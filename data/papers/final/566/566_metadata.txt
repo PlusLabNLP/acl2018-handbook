@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#566
+FinalPaperTitle#=%=#Suspense in Short Stories is Predicted By Uncertainty Reduction over Neural Story Representation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#26
+CopyrightSigned#=%=#David Wilmot
+JobTitle#==#
+Organization#==#School of Informatics, University of Edinburgh, 20 Crichton Street, Edinburgh EH8 9AB, UK
+Abstract#==#Suspense is a crucial ingredient of narrative fiction, engaging readers and making stories compelling. While there is a vast theoretical literature on suspense, it is computationally not well understood. We compare two ways for modelling suspense: surprise, a  backward-looking measure of how unexpected the current state is given the story so far; and uncertainty reduction, a forward-looking measure of how unexpected the continuation of the story is.  Both can be computed either directly over story representations or over their probability distributions. We propose a hierarchical language model that encodes stories and computes surprise and uncertainty reduction. Evaluating against short stories annotated with human suspense judgements, we find that uncertainty reduction over representations is the best predictor, resulting in near human accuracy. We also show that uncertainty reduction can be used to predict suspenseful events in movie synopses.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Wilmot
+Author{1}{Username}#=%=#dwlmt
+Author{1}{Email}#=%=#david.wilmot@ed.ac.uk
+Author{1}{Affiliation}#=%=#ILCC, University of Edinburgh
+Author{2}{Firstname}#=%=#Frank
+Author{2}{Lastname}#=%=#Keller
+Author{2}{Username}#=%=#keller
+Author{2}{Email}#=%=#keller@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+
+==========

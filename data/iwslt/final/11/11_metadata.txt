@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Is 42 the Answer to Everything in Subtitling-oriented Speech Translation?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Alina Karakanta
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler / University of Trento
+Abstract#==#Subtitling is becoming increasingly important for disseminating information, given the enormous amounts of audiovisual content becoming available daily. Although Neural Machine Translation (NMT) can speed up the process of translating audiovisual content, large manual effort is still required for transcribing the source language, and for spotting and segmenting the text into proper subtitles. Creating proper subtitles in terms of timing and segmentation highly depends on information present in the audio (utterance duration, natural pauses). In this work, we explore two methods for applying Speech Translation (ST) to subtitling, a) a direct end-to-end and b) a classical cascade approach. We discuss the benefit of having access to the source language speech for improving the conformity of the generated subtitles to the spatial and temporal subtitling constraints and show that length is not the answer to everything in the case of subtitling-oriented ST.
+Author{1}{Firstname}#=%=#Alina
+Author{1}{Lastname}#=%=#Karakanta
+Author{1}{Username}#=%=#alinak
+Author{1}{Email}#=%=#akarakanta@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler (FBK), University of Trento
+Author{2}{Firstname}#=%=#Matteo
+Author{2}{Lastname}#=%=#Negri
+Author{2}{Username}#=%=#negri
+Author{2}{Email}#=%=#negri@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Turchi
+Author{3}{Username}#=%=#turchmo
+Author{3}{Email}#=%=#marco.turchi@gmail.com
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

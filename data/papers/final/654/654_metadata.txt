@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#654
+FinalPaperTitle#=%=#Efficient Constituency Parsing by Pointing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Thanh-Tung Nguyen
+JobTitle#==#
+Organization#==#Nanyang Technological University ; 50 Nanyang Ave, 639798, Singapore
+Abstract#==#We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.
+Author{1}{Firstname}#=%=#Thanh-Tung
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Username}#=%=#tungngthanh
+Author{1}{Email}#=%=#ng0155ng@e.ntu.edu.sg
+Author{1}{Affiliation}#=%=#Nanyang Technological University
+Author{2}{Firstname}#=%=#Xuan-Phi
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Username}#=%=#nxphi47
+Author{2}{Email}#=%=#nguyenxu002@e.ntu.edu.sg
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Shafiq
+Author{3}{Lastname}#=%=#Joty
+Author{3}{Username}#=%=#rjoty
+Author{3}{Email}#=%=#srjoty@ntu.edu.sg
+Author{3}{Affiliation}#=%=#Nanyang Technological University; Salesforce AI Research
+Author{4}{Firstname}#=%=#Xiaoli
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#xiaolili
+Author{4}{Email}#=%=#xlli@i2r.a-star.edu.sg
+Author{4}{Affiliation}#=%=#Institute for Infocomm Research/Nanyang Technological University
+
+==========

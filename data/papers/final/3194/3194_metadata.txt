@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3194
+FinalPaperTitle#=%=#Discrete Latent Variable Representations for Low-Resource Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Shuning Jin
+JobTitle#==#
+Organization#==#Toyota Technological Institute at Chicago, IL, USA
+Abstract#==#While much work on deep latent variable models of text uses continuous latent variables, discrete latent variables are interesting because they are more interpretable and typically more space efficient. We consider several approaches to learning discrete latent variable models for text in the case where exact marginalization over these variables is intractable. We compare the performance of the learned representations as features for low-resource document and sentence classification. Our best models outperform the previous best reported results with continuous representations in these low-resource settings, while learning significantly more compressed representations. Interestingly, we find that an amortized variant of Hard EM performs particularly well in the lowest-resource regimes.
+Author{1}{Firstname}#=%=#Shuning
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Username}#=%=#shuningjin
+Author{1}{Email}#=%=#jinxx596@d.umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota Duluth
+Author{2}{Firstname}#=%=#Sam
+Author{2}{Lastname}#=%=#Wiseman
+Author{2}{Username}#=%=#swiseman
+Author{2}{Email}#=%=#swiseman@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Karl
+Author{3}{Lastname}#=%=#Stratos
+Author{3}{Username}#=%=#stratos
+Author{3}{Email}#=%=#karlstratos@gmail.com
+Author{3}{Affiliation}#=%=#Rutgers University
+Author{4}{Firstname}#=%=#Karen
+Author{4}{Lastname}#=%=#Livescu
+Author{4}{Username}#=%=#klivescu
+Author{4}{Email}#=%=#klivescu@ttic.edu
+Author{4}{Affiliation}#=%=#TTI-Chicago
+
+==========

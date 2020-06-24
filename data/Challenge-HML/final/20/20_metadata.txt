@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Low Rank Fusion based Transformers for Multimodal Sequences
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Saurav Sahay
+JobTitle#==#
+Organization#==#Intel Labs, Santa Clara
+Abstract#==#Our senses individually work in a coordinated fashion to express our emotional intentions. In this work, we experiment with modeling modality-specific sensory signals to attend to our latent multimodal emotional intentions and vice versa expressed via low-rank multimodal fusion and multimodal transformers. The low-rank factorization of multimodal fusion amongst the modalities helps represent approximate multiplicative latent signal interactions. Motivated by the work of~\cite{tsai2019MULT} and~\cite{Liu_2018}, we present our transformer-based cross-fusion architecture without any over-parameterization of the model. The low-rank fusion helps represent the latent signal interactions while the modality-specific attention helps focus on relevant parts of the signal. We present two methods for the Multimodal Sentiment and Emotion Recognition results on CMU-MOSEI, CMU-MOSI, and IEMOCAP datasets and show that our models have lesser parameters, train faster and perform comparably to many larger fusion-based architectures.
+Author{1}{Firstname}#=%=#Saurav
+Author{1}{Lastname}#=%=#Sahay
+Author{1}{Username}#=%=#sauravsahay
+Author{1}{Email}#=%=#sauravsahay@gmail.com
+Author{1}{Affiliation}#=%=#Intel Labs
+Author{2}{Firstname}#=%=#Eda
+Author{2}{Lastname}#=%=#Okur
+Author{2}{Username}#=%=#edaokur
+Author{2}{Email}#=%=#eda.okur@intel.com
+Author{2}{Affiliation}#=%=#Intel Labs
+Author{3}{Firstname}#=%=#shachi
+Author{3}{Lastname}#=%=#H Kumar
+Author{3}{Username}#=%=#shachihkumar
+Author{3}{Email}#=%=#shachi.h.kumar@intel.com
+Author{3}{Affiliation}#=%=#Intel Labs
+Author{4}{Firstname}#=%=#Lama
+Author{4}{Lastname}#=%=#Nachman
+Author{4}{Email}#=%=#lama.nachman@intel.com
+Author{4}{Affiliation}#=%=#Intel Labs
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2700
+FinalPaperTitle#=%=#{FLAT}: Chinese {NER} Using Flat-Lattice Transformer
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Li Xiaonan
+JobTitle#==#
+Organization#==#Fudan Univerisity
+Abstract#==#Recently, the character-word lattice structure has been proved to be effective for Chinese named entity recognition (NER) by incorporating the word information. However, since the lattice structure is complex and dynamic, the lattice-based models are hard to fully utilize the parallel computation of GPUs and usually have a low inference speed. In this paper, we propose FLAT: Flat-LAttice Transformer for Chinese NER, which converts the lattice structure into a flat structure consisting of spans. Each span corresponds to a character or latent word and its position in the original lattice. With the power of Transformer and well-designed position encoding, FLAT can fully leverage the lattice information and has an excellent parallel ability. Experiments on four datasets show FLAT outperforms other lexicon-based models in performance and efficiency.
+Author{1}{Firstname}#=%=#Xiaonan
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#lxnlxn
+Author{1}{Email}#=%=#lixiaonan_xdu@outlook.com
+Author{1}{Affiliation}#=%=#Fudan University
+Author{2}{Firstname}#=%=#Hang
+Author{2}{Lastname}#=%=#Yan
+Author{2}{Username}#=%=#hang_yan
+Author{2}{Email}#=%=#hyan19@fudan.edu.cn
+Author{2}{Affiliation}#=%=#Fudan University
+Author{3}{Firstname}#=%=#Xipeng
+Author{3}{Lastname}#=%=#Qiu
+Author{3}{Username}#=%=#xpqiu
+Author{3}{Email}#=%=#xpqiu@fudan.edu.cn
+Author{3}{Affiliation}#=%=#Fudan University
+Author{4}{Firstname}#=%=#Xuanjing
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Username}#=%=#xjhuang
+Author{4}{Email}#=%=#xjhuang@fudan.edu.cn
+Author{4}{Affiliation}#=%=#Fudan University
+
+==========

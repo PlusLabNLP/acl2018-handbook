@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Modeling Discourse Structure for Document-level Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Junxuan Chen
+JobTitle#==#Student
+Organization#==#Xiamen University, Xiamen, China
+Abstract#==#Recently, document-level neural machine translation (NMT) has become a hot topic in the community of machine translation. Despite its success, most of existing studies ignored the discourse structure information of the input document to be translated, which has shown effective in other tasks. In this paper, we propose to improve document-level NMT with the aid of discourse structure information. Our encoder is based on a hierarchical attention network (HAN) (Miculicich et al., 2018). Specifically, we first parse the input document to obtain its discourse structure. Then, we introduce a Transformer-based path encoder to embed the discourse structure information of each word. Finally, we combine the discourse structure information with the word embedding before it is fed into the encoder. Experimental results on the English-to-German dataset show that our model can significantly outperform both Transformer and Transformer+HAN.
+Author{1}{Firstname}#=%=#Junxuan
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#junxuanchen
+Author{1}{Email}#=%=#chenjx@stu.xmu.edu.cn
+Author{1}{Affiliation}#=%=#Xiamen University
+Author{2}{Firstname}#=%=#Xiang
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#lixiang21@xiaomi.com
+Author{2}{Affiliation}#=%=#Xiaomi AI Lab, Xiaomi Inc., Beijing, China
+Author{3}{Firstname}#=%=#Jiarui
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zhangjiarui@stu.xmu.edu.cn
+Author{3}{Affiliation}#=%=#Xiamen University
+Author{4}{Firstname}#=%=#Chulun
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#clzhou@stu.xmu.edu.cn
+Author{4}{Affiliation}#=%=#Xiamen University
+Author{5}{Firstname}#=%=#Jianwei
+Author{5}{Lastname}#=%=#Cui
+Author{5}{Email}#=%=#cuijianwei@xiaomi.com
+Author{5}{Affiliation}#=%=#Xiaomi AI Lab, Xiaomi Inc., Beijing, China
+Author{6}{Firstname}#=%=#Bin
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#wangbin11@xiaomi.com
+Author{6}{Affiliation}#=%=#Xiaomi AI Lab, Xiaomi Inc., Beijing, China
+Author{7}{Firstname}#=%=#Jinsong
+Author{7}{Lastname}#=%=#Su
+Author{7}{Email}#=%=#jssu@xmu.edu.cn
+Author{7}{Affiliation}#=%=#Xiamen University
+
+==========

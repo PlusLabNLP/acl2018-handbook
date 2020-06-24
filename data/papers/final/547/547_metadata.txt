@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#547
+FinalPaperTitle#=%=#{L}earning {D}ialog {P}olicies from {W}eak {D}emonstrations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Gabriel Gordon-Hall
+JobTitle#==#
+Organization#==#Huawei Noahs Ark London, 1 Pancras Square, Kings Cross, London N1C 4AG
+Abstract#==#Deep reinforcement learning is a promising approach to training a dialog manager, but current methods struggle with the large state and action spaces of multi-domain dialog systems. Building upon Deep Q-learning from Demonstrations (DQfD), an algorithm that scores highly in difficult Atari games, we leverage dialog data to guide the agent to successfully respond to a user's requests. We make progressively fewer assumptions about the data needed, using labeled, reduced-labeled, and even unlabeled data to train expert demonstrators. We introduce Reinforced Fine-tune Learning, an extension to DQfD, enabling us to overcome the domain gap between the datasets and the environment. Experiments in a challenging multi-domain dialog system framework validate our approaches, and get high success rates even when trained on out-of-domain data.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Gordon-Hall
+Author{1}{Username}#=%=#ggordonhall
+Author{1}{Email}#=%=#ggordonhall@gmail.com
+Author{1}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{2}{Firstname}#=%=#Philip John
+Author{2}{Lastname}#=%=#Gorinski
+Author{2}{Username}#=%=#philjohng
+Author{2}{Email}#=%=#philip.john.gorinski@huawei.com
+Author{2}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{3}{Firstname}#=%=#Shay B.
+Author{3}{Lastname}#=%=#Cohen
+Author{3}{Username}#=%=#scohen2
+Author{3}{Email}#=%=#scohen@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

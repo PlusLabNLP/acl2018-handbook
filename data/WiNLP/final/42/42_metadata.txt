@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Towards Mitigating Gender Bias in a decoder-based Neural Machine Translation model by Adding Contextual Information
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Christine Raouf Saad Basta
+JobTitle#==#PhD researcher
+Organization#==#Polytechnic University of Catalonia, Barcelona, Spain
+Abstract#==#Gender bias negatively impacts many natural language processing applications, including machine translation (MT).  The motivation behind this work is to study whether recent proposed MT techniques are significantly contributing to attenuate biases in document-level and gender-balanced data. For the study, we consider approaches of adding the previous sentence and the speaker information, implemented in a decoder-based neural MT system. We show improvements both in translation quality (+1 BLEU point) as well as in gender bias mitigation on WinoMT (+5\% accuracy).
+Author{1}{Firstname}#=%=#Christine
+Author{1}{Lastname}#=%=#Basta
+Author{1}{Username}#=%=#christine.basta
+Author{1}{Email}#=%=#christine.raouf88@gmail.com
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Marta R.
+Author{2}{Lastname}#=%=#Costa-jussà
+Author{2}{Username}#=%=#marta.ruiz
+Author{2}{Email}#=%=#marta.ruiz@upc.edu
+Author{2}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{3}{Firstname}#=%=#José A. R.
+Author{3}{Lastname}#=%=#Fonollosa
+Author{3}{Username}#=%=#jose.fonollosa
+Author{3}{Email}#=%=#jose.fonollosa@upc.edu
+Author{3}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

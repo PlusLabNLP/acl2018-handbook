@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1547
+FinalPaperTitle#=%=#Semantic Graphs for Generating Deep Questions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Liangming Pan
+JobTitle#==#
+Organization#==#NUS Graduate School for Integrative Sciences and Engineering, National University of Singapore, Singapore
+Abstract#==#This paper proposes the problem of Deep Question Generation (DQG), which aims to generate complex questions that require reasoning over multiple pieces of information about the input passage. In order to capture the global structure of the document and facilitate reasoning, we propose a novel framework that first constructs a semantic-level graph for the input document and then encodes the semantic graph by introducing an attention-based GGNN (Att-GGNN). Afterward, we fuse the document-level and graph-level representations to perform joint training of content selection and question decoding. On the HotpotQA deep-question centric dataset, our model greatly improves performance over questions requiring reasoning over multiple facts, leading to state-of-the-art performance. The code is publicly available at https://github.com/WING-NUS/SG-Deep-Question-Generation.
+Author{1}{Firstname}#=%=#Liangming
+Author{1}{Lastname}#=%=#Pan
+Author{1}{Username}#=%=#panliangming
+Author{1}{Email}#=%=#e0272310@u.nus.edu
+Author{1}{Affiliation}#=%=#National University of Singapore
+Author{2}{Firstname}#=%=#Yuxi
+Author{2}{Lastname}#=%=#Xie
+Author{2}{Username}#=%=#anatasia
+Author{2}{Email}#=%=#xieyuxi@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Yansong
+Author{3}{Lastname}#=%=#Feng
+Author{3}{Username}#=%=#yansong
+Author{3}{Email}#=%=#fengyansong@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Tat-Seng
+Author{4}{Lastname}#=%=#Chua
+Author{4}{Username}#=%=#chuats
+Author{4}{Email}#=%=#dcscts@nus.edu.sg
+Author{4}{Affiliation}#=%=#National University of Singapore
+Author{5}{Firstname}#=%=#Min-Yen
+Author{5}{Lastname}#=%=#Kan
+Author{5}{Username}#=%=#knmnyn
+Author{5}{Email}#=%=#kanmy@comp.nus.edu.sg
+Author{5}{Affiliation}#=%=#National University of Singapore
+
+==========

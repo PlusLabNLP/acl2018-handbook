@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#Pointwise Paraphrase Appraisal is Potentially Problematic
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hannah Chen
+JobTitle#==#
+Organization#==#University of Virginia, Charlottesville, VA 22904
+Abstract#==#The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models. As a first step towards that goal, we show that although the standard way of fine-tuning BERT for paraphrase identification by pairing two sentences as one sequence results in a model with state-of-the-art performance, that model may perform poorly on simple tasks like identifying pairs with two identical sentences. Moreover, we show that these models may even predict a pair of randomly-selected sentences with higher paraphrase score than a pair of identical ones.
+Author{1}{Firstname}#=%=#Hannah
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#kitcat0618
+Author{1}{Email}#=%=#yc4dx@virginia.edu
+Author{1}{Affiliation}#=%=#University of Virginia
+Author{2}{Firstname}#=%=#Yangfeng
+Author{2}{Lastname}#=%=#Ji
+Author{2}{Username}#=%=#yangfengji
+Author{2}{Email}#=%=#jiyfeng@gmail.com
+Author{2}{Affiliation}#=%=#University of Virginia
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Evans
+Author{3}{Email}#=%=#evans@virginia.edu
+Author{3}{Affiliation}#=%=#University of Virginia
+
+==========

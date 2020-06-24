@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#The CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0: Language-Specific Cross-Lingual Transfer
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Antonios Anastasopoulos
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, USA
+Abstract#==#This paper describes the CMU-LTI submission to the SIGMORPHON 2020 Shared Task 0 on typologically diverse morphological inflection. The (unrestricted) submission uses the cross-lingual approach of our last year's winning submission (Anastasopoulos and Neubig, 2019), but adapted to use specific transfer languages for each test language. Our system, with fixed non-tuned hyperparameters, achieved a macro-averaged accuracy of 80.65 ranking 20th among 31 systems, but it was still tied for best system in 25 of the 90 total languages.
+Author{1}{Firstname}#=%=#Nikitha
+Author{1}{Lastname}#=%=#Murikinati
+Author{1}{Username}#=%=#nikitham
+Author{1}{Email}#=%=#nmurikin@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Antonios
+Author{2}{Lastname}#=%=#Anastasopoulos
+Author{2}{Username}#=%=#aanastas
+Author{2}{Email}#=%=#aanastas@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

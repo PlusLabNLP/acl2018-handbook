@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#2723
+FinalPaperTitle#=%=#Neural {CRF} Model for Sentence Alignment in Text Simplification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#18
+CopyrightSigned#=%=#Chao Jiang
+JobTitle#==#
+Organization#==#The Ohio State University, Columbus, OH 43210
+Abstract#==#The success of a text simplification system heavily depends on the quality and quantity of complex-simple sentence pairs in the training corpus, which are extracted by aligning sentences between parallel articles. To evaluate and improve sentence alignment quality, we create two manually annotated sentence-aligned datasets from two commonly used text simplification corpora, Newsela and Wikipedia. We propose a novel neural CRF alignment model which not only leverages the sequential nature of sentences in parallel documents but also utilizes a neural sentence pair model to capture semantic similarity. Experiments demonstrate that our proposed approach outperforms all the previous work on monolingual sentence alignment task by more than 5 points in F1. We apply our CRF aligner to construct two new text simplification datasets, {\sc Newsela-Auto} and {\sc Wiki-Auto}, which are much larger and of better quality compared to the existing datasets. A Transformer-based seq2seq model trained on our datasets establishes a new state-of-the-art for text simplification in both automatic and human evaluation.
+Author{1}{Firstname}#=%=#Chao
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Username}#=%=#wherea
+Author{1}{Email}#=%=#jiang.1530@osu.edu
+Author{1}{Affiliation}#=%=#Ohio State University
+Author{2}{Firstname}#=%=#Mounica
+Author{2}{Lastname}#=%=#Maddela
+Author{2}{Username}#=%=#maddelamounica
+Author{2}{Email}#=%=#maddela.4@osu.edu
+Author{2}{Affiliation}#=%=#Ohio State University
+Author{3}{Firstname}#=%=#Wuwei
+Author{3}{Lastname}#=%=#Lan
+Author{3}{Username}#=%=#lanwuwei
+Author{3}{Email}#=%=#lan.105@osu.edu
+Author{3}{Affiliation}#=%=#Ohio State University
+Author{4}{Firstname}#=%=#Yang
+Author{4}{Lastname}#=%=#Zhong
+Author{4}{Username}#=%=#yz9455
+Author{4}{Email}#=%=#zhong.536@osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+Author{5}{Firstname}#=%=#Wei
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Username}#=%=#xuwei912
+Author{5}{Email}#=%=#weixu@cse.ohio-state.edu
+Author{5}{Affiliation}#=%=#Ohio State University
+
+==========

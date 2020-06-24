@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Linguistic Features for Readability Assessment
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Tovly Deutsch
+JobTitle#==#Undergraduate Student
+Organization#==#Harvard University, Richard A. and Susan F. Smith Campus Center, Suite 980, 1350 Massachusetts Avenue Cambridge, Massachusetts 02138-3834
+Abstract#==#Readability assessment aims to automatically classify text by the level appropriate for learning readers. Traditional approaches to this task utilize a variety of linguistically motivated features paired with simple machine learning models. More recent methods have improved performance by discarding these features and utilizing deep learning models. However, it is unknown whether augmenting deep learning models with linguistically motivated features would improve performance further. This paper combines these two approaches with the goal of improving overall model performance and addressing this question. Evaluating on two large readability corpora, we find that, given sufficient training data, augmenting deep learning models with linguistically motivated features does not improve state-of-the-art performance. Our results provide preliminary evidence for the hypothesis that the state-of-the-art deep learning models represent linguistic features of the text related to readability. Future research on the nature of representations formed in these models can shed light on the learned features and their relations to linguistically motivated ones hypothesized in traditional approaches.
+Author{1}{Firstname}#=%=#Tovly
+Author{1}{Lastname}#=%=#Deutsch
+Author{1}{Username}#=%=#tovly
+Author{1}{Email}#=%=#tdeutsch@college.harvard.edu
+Author{1}{Affiliation}#=%=#Harvard University
+Author{2}{Firstname}#=%=#Masoud
+Author{2}{Lastname}#=%=#Jasbi
+Author{2}{Email}#=%=#masoud_jasbi@fas.harvard.edu
+Author{2}{Affiliation}#=%=#Harvard University
+Author{3}{Firstname}#=%=#Stuart
+Author{3}{Lastname}#=%=#Shieber
+Author{3}{Username}#=%=#shieber
+Author{3}{Email}#=%=#shieber@seas.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard University
+
+==========

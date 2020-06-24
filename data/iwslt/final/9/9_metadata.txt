@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Towards Stream Translation: Adaptive Computation Time for Simultaneous Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Felix Schneider
+JobTitle#==#
+Organization#==#Karlsruhe Institute of Technology, Adenauerring 2, 76131 Karlsruhe
+Abstract#==#Simultaneous machine translation systems rely on a policy to schedule read and write operations in order to begin translating a source sentence before it is complete. In this paper, we demonstrate the use of Adaptive Computation Time (ACT) as an adaptive, learned policy for simultaneous machine translation using the transformer model and as a more numerically stable alternative to Monotonic Infinite Lookback Attention (MILk). We achieve state-of-the-art results in terms of latency-quality tradeoffs. We also propose a method to use our model on unsegmented input, i.e. without sentence boundaries, simulating the condition of translating output from automatic speech recognition. We present first benchmark results on this task.
+Author{1}{Firstname}#=%=#Felix
+Author{1}{Lastname}#=%=#Schneider
+Author{1}{Username}#=%=#felixschneiderkit
+Author{1}{Email}#=%=#felix.schneider@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology (KIT)
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Waibel
+Author{2}{Email}#=%=#alexander.waibel@kit.edu
+Author{2}{Affiliation}#=%=#Karlsruhe Institute of Technology (KIT)
+
+==========

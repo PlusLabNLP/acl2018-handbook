@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#On Dimensional Linguistic Properties of the Word Embedding Space
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Vikas Raunak
+JobTitle#==#
+Organization#==#CMU, Pittsburgh, USA
+Abstract#==#Word embeddings have become a staple of several natural language processing tasks, yet much remains to be understood about their properties. In this work, we analyze word embeddings in terms of their principal components and arrive at a number of novel and counterintuitive observations. In particular, we characterize the utility of variance explained by the principal components as a proxy for downstream performance. Furthermore, through syntactic probing of the principal embedding space, we show that the syntactic information captured by a principal component does not correlate with the amount of variance it explains. Consequently, we investigate the limitations of variance based embedding post-processing algorithms and demonstrate that such post-processing is counter-productive in sentence classification and machine translation tasks. Finally, we offer a few precautionary guidelines on applying variance based embedding post-processing and explain why non-isotropic geometry might be integral to word embedding performance.
+Author{1}{Firstname}#=%=#Vikas
+Author{1}{Lastname}#=%=#Raunak
+Author{1}{Username}#=%=#vyraun
+Author{1}{Email}#=%=#vraunak@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#CMU
+Author{2}{Firstname}#=%=#Vaibhav
+Author{2}{Lastname}#=%=#Kumar
+Author{2}{Username}#=%=#vk5
+Author{2}{Email}#=%=#vaibhav2@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Vivek
+Author{3}{Lastname}#=%=#Gupta
+Author{3}{Username}#=%=#vgupta
+Author{3}{Email}#=%=#keviv9@gmail.com
+Author{3}{Affiliation}#=%=#School of Computing, University of Utah
+Author{4}{Firstname}#=%=#Florian
+Author{4}{Lastname}#=%=#Metze
+Author{4}{Username}#=%=#fmetze
+Author{4}{Email}#=%=#fmetze@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

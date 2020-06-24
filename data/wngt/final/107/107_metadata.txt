@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#Exploring Model Consensus to Generate Translation Paraphrases
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Zhenhao Li
+JobTitle#==#
+Organization#==#Imperial College London
+Abstract#==#This paper describes our submission to the 2020 Duolingo Shared Task on Simultaneous Translation And Paraphrase for Language Education (STAPLE). This task focuses on improving the ability of neural MT systems to generate diverse translations. Our submission explores various methods, including N-best translation, Monte Carlo dropout, Diverse Beam Search, Mixture of Experts, Ensembling, and Lexical Substitution. Our main submission is based on the integration of multiple translations from multiple methods using Consensus Voting. Experiments show that the proposed approach achieves a considerable degree of diversity without introducing noisy translations. Our final submission achieves a 0.5510 weighted F1 score on the blind test set for the English-Portuguese track.
+Author{1}{Firstname}#=%=#Zhenhao
+Author{1}{Lastname}#=%=#Li
+Author{1}{Username}#=%=#nickeilf
+Author{1}{Email}#=%=#zhenhao.li18@imperial.ac.uk
+Author{1}{Affiliation}#=%=#Imperial College London
+Author{2}{Firstname}#=%=#Marina
+Author{2}{Lastname}#=%=#Fomicheva
+Author{2}{Username}#=%=#marina.fomicheva
+Author{2}{Email}#=%=#m.fomicheva@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Username}#=%=#l.specia
+Author{3}{Email}#=%=#l.specia@imperial.ac.uk
+Author{3}{Affiliation}#=%=#Imperial College London
+
+==========

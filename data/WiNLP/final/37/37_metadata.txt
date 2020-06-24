@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Corpus Development for Indonesian Product Named Entity Recognition using Semi-supervised Approach
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Muhammad Akmal
+JobTitle#==#
+Organization#==#Telkom University, Jl. Telekomunikasi Jl. Terusan Buah Batu, Sukapura, Kec. Dayeuhkolot, Bandung, Jawa Barat 40257
+Abstract#==#We present a study on developing a corpus for Indonesian Product Named Entity Recognition (PRONER). We labeled a small amount of data and implemented a semi-supervised learning approach to label the rest of the data. We used conditional random fields (CRF) as the classifier. The experimental result shows that the corpus accuracy on brand, product type, and product are 89.37%, 44.05%, and 70.49%. The performance on very similar vocabularies is quite good, while we conclude that we need to seek better features and semi-supervised method to recognize unknown tokens.
+Author{1}{Firstname}#=%=#Muhammad
+Author{1}{Lastname}#=%=#Akmal
+Author{1}{Username}#=%=#dziemboh
+Author{1}{Email}#=%=#dziemboh@gmail.com
+Author{1}{Affiliation}#=%=#Telkom University
+Author{2}{Firstname}#=%=#Ade
+Author{2}{Lastname}#=%=#Romadhony
+Author{2}{Email}#=%=#aderomadhony@telkomuniversity.ac.id
+Author{2}{Affiliation}#=%=#Telkom University
+
+==========

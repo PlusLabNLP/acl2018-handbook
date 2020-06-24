@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#2528
+FinalPaperTitle#=%=#Interactive Classification by Asking Informative Questions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Lili Yu
+JobTitle#==#
+Organization#==#ASAPP INC. New York, USA
+Abstract#==#We study  the  potential  for  interaction  in  natural  language  classification. We  add a limited form of interaction for intent classification,  where users provide an initial query using natural language, and the system asks for additional  information  using  binary  or multi-choice  questions.   At  each  turn,  our  system decides between asking the most informative question or making the final classification pre-diction.   The  simplicity  of  the  model  allows for bootstrapping of the system without interaction data,  instead relying on simple crowd-sourcing tasks.  We evaluate our approach on two  domains,  showing  the  benefit  of  interaction and the advantage of learning to balance between asking additional questions and making the final prediction.
+Author{1}{Firstname}#=%=#Lili
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Username}#=%=#liliyu
+Author{1}{Email}#=%=#yulili8989@gmail.com
+Author{1}{Affiliation}#=%=#ASAPP Inc.
+Author{2}{Firstname}#=%=#Howard
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Username}#=%=#howard50b
+Author{2}{Email}#=%=#hc839@cornell.edu
+Author{2}{Affiliation}#=%=#ASAPP, Inc.
+Author{3}{Firstname}#=%=#Sida I.
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#sidaw
+Author{3}{Email}#=%=#sidawang88@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Tao
+Author{4}{Lastname}#=%=#Lei
+Author{4}{Username}#=%=#taolei
+Author{4}{Email}#=%=#taolei@csail.mit.edu
+Author{4}{Affiliation}#=%=#ASAPP Inc
+Author{5}{Firstname}#=%=#Yoav
+Author{5}{Lastname}#=%=#Artzi
+Author{5}{Username}#=%=#yoav
+Author{5}{Email}#=%=#yoav@cs.cornell.edu
+Author{5}{Affiliation}#=%=#Cornell University
+
+==========

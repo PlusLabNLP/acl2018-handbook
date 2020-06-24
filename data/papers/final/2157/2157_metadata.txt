@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#2157
+FinalPaperTitle#=%=#Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#National Research Council Canada
+Abstract#==#Disparities in authorship and citations across genders can have substantial adverse consequences not just on the disadvantaged gender, but also on the field of study as a whole. In this work, we examine female first author percentages and the citations to their papers in Natural Language Processing. We find that only about 29% of first authors are female and only about 25% of last authors are female. Notably, this percentage has not improved since the mid 2000s. We also show that, on average, female first authors are cited less than male first authors, even when controlling for experience and area of research. We hope that recording citation and participation gaps across demographic groups will improve awareness of gender gaps and encourage more inclusiveness and fairness in research.
+Author{1}{Firstname}#=%=#Saif M.
+Author{1}{Lastname}#=%=#Mohammad
+Author{1}{Username}#=%=#saif
+Author{1}{Email}#=%=#uvgotsaif@gmail.com
+Author{1}{Affiliation}#=%=#National Research Council Canada
+
+==========

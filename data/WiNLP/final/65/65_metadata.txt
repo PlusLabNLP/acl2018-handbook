@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#Enhanced Urdu Word Segmentation using Conditional Random Fields and Morphological Context Features
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Aamir Farhan
+JobTitle#==#
+Organization#==#Language Technologies Research Centre, International Institute of Information Technology, Hyderabad
+Abstract#==#Word segmentation is a fundamental task for most of the NLP applications. Urdu adopts Nastalique writing style which does not have a concept of space. Furthermore, the inherent non-joining attributes of certain characters in Urdu create spaces within a word while writing in digital format. Thus, Urdu not only has space omission but also space insertion issues which make the word segmentation task challenging. In this paper, we improve upon the results of Zia, Raza and Athar (2018) by using a manually annotated corpus of 19,651 sentences along with morphological context features. Using the Conditional Random Field sequence modeler, our model achieves F 1 score of 0.98 for word boundary identification and 0.92 for sub-word boundary identification tasks. The results demonstrated in this paper outperform the state-of-the-art methods.
+Author{1}{Firstname}#=%=#Aamir
+Author{1}{Lastname}#=%=#Farhan
+Author{1}{Username}#=%=#aamirfarhan
+Author{1}{Email}#=%=#aamir.farhan@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#Language Technology Research Centre, IIIT Hyderabad.
+Author{2}{Firstname}#=%=#Mashrukh
+Author{2}{Lastname}#=%=#Islam
+Author{2}{Email}#=%=#mashrukh.islam@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#Language Technology Research Centre, IIIT Hyderabad.
+Author{3}{Firstname}#=%=#Dipti Misra
+Author{3}{Lastname}#=%=#Sharma
+Author{3}{Email}#=%=#dipti@iiit.ac.in
+Author{3}{Affiliation}#=%=#Language Technology Research Centre, IIIT Hyderabad.
+
+==========

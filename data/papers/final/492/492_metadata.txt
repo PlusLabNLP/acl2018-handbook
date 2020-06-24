@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#492
+FinalPaperTitle#=%=#Hyperbolic Capsule Networks for Multi-Label Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Boli Chen
+JobTitle#==#
+Organization#==#Beijing Jiaotong University, Beijing, China
+Abstract#==#Although deep neural networks are effective at extracting high-level features, classification methods usually encode an input into a vector representation via simple feature aggregation operations (e.g. pooling). Such operations limit the performance. For instance, a multi-label document may contain several concepts. In this case, one vector can not sufficiently capture its salient and discriminative content. Thus, we propose Hyperbolic Capsule Networks (HyperCaps) for Multi-Label Classification (MLC), which have two merits. First, hyperbolic capsules are designed to capture fine-grained document information for each label, which has the ability to characterize complicated structures among labels and documents. Second, Hyperbolic Dynamic Routing (HDR) is introduced to aggregate hyperbolic capsules in a label-aware manner, so that the label-level discriminative information can be preserved along the depth of neural networks. To efficiently handle large-scale MLC datasets, we additionally present a new routing method to adaptively adjust the capsule number during routing. Extensive experiments are conducted on four benchmark datasets. Compared with the state-of-the-art methods, HyperCaps significantly improves the performance of MLC especially on tail labels.
+Author{1}{Firstname}#=%=#Boli
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#bolic
+Author{1}{Email}#=%=#18120345@bjtu.edu.cn
+Author{1}{Affiliation}#=%=#Beijing Jiaotong University
+Author{2}{Firstname}#=%=#Xin
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Username}#=%=#huangxin18120367
+Author{2}{Email}#=%=#18120367@bjtu.edu.cn
+Author{2}{Affiliation}#=%=#Beijing Jiaotong University
+Author{3}{Firstname}#=%=#Lin
+Author{3}{Lastname}#=%=#Xiao
+Author{3}{Username}#=%=#xiaolin1207
+Author{3}{Email}#=%=#17112079@bjtu.edu.cn
+Author{3}{Affiliation}#=%=#Beijing Jiaotong University
+Author{4}{Firstname}#=%=#Liping
+Author{4}{Lastname}#=%=#Jing
+Author{4}{Username}#=%=#lpjing
+Author{4}{Email}#=%=#lpjing@bjtu.edu.cn
+Author{4}{Affiliation}#=%=#Beijing Jiaotong Univesity
+
+==========

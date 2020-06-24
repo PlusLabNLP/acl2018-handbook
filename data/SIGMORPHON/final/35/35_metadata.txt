@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#The UniMelb Submission to the SIGMORPHON 2020 Shared Task 0: Typologically Diverse Morphological Inflection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Andrei Shcherbakov
+JobTitle#==#
+Organization#==#University of Melbourne; Parkville VIC 3010 AU
+Abstract#==#The paper describes the University of Melbourne’s
+submission to the SIGMORPHON
+2020 Shared Task 0: Typologically Diverse
+Morphological Inflection. Our team submitted
+three systems in total, two neural and one
+non-neural. Our analysis of systems’ performance
+shows positive effects of newly introduced
+data hallucination technique that we employed
+in one of neural systems, especially in
+low-resource scenarios. A non-neural system
+based on observed inflection patterns shows
+optimistic results even in its simple implementation
+(>75% accuracy for 50% of languages).
+With possible improvement within the same
+modeling principle, accuracy might grow to
+values above 90%.
+Author{1}{Firstname}#=%=#Andreas
+Author{1}{Lastname}#=%=#Scherbakov
+Author{1}{Username}#=%=#andreas.ru
+Author{1}{Email}#=%=#ultrasparc@yandex.ru
+Author{1}{Affiliation}#=%=#the University of Melbourne
+
+==========

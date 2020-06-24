@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Sarcasm Detection in Tweets with BERT and GloVe Embeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Akshay Khatri
+JobTitle#==#
+Organization#==#NITK Surathkal, Mangalore, Karnataka
+Abstract#==#Sarcasm is a form of communication in which the person states opposite of what he actually means. In this paper, we propose using machine learning techniques with BERT and GloVe embeddings to detect sarcasm in tweets. The dataset is preprocessed before extracting the embeddings. The proposed model also uses all of the context provided in the dataset to which the user is reacting along with his actual response.
+Author{1}{Firstname}#=%=#Akshay
+Author{1}{Lastname}#=%=#Khatri
+Author{1}{Username}#=%=#akshaykhatri
+Author{1}{Email}#=%=#akshaykhatri0011@gmail.com
+Author{1}{Affiliation}#=%=#National Institute of Technology Karnataka
+Author{2}{Firstname}#=%=#Pranav
+Author{2}{Lastname}#=%=#P
+Author{2}{Username}#=%=#pran-p
+Author{2}{Email}#=%=#hsr.pranav@gmail.com
+Author{2}{Affiliation}#=%=#National Institute of Technology Karnataka
+
+==========

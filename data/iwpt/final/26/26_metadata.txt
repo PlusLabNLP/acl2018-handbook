@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Enhanced Universal Dependency Parsing with Second-Order Inference and Mixture of Training Data
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xinyu Wang
+JobTitle#==#
+Organization#==#ShanghaiTech University, 393 Middle Huaxia Road, Pudong, Shanghai, 201210
+Abstract#==#This paper presents the system used in our submission to the \textit{IWPT 2020 Shared Task}. Our system is a graph-based parser with second-order inference. For the low-resource Tamil corpora, we specially mixed the training data of Tamil with other languages and significantly improved the performance of Tamil. Due to our misunderstanding of the submission requirements, we submitted graphs that are not connected, which makes our system only rank \textbf{6th} over 10 teams. However, after we fixed this problem, our system is 0.6 ELAS higher than the team that ranked \textbf{1st} in the official results.
+Author{1}{Firstname}#=%=#Xinyu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#oriuta
+Author{1}{Email}#=%=#wangxy1@shanghaitech.edu.cn
+Author{1}{Affiliation}#=%=#ShanghaiTech University
+Author{2}{Firstname}#=%=#Yong
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#yong
+Author{2}{Email}#=%=#jiangyong.ml@gmail.com
+Author{2}{Affiliation}#=%=#Alibaba DAMO Academy
+Author{3}{Firstname}#=%=#Kewei
+Author{3}{Lastname}#=%=#Tu
+Author{3}{Username}#=%=#tukw
+Author{3}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{3}{Affiliation}#=%=#ShanghaiTech University
+
+==========

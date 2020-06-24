@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1767
+FinalPaperTitle#=%=#Will-They-Won't-They: A Very Large Dataset for Stance Detection on Twitter
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Costanza Conforti
+JobTitle#==#
+Organization#==#University of Cambridge
+Abstract#==#We present a new challenging stance detection dataset, called Will-They-Won’t-They (WT–WT), which contains 51,284 tweets in English, making it by far the largest available dataset of the type. All the annotations are carried out by experts; therefore, the dataset constitutes a high-quality and reliable benchmark for future research in stance detection. Our experiments with a wide range of recent state-of-the-art stance detection systems show that the dataset poses a strong challenge to existing models in this domain.
+Author{1}{Firstname}#=%=#Costanza
+Author{1}{Lastname}#=%=#Conforti
+Author{1}{Username}#=%=#monod
+Author{1}{Email}#=%=#costanza.conforti@gmail.com
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Jakob
+Author{2}{Lastname}#=%=#Berndt
+Author{2}{Username}#=%=#jakobberndt
+Author{2}{Email}#=%=#jb2088@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Mohammad Taher
+Author{3}{Lastname}#=%=#Pilehvar
+Author{3}{Username}#=%=#pilehvar
+Author{3}{Email}#=%=#mp792@cam.ac.uk
+Author{3}{Affiliation}#=%=#Tehran Institute for Advanced Studies
+Author{4}{Firstname}#=%=#Chryssi
+Author{4}{Lastname}#=%=#Giannitsarou
+Author{4}{Username}#=%=#giannitsarou
+Author{4}{Email}#=%=#cg349@cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+Author{5}{Firstname}#=%=#Flavio
+Author{5}{Lastname}#=%=#Toxvaerd
+Author{5}{Username}#=%=#toxvaerd
+Author{5}{Email}#=%=#fmot2@cam.ac.uk
+Author{5}{Affiliation}#=%=#University of Cambridge
+Author{6}{Firstname}#=%=#Nigel
+Author{6}{Lastname}#=%=#Collier
+Author{6}{Username}#=%=#collier
+Author{6}{Email}#=%=#nhc30@cam.ac.uk
+Author{6}{Affiliation}#=%=#University of Cambridge
+
+==========

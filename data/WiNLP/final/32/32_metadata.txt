@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#AI4D - African Language Dataset Challenge
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kathleen Siminyu
+JobTitle#==#
+Organization#==#AI4D-Africa
+Abstract#==#As language and speech technologies become more advanced, the lack of fundamental digital
+resources for African languages, such as data, spell checkers and PoS taggers, means that the
+digital divide between these languages and others keeps growing. This work details the organisation of the AI4D - African Language Dataset Challenge, an effort to incentivize the creation,
+curation and uncovering to African language datasets through a competitive challenge, particularly datasets that are annotated or prepared for use in a downstream NLP task.
+Author{1}{Firstname}#=%=#Kathleen
+Author{1}{Lastname}#=%=#Siminyu
+Author{1}{Username}#=%=#kathleensiminyu
+Author{1}{Email}#=%=#kathleensiminyu@gmail.com
+Author{1}{Affiliation}#=%=#AI4D-Africa
+Author{2}{Firstname}#=%=#Sackey
+Author{2}{Lastname}#=%=#Freshia
+Author{2}{Email}#=%=#freshiasackey@gmail.com
+Author{2}{Affiliation}#=%=#Jomo Kenyatta University of Agriculture and Technology
+
+==========

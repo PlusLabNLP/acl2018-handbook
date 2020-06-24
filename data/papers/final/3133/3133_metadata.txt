@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3133
+FinalPaperTitle#=%=#{I}nterpreting {P}retrained {C}ontextualized {R}epresentations via {R}eductions to {S}tatic {E}mbeddings
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#24
+CopyrightSigned#=%=#Rishi Bommasani
+JobTitle#==#
+Organization#==#Cornell University, Ithaca, NY
+Abstract#==#Contextualized representations (e.g. ELMo, BERT) have become the default pretrained representations for downstream NLP applications. In some settings, this transition has rendered their static embedding predecessors (e.g. Word2Vec, GloVe) obsolete. As a side-effect, we observe that older interpretability methods for static embeddings --- while more diverse and mature than those available for their dynamic counterparts --- are underutilized in studying newer contextualized representations.  Consequently, we introduce simple and fully general methods for converting from contextualized representations to static lookup-table embeddings which we apply to 5 popular pretrained models and 9 sets of pretrained weights. Our analysis of the resulting static embeddings notably reveals that pooling over many contexts 
+significantly improves representational quality under intrinsic evaluation. Complementary to analyzing representational quality, we consider social biases encoded in pretrained representations with respect to gender, race/ethnicity, and religion and find that bias is encoded disparately across pretrained models and internal layers even for models with the same training data. Concerningly, we find dramatic inconsistencies between social bias estimators for word embeddings.
+Author{1}{Firstname}#=%=#Rishi
+Author{1}{Lastname}#=%=#Bommasani
+Author{1}{Username}#=%=#rishibommasani
+Author{1}{Email}#=%=#nlprishi@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Kelly
+Author{2}{Lastname}#=%=#Davis
+Author{2}{Username}#=%=#kdavis-mozilla
+Author{2}{Email}#=%=#kdavis@mozilla.com
+Author{2}{Affiliation}#=%=#Mozilla
+Author{3}{Firstname}#=%=#Claire
+Author{3}{Lastname}#=%=#Cardie
+Author{3}{Username}#=%=#cardie
+Author{3}{Email}#=%=#cardie@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

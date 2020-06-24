@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Semi-supervised Category-specific Review Tagging on Indonesian E-Commerce Product Reviews
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marie Stephen Leo
+JobTitle#==#
+Organization#==#Tokopedia, Singapore
+Abstract#==#Product reviews are a huge source of natural language data in e-commerce applications. Several millions of customers write reviews regarding a variety of topics. We categorize these topics into two groups as either "category-specific" topics or as "generic" topics that span multiple product categories. While we can use a supervised learning approach to tag review text for generic topics, it is impossible to use supervised approaches to tag category-specific topics due to the sheer number of possible topics for each category. In this paper, we present an approach to tag each review with several product category-specific tags on Indonesian language product reviews using a semi-supervised approach. We show that our proposed method can work at scale on real product reviews at Tokopedia, a major e-commerce platform in Indonesia. Manual evaluation shows that the proposed method can efficiently generate category-specific product tags.
+Author{1}{Firstname}#=%=#Meng
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Email}#=%=#daisy.meng@tokopedia.com
+Author{1}{Affiliation}#=%=#Tokopedia
+Author{2}{Firstname}#=%=#Marie Stephen
+Author{2}{Lastname}#=%=#Leo
+Author{2}{Username}#=%=#stephenleo87
+Author{2}{Email}#=%=#marie.leo@tokopedia.com
+Author{2}{Affiliation}#=%=#Tokopedia
+Author{3}{Firstname}#=%=#Eram
+Author{3}{Lastname}#=%=#Munawwar
+Author{3}{Email}#=%=#eram.munawwar@tokopedia.com
+Author{3}{Affiliation}#=%=#Tokopedia
+Author{4}{Firstname}#=%=#Paul C.
+Author{4}{Lastname}#=%=#Condylis
+Author{4}{Email}#=%=#paul.condylis@tokopedia.com
+Author{4}{Affiliation}#=%=#Tokopedia
+Author{5}{Firstname}#=%=#Sheng-yi
+Author{5}{Lastname}#=%=#Kong
+Author{5}{Email}#=%=#angus.kong@tokopedia.com
+Author{5}{Affiliation}#=%=#Tokopedia
+Author{6}{Firstname}#=%=#Seong Per
+Author{6}{Lastname}#=%=#Lee
+Author{6}{Email}#=%=#seong.lee@tokopedia.com
+Author{6}{Affiliation}#=%=#Tokopedia
+Author{7}{Firstname}#=%=#Albert
+Author{7}{Lastname}#=%=#Hidayat
+Author{7}{Email}#=%=#albert.hidayat@tokopedia.com
+Author{7}{Affiliation}#=%=#Tokopedia
+Author{8}{Firstname}#=%=#Muhamad Danang
+Author{8}{Lastname}#=%=#Kerianto
+Author{8}{Email}#=%=#mcm-danang.kerianto@tokopedia.com
+Author{8}{Affiliation}#=%=#Tokopedia
+
+==========

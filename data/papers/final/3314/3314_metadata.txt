@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#3314
+FinalPaperTitle#=%=#Selecting Backtranslated Data from Multiple Sources for Improved Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xabier Soto
+JobTitle#==#
+Organization#==#xa NLP Group, HiTZ Center. Faculty of Informatics, Computer Languages and Systems, University of the Basque Country (UPV/EHU). Manuel Lardizabal 1, 20018 Donostia, Spain.
+Abstract#==#Machine translation (MT) has benefited from using synthetic training data originating from translating monolingual corpora, a technique known as backtranslation.
+Combining backtranslated data from different sources has led to better results than when using such data in isolation. In this work we analyse the impact that data translated with rule-based, phrase-based statistical and neural MT systems has on new MT systems. We use a real-world low-resource use-case (Basque-to-Spanish in the clinical domain) as well as a high-resource language pair (German-to-English) to test different scenarios with backtranslation and employ data selection to optimise the synthetic corpora. We exploit different data selection strategies in order to reduce the amount of data used, while at the same time maintaining high-quality MT systems. We further tune the data selection method by taking into account the quality of the MT systems used for backtranslation and lexical diversity of the resulting corpora. Our experiments show that incorporating backtranslated data from different sources can be beneficial, and that availing of data selection can yield improved performance.
+Author{1}{Firstname}#=%=#Xabier
+Author{1}{Lastname}#=%=#Soto
+Author{1}{Username}#=%=#xabiersoto
+Author{1}{Email}#=%=#xabier.soto@ehu.eus
+Author{1}{Affiliation}#=%=#Ixa Research Group, University of the Basque Country (UPV/EHU)
+Author{2}{Firstname}#=%=#Dimitar
+Author{2}{Lastname}#=%=#Shterionov
+Author{2}{Username}#=%=#dimitarsh1
+Author{2}{Email}#=%=#dimitar.shterionov@adaptcentre.ie
+Author{2}{Affiliation}#=%=#ADAPT Centre / Dublin City University
+Author{3}{Firstname}#=%=#Alberto
+Author{3}{Lastname}#=%=#Poncelas
+Author{3}{Username}#=%=#alberto.poncelas
+Author{3}{Email}#=%=#alberto.poncelas@adaptcentre.ie
+Author{3}{Affiliation}#=%=#ADAPT, Dublin City University
+Author{4}{Firstname}#=%=#Andy
+Author{4}{Lastname}#=%=#Way
+Author{4}{Username}#=%=#away
+Author{4}{Email}#=%=#away@computing.dcu.ie
+Author{4}{Affiliation}#=%=#ADAPT, Dublin City University
+
+==========

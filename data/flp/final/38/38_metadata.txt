@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Transformers on Sarcasm Detection with Context
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Amardeep Kumar
+JobTitle#==#
+Organization#==#Indian Institute of Technology(ISM), Dhanbad, Jharkhand, India, 826004
+Abstract#==#Sarcasm Detection with Context, a shared task of  Second Workshop on Figurative Language Processing (co-located with ACL 2020),  is study of effect of context on Sarcasm detection in conversations of Social media. We present different techniques and models, mostly based on transformer for Sarcasm Detection with Context. We extended latest pre-trained transformers like BERT, RoBERTa, spanBERT on different task objectives like single sentence classification, sentence pair classification, etc. to understand role of conversation context for sarcasm detection on Twitter conversations and conversation threads from Reddit. We also present our own architecture consisting of LSTM and Transformers to achieve the objective.
+Author{1}{Firstname}#=%=#Amardeep
+Author{1}{Lastname}#=%=#Kumar
+Author{1}{Username}#=%=#ad6398
+Author{1}{Email}#=%=#adkr6398@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology (Indian School of Mines), Dhanbad
+Author{2}{Firstname}#=%=#Vivek
+Author{2}{Lastname}#=%=#Anand
+Author{2}{Email}#=%=#vivek.a@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#IIIT Hyderabad, India
+
+==========

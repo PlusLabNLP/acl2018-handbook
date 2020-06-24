@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Advances in Debating Technologies: Building AI That Can Debate Humans
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Argumentation and debating are fundamental capabilities of human intelligence. They are essential for a wide range of  everyday activities that involve reasoning, decision making or persuasion. Debating Technologies are defined as ``computational technologies developed directly to enhance, support, and engage with human debating' (Gurevych et al., 2016). A recent milestone in this field is Project Debater, the first demonstration of a live competitive debate between an AI system and a human debate champion. Project Debater is an IBM Research AI's grand challenge, developed for over six years by a large team of NLP and ML researchers and engineers, and was demonstrated in February 2019, attracting massive media coverage. This significant research effort has resulted in nearly 40 scientific papers and many datasets.
+
+In the proposed tutorial, we aim to answer the question: ``what does it take to build a system that can debate humans''? Our main focus is on the scientific problems that such system must tackle. Some of these intriguing problems include argument retrieval for a given debate topic, argument quality assessment and stance classification, identifying relevant principled arguments to be used in conjunction with corpus-mined arguments, organizing the arguments into a compelling narrative, recognizing the arguments made by the human opponent and making a rebuttal. For each of these problems we will present relevant scientific work from various research groups as well as our own.
+
+A complementary goal of the tutorial is to provide a holistic view of a debating system. Such a view is largely missing in the academic literature, where each paper typically addresses a specific problem in isolation. We present a complete pipeline of a debating system, and discuss the information flow and the interaction between the various components. We will also share our experience and lessons learned from developing such a complex, large scale NLP system. Finally, the tutorial will discuss practical applications and future challenges of debating technologies.
+Author{1}{Firstname}#=%=#Roy
+Author{1}{Lastname}#=%=#Bar-Haim
+Author{1}{Username}#=%=#barhair
+Author{1}{Email}#=%=#roybar@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Yonatan
+Author{2}{Lastname}#=%=#Bilu
+Author{2}{Username}#=%=#yonatanbilu
+Author{2}{Email}#=%=#yonatanb@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research, Haifa
+Author{3}{Firstname}#=%=#Liat
+Author{3}{Lastname}#=%=#Ein-Dor
+Author{3}{Username}#=%=#liateindor
+Author{3}{Email}#=%=#liate@il.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+Author{4}{Firstname}#=%=#Noam
+Author{4}{Lastname}#=%=#Slonim
+Author{4}{Username}#=%=#noamslonim
+Author{4}{Email}#=%=#noams@il.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research
+
+==========

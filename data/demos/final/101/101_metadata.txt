@@ -1,0 +1,19 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#Torch-Struct: Deep Structured Prediction Library
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Alexander Rush
+JobTitle#==#Professor
+Organization#==#Cornell Tech
+Abstract#==#The literature on structured prediction for NLP describes a rich collection of
+distributions and algorithms over sequences, segmentations, alignments, and trees; 
+however, these algorithms are difficult to utilize in deep learning frameworks.
+We introduce Torch-Struct, a library for structured prediction designed to take advantage of and integrate with vectorized, auto-differentiation based frameworks. Torch-Struct includes a broad collection of probabilistic structures accessed through a simple and flexible distribution-based API that connects to any deep learning model. The library utilizes batched, vectorized operations and exploits auto-differentiation to produce readable, fast, and testable code. Internally, we also include a number of general-purpose optimizations to provide cross-algorithm efficiency. Experiments show significant performance gains over fast baselines and 
+case-studies demonstrate the benefits of the library. Torch-Struct is available at https://github.com/harvardnlp/pytorch-struct.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Rush
+Author{1}{Username}#=%=#srush
+Author{1}{Email}#=%=#arush@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+
+==========

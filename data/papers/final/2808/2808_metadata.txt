@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2808
+FinalPaperTitle#=%=#Code and Named Entity Recognition in StackOverflow
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Jeniya Tabassum
+JobTitle#==#
+Organization#==#The Ohio State University
+Abstract#==#There is an increasing interest in studying natural language and computer code together, as large corpora of programming texts become readily available on the Internet. For example, StackOverflow currently has over 15 million programming related questions written by 8.5 million users. Meanwhile, there is still a lack of fundamental NLP techniques for identifying code tokens or software-related named entities that appear within natural language sentences. In this paper, we introduce a new named entity recognition (NER) corpus for the computer programming domain, consisting of 15,372 sentences annotated with 20 fine-grained entity types. We trained in-domain BERT representations (BERTOverflow) on 152 million sentences from StackOverflow, which lead to an absolute increase of +10 F\textsubscript{1} score over off-the-shelf BERT. We also present the SoftNER model which achieves an overall 79.10 F-1 score for code and named entity recognition on StackOverflow data. Our SoftNER model incorporates a context-independent code token classifier with corpus-level features to improve the BERT-based tagging model. Our code and data are available at: https://github.com/jeniyat/StackOverflowNER/
+Author{1}{Firstname}#=%=#Jeniya
+Author{1}{Lastname}#=%=#Tabassum
+Author{1}{Username}#=%=#jeniya
+Author{1}{Email}#=%=#bintejafar.1@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Mounica
+Author{2}{Lastname}#=%=#Maddela
+Author{2}{Username}#=%=#maddelamounica
+Author{2}{Email}#=%=#maddela.4@osu.edu
+Author{2}{Affiliation}#=%=#Ohio State University
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Xu
+Author{3}{Username}#=%=#xuwei912
+Author{3}{Email}#=%=#weixu@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#Ohio State University
+Author{4}{Firstname}#=%=#Alan
+Author{4}{Lastname}#=%=#Ritter
+Author{4}{Username}#=%=#aritter
+Author{4}{Email}#=%=#ritter.1492@osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

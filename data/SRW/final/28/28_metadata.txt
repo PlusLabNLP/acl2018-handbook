@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Compositional Generalization by Factorizing Alignment and Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Jacob Labe Russin
+JobTitle#==#
+Organization#==#UC Davis Center for Neuroscience, 1544 Newton Court , Davis, CA 95618
+Abstract#==#Standard methods in deep learning for natural language processing fail to capture the compositional structure of human language that allows for systematic generalization outside of the training distribution. However, human learners readily generalize in this way, e.g. by applying known grammatical rules to novel words. Inspired by work in cognitive science suggesting a functional distinction between systems for syntactic and semantic processing, we implement a modification to an existing approach in neural machine translation, imposing an analogous separation between alignment and translation. The resulting architecture substantially outperforms standard recurrent networks on the SCAN dataset, a compositional generalization task, without any additional supervision. Our work suggests that learning to align and to translate in separate modules may be a useful heuristic for capturing compositional structure.
+Author{1}{Firstname}#=%=#Jacob
+Author{1}{Lastname}#=%=#Russin
+Author{1}{Username}#=%=#jlrussin
+Author{1}{Email}#=%=#jlrussin@ucdavis.edu
+Author{1}{Affiliation}#=%=#University of California Davis
+Author{2}{Firstname}#=%=#Jason
+Author{2}{Lastname}#=%=#Jo
+Author{2}{Email}#=%=#jason.jo.research@gmail.com
+Author{2}{Affiliation}#=%=#MILA, Universite de Montreal
+Author{3}{Firstname}#=%=#Randall
+Author{3}{Lastname}#=%=#O'Reilly
+Author{3}{Email}#=%=#oreilly@ucdavis.edu
+Author{3}{Affiliation}#=%=#Psychology, Computer Science, Center for Neuroscience, UC Davis
+Author{4}{Firstname}#=%=#Yoshua
+Author{4}{Lastname}#=%=#Bengio
+Author{4}{Username}#=%=#yoshua
+Author{4}{Email}#=%=#yoshua.bengio@mila.quebec
+Author{4}{Affiliation}#=%=#U. Montreal
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#330
+FinalPaperTitle#=%=#DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Lianwei Wu
+JobTitle#==#Ph. D Student
+Organization#==#Xi'an Jiaotong University, 28 Xianning West Road, Beilin District, Xi'an City, Shaanxi Province, China
+Abstract#==#Recently, many methods discover effective evidence from reliable sources by appropriate neural networks for explainable claim verification, which has been widely recognized. However, in these methods, the discovery process of evidence is nontransparent and unexplained. Simultaneously, the discovered evidence is aimed at the interpretability of the whole sequence of claims but insufficient to focus on the false parts of claims. In this paper, we propose a Decision Tree-based Co-Attention model (DTCA) to discover evidence for explainable claim verification. Specifically, we first construct Decision Tree-based Evidence model (DTE) to select comments with high credibility as evidence in a transparent and interpretable way. Then we design Co-attention Self-attention networks (CaSa) to make the selected evidence interact with claims, which is for 1) training DTE to determine the optimal decision thresholds and obtain more powerful evidence; and 2) utilizing the evidence to find the false parts in the claim. Experiments on two public datasets, RumourEval and PHEME, demonstrate that DTCA not only provides explanations for the results of claim verification but also achieves the state-of-the-art performance, boosting the F1-score by more than 3.11%, 2.41%, respectively.
+Author{1}{Firstname}#=%=#Lianwei
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Username}#=%=#stayhungry
+Author{1}{Email}#=%=#stayhungry@stu.xjtu.edu.cn
+Author{1}{Affiliation}#=%=#School of Software Engineering, Xi'an Jiaotong University
+Author{2}{Firstname}#=%=#Yuan
+Author{2}{Lastname}#=%=#Rao
+Author{2}{Username}#=%=#yuanrao
+Author{2}{Email}#=%=#raoyuan@mail.xjtu.edu.cn
+Author{2}{Affiliation}#=%=#Xi'an Jiaotong University
+Author{3}{Firstname}#=%=#yongqiang
+Author{3}{Lastname}#=%=#zhao
+Author{3}{Username}#=%=#yongqiangzhao
+Author{3}{Email}#=%=#yongqiang1210@stu.xjtu.edu.cn
+Author{3}{Affiliation}#=%=#xi'an jiaotong university
+Author{4}{Firstname}#=%=#Hao
+Author{4}{Lastname}#=%=#Liang
+Author{4}{Username}#=%=#lianghao
+Author{4}{Email}#=%=#favorablelearner@stu.xjtu.edu.cn
+Author{4}{Affiliation}#=%=#Xian Jiaotong University
+Author{5}{Firstname}#=%=#Ambreen
+Author{5}{Lastname}#=%=#Nazir
+Author{5}{Username}#=%=#amb33
+Author{5}{Email}#=%=#ambreen.nazir@stu.xjtu.edu.cn
+Author{5}{Affiliation}#=%=#School of Software Engineering, Xi'an Jiaotong University
+
+==========

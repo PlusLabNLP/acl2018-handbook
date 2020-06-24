@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Towards an Ontology-based Medication Conversational Agent for PrEP and PEP
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Muhammad Amith
+JobTitle#==#
+Organization#==#University of Texas Health Science Center at Houston
+Abstract#==#ABSTRACT: HIV (human immunodeficiency virus) can damage a human's immune system and cause Acquired Immunodeficiency Syndrome (AIDS) which could lead to severe outcomes, including death. While HIV infections have decreased over the last decade, there is still a significant population where the infection permeates. PrEP and PEP are two proven preventive measures introduced that involve periodic dosage to stop the onset of HIV infection. However, the adherence rates for this medication is low in part due to the lack of information about the medication. There exist several communication barriers that prevent patient-provider communication from happening. In this work, we present our ontology-based method for automating the communication of this medication that can be deployed for live conversational agents for PrEP and PEP. This method facilitates a model of automated conversation between the machine and user can also answer relevant questions.
+Author{1}{Firstname}#=%=#Muhammad
+Author{1}{Lastname}#=%=#Amith
+Author{1}{Username}#=%=#tuanamith
+Author{1}{Email}#=%=#muhammad.f.amith@uth.tmc.edu
+Author{1}{Affiliation}#=%=#The University of Texas Health Science Center at Houston
+Author{2}{Firstname}#=%=#Licong
+Author{2}{Lastname}#=%=#Cui
+Author{2}{Email}#=%=#licong.cui@uth.tmc.edu
+Author{2}{Affiliation}#=%=#The University of Texas Health Science Center at Houston
+Author{3}{Firstname}#=%=#Kirk
+Author{3}{Lastname}#=%=#Roberts
+Author{3}{Email}#=%=#kirk.roberts@uth.tmc.edu
+Author{3}{Affiliation}#=%=#The University of Texas Health Science Center at Houston
+Author{4}{Firstname}#=%=#Cui
+Author{4}{Lastname}#=%=#Tao
+Author{4}{Email}#=%=#cui.tao@uth.tmc.edu
+Author{4}{Affiliation}#=%=#The University of Texas Health Science Center at Houston
+
+==========

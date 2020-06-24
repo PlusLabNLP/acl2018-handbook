@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1094
+FinalPaperTitle#=%=#Improving Transformer Models by Reordering their Sublayers
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ofir Press
+JobTitle#==#
+Organization#==#University of Washington, Seattle, WA, USA
+Abstract#==#Multilayer transformer networks consist of interleaved self-attention and feedforward sublayers. Could ordering the sublayers in a different pattern lead to better performance? We generate randomly ordered transformers and train them with the language modeling objective. We observe that some of these models are able to achieve better performance than the interleaved baseline, and that those successful variants tend to have more self-attention at the bottom and more feedforward sublayers at the top. We propose a new transformer pattern that adheres to this property, the sandwich transformer, and show that it improves perplexity on multiple word-level and character-level language modeling benchmarks, at no cost in parameters, memory, or training time. However, the sandwich reordering pattern does not guarantee performance gains across every task, as we demonstrate on machine translation models. Instead, we suggest that further exploration of task-specific sublayer reorderings is needed in order to unlock additional gains.
+Author{1}{Firstname}#=%=#Ofir
+Author{1}{Lastname}#=%=#Press
+Author{1}{Username}#=%=#ofirpress
+Author{1}{Email}#=%=#ofirpress@gmail.com
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Noah A.
+Author{2}{Lastname}#=%=#Smith
+Author{2}{Username}#=%=#nasmith
+Author{2}{Email}#=%=#nasmith@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Omer
+Author{3}{Lastname}#=%=#Levy
+Author{3}{Username}#=%=#omerlevy
+Author{3}{Email}#=%=#omerlevy@gmail.com
+Author{3}{Affiliation}#=%=#Tel Aviv University
+
+==========

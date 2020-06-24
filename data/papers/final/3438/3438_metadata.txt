@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3438
+FinalPaperTitle#=%=#Probabilistically Masked Language Model Capable of Autoregressive Generation in Arbitrary Word Order
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Yi Liao
+JobTitle#==#Researcher
+Organization#==#Huawei Noah's Ark Lab, Hong Kong Science Park, Hong Kong SAR
+Abstract#==#Masked language model and autoregressive language model are two types of language models. While pretrained masked language models such as BERT overwhelm the line of natural language understanding (NLU) tasks, autoregressive language models such as GPT are especially capable in natural language generation (NLG). In this paper, we propose a probabilistic masking scheme for the masked language model, which we call probabilistically masked language model (PMLM). We implement a specific PMLM with a uniform prior distribution on the masking ratio named u-PMLM. We prove that u-PMLM is equivalent to an autoregressive permutated language model. One main advantage of the model is that it supports text generation in arbitrary order with surprisingly good quality, which could potentially enable new applications over traditional unidirectional generation. Besides, the pretrained u-PMLM also outperforms BERT on a bunch of downstream NLU tasks.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Liao
+Author{1}{Username}#=%=#leoeaton
+Author{1}{Email}#=%=#lyleoeaton@gmail.com
+Author{1}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{2}{Firstname}#=%=#Xin
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Username}#=%=#jxfeb
+Author{2}{Email}#=%=#jiang.xin@huawei.com
+Author{2}{Affiliation}#=%=#Huawei Noah's Ark Lab
+Author{3}{Firstname}#=%=#Qun
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Username}#=%=#liuqun
+Author{3}{Email}#=%=#qun.liu@huawei.com
+Author{3}{Affiliation}#=%=#Huawei Noah's Ark Lab
+
+==========

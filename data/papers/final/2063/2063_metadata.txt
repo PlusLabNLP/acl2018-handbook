@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#2063
+FinalPaperTitle#=%=#TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Yuchen Lin
+JobTitle#==#
+Organization#==#Yuchen Lin, University of Southern California, Los Angeles, CA, USA
+Abstract#==#Training neural models for named entity recognition (NER) in a new domain often requires additional human annotations (e.g., tens of thousands of labeled instances) that are usually expensive and time-consuming to collect. Thus, a crucial research question is how to obtain supervision in a cost-effective way. In this paper, we introduce "entity triggers," an effective proxy of human explanations for facilitating label-efficient learning of NER models. An entity trigger is defined as a group of words in a sentence that helps to explain why humans would recognize an entity in the sentence. 
+We crowd-sourced 14k entity triggers for two well-studied NER datasets. Our proposed model, Trigger Matching Network, jointly learns trigger representations and soft matching module with self-attention such that can generalize to unseen sentences easily for tagging. Our framework is significantly more cost-effective than the traditional neural NER frameworks. Experiments show that using only 20% of the trigger-annotated sentences results in a comparable performance as using 70% of conventional annotated sentences.
+Author{1}{Firstname}#=%=#Bill Yuchen
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Username}#=%=#yuchenlin
+Author{1}{Email}#=%=#yuchen.lin@usc.edu
+Author{1}{Affiliation}#=%=#University of Southern California
+Author{2}{Firstname}#=%=#Dong-Ho
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Username}#=%=#danny911kr
+Author{2}{Email}#=%=#dongho.lee@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California
+Author{3}{Firstname}#=%=#Ming
+Author{3}{Lastname}#=%=#Shen
+Author{3}{Username}#=%=#shenming
+Author{3}{Email}#=%=#shenming@usc.edu
+Author{3}{Affiliation}#=%=#University of Southern California
+Author{4}{Firstname}#=%=#Ryan
+Author{4}{Lastname}#=%=#Moreno
+Author{4}{Username}#=%=#morenor
+Author{4}{Email}#=%=#morenor@usc.edu
+Author{4}{Affiliation}#=%=#University of Southern California
+Author{5}{Firstname}#=%=#Xiao
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Username}#=%=#huan183
+Author{5}{Email}#=%=#huan183@usc.edu
+Author{5}{Affiliation}#=%=#University of Southern California
+Author{6}{Firstname}#=%=#Prashant
+Author{6}{Lastname}#=%=#Shiralkar
+Author{6}{Username}#=%=#shiralkarprashant
+Author{6}{Email}#=%=#shiralkarprashant@gmail.com
+Author{6}{Affiliation}#=%=#Amazon
+Author{7}{Firstname}#=%=#Xiang
+Author{7}{Lastname}#=%=#Ren
+Author{7}{Username}#=%=#xren7
+Author{7}{Email}#=%=#xiangren@usc.edu
+Author{7}{Affiliation}#=%=#University of Southern California
+
+==========

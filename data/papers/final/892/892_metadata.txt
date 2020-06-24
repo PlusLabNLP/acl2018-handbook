@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#892
+FinalPaperTitle#=%=#Modeling Long Context for Task-Oriented Dialogue State Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jun Quan
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Soochow University, Suzhou, China
+Abstract#==#Based on the recently proposed transferable dialogue state generator (TRADE) that predicts dialogue states from utterance-concatenated dialogue context, we propose a multi-task learning model with a simple yet effective utterance tagging technique and a bidirectional language model as an auxiliary task for task-oriented dialogue state generation. By enabling the model to learn a better representation of the long dialogue context, our approaches attempt to solve the problem that the performance of the baseline significantly drops when the input dialogue context sequence is long. In our experiments, our proposed model achieves a 7.03% relative improvement over the baseline, establishing a new state-of-the-art joint goal accuracy of 52.04% on the MultiWOZ 2.0 dataset.
+Author{1}{Firstname}#=%=#Jun
+Author{1}{Lastname}#=%=#Quan
+Author{1}{Username}#=%=#terryqj
+Author{1}{Email}#=%=#20185227033@stu.suda.edu.cn
+Author{1}{Affiliation}#=%=#Soochow University
+Author{2}{Firstname}#=%=#Deyi
+Author{2}{Lastname}#=%=#Xiong
+Author{2}{Username}#=%=#dyxiong
+Author{2}{Email}#=%=#dyxiong@tju.edu.cn
+Author{2}{Affiliation}#=%=#Tianjin University
+
+==========

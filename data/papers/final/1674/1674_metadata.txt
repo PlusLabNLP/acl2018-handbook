@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1674
+FinalPaperTitle#=%=#Double-Hard Debias: Tailoring Word Embeddings for Gender Bias Mitigation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tianlu Wang
+JobTitle#==#
+Organization#==#University of Virginia, 430 Rice Hall, Charlottesville, VA
+Abstract#==#Word embeddings derived from human-generated corpora inherit strong gender bias which can be further amplified by downstream models. Some commonly adopted debiasing approaches, including the seminal Hard Debias algorithm, apply post-processing procedures that project pre-trained word embeddings into a subspace orthogonal to an inferred gender subspace. We discover that semantic-agnostic corpus regularities such as word frequency captured by the word embeddings negatively impact the performance of these algorithms. We propose a simple but effective technique, Double Hard Debias, which purifies the word embeddings against such corpus regularities prior to inferring and removing the gender subspace. Experiments on three bias mitigation benchmarks show that our approach preserves the distributional semantics of the pre-trained word embeddings while reducing gender bias to a significantly larger degree than prior approaches.
+Author{1}{Firstname}#=%=#Tianlu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#tianluwang
+Author{1}{Email}#=%=#tw8cb@virginia.edu
+Author{1}{Affiliation}#=%=#University of Virginia
+Author{2}{Firstname}#=%=#Xi Victoria
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Username}#=%=#xilin
+Author{2}{Email}#=%=#xilin@salesforce.com
+Author{2}{Affiliation}#=%=#Salesforce Research
+Author{3}{Firstname}#=%=#Nazneen Fatema
+Author{3}{Lastname}#=%=#Rajani
+Author{3}{Username}#=%=#emailnazneen
+Author{3}{Email}#=%=#nazneen.rajani@salesforce.com
+Author{3}{Affiliation}#=%=#Salesforce Research
+Author{4}{Firstname}#=%=#Bryan
+Author{4}{Lastname}#=%=#McCann
+Author{4}{Username}#=%=#bmccann
+Author{4}{Email}#=%=#bryan.mccann.is@gmail.com
+Author{4}{Affiliation}#=%=#Salesforce
+Author{5}{Firstname}#=%=#Vicente
+Author{5}{Lastname}#=%=#Ordonez
+Author{5}{Username}#=%=#vicente
+Author{5}{Email}#=%=#vicente@virginia.edu
+Author{5}{Affiliation}#=%=#University of Virginia
+Author{6}{Firstname}#=%=#Caiming
+Author{6}{Lastname}#=%=#Xiong
+Author{6}{Username}#=%=#cxiong
+Author{6}{Email}#=%=#cmxiong.lhi@gmail.com
+Author{6}{Affiliation}#=%=#Salesforce
+
+==========

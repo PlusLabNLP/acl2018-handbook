@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1471
+FinalPaperTitle#=%=#{E}mpowering {A}ctive {L}earning to {J}ointly {O}ptimize {S}ystem and {U}ser {D}emands
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Ji-Ung Lee
+JobTitle#==#PhD Student
+Organization#==#Ubiquitous Knowledge Processing (UKP) Lab, Technische Universität Darmstadt, Hochschulstraße 10, 64289 Darmstadt
+Abstract#==#Existing approaches to active learning maximize the system performance by sampling unlabeled instances for annotation that yield the most efficient training. However, when active learning is integrated with an end-user application, this can lead to frustration for participating users, as they spend time labeling instances that they would not otherwise be interested in reading. In this paper, we propose a new active learning approach that jointly optimizes the seemingly counteracting objectives of the active learning system (training efficiently) and the user (receiving useful instances). We study our approach in an educational application, which particularly benefits from this technique as the system needs to rapidly learn to predict the appropriateness of an exercise to a particular user, while the users should receive only exercises that match their skills. We evaluate multiple learning strategies and user types with data from real users and find that our joint approach better satisfies both objectives when alternative methods lead to many unsuitable exercises for end users.
+Author{1}{Firstname}#=%=#Ji-Ung
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Username}#=%=#jilee
+Author{1}{Email}#=%=#lee@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Christian M.
+Author{2}{Lastname}#=%=#Meyer
+Author{2}{Username}#=%=#chmeyer
+Author{2}{Email}#=%=#startv2@chmeyer.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Iryna
+Author{3}{Lastname}#=%=#Gurevych
+Author{3}{Username}#=%=#gurevych
+Author{3}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

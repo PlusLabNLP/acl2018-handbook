@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1580
+FinalPaperTitle#=%=#Attentive Pooling with Learnable Norms for Text Representation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chuhan Wu
+JobTitle#==#
+Organization#==#Tsinghua University
+Abstract#==#Pooling is an important technique for learning text representations in many neural NLP models. In conventional pooling methods such as average, max and attentive pooling, text representations are weighted summations of the L1 or L∞ norm of input features. However, their pooling norms are always fixed and may not be optimal for learning accurate text representations in different tasks. In addition, in many popular pooling methods such as max and attentive pooling some features may be over-emphasized, while other useful ones are not fully exploited. In this paper, we propose an Attentive Pooling with Learnable Norms (APLN) approach for text representation. Different from existing pooling methods that use a fixed pooling norm, we propose to learn the norm in an end-to-end manner to automatically find the optimal ones for text representation in different tasks. In addition,  we propose two methods to ensure the numerical stability of the model training. The first one is scale limiting, which re-scales the input to ensure non-negativity and alleviate the risk of exponential explosion. The second one is re-formulation, which decomposes the exponent operation to avoid computing the real-valued powers of the input and further accelerate the pooling operation. Experimental results on four benchmark datasets show that our approach can effectively improve the performance of attentive pooling.
+Author{1}{Firstname}#=%=#Chuhan
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Username}#=%=#wuchuhan
+Author{1}{Email}#=%=#wuch15@tsinghua.org.cn
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Fangzhao
+Author{2}{Lastname}#=%=#Wu
+Author{2}{Username}#=%=#wufangzhao
+Author{2}{Email}#=%=#wufangzhao@gmail.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Tao
+Author{3}{Lastname}#=%=#Qi
+Author{3}{Username}#=%=#taoqi
+Author{3}{Email}#=%=#taoqi.qt@gmail.com
+Author{3}{Affiliation}#=%=#Department of Electronic Engineering, Tsinghua University
+Author{4}{Firstname}#=%=#Xiaohui
+Author{4}{Lastname}#=%=#Cui
+Author{4}{Username}#=%=#cuixiaohui
+Author{4}{Email}#=%=#1420176122@qq.com
+Author{4}{Affiliation}#=%=#School of Cyber Science and Engineering, Wuhan university
+Author{5}{Firstname}#=%=#Yongfeng
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Username}#=%=#yfhuang
+Author{5}{Email}#=%=#yfhuang@mail.tsinghua.edu.cn
+Author{5}{Affiliation}#=%=#Tsinghua University
+
+==========

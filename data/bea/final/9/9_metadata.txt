@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#GECToR – Grammatical Error Correction: Tag, Not Rewrite
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Kostiantyn Omeliachuk
+JobTitle#==#
+Organization#==#Grammarly
+Abstract#==#In this paper, we present a simple and efficient GEC sequence tagger using a Transformer encoder. Our system is pre-trained on synthetic data and then fine-tuned in two stages: first on errorful corpora, and second on a combination of errorful and error-free parallel corpora. We design custom token-level transformations to map input tokens to target corrections. Our best single-model/ensemble GEC tagger achieves an F_0.5 of 65.3/66.5 on CONLL-2014 (test) and F_0.5 of 72.4/73.6 on BEA-2019 (test). Its inference speed is up to 10 times as fast as a Transformer-based seq2seq GEC system.
+Author{1}{Firstname}#=%=#Kostiantyn
+Author{1}{Lastname}#=%=#Omelianchuk
+Author{1}{Username}#=%=#komelianchuk
+Author{1}{Email}#=%=#komelianchuk@gmail.com
+Author{1}{Affiliation}#=%=#Grammarly
+Author{2}{Firstname}#=%=#Vitaliy
+Author{2}{Lastname}#=%=#Atrasevych
+Author{2}{Email}#=%=#vitaliy.atrasevych@grammarly.com
+Author{2}{Affiliation}#=%=#Grammarly
+Author{3}{Firstname}#=%=#Artem
+Author{3}{Lastname}#=%=#Chernodub
+Author{3}{Email}#=%=#artem.chernodub@grammarly.com
+Author{3}{Affiliation}#=%=#Grammarly
+Author{4}{Firstname}#=%=#Oleksandr
+Author{4}{Lastname}#=%=#Skurzhanskyi
+Author{4}{Email}#=%=#oleksandr.skurzhanskyi@grammarly.com
+Author{4}{Affiliation}#=%=#Grammarly
+
+==========

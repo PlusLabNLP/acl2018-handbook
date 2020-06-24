@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#3253
+FinalPaperTitle#=%=#A Probabilistic Generative Model for Typographical Analysis of Early Modern Printing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kartik Goyal
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#We propose a deep and interpretable probabilistic generative model to analyze glyph shapes in printed Early Modern documents. We focus on clustering extracted glyph images into underlying templates in the presence of multiple confounding sources of variance. Our approach introduces a neural editor model that first generates well-understood printing phenomena like spatial perturbations from template parameters via interpertable latent variables, and then modifies the result by generating a non-interpretable latent vector responsible for inking variations, jitter, noise from the archiving process, and other unforeseen phenomena associated with Early Modern printing. Critically, by introducing an inference network whose input is restricted to the visual residual between the observation and the interpretably-modified template, we are able to control and isolate what the vector-valued latent variable captures. We show that our approach outperforms rigid interpretable clustering baselines (c.f. Ocular) and overly-flexible deep generative models (VAE) alike on the task of completely unsupervised discovery of typefaces in mixed-fonts documents.
+Author{1}{Firstname}#=%=#Kartik
+Author{1}{Lastname}#=%=#Goyal
+Author{1}{Username}#=%=#kartikgo
+Author{1}{Email}#=%=#kartikgo@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Username}#=%=#cdyer
+Author{2}{Email}#=%=#cdyer@google.com
+Author{2}{Affiliation}#=%=#DeepMind
+Author{3}{Firstname}#=%=#Christopher
+Author{3}{Lastname}#=%=#Warren
+Author{3}{Username}#=%=#cnwarren
+Author{3}{Email}#=%=#cnwarren@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Maxwell
+Author{4}{Lastname}#=%=#G'Sell
+Author{4}{Username}#=%=#mgsell
+Author{4}{Email}#=%=#mgsell@cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Taylor
+Author{5}{Lastname}#=%=#Berg-Kirkpatrick
+Author{5}{Username}#=%=#tberg
+Author{5}{Email}#=%=#tberg@eng.ucsd.edu
+Author{5}{Affiliation}#=%=#University of California San Diego
+
+==========

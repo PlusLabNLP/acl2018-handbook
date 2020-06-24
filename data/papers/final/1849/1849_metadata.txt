@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1849
+FinalPaperTitle#=%=#Cross-Linguistic Syntactic Evaluation of Word Prediction Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#17
+CopyrightSigned#=%=#Aaron Mueller
+JobTitle#==#
+Organization#==#Johns Hopkins University, 3400 N. Charles St., Baltimore, MD, U.S.A.
+Abstract#==#A range of studies have concluded that neural word prediction models can distinguish grammatical from ungrammatical sentences with high accuracy. However, these studies are based primarily on monolingual evidence from English. To investigate how these models' ability to learn syntax varies by language, we introduce CLAMS (Cross-Linguistic Assessment of Models on Syntax), a syntactic evaluation suite for monolingual and multilingual models. CLAMS includes subject-verb agreement challenge sets for English, French, German, Hebrew and Russian, generated from grammars we develop. We use CLAMS to evaluate LSTM language models as well as monolingual and multilingual BERT. Across languages, monolingual LSTMs achieved high accuracy on dependencies without attractors, and generally poor accuracy on agreement across object relative clauses. On other constructions, agreement accuracy was generally higher in languages with richer morphology. Multilingual models generally underperformed monolingual models. Multilingual BERT showed high syntactic accuracy on English, but noticeable deficiencies in other languages.
+Author{1}{Firstname}#=%=#Aaron
+Author{1}{Lastname}#=%=#Mueller
+Author{1}{Username}#=%=#amuelle8
+Author{1}{Email}#=%=#amuelle8@jhu.edu
+Author{1}{Affiliation}#=%=#The Johns Hopkins University
+Author{2}{Firstname}#=%=#Garrett
+Author{2}{Lastname}#=%=#Nicolai
+Author{2}{Username}#=%=#nicolai
+Author{2}{Email}#=%=#garrett.nicolai@ubc.ca
+Author{2}{Affiliation}#=%=#University of British Columbia
+Author{3}{Firstname}#=%=#Panayiota
+Author{3}{Lastname}#=%=#Petrou-Zeniou
+Author{3}{Username}#=%=#ppetrou1
+Author{3}{Email}#=%=#ppetrou1@jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins
+Author{4}{Firstname}#=%=#Natalia
+Author{4}{Lastname}#=%=#Talmina
+Author{4}{Username}#=%=#ntalmina
+Author{4}{Email}#=%=#talmina@jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+Author{5}{Firstname}#=%=#Tal
+Author{5}{Lastname}#=%=#Linzen
+Author{5}{Username}#=%=#tallinzen
+Author{5}{Email}#=%=#tal.linzen@jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+
+==========

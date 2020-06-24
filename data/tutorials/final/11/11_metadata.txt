@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Multilingual Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The advent of neural machine translation (NMT) has opened up exciting research in building multilingual translation systems i.e. translation models that can handle more than one language pair. Many advances have been made which have enabled (1) improving translation for low-resource languages via transfer learning from high resource languages; and (2) building compact translation models spanning multiple languages. In this tutorial, we will cover the latest advances in NMT approaches that leverage multilingualism, especially to enhance low-resource translation. In particular, we will focus on the following topics: modeling parameter sharing for multi-way translation, transfer learning, zero-shot/zero-resource learning, pivoting, unsupervised learning and multi-source translation.
+Author{1}{Firstname}#=%=#Raj
+Author{1}{Lastname}#=%=#Dabre
+Author{1}{Username}#=%=#prajdabre
+Author{1}{Email}#=%=#prajdabre@gmail.com
+Author{1}{Affiliation}#=%=#NICT
+Author{2}{Firstname}#=%=#Chenhui
+Author{2}{Lastname}#=%=#Chu
+Author{2}{Username}#=%=#chu
+Author{2}{Email}#=%=#chu@ids.osaka-u.ac.jp
+Author{2}{Affiliation}#=%=#Osaka University
+Author{3}{Firstname}#=%=#Anoop
+Author{3}{Lastname}#=%=#Kunchukuttan
+Author{3}{Username}#=%=#anoopk
+Author{3}{Email}#=%=#ankunchu@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft AI and Research
+
+==========

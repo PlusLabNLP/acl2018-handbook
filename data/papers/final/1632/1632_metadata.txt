@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1632
+FinalPaperTitle#=%=#Aspect Sentiment Classification with Document-level Sentiment Preference Modeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xiao Chen
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Soochow University, China
+Abstract#==#In the literature, existing studies always consider Aspect Sentiment Classification (ASC) as an independent sentence-level classification problem aspect by aspect, which largely ignore the document-level sentiment preference information, though obviously such information is crucial for alleviating the information deficiency problem in ASC. In this paper, we explore two kinds of sentiment preference information inside a document, i.e., contextual sentiment consistency w.r.t. the same aspect (namely intra-aspect sentiment consistency) and contextual sentiment tendency w.r.t. all the related aspects (namely inter-aspect sentiment tendency). On the basis, we propose a Cooperative Graph Attention Networks (CoGAN) approach for cooperatively learning the aspect-related sentence representation. Specifically, two graph attention networks are leveraged to model above two kinds of document-level sentiment preference information respectively, followed by an interactive mechanism to integrate the two-fold preference. Detailed evaluation demonstrates the great advantage of the proposed approach to ASC over the state-of-the-art baselines. This justifies the importance of the document-level sentiment preference information to ASC and the effectiveness of our approach capturing such information.
+Author{1}{Firstname}#=%=#Xiao
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#chen1206
+Author{1}{Email}#=%=#xchen1206@stu.suda.edu.cn
+Author{1}{Affiliation}#=%=#Soochow University
+Author{2}{Firstname}#=%=#Changlong
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#changlong_sun
+Author{2}{Email}#=%=#changlong.scl@taobao.com
+Author{2}{Affiliation}#=%=#Alibaba
+Author{3}{Firstname}#=%=#Jingjing
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#wangjingjing
+Author{3}{Email}#=%=#djingwang@suda.edu.cn
+Author{3}{Affiliation}#=%=#Soochow University
+Author{4}{Firstname}#=%=#Shoushan
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#lishoushan
+Author{4}{Email}#=%=#lishoushan@suda.edu.cn
+Author{4}{Affiliation}#=%=#Soochow University
+Author{5}{Firstname}#=%=#Luo
+Author{5}{Lastname}#=%=#Si
+Author{5}{Username}#=%=#warmstar
+Author{5}{Email}#=%=#luo.si@alibaba-inc.com
+Author{5}{Affiliation}#=%=#Alibaba Group Inc
+Author{6}{Firstname}#=%=#Min
+Author{6}{Lastname}#=%=#Zhang
+Author{6}{Username}#=%=#zhangminsuda
+Author{6}{Email}#=%=#minzhang@suda.edu.cn
+Author{6}{Affiliation}#=%=#Suda
+Author{7}{Firstname}#=%=#Guodong
+Author{7}{Lastname}#=%=#Zhou
+Author{7}{Username}#=%=#gdzhou
+Author{7}{Email}#=%=#gdzhou@suda.edu.cn
+Author{7}{Affiliation}#=%=#Soochow University
+
+==========

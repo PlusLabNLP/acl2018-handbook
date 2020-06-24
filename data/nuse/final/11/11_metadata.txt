@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Extensively Matching for Few-shot Learning Event Detection
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Viet Lai
+JobTitle#==#Graduate student
+Organization#==#University of Oregon
+Abstract#==#Current event detection models under supervised learning settings fail to transfer to new event types. Few-shot learning has not been explored in event detection even though it allows a model to perform well with high generalization on new event types. In this work, we formulate event detection as a few-shot learning problem to enable to extend event detection to new event types. We propose two novel loss factors that matching examples in the support set to provide more training signals to the model. Moreover, these training signals can be applied in many metric-based few-shot learning models. Our extensive experiments on the ACE-2005 dataset (under a few-shot learning setting) show that the proposed method can improve the performance of few-shot learning.
+Author{1}{Firstname}#=%=#Viet Dac
+Author{1}{Lastname}#=%=#Lai
+Author{1}{Username}#=%=#vietld
+Author{1}{Email}#=%=#vietl@cs.uoregon.edu
+Author{1}{Affiliation}#=%=#University of Oregon
+Author{2}{Firstname}#=%=#Thien Huu
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Username}#=%=#anoperson
+Author{2}{Email}#=%=#thien@cs.uoregon.edu
+Author{2}{Affiliation}#=%=#University of Oregon
+Author{3}{Firstname}#=%=#Frank
+Author{3}{Lastname}#=%=#Dernoncourt
+Author{3}{Email}#=%=#dernonco@adobe.com
+Author{3}{Affiliation}#=%=#Adobe Research
+
+==========

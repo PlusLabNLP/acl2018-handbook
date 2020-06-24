@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#3449
+FinalPaperTitle#=%=#Multimodal Quality Estimation for Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Shu Okabe
+JobTitle#==#
+Organization#==#Imperial College London, South Kensington Campus London, SW7 2AZ
+Abstract#==#We propose approaches to Quality Estimation (QE) for Machine Translation that explore both text and visual modalities for Multimodal QE. We compare various multimodality integration and fusion strategies. For both sentence-level and document-level predictions, we show that state-of-the-art neural and feature-based QE frameworks obtain better results when using the additional modality.
+Author{1}{Firstname}#=%=#Shu
+Author{1}{Lastname}#=%=#Okabe
+Author{1}{Username}#=%=#sokabe
+Author{1}{Email}#=%=#shurokabe@gmail.com
+Author{1}{Affiliation}#=%=#Imperial College London
+Author{2}{Firstname}#=%=#Frédéric
+Author{2}{Lastname}#=%=#Blain
+Author{2}{Username}#=%=#frederic.blain
+Author{2}{Email}#=%=#f.blain@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Username}#=%=#l.specia
+Author{3}{Email}#=%=#l.specia@imperial.ac.uk
+Author{3}{Affiliation}#=%=#Imperial College London
+
+==========

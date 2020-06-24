@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Endangered Languages meet Modern NLP
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This tutorial will focus on NLP for endangered languages documentation and revitalization. First, we will acquaint the attendees with the process and the challenges of language documentation, showing how the needs of the language communities and the documentary linguists map to specific NLP tasks. We will then present the state-of-the-art in NLP applied in this particularly challenging setting (extremely low-resource datasets, noisy transcriptions, limited annotations, non-standard orthographies). In doing so, we will also analyze the challenges of working in this domain and expand on both the capabilities and the limitations of current NLP approaches. Our ultimate goal is to motivate more NLP practitioners to work towards this very important direction, and also provide them with the tools and understanding of the limitations/challenges, both of which are needed in order to have an impact.
+Author{1}{Firstname}#=%=#Antonios
+Author{1}{Lastname}#=%=#Anastasopoulos
+Author{1}{Username}#=%=#aanastas
+Author{1}{Email}#=%=#aanastas@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Christopher
+Author{2}{Lastname}#=%=#Cox
+Author{2}{Username}#=%=#cdcox
+Author{2}{Email}#=%=#christopher.cox@carleton.ca
+Author{2}{Affiliation}#=%=#Carleton University
+Author{3}{Firstname}#=%=#Graham
+Author{3}{Lastname}#=%=#Neubig
+Author{3}{Username}#=%=#gneubig
+Author{3}{Email}#=%=#gneubig@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Hilaria
+Author{4}{Lastname}#=%=#Cruz
+Author{4}{Email}#=%=#hilaria.cruz@louisville.edu
+Author{4}{Affiliation}#=%=#University of Louisville
+
+==========

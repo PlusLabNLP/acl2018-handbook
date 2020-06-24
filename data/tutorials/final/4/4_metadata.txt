@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Natural Language Processing in Financial Technology Applications
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Financial Technology (FinTech) is an emerging and popular topic in both ﬁnancial and engineering domains, and the recent advances in natural language processing (NLP) are highly involved in the progress of FinTech. Workshops and shared tasks, including FNP, ECONLP, FinNLP, FiQA, and FinNum, have been introduced for sharing the ideas of interdisciplinary researchers. This suggests the importance of textual analysis for the information embedded in ﬁnancial data. This tutorial introduces the recent study of FinTech from the perspective of NLP. We categorize the related work into three groups. The audiences will gain an overview of applications of NLP in the FinTech and ﬁgure out their research directions.
+Author{1}{Firstname}#=%=#Hsin-Hsi
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#hhchen
+Author{1}{Email}#=%=#hhchen@ntu.edu.tw
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Hen-Hsen
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Username}#=%=#hhhuang
+Author{2}{Email}#=%=#hhhuang@nlg.csie.ntu.edu.tw
+Author{2}{Affiliation}#=%=#Department of Computer Science, National Chengchi University
+Author{3}{Firstname}#=%=#Chung-Chi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Username}#=%=#chunji
+Author{3}{Email}#=%=#chunji0112@gmail.com
+Author{3}{Affiliation}#=%=#Department of Computer Science and Information Engineering National Taiwan University, Taipei, Taiwan
+
+==========

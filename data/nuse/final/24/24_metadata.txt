@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Frustratingly Hard Evidence Retrieval for QA Over Books
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xiangyang Mou
+JobTitle#==#
+Organization#==#Rensselaer Polytechnic Institute, 110 8th St, Troy, NY 12180
+Abstract#==#A lot of progress has been made to improve question answering (QA) in recent years, but the special problem of QA over narrative book stories has not been explored in-depth. We formulate BookQA as an open-domain QA task given its similar dependency on evidence retrieval. We further investigate how state-of-the-art open-domain QA approaches can help BookQA. Besides achieving state-of-the-art on the NarrativeQA benchmark, our study also reveals the difficulty of evidence retrieval in books with a wealth of experiments and analysis - which necessitates future effort on novel solutions for evidence retrieval in BookQA.
+Author{1}{Firstname}#=%=#Xiangyang
+Author{1}{Lastname}#=%=#Mou
+Author{1}{Username}#=%=#moutaigua8183
+Author{1}{Email}#=%=#moutaigua8183@gmail.com
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Mo
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Username}#=%=#gflfof
+Author{2}{Email}#=%=#gflfof@gmail.com
+Author{2}{Affiliation}#=%=#IBM Research
+Author{3}{Firstname}#=%=#Bingsheng
+Author{3}{Lastname}#=%=#Yao
+Author{3}{Username}#=%=#arthuryao33
+Author{3}{Email}#=%=#yaob@rpi.edu
+Author{3}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{4}{Firstname}#=%=#Chenghao
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Username}#=%=#chrome01
+Author{4}{Email}#=%=#yangalan1996@gmail.com
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Xiaoxiao
+Author{5}{Lastname}#=%=#Guo
+Author{5}{Username}#=%=#guoxiao
+Author{5}{Email}#=%=#xiaoxiao.guo@ibm.com
+Author{5}{Affiliation}#=%=#IBM Research
+Author{6}{Firstname}#=%=#Saloni
+Author{6}{Lastname}#=%=#Potdar
+Author{6}{Username}#=%=#spotdar
+Author{6}{Email}#=%=#saloni.potdar@gmail.com
+Author{6}{Affiliation}#=%=#IBM Watson, Carnegie Mellon University
+Author{7}{Firstname}#=%=#Hui
+Author{7}{Lastname}#=%=#Su
+Author{7}{Username}#=%=#suhui001
+Author{7}{Email}#=%=#huisuibmres@us.ibm.com
+Author{7}{Affiliation}#=%=#IBM Research
+
+==========

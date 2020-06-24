@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Bootstrapping Named Entity Recognition in E-Commerce with Positive Unlabeled Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hanchu Zhang
+JobTitle#==#
+Organization#==#Lenovo Research Artificial Intelligence Lab
+Abstract#==#In this work, we introduce a bootstrapped, iterative NER model that integrates a PU learning algorithm for recognizing named entities in a low-resource setting. Our approach combines dictionary-based labeling with syntactically-informed label expansion to efficiently enrich the seed dictionaries. Experimental results on a dataset of manually annotated e-commerce product descriptions demonstrate the effectiveness of the proposed framework.
+Author{1}{Firstname}#=%=#Hanchu
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#zhanghanchu
+Author{1}{Email}#=%=#zhanghc9@lenovo.com
+Author{1}{Affiliation}#=%=#Lenovo Research
+Author{2}{Firstname}#=%=#Leonhard
+Author{2}{Lastname}#=%=#Hennig
+Author{2}{Username}#=%=#leonhardhennig
+Author{2}{Email}#=%=#leonhard.hennig@dfki.de
+Author{2}{Affiliation}#=%=#German Research Center for Artificial Intelligence
+Author{3}{Firstname}#=%=#Christoph
+Author{3}{Lastname}#=%=#Alt
+Author{3}{Username}#=%=#christoph.alt
+Author{3}{Email}#=%=#christoph.alt@dfki.de
+Author{3}{Affiliation}#=%=#German Research Center for Artificial Intelligence
+Author{4}{Firstname}#=%=#Changjian
+Author{4}{Lastname}#=%=#Hu
+Author{4}{Username}#=%=#changjiancn
+Author{4}{Email}#=%=#hucj1@lenovo.com
+Author{4}{Affiliation}#=%=#Lenovo
+Author{5}{Firstname}#=%=#Yao
+Author{5}{Lastname}#=%=#Meng
+Author{5}{Username}#=%=#mengyao
+Author{5}{Email}#=%=#mengyao1@lenovo.com
+Author{5}{Affiliation}#=%=#lenovo
+Author{6}{Firstname}#=%=#Chao
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Username}#=%=#janic_chao
+Author{6}{Email}#=%=#wangchao31@lenovo.com
+Author{6}{Affiliation}#=%=#NLP&CA, AI lab, Lenovo Research
+
+==========

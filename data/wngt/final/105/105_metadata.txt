@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#105
+FinalPaperTitle#=%=#The ADAPT System Description for the STAPLE 2020 English-to-Portuguese Translation Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Rejwanul Haque
+JobTitle#==#Research Fellow
+Organization#==#ADAPT Centre, Dublin City University
+Abstract#==#This paper describes the ADAPT Centre's submission to STAPLE (Simultaneous Translation and Paraphrase for Language Education) 2020, a shared task of the 4th Workshop on Neural Generation and Translation (WNGT), for the English-to-Portuguese translation task. In this shared task, the participants were asked to produce high-coverage sets of plausible translations given English prompts (input source sentences). We present our English-to-Portuguese machine translation (MT) models that were built applying various strategies, e.g. data and sentence selection, monolingual MT for generating alternative translations, and combining multiple n-best translations. Our experiments show that adding the aforementioned techniques to the baseline yields an excellent performance in the English-to-Portuguese translation task.
+Author{1}{Firstname}#=%=#Rejwanul
+Author{1}{Lastname}#=%=#Haque
+Author{1}{Username}#=%=#rejwanul
+Author{1}{Email}#=%=#rejwanul.haque@adaptcentre.ie
+Author{1}{Affiliation}#=%=#Dublin City University
+Author{2}{Firstname}#=%=#Yasmin
+Author{2}{Lastname}#=%=#Moslem
+Author{2}{Email}#=%=#yasmin.moslem@adaptcentre.ie
+Author{2}{Affiliation}#=%=#ADAPT Centre, Dublin City University, Dublin, Ireland
+Author{3}{Firstname}#=%=#Andy
+Author{3}{Lastname}#=%=#Way
+Author{3}{Email}#=%=#andy.way@adaptcentre.ie
+Author{3}{Affiliation}#=%=#ADAPT Centre, Dublin City University, Dublin, Ireland
+
+==========

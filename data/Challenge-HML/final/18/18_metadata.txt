@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Unsupervised Online Grounding of Natural Language during Human-Robot Interactions
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Oliver Roesler
+JobTitle#==#
+Organization#==#Artificial Intelligence Lab, Vrije Universiteit Brussel, Brussels, Belgium
+Abstract#==#Allowing humans to communicate through natural language with robots requires connections between words and percepts. The process of creating these connections is called symbol grounding and has been studied for nearly three decades. Although many studies have been conducted, not many considered grounding of synonyms and the employed algorithms either work only offline or in a supervised manner. In this paper, a cross-situational learning based grounding framework is proposed that allows grounding of words and phrases through corresponding percepts without human supervision and online, i.e. it does not require any explicit training phase, but instead updates the obtained mappings for every new encountered situation. The proposed framework is evaluated through an interaction experiment between a human tutor and a robot, and compared to an existing unsupervised grounding framework. The results show that the proposed framework is able to ground words through their corresponding percepts online and in an unsupervised manner, while outperforming the baseline framework.
+Author{1}{Firstname}#=%=#Oliver
+Author{1}{Lastname}#=%=#Roesler
+Author{1}{Username}#=%=#olro
+Author{1}{Email}#=%=#oliver@roesler.co.uk
+Author{1}{Affiliation}#=%=#Artificial Intelligence Lab, Vrije Universiteit Brussel
+
+==========

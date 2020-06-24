@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2640
+FinalPaperTitle#=%=#Semantic Parsing for English as a Second Language
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Yuanyuan Zhao
+JobTitle#==#
+Organization#==#Wangxuan Institute of Computer Technology, Peking University, Beijing, China
+Abstract#==#This paper is concerned with semantic parsing for English as a second language (ESL). Motivated by the theoretical emphasis on the learning challenges that occur at the syntax-semantics interface during second language acquisition, we formulate the task based on the divergence between literal and intended meanings. We combine the complementary strengths of English Resource Grammar, a linguistically-precise hand-crafted deep grammar, and TLE, an existing manually annotated ESL UD-TreeBank with a novel reranking model. Experiments demonstrate that in comparison to human annotations, our method can obtain a very promising SemBanking quality. By means of the newly created corpus, we evaluate state-of-the-art semantic parsing as well as grammatical error correction models. The evaluation proﬁles the performance of neural NLP techniques for handling ESL data and suggests some research directions.
+Author{1}{Firstname}#=%=#Yuanyuan
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Username}#=%=#zhaoyy
+Author{1}{Email}#=%=#zhao_yy@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Weiwei
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#wsun
+Author{2}{Email}#=%=#ws@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#junjie
+Author{3}{Lastname}#=%=#cao
+Author{3}{Username}#=%=#junjie.junjiecao
+Author{3}{Email}#=%=#junjie.junjiecao@alibaba-inc.com
+Author{3}{Affiliation}#=%=#Alibaba
+Author{4}{Firstname}#=%=#Xiaojun
+Author{4}{Lastname}#=%=#Wan
+Author{4}{Username}#=%=#wanxiaojun
+Author{4}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+
+==========

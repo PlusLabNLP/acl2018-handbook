@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Similarity and Farness Based Bidirectional Neural Co-Attention for Amharic Natural Language Inference
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In natural language one idea can be conveyed using different sentences; higher Natural Language Processing applications get difficulties in capturing meaning of ideas stated in different expressions. To solve this difficulty, different scholars have conducted Natural Language Inference (NLI) researches using methods from traditional discrete models with hard logic to an end-to-end neural network for different languages. In context of Amharic language, even though there are number of research efforts in higher NLP applications, still they have limitation on understanding idea expressed in different ways due to an absence of NLI in Amharic language. Accordingly, we proposed deep learning based Natural Language Inference using similarity and farness aware bidirectional attentive matching for Amharic texts. The experiment on limited Amharic NLI dataset prepared also shows promising result that can be used as baseline for subsequent works.
+Author{1}{Firstname}#=%=#Abebawu
+Author{1}{Lastname}#=%=#Eshetu
+Author{1}{Username}#=%=#ab
+Author{1}{Email}#=%=#wm2wts@gmail.com
+Author{1}{Affiliation}#=%=#Haramaya Univesrsity
+Author{2}{Firstname}#=%=#Getenesh
+Author{2}{Lastname}#=%=#Teshome
+Author{2}{Email}#=%=#gellateshome@gmail.com
+Author{2}{Affiliation}#=%=#Haramaya Univesrsity at Ethiopia
+Author{3}{Firstname}#=%=#Ribka
+Author{3}{Lastname}#=%=#Alemayehu
+Author{3}{Email}#=%=#alemahuribka@gmail.com
+Author{3}{Affiliation}#=%=#Addis Ababa Health Bureau
+
+==========

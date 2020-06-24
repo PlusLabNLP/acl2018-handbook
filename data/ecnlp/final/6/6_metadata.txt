@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#How to Grow a (Product) Tree: Personalized Category Suggestions for eCommerce Type-Ahead
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jacopo Tagliabue
+JobTitle#==#
+Organization#==#Coveo, New York
+Abstract#==#In an attempt to balance precision and recall in the search page, leading digital shops have been effectively nudging users into select category facets as early as in the type-ahead suggestions. In this work, we present SessionPath, a novel neural network model that improves facet suggestions on two counts: first, the model is able to leverage session embeddings to provide scalable personalization; second, SessionPath predicts facets by explicitly producing a probability distribution at each node in the taxonomy path. We benchmark SessionPath on two partnering shops against count-based and neural models, and show how business requirements and model behavior can be combined in a principled way.
+Author{1}{Firstname}#=%=#Jacopo
+Author{1}{Lastname}#=%=#Tagliabue
+Author{1}{Email}#=%=#jacopo.tagliabue@tooso.ai
+Author{1}{Affiliation}#=%=#Coveo Labs
+Author{2}{Firstname}#=%=#Bingqing
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Email}#=%=#cyu2@coveo.com
+Author{2}{Affiliation}#=%=#Coveo
+Author{3}{Firstname}#=%=#Marie
+Author{3}{Lastname}#=%=#Beaulieu
+Author{3}{Email}#=%=#mbeaulieu@coveo.com
+Author{3}{Affiliation}#=%=#Coveo
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#203
+FinalPaperTitle#=%=#MLQA: Evaluating Cross-lingual Extractive Question Answering
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Patrick Lewis
+JobTitle#==#
+Organization#==#Facebook, 1 Hacker Way, Menlo Park
+Abstract#==#Question answering (QA) models have shown rapid progress enabled by the availability of large, high-quality benchmark datasets. 
+Such annotated datasets are difficult and costly to collect, and rarely exist in languages other than English, making building QA systems that work well in other languages challenging. 
+In order to develop such systems, it is crucial to invest in high quality multilingual evaluation benchmarks to measure progress. 
+We present MLQA, a multi-way aligned extractive QA evaluation benchmark intended to spur research in this area. MLQA contains QA
+instances in 7 languages, English, Arabic, German, Spanish, Hindi, Vietnamese and Simplified Chinese.
+MLQA has over 12K instances in English and 5K in each other language, with each instance parallel between 4 languages on average.
+We evaluate state-of-the-art cross-lingual models and machine-translation-based baselines
+on MLQA.  In all cases, transfer results are shown to be significantly behind training-language performance.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Lewis
+Author{1}{Username}#=%=#patricklewisfb
+Author{1}{Email}#=%=#plewis@fb.com
+Author{1}{Affiliation}#=%=#Facebook AI Research, University College London
+Author{2}{Firstname}#=%=#Barlas
+Author{2}{Lastname}#=%=#Oguz
+Author{2}{Username}#=%=#barlaso
+Author{2}{Email}#=%=#barlaso@fb.com
+Author{2}{Affiliation}#=%=#Facebook AI
+Author{3}{Firstname}#=%=#Ruty
+Author{3}{Lastname}#=%=#Rinott
+Author{3}{Username}#=%=#rutyr
+Author{3}{Email}#=%=#ruty@fb.com
+Author{3}{Affiliation}#=%=#Facebook
+Author{4}{Firstname}#=%=#Sebastian
+Author{4}{Lastname}#=%=#Riedel
+Author{4}{Username}#=%=#riedelcastro
+Author{4}{Email}#=%=#sebastian.riedel@gmail.com
+Author{4}{Affiliation}#=%=#University College London  / Facebook AI Research
+Author{5}{Firstname}#=%=#Holger
+Author{5}{Lastname}#=%=#Schwenk
+Author{5}{Username}#=%=#holger.schwenk
+Author{5}{Email}#=%=#schwenk@fb.com
+Author{5}{Affiliation}#=%=#Facebook AI Research
+
+==========

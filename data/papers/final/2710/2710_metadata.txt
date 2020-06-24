@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#2710
+FinalPaperTitle#=%=#Rationalizing Medical Relation Prediction from Corpus-level Statistics
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#15
+CopyrightSigned#=%=#Zhen Wang
+JobTitle#==#
+Organization#==#The Ohio State University, Columbus, OH, USA
+Abstract#==#Nowadays, the interpretability of machine learning models is becoming increasingly important, especially in the medical domain. Aiming to shed some light on how to rationalize medical relation prediction, we present a new interpretable framework inspired by existing theories on how human memory works, e.g., theories of recall and recognition. Given the corpus-level statistics, i.e., a global co-occurrence graph of a clinical text corpus, to predict the relations between two entities, we first recall rich contexts associated with the target entities, and then recognize relational interactions between these contexts to form model rationales, which will contribute to the final prediction. We conduct experiments on a real-world public clinical dataset and show that our framework can not only achieve competitive predictive performance against a comprehensive list of neural baseline models, but also present rationales to justify its prediction. We further collaborate with medical experts deeply to verify the usefulness of our model rationales for clinical decision making.
+Author{1}{Firstname}#=%=#Zhen
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Username}#=%=#yzabc007
+Author{1}{Email}#=%=#wang.9215@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Jennifer
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Username}#=%=#jenniferlee2
+Author{2}{Email}#=%=#jennifer.lee2@nationwidechildrens.org
+Author{2}{Affiliation}#=%=#Nationwide Children's Hospital
+Author{3}{Firstname}#=%=#Simon
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Username}#=%=#simon8duke
+Author{3}{Email}#=%=#sml006.work@gmail.com
+Author{3}{Affiliation}#=%=#Nationwide Children's Hospital
+Author{4}{Firstname}#=%=#Huan
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Username}#=%=#huansun
+Author{4}{Email}#=%=#sun.397@osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#3323
+FinalPaperTitle#=%=#Multimodal Transformer for Multimodal Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Shaowei Yao
+JobTitle#==#
+Organization#==#Peking University, Beijing, China
+Abstract#==#Multimodal Machine Translation (MMT) aims to introduce information from other modality, generally static images, to improve the translation quality. Previous works propose various incorporation methods, but most of them do not consider the relative importance of multiple modalities. Equally treating all modalities may encode too much useless information from less important modalities. In this paper, we introduce the multimodal self-attention in Transformer to solve the issues above in MMT. The proposed method learns the representation of images based on the text, which avoids encoding irrelevant information in images. Experiments and visualization analysis demonstrate that our model benefits from visual information and substantially outperforms previous works and competitive baselines in terms of various metrics.
+Author{1}{Firstname}#=%=#Shaowei
+Author{1}{Lastname}#=%=#Yao
+Author{1}{Username}#=%=#yaoshaowei
+Author{1}{Email}#=%=#yaosw@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Xiaojun
+Author{2}{Lastname}#=%=#Wan
+Author{2}{Username}#=%=#wanxiaojun
+Author{2}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+
+==========

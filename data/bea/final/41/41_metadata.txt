@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Predicting the Difficulty and Response Time of Multiple Choice Questions Using Transfer Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Susan A. Deitch
+JobTitle#==#Secretary of NBME
+Organization#==#National Board of Medical Examiners
+Abstract#==#This paper investigates whether transfer learning can improve the prediction of the difficulty
+and response time parameters for  18,000 multiple-choice questions from a high-stakes
+medical exam. The type the signal that best predicts difficulty and response time is also explored, both in terms of representation abstraction and item component used as input (e.g., whole item, answer options only, etc.). The results indicate that, for our sample, transfer learning can improve the prediction of item difficulty when response time is used as an auxiliary task but not the other way around. In addition, difficulty was best predicted using signal from the item stem (the description of the clinical case), while all parts of the item were important for predicting the response time.
+Author{1}{Firstname}#=%=#Kang
+Author{1}{Lastname}#=%=#Xue
+Author{1}{Email}#=%=#kangxue@uga.edu
+Author{1}{Affiliation}#=%=#University of Georgia
+Author{2}{Firstname}#=%=#Victoria
+Author{2}{Lastname}#=%=#Yaneva
+Author{2}{Username}#=%=#v.yaneva
+Author{2}{Email}#=%=#v.yaneva@wlv.ac.uk
+Author{2}{Affiliation}#=%=#University of Wolverhampton; National Board of Medical Examiners
+Author{3}{Firstname}#=%=#Christopher
+Author{3}{Lastname}#=%=#Runyon
+Author{3}{Email}#=%=#crunyon@nbme.org
+Author{3}{Affiliation}#=%=#National Board of Medical Examiners
+Author{4}{Firstname}#=%=#Peter
+Author{4}{Lastname}#=%=#Baldwin
+Author{4}{Email}#=%=#pbaldwin@nbme.org
+Author{4}{Affiliation}#=%=#National Board of Medical Examiners
+
+==========

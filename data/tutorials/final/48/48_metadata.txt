@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#Tutorial Proposal: Simultaneous Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. This problem has long been considered one of the hardest problems in AI and one of its holy grails. Recently, with rapid improvements in machine translation, speech recognition, and speech synthesis, there has been exciting progress towards simultaneous translation. This tutorial will focus on the design and evaluation of policies for simultaneous translation, to leave attendees with a deep technical understanding of the history, the recent advances, and remaining challenges in this field.
+Author{1}{Firstname}#=%=#Liang
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Username}#=%=#lhuang3
+Author{1}{Email}#=%=#liang.huang.sh@gmail.com
+Author{1}{Affiliation}#=%=#Oregon State University and Baidu Research
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Cherry
+Author{2}{Username}#=%=#colincherry
+Author{2}{Email}#=%=#colin.a.cherry@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Mingbo
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Username}#=%=#mingbo
+Author{3}{Email}#=%=#cosmmb@gmail.com
+Author{3}{Affiliation}#=%=#Baidu Research
+Author{4}{Firstname}#=%=#Naveen
+Author{4}{Lastname}#=%=#Arivazhagan
+Author{4}{Username}#=%=#naveen.a
+Author{4}{Email}#=%=#navari@google.com
+Author{4}{Affiliation}#=%=#Google AI
+Author{5}{Firstname}#=%=#Zhongjun
+Author{5}{Lastname}#=%=#He
+Author{5}{Username}#=%=#hezhongjun
+Author{5}{Email}#=%=#hezhongjun@baidu.com
+Author{5}{Affiliation}#=%=#Baidu, Inc.
+
+==========

@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Research on Task Discovery for Transfer Learning in Deep Neural Networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Arda Akdemir
+JobTitle#==#Student
+Organization#==#University of Tokyo, 7 Chome-3-1 Hongo, Bunkyo City, Tokyo, Japan
+Abstract#==#Deep neural network based machine learning models are shown to perform poorly on unseen or out-of-domain examples by numerous recent studies. Transfer learning aims to avoid overfitting and to improve generalizability by leveraging the information obtained from multiple tasks. Yet, the benefits of transfer learning depend largely on task selection and finding the right method of sharing. In this thesis, we hypothesize that current deep neural network based transfer learning models do not achieve their fullest potential for various tasks and there are still many task combinations that will benefit from transfer learning that are not considered by the current models.  To this end, we started our research by implementing a novel multi-task learner with relaxed annotated data requirements and obtained a performance improvement on two NLP tasks. We will further devise models to tackle tasks from multiple areas of machine learning, such as Bioinformatics and Computer Vision, in addition to NLP.
+Author{1}{Firstname}#=%=#Arda
+Author{1}{Lastname}#=%=#Akdemir
+Author{1}{Username}#=%=#ardaakdemir
+Author{1}{Email}#=%=#aakdemir@hgc.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+
+==========

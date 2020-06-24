@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Takuma Kato
+JobTitle#==#
+Organization#==#Tohoku University, Natural Language Processing Laboratory 6-6-05 Aramaki Aza Aoba, Aobaku, Sendai, Miyagi 980-8579, Japan
+Abstract#==#In general, the labels used in sequence labeling consist of different types of elements.
+For example, IOB-format entity labels, such as B-Person and I-Person, can be decomposed into span (B and I) and type information (Person).
+However, while most sequence labeling models do not consider such label components, the shared components across labels, such as Person, can be beneficial for label prediction.
+In this work, we propose to integrate label component information as embeddings into models.
+Through experiments on English and Japanese fine-grained named entity recognition, we demonstrate that the proposed method improves performance, especially for instances with low-frequency labels.
+Author{1}{Firstname}#=%=#Takuma
+Author{1}{Lastname}#=%=#Kato
+Author{1}{Username}#=%=#takumakato
+Author{1}{Email}#=%=#takuma.kato@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Kaori
+Author{2}{Lastname}#=%=#Abe
+Author{2}{Username}#=%=#abe-k0326
+Author{2}{Email}#=%=#abe-k@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University / Riken
+Author{3}{Firstname}#=%=#Hiroki
+Author{3}{Lastname}#=%=#Ouchi
+Author{3}{Username}#=%=#hiroki
+Author{3}{Email}#=%=#hiroki.ouchi@riken.jp
+Author{3}{Affiliation}#=%=#Riken AIP / Tohoku University
+Author{4}{Firstname}#=%=#Shumpei
+Author{4}{Lastname}#=%=#Miyawaki
+Author{4}{Email}#=%=#miyawaki.shumpei@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+Author{5}{Firstname}#=%=#Jun
+Author{5}{Lastname}#=%=#Suzuki
+Author{5}{Username}#=%=#jun
+Author{5}{Email}#=%=#dr.jun.suzuki@gmail.com
+Author{5}{Affiliation}#=%=#Tohoku University / RIKEN Center for AIP
+Author{6}{Firstname}#=%=#Kentaro
+Author{6}{Lastname}#=%=#Inui
+Author{6}{Username}#=%=#k.inui
+Author{6}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{6}{Affiliation}#=%=#Tohoku University / Riken
+
+==========

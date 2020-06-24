@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#2462
+FinalPaperTitle#=%=#Interpreting Twitter User Geolocation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Fan Zhou
+JobTitle#==#
+Organization#==#University of Electronic Science and Technology of China, China
+Abstract#==#Identifying user geolocation in online social networks is an essential task in many location-based applications. Existing methods rely on the similarity of text and network structure, however, they suffer from a lack of interpretability on the corresponding results, which is crucial for understanding model behavior. In this work, we adopt influence functions to interpret the behavior of GNN-based models by identifying the importance of training users when predicting the locations of the testing users. This methodology helps with providing meaningful explanations on prediction results. Furthermore, it also initiates an attempt to uncover the so-called "black-box" GNN-based models by investigating the effect of individual nodes.
+Author{1}{Firstname}#=%=#Ting
+Author{1}{Lastname}#=%=#Zhong
+Author{1}{Username}#=%=#tingzhong
+Author{1}{Email}#=%=#zhongting@uestc.edu.cn
+Author{1}{Affiliation}#=%=#University of Electronic Science and Technology of China
+Author{2}{Firstname}#=%=#Tianliang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Username}#=%=#morton
+Author{2}{Email}#=%=#mortonwang@outlook.com
+Author{2}{Affiliation}#=%=#University of Electronic Science and Technology of China
+Author{3}{Firstname}#=%=#Fan
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Username}#=%=#fanzhou
+Author{3}{Email}#=%=#fan.zhou@uestc.edu.cn
+Author{3}{Affiliation}#=%=#University of Electronic Science and Technology of China
+Author{4}{Firstname}#=%=#Goce
+Author{4}{Lastname}#=%=#Trajcevski
+Author{4}{Username}#=%=#goce
+Author{4}{Email}#=%=#gocet25@iastate.edu
+Author{4}{Affiliation}#=%=#Dept. of ECpE, Iowa State University
+Author{5}{Firstname}#=%=#Kunpeng
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Username}#=%=#kpzhangacl
+Author{5}{Email}#=%=#kpzhang@umd.edu
+Author{5}{Affiliation}#=%=#University of Maryland
+Author{6}{Firstname}#=%=#Yi
+Author{6}{Lastname}#=%=#Yang
+Author{6}{Username}#=%=#yya518
+Author{6}{Email}#=%=#imyiyang@ust.hk
+Author{6}{Affiliation}#=%=#Hong Kong University of Science and Technology
+
+==========

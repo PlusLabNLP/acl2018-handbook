@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3263
+FinalPaperTitle#=%=#Pe{T}ra: {A} {S}parsely {S}upervised {M}emory {M}odel for {P}eople {T}racking
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Shubham Toshniwal
+JobTitle#==#
+Organization#==#TTI Chicago; 6045 S Kenwood, Chicago, IL
+Abstract#==#We propose PeTra, a memory-augmented neural network designed to track entities in its
+memory slots. PeTra is trained using sparse annotation from the GAP pronoun resolution
+dataset and outperforms a prior memory model on the task while using a simpler architecture. We empirically compare key modeling choices, finding that we can simplify several aspects of the design of the memory module while retaining strong performance. To measure the people tracking capability of memory models, we (a) propose a new diagnostic evaluation based on counting the number of unique entities in text, and (b) conduct a small scale human evaluation to compare evidence of people tracking in the memory logs of PeTra relative to a previous approach. PeTra is highly effective in both evaluations, demonstrating its ability to track people in its memory despite being trained with limited annotation.
+Author{1}{Firstname}#=%=#Shubham
+Author{1}{Lastname}#=%=#Toshniwal
+Author{1}{Username}#=%=#shtoshni
+Author{1}{Email}#=%=#shtoshni@ttic.edu
+Author{1}{Affiliation}#=%=#TTI Chicago
+Author{2}{Firstname}#=%=#Allyson
+Author{2}{Lastname}#=%=#Ettinger
+Author{2}{Username}#=%=#aettinger
+Author{2}{Email}#=%=#aettinger@uchicago.edu
+Author{2}{Affiliation}#=%=#University of Chicago
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Gimpel
+Author{3}{Username}#=%=#kgimpel
+Author{3}{Email}#=%=#kgimpel@ttic.edu
+Author{3}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{4}{Firstname}#=%=#Karen
+Author{4}{Lastname}#=%=#Livescu
+Author{4}{Username}#=%=#klivescu
+Author{4}{Email}#=%=#klivescu@ttic.edu
+Author{4}{Affiliation}#=%=#TTI-Chicago
+
+==========

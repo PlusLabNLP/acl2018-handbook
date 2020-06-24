@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Sarcasm Detection using Context Separators in Online Discourse
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tanvi Dadu
+JobTitle#==#Student
+Organization#==#Netaji Subhas Institute of Technology, New Delhi
+Abstract#==#Sarcasm is an intricate form of speech, where meaning is conveyed implicitly. Being a convoluted form of expression, detecting sarcasm is an assiduous problem. The difficulty in recognition of sarcasm has many pitfalls, including misunderstandings in everyday communications, which leads us to an increasing focus on automated sarcasm detection. In the second edition of the Figurative Language Processing (FigLang 2020) workshop, the shared task of sarcasm detection released two datasets, containing responses along with their context sampled from Twitter and Reddit. 
+
+In this work, we use $RoBERTa_{large}$ to detect sarcasm in both the datasets. We further assert the importance of context in improving the performance of contextual word embedding based models by using three different types of inputs - Response-only, Context-Response, and Context-Response (Separated). We show that our proposed architecture performs competitively for both the datasets. We also show that the addition of a separation token between context and target response results in an improvement of $5.13\%$ in the F1-score in the Reddit dataset.
+Author{1}{Firstname}#=%=#TANVI
+Author{1}{Lastname}#=%=#DADU
+Author{1}{Username}#=%=#tanvidadu
+Author{1}{Email}#=%=#tanvid.co.16@nsit.net.in
+Author{1}{Affiliation}#=%=#Netaji Subhas Institute of Technology, New Delhi
+Author{2}{Firstname}#=%=#Kartikey
+Author{2}{Lastname}#=%=#Pant
+Author{2}{Username}#=%=#kartikeypant
+Author{2}{Email}#=%=#kartikey.pant@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#IIIT, Hyderabad
+
+==========

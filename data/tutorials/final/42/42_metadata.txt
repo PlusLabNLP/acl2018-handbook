@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Commonsense Reasoning for Natural Language Processing
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Maarten Sap
+JobTitle#==#
+Organization#==#Paul G. Allen School of Computer Science & Engineering, University of Washington, 185 E Stevens Way NE, Seattle, WA 98195
+Abstract#==#Commonsense knowledge, such as knowing that "bumping into people annoys them" or "rain makes the road slippery", helps humans navigate everyday situations seamlessly. Yet, endowing machines with such human-like commonsense reasoning capabilities has remained an elusive goal of artificial intelligence research for decades. In recent years, commonsense knowledge and reasoning have received renewed attention from the natural language processing (NLP) community, yielding exploratory studies in automated commonsense understanding. We organize this tutorial to provide researchers with the critical foundations and recent advances in commonsense representation and reasoning, in the hopes of casting a brighter light on this promising area of future research.
+
+In our tutorial, we will (1) outline the various types of commonsense (e.g., physical, social), and (2) discuss techniques to gather and represent commonsense knowledge, while highlighting the challenges specific to this type of knowledge (e.g., reporting bias).
+We will then (3) discuss the types of commonsense knowledge captured by modern NLP systems (e.g., large pretrained language models), and (4) present ways to measure systems' commonsense reasoning abilities.
+We will finish with (5) a discussion of various ways in which commonsense reasoning can be used to improve performance on NLP tasks, exemplified by an (6) interactive session on integrating commonsense into a downstream task.
+Author{1}{Firstname}#=%=#Maarten
+Author{1}{Lastname}#=%=#Sap
+Author{1}{Username}#=%=#maartensap93
+Author{1}{Email}#=%=#msap@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Vered
+Author{2}{Lastname}#=%=#Shwartz
+Author{2}{Username}#=%=#vered.shwartz
+Author{2}{Email}#=%=#vered1986@gmail.com
+Author{2}{Affiliation}#=%=#University of Washington / Allen Institute for Artificial Intelligence (AI2)
+Author{3}{Firstname}#=%=#Antoine
+Author{3}{Lastname}#=%=#Bosselut
+Author{3}{Username}#=%=#antoineb
+Author{3}{Email}#=%=#antoineb@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Yejin
+Author{4}{Lastname}#=%=#Choi
+Author{4}{Username}#=%=#ychoi
+Author{4}{Email}#=%=#yejin@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Dan
+Author{5}{Lastname}#=%=#Roth
+Author{5}{Username}#=%=#danr
+Author{5}{Email}#=%=#danroth@seas.upenn.edu
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+
+==========

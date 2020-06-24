@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1450
+FinalPaperTitle#=%=#Automatic Machine Translation Evaluation using Source Language Inputs and Cross-lingual Language Model
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kosuke Takahashi
+JobTitle#==#
+Organization#==#NAIST
+Abstract#==#We propose an automatic evaluation method of machine translation that uses source language sentences regarded as additional pseudo references. The proposed method evaluates a translation hypothesis in a regression model. The model takes the paired source, reference, and hypothesis sentence all together as an input. A pretrained large scale cross-lingual language model encodes the input to sentence-pair vectors, and the model predicts a human evaluation score with those vectors. Our experiments show that our proposed method using Cross-lingual Language Model (XLM) trained with a translation language modeling (TLM) objective achieves a higher correlation with human judgments than a baseline method that uses only hypothesis and reference sentences. Additionally, using source sentences in our proposed method is confirmed to improve the evaluation performance.
+Author{1}{Firstname}#=%=#Kosuke
+Author{1}{Lastname}#=%=#Takahashi
+Author{1}{Username}#=%=#kosuke-t
+Author{1}{Email}#=%=#takahashi.kosuke.th0@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Katsuhito
+Author{2}{Lastname}#=%=#Sudoh
+Author{2}{Username}#=%=#sudoh
+Author{2}{Email}#=%=#sudoh@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology (NAIST)
+Author{3}{Firstname}#=%=#Satoshi
+Author{3}{Lastname}#=%=#Nakamura
+Author{3}{Username}#=%=#s-nakamura
+Author{3}{Email}#=%=#s-nakamura@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology and RIKEN AIP Center
+
+==========

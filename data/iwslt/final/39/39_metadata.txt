@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Xiaomi's Submissions for IWSLT 2020 Open Domain Translation Task
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Li Xiang
+JobTitle#==#
+Organization#==#Xiaomi, Xiaomi Campus, No.33 Xierqi Middle Road, Haidian District, Beijing, 100085, China
+Abstract#==#This paper describes the Xiaomi's submissions to the IWSLT20 shared open domain translation task for Chinese<->Japanese language pair. We explore different model ensembling strategies based on recent Transformer variants. We also further strengthen our systems via some effective techniques, such as data filtering, data selection, tagged back translation, domain adaptation, knowledge distillation, and re-ranking. Our resulting Chinese->Japanese primary system ranked second in terms of character-level BLEU score among all submissions. Our resulting Japanese->Chinese primary system also achieved a competitive performance.
+Author{1}{Firstname}#=%=#Yuhui
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Email}#=%=#sunyuhui1@xiaomi.com
+Author{1}{Affiliation}#=%=#Xiaomi AI Lab
+Author{2}{Firstname}#=%=#Mengxue
+Author{2}{Lastname}#=%=#Guo
+Author{2}{Email}#=%=#guomengxue1@xiaomi.com
+Author{2}{Affiliation}#=%=#Xiaomi AI Lab
+Author{3}{Firstname}#=%=#Xiang
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#kisonlee
+Author{3}{Email}#=%=#lixiang21@xiaomi.com
+Author{3}{Affiliation}#=%=#Xiaomi AI Lab
+Author{4}{Firstname}#=%=#Jianwei
+Author{4}{Lastname}#=%=#Cui
+Author{4}{Email}#=%=#cuijianwei@xiaomi.com
+Author{4}{Affiliation}#=%=#Xiaomi AI Lab
+Author{5}{Firstname}#=%=#Bin
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#wangbin11@xiaomi.com
+Author{5}{Affiliation}#=%=#Xiaomi AI Lab
+
+==========

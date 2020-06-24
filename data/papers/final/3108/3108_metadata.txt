@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#3108
+FinalPaperTitle#=%=#Temporal Common Sense Acquisition with Minimal Supervision
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ben Zhou
+JobTitle#==#
+Organization#==#University of Pennsylvania, 3401 Walnut St, Philadelphia, PA, USA.
+Abstract#==#Temporal common sense (e.g., duration and frequency of events) is crucial for understanding natural language. However, its acquisition is challenging, partly because such information is often not expressed explicitly in text, and human annotation on such concepts is costly. This work proposes a novel sequence modeling approach that exploits explicit and implicit mentions of temporal common sense, extracted from a large corpus, to build TacoLM, a temporal common sense language model. Our method is shown to give quality predictions of various dimensions of temporal common sense (on UDST and a newly collected dataset from RealNews). It also produces representations of events for relevant tasks such as duration comparison, parent-child relations, event coreference and temporal QA (on TimeBank, HiEVE and MCTACO) that are better than using the standard BERT. Thus, it will be an important component of temporal NLP.
+Author{1}{Firstname}#=%=#Ben
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Username}#=%=#xzhou45
+Author{1}{Email}#=%=#xyzhou@seas.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Qiang
+Author{2}{Lastname}#=%=#Ning
+Author{2}{Username}#=%=#qiangning1990
+Author{2}{Email}#=%=#qiangn@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Khashabi
+Author{3}{Username}#=%=#danyaljj
+Author{3}{Email}#=%=#danielk@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for AI
+Author{4}{Firstname}#=%=#Dan
+Author{4}{Lastname}#=%=#Roth
+Author{4}{Username}#=%=#danr
+Author{4}{Email}#=%=#danroth@seas.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

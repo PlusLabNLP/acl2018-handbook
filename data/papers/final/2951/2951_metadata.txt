@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#2951
+FinalPaperTitle#=%=#Understanding Attention for Text Classification
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xiaobing Sun
+JobTitle#==#
+Organization#==#Singapore University of Technology and Design, 8 Somapah Rd, Singapore 487372
+Abstract#==#Attention has been proven successful in many natural language processing (NLP) tasks. Recently, many researchers started to investigate the interpretability of attention on NLP tasks. Many existing approaches focused on examining whether the local attention weights could reflect the importance of input representations. In this work, we present a study on understanding the internal mechanism of attention by looking into the gradient update process, checking its behavior when approaching a local minimum during training. We propose to analyze for each word token the following two quantities: its polarity score and its attention score, where the latter is a global assessment on the token’s significance. We discuss conditions under which the attention mechanism may become more (or less) interpretable, and show how the interplay between the two quantities can contribute towards model performance.
+Author{1}{Firstname}#=%=#Xiaobing
+Author{1}{Lastname}#=%=#Sun
+Author{1}{Username}#=%=#topsun888
+Author{1}{Email}#=%=#topsun888@yahoo.com
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Username}#=%=#luwei
+Author{2}{Email}#=%=#luweinlp@gmail.com
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

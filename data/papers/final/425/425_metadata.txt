@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#425
+FinalPaperTitle#=%=#Learning Interpretable Relationships between Entities, Relations and Concepts via Bayesian Structure Learning on Open Domain Facts
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jingyuan Zhang
+JobTitle#==#Research Scientist
+Organization#==#Baidu Research
+Abstract#==#Concept graphs are created as universal taxonomies for text understanding in the open-domain knowledge. The nodes in concept graphs include both entities and concepts. The edges are from entities to concepts, showing that an entity is an instance of a concept. In this paper, we propose the task of learning interpretable relationships from open-domain facts to enrich and refine concept graphs. The Bayesian network structures are learned from open-domain facts as the interpretable relationships between relations of facts and concepts of entities. We conduct extensive experiments on public English and Chinese datasets. Compared to the state-of-the-art methods, the learned network structures help improving the identification of concepts for entities based on the relations of entities on both datasets.
+Author{1}{Firstname}#=%=#Jingyuan
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Username}#=%=#zhangjy019
+Author{1}{Email}#=%=#zhangjingyuan03@baidu.com
+Author{1}{Affiliation}#=%=#Baidu Research
+Author{2}{Firstname}#=%=#Mingming
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Username}#=%=#sunmingming
+Author{2}{Email}#=%=#sunmingming01@baidu.com
+Author{2}{Affiliation}#=%=#Baidu
+Author{3}{Firstname}#=%=#Yue
+Author{3}{Lastname}#=%=#Feng
+Author{3}{Username}#=%=#yue.f
+Author{3}{Email}#=%=#yueyuef@outlook.com
+Author{3}{Affiliation}#=%=#Baidu
+Author{4}{Firstname}#=%=#Ping
+Author{4}{Lastname}#=%=#Li
+Author{4}{Username}#=%=#pingli98
+Author{4}{Email}#=%=#liping11@baidu.com
+Author{4}{Affiliation}#=%=#Baidu
+
+==========

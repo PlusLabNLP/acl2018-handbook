@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1676
+FinalPaperTitle#=%=#SUPERT: Towards New Frontiers in Unsupervised Evaluation Metrics for Multi-Document Summarization
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Yang Gao
+JobTitle#==#
+Organization#==#Royal Holloway, University of London, Egham, Surrey, UK
+Abstract#==#We study unsupervised multi-document summarization evaluation metrics, which require neither human-written reference summaries nor human annotations (e.g. preferences, ratings, etc.). We propose SUPERT, which rates the quality of a summary by measuring its semantic similarity with a pseudo reference summary, i.e. selected salient sentences from the source documents, using contextualized embeddings and soft token alignment techniques. Compared to the state-of-the-art unsupervised evaluation metrics, SUPERT correlates better with human ratings by 18- 39%. Furthermore, we use SUPERT as rewards to guide a neural-based reinforcement learning summarizer, yielding favorable performance compared to the state-of-the-art unsupervised summarizers. All source code is available at https://github.com/yg211/acl20-ref-free-eval.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Gao
+Author{1}{Username}#=%=#gaoyang_alex_hotmail
+Author{1}{Email}#=%=#yang.gao@rhul.ac.uk
+Author{1}{Affiliation}#=%=#Royal Holloway, University of London
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Username}#=%=#andyweizhao1
+Author{2}{Email}#=%=#andyweizhao1@gmail.com
+Author{2}{Affiliation}#=%=#TU Darmstadt
+Author{3}{Firstname}#=%=#Steffen
+Author{3}{Lastname}#=%=#Eger
+Author{3}{Username}#=%=#steffen2
+Author{3}{Email}#=%=#eger.steffen@gmail.com
+Author{3}{Affiliation}#=%=#NLLG Lab, Technische Universität Darmstadt
+
+==========

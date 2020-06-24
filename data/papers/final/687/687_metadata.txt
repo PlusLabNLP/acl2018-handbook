@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#687
+FinalPaperTitle#=%=#Interactive Construction of User-Centric Dictionary for Text Analytics
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ryosuke Kohita
+JobTitle#==#
+Organization#==#IBM Research, 19-21, Hakozaki, Nihonbashi, Chuo, Tokyo
+Abstract#==#We propose a methodology to construct a term dictionary for text analytics through an interactive process between a human and a machine, which helps the creation of flexible dictionaries with precise granularity required in typical text analysis.
+This paper introduces the first formulation of interactive dictionary construction to address this issue. To optimize the interaction, we propose a new algorithm that effectively captures an analyst's intention starting from only a small number of sample terms. Along with the algorithm, we also design an automatic evaluation framework that provides a systematic assessment of any interactive method for the dictionary creation task. Experiments using real scenario based corpora and dictionaries show that our algorithm outperforms baseline methods, and works even with a small number of interactions.
+Author{1}{Firstname}#=%=#Ryosuke
+Author{1}{Lastname}#=%=#Kohita
+Author{1}{Username}#=%=#ryosuke-k
+Author{1}{Email}#=%=#KOHI@ibm.com
+Author{1}{Affiliation}#=%=#IBM Research AI
+Author{2}{Firstname}#=%=#Issei
+Author{2}{Lastname}#=%=#Yoshida
+Author{2}{Username}#=%=#daylife1112
+Author{2}{Email}#=%=#issei@jp.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Tokyo
+Author{3}{Firstname}#=%=#Hiroshi
+Author{3}{Lastname}#=%=#Kanayama
+Author{3}{Username}#=%=#hkana
+Author{3}{Email}#=%=#hkana@jp.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research - Tokyo
+Author{4}{Firstname}#=%=#Tetsuya
+Author{4}{Lastname}#=%=#Nasukawa
+Author{4}{Username}#=%=#nasukawa
+Author{4}{Email}#=%=#nasukawa@jp.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research - Tokyo
+
+==========

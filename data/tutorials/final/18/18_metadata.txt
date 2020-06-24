@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Reviewing Natural Language Processing Research
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This tutorial will cover the theory and practice of reviewing research in natural language processing. Heavy reviewing burdens on natural language processing researchers have made it clear that our community needs to increase the size of our pool of potential reviewers. Simultaneously, notable ``false negatives"---rejection by our conferences of work that was later shown to be tremendously important after acceptance by other conferences---have raised awareness of the fact that our reviewing practices leave something to be desired. We do not often talk about ``false positives" with respect to conference papers, but leaders in the field have noted that we seem to have a publication bias towards papers that report high performance, with perhaps not much else of interest in them.
+
+It need not be this way. Reviewing is a learnable skill, and you will learn it here via lectures and a considerable amount of hands-on practice.
+Author{1}{Firstname}#=%=#Kevin
+Author{1}{Lastname}#=%=#Cohen
+Author{1}{Username}#=%=#kevin
+Author{1}{Email}#=%=#kevin.cohen@gmail.com
+Author{1}{Affiliation}#=%=#Computational Bioscience Program, U. Colorado School of Medicine
+Author{2}{Firstname}#=%=#Karën
+Author{2}{Lastname}#=%=#Fort
+Author{2}{Username}#=%=#kfort
+Author{2}{Email}#=%=#karen.fort@sorbonne-universite.fr
+Author{2}{Affiliation}#=%=#Sorbonne Université and LORIA
+Author{3}{Firstname}#=%=#Margot
+Author{3}{Lastname}#=%=#Mieskes
+Author{3}{Username}#=%=#mieskes
+Author{3}{Email}#=%=#margot.mieskes@h-da.de
+Author{3}{Affiliation}#=%=#University of Applied Sciences, Darmstadt
+Author{4}{Firstname}#=%=#Aurélie
+Author{4}{Lastname}#=%=#Névéol
+Author{4}{Username}#=%=#neveol
+Author{4}{Email}#=%=#neveol@limsi.fr
+Author{4}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

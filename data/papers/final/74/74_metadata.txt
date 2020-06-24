@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#74
+FinalPaperTitle#=%=#Roles and Utilization of Attention Heads in Transformer-based Neural Language Models
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Jaeyoung Jo
+JobTitle#==#
+Organization#==#KAIST, 291, Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea
+Abstract#==#Sentence encoders based on the transformer architecture have shown promising results on various natural language tasks. The main impetus lies in the pre-trained neural language models that capture long-range dependencies among words, owing to multi-head attention that is unique in the architecture. However, little is known for how linguistic properties are processed, represented, and utilized for downstream tasks among hundreds of attention heads inside the pre-trained transformer-based model. For the initial goal of examining the roles of attention heads in handling a set of linguistic features, we conducted a set of experiments with ten probing tasks and three downstream tasks on four pre-trained transformer families (GPT, GPT2, BERT, and ELECTRA). Meaningful insights are shown through the lens of heat map visualization and utilized to propose a relatively simple sentence representation method that takes advantage of most influential attention heads, resulting in additional performance improvements on the downstream tasks.
+Author{1}{Firstname}#=%=#Jae-young
+Author{1}{Lastname}#=%=#Jo
+Author{1}{Username}#=%=#whwodud98
+Author{1}{Email}#=%=#kevin.jo@dingbro.ai
+Author{1}{Affiliation}#=%=#School of Computing, KAIST
+Author{2}{Firstname}#=%=#Sung-Hyon
+Author{2}{Lastname}#=%=#Myaeng
+Author{2}{Username}#=%=#myaeng
+Author{2}{Email}#=%=#myaeng@kaist.ac.kr
+Author{2}{Affiliation}#=%=#School of Computing, KAIST
+
+==========

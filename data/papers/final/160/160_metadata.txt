@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#160
+FinalPaperTitle#=%=#Graph Neural News Recommendation with Unsupervised Preference Disentanglement
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Siyong Xu
+JobTitle#==#
+Organization#==#School of Computer Science, Beijing University of Posts and Telecommunications, Beijing, China
+Abstract#==#With the explosion of news information, personalized news recommendation has become very important for users to quickly find their interested contents. Most existing methods usually learn the representations of users and news from news contents for recommendation. However, they seldom consider high-order connectivity underlying the user-news interactions. Moreover, existing methods failed to disentangle a user's latent preference factors which cause her clicks on different news. In this paper, we model the user-news interactions as a bipartite graph and propose a novel Graph Neural News Recommendation model with Unsupervised Preference Disentanglement, named GNUD. Our model can encode high-order relationships into user and news representations by information propagation along the graph. Furthermore, the learned representations are disentangled with latent preference factors by a neighborhood routing algorithm, which can enhance expressiveness and interpretability. A preference regularizer is also designed to force each disentangled subspace to independently reflect an isolated preference, improving the quality of the disentangled representations. Experimental results on real-world news datasets demonstrate that our proposed model can effectively improve the performance of news recommendation and outperform state-of-the-art news recommendation methods.
+Author{1}{Firstname}#=%=#Linmei
+Author{1}{Lastname}#=%=#Hu
+Author{1}{Username}#=%=#linmei
+Author{1}{Email}#=%=#hulinmei@bupt.edu.cn
+Author{1}{Affiliation}#=%=#School of Computer Science, Beijing University of Posts and Telecommunications
+Author{2}{Firstname}#=%=#Siyong
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Username}#=%=#siyongxu
+Author{2}{Email}#=%=#xusiyong@bupt.edu.cn
+Author{2}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{3}{Firstname}#=%=#Chen
+Author{3}{Lastname}#=%=#Li
+Author{3}{Username}#=%=#leechen_777
+Author{3}{Email}#=%=#leechen@bupt.edu.cn
+Author{3}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{4}{Firstname}#=%=#Cheng
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Username}#=%=#yangcheng
+Author{4}{Email}#=%=#albertyang33@gmail.com
+Author{4}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+Author{5}{Firstname}#=%=#Chuan
+Author{5}{Lastname}#=%=#Shi
+Author{5}{Username}#=%=#shichuan
+Author{5}{Email}#=%=#shichuan@bupt.edu.cn
+Author{5}{Affiliation}#=%=#School of Computer Science, Beijing University of Posts and Telecommunications
+Author{6}{Firstname}#=%=#Nan
+Author{6}{Lastname}#=%=#Duan
+Author{6}{Username}#=%=#nanduan
+Author{6}{Email}#=%=#nanduan@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research Asia
+Author{7}{Firstname}#=%=#Xing
+Author{7}{Lastname}#=%=#Xie
+Author{7}{Username}#=%=#xing
+Author{7}{Email}#=%=#xingx@microsoft.com
+Author{7}{Affiliation}#=%=#Microsoft Research Asia
+Author{8}{Firstname}#=%=#Ming
+Author{8}{Lastname}#=%=#Zhou
+Author{8}{Username}#=%=#mingzhou
+Author{8}{Email}#=%=#mingzhou@microsoft.com
+Author{8}{Affiliation}#=%=#microsoft research asia
+
+==========

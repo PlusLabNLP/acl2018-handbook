@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1195
+FinalPaperTitle#=%=#Synchronous Double-channel Recurrent Network for Aspect-Opinion Pair Extraction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shaowei Chen
+JobTitle#==#
+Organization#==#Nankai University, Tianjin, China
+Abstract#==#Opinion entity extraction is a fundamental task in fine-grained opinion mining. Related studies generally extract aspects and/or opinion expressions without recognizing the relations between them. However, the relations are crucial for downstream tasks, including sentiment classification, opinion summarization, etc. In this paper, we explore Aspect-Opinion Pair Extraction (AOPE) task, which aims at extracting aspects and opinion expressions in pairs. To deal with this task, we propose Synchronous Double-channel Recurrent Network (SDRN) mainly consisting of an opinion entity extraction unit, a relation detection unit, and a synchronization unit. The opinion entity extraction unit and the relation detection unit are developed as two channels to extract opinion entities and relations simultaneously. Furthermore, within the synchronization unit, we design Entity Synchronization Mechanism (ESM) and Relation Synchronization Mechanism (RSM) to enhance the mutual benefit on the above two channels. To verify the performance of SDRN, we manually build three datasets based on SemEval 2014 and 2015 benchmarks. Extensive experiments demonstrate that SDRN achieves state-of-the-art performances.
+Author{1}{Firstname}#=%=#Shaowei
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Username}#=%=#chenshaowei
+Author{1}{Email}#=%=#chenshaowei0507@163.com
+Author{1}{Affiliation}#=%=#Nankai University
+Author{2}{Firstname}#=%=#Jie
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Username}#=%=#nkjieliu
+Author{2}{Email}#=%=#jliu@nankai.edu.cn
+Author{2}{Affiliation}#=%=#Nankai University
+Author{3}{Firstname}#=%=#Yu
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Username}#=%=#wywy
+Author{3}{Email}#=%=#wy13642009973@163.com
+Author{3}{Affiliation}#=%=#Nankai University
+Author{4}{Firstname}#=%=#Wenzheng
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Username}#=%=#ramonzhang
+Author{4}{Email}#=%=#ramon_zh@163.com
+Author{4}{Affiliation}#=%=#Nankai University
+Author{5}{Firstname}#=%=#Ziming
+Author{5}{Lastname}#=%=#Chi
+Author{5}{Username}#=%=#zimingchi
+Author{5}{Email}#=%=#zimingchi@163.com
+Author{5}{Affiliation}#=%=#Nankai University
+
+==========

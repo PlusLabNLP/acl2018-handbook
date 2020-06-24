@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#A Crash Course in Automatic Grammatical Error Correction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Grammatical Error Correction (GEC) is the task of automatically detecting and correcting all types of errors in written text. Although most research has focused on correcting errors in the context of English as a Second Language (ESL), GEC can also be applied to other languages and native text.
+
+Academic and commercial interest in GEC has grown significantly since the Helping Our Own (HOO) and Conference on Natural Language Learning (CoNLL) shared tasks in 2011-14, and a record-breaking 24 teams took part in the recent Building Educational Application (BEA) shared task. Given this interest, and recent shift towards neural approaches, we believe the time is right to offer a tutorial on GEC for researchers who may be new to the field or who are interested in the current state of the art and future challenges.
+
+With this in mind, the main goal of this tutorial will be to not only bring attendees up to speed with GEC in general, but also examine a state-of-the-art system that exemplifies the cutting-edge of GEC system development.
+Author{1}{Firstname}#=%=#Roman
+Author{1}{Lastname}#=%=#Grundkiewicz
+Author{1}{Username}#=%=#romang
+Author{1}{Email}#=%=#rgrundki@inf.ed.ac.uk
+Author{1}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#Christopher
+Author{2}{Lastname}#=%=#Bryant
+Author{2}{Username}#=%=#chrisb
+Author{2}{Email}#=%=#cjb255@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Mariano
+Author{3}{Lastname}#=%=#Felice
+Author{3}{Username}#=%=#mariano.felice
+Author{3}{Email}#=%=#mariano.felice@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

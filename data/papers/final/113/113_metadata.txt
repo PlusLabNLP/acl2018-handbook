@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#113
+FinalPaperTitle#=%=#Automatic Generation of Citation Texts in Scholarly Papers: A Pilot Study
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Xinyu Xing
+JobTitle#==#
+Organization#==#Peking University, Beijing, China
+Abstract#==#In this paper, we study the challenging problem of automatic generation of citation texts in scholarly papers. Given the context of a citing paper A and a cited paper B, the task aims to generate a short text to describe B in the given context of A. One big challenge for addressing this task is the lack of training data. Usually, explicit citation texts are easy to extract, but it is not easy to extract implicit citation texts from scholarly papers. We thus first train an implicit citation extraction model based on BERT and leverage the model to construct a large training dataset for the citation text generation task. Then we propose and train a multi-source pointer-generator network with cross attention mechanism for citation text generation. Empirical evaluation results on a manually labeled test dataset verify the efficacy of our model. This pilot study confirms the feasibility of automatically generating citation texts in scholarly papers and the technique has the great potential to help researchers prepare their scientific papers.
+Author{1}{Firstname}#=%=#Xinyu
+Author{1}{Lastname}#=%=#Xing
+Author{1}{Username}#=%=#xingxinyu
+Author{1}{Email}#=%=#xingxinyu@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Xiaosheng
+Author{2}{Lastname}#=%=#Fan
+Author{2}{Username}#=%=#xsfan
+Author{2}{Email}#=%=#1600012816@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Xiaojun
+Author{3}{Lastname}#=%=#Wan
+Author{3}{Username}#=%=#wanxiaojun
+Author{3}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

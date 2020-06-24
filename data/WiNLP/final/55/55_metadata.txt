@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Mapping of Narrative Text Fields To ICD-10 Codes Using Natural Language Processing and Machine Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Risuna Nkolele
+JobTitle#==#
+Organization#==#University of the Witwatersrand, South Africa
+Abstract#==#The assignment of  ICD-10  codes is done manually,  which is laborious and prone to errors.  The use of natural language processing and machine learning approaches have been receiving increasing attention on automating the task of assigning ICD-10 codes. In this study, we investigate the effect of different approaches on automating the task of assigning ICD-10 codes.   To do this we use the South African clinical dataset containing three narrative text fields (Clinical Summary, Presenting Complaints, and Examination Findings). The following traditional machine learning algorithms, namely: Logistic Regression,  Multinomial Naive Bayes,  Support Vector Machine,  Decision Tree,  RandomForest, and Extreme Gradient Boost were used as our classifiers. Our study results show the strong potential of automated ICD-10 coding from the narrative text fields. ExtremeGradient Boost outperformed other classifiers in automating the task of assigning ICD-10 codes based on the three narrative text fields with an accuracy of 79%, precision of75%, and recall of 78%. While our worst classifier (Decision Tree) achieved the accuracy of 54%, precision of 60% and recall of 56%.
+Author{1}{Firstname}#=%=#Risuna
+Author{1}{Lastname}#=%=#Nkolele
+Author{1}{Username}#=%=#risuna
+Author{1}{Email}#=%=#risunawisdom@gmail.com
+Author{1}{Affiliation}#=%=#University of the Witwatersrand
+
+==========

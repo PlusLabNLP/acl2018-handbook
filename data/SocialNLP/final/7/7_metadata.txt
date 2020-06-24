@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Stance Prediction for Contemporary Issues: Data and Experiments
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Marjan Hosseinia
+JobTitle#==#
+Organization#==#University of Houston, 4800 Calhoun Rd, Houston, TX 77004
+Abstract#==#We investigate whether pre-trained bidirectional transformers with sentiment and emotion information improve stance detection in long discussions of contemporary issues.  As a part of this work, we create a novel stance detection dataset covering 419 different controversial issues and their related pros and cons collected by procon.org in nonpartisan format. Experimental results show that a shallow recurrent neural network with sentiment or emotion information can reach competitive results compared to fine-tuned BERT with 20x fewer parameters. We also use a simple approach that explains which input phrases contribute to stance detection.
+Author{1}{Firstname}#=%=#Marjan
+Author{1}{Lastname}#=%=#Hosseinia
+Author{1}{Username}#=%=#ma.hosseinia
+Author{1}{Email}#=%=#ma.hosseinia@gmail.com
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Eduard
+Author{2}{Lastname}#=%=#Dragut
+Author{2}{Username}#=%=#edragut
+Author{2}{Email}#=%=#edragut@temple.edu
+Author{2}{Affiliation}#=%=#Temple University
+Author{3}{Firstname}#=%=#Arjun
+Author{3}{Lastname}#=%=#Mukherjee
+Author{3}{Username}#=%=#arjun4787
+Author{3}{Email}#=%=#arjun@cs.uh.edu
+Author{3}{Affiliation}#=%=#University of Houston
+
+==========

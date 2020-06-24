@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#2049
+FinalPaperTitle#=%=#TXtract: Taxonomy-Aware Knowledge Extraction for Thousands of Product Categories
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Giannis Karamanolakis
+JobTitle#==#
+Organization#==#Columbia University; New York, NY, 10027
+Abstract#==#Extracting structured knowledge from product profiles is crucial for various applications in e-Commerce. State-of-the-art approaches for knowledge extraction were each designed for a single category of product, and thus do not apply to real-life e-Commerce scenarios, which often contain thousands of diverse categories. This paper proposes TXtract, a taxonomy-aware knowledge extraction model that applies to thousands of product categories organized in a hierarchical taxonomy. Through category conditional self-attention and multi-task learning, our approach is both scalable, as it trains a single model for thousands of categories, and effective, as it extracts category-specific attribute values. Experiments on products from a taxonomy with 4,000 categories show that TXtract outperforms state-of-the-art approaches by up to 10% in F1 and 15% in coverage across all categories.
+Author{1}{Firstname}#=%=#Giannis
+Author{1}{Lastname}#=%=#Karamanolakis
+Author{1}{Username}#=%=#gkaraman
+Author{1}{Email}#=%=#gkaraman@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Jun
+Author{2}{Lastname}#=%=#Ma
+Author{2}{Username}#=%=#junmaa
+Author{2}{Email}#=%=#ma_jun_21@hotmail.com
+Author{2}{Affiliation}#=%=#Amazon
+Author{3}{Firstname}#=%=#Xin Luna
+Author{3}{Lastname}#=%=#Dong
+Author{3}{Username}#=%=#lunadong
+Author{3}{Email}#=%=#lunadong@amazon.com
+Author{3}{Affiliation}#=%=#Amazon
+
+==========
