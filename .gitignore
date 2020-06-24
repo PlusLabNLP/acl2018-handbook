@@ -16,7 +16,10 @@ handbook.run.xml
 handbook.bbl
 handbook.blg
 handbook.toc
+handbook.fdb_latexmk
+handbook.ilg
 handbook*pdf
+*.synctex.gz
 *.pyc
 *.swp
 *.log
