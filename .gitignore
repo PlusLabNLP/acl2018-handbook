@@ -32,4 +32,6 @@ data_original
 *.pdf
 # do not stage zip files in data/*/final/*.zip
 *.zip
+# do not stage tgz proceedings.tgz files in data/*/
+proceedings.tgz
 draft
