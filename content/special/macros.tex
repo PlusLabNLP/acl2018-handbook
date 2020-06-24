@@ -289,6 +289,9 @@
   \end{minipage}\vspace{1mm}\\\nopagebreak%
   \noindent{\small\input{auto/abstracts/#5}}\par}
 
+\newcommand{\tutorialabstract}[5]{%
+  \noindent{\small\input{auto/abstracts/#5}}\par}
+
 \newcommand{\TutorialCoverPage}[4]{%
 \vspace*{.25in}
 % #1 Tutorial Number
@@ -432,12 +435,13 @@ Human Language Technologies}\par
 
 \newcounter{WorkshopCounter}
 
-\newenvironment{tutorial}[4]{%
+\newenvironment{tutorial}[5]{%
   \stepcounter{TutorialCounter}
   % #1 short title
   % #2 tutorial bibtex ID
   % #3 date and time
   % #4 location
+  % #5 level
 
   % Cannot get \papertitle to expand
   \section[\textbf{T\theTutorialCounter:} {#1}]{Tutorial \theTutorialCounter}
@@ -445,6 +449,7 @@ Human Language Technologies}\par
     \begin{Large}
       \bfseries \papertitle{#2}\\ \vspace{2em}\par
     \end{Large}
+    #5\par
     {\itshape \tutorialauthors{#2}}\vspace{1em}\par
     #3 \vspace{1em}\\
     #4
