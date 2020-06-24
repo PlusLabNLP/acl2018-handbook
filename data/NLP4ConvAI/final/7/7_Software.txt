@@ -1,1 +1,0 @@
-We have cleaned up the python code to implement our methods. It is still under review by Amazon internal legal team, and will be uploaded after getting approved. 
