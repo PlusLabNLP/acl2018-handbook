@@ -10,6 +10,7 @@ Use script to automatically:
 Dependencies:
     pip install lxml
     pip install requests
+    pip install pyyaml
 
 Usage:
     python3 scripts/retrieve_tacl_entries.py
@@ -71,13 +72,26 @@ for line in open(args.order_file_path):
         line_content = line[2:]
         if line_content.split(' ')[0] == '[TACL]':
             # TACL entries
-            tacl_entries.append(extract_json_from_line(line_content))
+            # Remove duplicated entries with the same author and title
+            infojson = extract_json_from_line(line_content)
+            duplication_flag = False
+            for candidate in tacl_entries:
+                if infojson['author_str'] == candidate['author_str'] and infojson['title'] == candidate['title']:
+                    duplication_flag = True
+            if not duplication_flag:
+                tacl_entries.append(infojson)
         elif line_content.split(' ')[0] == '[CL]':
             # CL entries
-            cl_entries.append(extract_json_from_line(line_content))
+            infojson = extract_json_from_line(line_content)
+            duplication_flag = False
+            for candidate in cl_entries:
+                if infojson['author_str'] == candidate['author_str'] or infojson['title'] == candidate['title']:
+                    duplication_flag = True
+            if not duplication_flag:
+                cl_entries.append(infojson)
 
-print('Extracted TACL Entries #: %d' % len(tacl_entries))
-print('Extracted CL Entries #:   %d' % len(cl_entries))
+print('Extracted TACL Entries #: %d' % len(tacl_entries)) # 62 before remove duplication
+print('Extracted CL Entries #:   %d' % len(cl_entries))   # 14 before remove duplication
 # print(tacl_entries)
 # print(cl_entries)
 
