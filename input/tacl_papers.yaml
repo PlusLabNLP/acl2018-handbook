@@ -1,0 +1,473 @@
+- abstract: Abstract meaning representation (AMR)-to-text generation is the challenging
+    task of generating natural language texts from AMR graphs, where nodes represent
+    concepts and edges denote relations. The current state-of-the-art methods use
+    graph-to-sequence models; however, they still cannot significantly outperform
+    the previous sequence-to-sequence models or statistical approaches. In this paper,
+    we propose a novel graph-to-sequence model (Graph Transformer) to address the
+    above-mentioned task. The model directly encodes the AMR graphs and learns the
+    node representations. A pairwise interaction function is used for computing the
+    semantic relations between the concepts. Moreover, attention mechanisms are employed
+    for aggregating the information from the incoming and outgoing neighbors, which
+    help the model to capture the semantic information effectively. Our model outperforms
+    the state-of-the-art neural approach by 1.5 BLEU points on LDC2015E86 and 4.8
+    BLEU points on LDC2017T10 and achieves new state-of-the-art performances.
+  author_str: Tianming Wang, Xiaojun Wan, Hanqi Jin
+  authors: Tianming Wang and Xiaojun Wan and Hanqi Jin
+  id: tacl-1805
+  source: retrieve_tacl_entries script
+  title: '[TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang,
+    Xiaojun Wan, Hanqi Jin'
+  title_str: AMR-To-Text Generation with Graph Transformer
+  url: https://transacl.org/index.php/tacl/article/view/1805
+  volume: Vol 8 (2020)
+- abstract: "Data privacy is an important issue for \"machine learning as a service\"\
+    \ providers. We focus on the problem of membership inference attacks: given a\
+    \ data sample and black-box access to a model's API, determine whether the sample\
+    \ existed in the model's training data. Our contribution is an investigation of\
+    \ this problem in the context of sequence-to-sequence models, which are important\
+    \ in applications such as machine translation and video captioning.\_We define\
+    \ the membership inference problem for sequence generation, provide an open dataset\
+    \ based on state-of-the-art machine translation models, and report initial results\
+    \ on whether these models leak private information against several kinds of membership\
+    \ inference attacks.\_"
+  author_str: Sorami Hisamoto, Matt Post, Kevin Duh
+  authors: Sorami Hisamoto and Matt Post and Kevin Duh
+  id: tacl-1779
+  source: retrieve_tacl_entries script
+  title: '[TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My
+    Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin
+    Duh'
+  title_str: 'Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data
+    In Your Machine Translation System?'
+  url: https://transacl.org/index.php/tacl/article/view/1779
+  volume: Vol 8 (2020)
+- abstract: We present SpanBERT, a pre-training method that is designed to better
+    represent and predict spans of text. Our approach extends BERT by (1) masking
+    contiguous random spans, rather than random tokens, and (2) training the span
+    boundary representations to predict the entire content of the masked span, without
+    relying on the individual token representations within it. SpanBERT consistently
+    outperforms BERT and our better-tuned baselines, with substantial gains on span
+    selection tasks such as question answering and coreference resolution. In particular,
+    with the same training data and model size as BERT-Large, our single model obtains
+    94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state
+    of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance
+    on the TACRED relation extraction benchmark, and even gains on GLUE.
+  author_str: Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer,
+    Omer Levy
+  authors: Mandar Joshi and Danqi Chen and Yinhan Liu and Daniel S. Weld and Luke
+    Zettlemoyer and Omer Levy
+  id: tacl-1853
+  source: retrieve_tacl_entries script
+  title: '[TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans
+    %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer
+    Levy'
+  title_str: 'SpanBERT: Improving Pre-training by Representing and Predicting Spans'
+  url: https://transacl.org/index.php/tacl/article/view/1853
+  volume: Vol 8 (2020)
+- abstract: Chinese word segmentation and dependency parsing are two fundamental tasks
+    for Chinese natural language processing. The dependency parsing is defined on
+    word-level. Therefore, word segmentation is the precondition of dependency parsing,
+    which makes dependency parsing suffer from error propagation and unable to directly
+    make use of the character-level pre-trained language model (such as BERT). In
+    this paper, we propose a graph-based model to integrate Chinese word segmentation
+    and dependency parsing. Different from previous transition-based joint models,
+    our proposed model is more concise, which results in fewer efforts of feature
+    engineering. Our graph-based joint model achieves better performance than previous
+    joint models and state-of-the-art results in both Chinese word segmentation and
+    dependency parsing. Besides, when BERT is combined, our model can substantially
+    reduce the performance gap of dependency parsing between joint models and gold-segmented
+    word-based models. Our code is publicly available at https://github.com/fastnlp/JointCwsParser.
+  author_str: Hang Yan, Xipeng Qiu, Xuanjing Huang
+  authors: Hang Yan and Xipeng Qiu and Xuanjing Huang
+  id: tacl-1876
+  source: retrieve_tacl_entries script
+  title: '[TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency
+    Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang'
+  title_str: A Graph-based Model for Joint Chinese Word Segmentation and Dependency
+    Parsing
+  url: https://transacl.org/index.php/tacl/article/view/1876
+  volume: Vol 8 (2020)
+- abstract: "Story generation, namely generating a reasonable story from a leading\
+    \ context, is an important but challenging task. In spite of the success in modeling\
+    \ \uFB02uency and local coherence, existing neural language generation models\
+    \ (e.g., GPT-2) still suffer from repetition, logic con\uFB02icts, and lack of\
+    \ long-range coherence in generated stories. We conjecture that this is because\
+    \ of the dif\uFB01culty of associating relevant commonsense knowledge, understanding\
+    \ the causal relationships, and planning entities and events with proper temporal\
+    \ order. In this paper, we devise a knowledge-enhanced pretraining model for commonsense\
+    \ story generation. We propose to utilize commonsense knowledge from external\
+    \ knowledge bases to generate reasonable stories. To further capture the causal\
+    \ and temporal dependencies between the sentences in a reasonable story, we employ\
+    \ multi-task learning which combines a discriminative objective to distinguish\
+    \ true and fake stories during \uFB01ne-tuning. Automatic and manual evaluation\
+    \ shows that our model can generate more reasonable stories than state-of-the-art\
+    \ baselines, particularly in terms of logic and global coherence."
+  author_str: Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
+  authors: Jian Guan and Fei Huang and Minlie Huang and Zhihao Zhao and Xiaoyan Zhu
+  id: tacl-1886
+  source: retrieve_tacl_entries script
+  title: '[TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation
+    %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu'
+  title_str: A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation
+  url: https://transacl.org/index.php/tacl/article/view/1886
+  volume: Vol 8 (2020)
+- abstract: 'Cross-lingual entity linking (XEL) is the task of finding referents in
+    a target-language knowledge base (KB) for mentions extracted from source-language
+    texts. The first step of (X)EL is candidate generation, which retrieves a list
+    of plausible candidate entities from the target-language KB for each mention.
+    Approaches based on resources from Wikipedia have proven successful in the realm
+    of relatively high-resource languages (HRL), but these do not extend well to low-resource
+    languages (LRL) with few, if any, Wikipedia pages. Recently, transfer learning
+    methods have been shown to reduce the demand for resources in the LRL by utilizing
+    resources in closely-related languages, but the performance still lags far behind
+    their high-resource counterparts. In this paper, we first assess the problems
+    faced by current entity candidate generation methods for low-resource XEL, then
+    propose three improvements that (1) reduce the disconnect between entity mentions
+    and KB entries, and (2) improve the robustness of the model to low-resource scenarios.
+    The methods are simple, but effective: we experiment with our approach on seven
+    XEL datasets and find that they yield an average gain of 16.9% in Top-30 gold
+    candidate recall, compared to state-of-the-art baselines. Our improved model also
+    yields an average gain of 7.9% in in-KB accuracy of end-to-end XEL.'
+  author_str: Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham
+    Neubig
+  authors: Shuyan Zhou and Shruti Rijhwani and John Wieting and Jaime Carbonell and
+    Graham Neubig
+  id: tacl-1906
+  source: retrieve_tacl_entries script
+  title: '[TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity
+    Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham
+    Neubig'
+  title_str: Improving Candidate Generation for Low-resource Cross-lingual Entity
+    Linking
+  url: https://transacl.org/index.php/tacl/article/view/1906
+  volume: Vol 8 (2020)
+- abstract: Learners that are exposed to the same training data might generalize differently
+    due to differing inductive biases. In neural network models, inductive biases
+    could in theory arise from any aspect of the model architecture. We investigate
+    which architectural factors affect the generalization behavior of neural sequence-to-sequence
+    models trained on two syntactic tasks, English question formation and English
+    tense reinflection. For both tasks, the training set is consistent with a generalization
+    based on hierarchical structure and a generalization based on linear order. All
+    architectural factors that we investigated qualitatively affected how models generalized,
+    including factors with no clear connection to hierarchical structure. For example,
+    LSTMs and GRUs displayed qualitatively different inductive biases. However, the
+    only factor that consistently contributed a hierarchical bias across tasks was
+    the use of a tree-structured model rather than a model with sequential recurrence,
+    suggesting that human-like syntactic generalization requires architectural syntactic
+    structure.
+  author_str: R. Thomas McCoy, Robert Frank, Tal Linzen
+  authors: R. Thomas McCoy and Robert Frank and Tal Linzen
+  id: tacl-1892
+  source: retrieve_tacl_entries script
+  title: '[TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive
+    Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen'
+  title_str: Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive
+    Bias in Sequence-to-Sequence Networks
+  url: https://transacl.org/index.php/tacl/article/view/1892
+  volume: Vol 8 (2020)
+- abstract: Machine reading comprehension tasks require a machine reader to answer
+    questions relevant to the given document. In this paper, we present the first
+    free-form multiple-Choice Chinese machine reading Comprehension dataset (C^3),
+    containing 13,369 documents (dialogues or more formally written mixed-genre texts)
+    and their associated 19,577 multiple-choice free-form questions collected from
+    Chinese-as-a-second-language examinations.
+  author_str: Kai Sun, Dian Yu, Dong Yu, Claire Cardie
+  authors: Kai Sun and Dian Yu and Dong Yu and Claire Cardie
+  id: tacl-1882
+  source: retrieve_tacl_entries script
+  title: '[TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading
+    Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie'
+  title_str: Investigating Prior Knowledge for Challenging Chinese Machine Reading
+    Comprehension
+  url: https://transacl.org/index.php/tacl/article/view/1882
+  volume: Vol 8 (2020)
+- abstract: Target-dependent sentiment analysis (TDSA) aims to classify the sentiment
+    of a text towards a given target. The major challenge of this task lies in modeling
+    the semantic relatedness between a target and its context sentence. This paper
+    proposes a novel Target-Guided Structured Attention Network (TG-SAN), which captures
+    target-related contexts for TDSA in a fine-to-coarse manner. Given a target and
+    its context sentence, the proposed TG-SAN first identifies multiple semantic segments
+    from the sentence using a target-guided structured attention mechanism. It then
+    fuses the extracted segments based on their relatedness with the target for sentiment
+    classification. We present comprehensive comparative experiments on three benchmarks
+    with three major findings. Firstly, TG-SAN outperforms the state-of-the-art by
+    up to 1.61% and 3.58% in terms of accuracy and Marco-F1 respectively. Secondly,
+    it shows a strong advantage in determining the sentiment of a target when the
+    context sentence contains multiple semantic segments. Lastly, the attention results
+    produced by TG-SAN are highly interpretable as visualization results shown.
+  author_str: Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
+  authors: Ji Zhang and Chengyao Chen and Pengfei Liu and Chao He and Cane Wing-Ki
+    Leung
+  id: tacl-1843
+  source: retrieve_tacl_entries script
+  title: '[TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment
+    Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung'
+  title_str: Target-Guided Structured Attention Network for Target-dependent Sentiment
+    Analysis
+  url: https://transacl.org/index.php/tacl/article/view/1843
+  volume: Vol 8 (2020)
+- abstract: Understanding natural language questions entails the ability to break
+    down a question into the requisite steps for computing its answer. In this work,
+    we introduce a Question Decomposition Meaning Representation (QDMR) for questions.
+    QDMR constitutes the ordered list of steps, expressed through natural language,
+    that are necessary for answering a question. We develop a crowdsourcing pipeline,
+    showing that quality QDMRs can be annotated at scale, and release the Break dataset,
+    containing over 83K pairs of questions and their QDMRs.
+  author_str: Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel
+    Deutch, Jonathan Berant
+  authors: Tomer Wolfson and Mor Geva and Ankit Gupta and Yoav Goldberg and Matt Gardner
+    and Daniel Deutch and Jonathan Berant
+  id: tacl-1845
+  source: retrieve_tacl_entries script
+  title: '[TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson,
+    Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant'
+  title_str: 'Break It Down: A Question Understanding Benchmark'
+  url: https://transacl.org/index.php/tacl/article/view/1845
+  volume: Vol 8 (2020)
+- abstract: "Humans rarely perform better than chance at lie detection. To better\
+    \ understand human perception of deception, we created a game framework, LieCatcher,\
+    \ to collect ratings of perceived deception using a large corpus of deceptive\
+    \ and truthful interviews. We analyzed the acoustic-prosodic and linguistic characteristics\
+    \ of language trusted and mistrusted by raters and compared these to characteristics\
+    \ of actual truthful and deceptive language to understand how perception aligns\
+    \ with reality. With this data we built classifiers to automatically distinguish\
+    \ trusted from mistrusted speech, \_achieving an F1 of 66.1%.\_ We next evaluated\
+    \ whether the strategies raters said they used to discriminate between truthful\
+    \ and deceptive responses were in fact useful. Our results show that, while several\
+    \ prosodic and lexical features were consistently perceived as trustworthy, they\
+    \ were not reliable cues.\_ Also, the strategies that judges reported using in\
+    \ deception detection were not helpful for the task. Our work sheds light on the\
+    \ nature of trusted language and provides insight into the challenging problem\
+    \ of human deception detection."
+  author_str: Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic,
+    Julia Hirschberg
+  authors: Xi (Leslie) Chen and Sarah Ita Levitan and Michelle Levine and Marko Mandic
+    and Julia Hirschberg
+  id: tacl-1834
+  source: retrieve_tacl_entries script
+  title: '[TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering
+    How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine,
+    Marko Mandic, and Julia Hirschberg'
+  title_str: 'Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering
+    How People Detect Lies'
+  url: https://transacl.org/index.php/tacl/article/view/1834
+  volume: Vol 8 (2020)
+- abstract: In this paper, we introduce an unsupervised discourse constituency parsing
+    algorithm. We use Viterbi EM with a margin-based criterion to train a span-based
+    discourse parser in an unsupervised manner. We also propose initialization methods
+    for Viterbi training of discourse constituents based on our prior knowledge of
+    text structures. Experimental results demonstrate that our unsupervised parser
+    achieves comparable or even superior performance to fully supervised parsers.
+    We also investigate discourse constituents that are learned by our method.
+  author_str: Noriki Nishida, Hideki Nakayama
+  authors: Noriki Nishida and Hideki Nakayama
+  id: tacl-1811
+  source: retrieve_tacl_entries script
+  title: '[TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by
+    Noriki Nishida, Hideki Nakayama'
+  title_str: Unsupervised Discourse Constituency Parsing Using Viterbi EM
+  url: https://transacl.org/index.php/tacl/article/view/1811
+  volume: Vol 8 (2020)
+- abstract: Recent years have seen a growing interest within the natural language
+    processing (NLP) community in evaluating the ability of semantic models to capture
+    human meaning representation in the brain. Existing research has mainly focused
+    on applying semantic models to decode brain activity patterns associated with
+    the meaning of individual words, and, more recently, this approach has been extended
+    to sentences and larger text fragments. Our work is the first to investigate metaphor
+    processing in the brain in this context. We evaluate a range of semantic models
+    (word embeddings, compositional, and visual models) in their ability to decode
+    brain activity associated with reading of both literal and metaphoric sentences.
+    Our results suggest that compositional models and word embeddings are able to
+    capture differences in the processing of literal and metaphoric sentences, providing
+    support for the idea that the literal meaning is not fully accessible during familiar
+    metaphor comprehension.
+  author_str: Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
+  authors: Vesna G. Djokic and Jean Maillard and Luana Bulat and Ekaterina Shutova
+  id: tacl-1912
+  source: retrieve_tacl_entries script
+  title: '[TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence
+    Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard,
+    Luana Bulat, Ekaterina Shutova'
+  title_str: Decoding Brain Activity Associated with Literal and Metaphoric Sentence
+    Comprehension using Distributional Semantic Models
+  url: https://transacl.org/index.php/tacl/article/view/1912
+  volume: Vol 8 (2020)
+- abstract: We describe a method for rapidly creating language proficiency assessments,
+    and provide experimental evidence that such tests can be valid, reliable, and
+    secure. Our approach is the first to use machine learning and natural language
+    processing to induce proficiency scales based on a given standard, and then use
+    linguistic models to estimate item difficulty directly for computer-adaptive testing.
+    This alleviates the need for expensive pilot testing with human subjects. We used
+    these methods to develop an online proficiency exam called the Duolingo English
+    Test, and demonstrate that its scores align significantly with other high-stakes
+    English assessments. Furthermore, our approach produces test scores that are highly
+    reliable, while generating item banks large enough to satisfy security requirements.
+  author_str: Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
+  authors: Burr Settles and Masato Hagiwara and Geoffrey T. LaFlair
+  id: tacl-1743
+  source: retrieve_tacl_entries script
+  title: '[TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato
+    Hagiwara, Geoffrey T. LaFlair'
+  title_str: Machine Learning Driven Language Assessment
+  url: https://transacl.org/index.php/tacl/article/view/1743
+  volume: Vol 8 (2020)
+- abstract: Unsupervised pre-training of large neural models has recently revolutionized
+    Natural Language Processing. By warm-starting from the publicly released checkpoints,
+    NLP practitioners have pushed the state-of-the-art on multiple benchmarks while
+    saving significant amounts of compute time. So far the focus has been mainly on
+    the Natural Language Understanding tasks. In this paper, we demonstrate the efficacy
+    of pre-trained checkpoints for Sequence Generation. We developed a Transformer-based
+    sequence-to-sequence model that is compatible with publicly available pre-trained
+    BERT, GPT-2 and RoBERTa checkpoints and conducted an extensive empirical study
+    on the utility of initializing our model, both encoder and decoder, with these
+    checkpoints. Our models result in new state-of-the-art results on Machine Translation,
+    Text Summarization, Sentence Splitting, and Sentence Fusion.
+  author_str: Sascha Rothe, Shashi Narayan, Aliaksei Severyn
+  authors: Sascha Rothe and Shashi Narayan and Aliaksei Severyn
+  id: tacl-1849
+  source: retrieve_tacl_entries script
+  title: '[TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks
+    %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn'
+  title_str: Leveraging Pre-trained Checkpoints for Sequence Generation Tasks
+  url: https://transacl.org/index.php/tacl/article/view/1849
+  volume: Vol 8 (2020)
+- abstract: To advance multi-domain (cross-domain) dialogue modeling as well as alleviate
+    the shortage of Chinese task-oriented datasets, we propose CrossWOZ, the first
+    large-scale Chinese Cross-Domain Wizard-of-Oz task-oriented dataset. It contains
+    6K dialogue sessions and 102K utterances for 5 domains, including hotel, restaurant,
+    attraction, metro, and taxi. Moreover, the corpus contains rich annotation of
+    dialogue states and dialogue acts at both user and system sides. About 60% of
+    the dialogues have cross-domain user goals that favor inter-domain dependency
+    and encourage natural transition across domains in conversation. We also provide
+    a user simulator and several benchmark models for pipelined task-oriented dialogue
+    systems, which will facilitate researchers to compare and evaluate their models
+    on this corpus. The large size and rich annotation of CrossWOZ make it suitable
+    to investigate a variety of tasks in cross-domain dialogue modeling, such as dialogue
+    state tracking, policy learning, user simulation, etc.
+  author_str: Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
+  authors: Qi Zhu and Kaili Huang and Zheng Zhang and Xiaoyan Zhu and Minlie Huang
+  id: tacl-1901
+  source: retrieve_tacl_entries script
+  title: '[TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue
+    Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang'
+  title_str: 'CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue
+    Dataset'
+  url: https://transacl.org/index.php/tacl/article/view/1901
+  volume: Vol 8 (2020)
+- abstract: We study the influence of context on sentence acceptability.
+  author_str: Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom
+    Lappin
+  authors: Jey Han Lau and Carlos Santos Armendariz and Matthew Purver and Chang Shu
+    and Shalom Lappin
+  id: tacl-1915
+  source: retrieve_tacl_entries script
+  title: '[TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability
+    in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu,
+    Shalom Lappin'
+  title_str: How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability
+    in Context
+  url: https://transacl.org/index.php/tacl/article/view/1915
+  volume: Vol 8 (2020)
+- abstract: In this paper, we propose LexSub, a novel approach towards unifying lexical
+    and distributional semantics. We inject knowledge about lexical-semantic relations
+    into distributional word embeddings by defining subspaces of the distributional
+    vector space in which a lexical relation should hold. Our framework can handle
+    symmetric attract and repel relations (e.g., synonymy and antonymy, respectively),
+    as well as asymmetric relations (e.g., hypernymy and meronomy). In a suite of
+    intrinsic benchmarks, we show that our model outperforms previous approaches on
+    relatedness tasks and on hypernymy classification and detection, while being competitive
+    on word similarity tasks. It also outperforms previous systems on extrinsic classification
+    tasks that benefit from exploiting lexical relational cues. We perform a series
+    of analyses to understand the behaviors of our model.
+  author_str: Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
+  authors: Kushal Arora and Aishik Chakraborty and Jackie Chi Kit Cheung
+  id: tacl-1903
+  source: retrieve_tacl_entries script
+  title: '[TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal
+    Arora, Aishik Chakraborty, Jackie Chi Kit Cheung'
+  title_str: Learning Lexical Subspaces in a Distributional Vector Space
+  url: https://transacl.org/index.php/tacl/article/view/1903
+  volume: Vol 8 (2020)
+- abstract: Contextual representation models have achieved great success in improving
+    various downstream natural language processing tasks. However, these language-model-based
+    encoders are difficult to train due to their large parameter size and high computational
+    complexity. By carefully examining the training procedure, we observe that the
+    softmax layer, which predicts a distribution of the target word, often induces
+    significant overhead, especially when the vocabulary size is large. Therefore,
+    we revisit the design of the output layer and consider directly predicting the
+    pre-trained embedding of the target word for a given context. When applied to
+    ELMo, the proposed approach achieves a 4 times speedup and eliminates 80% trainable
+    parameters while achieving competitive performance on downstream tasks. Further
+    analysis shows that the approach maintains the speed advantage under various settings,
+    even when the sentence encoder is scaled up.
+  author_str: Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
+  authors: Liunian Harold Li and Patrick H. Chen and Cho-Jui Hsieh and Kai-Wei Chang
+  id: tacl-1766
+  source: retrieve_tacl_entries script
+  title: '[TACL] Efficient Contextual Representation Learning With Continuous Outputs
+    %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang'
+  title_str: Efficient Contextual Representation Learning With Continuous Outputs
+  url: https://transacl.org/index.php/tacl/article/view/1766
+  volume: Vol 7 (2019)
+- abstract: "We analyze human\u2019s disagreements about the validity of natural language\
+    \ inferences. We show that, very often, disagreements are not dismissible as annotation\
+    \ \u201Cnoise\u201D, but rather persist as we collect more ratings and as we vary\
+    \ the amount of context provided to raters. We further show that the type of uncertainty\
+    \ captured by current state-of-the-art models for natural language inference is\
+    \ not reflective of the type of uncertainty present in human disagreements. We\
+    \ discuss implications of our results in relation to the recognizing textual entailment\
+    \ (RTE)/natural language inference (NLI) task. We argue for a refined evaluation\
+    \ objective which requires models to explicitly capture the full distribution\
+    \ of plausible human judgments."
+  author_str: Ellie Pavlick, Tom Kwiatkowski
+  authors: Ellie Pavlick and Tom Kwiatkowski
+  id: tacl-1780
+  source: retrieve_tacl_entries script
+  title: '[TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick,
+    Tom Kwiatkowski'
+  title_str: Inherent Disagreements in Human Textual Inferences
+  url: https://transacl.org/index.php/tacl/article/view/1780
+  volume: Vol 7 (2019)
+- abstract: "Neural dependency parsing has proven very effective, achieving state-of-the-art\
+    \ results on numerous domains and languages. Unfortunately, it requires large\
+    \ amounts of labeled data, that is costly and laborious to create. In this paper\
+    \ we propose a self-training algorithm that alleviates this annotation bottleneck\
+    \ by training a parser on its own output. Our Deep Contextualized Self-training\
+    \ (DCST) algorithm utilizes representation models trained on sequence labeling\
+    \ tasks that are derived from the parser\u2019s output when applied to unlabeled\
+    \ data and integrates these models with the base parser through a gating mechanism.\
+    \ We conduct experiments across multiple languages, both in low resource in-domain\
+    \ and in cross-domain setups and demonstrate that DCST substantially outperforms\
+    \ traditional self-training as well as recent semi-supervised training methods."
+  author_str: Guy Rotman, Roi Reichart
+  authors: Guy Rotman and Roi Reichart
+  id: tacl-1801
+  source: retrieve_tacl_entries script
+  title: '[TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing
+    %by Guy Rotman, Roi Reichart'
+  title_str: Deep Contextualized Self-training for Low Resource Dependency Parsing
+  url: https://transacl.org/index.php/tacl/article/view/1801
+  volume: Vol 7 (2019)
+- abstract: Many natural language processing tasks require discriminating the particular
+    meaning of a word in context, but building corpora for developing sense-aware
+    models can be a challenge. We present a large resource of example usages for words
+    having a particular meaning, called Paraphrase-Sense-Tagged Sentences (PSTS).
+    Built upon the premise that a word's paraphrases instantiate its fine-grained
+    meanings -- i.e. 'bug' has different meanings corresponding to its paraphrases
+    'fly' and 'microbe' -- the resource contains up to 10,000 sentences for each of
+    3 million target-paraphrase pairs where the target word takes on the meaning of
+    the paraphrase. We describe an automatic method based on bilingual pivoting used
+    to enumerate sentences for PSTS, and present two models for ranking PSTS sentences
+    based on their quality. Finally, we demonstrate the utility of PSTS by using it
+    to build a dataset for the task of hypernym prediction in context. Training a
+    model on this automatically-generated dataset produces accuracy that is competitive
+    with a model trained on smaller datasets crafted with some manual effort.
+  author_str: Anne Cocos, Chris Callison-Burch
+  authors: Anne Cocos and Chris Callison-Burch
+  id: tacl-1756
+  source: retrieve_tacl_entries script
+  title: '[TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch'
+  title_str: Paraphrase-Sense-Tagged Sentences
+  url: https://transacl.org/index.php/tacl/article/view/1756
+  volume: Vol 7 (2019)
+  
