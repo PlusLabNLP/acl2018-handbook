@@ -68,7 +68,7 @@ class Session:
             self.name = self.name[:colonpos]
             self.num = self.name.split(' ')[-1][:-1]
         else:
-            match = re.search("Session (\d+)([a-zA-Z]+)", self.name)  
+            match = re.search("Session (\d+[a-zA-Z]+)", self.name)  
             if match != None:
                 # extract more information from the line
                 # session title like "Vision, Linguistics, Resource and Evaluation (Short)"
