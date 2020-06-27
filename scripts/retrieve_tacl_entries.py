@@ -24,9 +24,10 @@ from collections import defaultdict
 from pybtex.database import parse_file
 from lxml import html
 import requests
+import yaml
 
 PARSER = argparse.ArgumentParser()
-PARSER.add_argument("-output_yaml_file_path", dest="output_dir", default="inputs/tacl_papers.yaml")
+PARSER.add_argument("-output_yaml_file_path", default="input/tacl_papers.yaml")
 PARSER.add_argument("-tacl_bib_folder", default="bibs/TACL")
 PARSER.add_argument("-cl_bib_folder", default="bibs/CL")
 PARSER.add_argument('-order_file_path', default="data/papers/order", help='path of the order file of the main conference')
@@ -38,7 +39,8 @@ cl_entries = []
 def extract_json_from_line(line_content):
     line_title_author = ' '.join(line_content.split(' ')[1:]).split(" %by ")
     infojson = {
-            "title": line_title_author[0],
+            "title": line_content,
+            "title_str": line_title_author[0],
             "author_str": line_title_author[1]
         }
     return infojson
@@ -49,16 +51,17 @@ def look_for_match_and_save_url(bib_path, candidate_entries):
         print('='*20, filename)
         bib_data = parse_file(os.path.join(bib_path, filename))
         for _, entry in bib_data.entries.items():
-            title_this = entry.fields['title']
+            title_this = entry.fields['title_str']
             if 'url' in entry.fields:
                 url_this = entry.fields['url']
             # look for possible match
             for candidate in candidate_entries:
-                if candidate['title'] == title_this:
+                if candidate['title_str'] == title_this:
                     print("=================Match Found=================")
                     print(bib_path, filename, "\n", title_this, "\n", url_this)
                     infojson = {
-                        "title": title_this,
+                        "title": entry.fields['title'],
+                        "title_str": title_this,
                         "author_str": candidate['author_str'],
                         "url": url_this
                     }
@@ -76,7 +79,7 @@ for line in open(args.order_file_path):
             infojson = extract_json_from_line(line_content)
             duplication_flag = False
             for candidate in tacl_entries:
-                if infojson['author_str'] == candidate['author_str'] and infojson['title'] == candidate['title']:
+                if infojson['author_str'] == candidate['author_str'] and infojson['title_str'] == candidate['title_str']:
                     duplication_flag = True
             if not duplication_flag:
                 tacl_entries.append(infojson)
@@ -85,7 +88,7 @@ for line in open(args.order_file_path):
             infojson = extract_json_from_line(line_content)
             duplication_flag = False
             for candidate in cl_entries:
-                if infojson['author_str'] == candidate['author_str'] or infojson['title'] == candidate['title']:
+                if infojson['author_str'] == candidate['author_str'] or infojson['title_str'] == candidate['title_str']:
                     duplication_flag = True
             if not duplication_flag:
                 cl_entries.append(infojson)
@@ -121,12 +124,13 @@ for vol_i, vol_web in enumerate(tacl_web_list):
     assert len(titles) == len(authors)
     for title_i, title in enumerate(titles):
         for candidate_i, candidate in enumerate(tacl_entries):
-            if candidate['title'] == title:
+            if candidate['title_str'] == title:
                 # print("=================Match Found=================")
                 # print(tacl_web_name[vol_i], "\n", title, "\n", urls[title_i])
                 tacl_entries[candidate_i]['found_match'] = 1
                 infojson = {
-                    "title": title,
+                    "title": candidate['title_str'],
+                    "title_str": title.__str__(),
                     "author_str": authors[title_i],
                     "volume": tacl_web_name[vol_i],
                     "url": urls[title_i]
@@ -150,16 +154,24 @@ for i, article in enumerate(matched_tacl_entries):
     authors_article_page = tree.xpath('//div[@id="authorString"]/em/text()')[0]
     # print(title_article_page)
     # print(authors_article_page)
-    assert title_article_page == article['title']
+    assert title_article_page == article['title_str']
     assert authors_article_page == article['author_str']
     try:
         abstract = tree.xpath('//div[@id="articleAbstract"]/div/p/text()')[0]
         # print(abstract)
         infojson = matched_tacl_entries[i]
-        infojson['abstract'] = abstract
+        infojson['abstract'] = abstract.__str__()
+        # some format change
+        infojson['id'] = 'tacl-%s' % article['url'].split('/')[-1]
+        infojson['authors'] = article['author_str'].replace(', ', ' and ')
         matched_tacl_entries_with_abstract.append(infojson)
     except:
         sys.stderr.write('-> Cannot properly extract abstract for paper and skipped: \n%s\n' % article['title'])
         pass
 
 print('TACL entries successfully taken abstract #: %d' % len(matched_tacl_entries_with_abstract))
+# print(matched_tacl_entries_with_abstract)
+
+# Save to YAML file
+with open(args.output_yaml_file_path, 'w') as file:
+    yaml.dump(matched_tacl_entries_with_abstract, file, default_flow_style=False)
