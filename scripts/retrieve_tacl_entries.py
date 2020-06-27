@@ -129,7 +129,7 @@ for vol_i, vol_web in enumerate(tacl_web_list):
                 # print(tacl_web_name[vol_i], "\n", title, "\n", urls[title_i])
                 tacl_entries[candidate_i]['found_match'] = 1
                 infojson = {
-                    "title": candidate['title_str'],
+                    "title": candidate['title'],
                     "title_str": title.__str__(),
                     "author_str": authors[title_i],
                     "volume": tacl_web_name[vol_i],
@@ -163,6 +163,7 @@ for i, article in enumerate(matched_tacl_entries):
         infojson['abstract'] = abstract.__str__()
         # some format change
         infojson['id'] = 'tacl-%s' % article['url'].split('/')[-1]
+        infojson['source'] = 'retrieve_tacl_entries script'
         infojson['authors'] = article['author_str'].replace(', ', ' and ')
         matched_tacl_entries_with_abstract.append(infojson)
     except:
@@ -173,5 +174,6 @@ print('TACL entries successfully taken abstract #: %d' % len(matched_tacl_entrie
 # print(matched_tacl_entries_with_abstract)
 
 # Save to YAML file
+# "title" field should be consistant with order file's paper title
 with open(args.output_yaml_file_path, 'w') as file:
     yaml.dump(matched_tacl_entries_with_abstract, file, default_flow_style=False)
