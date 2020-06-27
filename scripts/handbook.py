@@ -48,7 +48,7 @@ class Paper:
             self.id = '%s-%s' % (subconf, threedigits(self.id))
             
     def __str__(self):
-        return "%s %s" % (id, time)
+        return "%s %s" % (self.id, self.time)
 
 def threedigits(str):
     return '%03d' % (int(str))
@@ -67,6 +67,16 @@ class Session:
             self.desc = self.name[colonpos+2:]
             self.name = self.name[:colonpos]
             self.num = self.name.split(' ')[-1][:-1]
+        else:
+            match = re.search("Session (\d+)([a-zA-Z]+)", self.name)  
+            if match != None:
+                # extract more information from the line
+                # session title like "Vision, Linguistics, Resource and Evaluation (Short)"
+                self.desc = self.name[match.end()+1:]
+                # sessopm name like "Session 5E"
+                self.name = match.group(0)
+                # parallel session number, like "5"
+                self.num = match.group(1)
         # print >> sys.stderr, "LINE %s NAME %s DESC %s" % (line, self.name, self.desc)
 
         self.poster = False
