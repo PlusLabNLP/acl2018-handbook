@@ -470,4 +470,84 @@
   title_str: Paraphrase-Sense-Tagged Sentences
   url: https://transacl.org/index.php/tacl/article/view/1756
   volume: Vol 7 (2019)
-  
+- abstract: Transformers are emerging as the new workhorse of NLP, showing great success across tasks. Unlike LSTMs, transformers process input sequences entirely through self-attention. Previous work has suggested that the computational capabilities of self-attention to process hierarchical structures are limited. In this work, we mathematically investigate the computational power of self-attention to model formal languages. Across both soft and hard attention, we show strong theoretical limitations of the computational abilities of self-attention, finding that it cannot model periodic finite-state languages, nor hierarchical structure, unless the number of layers or heads increases with input length. These limitations seem surprising given the practical success of self-attention and the prominent role assigned to hierarchical structure in linguistics, suggesting that natural language can be approximated well with models that are too weak for the formal languages typically assumed in theoretical linguistics.
+  author_str: Michael Hahn
+  authors: Michael Hahn
+  id: tacl-1815
+  source: manual input from TACL website
+  title: Theoretical Limitations of Self-Attention in Neural Sequence Models
+  title_str: '[TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn'
+  url: https://transacl.org/index.php/tacl/article/view/1815
+  volume: Vol 8 (2020)
+- abstract: Recurrent neural networks (RNNs) reached striking performance in many natural language processing tasks. This has renewed interest in whether these generic sequence processing devices are inducing genuine linguistic knowledge. Nearly all current analytical studies, however, initialize the RNNs with a vocabulary of known words, and feed them tokenized input during training. We present a multi-lingual study of the linguistic knowledge encoded in RNNs trained as character-level language models, on input data with word boundaries removed. These networks face a tougher and more cognitively realistic task, having to discover and store any useful linguistic unit from scratch, based on input statistics. The results show that our "near tabula rasa" RNNs are mostly able to solve morphological, syntactic and semantic tasks that intuitively presuppose word-level knowledge, and indeed they learned to track "soft" word boundaries. Our study opens the door to speculations about the necessity of an explicit word lexicon in language learning and usage.
+  author_str: Michael Hahn, Marco Baroni
+  authors: Michael Hahn and Marco Baroni
+  id: tacl-1709
+  source: manual input from TACL website
+  title: 'Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text'
+  title_str: '[TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni'
+  url: https://transacl.org/index.php/tacl/article/view/1709
+  volume: Vol 7 (2019)
+- abstract: We present a novel semantic framework for modeling linguistic expressions of generalization---generic, habitual, and episodic statements---as combinations of simple, real-valued referential properties of predicates and their arguments. We use this framework to construct a dataset covering the entirety of the Universal Dependencies English Web Treebank. We use this dataset to probe the efficacy of type-level and token-level information---including hand-engineered features and static (GloVe) and contextual (ELMo) word embeddings---for predicting expressions of generalization.
+  author_str: Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
+  authors: Venkata Subrahmanyan Govindarajan and Benjamin Van Durme and Aaron Steven White
+  id: tacl-1720
+  source: manual input from TACL website
+  title: 'Decomposing Generalization: Models of Generic, Habitual and Episodic Statements'
+  title_str: '[TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White'
+  url: https://transacl.org/index.php/tacl/article/view/1720
+  volume: Vol 7 (2019)
+- abstract: The best solution of structured prediction models in NLP is often inaccurate due to limited expressive power of the model or to non-exact parameter estimation. One way to mitigate this problem is sampling candidate solutions from the model's solution space, reasoning that effective exploration of this space should yield high quality solutions. Unfortunately, sampling is often computationally hard and many works hence back-off to sub-optimal strategies such as extraction of the best scoring solutions of the model, which are not as diverse as sampled solutions. In this paper we propose a perturbation-based approach where sampling from a probabilistic model is computationally efficient. We present a learning algorithm for the variance of the perturbations, and empirically demonstrate its importance. Moreover, while finding the argmax in our model is intractable, we propose an efficient and effective approximation. We apply our framework to cross-lingual dependency parsing across 72 corpora from 42 languages and to lightly supervised dependency parsing across 13 corpora from 12 languages and demonstrate strong results in terms of both the quality of the entire solution list and of the final solution.
+  author_str: Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
+  authors: Amichay Doitch and Ram Yazdi and Tamir Hazan and Roi Reichart
+  id: tacl-1727
+  source: manual input from TACL website
+  title: Perturbation Based Learning for Structured NLP Tasks with Application to Dependency Parsing
+  title_str: '[TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart'
+  url: https://transacl.org/index.php/tacl/article/view/1727
+  volume: Vol 7 (2019)
+- abstract: Pre-training by language modeling has become a popular and successful approach to NLP tasks, but we have yet to understand exactly what linguistic capacities these pre-training processes confer upon models. In this paper we introduce a suite of diagnostics drawn from human language experiments, which allow us to ask targeted questions about information used by language models for generating predictions in context. As a case study, we apply these diagnostics to the popular BERT model, finding that it can generally distinguish good from bad completions involving shared category or role reversal, albeit with less sensitivity than humans, and it robustly retrieves noun hypernyms, but it struggles with challenging inference and role-based event prediction -- and in particular, it shows clear insensitivity to the contextual impacts of negation.
+  author_str: Allyson Ettinger
+  authors: Allyson Ettinger
+  id: tacl-1852
+  source: manual input from TACL website
+  title: 'What BERT is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models'
+  title_str: '[TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger'
+  url: https://transacl.org/index.php/tacl/article/view/1852
+  volume: Vol 8 (2020)
+- abstract: We present methods for calculating a measure of phonotactic complexity---bits per phoneme---that permits a straightforward cross-linguistic comparison. When given a word, represented as a sequence of phonemic segments such as symbols in the international phonetic alphabet, and a statistical model trained on a sample of word types from the language, we can approximately measure bits per phoneme using the negative log-probability of that word under the model. This simple measure allows us to compare the entropy across languages, giving insight into how complex a language's phonotactics are. Using a collection of 1016 basic concept words across 106 languages, we demonstrate a very strong negative correlation of -0.74 between bits per phoneme and the average length of words.
+  author_str: Tiago Pimentel, Brian Roark, Ryan D. Cotterell
+  authors: Tiago Pimentel and Brian Roark and Ryan D. Cotterell
+  id: tacl-1759
+  source: manual input from TACL website
+  title: Phonotactic Complexity and its Trade-offs
+  title_str: '[TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell'
+  url: https://transacl.org/index.php/tacl/article/view/1759
+  volume: Vol 8 (2020)
+- abstract: We show that Bayes' rule provides an effective mechanism for creating document translation models that can be learned from only parallel sentences and monolingual documents---a compelling benefit as parallel documents are not always available. In our formulation, the posterior probability of a candidate translation is the product of the unconditional (prior) probability of the candidate output document and the ``reverse translation  probability'' of translating the candidate output back into the source language. Our proposed model uses a powerful autoregressive language model as the prior on target language documents, but it assumes that each sentence is translated independently from the target to the source language. Crucially, at test time, when a source document is observed, the document language model prior induces dependencies between the translations of the source sentences in the posterior. The model's independence assumption not only enables efficient use of available data, but it additionally admits a practical left-to-right beam-search algorithm for carrying out inference. Experiments show that our model benefits from using cross-sentence context in the language model, and it outperforms existing document translation approaches.
+  author_str: Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
+  authors: Lei Yu and Laurent Sartran and Wojciech Stokowiec and Wang Ling and Lingpeng Kong and Phil Blunsom and Chris Dyer
+  id: tacl-2001
+  source: xlsx file from Cindy at TACL
+  title: Better Document-level Machine Translation with Bayes' Rule
+  title_str: '[TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer'
+  url: https://transacl.org/index.php/tacl/article/view/2001
+  volume: 
+- abstract: Confidently making progress on multilingual modeling requires challenging, trustworthy evaluations. We present TyDi QA, a question answering dataset covering 11 typologically diverse languages with 141K question-answer pairs.  The languages of TyDi QA are diverse with regard to their typology --- the set of linguistic features that each language expresses --- such that we expect models performing well on this set to generalize across a large number of the languages in the world. We present a quantitative analysis of the data quality and example-level qualitative linguistic analyses of observed language phenomena that would not be found in English-only corpora. To provide a realistic information-seeking task and avoid priming effects, questions are written by people who want to know the answer, but don't know the answer yet, and the data is collected directly in each language without the use of translation. We provide initial quality measurements with a baseline model, suggesting a significant room for future work on this data.
+  author_str: Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
+  authors: Jonathan H Clark and Jennimaria Palomaki and Vitaly Nikolaev and Eunsol Choi and Dan Garrette and Michael Collins and Tom Kwiatkowski
+  id: tacl-1929
+  source: xlsx file from Cindy at TACL
+  title: 'TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages'
+  title_str: '[TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski'
+  url: https://arxiv.org/abs/2003.05002
+  volume: 
+- abstract: Given a sentence (e.g., "I like mangoes") and a constraint (e.g., negative sentiment), the goal of controlled text generation is to produce a sentence that adapts the input sentence to meet the requirements of the constraint (e.g., "I hate mangoes"). Going beyond such simple constraints, recent works have started exploring the incorporation of complex syntactic-guidance as constraints in the task of controlled paraphrase generation. In these methods, syntactic-guidance is sourced from a separate exemplar sentence. However, these prior works have only utilized limited syntactic information available in the parse tree of the exemplar sentence. We address this limitation in the paper and propose Syntax Guided Controlled Paraphraser (SGCP), an end-to-end framework for syntactic paraphrase generation. We find that S GCP can generate syntax-conforming sentences while not compromising on relevance. We perform extensive automated and human evaluations over multiple real-world datasets to demonstrate the efficacy of SGCP over state-of-the-art baselines. To drive future research, we have made SGCP’s source code available.
+  author_str: Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
+  authors: Ashutosh Kumar and Kabir Ahuja and Raghuram Vadapalli and Partha Talukdar
+  id: tacl-1967
+  source: xlsx file from Cindy at TACL
+  title: Syntax-guided Controlled Generation of Paraphrases
+  title_str: '[TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar'
+  url: https://arxiv.org/abs/2005.08417
+  volume: 
