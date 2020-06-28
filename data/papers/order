@@ -3,7 +3,7 @@
 = 05:00--05:45 Demo Session 1A
 ! [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
 = 05:00--06:00 Session 1A Cognitive Modeling and Psycholinguistics-1
-! [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
+1915/TACL # [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
 3318 # Learning to Understand Child-directed and Adult-directed Speech
 1292 # Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts
 = 05:00--06:00 Session 1A Dialogue and Interactive Systems-1
@@ -57,7 +57,7 @@
 72 # Dice Loss for Data-imbalanced NLP Tasks
 1907 # Emergence of Syntax Needs Minimal Supervision
 648 # Language Models as an Alternative Evaluator of Word Order Hypotheses: A Case Study in Japanese
-! [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
+1815/TACL # [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
 = 05:00--06:00 Session 1A Student Research Workshop
 ! [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
 ! [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
@@ -72,7 +72,7 @@
 1815 # Simple, Interpretable and Stable Method for Detecting Words with Usage Change across Corpora
 = 06:00--07:00 Session 1B Dialogue and Interactive Systems-2
 2794 # CDL: Curriculum Dual Learning for Emotion-Controllable Response Generation
-! [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
+1901/TACL # [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
 2950 # Efficient Dialogue State Tracking by Selectively Overwriting Memory
 3055 # End-to-End Neural Pipeline for Goal-Oriented Dialogue Systems using GPT-2
 1112 # Evaluating Dialogue Generation Systems via Response Selection
@@ -179,7 +179,7 @@
 = 08:45--09:30 Demo Session 2B
 ! [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
 = 09:00--10:00 Session 2B Cognitive Modeling and Psycholinguistics-2
-! [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
+1915/TACL # [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
 = 09:00--10:00 Session 2B Dialogue and Interactive Systems-4
 60 # Beyond User Self-Reported Likert Scale Ratings: A Comparison Model for Automatic Dialog Evaluation
 463 # Conversational Word Embedding for Retrieval-Based Dialog System
@@ -220,7 +220,7 @@
 1766 # A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages
 1767 # Will-They-Won't-They: A Very Large Dataset for Stance Detection on Twitter
 = 09:00--10:00 Session 2B Theory and Formalism in NLP (Linguistic and Mathematical)-2
-! [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
+1815/TACL # [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
 = 09:00--10:00 Session 2B Student Research Workshop
 ! [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
 ! [SRW] {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information %by Hyeryun Park, Kyungmo Kim, Jooyoung Yoon, Seongkeun Park and Jinwook Choi
@@ -257,18 +257,18 @@
 ! [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
 = 13:00--14:00 Session 3B Dialogue and Interactive Systems-6
 880 # Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation
-! [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
+1901/TACL # [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
 = 13:00--14:00 Session 3B Discourse and Pragmatics-3
 = 13:00--14:00 Session 3B Generation-6
 2002 # GPT-too: A language-model-first approach for AMR-to-text generation
 2226 # Learning to Update Natural Language Comments Based on Code Changes
-! [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
+1849/TACL # [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
 2505 # Politeness Transfer: A Tag and Generate Approach
 = 13:00--14:00 Session 3B Information Extraction-2
 = 13:00--14:00 Session 3B Machine Translation-4
 667 # BPE-Dropout: Simple and Effective Subword Regularization
 2570 # Improving Non-autoregressive Neural Machine Translation with Monolingual Data
-! [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
+00367/CL # [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
 = 13:00--14:00 Session 3B Phonology, Morphology and Word Segmentation-2
 = 13:00--14:00 Session 3B Summarization-2
 2766 # Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization
@@ -307,7 +307,7 @@
 61 # Negative Training for Neural Dialogue Response Generation
 723 # Recursive Template-based Frame Generation for Task Oriented Dialog
 605 # Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback
-! [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
+00368/CL # [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
 = 17:00--18:00 Session 4A Machine Learning for NLP-1
 2122 # Calibrating Structured Output Predictors for Natural Language Processing
 1813 # Distilling Annotations via Active Imitation Learning
@@ -334,13 +334,13 @@
 = 17:00--18:00 Session 4A Question Answering-3
 = 17:00--18:00 Session 4A Semantics: Textual Inference and Other Areas of Semantics-1
 3296 # Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction
-! [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
+1720/TACL # [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
 2363 # INFOTABS: Inference on Tables as Semi-structured Data
-! [TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick, Tom Kwiatkowski
+1780/TACL # [TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick, Tom Kwiatkowski
 1901 # Interactive Machine Comprehension with Information Seeking Agents
 718 # Syntactic Data Augmentation Increases Robustness to Inference Heuristics
 = 17:00--18:00 Session 4A Speech and Multimodality-1
-! [TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic, and Julia Hirschberg
+1834/TACL # [TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic, and Julia Hirschberg
 416 # Improved Speech Representations with Multi-Target Autoregressive Predictive Coding
 1977 # Integrating Multimodal Information in Large Pretrained Transformers
 1514 # MultiQT: Multimodal learning for real-time question tracking in speech
@@ -367,7 +367,7 @@
 2130 # Enabling Language Models to Fill in the Blanks
 3105 # INSET: Sentence Infilling with INter-SEntential Transformer
 152 # Improving Adversarial Text Generation by Modeling the Distant Future
-! [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
+1849/TACL # [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
 2595 # Simple and Effective Retrieve-Edit-Rerank Text Generation
 = 18:00--19:00 Session 4B Language Grounding to Vision, Robotics and Beyond-1
 158 # BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps
@@ -379,13 +379,13 @@
 = 18:00--19:00 Session 4B Machine Learning for NLP-2
 688 # A Batch Normalized Inference Network Keeps the KL Vanishing Away
 2006 # Contextual Embeddings: When Are They Worth It?
-! [TACL] Efficient Contextual Representation Learning With Continuous Outputs %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
+1766/TACL # [TACL] Efficient Contextual Representation Learning With Continuous Outputs %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
 2528 # Interactive Classification by Asking Informative Questions
 898 # Knowledge Graph Embedding Compression
 671 # Low Resource Sequence Tagging using Sentence Reconstruction
 3104 # Masked Language Model Scoring
 730 # Orthogonal Relation Transforms with Graph Context Modeling for Knowledge Graph Embedding
-! [TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
+1727/TACL # [TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
 1870 # Posterior Calibrated Training on Sentence Classification Tasks
 2431 # Posterior Control of Blackbox Generation
 2853 # Pretrained Transformers Improve Out-of-Distribution Robustness
@@ -399,12 +399,12 @@
 2841 # ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation
 2456 # Leveraging Monolingual Data with Self-Supervision for Multilingual Neural Machine Translation
 570 # On The Evaluation of Machine Translation SystemsTrained With Back-Translation
-! [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
+00367/CL # [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
 1132 # Simultaneous Translation Policies: From Fixed to Adaptive
 = 18:00--19:00 Session 4B Semantics: Lexical-2
 2319 # Breaking Through the 80\% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information
 1345 # Glyph2Vec: Learning Chinese Out-of-Vocabulary Word Embedding from Glyphs
-! [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
+1903/TACL # [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
 1379 # Multidirectional Associative Optimization of Function-Specific Word Representations
 101 # Predicting Degrees of Technicality in Automatic Terminology Extraction
 2865 # Verbal Multiword Expressions for Identification of Metaphor
@@ -428,24 +428,24 @@
 = 20:00--21:00 Session 5A Machine Learning for NLP-3
 = 20:00--21:00 Session 5A Machine Translation-6
 = 20:00--21:00 Session 5A Semantics: Textual Inference and Other Areas of Semantics-2
-! [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
-! [TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick, Tom Kwiatkowski
+1720/TACL # [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
+1780/TACL # [TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick, Tom Kwiatkowski
 = 20:00--21:00 Session 5A Speech and Multimodality-2
-! [TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic, and Julia Hirschberg
+1834/TACL # [TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic, and Julia Hirschberg
 = 20:00--21:00 Session 5A Theory and Formalism in NLP (Linguistic and Mathematical)-3
 = 20:45--21:30 Demo Session 5B
 ! [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
 ! [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
 = 21:00--22:00 Session 5B Cognitive Modeling and Psycholinguistics-5
 = 21:00--22:00 Session 5B Dialogue and Interactive Systems-10
-! [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
+00368/CL # [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
 = 21:00--22:00 Session 5B Language Grounding to Vision, Robotics and Beyond-2
 = 21:00--22:00 Session 5B Machine Learning for NLP-4
-! [TACL] Efficient Contextual Representation Learning With Continuous Outputs %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
-! [TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
+1766/TACL # [TACL] Efficient Contextual Representation Learning With Continuous Outputs %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
+1727/TACL # [TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
 = 21:00--22:00 Session 5B NLP Applications-4
 = 21:00--22:00 Session 5B Semantics: Lexical-3
-! [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
+1903/TACL # [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
 = 21:30--22:15 Demo Session 5C
 ! [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
 ! [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
@@ -475,7 +475,7 @@
 2728 # Geometry-aware domain adaptation for unsupervised alignment of word embeddings
 2435 # Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation
 3046 # On the Inference Calibration of Neural Machine Translation
-! [CL] Unsupervised Word Translation with Adversarial Autoencoder %by Tasnim Mohiuddin, Shafiq Joty
+00374/CL # [CL] Unsupervised Word Translation with Adversarial Autoencoder %by Tasnim Mohiuddin, Shafiq Joty
 = 05:00--06:00 Session 6A NLP Applications-5
 2438 # Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning
 514 # Distinguish Confusing Law Articles for Legal Judgment Prediction
@@ -497,10 +497,10 @@
 120 # Relational Graph Attention Network for Aspect-based Sentiment Analysis
 164 # SpanMlt: A Span-based Multi-Task Learning Framework for Pair-wise Aspect and Opinion Terms Extraction
 1697 # Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks
-! [TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
+1843/TACL # [TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
 22 # Towards Better Non-Tree Argument Mining: Proposition-Level Biaffine Parsing with Task-Specific Parameterization
 = 05:00--06:00 Session 6A Syntax: Tagging, Chunking and Parsing-1
-! [TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang
+1876/TACL # [TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang
 388 # A Span-based Linearization for Constituent Trees
 2871 # An Empirical Comparison of Unsupervised Constituency Parsing Methods
 654 # Efficient Constituency Parsing by Pointing
@@ -521,10 +521,10 @@
 3067 # What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context
 = 06:00--07:00 Session 6B Interpretability and Analysis of Models for NLP-1
 3433 # An analysis of the utility of explicit negative examples to improve the syntactic abilities of neural language models
-! [TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin Duh
+1779/TACL # [TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin Duh
 2674 # On the Robustness of Language Encoders against Grammatical Errors
 74 # Roles and Utilization of Attention Heads in Transformer-based Neural Language Models
-! [TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni
+1709/TACL # [TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni
 2951 # Understanding Attention for Text Classification
 = 06:00--07:00 Session 6B Machine Learning for NLP-6
 1036 # A Relational Memory-based Embedding Model for Triple Classification and Search Personalization
@@ -590,8 +590,8 @@
 1691 # Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning
 1630 # SEEK: Segmented Embedding of Knowledge Graphs
 = 08:00--09:00 Session 7A Machine Translation-9
-! [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
-! [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
+00377/CL # [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
+2001/TACL # [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
 3314 # Selecting Backtranslated Data from Multiple Sources for Improved Neural Machine Translation
 3136 # Successfully Applying the Stabilized Lottery Ticket Hypothesis to the Transformer Architecture
 = 08:00--09:00 Session 7A Question Answering-4
@@ -612,10 +612,10 @@
 1804 # GoEmotions: A Dataset of Fine-Grained Emotions
 1864 # He said "who's gonna take care of your children when you are at ACL?": Reported Sexist Acts are Not Sexist
 2338 # SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis
-! [TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
+1843/TACL # [TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
 = 08:00--09:00 Session 7A Syntax: Tagging, Chunking and Parsing-2
-! [TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang
-! [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
+1876/TACL # [TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang
+00378/CL # [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
 3229 # Do Neural Language Models Show Preferences for Syntactic Formalisms?
 377 # Enriched In-Order Linearization for Faster Sequence-to-Sequence Constituent Parsing
 3168 # Exact yet Efficient Graph Parsing, Bi-directional Locality and the Constructivist Hypothesis
@@ -677,7 +677,7 @@
 2315 # Learning to Faithfully Rationalize by Construction
 = 12:00--13:00 Session 8A Machine Translation-11
 = 12:00--13:00 Session 8A Question Answering-5
-! [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
+1845/TACL # [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
 1966 # Clinical Reading Comprehension: A Thorough Analysis of the emrQA Dataset
 3282 # DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering
 3246 # Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings
@@ -691,7 +691,7 @@
 = 12:00--13:00 Session 8A Semantics: Sentence Level-4
 = 12:00--13:00 Session 8A Sentiment Analysis, Stylistic Analysis, and Argument Mining-5
 = 12:00--13:00 Session 8A Syntax: Tagging, Chunking and Parsing-3
-! [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
+00378/CL # [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
 = 12:00--13:00 Session 8A Student Research Workshop
 ! [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
 ! [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
@@ -704,25 +704,25 @@
 1590 # Toward Gender-Inclusive Coreference Resolution
 = 13:00--14:00 Session 8B Generation-10
 = 13:00--14:00 Session 8B Interpretability and Analysis of Models for NLP-4
-! [TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen
+1892/TACL # [TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen
 1558 # Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?
 1077 # Information-Theoretic Probing for Linguistic Structure
-! [TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin Duh
+1779/TACL # [TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin Duh
 2065 # On the Cross-lingual Transferability of Monolingual Representations
 1114 # Similarity Analysis of Contextual Word Representation Models
-! [TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni
-! [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
+1709/TACL # [TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni
+1852/TACL # [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
 = 13:00--14:00 Session 8B Machine Learning for NLP-9
 3001 # SenseBERT: Driving Some Sense into BERT
 = 13:00--14:00 Session 8B Machine Translation-12
-! [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
-! [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
-! [CL] Unsupervised Word Translation with Adversarial Autoencoder %by Tasnim Mohiuddin, Shafiq Joty
+00377/CL # [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
+2001/TACL # [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
+00374/CL # [CL] Unsupervised Word Translation with Adversarial Autoencoder %by Tasnim Mohiuddin, Shafiq Joty
 = 13:00--14:00 Session 8B NLP Applications-7
 = 13:00--14:00 Session 8B Resources and Evaluation-8
 1519 # ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations
 1922 # Fatality Killed the Cat or: BabelPic, a Multimodal Dataset for Non-Concrete Concepts
-! [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
+1756/TACL # [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
 = 13:00--14:00 Session 8B Sentiment Analysis, Stylistic Analysis, and Argument Mining-6
 3007 # Modeling Label Semantics for Predicting Emotional Reactions
 = 13:00--14:00 Session 8B Speech and Multimodality-5
@@ -756,7 +756,7 @@
 3194 # Discrete Latent Variable Representations for Low-Resource Text Classification
 1248 # Learning Constraints for Structured Prediction Using Rectifier Networks
 1319 # Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models
-! [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
+1853/TACL # [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
 = 17:00--18:00 Session 9A Resources and Evaluation-9
 2266 # A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks
 280 # Adversarial NLI: A New Benchmark for Natural Language Understanding
@@ -764,7 +764,7 @@
 2808 # Code and Named Entity Recognition in StackOverflow
 65 # Dialogue-Based Relation Extraction
 56 # Facet-Aware Evaluation for Extractive Summarization
-! [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
+00376/CL # [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
 1862 # More Diverse Dialogue Datasets via Diversity-Informed Data Collection
 1952 # S2ORC: The Semantic Scholar Open Research Corpus
 3430 # Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics
@@ -825,7 +825,7 @@
 = 18:00--19:00 Session 9B Interpretability and Analysis of Models for NLP-6
 1604 # A Re-evaluation of Knowledge Graph Completion Methods
 1849 # Cross-Linguistic Syntactic Evaluation of Word Prediction Models
-! [TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen
+1892/TACL # [TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen
 1617 # Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?
 2368 # Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions
 3218 # Finding Universal Grammatical Relations in Multilingual BERT
@@ -834,9 +834,9 @@
 3154 # Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport
 = 18:00--19:00 Session 9B Question Answering-6
 2341 # Benefits of Intermediate Annotations in Reading Comprehension
-! [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
+1845/TACL # [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
 2846 # Crossing Variational Autoencoders for Answer Retrieval
-! [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
+1882/TACL # [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
 2301 # Logic-Guided Data Augmentation and Regularization for Consistent Question Answering
 1832 # On the Importance of Diversity in Question Generation for QA
 3160 # Probabilistic Assumptions Matter: Improved Models for Distantly-Supervised Document-Level Question Answering
@@ -844,7 +844,7 @@
 3183 # Selective Question Answering under Domain Shift
 2317 # The Cascade Transformer: an Application for Efficient Answer Sentence Selection
 876 # Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering
-! [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
+1929/TACL # [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
 = 18:00--19:00 Session 9B Resources and Evaluation-10
 941 # Not All Claims are Created Equal: Choosing the Right Statistical Approach to Assess Hypotheses
 1007 # STARC: Structured Annotations for Reading Comprehension
@@ -873,13 +873,13 @@
 = 20:00--21:00 Session 10A Computational Social Science and Social Media-8
 = 20:00--21:00 Session 10A Dialogue and Interactive Systems-12
 = 20:00--21:00 Session 10A Interpretability and Analysis of Models for NLP-7
-! [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
+1852/TACL # [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
 = 20:00--21:00 Session 10A Question Answering-7
-! [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
-! [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
+1882/TACL # [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
+1929/TACL # [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
 = 20:00--21:00 Session 10A Resources and Evaluation-11
-! [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
-! [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
+00376/CL # [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
+1756/TACL # [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
 = 20:00--21:00 Session 10A Sentiment Analysis, Stylistic Analysis, and Argument Mining-8
 = 20:00--21:00 Session 10A Theme-2
 = 20:45--21:30 Demo Session 5B
@@ -890,7 +890,7 @@
 = 21:00--22:00 Session 10B Interpretability and Analysis of Models for NLP-8
 = 21:00--22:00 Session 10B Language Grounding to Vision, Robotics and Beyond-4
 = 21:00--22:00 Session 10B Machine Learning for NLP-11
-! [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
+1853/TACL # [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
 = 21:00--22:00 Session 10B Question Answering-8
 = 21:00--22:00 Session 10B Resources and Evaluation-12
 = 21:00--22:00 Session 10B Speech and Multimodality-6
@@ -976,7 +976,7 @@
 3291 # Speaker Sensitive Response Evaluation Model
 = 06:00--07:00 Session 11B Discourse and Pragmatics-6
 371 # A Top-down Neural Architecture towards Text-level Parsing of Discourse Rhetorical Structure
-! [TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by Noriki Nishida, Hideki Nakayama
+1811/TACL # [TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by Noriki Nishida, Hideki Nakayama
 = 06:00--07:00 Session 11B Information Extraction-4
 3188 # Amalgamation of protein sequence, structure and textual information for improving protein-protein interaction identification
 2717 # Bipartite Flat-Graph Network for Nested Named Entity Recognition
@@ -1018,7 +1018,7 @@
 1142 # Recurrent Chunking Mechanisms for Long-Text Machine Reading Comprehension
 1043 # RikiNet: Reading Wikipedia Pages for Natural Question Answering
 = 06:00--07:00 Session 11B Semantics: Sentence Level-6
-! [TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang, Xiaojun Wan, Hanqi Jin
+1805/TACL # [TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang, Xiaojun Wan, Hanqi Jin
 3124 # Parsing into Variable-in-situ Logico-Semantic Graphs
 2640 # Semantic Parsing for English as a Second Language
 2441 # Semi-Supervised Semantic Dependency Parsing Using CRF Autoencoders
@@ -1032,7 +1032,7 @@
 ! [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
 = 08:00--09:00 Session 12A Discourse and Pragmatics-7
 3352 # DRTS Parsing with Structure-Aware Encoding and Decoding
-! [TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by Noriki Nishida, Hideki Nakayama
+1811/TACL # [TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by Noriki Nishida, Hideki Nakayama
 = 08:00--09:00 Session 12A Information Extraction-5
 1880 # A Two-Stage Masked LM Method for Term Set Expansion
 2700 # FLAT: Chinese NER Using Flat-Lattice Transformer
@@ -1055,7 +1055,7 @@
 1705 # From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains
 1030 # Language to Network: Conditional Parameter Adaptation with Natural Language Descriptions
 = 08:00--09:00 Session 12A Semantics: Sentence Level-7
-! [TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang, Xiaojun Wan, Hanqi Jin
+1805/TACL # [TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang, Xiaojun Wan, Hanqi Jin
 1575 # Controlled Crowdsourcing for High-Quality QA-SRL Annotation
 1554 # Cross-Lingual Semantic Role Labeling with High-Quality Translated Training Corpus
 1723 # Sentence Meta-Embeddings for Unsupervised Semantic Textual Similarity
@@ -1124,11 +1124,11 @@
 = 12:00--13:00 Session 13A Generation-12
 2176 # Improving Image Captioning with Better Use of Caption
 3294 # Shape of synth to come: Why we should use synthetic data for English surface realization
-! [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
+1967/TACL # [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
 1049 # Toward Better Storylines with Sentence-Level Language Models
 = 12:00--13:00 Session 13A Information Extraction-7
 1055 # A Two-Step Approach for Implicit Event Argument Detection
-! [TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham Neubig
+1906/TACL # [TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham Neubig
 2979 # Machine Reading of Historical Events
 1716 # Revisiting Unsupervised Relation Extraction
 2600 # SciREX: A Challenge Dataset for Document-Level Information Extraction
@@ -1139,7 +1139,7 @@
 = 12:00--13:00 Session 13A NLP Applications-10
 2617 # Understanding Advertisements with BERT
 = 12:00--13:00 Session 13A Semantics: Lexical-7
-! [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
+00375/CL # [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
 939 # Non-Linear Instance-Based Cross-Lingual Mapping for Non-Isomorphic Embedding Spaces
 = 12:00--13:00 Session 13A Semantics: Sentence Level-8
 54 # Good-Enough Compositional Data Augmentation
@@ -1177,7 +1177,7 @@
 1329 # Using Context in Neural Machine Translation Training Objectives
 1033 # Variational Neural Machine Translation with Normalizing Flows
 = 13:00--14:00 Session 13B Phonology, Morphology and Word Segmentation-5
-! [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
+1759/TACL # [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
 849 # The Paradigm Discovery Problem
 2133 # Supervised Grapheme-to-Phoneme Conversion of Orthographic Schwas in Hindi and Punjabi
 = 13:00--14:00 Session 13B Question Answering-11
@@ -1205,7 +1205,7 @@
 ! [Demo] Nakdan: Professional Hebrew Diacritizer %by Avi Shmidman, Shaltiel Shmidman, Moshe Koppel and Yoav Goldberg
 ! [Demo] SUPP.AI: Finding Evidence for Supplement-Drug Interactions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
 = 17:00--18:00 Session 14A Generation-13
-! [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
+1886/TACL # [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
 2309 # BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
 2117 # BLEURT: Learning Robust Metrics for Text Generation
 2001 # Distilling Knowledge Learned in BERT for Text Generation
@@ -1216,13 +1216,13 @@
 2101 # One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases
 1996 # R^3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge
 346 # Structural Information Preserving for Graph-to-Text Generation
-! [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
+1967/TACL # [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
 = 17:00--18:00 Session 14A Information Extraction-9
 2470 # A Joint Neural Model for Information Extraction with Global Features
 367 # Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding
 1882 # Exploiting the Syntax-Model Consistency for Neural Relation Extraction
 2482 # From English to Code-Switching: Transfer Learning with Strong Morphological Clues
-! [TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham Neubig
+1906/TACL # [TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham Neubig
 425 # Learning Interpretable Relationships between Entities, Relations and Concepts via Bayesian Structure Learning on Open Domain Facts
 613 # Multi-Sentence Argument Linking
 2710 # Rationalizing Medical Relation Prediction from Corpus-level Statistics
@@ -1247,11 +1247,11 @@
 1802 # Joint Chinese Word Segmentation and Part-of-speech Tagging via Two-way Attentions of Auto-analyzed Knowledge
 1338 # Joint Diacritization, Lemmatization, Normalization, and Fine-Grained Morphological Tagging
 3141 # Phonetic and Visual Priors for Decipherment of Informal Romanization
-! [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
+1759/TACL # [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
 = 17:00--18:00 Session 14A Semantics: Sentence Level-9
 223 # Active Learning for Coreference Resolution using Discrete Annotation
 945 # Beyond Possession Existence: Duration and Co-Possession
-! [TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
+1912/TACL # [TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
 1931 # Dont Stop Pretraining: Adapt Language Models to Domains and Tasks
 2449 # Estimating Mutual Information Between Dense Word Embeddings
 2492 # Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing
@@ -1287,14 +1287,14 @@
 1578 # Clinical Concept Linking with Contextualized Neural Representations
 1082 # DeSePtion: Dual Sequence Prediction and Adversarial Examples for Improved Fact-Checking
 2038 # Let Me Choose: From Verbal Context to Font Selection
-! [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
+1743/TACL # [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
 2159 # Multi-Label and Multilingual News Framing Analysis
 2483 # Predicting Performance for Natural Language Processing Tasks
 731 # ScriptWriter: Narrative-Guided Script Generation
 927 # Should All Cross-Lingual Embeddings Speak English?
 2171 # Smart To-Do: Automatic Generation of To-Do Items from Emails
 = 18:00--19:00 Session 14B Semantics: Lexical-8
-! [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
+00375/CL # [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
 = 18:00--19:00 Session 14B Semantics: Textual Inference and Other Areas of Semantics-6
 2988 # Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition
 1750 # End-to-End Bias Mitigation by Modelling Biases in Corpora
@@ -1304,7 +1304,7 @@
 2518 # Towards Robustifying NLI Models Against Lexical Dataset Biases
 1985 # Uncertain Natural Language Inference
 = 18:00--19:00 Session 14B Syntax: Tagging, Chunking and Parsing-5
-! [TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing %by Guy Rotman, Roi Reichart
+1801/TACL # [TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing %by Guy Rotman, Roi Reichart
 1240 # Extracting Headless MWEs from Dependency Parse Trees: Parsing, Tagging, and Joint Modeling Approaches
 3403 # Revisiting Higher-Order Dependency Parsers
 1956 # SeqVAT: Virtual Adversarial Training for Semi-Supervised Sequence Labeling
@@ -1322,13 +1322,13 @@
 ! [Demo] DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation %by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu and Bill Dolan
 ! [Demo] SUPP.AI: Finding Evidence for Supplement-Drug nteractions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
 = 20:00--21:00 Session 15A Generation-14
-! [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
+1886/TACL # [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
 = 20:00--21:00 Session 15A Information Extraction-11
 = 20:00--21:00 Session 15A Information Retrieval and Text Mining-8
 = 20:00--21:00 Session 15A Language Grounding to Vision, Robotics and Beyond-9
 = 20:00--21:00 Session 15A Machine Translation-17
 = 20:00--21:00 Session 15A Semantics: Sentence Level-10
-! [TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
+1912/TACL # [TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
 = 20:00--21:00 Session 15A Semantics: Textual Inference and Other Areas of Semantics-7
 = 20:00--21:00 Session 15A Student Research Workshop
 ! [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
@@ -1342,11 +1342,11 @@
 = 21:00--22:00 Session 15B Information Extraction-12
 = 21:00--22:00 Session 15B Machine Translation-18
 = 21:00--22:00 Session 15B NLP Applications-12
-! [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
+1743/TACL # [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
 = 21:00--22:00 Session 15B Phonology, Morphology and Word Segmentation-7
 = 21:00--22:00 Session 15B Semantics: Sentence Level-11
 = 21:00--22:00 Session 15B Syntax: Tagging, Chunking and Parsing-6
-! [TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing %by Guy Rotman, Roi Reichart
+1801/TACL # [TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing %by Guy Rotman, Roi Reichart
 = 21:00--22:00 Session 15B Theme-6
 = 21:00--22:00 Session 15B Student Research Workshop
 ! [SRW] NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
