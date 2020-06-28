@@ -354,7 +354,7 @@
     Dataset'
   url: https://transacl.org/index.php/tacl/article/view/1901
   volume: Vol 8 (2020)
-- abstract: We study the influence of context on sentence acceptability.
+- abstract: We study the influence of context on sentence acceptability. First we compare the acceptability ratings of sentences judged in isolation, with a relevant context, and with an irrelevant context. Our results show that context induces a cognitive load for humans, which compresses the distribution of ratings. Moreover, in relevant contexts we observe a discourse coherence effect which uniformly raises acceptability. Next, we test unidirectional and bidirectional language models in their ability to predict acceptability ratings. The bidirectional models show very promising results, with the best model achieving a new state-of-the-art for unsupervised acceptability prediction. The two sets of experiments provide insights into the cognitive aspects of sentence processing and central issues in the computational modelling of text and discourse.
   author_str: Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom
     Lappin
   authors: Jey Han Lau and Carlos Santos Armendariz and Matthew Purver and Chang Shu
