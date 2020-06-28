@@ -45,6 +45,7 @@ with open(args.yaml_cl) as f:
 list_of_lines = open(args.order_file_path, "r").readlines()
 for line_num, line in enumerate(list_of_lines):
     line = line.rstrip()
+    match_flag = False
     if line.startswith('!'):
         line_content = line[2:]
         if line_content.split(' ')[0] == '[TACL]':
@@ -52,13 +53,10 @@ for line_num, line in enumerate(list_of_lines):
             infojson = extract_json_from_line(line_content)
             for entry in tacl_entries:
                 if infojson['author_str'] == entry['author_str'] and infojson['title_str'] == entry['title_str']:
-                    print('C')
                     # found a match entry. replace this line
                     line_new = entry['id'].split('-')[1] + '/TACL # ' + line_content + '\n'
-                    print('===========', line_num)
-                    print(list_of_lines[line_num])
                     list_of_lines[line_num] = line_new
-                    print(list_of_lines[line_num])
+                    match_flag = True
         elif line_content.split(' ')[0] == '[CL]':
             # CL entries
             infojson = extract_json_from_line(line_content)
@@ -67,6 +65,9 @@ for line_num, line in enumerate(list_of_lines):
                     # found a match entry. replace this line
                     line_new = entry['id'].split('-')[1] + '/CL # ' + line_content + '\n'
                     list_of_lines[line_num] = line_new
+                    match_flag = True
+        if match_flag == False and (line_content.split(' ')[0] == '[TACL]' or line_content.split(' ')[0] == '[CL]'):
+            sys.stderr.write('-> No match found: \n%s\n' % line)
 
 with open(args.order_file_path, "w") as f:
     f.writelines(list_of_lines)
