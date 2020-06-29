@@ -1,73 +1,73 @@
-* Monday, July 6, 2020
-= 5:00 UTC+0 SRW Session 1A
+* Monday, July 6, 2020 UTC+0
+= 05:00--06:00 Session 1A Student Research Workshop
 16   # Adaptive Transformers for Learning Multimodal Representations
 17   # Story-level Text Style Transfer: A Proposal
 19   # Unsupervised Paraphasia Classification in Aphasic Speech
 35   # HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing
-= 6:00 UTC+0 SRW Session 1B
+= 06:00--07:00 Session 1B Student Research Workshop
 15   # Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner's Error Tendency
 36   # Research on Task Discovery for Transfer Learning in Deep Neural Networks
 39   # RPD: A Distance Function Between Word Embeddings
 52   # Reflection-based Word Attribute Transfer
-= 8:00 UTC+0 SRW Session 2A
+= 08:00--09:00 Session 2A Student Research Workshop
 5   # Topic Balancing with Additive Regularization of Topic Models
 9   # Combining Subword Representations into Word-level Representations in the Transformer Architecture
 14   # Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition
 18   # Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling
-= 9:00 UTC+0 SRW Session 2B
+= 09:00--10:00 Session 2B Student Research Workshop
 49   # SCAR: Sentence Compression using Autoencoders for Reconstruction
 53   # {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information
 54   # Multi-Task Neural Model for Agglutinative Language Translation
 55   # Considering Likelihood in NLP Classi___cation Explanations with Occlusion and Language Modeling
-= 12:00 UTC+0 SRW Session 3A
+= 12:00--13:00 Session 3A Student Research Workshop
 22   # Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment
 #49  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # SCAR: Sentence Compression using Autoencoders for Reconstruction
 69   # Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models
-= 13:00 UTC+0 SRW Session 3B
+= 13:00--14:00 Session 3B Student Research Workshop
 82   # A Simple and Effective Dependency Parser for Telugu
 84   # Pointwise Paraphrase Appraisal is Potentially Problematic
 117   # Let's be Humorous: Knowledge Enhanced Humor Generation
 128   # Efficient Neural Machine Translation for Low-Resource Languages via Exploiting Related Languages
-= 17:00 UTC+0 SRW Session 4A
+= 17:00--18:00 Session 4A Student Research Workshop
 #18  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling
 42   # Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder
 104   # Crossing the Line: Where do Demographic Variables Fit into Humor Detection?
-= 18:00 UTC+0 SRW Session 4B
+= 18:00--19:00 Session 4B Student Research Workshop
 106   # Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions
 109   # Understanding Points of Correspondence between Sentences for Abstractive Summarization
 = 20:00 UTC+0 SRW Session 5A
 = 21:00 UTC+0 SRW Session 5B
 * Tuesday, July 7, 2020
-= 5:00 UTC+0 SRW Session 6A
+= 05:00--06:00 Session 6A Student Research Workshop
 58   # uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems
 90   # To compress or not to compress? A Finite-State approach to Nen verbal morphology
 98   # AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss
-= 6:00 UTC+0 SRW Session 6B
+= 06:00--07:00 Session 6B Student Research Workshop
 123   # Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition
 129   # Building a Japanese Typo Dataset from Wikipedia's Revision History
 131   # Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation
-= 8:00 UTC+0 SRW Session 7A
+= 08:00--09:00 Session 7A Student Research Workshop
 #19  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Unsupervised Paraphasia Classification in Aphasic Speech
 #52  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Reflection-based Word Attribute Transfer
 #90  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # To compress or not to compress? A Finite-State approach to Nen verbal morphology
 #123  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition
-= 9:00 UTC+0 SRW Session 7B
+= 09:00--10:00 Session 7B Student Research Workshop
 127   # How much complexity does an RNN architecture need to learn syntax-sensitive dependencies?
 137   # Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining
-= 12:00 UTC+0 SRW Session 8A
+= 12:00--13:00 Session 8A Student Research Workshop
 #127  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # How much complexity does an RNN architecture need to learn syntax-sensitive dependencies?
 135   # Logical Inferences with Comparatives and Generalized Quantifiers
 #137  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining
 144   # Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources
-= 13:00 UTC+0 SRW Session 8B
+= 13:00--14:00 Session 8B Student Research Workshop
 48   # Pre-training via Leveraging Assisting Languages for Neural Machine Translation
 #131  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation
-= 17:00 UTC+0 SRW Session 9A
+= 17:00--18:00 Session 9A Student Research Workshop
 2   # Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems
 95   # Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup
 114   # Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition
 122   # Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions
-= 18:00 UTC+0 SRW Session 9B
+= 18:00--19:00 Session 9B Student Research Workshop
 28   # Compositional Generalization by Factorizing Alignment and Translation
 #39  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # RPD: A Distance Function Between Word Embeddings
 85   # #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media
@@ -75,39 +75,39 @@
 = 20:00 UTC+0 SRW Session 10A
 = 21:00 UTC+0 SRW Session 10B
 * Wednesday, July 8, 2020
-= 5:00 UTC+0 SRW Session 11A
+= 05:00--06:00 Session 11A Student Research Workshop
 #35  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing
 #55  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Considering Likelihood in NLP Classi___cation Explanations with Occlusion and Language Modeling
-= 6:00 UTC+0 SRW Session 11B
+= 06:00--07:00 Session 11B Student Research Workshop
 #53  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information
 #54  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Multi-Task Neural Model for Agglutinative Language Translation
-= 8:00 UTC+0 SRW Session 12A
+= 08:00--09:00 Session 12A Student Research Workshop
 #14  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition
 #36  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Research on Task Discovery for Transfer Learning in Deep Neural Networks
 #58  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems
-= 9:00 UTC+0 SRW Session 12B
+= 09:00--10:00 Session 12B Student Research Workshop
 #16  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Adaptive Transformers for Learning Multimodal Representations
-= 12:00 UTC+0 SRW Session 13A
+= 12:00--13:00 Session 13A Student Research Workshop
 #48  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Pre-training via Leveraging Assisting Languages for Neural Machine Translation
 #82  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # A Simple and Effective Dependency Parser for Telugu
 #95  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup
-= 13:00 UTC+0 SRW Session 13B
+= 13:00--14:00 Session 13B Student Research Workshop
 #98  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss
 #109  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Understanding Points of Correspondence between Sentences for Abstractive Summarization
 #135  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Logical Inferences with Comparatives and Generalized Quantifiers
-= 17:00 UTC+0 SRW Session 14A
+= 17:00--18:00 Session 14A Student Research Workshop
 #5  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Topic Balancing with Additive Regularization of Topic Models
 #9  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Combining Subword Representations into Word-level Representations in the Transformer Architecture
 #42  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder
-= 18:00 UTC+0 SRW Session 14B
+= 18:00--19:00 Session 14B Student Research Workshop
 #69  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models
 #84  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Pointwise Paraphrase Appraisal is Potentially Problematic
 #144  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources
-= 20:00 UTC+0 SRW Session 15A
+= 20:00--21:00 Session 15A Student Research Workshop
 #2  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems
 #17  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Story-level Text Style Transfer: A Proposal
 #22  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment
-= 21:00 UTC+0 SRW Session 15B
+= 21:00--22:00 Session 15B Student Research Workshop
 #85  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media
 #104  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Crossing the Line: Where do Demographic Variables Fit into Humor Detection?
 #106  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions
