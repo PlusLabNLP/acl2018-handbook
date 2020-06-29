@@ -153,8 +153,6 @@ for date in dates:
 
         # Print the Session overview (single-page at-a-glance grid)
         if len(parallel_sessions) > 0:
-            print(parallel_sessions[0])
-
             session_num = parallel_sessions[0].num
 
             path = os.path.join(args.output_dir, '%s-parallel-session-%s.tex' % (day, session_num))
@@ -172,6 +170,7 @@ for date in dates:
             '''
 
             print >>out, '\\section[Session %s Overview]{Session %s Overview -- \daydateyear}' % (session_num, session_num)
+            print >>out, '\\label{parallel-session-%s}' % (session_num)
             print >>out, '\\setheaders{Session %s}{\daydateyear}' % (session_num)
             print >>out, '\\begin{center}'
             print >>out, '\\righthyphenmin2'
@@ -180,7 +179,7 @@ for date in dates:
             print >>out, '\\begin{longtable}{>{\RaggedRight}p{0.8in}||>{\RaggedRight}p{0.69in}|>{\RaggedRight}p{0.69in}|>{\RaggedRight}p{0.69in}|>{\RaggedRight}p{0.69in}|>{\RaggedRight}p{0.69in}}'
             for sess_i, session in enumerate(parallel_sessions):
                 num_row = math.ceil(len(parallel_sessions[sess_i].papers) / 5)
-                # design 2: do not use multirow
+                # design 1: do not use multirow
                 # print >>out, '\\bf Track %s \\newline \it %s \\newline %s ' % (track_name_list[sess_i], session.desc, session.time)
                 # design 2
                 print >>out, '\\multirow{%d}{0.8in}{\\vspace{-2mm} \\\ \\bf Track %c \\newline \it %s \\newline %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}}' % (num_row, chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
@@ -220,10 +219,9 @@ for date in dates:
             # Now print the papers in each of the sessions
             # Print the papers
             print >>out, '\\newpage'
-            print >>out, '\\section{Parallel Session %s}' % (session_num)
+            print >>out, '\\section{Session %s Details}' % (session_num)
             for i, session in enumerate(parallel_sessions):
                 chair = session.chair()
-                print >>out, '{\\bfseries\\large %s: %s}\\\\' % (session.name, session.desc)
                 print >>out, '\\subsection{\large %s: %s}' % (session.name, session.desc)
                 print >>out, '\\label{parallel-session-%s-track%c}' % (session_num, chr(i + 65))
                 print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
