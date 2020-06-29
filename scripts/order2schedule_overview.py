@@ -179,7 +179,12 @@ for date in dates:
                     loc = "Plenary"
                 event_str = "%s" % event
                 # event_str = event_str.replace("&", "\&")
-                print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                if 'Keynote 1' in event_str:
+                    print >>out, '  {\\bfseries \\hyperref[keynote-1]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                elif 'Keynote 2' in event_str:
+                    print >>out, '  {\\bfseries \\hyperref[keynote-2]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                else:
+                    print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
                 print >>out, '  \\\\'
 
     print >>out, '\\end{SingleTrackSchedule}'
