@@ -1,45 +1,3 @@
-# Deadline
-
-- Tutorial program: 1 June
-- Main conference program: 8 June
-- Demo program: 8 June
-- SRW program: 10 June
-- Workshop program: 14 June
-- Handbook for printing: 25 June
-
-# TODOs
-
-Adapted from 2018 version without any content change. Dayx schedules need to be updated according to this year's plan.
-
-- [ ] TACL entries
-- [ ] Generate the workshop schedules, double check, previous has error messages
-- [ ] Update content/setup/venues.tex
-- [x] frontmatter preface-chair
-- [x] frontmatter preface-pc
-- [x] frontmatter committee
-- [ ] Meal Info
-- [ ] Welcome Reception
-- [ ] Social Event
-- [ ] Tutorials
-- [ ] Local Guide
-- [ ] New CL author/reviewer guidelines
-- [ ] Sponsors
-- [ ] Day1 presidential address
-- [ ] Day2 invited talk 1
-- [ ] Day3 invited talk 2
-- [ ] Day3 lifetime achievement award
-- [ ] Day3 best paper session (session 9; remove parallel overview)
-- [ ] add sponsors to sessions
-- [ ] add printer name (page 2)
-- [ ] fix second last page map (rotate and split into 2 pages)
-- [ ] locations for a number of things (content/setup/venues.tex) coffee: mon-wed = 'Level 2 Foyer & Melbourne Room'; other days = 'Level 2 Foyer'
-- [ ] email drago to check index
-- [ ] update registration time
-- [ ] confirm: anti harassment policy do not include `implementation` section. (it's updated from 2018 version)
-- [ ] confirm: do we need to add reviews (primary/secondary/outstanding) to handbook? 2018 version not added.
-
-# Sponsors
-
 # Changes from Matt's original repository
 
 - Fixed a biber macro that works with latest texlive  
@@ -432,16 +390,22 @@ Directories:
       * Use script to automatically 1) filter out all TACL/CL papers from `data/papers/order` file; 2) string match to find corrensponding record in bib files of previous TACL/CL volumes; 3) extract bib record info and save to yaml file and display left out papers for manual processing
 
           ```
-          cd scripts/
-          python3 retrieve_tacl_entries.py
+          python3 scripts/retrieve_tacl_entries.py
           ```
       * Entries that cannot be automatically extracted needs the help of human intelligence
-    * Add info from the yaml file to bibliograph and abstracts, just like other paper
+    * Add info from the yaml file to bibliograph and abstracts, just like other paper. This script will process both `input/tacl.yaml` and `input/cl.yaml` files.
+
           ```
           python2 ./scripts/tacl_builder.py
           ```
 
-6. Generate the workshop schedules:
+6. Replace TACL and CL lines in `data/papers/order` with TACL and CL id info
+    
+    ```
+    python3 ./scripts/replace_order_file_tacl_id.py
+    ```
+
+7. Generate the workshop schedules:
 
        for dir in $(ls data); do 
          [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
@@ -450,32 +414,32 @@ Directories:
     
     This leaves you with a ton of `schedule.tex` files which can be `\input`ed via LaTeX
   
-7. Edit `content/workshops/overview.tex` and
+8. Edit `content/workshops/overview.tex` and
   `content/workshops/workshops.tex` to include these files and to be correct. Also edit `content/setup/venues.tex` to update workshop locations.
 
-8. Create the workshops bibtex entries in
+9. Create the workshops bibtex entries in
   `content/workshops/papers.bib`. This is included in the main
   `handbook.tex` so that you can cite the workshop chairs and title automatically.
 
-9. Change bibliography import part in `handbook.tex` to match workshop/conf names listed in `input/conferences.txt`
+10. Change bibliography import part in `handbook.tex` to match workshop/conf names listed in `input/conferences.txt`
 
-10. Next, fill in the tutorials manually, editing
+11. Next, fill in the tutorials manually, editing
   `content/tutorials/tutorials-001.tex` and so on. Also edit the tutorial
   overview page in `content/tutorials/tutorials-overview.tex`.
 
-11. Generate the paper and poster session files (which you'll have to edit a bit afterwards):
+12. Generate the paper and poster session files (which you'll have to edit a bit afterwards):
 
-       for name in tacl demos papers srw; do
-           cat data/$name/order | ./scripts/order2schedule.perl $name
-       done
+    ```
+    sh run_order2schedule.sh
+    ```
 
-       sh run_order2schedule.sh
+13. Generate the daily overviews, munge them a bit, pull them in
+    
+    ```
+    sh run_order2schedule_overview.sh
+    ```
 
-12. Generate the daily overviews, munge them a bit, pull them in
-
-        cat data/{papers,shortpapers,demos,tacl,srw}/order | ./scripts/order2schedule_overview.py
-
-13. Email Dragomir Radev, who will run your index against
+14. Email Dragomir Radev, who will run your index against
   [the ACL Anthology Network](http://clair.eecs.umich.edu/aan/index.php),
   correcting spellings and collapsing redundancies.
 
@@ -543,30 +507,29 @@ about any history prior to that.
 - ~~email drago to check index~~
 - ~~update registration time~~
 
-# Sponsors for 2018
+# TODOs
 
-5 Diamond sponsors (Google, Samsung, Facebook, Toutiao [Bytedance], Apple)
+Adapted from 2018 version without any content change. Dayx schedules need to be updated according to this year's plan.
 
-• One page mono advertisement in program booklet
-
-5 Platinum sponsors (Amazon, Recruit Institute of Technology, Tencent, Jingdong, Baidu)
-
-• One page mono advertisement in program bookle
- 
-Gold sponsors (Naver, Microsoft, IBM, CVTE, DHCRC)
-
-• Half page mono advertisement in program booklet
-
-Silver sponsors (Nuance, Duolingo, Huawei, Elsevier)
-
-• Quarter page mono advertisement in program booklet
-
-Bronze sponsors (ISI, DSTG, Sintelix)
-
-• Quarter page mono advertisement in program booklet
-
-Student volunteer sponsor (CSIRO)
-
-• Quarter page mono advertisement in program booklet
-
-Supporter (SAP, Monash Faculty of IT)
+- [x] TACL entries
+- [x] Generate the workshop schedules, double check, previous has error messages
+- [ ] Update content/setup/venues.tex
+- [x] frontmatter preface-chair
+- [x] frontmatter preface-pc
+- [x] frontmatter committee
+- [x] Tutorials
+- [x] Tutorials author profiles
+- [x] Tutorials level
+- [x] New CL author/reviewer guidelines
+- [ ] Sponsors
+- [ ] Day1 presidential address
+- [ ] Day2 invited talk 1
+- [ ] Day3 invited talk 2
+- [ ] Day3 lifetime achievement award
+- [ ] Day3 best paper session (session 9; remove parallel overview)
+- [ ] add sponsors to sessions
+- [ ] Check first and last name order for TACL papers
+- [x] Check special characters esp in names (for example cl-00376)
+- [ ] email drago to check index
+- [ ] confirm: anti harassment policy do not include `implementation` section. (it's updated from 2018 version)
+- [ ] confirm: do we need to add reviews (primary/secondary/outstanding) to handbook? 2018 version not added.
