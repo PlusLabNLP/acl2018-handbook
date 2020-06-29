@@ -182,7 +182,11 @@ for date in dates:
                 # design 1: do not use multirow
                 # print >>out, '\\bf Track %s \\newline \it %s \\newline %s ' % (track_name_list[sess_i], session.desc, session.time)
                 # design 2
-                print >>out, '\\multirow{%d}{0.8in}{\\vspace{-2mm} \\\ \\bf Track %c \\newline \it %s \\newline %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}}' % (num_row, chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
+                if num_row > 0:
+                    print >>out, '\\multirow{%d}{0.8in}{ \\vspace{-2mm} \\\ ' % (num_row)
+                print >>out, '\\bf Track %c \\newline \it %s \\newline %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}' % (chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
+                if num_row > 0:
+                    print >>out, '}'
                 for paper_i, paper in enumerate(parallel_sessions[sess_i].papers):
                     # design 1: list all paper
                     # print >>out, '\\papertableentry{%s}' % (paper.id)
