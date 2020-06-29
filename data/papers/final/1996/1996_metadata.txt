@@ -1,5 +1,5 @@
 SubmissionNumber#=%=#1996
-FinalPaperTitle#=%=#R^3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge
+FinalPaperTitle#=%=#{R}{\^{}}3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge
 ShortPaperTitle#=%=#
 NumberOfPages#=%=#11
 CopyrightSigned#=%=#TUHIN CHAKRABARTY
