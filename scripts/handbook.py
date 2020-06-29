@@ -43,7 +43,7 @@ class Paper:
 
         if self.id.find('/') != -1:
             tokens = self.id.split('/')
-            self.id = '%s-%s' % (tokens[1].lower(), threedigits(tokens[0]))
+            self.id = '%s-%s' % (tokens[1].lower(), tokens[0])
         else:
             self.id = '%s-%s' % (subconf, threedigits(self.id))
             
