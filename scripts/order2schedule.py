@@ -63,13 +63,15 @@ for file in args.order_files:
     for line in open(file):
         line = line.rstrip()
 
-        print "LINE", line
+        # print "LINE", line
 
         if line == '+' or line == '=':
             # this is a useless waste line
             pass
         
         elif line.startswith('*'):
+            if 'UTC' in line:
+                line = re.sub(r' UTC\+\d+', '', line).rstrip()
             # This sets the day
             day, date, year = line[2:].split(', ')
             if not (day, date, year) in dates:
@@ -181,7 +183,7 @@ for date in dates:
                 # design 2: do not use multirow
                 # print >>out, '\\bf Track %s \\newline \it %s \\newline %s ' % (track_name_list[sess_i], session.desc, session.time)
                 # design 2
-                print >>out, '\\multirow{%d}{0.8in}{\\vspace{-2mm} \\\ \\bf Track %c \\newline \it %s \\newline %s \\hyperref[parallel-session-%s-track%c]{Abstracts}}' % (num_row, chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
+                print >>out, '\\multirow{%d}{0.8in}{\\vspace{-2mm} \\\ \\bf Track %c \\newline \it %s \\newline %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}}' % (num_row, chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
                 for paper_i, paper in enumerate(parallel_sessions[sess_i].papers):
                     # design 1: list all paper
                     # print >>out, '\\papertableentry{%s}' % (paper.id)
