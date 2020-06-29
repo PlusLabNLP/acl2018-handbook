@@ -9,18 +9,20 @@ rooted in an optionally-supplied directory.
 
 Usage:
 
- cat data/{papers,shortpapers,demos,srw}/order | order2schedule_overview.py
+ sh run_order2schedule_overview.sh
 
 """
-
+from __future__ import division
 import re, os
 import sys, csv
 import argparse
 from handbook import *
+import math
 from collections import defaultdict
 
 PARSER = argparse.ArgumentParser(description="Generate overview schedules for *ACL handbooks")
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/papers")
+PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
 
 if not os.path.exists(args.output_dir):
@@ -52,31 +54,43 @@ schedule = defaultdict(defaultdict)
 sessions = defaultdict()
 session_times = defaultdict()
 
-for line in sys.stdin:
-    line = line.rstrip()
+for file in args.order_files:
+    print file
+    subconf_name = file.split('/')[1]
+    for line in open(file):
+        line = line.rstrip()
 
-    # print "LINE", line
+        # print "LINE", line
 
-    if line.startswith('*'):
-        day, date, year = line[2:].split(', ')
-        if not (day, date, year) in dates:
-            dates.append((day, date, year))
+        if line == '+' or line == '=':
+            # this is a useless waste line
+            pass
+        
+        elif line.startswith('*'):
+            if 'UTC' in line:
+                line = re.sub(r' UTC\+\d+', '', line).rstrip()
+            day, date, year = line[2:].split(', ')
+            if not (day, date, year) in dates:
+                dates.append((day, date, year))
 
-    elif line.startswith('='):
-        str = line[2:]
-        time_range, session_name = str.split(' ', 1)
-        sessions[session_name] = Session(line, (day, date, year))
+        elif line.startswith('='):
+            if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
+                # ignore demo session and SRW session from main conf order file
+                str = line[2:]
+                time_range, session_name = str.split(' ', 1)
+                sessions[session_name] = Session(line, (day, date, year))
 
-    elif line.startswith('+') or line.startswith('!'):
-        timerange, title = line[2:].split(' ', 1)
-        title, keys = extract_keywords(title)
-        if keys.has_key('by'):
-            title = "%s (%s)" % (title.strip(), keys['by'])
-        session_name = None
+        elif line.startswith('+'):# or line.startswith('!'):
+            if line[2:].split(' ')[0] != 'Note:':
+                timerange, title = line[2:].split(' ', 1)
+                title, keys = extract_keywords(title)
+                if keys.has_key('by'):
+                    title = "%s (%s)" % (title.strip(), keys['by'])
+                session_name = None
 
-        if not schedule[(day, date, year)].has_key(timerange):
-            schedule[(day, date, year)][timerange] = []
-        schedule[(day, date, year)][timerange].append(title)
+                if not schedule[(day, date, year)].has_key(timerange):
+                    schedule[(day, date, year)][timerange] = []
+                schedule[(day, date, year)][timerange].append(title)
 
 # Take all the sessions and place them at their time
 for session in sorted(sessions.keys()):
@@ -103,6 +117,9 @@ def minus12(time):
 
     return '%s:%s' % (hours, minutes)
 
+print dates
+max_pl_session_in_a_row = 5
+
 for date in dates:
     day, num, year = date
     path = os.path.join(args.output_dir, '%s-overview.tex' % (day))
@@ -113,26 +130,46 @@ for date in dates:
     print >>out, '\\begin{SingleTrackSchedule}'
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
         start, stop = timerange.split('--')
-
         if len(events) >= 3 and (hasattr(events[0], "num")):
             # Parallel sessions (assume there are at least 3)
             sessions = [x for x in events]
 
             # turn "Session 9A" to "Session 9"
-            title = 'Session %s' % (sessions[0].num)
+            session_num = sessions[0].num
+            title = 'Session %s' % (session_num)
             num_parallel_sessions = len(sessions)
             rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
-            # column width in inches
-            width = 3.12 / num_parallel_sessions
+            width = 3.12 / min([max_pl_session_in_a_row, num_parallel_sessions])
             print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.2fin}' % width for x in range(num_parallel_sessions)]))
-            print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
-            print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
-            print >>out, ' & '.join(rooms), '\\\\'
-            print >>out, '  \\hline\\end{tabular} \\\\'
+
+            # Design 1: use blocks (table cells to show parallel sessions)
+            # column width in inches
+            '''
+            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.2fin}' % width for x in range(min([max_pl_session_in_a_row, num_parallel_sessions]))]))
+            print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (min([max_pl_session_in_a_row, num_parallel_sessions]),title)
+            if num_parallel_sessions > max_pl_session_in_a_row:
+                rows_number = int(math.ceil(num_parallel_sessions/max_pl_session_in_a_row))
+                for row_count in range(rows_number):
+                    sessions_this_row = sessions[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
+                    rooms_this_row = rooms[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
+                    print >>out, ' & '.join([session.desc for session in sessions_this_row]), '\\\\'
+                    print >>out, ' & '.join(rooms_this_row), '\\\\'
+                    if rows_number != row_count:
+                        print >>out, ' \\\\\hline'
+            else:
+                print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
+                print >>out, ' & '.join(rooms), '\\\\'
+            print >>out, '\\end{tabular} \\\\'
+            '''
+
+            # Design 2: use list
+            print >>out, '{\\bfseries \\hyperref[parallel-session-%s]{%s}} \\newline' % (session_num, title)
+            for sess_i, session in enumerate(sessions):
+                print >>out, '\\hyperref[parallel-session-%s-track%c]{%s} \\hfill %s \\newline' % (session_num, chr(sess_i + 65), session.desc, rooms[sess_i])
+                if sess_i == len(sessions) - 1:
+                    print >>out, '\\\\'
 
         else:
-
             for event in events:
                 # A regular event
                 print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
@@ -141,7 +178,7 @@ for date in dates:
                 except:
                     loc = "Plenary"
                 event_str = "%s" % event
-                event_str = event_str.replace("&", "\&")
+                # event_str = event_str.replace("&", "\&")
                 print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
                 print >>out, '  \\\\'
 
