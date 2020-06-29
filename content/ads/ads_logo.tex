@@ -1,0 +1,50 @@
+\graphicspath{{./}{content/ads/templates/}{../}}
+
+% \setlength{\parindent}{0in}
+% \setlength{\parskip}{2ex}
+
+\newcommand{\aclsponsors}[1]{\multicolumn{3}{@{} c @{} }{\rule[-5mm]{0mm}{5mm}\large \textbf{#1 Sponsors}}}
+\newcommand{\acllogo}[1]{\raisebox{-0.5\height}{\includegraphics[width=3.6cm,height=3cm,keepaspectratio]{#1}}}
+
+\noindent
+\renewcommand*{\arraystretch}{1.4}
+\begin{longtable}{ c c c }
+
+\aclsponsors{Diamond} \\*
+\acllogo{Bloomberg-logo-2019.png} &
+\acllogo{Apple-for-2019-ACLwebsite.jpg} &
+\acllogo{Google.png} \\ \\
+&
+\acllogo{amazon.png} \\
+\\ \\
+\aclsponsors{Platinum} \\*
+\acllogo{IBM.jpg} &
+\acllogo{baidu.jpg} &
+\acllogo{fb.png} \\
+\\
+\multicolumn{3}{c}{%
+\acllogo{deepmind-logo.png} \qquad\qquad
+\acllogo{megagon-logo-2019.png}} \\
+\\ \\
+\aclsponsors{Gold} \\*
+&
+\acllogo{grammarly-logo.png}
+\\ \\
+\aclsponsors{Silver} \\*
+\acllogo{babelscape.jpg} &
+\acllogo{polyai-logo-2019.png} &
+\acllogo{naver.jpg} \\
+\\ \\
+\aclsponsors{Bronze} \\*
+&
+\acllogo{isi.jpg} \\
+\\ \\
+\aclsponsors{Supporter} \\*
+&
+\acllogo{jhu.jpg}
+\\ \\
+\aclsponsors{Diversity \& Inclusion Champion} \\*
+\multicolumn{3}{c}{%
+\acllogo{MSFT.jpg} \qquad\qquad
+\acllogo{deepmind-logo.png}} \\
+\end{longtable}
