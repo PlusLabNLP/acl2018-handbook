@@ -35,3 +35,5 @@ data_original
 # do not stage tgz proceedings.tgz files in data/*/
 proceedings.tgz
 draft
+auto/schedule
+content/days
