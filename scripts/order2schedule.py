@@ -21,15 +21,37 @@ import argparse
 from handbook import *
 import math
 from collections import defaultdict
+from shutil import copyfile
 
 PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbooks")
-PARSER.add_argument("-output_dir", dest="output_dir", default="auto/papers")
+# when just one timezone
+# PARSER.add_argument("-output_dir", dest="output_dir", default="auto/papers")
+# when multiple multizone multiple versions
+PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
+PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
+PARSER.add_argument("-timezone", default="UTC+0")
+PARSER.add_argument("-base_handbook_tex", default="final/base/handbook.tex")
 PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
 track_name_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
 if not os.path.exists(args.output_dir):
     os.makedirs(args.output_dir)
+
+output_dir_timezone = os.path.join(args.output_dir, args.timezone)
+
+print "Schedule will be saved to %s" % output_dir_timezone
+
+if not os.path.exists(output_dir_timezone):
+    os.makedirs(output_dir_timezone)
+
+if not os.path.exists(args.day_summary_output_dir):
+    os.makedirs(args.day_summary_output_dir)
+
+day_summary_output_dir_timezone = os.path.join(args.day_summary_output_dir, args.timezone)
+
+if not os.path.exists(day_summary_output_dir_timezone):
+    os.makedirs(day_summary_output_dir_timezone)
 
 def time_min(a, b):
     ahour, amin = a.split(':')
@@ -139,8 +161,10 @@ def minus12(time):
 # Now iterate through the combined schedule, printing, printing, printing.
 # Write a file for each date. This file can then be imported and, if desired, manually edited.
 print('=====================')
+page_list_all_dates = []
 for date in dates:
     print(date)
+    page_list = []
     day, num, year = date
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
         start, stop = timerange.split('--')
@@ -158,8 +182,9 @@ for date in dates:
             session_num = parallel_sessions[0].num
             session_name = parallel_sessions[0].name
 
-            path = os.path.join(args.output_dir, '%s-parallel-session-%s.tex' % (day, session_num))
+            path = os.path.join(output_dir_timezone, '%s-parallel-session-%s.tex' % (day, session_num))
             out = open(path, 'w')
+            page_list.append(path)
             print >> sys.stderr, "\\input{%s}" % (path)
             
             print >>out, '\\clearpage'
@@ -245,8 +270,9 @@ for date in dates:
 
         # POSTER SESSIONS
         for session in poster_sessions:
-            path = os.path.join(args.output_dir, '%s-%s.tex' % (day, session.name.replace(' ', '-')))
+            path = os.path.join(output_dir_timezone, '%s-%s.tex' % (day, session.name.replace(' ', '-')))
             out = open(path, 'w')
+            page_list.append(path)
             print >> sys.stderr, "\\input{%s}" % (path)
 
             print >>out, '{\\section{%s}' % (session.name)
@@ -263,3 +289,55 @@ for date in dates:
             print >>out, '\\clearpage'
 
             out.close()
+
+    page_list_all_dates.append(page_list)
+
+# Generate tex file for dayx.tex in content/schedule/UTC+x/
+# these tex are originally the ones in content/day1/day1.tex, content/day2/day2.tex etc
+print "=================generating dayx.tex"
+for day_i, date in enumerate(dates):
+    print(date)
+    day, num, year = date
+
+    out = open(os.path.join(day_summary_output_dir_timezone, 'day%d.tex' % (day_i + 1)), 'w')
+    print >>out, '\\cleardoublepage'
+    print >>out, '\\chapter{Main Conference: \daydate}'
+    print >>out, '\\thispagestyle{emptyheader}'
+    print >>out, '\\cleardoublepage'
+
+    print >>out, '\\input{%s/%s-overview.tex}' % (output_dir_timezone, day)
+    print >>out, '\\afterpage{\\null\\newpage}'
+
+    for pagepath in page_list_all_dates[day_i]:
+        # insert special session among all parallel and poster sessions here
+        if 'parallel-session-4A' in pagepath:
+            # insert keynote 1 before 4A
+            print >>out, '\\input{content/keynote/keynote-1}'
+        elif 'parallel-session-14A' in pagepath:
+            # insert keynote 2 before 14A
+            print >>out, '\\input{content/keynote/keynote-2}'
+        print >>out, '\\input{%s}' % pagepath
+    out.close()
+
+# Generate final file used for generation final/UTC+x/handbook.tex
+print "=================generating final handbook.tex"
+final_tex_dir = os.path.join('final', args.timezone)
+if not os.path.exists(final_tex_dir):
+    os.makedirs(final_tex_dir)
+
+# copy a base tex file
+final_tex_path = os.path.join(final_tex_dir, 'handbook.tex')
+copyfile(args.base_handbook_tex, final_tex_path)
+
+out = open(final_tex_path, 'a')
+for day_i, date in enumerate(dates):
+    print(date)
+    day, num, year = date
+
+    print >>out, '\\setdaydateyear{%s}{%s}{%s}' % (day, num, year)
+    print >>out, '\\input{../../%s/day%d}' % (day_summary_output_dir_timezone, (day_i + 1))
+    print >>out, '\\newpage'
+
+
+print >>out, '\\end{document}'
+out.close()
