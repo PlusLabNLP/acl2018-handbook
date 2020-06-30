@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#1327
+FinalPaperTitle#=%=#Rethinking Dialogue State Tracking with Reasoning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lizi Liao
+JobTitle#==#research fellow
+Organization#==#National University of Singapore
+Abstract#==#Tracking dialogue states to better interpret user goals and feed downstream policy learning is a bottleneck in dialogue management. Common practice has been to treat it as a problem of classifying dialogue content into a set of pre-defined slot-value pairs, or generating values for different slots given the dialogue history. Both have limitations on considering dependencies that occur on dialogues, and are lacking of reasoning capabilities. This paper proposes to track dialogue states gradually with reasoning over dialogue turns with the help of the back-end data. Empirical results demonstrate that our method significantly outperforms the state-of-the-art methods by 17.2% in terms of joint belief accuracy
+for MultiWOZ 2.1, a large-scale human-human dialogue dataset across multiple domains.
+Author{1}{Firstname}#=%=#Lizi
+Author{1}{Lastname}#=%=#Liao
+Author{1}{Username}#=%=#quenxings
+Author{1}{Email}#=%=#liaolizi.llz@gmail.com
+Author{1}{Affiliation}#=%=#National University of Singapore
+Author{2}{Firstname}#=%=#Yunshan
+Author{2}{Lastname}#=%=#Ma
+Author{2}{Username}#=%=#yunshanma
+Author{2}{Email}#=%=#yunshan.ma@u.nus.edu
+Author{2}{Affiliation}#=%=#National University of Singapore
+Author{3}{Firstname}#=%=#Wenqiang
+Author{3}{Lastname}#=%=#Lei
+Author{3}{Username}#=%=#wenqiang
+Author{3}{Email}#=%=#a0134670@u.nus.edu
+Author{3}{Affiliation}#=%=#National University of Singapore
+Author{4}{Firstname}#=%=#Tat-Seng
+Author{4}{Lastname}#=%=#Chua
+Author{4}{Username}#=%=#chuats
+Author{4}{Email}#=%=#dcscts@nus.edu.sg
+Author{4}{Affiliation}#=%=#National University of Singapore
+
+==========
