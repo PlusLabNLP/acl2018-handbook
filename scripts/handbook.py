@@ -30,6 +30,34 @@ def latex_escape(str):
 #    str = re.sub(r'([^$])\^(.*?) ', r'\1$^\2$ ',  str)
     return str
 
+day_list = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+def timezone_convert(time, date_tuple, origin_tz, target_tz):
+    day, date, year = date_tuple
+    time_diff = int(target_tz[3:]) - int(origin_tz[3:])
+    time_start = int(time.split('--')[0].split(':')[0])
+    time_end = int(time.split('--')[1].split(':')[0])
+
+    time_start_new = time_start + time_diff
+    time_end_new = time_end + time_diff
+    date_new = date
+    day_new = day
+
+    if time_end_new <= 0:
+        date_new = date.split(' ')[0] + ' ' + str(int(date.split(' ')[1]) - 1)
+        time_start_new = time_start_new + 24
+        time_end_new = time_end_new + 24
+        day_new = day_list[(day_list.index(day) - 1) % 7]
+
+    if time_start_new >= 24:
+        date_new = date.split(' ')[0] + ' ' + str(int(date.split(' ')[1]) + 1)
+        time_start_new = time_start_new - 24
+        time_end_new = time_end_new - 24
+        day_new = day_list[(day_list.index(day) + 1) % 7]
+
+    time_new = str(time_start_new) + ':' + time.split('--')[0].split(':')[1] + '--' + str(time_end_new) + ':' + time.split('--')[1].split(':')[1]
+    return time_new, (day_new, date_new, year)
+
 class Paper:
     def __init__(self, line, subconf):
         self.id, rest = line.split(' ', 1)
@@ -57,11 +85,18 @@ def threedigits(str):
     return '%03d' % (int(str))
 
 class Session:
-    def __init__(self, line, date):
+    def __init__(self, line, date, origin_tz='UTC+0', target_tz="UTC+0"):
         (self.time, namestr) = line[2:].split(' ', 1)
         self.date = date
         self.papers = []
         self.desc = None
+
+        # this day, date, and year will be used by following code section.
+        # Timezone convertion
+        print '====='
+        print self.time, self.date
+        self.time, self.date = timezone_convert(self.time, self.date, origin_tz, target_tz)
+        print self.time, self.date
 
         (self.name, self.keywords) = extract_keywords(namestr)
         

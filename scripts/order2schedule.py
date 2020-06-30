@@ -30,8 +30,8 @@ PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbo
 # when multiple multizone multiple versions
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
 PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
-PARSER.add_argument("-timezone", default="UTC+0")
-PARSER.add_argument("-base_handbook_tex", default="handbook.tex")
+PARSER.add_argument("-timezone", default="UTC+8")
+PARSER.add_argument("-base_handbook_tex", default="template/handbook.tex")
 PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
 track_name_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
@@ -79,6 +79,7 @@ dates = []
 schedule = defaultdict(defaultdict)
 sessions = defaultdict()
 session_times = defaultdict()
+order_timezone = ''
 
 for file in args.order_files:
     print file
@@ -93,7 +94,12 @@ for file in args.order_files:
             pass
         
         elif line.startswith('*'):
-            if 'UTC' in line:
+            match = re.search("UTC(\+|-)\d+", line)
+            if match != None:
+                if order_timezone == '' or order_timezone == match.group(0):
+                    order_timezone = match.group(0)
+                else:
+                    sys.stderr.write('-> Different timezone detected in the same order file: \n%s\n' % line)
                 line = re.sub(r' UTC\+\d+', '', line).rstrip()
             # This sets the day
             day, date, year = line[2:].split(', ')
@@ -108,7 +114,7 @@ for file in args.order_files:
             time_range, session_name = str.split(' ', 1)
             if 'Demo Session' in line:
                 session_name = day + session_name
-            sessions[session_name] = Session(line, (day, date, year))
+            sessions[session_name] = Session(line, (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
 
         elif line.startswith('+'):
             if line[2:].split(' ')[0] != 'Note:':
@@ -120,7 +126,7 @@ for file in args.order_files:
 
                 if "poster" in title.lower() or "demo" in title.lower() or "best paper session" in title.lower():
                     session_name = title
-                    sessions[session_name] = Session(line, (day, date, year))
+                    sessions[session_name] = Session(line, (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
                 
                 if not schedule[(day, date, year)].has_key(timerange):
                     schedule[(day, date, year)][timerange] = []
@@ -134,7 +140,7 @@ for file in args.order_files:
                 title = rest
 
             if not sessions.has_key(session_name):
-                sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year))
+                sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
 
             sessions[session_name].add_paper(Paper(line, subconf_name))
 
@@ -409,6 +415,14 @@ print "=================generating final handbook.tex"
 # copy a base tex file
 final_tex_path = 'handbook_%s.tex' % args.timezone
 copyfile(args.base_handbook_tex, final_tex_path)
+
+# replace some key parameters
+with open(final_tex_path, 'rt') as f:
+    data = f.read()
+    data = data.replace('TOREPLACE_TIMEZONE', args.timezone)
+
+with open(final_tex_path, 'wt') as f:
+    f.write(data)
 
 out = open(final_tex_path, 'a')
 for day_i, date in enumerate([dates[0]]):
