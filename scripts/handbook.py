@@ -43,7 +43,10 @@ class Paper:
 
         if self.id.find('/') != -1:
             tokens = self.id.split('/')
-            self.id = '%s-%s' % (tokens[1].lower(), tokens[0])
+            if tokens[1] == 'SRW':
+                self.id = '%s-%s' % (tokens[1], tokens[0])
+            else:
+                self.id = '%s-%s' % (tokens[1].lower(), tokens[0])
         else:
             self.id = '%s-%s' % (subconf, threedigits(self.id))
             
@@ -73,10 +76,16 @@ class Session:
                 # extract more information from the line
                 # session title like "Vision, Linguistics, Resource and Evaluation (Short)"
                 self.desc = self.name[match.end()+1:]
-                # sessopm name like "Session 5E"
-                self.name = match.group(0)
-                # parallel session number, like "5"
-                self.num = match.group(1)
+                if 'Demo Session' not in line:
+                    # sessopm name like "Session 5E"
+                    self.name = match.group(0)
+                    # parallel session number, like "5"
+                    self.num = match.group(1)
+                else:
+                    # Demo session. 2020's demo session use same session name and num multiple times, like Demo Session 1A appear 3 times. So need to distinguish them
+                    self.name = self.name
+                    self.num = '%s-demo-%s' % (self.date[0], match.group(1))
+
         # print >> sys.stderr, "LINE %s NAME %s DESC %s" % (line, self.name, self.desc)
 
         self.poster = False
