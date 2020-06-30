@@ -135,45 +135,20 @@
 = 08:00--09:00 Session 2A Computational Social Science and Social Media-2
 1920 # Code-switching patterns can be an effective route to improve performance of downstream NLP applications: A case study of humour, sarcasm and hate speech detection
 330 # DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification
-2426 # Integrating Semantic and Structural Information with Graph Convolutional Network for Controversy Detection
-3085 # Predicting the Topical Stance and Political Leaning of Media using Tweets
-1815 # Simple, Interpretable and Stable Method for Detecting Words with Usage Change across Corpora
 = 08:00--09:00 Session 2A Dialogue and Interactive Systems-3
-2794 # CDL: Curriculum Dual Learning for Emotion-Controllable Response Generation
-3458 # Learning Low-Resource End-To-End Goal-Oriented Dialog for Fast and Reliable System Deployment
-2768 # Response-Anticipated Memory for On-Demand Knowledge Integration in Response Generation
 2624 # Towards Conversational Recommendation over Multi-Type Dialogs
-3322 # Towards Unsupervised Language Understanding and Generation by Joint Dual Learning
 3090 # Unknown Intent Detection Using Gaussian Mixture Model with an Application to Zero-shot Intent Classification
 = 08:00--09:00 Session 2A Generation-3
 1785 # Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen
-2474 # Fact-based Text Editing
-1469 # Fluent Response Generation for Conversational Question Answering
-2793 # Learning to Ask More: Semi-Autoregressive Sequential Question Generation under Dual-Graph Interaction
-1579 # Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks
-3438 # Probabilistically Masked Language Model Capable of Autoregressive Generation in Arbitrary Word Order
-2553 # Review-based Question Generation with Adaptive Instance Transfer and Augmentation
 1777 # Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints
 = 08:00--09:00 Session 2A Information Retrieval and Text Mining-3
 1167 # Dynamic Memory Induction Networks for Few-Shot Text Classification
-3020 # Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks
 1238 # Exclusive Hierarchical Decoding for Deep Keyphrase Generation
 1492 # Hierarchy-Aware Global Model for Hierarchical Text Classification
-687 # Interactive Construction of User-Centric Dictionary for Text Analytics
 300 # Keyphrase Generation for Scientific Document Retrieval
-1474 # Neural Topic Modeling with Bidirectional Adversarial Training
-2265 # Text Classification with Negative Supervision
-670 # Tree-Structured Neural Topic Model
 = 08:00--09:00 Session 2A Phonology, Morphology and Word Segmentation-1
 1680 # A Graph Auto-encoder Model of Derivational Morphology
 = 08:00--09:00 Session 2A Question Answering-2
-822 # A Frame-based Sentence Representation for Machine Reading Comprehension
-1603 # A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation
-2461 # Enhancing Answer Boundary Detection for Multilingual Machine Reading Comprehension
-1424 # Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading
-1552 # Injecting Numerical Reasoning Skills into Language Models
-2648 # Learning to Identify Follow-Up Questions in Conversational Question Answering
-2484 # Query Graph Generation for Answering Multi-hop Complex Questions from Knowledge Bases
 = 08:00--09:00 Session 2A Resources and Evaluation-2
 3473 # Building a User-Generated Content North-African Arabizi Treebank: Tackling Hell
 548 # Crawling and Preprocessing Mailing Lists At Scale for Dialog Analysis
@@ -205,15 +180,10 @@
 ! [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
 = 09:00--10:00 Session 2B Cognitive Modeling and Psycholinguistics-2
 1915/TACL # [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
-1292 # Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts
 = 09:00--10:00 Session 2B Dialogue and Interactive Systems-4
 60 # Beyond User Self-Reported Likert Scale Ratings: A Comparison Model for Automatic Dialog Evaluation
 463 # Conversational Word Embedding for Retrieval-Based Dialog System
-664 # Designing Precise and Robust Dialogue Response Evaluators
-1112 # Evaluating Dialogue Generation Systems via Response Selection
 2281 # Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
-1694 # Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy
-473 # Guiding Variational Response Generator to Exploit Persona
 547 # Learning Dialog Policies from Weak Demonstrations
 1420 # MuTual: A Dataset for Multi-Turn Dialogue Reasoning
 71 # You Impress Me: Dialogue Generation via Mutual Persona Perception
@@ -221,11 +191,8 @@
 204 # Bridging Anaphora Resolution as Question Answering
 1973 # Dialogue Coherence Assessment Without Explicit Dialogue Act Labels
 = 09:00--10:00 Session 2B Generation-4
-1431 # Explicit Semantic Decomposition for Definition Generation
 689 # Fast and Accurate Non-Projective Dependency Tree Linearization
 1547 # Semantic Graphs for Generating Deep Questions
-1549 # Syn-QG: Syntactic and Shallow Semantic Rules for Question Generation
-449 # Unsupervised Paraphrasing by Simulated Annealing
 = 09:00--10:00 Session 2B Information Extraction-1
 914 # A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
 864 # In Laymans Terms: Semi-Open Relation Extraction from Scientific Texts
@@ -243,30 +210,16 @@
 1624 # Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation
 3145 # It's Easier to Translate out of English than into it: Measuring Neural Translation Difficulty by Cross-Mutual Information
 2892 # Language-aware Interlingua for Multilingual Neural Machine Translation
-598 # Norm-Based Curriculum Learning for Neural Machine Translation
 3353 # On the Limitations of Cross-lingual Encoders as Exposed by Reference-Free Machine Translation Evaluation
 2328 # Parallel Sentence Mining by Constrained Decoding
 393 # Self-Attention with Cross-Lingual Position Representation
 1758 # ``You Sound Just Like Your Father''\\Commercial Machine Translation Systems Include Stylistic Biases
 = 09:00--10:00 Session 2B NLP Applications-2
-1079 # Fast and Accurate Deep Bidirectional Language Representations for Unsupervised Learning
-3091 # Fine-grained Interest Matching for Neural News Recommendation
-2467 # Interpretable Operational Risk Classification with Semi-Supervised Variational Autoencoder
-2462 # Interpreting Twitter User Geolocation
 3205 # MMPE: A Multi-Modal Interface for Post-Editing Machine Translation
-1412 # Modeling Code-Switch Languages Using Bilingual Parallel Corpus
-147 # SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check
-797 # Spelling Error Correction with Soft-Masked BERT
 = 09:00--10:00 Session 2B Resources and Evaluation-3
-1203 # A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers
 1766 # A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages
-1541 # Improving Image Captioning Evaluation by Considering Inter References Variance
-1014 # Revisiting the Context Window for Cross-lingual Word Embeddings
 1767 # Will-They-Won't-They: A Very Large Dataset for Stance Detection on Twitter
 = 09:00--10:00 Session 2B Theory and Formalism in NLP (Linguistic and Mathematical)-2
-108 # A Three-Parameter Rank-Frequency Relation in Natural Languages
-72 # Dice Loss for Data-imbalanced NLP Tasks
-648 # Language Models as an Alternative Evaluator of Word Order Hypotheses: A Case Study in Japanese
 1815/TACL # [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
 = 09:00--10:00 Session 2B Student Research Workshop
 ! [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
@@ -285,63 +238,15 @@
 566 # Suspense in Short Stories is Predicted By Uncertainty Reduction over Neural Story Representation
 2083 # You Don't Have Time to Read This: An Exploration of Document Reading Time Prediction
 = 12:00--13:00 Session 3A Computational Social Science and Social Media-3
-1920 # Code-switching patterns can be an effective route to improve performance of downstream NLP applications: A case study of humour, sarcasm and hate speech detection
-330 # DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification
-918 # GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
 = 12:00--13:00 Session 3A Dialogue and Interactive Systems-5
 1482 # A Generative Model for Joint Natural Language Understanding and Generation
-60 # Beyond User Self-Reported Likert Scale Ratings: A Comparison Model for Automatic Dialog Evaluation
-462 # Coach: A Coarse-to-Fine Approach for Cross-domain Slot Filling
-463 # Conversational Word Embedding for Retrieval-Based Dialog System
-2281 # Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
-1420 # MuTual: A Dataset for Multi-Turn Dialogue Reasoning
-480 # PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable
-1343 # Paraphrase Augmented Task-Oriented Dialog Generation
-1709 # Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations
-71 # You Impress Me: Dialogue Generation via Mutual Persona Perception
 = 12:00--13:00 Session 3A Generation-5
 1045 # Automatic Detection of Generated Text is Easiest when Humans are Fooled
-689 # Fast and Accurate Non-Projective Dependency Tree Linearization
-789 # Generating Diverse and Consistent QA pairs from Contexts with Information-Maximizing Hierarchical Conditional VAEs
-806 # Pre-train and Plug-in: Flexible Conditional Text Generation with Variational Auto-Encoders
-1038 # Rigid Formats Controlled Text Generation
 = 12:00--13:00 Session 3A Information Retrieval and Text Mining-4
-1765 # A Joint Model for Document Segmentation and Segment Labeling
-1349 # An Online Semantic-enhanced Dirichlet Model for Short Text Stream Clustering
-1167 # Dynamic Memory Induction Networks for Few-Shot Text Classification
-1238 # Exclusive Hierarchical Decoding for Deep Keyphrase Generation
-1047 # Generative Semantic Hashing Enhanced via Boltzmann Machines
-1492 # Hierarchy-Aware Global Model for Hierarchical Text Classification
-300 # Keyphrase Generation for Scientific Document Retrieval
-1208 # Unsupervised FAQ Retrieval with Question Generation and BERT
 = 12:00--13:00 Session 3A Machine Translation-3
-1903 # Boosting Neural Machine Translation with Similar Translations
-1976 # End-to-End Neural Word Alignment Outperforms GIZA++
-2081 # Enhancing Machine Translation with Dependency-Aware Self-Attention
-1624 # Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation
-201 # Jointly Masked Sequence-to-Sequence Model for Non-Autoregressive Neural Machine Translation
-27 # Learning Source Phrase Representations for Neural Machine Translation
-12 # Lipschitz Constrained Parameter Initialization for Deep Transformers
 83 # Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing
-393 # Self-Attention with Cross-Lingual Position Representation
-1758 # ``You Sound Just Like Your Father''\\Commercial Machine Translation Systems Include Stylistic Biases
 = 12:00--13:00 Session 3A Resources and Evaluation-4
-1766 # A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages
-3473 # Building a User-Generated Content North-African Arabizi Treebank: Tackling Hell
-548 # Crawling and Preprocessing Mailing Lists At Scale for Dialog Analysis
-508 # Fine-Grained Analysis of Cross-Linguistic Syntactic Divergences
-531 # Generating Counter Narratives against Online Hate Speech: Data and Strategies
-2476 # KLEJ: Comprehensive Benchmark for Polish Language Understanding
-3180 # Learning and Evaluating Emotion Lexicons for 91 Languages
-3480 # Multi-Hypothesis Machine Translation Evaluation
-3449 # Multimodal Quality Estimation for Machine Translation
-2135 # PuzzLing Machines: A Challenge on Learning From Small Data
-554 # The SOFC-Exp Corpus and Neural Approaches to Information Extraction in the Materials Science Domain
-542 # The TechQA Dataset
-1767 # Will-They-Won't-They: A Very Large Dataset for Stance Detection on Twitter
-2257 # iSarcasm: A Dataset of Intended Sarcasm
 = 12:00--13:00 Session 3A Semantics: Sentence Level-2
-1377 # AMR Parsing via Graph-Sequence Iterative Inference
 = 12:00--13:00 Session 3A Student Research Workshop
 ! [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
 ! [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
@@ -353,64 +258,22 @@
 = 13:00--14:00 Session 3B Dialogue and Interactive Systems-6
 880 # Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation
 1901/TACL # [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
-2742 # Dialogue State Tracking with Explicit Slot Connection Modeling
-3055 # End-to-End Neural Pipeline for Goal-Oriented Dialogue Systems using GPT-2
-3193 # Gated Convolutional Bidirectional Attention-based Model forOff-topic Spoken Response Detection
-547 # Learning Dialog Policies from Weak Demonstrations
-870 # Learning to Tag OOV Tokens by Integrating Contextual Representation and Background Knowledge
-1106 # Multi-Agent Task-Oriented Dialog Policy Learning with Role-Aware Reward Decomposition
-3018 # Semi-Supervised Dialogue Policy Learning via Stochastic Reward Estimation
-684 # Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network
-2624 # Towards Conversational Recommendation over Multi-Type Dialogs
-3090 # Unknown Intent Detection Using Gaussian Mixture Model with an Application to Zero-shot Intent Classification
 = 13:00--14:00 Session 3B Discourse and Pragmatics-3
-3028 # A Complete Shift-Reduce Chinese Discourse Parser with Robust Dynamic Oracle
-204 # Bridging Anaphora Resolution as Question Answering
-1973 # Dialogue Coherence Assessment Without Explicit Dialogue Act Labels
-860 # TransS-Driven Joint Learning Architecture for Implicit Discourse Relation Recognition
 = 13:00--14:00 Session 3B Generation-6
-2714 # A Study of Non-autoregressive Model for Sequence Generation
-1785 # Expertise Style Transfer: A New Task Towards Better Communication between Experts and Laymen
 2002 # GPT-too: A language-model-first approach for AMR-to-text generation
 2226 # Learning to Update Natural Language Comments Based on Code Changes
 1849/TACL # [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
 2505 # Politeness Transfer: A Tag and Generate Approach
-1547 # Semantic Graphs for Generating Deep Questions
-3009 # TAG : Type Auxiliary Guiding for Code Comment Generation
-1777 # Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints
 = 13:00--14:00 Session 3B Information Extraction-2
-914 # A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
-864 # In Laymans Terms: Semi-Open Relation Extraction from Scientific Texts
-519 # NAT: Noise-Aware Training for Robust Neural Sequence Labeling
-2772 # Named Entity Recognition without Labelled Data: A Weak Supervision Approach
-1826 # Probing Linguistic Features of Sentence-Level Representations in Relation Extraction
-3021 # Reasoning with Latent Structure Refinement for Document-Level Relation Extraction
-951 # TACRED Revisited: A Thorough Evaluation of the TACRED Relation Extraction Task
 = 13:00--14:00 Session 3B Machine Translation-4
 667 # BPE-Dropout: Simple and Effective Subword Regularization
-1546 # Bilingual Dictionary Based Neural Machine Translation without Using Parallel Sentences
-1586 # Character-Level Translation with Self-attention
-841 # Content Word Aware Neural Machine Translation
-3025 # Evaluating Explanation Methods for Neural Machine Translation
 2570 # Improving Non-autoregressive Neural Machine Translation with Monolingual Data
-3145 # It's Easier to Translate out of English than into it: Measuring Neural Translation Difficulty by Cross-Mutual Information
-2892 # Language-aware Interlingua for Multilingual Neural Machine Translation
-1206 # Multiscale Collaborative Deep Models for Neural Machine Translation
-3353 # On the Limitations of Cross-lingual Encoders as Exposed by Reference-Free Machine Translation Evaluation
 00367/CL # [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
-2328 # Parallel Sentence Mining by Constrained Decoding
 = 13:00--14:00 Session 3B Phonology, Morphology and Word Segmentation-2
-1680 # A Graph Auto-encoder Model of Derivational Morphology
 = 13:00--14:00 Session 3B Summarization-2
-1892 # A Large-Scale Multi-Document Summarization Dataset from the Wikipedia Current Events Portal
 2766 # Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization
-252 # Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization
-1881 # Examining the State-of-the-Art in News Timeline Summarization
-2827 # Improving Truthfulness of Headline Generation
 1761 # On Faithfulness and Factuality in Abstractive Summarization
-1676 # SUPERT: Towards New Frontiers in Unsupervised Evaluation Metrics for Multi-Document Summarization
 523 # Screenplay Summarization Using Latent Narrative Structure
-3448 # Self-Attention Guided Copy Mechanism for Abstractive Summarization
 384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 13:00--14:00 Session 3B Student Research Workshop
 ! [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
@@ -432,25 +295,19 @@
 ! [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
 = 17:00--18:00 Session 4A Cognitive Modeling and Psycholinguistics-4
 2129 # A Tale of Two Perplexities: Sensitivity of Neural Language Models to Lexical Retrieval Deficits in Dementia of the Alzheimers Type
-3084 # Inflecting when there's no majority: Limitations of encoder-decoder neural networks as cognitive models for German plurals
 2539 # Probing Linguistic Systematicity
 2284 # Recollection versus Imagination: Exploring Human Memory and Cognition via Neural Language Models
 1512 # Recurrent Neural Network Language Models Always Learn English-Like Relative Clause Attachment
 2577 # Speakers enhance contextually confusable words
 2059 # What determines the order of adjectives in English? Comparing efficiency-based theories using dependency treebanks
-2083 # You Don't Have Time to Read This: An Exploration of Document Reading Time Prediction
 = 17:00--18:00 Session 4A Dialogue and Interactive Systems-7
 2233 # None of the Above: Measure Uncertainty in Dialog Response Retrieval
-1482 # A Generative Model for Joint Natural Language Understanding and Generation
 2603 # Can You Put it All Together: Evaluating Conversational Agents' Ability to Blend Skills
-2950 # Efficient Dialogue State Tracking by Selectively Overwriting Memory
 707 # Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs
 61 # Negative Training for Neural Dialogue Response Generation
 723 # Recursive Template-based Frame Generation for Task Oriented Dialog
 605 # Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback
 00368/CL # [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
-710 # USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation
-2078 # Zero-Shot Transfer Learning with Synthesized Data for Multi-Domain Dialogue State Tracking
 = 17:00--18:00 Session 4A Machine Learning for NLP-1
 2122 # Calibrating Structured Output Predictors for Natural Language Processing
 1813 # Distilling Annotations via Active Imitation Learning
@@ -472,12 +329,9 @@
 349 # DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference
 3119 # Efficient strategies for hierarchical text classification: external knowledge and auxiliary tasks
 1987 # Investigating the effect of auxiliary objectives for the automated grading of learner English speech transcriptions
-3205 # MMPE: A Multi-Modal Interface for Post-Editing Machine Translation
 429 # SPECTER: Document-level Representation Learning using Citation-informed Transformers
 3309 # Semantic Scaffolds for Pseudocode-to-Code Generation
 = 17:00--18:00 Session 4A Question Answering-3
-1800 # Contextualized Sparse Representations for Real-Time Open-Domain Question Answering
-2582 # Dynamic Sampling Strategies for Multi-Task Reading Comprehension
 = 17:00--18:00 Session 4A Semantics: Textual Inference and Other Areas of Semantics-1
 3296 # Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction
 1720/TACL # [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
@@ -511,11 +365,9 @@
 1948 # Automatic Poetry Generation from Prosaic Text
 2116 # Bridging the Structural Gap Between Encoding and Decoding for Data-To-Text Generation
 2130 # Enabling Language Models to Fill in the Blanks
-2002 # GPT-too: A language-model-first approach for AMR-to-text generation
 3105 # INSET: Sentence Infilling with INter-SEntential Transformer
 152 # Improving Adversarial Text Generation by Modeling the Distant Future
 1849/TACL # [TACL] Leveraging Pre-trained Checkpoints for Sequence Generation Tasks %by Sascha Rothe, Shashi Narayan and Aliaksei Severyn
-561 # Neural Syntactic Preordering for Controlled Paraphrase Generation
 2595 # Simple and Effective Retrieve-Edit-Rerank Text Generation
 = 18:00--19:00 Session 4B Language Grounding to Vision, Robotics and Beyond-1
 158 # BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps
@@ -544,10 +396,8 @@
 1034 # Weight Poisoning Attacks on Pretrained Models
 2885 # schuBERT: Optimizing Elements of BERT
 = 18:00--19:00 Session 4B Machine Translation-5
-667 # BPE-Dropout: Simple and Effective Subword Regularization
 2841 # ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation
 2456 # Leveraging Monolingual Data with Self-Supervision for Multilingual Neural Machine Translation
-83 # Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing
 570 # On The Evaluation of Machine Translation SystemsTrained With Back-Translation
 00367/CL # [CL] On the Linguistic Representational Power of Neural Machine Translation Models %by Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, James Glass
 1132 # Simultaneous Translation Policies: From Fixed to Adaptive
@@ -555,15 +405,10 @@
 2319 # Breaking Through the 80\% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information
 1345 # Glyph2Vec: Learning Chinese Out-of-Vocabulary Word Embedding from Glyphs
 1903/TACL # [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
-362 # Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders
 1379 # Multidirectional Associative Optimization of Function-Specific Word Representations
 101 # Predicting Degrees of Technicality in Automatic Terminology Extraction
 2865 # Verbal Multiword Expressions for Identification of Metaphor
 = 18:00--19:00 Session 4B Summarization-3
-2766 # Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization
-1761 # On Faithfulness and Factuality in Abstractive Summarization
-523 # Screenplay Summarization Using Latent Narrative Structure
-384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 18:00--19:00 Session 4B Student Research Workshop
 ! [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
 ! [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
@@ -578,133 +423,29 @@
 ! [Demo] Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time %by Benjamin Nye, Ani Nenkova, Iain Marshall and Byron C. Wallace
 ! [Demo] pyBART: Evidence-based Syntactic Transformations for IE %by Aryeh Tiktinsky, Yoav Goldberg and Reut Tsarfaty
 = 20:00--21:00 Session 5A Dialogue and Interactive Systems-9
-707 # Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs
-753 # Learning an Unreferenced Metric for Online Dialogue Evaluation
-61 # Negative Training for Neural Dialogue Response Generation
-723 # Recursive Template-based Frame Generation for Task Oriented Dialog
-605 # Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback
 = 20:00--21:00 Session 5A Generation-8
-1045 # Automatic Detection of Generated Text is Easiest when Humans are Fooled
-1948 # Automatic Poetry Generation from Prosaic Text
-2116 # Bridging the Structural Gap Between Encoding and Decoding for Data-To-Text Generation
-2537 # Cross-modal Language Generation using Pivot Stabilization for Web-scale Language Coverage
-2130 # Enabling Language Models to Fill in the Blanks
-727 # Few-Shot NLG with Pre-Trained Language Model
-3105 # INSET: Sentence Infilling with INter-SEntential Transformer
-2354 # Improved Natural Language Generation via Loss Truncation
-152 # Improving Adversarial Text Generation by Modeling the Distant Future
-2226 # Learning to Update Natural Language Comments Based on Code Changes
-2505 # Politeness Transfer: A Tag and Generate Approach
-2506 # Reverse Engineering Configurations of Neural Text Generation Models
-2595 # Simple and Effective Retrieve-Edit-Rerank Text Generation
 = 20:00--21:00 Session 5A Information Retrieval and Text Mining-5
-2638 # Contextualized Weak Supervision for Text Classification
 = 20:00--21:00 Session 5A Machine Learning for NLP-3
-2122 # Calibrating Structured Output Predictors for Natural Language Processing
-1813 # Distilling Annotations via Active Imitation Learning
-1256 # ExpBERT: Representation Engineering with Natural Language Explanations
-574 # GAN-BERT: Generative Adversarial Learning for Robust Text Classification with a Bunch of Labeled Examples
-1067 # Generalizing Natural Language Analysis through Span-relation Representations
-1309 # Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling
-2413 # MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification
-454 # MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices
-2127 # On Importance Sampling-Based Evaluation of Latent Language Models
-571 # SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization
-2141 # Stolen Probability: A Structural Weakness of Neural Language Models
-438 # Taxonomy Construction of Unseen Domains via Graph-based Cross-Domain Knowledge Transfer
-1808 # To Pretrain or Not to Pretrain: Examining the Benefits of Pretrainng on Resource Rich Tasks
-260 # Why Overfitting Isn't Always Bad: Retrofitting Cross-Lingual Word Embeddings to Dictionaries
-2162 # XtremeDistil: Multi-stage Distillation for Massive Multilingual Models
 = 20:00--21:00 Session 5A Machine Translation-6
-2841 # ENGINE: Energy-Based Inference Networks for Non-Autoregressive Machine Translation
-2570 # Improving Non-autoregressive Neural Machine Translation with Monolingual Data
-2456 # Leveraging Monolingual Data with Self-Supervision for Multilingual Neural Machine Translation
-3207 # Location Attention for Extrapolation to Longer Sequences
-570 # On The Evaluation of Machine Translation SystemsTrained With Back-Translation
-2914 # Opportunistic Decoding with Timely Correction for Simultaneous Translation
-1132 # Simultaneous Translation Policies: From Fixed to Adaptive
 = 20:00--21:00 Session 5A Semantics: Textual Inference and Other Areas of Semantics-2
-3296 # Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction
 1720/TACL # [TACL] Decomposing Generalization: Models of Generic, Habitual and Episodic Statements %by Venkata Subrahmanyan Govindarajan, Benjamin Van Durme, Aaron Steven White
-2363 # INFOTABS: Inference on Tables as Semi-structured Data
 1780/TACL # [TACL] Inherent Disagreements in Human Textual Inferences %by Ellie Pavlick, Tom Kwiatkowski
-1901 # Interactive Machine Comprehension with Information Seeking Agents
-718 # Syntactic Data Augmentation Increases Robustness to Inference Heuristics
 = 20:00--21:00 Session 5A Speech and Multimodality-2
 1834/TACL # [TACL] Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies %by Xi (Leslie) Chen, Sarah Ita Levitan, Michelle Levine, Marko Mandic, and Julia Hirschberg
-416 # Improved Speech Representations with Multi-Target Autoregressive Predictive Coding
-1977 # Integrating Multimodal Information in Large Pretrained Transformers
-1514 # MultiQT: Multimodal learning for real-time question tracking in speech
-288 # Multimodal and Multiresolution Speech Recognition with Transformers
-2572 # Phone Features Improve Speech Translation
 = 20:00--21:00 Session 5A Theory and Formalism in NLP (Linguistic and Mathematical)-3
-1032 # A Formal Hierarchy of RNN Architectures
-1907 # Emergence of Syntax Needs Minimal Supervision
 = 20:45--21:30 Demo Session 5B
 ! [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
 ! [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
 = 21:00--22:00 Session 5B Cognitive Modeling and Psycholinguistics-5
-3179 # A Systematic Assessment of Syntactic Generalization in Neural Language Models
-2129 # A Tale of Two Perplexities: Sensitivity of Neural Language Models to Lexical Retrieval Deficits in Dementia of the Alzheimers Type
-3318 # Learning to Understand Child-directed and Adult-directed Speech
-1029 # Overestimation of Syntactic Representation in Neural Language Models
-2539 # Probing Linguistic Systematicity
-2284 # Recollection versus Imagination: Exploring Human Memory and Cognition via Neural Language Models
-1512 # Recurrent Neural Network Language Models Always Learn English-Like Relative Clause Attachment
-2577 # Speakers enhance contextually confusable words
-566 # Suspense in Short Stories is Predicted By Uncertainty Reduction over Neural Story Representation
-2059 # What determines the order of adjectives in English? Comparing efficiency-based theories using dependency treebanks
 = 21:00--22:00 Session 5B Dialogue and Interactive Systems-10
-2233 # None of the Above: Measure Uncertainty in Dialog Response Retrieval
-2603 # Can You Put it All Together: Evaluating Conversational Agents' Ability to Blend Skills
-880 # Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation
-1193 # Grounding Conversations with Improvised Dialogues
-1023 # Image-Chat: Engaging Grounded Conversations
-1390 # Large Scale Multi-Actor Generative Dialog Modeling
-1096 # Neural Generation of Dialogue Response Timings
 00368/CL # [CL] The Design and Implementation of XiaoIce, an Empathetic Social Chatbot %by Li Zhou, Jianfeng Gao, Di Li, Heung-Yeung Shum
-956 # The Dialogue Dodecathlon: Open-Domain Knowledge and Image Grounded Conversational Agents
 = 21:00--22:00 Session 5B Language Grounding to Vision, Robotics and Beyond-2
-158 # BabyWalk: Going Farther in Vision-and-Language Navigation by Taking Baby Steps
-47 # Cross-media Structured Common Space for Multimedia Event Extraction
-2716 # Learning to Segment Actions from Observation and Narration
-1700 # Learning to execute instructions in a Minecraft dialogue
-1775 # MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning
-1938 # What is Learned in Visually Grounded Neural Syntax Acquisition
 = 21:00--22:00 Session 5B Machine Learning for NLP-4
-688 # A Batch Normalized Inference Network Keeps the KL Vanishing Away
-2006 # Contextual Embeddings: When Are They Worth It?
 1766/TACL # [TACL] Efficient Contextual Representation Learning With Continuous Outputs %by Liunian Harold Li, Patrick H. Chen, Cho-Jui Hsieh, Kai-Wei Chang
-2528 # Interactive Classification by Asking Informative Questions
-898 # Knowledge Graph Embedding Compression
-671 # Low Resource Sequence Tagging using Sentence Reconstruction
-3104 # Masked Language Model Scoring
-730 # Orthogonal Relation Transforms with Graph Context Modeling for Knowledge Graph Embedding
 1727/TACL # [TACL] Perturbation Based Learning for Structured NLP tasks with Application to Dependency Parsing %by Amichay Doitch, Ram Yazdi, Tamir Hazan, Roi Reichart
-1870 # Posterior Calibrated Training on Sentence Classification Tasks
-2431 # Posterior Control of Blackbox Generation
-2853 # Pretrained Transformers Improve Out-of-Distribution Robustness
-2920 # Robust Encodings: A Framework for Combating Adversarial Typos
-1900 # Showing Your Work Doesn't Always Work
-1945 # Span Selection Pre-training for Question Answering
-1916 # Topological Sort for Sentence Ordering
-1034 # Weight Poisoning Attacks on Pretrained Models
-2885 # schuBERT: Optimizing Elements of BERT
 = 21:00--22:00 Session 5B NLP Applications-4
-991 # The Boating Store Had Its Best Sail Ever: Pronunciation-attentive Contextualized Pun Recognition
-2211 # A Girl Has A Name: Detecting Authorship Obfuscation
-349 # DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference
-3119 # Efficient strategies for hierarchical text classification: external knowledge and auxiliary tasks
-1987 # Investigating the effect of auxiliary objectives for the automated grading of learner English speech transcriptions
-429 # SPECTER: Document-level Representation Learning using Citation-informed Transformers
-3309 # Semantic Scaffolds for Pseudocode-to-Code Generation
 = 21:00--22:00 Session 5B Semantics: Lexical-3
-2319 # Breaking Through the 80\% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information
-1345 # Glyph2Vec: Learning Chinese Out-of-Vocabulary Word Embedding from Glyphs
 1903/TACL # [TACL] Learning Lexical Subspaces in a Distributional Vector Space %by Kushal Arora, Aishik Chakraborty, Jackie Chi Kit Cheung
-1379 # Multidirectional Associative Optimization of Function-Specific Word Representations
-101 # Predicting Degrees of Technicality in Automatic Terminology Extraction
-2865 # Verbal Multiword Expressions for Identification of Metaphor
 = 21:30--22:15 Demo Session 5C
 ! [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
 ! [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
@@ -839,26 +580,18 @@
 = 08:00--08:45 Demo Session 2A
 ! [Demo] OpusFilter: A Configurable Parallel Corpus Filtering Toolbox %by Mikko Aulamo, Sami Virpioja and Jörg Tiedemann
 = 08:00--09:00 Session 7A Computational Social Science and Social Media-5
-1162 # Dynamic Online Conversation Recommendation
 2199 # Neural Temporal Opinion Modelling for Opinion Prediction on Twitter
-766 # Stock Embeddings Acquired from News Articles and Price History, and an Application to Portfolio Optimization
-3067 # What Was Written vs. Who Read It: News Media Profiling Using Text Analysis and Social Media Context
 215 # It Takes Two to Lie: One to Lie, and One to Listen
 = 08:00--09:00 Session 7A Generation-9
 2139 # Learning Implicit Text Generation via Feature Matching
 2198 # Two Birds, One Stone: A Simple, Unified Model for Text Generation from Structured and Unstructured Data
 = 08:00--09:00 Session 7A Machine Learning for NLP-7
 2055 # Bayesian Hierarchical Words Representation Learning
-1656 # How Does Selective Mechanism Improve Self-Attention Networks?
 1691 # Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning
 1630 # SEEK: Segmented Embedding of Knowledge Graphs
-2343 # Zero-shot Text Classification via Reinforced Self-training
 = 08:00--09:00 Session 7A Machine Translation-9
-2587 # A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation
 00377/CL # [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
 2001/TACL # [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
-2555 # Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation
-3046 # On the Inference Calibration of Neural Machine Translation
 3314 # Selecting Backtranslated Data from Multiple Sources for Improved Neural Machine Translation
 3136 # Successfully Applying the Stabilized Lottery Ticket Hypothesis to the Transformer Architecture
 = 08:00--09:00 Session 7A Question Answering-4
@@ -866,44 +599,28 @@
 2532 # Graph-to-Tree Learning for Solving Math Word Problems
 = 08:00--09:00 Session 7A Resources and Evaluation-6
 1277 # An Effectiveness Metric for Ordinal Classification: Formal Properties and Experimental Results
-1381 # GLUECoS: An Evaluation Benchmark for Code-Switched NLP
 = 08:00--09:00 Session 7A Semantics: Lexical-5
 1499 # Adaptive Compression of Word Embeddings
 1665 # Analysing Lexical Semantic Change with Contextualised Word Representations
 785 # Autoencoding Keyword Correlation Graph for Document Clustering
 1707 # Autoencoding Pixies: Amortised Variational Inference with Graph Convolutions for Functional Distributional Semantics
 309 # BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance
-3073 # BiRRE: Learning Bidirectional Residual Relation Embeddings for Supervised Hypernymy Detection
-1641 # Biomedical Entity Representations with Synonym Marginalization
 2862 # CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages
 = 08:00--09:00 Session 7A Sentiment Analysis, Stylistic Analysis, and Argument Mining-3
 640 # Adversarial and Domain-Aware BERT for Cross-Domain Sentiment Analysis
-2120 # Analyzing the Persuasive Effect of Style in News Editorial Argumentation
-703 # Effective Inter-Clause Modeling for End-to-End Emotion-Cause Pair Extraction
-2790 # Enhancing Cross-target Stance Detection with Transferable Semantic-Emotion Knowledge
 1958 # From Arguments to Key Points: Towards Automatic Argument Summarization
 1804 # GoEmotions: A Dataset of Fine-Grained Emotions
 1864 # He said "who's gonna take care of your children when you are at ACL?": Reported Sexist Acts are Not Sexist
-2371 # KinGDOM: Knowledge-Guided DOMain adaptation for sentiment analysis
-645 # Modelling Context and Syntactical Features for Aspect-based Sentiment Analysis
-2986 # Parallel Data Augmentation for Formality Style Transfer
 2338 # SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis
-164 # SpanMlt: A Span-based Multi-Task Learning Framework for Pair-wise Aspect and Opinion Terms Extraction
 1843/TACL # [TACL] Target-Guided Structured Attention Network for Target-dependent Sentiment Analysis %by Ji Zhang, Chengyao Chen, Pengfei Liu, Chao He, Cane Wing-Ki Leung
-22 # Towards Better Non-Tree Argument Mining: Proposition-Level Biaffine Parsing with Task-Specific Parameterization
 = 08:00--09:00 Session 7A Syntax: Tagging, Chunking and Parsing-2
 1876/TACL # [TACL] A Graph-based Model for Joint Chinese Word Segmentation and Dependency Parsing %by Hang Yan, Xipeng Qiu, Xuanjing Huang
 00378/CL # [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
-2871 # An Empirical Comparison of Unsupervised Constituency Parsing Methods
 3229 # Do Neural Language Models Show Preferences for Syntactic Formalisms?
-654 # Efficient Constituency Parsing by Pointing
-395 # Efficient Second-Order TreeCRF for Neural Dependency Parsing
 377 # Enriched In-Order Linearization for Faster Sequence-to-Sequence Constituent Parsing
 3168 # Exact yet Efficient Graph Parsing, Bi-directional Locality and the Constructivist Hypothesis
 564 # Max-Margin Incremental CCG Parsing
 1594 # Neural Reranking for Dependency Parsing: An Evaluation
-1000 # Representations of Syntax [MASK] Useful: Effects of Constituency and Dependency Structure in Recursive LSTMs
-804 # Structure-Level Knowledge Distillation For Multilingual Sequence Labeling
 = 08:00--09:00 Session 7A Student Research Workshop
 ! [SRW] Unsupervised Paraphasia Classification in Aphasic Speech %by Sharan Pai, Nikhil Sachdeva, Prince Sachdeva and Rajiv Ratn Shah
 ! [SRW] Reflection-based Word Attribute Transfer %by Yoichi Ishibashi, Katsuhito Sudoh, Koichiro Yoshino and Satoshi Nakamura
@@ -913,11 +630,7 @@
 ! [Demo] LinggleWrite: a Coaching System for Essay Writing %by Chung-Ting Tsai, Jhih-Jie Chen, Ching-Yu Yang and Jason S. Chang
 = 09:00--10:00 Session 7B Ethics and NLP-2
 232 # Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting
-2704 # Give Me Convenience and Give Her Death: Who Should Decide What Uses of NLP are Appropriate, and on What Basis?
-734 # Is Your Classifier Actually Biased? Measuring Fairness under Uncertainty with Bernstein Bounds
-2428 # Towards Understanding Gender Bias in Relation Extraction
 = 09:00--10:00 Session 7B Interpretability and Analysis of Models for NLP-2
-3433 # An analysis of the utility of explicit negative examples to improve the syntactic abilities of neural language models
 657 # Analyzing analytical methods: The case of phonology in neural models of spoken language
 693 # Make Up Your Mind! Adversarial Generation of Inconsistent Natural Language Explanations
 1595 # Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT
@@ -926,51 +639,24 @@
 1860 # Towards Faithfully Interpretable NLP Systems: How should we define and evaluate faithfulness?
 2642 # Towards Transparent and Explainable Attention Models
 = 09:00--10:00 Session 7B Machine Learning for NLP-8
-1036 # A Relational Memory-based Embedding Model for Triple Classification and Search Personalization
-1065 # Do you have the right scissors? Tailoring Pre-trained Language Models via Monte-Carlo Methods
-221 # Enhancing Pre-trained Chinese Character Representation with Word-aligned Attention
-1489 # Estimating the influence of auxiliary tasks for multi-task learning of sequence tagging tasks
 387 # Tchebycheff Procedure for Multi-task Text Classification
 = 09:00--10:00 Session 7B Machine Translation-10
-803 # A Graph-based Coarse-to-fine Method for Unsupervised Bilingual Lexicon Induction
-1481 # A Reinforced Generation of Adversarial Examples for Neural Machine Translation
-1169 # A Retrieve-and-Rewrite Initialization Method for Unsupervised Machine Translation
-1551 # A Simple and Effective Unified Encoder for Document-Level Machine Translation
-1498 # Does Multi-Encoder Help? A Case Study on Context-Aware Neural Machine Translation
-769 # Knowledge Distillation for Multilingual Unsupervised Neural Machine Translation
-2435 # Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation
-465 # Lexically Constrained Neural Machine Translation with Levenshtein Transformer
 1873 # Modeling Word Formation in EnglishGerman Neural Machine Translation
 = 09:00--10:00 Session 7B NLP Applications-6
-2438 # Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning
-514 # Distinguish Confusing Law Articles for Legal Judgment Prediction
 1471 # Empowering Active Learning to Jointly Optimize System and User Demands
 2487 # Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction
 160 # Graph Neural News Recommendation with Unsupervised Preference Disentanglement
-1150 # HyperCore: Hyperbolic and Co-graph Representation for Automatic ICD Coding
-492 # Hyperbolic Capsule Networks for Multi-Label Classification
 1134 # Identifying Principals and Accessories in a Complex Case based on the Comprehension of Fact Description
-2131 # Improving Segmentation for Technical Support Problems
 1936 # Joint Modelling of Emotion and Abusive Language Detection
-743 # MOOCCube: A Large-scale Data Repository for NLP Applications in MOOCs
 553 # Programming in Natural Language with fuSE: Synthesizing Methods from Spoken Utterances Using Deep Natural Language Understanding
-256 # Towards Interpretable Clinical Diagnosis with Bayesian Network Ensembles Stacked on Entity-Aware CNNs
 3195 # Toxicity Detection: Does Context Really Matter?
 = 09:00--10:00 Session 7B Semantics: Sentence Level-3
 1871 # AMR Parsing with Latent Structural Information
 1923 # TaPas: Weakly Supervised Table Parsing via Pre-training
 = 09:00--10:00 Session 7B Sentiment Analysis, Stylistic Analysis, and Argument Mining-4
-1636 # Embarrassingly Simple Unsupervised Aspect Extraction
-798 # Relation-Aware Collaborative Learning for Unified Aspect-Based Sentiment Analysis
-1697 # Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks
 1434 # Target Inference in Argument Conclusion Generation
-946 # Transition-based Directed Graph Construction for Emotion-Cause Pair Extraction
 = 09:00--10:00 Session 7B Speech and Multimodality-4
-1125 # CH-SIMS: A Chinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotation of Modality
-390 # Curriculum Pre-training for End-to-End Speech Translation
-2293 # Improving Disfluency Detection by Self-Training a Self-Attentive Model
 3323 # Multimodal Transformer for Multimodal Machine Translation
-121 # Reasoning with Multimodal Sarcastic Tweets via Modeling Cross-Modality Contrast and Semantic Association
 3272 # Sentiment and Emotion help Sarcasm? A Multi-task Learning Framework for Multi-Modal Sarcasm, Sentiment and Emotion Analysis
 3110 # Towards Emotion-aided Multi-modal Dialogue Act Classification
 = 09:00--10:00 Session 7B Student Research Workshop
@@ -982,70 +668,30 @@
 ! [Demo] ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems %by Qi Zhu, Zheng Zhang, Yan Fang, Xiang Li, Ryuichi Takanobu, Jinchao Li, Baolin Peng, Jianfeng Gao, Xiaoyan Zhu and Minlie Huang
 = 12:00--13:00 Session 8A Computational Social Science and Social Media-6
 1644 # Analyzing Political Parody in Social Media
-2091 # Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer
 986 # Masking Actor Information Leads to Fairer Political Claims Detection
-2199 # Neural Temporal Opinion Modelling for Opinion Prediction on Twitter
 2544 # When do Word Embeddings Accurately Reflect Surveys on our Beliefs About People?
 249 # Who said it, and Why? Provenance for Natural Language Claims
-215 # It Takes Two to Lie: One to Lie, and One to Listen
 = 12:00--13:00 Session 8A Interpretability and Analysis of Models for NLP-3
-657 # Analyzing analytical methods: The case of phonology in neural models of spoken language
 512 # Compositionality and Generalization In Emergent Languages
 1006 # ERASER: A Benchmark to Evaluate Rationalized NLP Models
 2315 # Learning to Faithfully Rationalize by Construction
-693 # Make Up Your Mind! Adversarial Generation of Inconsistent Natural Language Explanations
-2674 # On the Robustness of Language Encoders against Grammatical Errors
-2000 # Probing for referential information in language models
-74 # Roles and Utilization of Attention Heads in Transformer-based Neural Language Models
-2642 # Towards Transparent and Explainable Attention Models
-2951 # Understanding Attention for Text Classification
 = 12:00--13:00 Session 8A Machine Translation-11
-1529 # Dynamically Adjusting Transformer Batch Size by Monitoring Gradient Direction Change
-2728 # Geometry-aware domain adaptation for unsupervised alignment of word embeddings
-1873 # Modeling Word Formation in EnglishGerman Neural Machine Translation
-351 # On Exposure Bias, Hallucination and Domain Shift in Neural Machine Translation
-3136 # Successfully Applying the Stabilized Lottery Ticket Hypothesis to the Transformer Architecture
 = 12:00--13:00 Session 8A Question Answering-5
-872 # A Self-Training Method for Machine Reading Comprehension with Soft Evidence Extraction
 1845/TACL # [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
 1966 # Clinical Reading Comprehension: A Thorough Analysis of the emrQA Dataset
 3282 # DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering
-2532 # Graph-to-Tree Learning for Solving Math Word Problems
 3246 # Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings
 678 # Template-Based Question Generation from Retrieved Sentences for Improved Unsupervised Question Answering
 2667 # Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering
 = 12:00--13:00 Session 8A Resources and Evaluation-7
 1176 # A Corpus for Large-Scale Phonetic Typology
 1113 # Dscorer: A Fast Evaluation Metric for Discourse Representation Structure Parsing
-811 # MATINF: A Jointly Labeled Large-Scale Dataset for Classification, Question Answering and Summarization
-1449 # MIND: A Large-scale Dataset for News Recommendation
 282 # ParaCrawl: Web-Scale Acquisition of Parallel Corpora
 = 12:00--13:00 Session 8A Semantics: Lexical-6
-1499 # Adaptive Compression of Word Embeddings
-1665 # Analysing Lexical Semantic Change with Contextualised Word Representations
-785 # Autoencoding Keyword Correlation Graph for Document Clustering
-1707 # Autoencoding Pixies: Amortised Variational Inference with Graph Convolutions for Functional Distributional Semantics
-309 # BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance
-2862 # CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages
-1516 # Hypernymy Detection for Low-Resource Languages via Meta Learning
-722 # Investigating Word-Class Distributions in Word Vector Spaces
 = 12:00--13:00 Session 8A Semantics: Sentence Level-4
-1871 # AMR Parsing with Latent Structural Information
-1923 # TaPas: Weakly Supervised Table Parsing via Pre-training
 = 12:00--13:00 Session 8A Sentiment Analysis, Stylistic Analysis, and Argument Mining-5
-640 # Adversarial and Domain-Aware BERT for Cross-Domain Sentiment Analysis
-871 # Don't Eclipse Your Arts Due to Small Discrepancies: Boundary Repositioning with a Pointer Network for Aspect Extraction
-120 # Relational Graph Attention Network for Aspect-based Sentiment Analysis
-937 # SentiBERT: A Transferable Transformer-Based Architecture for Compositional Sentiment Semantics
-1434 # Target Inference in Argument Conclusion Generation
 = 12:00--13:00 Session 8A Syntax: Tagging, Chunking and Parsing-3
-388 # A Span-based Linearization for Constituent Trees
 00378/CL # [CL] Abstract Syntax as Interlingua: Scaling Up the Grammatical Framework from Controlled Languages to Robust Pipelines %by Aarne Ranta, Krasimir Angelov, Normunds Gruzitis, Prasanth Kolachina
-3229 # Do Neural Language Models Show Preferences for Syntactic Formalisms?
-377 # Enriched In-Order Linearization for Faster Sequence-to-Sequence Constituent Parsing
-3168 # Exact yet Efficient Graph Parsing, Bi-directional Locality and the Constructivist Hypothesis
-564 # Max-Margin Incremental CCG Parsing
-1594 # Neural Reranking for Dependency Parsing: An Evaluation
 = 12:00--13:00 Session 8A Student Research Workshop
 ! [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
 ! [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
@@ -1055,69 +701,31 @@
 ! [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
 ! [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
 = 13:00--14:00 Session 8B Ethics and NLP-3
-232 # Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting
-606 # Its Morphin Time! Combating Linguistic Discrimination with Inflectional Perturbations
 1590 # Toward Gender-Inclusive Coreference Resolution
 = 13:00--14:00 Session 8B Generation-10
-2139 # Learning Implicit Text Generation via Feature Matching
-2198 # Two Birds, One Stone: A Simple, Unified Model for Text Generation from Structured and Unstructured Data
 = 13:00--14:00 Session 8B Interpretability and Analysis of Models for NLP-4
 1892/TACL # [TACL] Does Syntax Need to Grow on Trees? Sources of Hierarchical Inductive Bias in Sequence-to-Sequence Networks %by R. Thomas McCoy, Robert Frank, Tal Linzen
 1558 # Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?
 1077 # Information-Theoretic Probing for Linguistic Structure
 1779/TACL # [TACL] Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System? %by Sorami Hisamoto, Matt Post, Kevin Duh
 2065 # On the Cross-lingual Transferability of Monolingual Representations
-1595 # Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT
-1170 # Quantifying Attention Flow in Transformers
 1114 # Similarity Analysis of Contextual Word Representation Models
 1709/TACL # [TACL] Tabula nearly rasa: Probing the linguistic knowledge of character-level neural language models trained on unsegmented text %by Michael Hahn, Marco Baroni
-1860 # Towards Faithfully Interpretable NLP Systems: How should we define and evaluate faithfulness?
 1852/TACL # [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
 = 13:00--14:00 Session 8B Machine Learning for NLP-9
-1580 # Attentive Pooling with Learnable Norms for Text Representation
-2055 # Bayesian Hierarchical Words Representation Learning
-432 # On the Encoder-Decoder Incompatibility in Variational Text Modeling and Beyond
-1691 # Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning
-1630 # SEEK: Segmented Embedding of Knowledge Graphs
 3001 # SenseBERT: Driving Some Sense into BERT
-3248 # Single Model Ensemble using Pseudo-Tags and Distinct Vectors
-387 # Tchebycheff Procedure for Multi-task Text Classification
 = 13:00--14:00 Session 8B Machine Translation-12
-3276 # A Relaxed Matching Procedure for Unsupervised BLI
 00377/CL # [CL] A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation %by Raúl Vázquez, Alessandro Raganato, Mathias Creutz, Jörg Tiedemann
 2001/TACL # [TACL] Better Document-level Machine Translation with Bayes' Rule %by Lei Yu, Laurent Sartran, Wojciech Stokowiec, Wang Ling, Lingpeng Kong, Phil Blunsom, Chris Dyer
-3314 # Selecting Backtranslated Data from Multiple Sources for Improved Neural Machine Translation
 00374/CL # [CL] Unsupervised Word Translation with Adversarial Autoencoder %by Tasnim Mohiuddin, Shafiq Joty
 = 13:00--14:00 Session 8B NLP Applications-7
-1471 # Empowering Active Learning to Jointly Optimize System and User Demands
-2487 # Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction
-160 # Graph Neural News Recommendation with Unsupervised Preference Disentanglement
-2245 # Hiring Now: A Skill-Aware Multi-Attention Model for Job Posting Generation
-1134 # Identifying Principals and Accessories in a Complex Case based on the Comprehension of Fact Description
-1936 # Joint Modelling of Emotion and Abusive Language Detection
-553 # Programming in Natural Language with fuSE: Synthesizing Methods from Spoken Utterances Using Deep Natural Language Understanding
-3195 # Toxicity Detection: Does Context Really Matter?
 = 13:00--14:00 Session 8B Resources and Evaluation-8
 1519 # ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations
-1450 # Automatic Machine Translation Evaluation using Source Language Inputs and Cross-lingual Language Model
 1922 # Fatality Killed the Cat or: BabelPic, a Multimodal Dataset for Non-Concrete Concepts
 1756/TACL # [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
-2806 # That is a Known Lie: Detecting Previously Fact-Checked Claims
 = 13:00--14:00 Session 8B Sentiment Analysis, Stylistic Analysis, and Argument Mining-6
-1632 # Aspect Sentiment Classification with Document-level Sentiment Preference Modeling
-3464 # ECPE-2D: Emotion-Cause Pair Extraction based on Joint Two-Dimensional Representation, Interaction and Prediction
-1958 # From Arguments to Key Points: Towards Automatic Argument Summarization
-1864 # He said "who's gonna take care of your children when you are at ACL?": Reported Sexist Acts are Not Sexist
 3007 # Modeling Label Semantics for Predicting Emotional Reactions
-2338 # SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis
 = 13:00--14:00 Session 8B Speech and Multimodality-5
-3319 # How Accents Confound: Probing for Accent Information in End-to-End Speech Recognition Systems
-2623 # Learning Spoken Language Representations with Neural Lattice Language Modeling
-331 # Meta-Transfer Learning for Code-Switched Speech Recognition
-3323 # Multimodal Transformer for Multimodal Machine Translation
-3272 # Sentiment and Emotion help Sarcasm? A Multi-task Learning Framework for Multi-Modal Sarcasm, Sentiment and Emotion Analysis
-2422 # SimulSpeech: End-to-End Simultaneous Speech to Text Translation
-3110 # Towards Emotion-aided Multi-modal Dialogue Act Classification
 = 13:00--14:00 Session 8B Student Research Workshop
 ! [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
 ! [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
@@ -1135,39 +743,29 @@
 2486 # CraftAssist Instruction Parsing: Semantic Parsing for a Voxel-World Assistant
 1817 # Dont Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
 = 17:00--18:00 Session 9A Interpretability and Analysis of Models for NLP-5
-512 # Compositionality and Generalization In Emergent Languages
 713 # How does BERT's attention change when you fine-tune? An analysis methodology and a case study in negation scope
-1558 # Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?
 3049 # Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models
-1077 # Information-Theoretic Probing for Linguistic Structure
 3133 # Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings
 2549 # Learning to Deceive with Attention-Based Explanations
 2536 # On the Spontaneous Emergence of Discrete and Compositional Signals
-1114 # Similarity Analysis of Contextual Word Representation Models
 2759 # Spying on your neighbors: Fine-grained probing of contextual embeddings for information about surrounding words
 = 17:00--18:00 Session 9A Language Grounding to Vision, Robotics and Beyond-3
 1894 # Dense-Caption Matching and Frame-Selection Gating for Temporal Localization in VideoQA
 2451 # Shaping Visual Representations with Language for Few-Shot Classification
 = 17:00--18:00 Session 9A Machine Learning for NLP-10
-3253 # A Probabilistic Generative Model for Typographical Analysis of Early Modern Printing
 3194 # Discrete Latent Variable Representations for Low-Resource Text Classification
 1248 # Learning Constraints for Structured Prediction Using Rectifier Networks
 1319 # Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models
-3001 # SenseBERT: Driving Some Sense into BERT
 1853/TACL # [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
 = 17:00--18:00 Session 9A Resources and Evaluation-9
 2266 # A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks
-1519 # ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations
 280 # Adversarial NLI: A New Benchmark for Natural Language Understanding
 2531 # Beyond Accuracy: Behavioral Testing of NLP Models with CheckList
-756 # ChartDialogs: Plotting from Natural Language Instructions
 2808 # Code and Named Entity Recognition in StackOverflow
 65 # Dialogue-Based Relation Extraction
 56 # Facet-Aware Evaluation for Extractive Summarization
-1922 # Fatality Killed the Cat or: BabelPic, a Multimodal Dataset for Non-Concrete Concepts
 00376/CL # [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
 1862 # More Diverse Dialogue Datasets via Diversity-Informed Data Collection
-282 # ParaCrawl: Web-Scale Acquisition of Parallel Corpora
 1952 # S2ORC: The Semantic Scholar Open Research Corpus
 3430 # Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics
 = 17:00--18:00 Session 9A Summarization-4
@@ -1203,7 +801,6 @@
 ! [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
 ! [Demo] MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform %by Xiang Gao, Michel Galley and Bill Dolan
 = 18:00--19:00 Session 9B Computational Social Science and Social Media-7
-1644 # Analyzing Political Parody in Social Media
 618 # Balancing Objectives in Counseling Conversations: Advancing Forwards or Looking Backwards
 2336 # Detecting Perceived Emotions in Hurricane Disasters
 2626 # Hierarchical Modeling for User Personality Prediction: The Role of Message-Level Attention
@@ -1234,26 +831,21 @@
 3218 # Finding Universal Grammatical Relations in Multilingual BERT
 2161 # Generating Hierarchical Explanations on Text Classification via Feature Interaction Detection
 1814 # Obtaining Faithful Interpretations from Compositional Neural Networks
-2065 # On the Cross-lingual Transferability of Monolingual Representations
 3154 # Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport
 = 18:00--19:00 Session 9B Question Answering-6
 2341 # Benefits of Intermediate Annotations in Reading Comprehension
 1845/TACL # [TACL] Break It Down: A Question Understanding Benchmark %by Tomer Wolfson, Mor Geva, Ankit Gupta, Yoav Goldberg, Matt Gardner, Daniel Deutch, Jonathan Berant
 2846 # Crossing Variational Autoencoders for Answer Retrieval
-3246 # Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings
 1882/TACL # [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
 2301 # Logic-Guided Data Augmentation and Regularization for Consistent Question Answering
 1832 # On the Importance of Diversity in Question Generation for QA
 3160 # Probabilistic Assumptions Matter: Improved Models for Distantly-Supervised Document-Level Question Answering
 136 # SCDE: Sentence Cloze Dataset with High Quality Distractors From Examinations
 3183 # Selective Question Answering under Domain Shift
-678 # Template-Based Question Generation from Retrieved Sentences for Improved Unsupervised Question Answering
 2317 # The Cascade Transformer: an Application for Efficient Answer Sentence Selection
 876 # Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering
 1929/TACL # [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
 = 18:00--19:00 Session 9B Resources and Evaluation-10
-1176 # A Corpus for Large-Scale Phonetic Typology
-1277 # An Effectiveness Metric for Ordinal Classification: Formal Properties and Experimental Results
 941 # Not All Claims are Created Equal: Choosing the Right Statistical Approach to Assess Hypotheses
 1007 # STARC: Structured Annotations for Reading Comprehension
 885 # WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge
@@ -1262,13 +854,12 @@
 2677 # Cross-Lingual Unsupervised Sentiment Classification with Multi-View Transfer Learning
 277 # Efficient Pairwise Annotation of Argument Quality
 2314 # Entity-Aware Dependency-Based Deep Graph Attention Network for Comparative Preference Classification
-1804 # GoEmotions: A Dataset of Fine-Grained Emotions
 1852 # OpinionDigest: A Simple Framework for Opinion Summarization
 2849 # A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks
 = 18:00--19:00 Session 9B Student Research Workshop
 ! [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
 ! [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
-! [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
+! [SRW] NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
 ! [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
 ! [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
 = 18:30--19:15 Demo Session 4C
@@ -1280,135 +871,30 @@
 ! [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
 ! [Demo] Photon: A Robust Cross-Domain Text-to-SQL System %by Jichuan Zeng, Xi Victoria Lin, Steven C.H. Hoi, Richard Socher, Caiming Xiong, Michael Lyu and Irwin King
 = 20:00--21:00 Session 10A Computational Social Science and Social Media-8
-618 # Balancing Objectives in Counseling Conversations: Advancing Forwards or Looking Backwards
-2336 # Detecting Perceived Emotions in Hurricane Disasters
-2626 # Hierarchical Modeling for User Personality Prediction: The Role of Message-Level Attention
-986 # Masking Actor Information Leads to Fairer Political Claims Detection
-1699 # Measuring Forecasting Skill from Text
-1978 # Text and Causal Inference: A Review of Using Text to Remove Confounding from Causal Estimates
-2410 # Text-Based Ideal Points
-3292 # Understanding the Language of Political Agreement and Disagreement in Legislative Texts
-2544 # When do Word Embeddings Accurately Reflect Surveys on our Beliefs About People?
-249 # Who said it, and Why? Provenance for Natural Language Claims
-2663 # Would you Rather? A New Benchmark for Learning Machine Alignment with Cultural Values and Social Preferences
 = 20:00--21:00 Session 10A Dialogue and Interactive Systems-12
-2486 # CraftAssist Instruction Parsing: Semantic Parsing for a Voxel-World Assistant
-1817 # Dont Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
 = 20:00--21:00 Session 10A Interpretability and Analysis of Models for NLP-7
-1604 # A Re-evaluation of Knowledge Graph Completion Methods
-1849 # Cross-Linguistic Syntactic Evaluation of Word Prediction Models
-1006 # ERASER: A Benchmark to Evaluate Rationalized NLP Models
-1617 # Evaluating Explainable AI: Which Algorithmic Explanations Help Users Predict Model Behavior?
-3218 # Finding Universal Grammatical Relations in Multilingual BERT
-713 # How does BERT's attention change when you fine-tune? An analysis methodology and a case study in negation scope
-3049 # Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models
-3133 # Interpreting Pretrained Contextualized Representations via Reductions to Static Embeddings
-1814 # Obtaining Faithful Interpretations from Compositional Neural Networks
-3154 # Rationalizing Text Matching: Learning Sparse Alignments via Optimal Transport
-2759 # Spying on your neighbors: Fine-grained probing of contextual embeddings for information about surrounding words
 1852/TACL # [TACL] What BERT Is Not: Lessons from a New Suite of Psycholinguistic Diagnostics for Language Models %by Allyson Ettinger
 = 20:00--21:00 Session 10A Question Answering-7
-2341 # Benefits of Intermediate Annotations in Reading Comprehension
-2846 # Crossing Variational Autoencoders for Answer Retrieval
-3282 # DeFormer: Decomposing Pre-trained Transformers for Faster Question Answering
 1882/TACL # [TACL] Investigating Prior Knowledge for Challenging Chinese Machine Reading Comprehension %by Kai Sun, Dian Yu, Dong Yu, Claire Cardie
-2301 # Logic-Guided Data Augmentation and Regularization for Consistent Question Answering
-3160 # Probabilistic Assumptions Matter: Improved Models for Distantly-Supervised Document-Level Question Answering
-3183 # Selective Question Answering under Domain Shift
 1929/TACL # [TACL] TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages %by Jonathan H Clark, Jennimaria Palomaki, Vitaly Nikolaev, Eunsol Choi, Dan Garrette, Michael Collins, Tom Kwiatkowski
-2667 # Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering
 = 20:00--21:00 Session 10A Resources and Evaluation-11
-2531 # Beyond Accuracy: Behavioral Testing of NLP Models with CheckList
-2808 # Code and Named Entity Recognition in StackOverflow
 00376/CL # [CL] LINSPECTOR: Multilingual Probing Tasks for Word Representations %by Gözde Gül Sahin, Clara Vania, Ilia Kuznetsov, Iryna Gurevych
 1756/TACL # [TACL] Paraphrase-Sense-Tagged Sentences %by Anne Cocos, Chris Callison-Burch
-3430 # Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics
-3191 # Towards Holistic and Automatic Evaluation of Open-Domain Dialogue Generation
 = 20:00--21:00 Session 10A Sentiment Analysis, Stylistic Analysis, and Argument Mining-8
-2138 # Agreement Prediction of Arguments in Cyber Argumentation for Detecting Stance Polarity and Intensity
-2677 # Cross-Lingual Unsupervised Sentiment Classification with Multi-View Transfer Learning
-277 # Efficient Pairwise Annotation of Argument Quality
-2314 # Entity-Aware Dependency-Based Deep Graph Attention Network for Comparative Preference Classification
-3007 # Modeling Label Semantics for Predicting Emotional Reactions
-1852 # OpinionDigest: A Simple Framework for Opinion Summarization
-2849 # A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks
 = 20:00--21:00 Session 10A Theme-2
-990 # (Re)construing Meaning in NLP
-2289 # Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data
-2391 # Examining Citations of Natural Language Processing Literature
-1856 # How Can We Accelerate Progress Towards Human-like Linguistic Generalization?
-1186 # How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence
-2039 # Intermediate-Task Transfer Learning with Pretrained Language Models: When and Why Does It Work?
-3486 # Predictive Biases in Natural Language Processing Models: A Conceptual Framework and Overview
-748 # What Does BERT with Vision Look At?
 = 20:45--21:30 Demo Session 5B
 ! [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
 ! [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
 = 21:00--22:00 Session 10B Discourse and Pragmatics-5
-458 # Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event
-750 # Harnessing the linguistic signal to predict scalar inferences
-2753 # Implicit Discourse Relation Classification: We Need to Talk about Evaluation
-3263 # PeTra: A Sparsely Supervised Memory Model for People Tracking
-347 # ZPR2: Joint Zero Pronoun Recovery and Resolution using Multi-Task Learning and BERT
 = 21:00--22:00 Session 10B Ethics and NLP-5
-1991 # Contextualizing Hate Speech Classifiers with Post-hoc Explanation
-1674 # Double-Hard Debias: Tailoring Word Embeddings for Gender Bias Mitigation
-1209 # Gender Bias in Multilingual Embeddings and Cross-Lingual Transfer
-3259 # Language (technology) is power: The need to be explicit about NLP harms
-1050 # Mitigating Gender Bias Amplification in Distribution by Posterior Regularization
-744 # Social Bias Frames: Reasoning about Social and Power Implications of Language
-2943 # Social Biases in NLP Models as Barriers for Persons with Disabilities
-1590 # Toward Gender-Inclusive Coreference Resolution
-84 # Towards Debiasing Sentence Representations
 = 21:00--22:00 Session 10B Interpretability and Analysis of Models for NLP-8
-2368 # Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions
-2161 # Generating Hierarchical Explanations on Text Classification via Feature Interaction Detection
-2549 # Learning to Deceive with Attention-Based Explanations
-2315 # Learning to Faithfully Rationalize by Construction
-2536 # On the Spontaneous Emergence of Discrete and Compositional Signals
 = 21:00--22:00 Session 10B Language Grounding to Vision, Robotics and Beyond-4
-1894 # Dense-Caption Matching and Frame-Selection Gating for Temporal Localization in VideoQA
-2451 # Shaping Visual Representations with Language for Few-Shot Classification
 = 21:00--22:00 Session 10B Machine Learning for NLP-11
-3194 # Discrete Latent Variable Representations for Low-Resource Text Classification
-1094 # Improving Transformer Models by Reordering their Sublayers
-1248 # Learning Constraints for Structured Prediction Using Rectifier Networks
-1319 # Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models
-412 # SAFER: A Structure-free Approach for Certified Robustness to Adversarial Word Substitutions
 1853/TACL # [TACL] SpanBERT: Improving Pre-training by Representing and Predicting Spans %by Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
 = 21:00--22:00 Session 10B Question Answering-8
-1966 # Clinical Reading Comprehension: A Thorough Analysis of the emrQA Dataset
-1832 # On the Importance of Diversity in Question Generation for QA
-136 # SCDE: Sentence Cloze Dataset with High Quality Distractors From Examinations
-2317 # The Cascade Transformer: an Application for Efficient Answer Sentence Selection
-876 # Transformers to Learn Hierarchical Contexts in Multiparty Dialogue for Span-based Question Answering
 = 21:00--22:00 Session 10B Resources and Evaluation-12
-2266 # A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks
-280 # Adversarial NLI: A New Benchmark for Natural Language Understanding
-65 # Dialogue-Based Relation Extraction
-1113 # Dscorer: A Fast Evaluation Metric for Discourse Representation Structure Parsing
-56 # Facet-Aware Evaluation for Extractive Summarization
-1862 # More Diverse Dialogue Datasets via Diversity-Informed Data Collection
-941 # Not All Claims are Created Equal: Choosing the Right Statistical Approach to Assess Hypotheses
-1952 # S2ORC: The Semantic Scholar Open Research Corpus
-1007 # STARC: Structured Annotations for Reading Comprehension
-885 # WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge
 = 21:00--22:00 Session 10B Speech and Multimodality-6
-2639 # Towards end-2-end learning for predicting behavior codes from spoken utterances in psychotherapy conversations
 = 21:00--22:00 Session 10B Summarization-5
-1769 # A Transformer-based Approach for Source Code Summarization
-2725 # Asking and Answering Questions to Evaluate the Factual Consistency of Summaries
-2221 # Discourse-Aware Neural Extractive Text Summarization
-2154 # Discrete Optimization for Unsupervised Sentence Summarization with Word-Level Extraction
-2878 # Exploring Content Selection in Summarization of Novel Chapters
-2902 # FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization
-2533 # Fact-based Content Weighting for Evaluating Abstractive Summarisation
-2896 # Hooks in the Headline: Learning to Generate Headlines with Controlled Styles
-2374 # Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward
-1009 # Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports
-413 # Storytelling with Dialogue: A Critical Role Dungeons and Dragons Dataset
-2152 # The Summary Loop: Learning to Write Abstractive Summaries Without Examples
-1272 # Unsupervised Opinion Summarization as Copycat-Review Generation
 = 21:30--22:15 Demo Session 5C
 ! [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
 ! [Demo] Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines %by Nabil Hossain, John Krumm, Tanvir Sajed and Henry Kautz
@@ -1421,7 +907,6 @@
 382 # Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness
 609 # Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation
 1310 # Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
-1327 # Rethinking Dialogue State Tracking with Reasoning
 1317 # Video-Grounded Dialogues with Pretrained Generation Language Models
 = 05:00--06:00 Session 11A Information Extraction-3
 59 # A Unified MRC Framework for Named Entity Recognition
@@ -1546,70 +1031,41 @@
 = 08:00--08:45 Demo Session 2A
 ! [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
 = 08:00--09:00 Session 12A Discourse and Pragmatics-7
-371 # A Top-down Neural Architecture towards Text-level Parsing of Discourse Rhetorical Structure
 3352 # DRTS Parsing with Structure-Aware Encoding and Decoding
 1811/TACL # [TACL] Unsupervised Discourse Constituency Parsing Using Viterbi EM %by Noriki Nishida, Hideki Nakayama
 = 08:00--09:00 Session 12A Information Extraction-5
 1880 # A Two-Stage Masked LM Method for Term Set Expansion
-3188 # Amalgamation of protein sequence, structure and textual information for improving protein-protein interaction identification
 2700 # FLAT: Chinese NER Using Flat-Lattice Transformer
-1616 # IMoJIE: Iterative Memory-Based Joint Open Information Extraction
 439 # Improving Entity Linking through Semantic Reinforced Entity Embeddings
-255 # Improving Event Detection via Open-domain Trigger Knowledge
-2397 # Improving Low-Resource Named Entity Recognition using Joint Sentence and Token Labeling
-2919 # MIE: A Medical Information Extractor towards Medical Dialogues
-2573 # Multi-Cell Compositional LSTM for NER Domain Adaptation
-3066 # Neighborhood Matching Network for Entity Alignment
-2350 # Pyramid: A Layered Model for Nested Named Entity Recognition
-186 # ReInceptionE: Relation-Aware Inception Network with Joint Local-Global Structural Information for Knowledge Graph Embedding
-906 # Relabel the Noise: Joint Extraction of Entities and Relations via Cooperative Multiagents
-828 # Simplify the Usage of Lexicon in Chinese NER
 = 08:00--09:00 Session 12A Information Retrieval and Text Mining-6
 3440 # Document Translation vs. Query Translation for Cross-Lingual Information Retrieval in the Medical Domain
 208 # Learning Robust Models for e-Commerce Product Search
 = 08:00--09:00 Session 12A Machine Learning for NLP-13
-511 # Dependency Graph Enhanced Dual-transformer Structure for Aspect-based Sentiment Classification
-655 # Differentiable Window for Dynamic Local Attention
 1001 # Generalized Entropy Regularization or: There's Nothing Special about Label Smoothing
 1017 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
 418 # Low-Dimensional Hyperbolic Knowledge Graph Embeddings
 = 08:00--09:00 Session 12A Machine Translation-14
-2508 # AdvAug: Robust Adversarial Augmentation for Neural Machine Translation
 1932 # Classification-Based Self-Learning for Weakly Supervised Bilingual Lexicon Induction
-754 # Contextual Neural Machine Translation Improves Translation of Cataphoric Pronouns
 2196 # Gender in Danger? Evaluating Speech Translation Technology on the MuST-SHE Corpus
-1764 # Improving Neural Machine Translation with Soft Template Prediction
 620 # Uncertainty-Aware Curriculum Learning for Neural Machine Translation
-2659 # Worse WER, but Better BLEU? Leveraging Word Embedding as Intermediate in Multitask End-to-End Speech Translation
 = 08:00--09:00 Session 12A NLP Applications-9
 546 # Closing the Gap: Joint De-Identification and Concept Extraction in the Clinical Domain
 119 # CorefQA: Coreference Resolution as Query-based Span Prediction
 1942 # Estimating predictive uncertainty for rumour verification models
 1705 # From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains
 1030 # Language to Network: Conditional Parameter Adaptation with Natural Language Descriptions
-2798 # Neural-DINF: A Neural Network based Framework for Measuring Document In?uence
 = 08:00--09:00 Session 12A Semantics: Sentence Level-7
 1805/TACL # [TACL] AMR-To-Text Generation with Graph Transformer %by Tianming Wang, Xiaojun Wan, Hanqi Jin
 1575 # Controlled Crowdsourcing for High-Quality QA-SRL Annotation
 1554 # Cross-Lingual Semantic Role Labeling with High-Quality Translated Training Corpus
-2640 # Semantic Parsing for English as a Second Language
 1723 # Sentence Meta-Embeddings for Unsupervised Semantic Textual Similarity
 834 # Transition-based Semantic Dependency Parsing with Pointer Networks
-3097 # Unsupervised Dual Paraphrasing for Two-stage Semantic Parsing
-1198 # Word-level Textual Adversarial Attacking as Combinatorial Optimization
 287 # tBERT: Topic Models and BERT Joining Forces for Semantic Similarity Detection
 = 08:00--09:00 Session 12A Sentiment Analysis, Stylistic Analysis, and Argument Mining-10
 623 # Conditional Augmentation for Aspect Term Extraction via Masked Sequence-to-Sequence Generation
 3164 # Exploiting Personal Characteristics of Debaters for Predicting Persuasiveness
 1275 # Out of the Echo Chamber: Detecting Countering Debate Speeches
 = 08:00--09:00 Session 12A Summarization-7
-113 # Automatic Generation of Citation Texts in Scholarly Papers: A Pilot Study
-810 # Composing Elementary Discourse Units in Abstractive Summarization
-3068 # Extractive Summarization as Text Matching
-1491 # Heterogeneous Graph Neural Networks for Extractive Document Summarization
-761 # Jointly Learning to Align and Summarize for Neural Cross-Lingual Summarization
-1515 # Leveraging Graph to Improve Abstractive Multi-Document Summarization
-1539 # Multi-GranularityInteraction Network for Extractive and Abstractive Multi-Document Summarization
 = 08:00--09:00 Session 12A Student Research Workshop
 ! [SRW] Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition %by Hwichan Kim, Tosho Hirasawa and Mamoru Komachi
 ! [SRW] Research on Task Discovery for Transfer Learning in Deep Neural Networks %by Arda Akdemir
@@ -1617,67 +1073,42 @@
 = 08:45--09:30 Demo Session 2B
 ! [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
 = 09:00--10:00 Session 12B Dialogue and Interactive Systems-15
-1444 # Data Manipulation: Towards Effective Instance Learning for Neural Dialogue Generation via Learning to Augment and Reweight
-382 # Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness
 2888 # Diversifying Dialogue Generation with Non-Conversational Text
-609 # Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation
 912 # KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation
-1459 # Learning Efficient Dialogue Policy from Demonstrations through Shaping
 3002 # Meta-Reinforced Multi-Domain State Generator for Dialogue Systems
 892 # Modeling Long Context for Task-Oriented Dialogue State Generation
 274 # Multi-Domain Dialogue Acts and Response Co-Generation
-1327 # Rethinking Dialogue State Tracking with Reasoning
-2298 # SAS: Dialogue State Tracking via Slot Attention and Slot Information Sharing
-1317 # Video-Grounded Dialogues with Pretrained Generation Language Models
 = 09:00--10:00 Session 12B Generation-11
 1146 # Exploring Contextual Word-level Style Relevance for Unsupervised Style Transfer
 3241 # Heterogeneous Graph Transformer for Graph-to-Sequence Learning
 2170 # Neural Data-to-Text Generation via Jointly Learning the Segmentation and Correspondence
 = 09:00--10:00 Session 12B Information Extraction-6
-1232 # An Effective Transition-based Model for Discontinuous NER
-1205 # Connecting Embeddings for Knowledge Graph Entity Typing
-1107 # Handling Rare Entities for Neural Sequence Labeling
-1220 # Instance-Based Learning of Span Representations: A Case Study through Named Entity Recognition
-963 # Named Entity Recognition as Dependency Parsing
 = 09:00--10:00 Session 12B Language Grounding to Vision, Robotics and Beyond-6
 1352 # Aligned Dual Channel Graph Convolutional Network for Visual Question Answering
-2218 # Cross-modal Coherence Modeling for Caption Generation
 2879 # Multimodal Neural Graph Memory Networks for Visual Question Answering
 2468 # Refer360 : A Referring Expression Recognition Dataset in 360 Images
-1651 # Span-based Localizing Network for Natural Language Video Localization
 = 09:00--10:00 Session 12B Machine Learning for NLP-14
 2183 # CamemBERT: a Tasty French Language Model
 3338 # Effective Estimation of Deep Generative Language Models
-1283 # Evaluating and Enhancing the Robustness of Neural Network-based Dependency Parsing Models with Adversarial Examples
-1175 # Learning Architectures from an Extended Search Space for Language Modeling
 3451 # Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection
 = 09:00--10:00 Session 12B Phonology, Morphology and Word Segmentation-4
 1400 # 2kenize: Tying Subword Sequences for Chinese Script Conversion
-983 # Bootstrapping Techniques for Polysynthetic Morphological Analysis
-1466 # Coupling Distant Annotation and Adversarial Training for Cross-Domain Chinese Word Segmentation
-2475 # Modeling Morphological Typology for Unsupervised Learning of Language Morphology
-1827 # Predicting Declension Class from Form and Meaning
 2143 # Predicting the Growth of Morphological Families from Social and Linguistic Factors
 2217 # Semi-supervised Contextual Historical Text Normalization
 = 09:00--10:00 Session 12B Question Answering-10
 1297 # ClarQ: A large-scale and diverse dataset for Clarification Question Generation
 1917 # DoQA - Accessing Domain-Specific FAQs via Conversational QA
-812 # Harvesting and Refining Question-Answer Pairs for Unsupervised QA
 203 # MLQA: Evaluating Cross-lingual Extractive Question Answering
 1941 # Multi-source Meta Transfer for Low Resource Multiple-Choice Question Answering
-1043 # RikiNet: Reading Wikipedia Pages for Natural Question Answering
 = 09:00--10:00 Session 12B Semantics: Textual Inference and Other Areas of Semantics-4
-682 # Do Neural Models Learn Systematicity of Monotonicity Inference in Natural Language?
 16 # Fine-grained Fact Verification with Kernel Graph Attention Network
 1844 # Generating Fact Checking Explanations
-1133 # How to Ask Good Questions? Try to Leverage Paraphrases
 3146 # Premise Selection in Natural Language Mathematical Texts
 = 09:00--10:00 Session 12B Theme-4
 2079 # A Call for More Rigor in Unsupervised Cross-lingual Learning
 2618 # A Tale of a Probe and a Parser
 472 # From SPMRL to NMRL: What Did We Learn (and Unlearn) in a Decade of Parsing Morphologically-Rich Languages (MRLs)?
 532 # Speech Translation and the End-to-End Promise: Taking Stock of Where We Are
-1751 # The State and Fate of Linguistic Diversity and Inclusion in the NLP World
 28 # What Question Answering can Learn from Trivia Nerds
 2184 # What are the Goals of Distributional Semantics?
 = 09:00--10:00 Session 12B Student Research Workshop
@@ -1691,69 +1122,32 @@
 ! [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
 ! [Demo] ESPnet-ST: All-in-One Speech Translation Toolkit %by Hirofumi Inaguma, Shun Kiyono, Kevin Duh, Shigeki Karita, Nelson Yalta, Tomoki Hayashi and Shinji Watanabe
 = 12:00--13:00 Session 13A Generation-12
-1146 # Exploring Contextual Word-level Style Relevance for Unsupervised Style Transfer
-3241 # Heterogeneous Graph Transformer for Graph-to-Sequence Learning
 2176 # Improving Image Captioning with Better Use of Caption
-2170 # Neural Data-to-Text Generation via Jointly Learning the Segmentation and Correspondence
 3294 # Shape of synth to come: Why we should use synthetic data for English surface realization
 1967/TACL # [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
 1049 # Toward Better Storylines with Sentence-Level Language Models
 = 12:00--13:00 Session 13A Information Extraction-7
 1055 # A Two-Step Approach for Implicit Event Argument Detection
-59 # A Unified MRC Framework for Named Entity Recognition
-2972 # Continual Relation Learning via Episodic Memory Activation and Reconsolidation
 1906/TACL # [TACL] Improving Candidate Generation for Low-resource Cross-lingual Entity Linking %by Shuyan Zhou, Shruti Rijhwani, John Wieting, Jaime Carbonell, Graham Neubig
-439 # Improving Entity Linking through Semantic Reinforced Entity Embeddings
 2979 # Machine Reading of Historical Events
-2904 # Relation Extraction with Explanation
 1716 # Revisiting Unsupervised Relation Extraction
 2600 # SciREX: A Challenge Dataset for Document-Level Information Extraction
-2987 # Single-/Multi-Source Cross-Lingual NER via Teacher-Student Learning on Unlabeled Data in Target Language
-1195 # Synchronous Double-channel Recurrent Network for Aspect-Opinion Pair Extraction
 = 12:00--13:00 Session 13A Machine Learning for NLP-15
 1891 # Contrastive Self-Supervised Learning for Commonsense Reasoning
 999 # Do Transformers Need Deep Long-Range Memory?
-3338 # Effective Estimation of Deep Generative Language Models
-1631 # Exploiting Syntactic Structure for Better Language Modeling: A Syntactic Distance Approach
-1017 # Highway Transformer: Self-Gating Enhanced Self-Attentive Networks
 1781 # Improving Disentangled Text Representation Learning with Information-Theoretic Guidance
-418 # Low-Dimensional Hyperbolic Knowledge Graph Embeddings
-3451 # Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection
 = 12:00--13:00 Session 13A NLP Applications-10
-546 # Closing the Gap: Joint De-Identification and Concept Extraction in the Clinical Domain
-119 # CorefQA: Coreference Resolution as Query-based Span Prediction
-1705 # From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains
-1030 # Language to Network: Conditional Parameter Adaptation with Natural Language Descriptions
-646 # Paraphrase Generation by Learning How to Edit from Samples
 2617 # Understanding Advertisements with BERT
 = 12:00--13:00 Session 13A Semantics: Lexical-7
 00375/CL # [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
 939 # Non-Linear Instance-Based Cross-Lingual Mapping for Non-Isomorphic Embedding Spaces
 = 12:00--13:00 Session 13A Semantics: Sentence Level-8
-1554 # Cross-Lingual Semantic Role Labeling with High-Quality Translated Training Corpus
-378 # FastBERT: a Self-distilling BERT with Adaptive Inference Time
 54 # Good-Enough Compositional Data Augmentation
-832 # LogicalFactChecker: Leveraging Logical Operations for Fact Checking with Graph Module Network
-3124 # Parsing into Variable-in-situ Logico-Semantic Graphs
 2884 # RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
-2441 # Semi-Supervised Semantic Dependency Parsing Using CRF Autoencoders
-1723 # Sentence Meta-Embeddings for Unsupervised Semantic Textual Similarity
-834 # Transition-based Semantic Dependency Parsing with Pointer Networks
-287 # tBERT: Topic Models and BERT Joining Forces for Semantic Similarity Detection
 = 12:00--13:00 Session 13A Semantics: Textual Inference and Other Areas of Semantics-5
-2746 # Curriculum Learning for Natural Language Understanding
-795 # Evidence-Aware Inferential Text Generation with Vector Quantised Variational AutoEncoder
-16 # Fine-grained Fact Verification with Kernel Graph Attention Network
-234 # NeuInfer: Knowledge Inference on N-ary Facts
-3348 # Neural Graph Matching Networks for Chinese Short Text Matching
-3146 # Premise Selection in Natural Language Mathematical Texts
-838 # Reasoning Over Semantic-Level Graph for Fact Checking
 3108 # Temporal Common Sense Acquisition with Minimal Supervision
 1639 # The Sensitivity of Language Models and Humans to Winograd Schema Perturbations
 = 12:00--13:00 Session 13A Sentiment Analysis, Stylistic Analysis, and Argument Mining-11
-623 # Conditional Augmentation for Aspect Term Extraction via Masked Sequence-to-Sequence Generation
-3164 # Exploiting Personal Characteristics of Debaters for Predicting Persuasiveness
-1275 # Out of the Echo Chamber: Detecting Countering Debate Speeches
 = 12:00--13:00 Session 13A Student Research Workshop
 ! [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
 ! [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
@@ -1763,29 +1157,15 @@
 ! [Demo] Prta: A System to Support the Analysis of Propaganda Techniques in the News %by Giovanni Da San Martino, Shaden Shaar, Yifan Zhang, Seunghak Yu, Alberto Barrón-Cedeño and Preslav Nakov
 ! [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
 = 13:00--14:00 Session 13B Dialogue and Interactive Systems-16
-1657 # A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking
-2888 # Diversifying Dialogue Generation with Non-Conversational Text
-1729 # Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog
-912 # KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation
-1310 # Learning to Customize Model Structures for Few-shot Dialogue Generation Tasks
-3002 # Meta-Reinforced Multi-Domain State Generator for Dialogue Systems
-892 # Modeling Long Context for Task-Oriented Dialogue State Generation
-274 # Multi-Domain Dialogue Acts and Response Co-Generation
-3291 # Speaker Sensitive Response Evaluation Model
 = 13:00--14:00 Session 13B Discourse and Pragmatics-8
-3352 # DRTS Parsing with Structure-Aware Encoding and Decoding
 = 13:00--14:00 Session 13B Information Extraction-8
-2717 # Bipartite Flat-Graph Network for Nested Named Entity Recognition
-2700 # FLAT: Chinese NER Using Flat-Lattice Transformer
 2188 # Temporally-Informed Analysis of Named Entity Recognition
 2661 # Towards Open Domain Event Trigger Identification using Adversarial Domain Adaptation
 = 13:00--14:00 Session 13B Language Grounding to Vision, Robotics and Beyond-7
-1352 # Aligned Dual Channel Graph Convolutional Network for Visual Question Answering
 1906 # CompGuessWhat?!: A Multi-task Evaluation Framework for Grounded Language Learning
 2223 # Cross-Modality Relevance for Reasoning on Language and Vision
 2952 # Learning Web-based Procedures by Reasoning over Explanations and Demonstrations in Context
 2692 # Multi-agent Communication meets Natural Language: Synergies between Functional and Structural Language Learning
-2879 # Multimodal Neural Graph Memory Networks for Visual Question Answering
 = 13:00--14:00 Session 13B Machine Translation-15
 148 # HAT: Hardware-Aware Transformers for Efficient Natural Language Processing
 3096 # Hard-Coded Gaussian Attention for Neural Machine Translation
@@ -1793,40 +1173,20 @@
 1915 # Learning a Multi-Domain Curriculum for Neural Machine Translation
 394 # Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem
 437 # Translationese as a Language in "Multilingual" NMT
-620 # Uncertainty-Aware Curriculum Learning for Neural Machine Translation
 2092 # Unsupervised Domain Clusters in Pretrained Language Models
 1329 # Using Context in Neural Machine Translation Training Objectives
 1033 # Variational Neural Machine Translation with Normalizing Flows
 = 13:00--14:00 Session 13B Phonology, Morphology and Word Segmentation-5
-1400 # 2kenize: Tying Subword Sequences for Chinese Script Conversion
 1759/TACL # [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
-2143 # Predicting the Growth of Morphological Families from Social and Linguistic Factors
-2217 # Semi-supervised Contextual Historical Text Normalization
 849 # The Paradigm Discovery Problem
 2133 # Supervised Grapheme-to-Phoneme Conversion of Orthographic Schwas in Hindi and Punjabi
 = 13:00--14:00 Session 13B Question Answering-11
-1297 # ClarQ: A large-scale and diverse dataset for Clarification Question Generation
-1917 # DoQA - Accessing Domain-Specific FAQs via Conversational QA
-817 # Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension
-154 # Low-Resource Generation of Multi-hop Reasoning Questions
-203 # MLQA: Evaluating Cross-lingual Extractive Question Answering
-1941 # Multi-source Meta Transfer for Low Resource Multiple-Choice Question Answering
-1102 # R4C: A Benchmark for Evaluating RC Systems to Get the Right Answer for the Right Reason
-1142 # Recurrent Chunking Mechanisms for Long-Text Machine Reading Comprehension
 = 13:00--14:00 Session 13B Theme-5
-2079 # A Call for More Rigor in Unsupervised Cross-lingual Learning
-2618 # A Tale of a Probe and a Parser
-2670 # Are we Estimating or Guesstimating Translation Quality?
 1925 # Automated Evaluation of Writing  50 Years and Counting
-472 # From SPMRL to NMRL: What Did We Learn (and Unlearn) in a Decade of Parsing Morphologically-Rich Languages (MRLs)?
-3129 # Language (Re)modelling: Towards Embodied Language Understanding
 2114 # Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly
 1736 # On Forgetting to Cite Older Papers: An Analysis of the ACL Anthology
 1714 # Returning the N to NLP: Towards Contextually Personalized Classification Models
-532 # Speech Translation and the End-to-End Promise: Taking Stock of Where We Are
 556 # To Test Machine Comprehension, Start by Defining Comprehension
-28 # What Question Answering can Learn from Trivia Nerds
-2184 # What are the Goals of Distributional Semantics?
 2157 # Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations
 = 13:00--14:00 Session 13B Student Research Workshop
 ! [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
@@ -1855,12 +1215,10 @@
 2723 # Neural CRF Model for Sentence Alignment in Text Simplification
 2101 # One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases
 1996 # R^3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge
-3294 # Shape of synth to come: Why we should use synthetic data for English surface realization
 346 # Structural Information Preserving for Graph-to-Text Generation
 1967/TACL # [TACL] Syntax-guided Controlled Generation of Paraphrases %by Ashutosh Kumar, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar
 = 17:00--18:00 Session 14A Information Extraction-9
 2470 # A Joint Neural Model for Information Extraction with Global Features
-1880 # A Two-Stage Masked LM Method for Term Set Expansion
 367 # Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding
 1882 # Exploiting the Syntax-Model Consistency for Neural Relation Extraction
 2482 # From English to Code-Switching: Transfer Learning with Strong Morphological Clues
@@ -1874,15 +1232,12 @@
 = 17:00--18:00 Session 14A Information Retrieval and Text Mining-7
 2026 # A Prioritization Model for Suicidality Risk Assessment
 1774 # CluHTM - Semantic Hierarchical Topic Modeling based on CluWords
-3440 # Document Translation vs. Query Translation for Cross-Lingual Information Retrieval in the Medical Domain
 1960 # Empower Entity Set Expansion via Language Model Probing
 1214 # Feature Projection for Improved Text Classification
 = 17:00--18:00 Session 14A Language Grounding to Vision, Robotics and Beyond-8
 2421 # A negative case analysis of visual grounding methods for VQA
-1906 # CompGuessWhat?!: A Multi-task Evaluation Framework for Grounded Language Learning
 974 # History for Visual Dialog: Do we really need it?
 1964 # Mapping Natural Language Instructions to Mobile UI Action Sequences
-2692 # Multi-agent Communication meets Natural Language: Synergies between Functional and Structural Language Learning
 1791 # TVQA+: Spatio-Temporal Grounding for Video Question Answering
 1179 # Unsupervised Multimodal Neural Machine Translation with Pseudo Visual Pivoting
 = 17:00--18:00 Session 14A Phonology, Morphology and Word Segmentation-6
@@ -1893,8 +1248,6 @@
 1338 # Joint Diacritization, Lemmatization, Normalization, and Fine-Grained Morphological Tagging
 3141 # Phonetic and Visual Priors for Decipherment of Informal Romanization
 1759/TACL # [TACL] Phonotactic Complexity and Its Trade-offs %by Tiago Pimentel, Brian Roark, Ryan D. Cotterell
-849 # The Paradigm Discovery Problem
-2133 # Supervised Grapheme-to-Phoneme Conversion of Orthographic Schwas in Hindi and Punjabi
 = 17:00--18:00 Session 14A Semantics: Sentence Level-9
 223 # Active Learning for Coreference Resolution using Discrete Annotation
 945 # Beyond Possession Existence: Duration and Co-Possession
@@ -1903,7 +1256,6 @@
 2449 # Estimating Mutual Information Between Dense Word Embeddings
 2492 # Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing
 2267 # Predicting the Focus of Negation: Model and Error Analysis
-2884 # RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
 2042 # Structured Tuning for Semantic Role Labeling
 2876 # TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data
 1553 # Universal Decompositional Semantic Parsing
@@ -1923,32 +1275,17 @@
 2049 # TXtract: Taxonomy-Aware Knowledge Extraction for Thousands of Product Categories
 2063 # TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition
 = 18:00--19:00 Session 14B Machine Learning for NLP-16
-3298 # A Mixture of h ? 1 Heads is Better than h Heads
-2183 # CamemBERT: a Tasty French Language Model
-1891 # Contrastive Self-Supervised Learning for Commonsense Reasoning
-999 # Do Transformers Need Deep Long-Range Memory?
-1001 # Generalized Entropy Regularization or: There's Nothing Special about Label Smoothing
-1781 # Improving Disentangled Text Representation Learning with Information-Theoretic Guidance
-2455 # The Right Tool for the Job: Matching Model and Instance Complexities
 = 18:00--19:00 Session 14B Machine Translation-16
 1670 # Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation
 1436 # Balancing Training for Multilingual Neural Machine Translation
-1932 # Classification-Based Self-Learning for Weakly Supervised Bilingual Lexicon Induction
 2333 # Evaluating Robustness to Input Perturbations for Neural Machine Translation
-2196 # Gender in Danger? Evaluating Speech Translation Technology on the MuST-SHE Corpus
-3185 # In Neural Machine Translation, What Does Transfer Learning Transfer?
 218 # Parallel Corpus Filtering via Pre-trained Language Models
-394 # Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem
 760 # Regularized Context Gates on Transformer for Machine Translation
-2092 # Unsupervised Domain Clusters in Pretrained Language Models
-1329 # Using Context in Neural Machine Translation Training Objectives
-1033 # Variational Neural Machine Translation with Normalizing Flows
 = 18:00--19:00 Session 14B NLP Applications-11
 2855 # A Multi-Perspective Architecture for Semantic Code Search
 1678 # Automated Topical Component Extraction Using Neural Network Attention Scores from Source-based Essay Scoring
 1578 # Clinical Concept Linking with Contextualized Neural Representations
 1082 # DeSePtion: Dual Sequence Prediction and Adversarial Examples for Improved Fact-Checking
-1942 # Estimating predictive uncertainty for rumour verification models
 2038 # Let Me Choose: From Verbal Context to Font Selection
 1743/TACL # [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
 2159 # Multi-Label and Multilingual News Framing Analysis
@@ -1956,21 +1293,14 @@
 731 # ScriptWriter: Narrative-Guided Script Generation
 927 # Should All Cross-Lingual Embeddings Speak English?
 2171 # Smart To-Do: Automatic Generation of To-Do Items from Emails
-2617 # Understanding Advertisements with BERT
 = 18:00--19:00 Session 14B Semantics: Lexical-8
 00375/CL # [CL] LESSLEX: Linking Multilingual Embeddings to SenSe Representations of Lexical Items %by Davide Colla, Enrico Mensa, Daniele P. Radicioni
-939 # Non-Linear Instance-Based Cross-Lingual Mapping for Non-Isomorphic Embedding Spaces
 = 18:00--19:00 Session 14B Semantics: Textual Inference and Other Areas of Semantics-6
 2988 # Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition
-2602 # Benchmarking Multimodal Regex Synthesis with Complex Structures
 1750 # End-to-End Bias Mitigation by Modelling Biases in Corpora
-1844 # Generating Fact Checking Explanations
 1746 # Mind the Trade-off: Debiasing NLU Models without Degrading the In-distribution Performance
 2966 # NILE : Natural Language Inference with Faithful Natural Language Explanations
-1357 # Neural Mixed Counting Models for Dispersed Topic Discovery
 2851 # QuASE: Question-Answer Driven Sentence Encoding
-3108 # Temporal Common Sense Acquisition with Minimal Supervision
-1639 # The Sensitivity of Language Models and Humans to Winograd Schema Perturbations
 2518 # Towards Robustifying NLI Models Against Lexical Dataset Biases
 1985 # Uncertain Natural Language Inference
 = 18:00--19:00 Session 14B Syntax: Tagging, Chunking and Parsing-5
@@ -1978,7 +1308,6 @@
 1240 # Extracting Headless MWEs from Dependency Parse Trees: Parsing, Tagging, and Joint Modeling Approaches
 3403 # Revisiting Higher-Order Dependency Parsers
 1956 # SeqVAT: Virtual Adversarial Training for Semi-Supervised Sequence Labeling
-3366 # Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference
 1542 # Treebank Embedding Vectors for Out-of-domain Dependency Parsing
 = 18:00--19:00 Session 14B Student Research Workshop
 ! [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
@@ -1994,66 +1323,13 @@
 ! [Demo] SUPP.AI: Finding Evidence for Supplement-Drug nteractions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
 = 20:00--21:00 Session 15A Generation-14
 1886/TACL # [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
-2309 # BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
-2117 # BLEURT: Learning Robust Metrics for Text Generation
-2001 # Distilling Knowledge Learned in BERT for Text Generation
-2176 # Improving Image Captioning with Better Use of Caption
-2550 # Iterative Edit-Based Unsupervised Sentence Simplification
-2723 # Neural CRF Model for Sentence Alignment in Text Simplification
-2101 # One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases
 = 20:00--21:00 Session 15A Information Extraction-11
-2244 # A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization
-2470 # A Joint Neural Model for Information Extraction with Global Features
-1055 # A Two-Step Approach for Implicit Event Argument Detection
-367 # Document-Level Event Role Filler Extraction using Multi-Granularity Contextualized Encoding
-425 # Learning Interpretable Relationships between Entities, Relations and Concepts via Bayesian Structure Learning on Open Domain Facts
-613 # Multi-Sentence Argument Linking
-1716 # Revisiting Unsupervised Relation Extraction
-2188 # Temporally-Informed Analysis of Named Entity Recognition
-2661 # Towards Open Domain Event Trigger Identification using Adversarial Domain Adaptation
-2427 # ZeroShotCeres: Zero-Shot Relation Extraction from Semi-Structured Webpages
 = 20:00--21:00 Session 15A Information Retrieval and Text Mining-8
-2026 # A Prioritization Model for Suicidality Risk Assessment
-1774 # CluHTM - Semantic Hierarchical Topic Modeling based on CluWords
-1960 # Empower Entity Set Expansion via Language Model Probing
-1214 # Feature Projection for Improved Text Classification
-208 # Learning Robust Models for e-Commerce Product Search
 = 20:00--21:00 Session 15A Language Grounding to Vision, Robotics and Beyond-9
-2421 # A negative case analysis of visual grounding methods for VQA
-2223 # Cross-Modality Relevance for Reasoning on Language and Vision
-974 # History for Visual Dialog: Do we really need it?
-1855 # Knowledge Supports Visual Language Grounding: A Case Study on Colour Terms
-2952 # Learning Web-based Procedures by Reasoning over Explanations and Demonstrations in Context
-1964 # Mapping Natural Language Instructions to Mobile UI Action Sequences
-2468 # Refer360 : A Referring Expression Recognition Dataset in 360 Images
-1791 # TVQA+: Spatio-Temporal Grounding for Video Question Answering
-1179 # Unsupervised Multimodal Neural Machine Translation with Pseudo Visual Pivoting
-2330 # Words aren't enough, their order matters: On the Robustness of Grounding Visual Referring Expressions
 = 20:00--21:00 Session 15A Machine Translation-17
-1670 # Addressing Posterior Collapse with Mutual Information for Improved Variational Neural Machine Translation
-2333 # Evaluating Robustness to Input Perturbations for Neural Machine Translation
-3096 # Hard-Coded Gaussian Attention for Neural Machine Translation
-1915 # Learning a Multi-Domain Curriculum for Neural Machine Translation
-3461 # Tagged Back-translation Revisited: Why Does It Really Work?
 = 20:00--21:00 Session 15A Semantics: Sentence Level-10
-223 # Active Learning for Coreference Resolution using Discrete Annotation
 1912/TACL # [TACL] Decoding Brain Activity Associated with Literal and Metaphoric Sentence Comprehension using Distributional Semantic Models %by Vesna G. Djokic, Jean Maillard, Luana Bulat, Ekaterina Shutova
-716 # Emerging Cross-lingual Structure in Pretrained Language Models
-2449 # Estimating Mutual Information Between Dense Word Embeddings
-2492 # Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing
-54 # Good-Enough Compositional Data Augmentation
-576 # Incorporating External Knowledge through Pre-training for Natural Language to Code Generation
-2267 # Predicting the Focus of Negation: Model and Error Analysis
-2876 # TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data
-479 # Unsupervised Cross-lingual Representation Learning at Scale
 = 20:00--21:00 Session 15A Semantics: Textual Inference and Other Areas of Semantics-7
-2988 # Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition
-1750 # End-to-End Bias Mitigation by Modelling Biases in Corpora
-1746 # Mind the Trade-off: Debiasing NLU Models without Degrading the In-distribution Performance
-2966 # NILE : Natural Language Inference with Faithful Natural Language Explanations
-2851 # QuASE: Question-Answer Driven Sentence Encoding
-2518 # Towards Robustifying NLI Models Against Lexical Dataset Biases
-1985 # Uncertain Natural Language Inference
 = 20:00--21:00 Session 15A Student Research Workshop
 ! [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
 ! [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
@@ -2063,73 +1339,17 @@
 ! [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
 ! [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
 = 21:00--22:00 Session 15B Generation-15
-150 # ESPRIT: Explaining Solutions to Physical Reasoning Tasks
-155 # Logical Natural Language Generation from Open-Domain Tables
-1996 # R^3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge
-346 # Structural Information Preserving for Graph-to-Text Generation
-1049 # Toward Better Storylines with Sentence-Level Language Models
 = 21:00--22:00 Session 15B Information Extraction-12
-1882 # Exploiting the Syntax-Model Consistency for Neural Relation Extraction
-2482 # From English to Code-Switching: Transfer Learning with Strong Morphological Clues
-2009 # Hierarchical Entity Typing via Multi-level Learning to Rank
-2979 # Machine Reading of Historical Events
-2160 # Multi-Domain Named Entity Recognition with Genre-Aware and Agnostic Inference
-2710 # Rationalizing Medical Relation Prediction from Corpus-level Statistics
-2731 # Representation Learning for Information Extraction from Form-like Documents
-2600 # SciREX: A Challenge Dataset for Document-Level Information Extraction
-2749 # Soft Gazetteers for Low-Resource Named Entity Recognition
-3254 # Sources of Transfer in Multilingual Named Entity Recognition
-2049 # TXtract: Taxonomy-Aware Knowledge Extraction for Thousands of Product Categories
-2063 # TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition
 = 21:00--22:00 Session 15B Machine Translation-18
-1436 # Balancing Training for Multilingual Neural Machine Translation
-148 # HAT: Hardware-Aware Transformers for Efficient Natural Language Processing
-218 # Parallel Corpus Filtering via Pre-trained Language Models
-760 # Regularized Context Gates on Transformer for Machine Translation
-437 # Translationese as a Language in "Multilingual" NMT
 = 21:00--22:00 Session 15B NLP Applications-12
-2855 # A Multi-Perspective Architecture for Semantic Code Search
-1678 # Automated Topical Component Extraction Using Neural Network Attention Scores from Source-based Essay Scoring
-1578 # Clinical Concept Linking with Contextualized Neural Representations
-1082 # DeSePtion: Dual Sequence Prediction and Adversarial Examples for Improved Fact-Checking
-2038 # Let Me Choose: From Verbal Context to Font Selection
 1743/TACL # [TACL] Machine Learning Driven Language Assessment %by Burr Settles, Masato Hagiwara, Geoffrey T. LaFlair
-2159 # Multi-Label and Multilingual News Framing Analysis
-2483 # Predicting Performance for Natural Language Processing Tasks
-731 # ScriptWriter: Narrative-Guided Script Generation
-927 # Should All Cross-Lingual Embeddings Speak English?
-2171 # Smart To-Do: Automatic Generation of To-Do Items from Emails
 = 21:00--22:00 Session 15B Phonology, Morphology and Word Segmentation-7
-2112 # A Multitask Learning Approach for Diacritic Restoration
-415 # Frugal Paradigm Completion
-1074 # Improving Chinese Word Segmentation with Wordhood Memory Networks
-1802 # Joint Chinese Word Segmentation and Part-of-speech Tagging via Two-way Attentions of Auto-analyzed Knowledge
-1338 # Joint Diacritization, Lemmatization, Normalization, and Fine-Grained Morphological Tagging
-3141 # Phonetic and Visual Priors for Decipherment of Informal Romanization
-2072 # Unsupervised Morphological Paradigm Completion
 = 21:00--22:00 Session 15B Semantics: Sentence Level-11
-945 # Beyond Possession Existence: Duration and Co-Possession
-1575 # Controlled Crowdsourcing for High-Quality QA-SRL Annotation
-1931 # Dont Stop Pretraining: Adapt Language Models to Domains and Tasks
-2042 # Structured Tuning for Semantic Role Labeling
-1553 # Universal Decompositional Semantic Parsing
 = 21:00--22:00 Session 15B Syntax: Tagging, Chunking and Parsing-6
 1801/TACL # [TACL] Deep Contextualized Self-training for Low Resource Dependency Parsing %by Guy Rotman, Roi Reichart
-1240 # Extracting Headless MWEs from Dependency Parse Trees: Parsing, Tagging, and Joint Modeling Approaches
-3403 # Revisiting Higher-Order Dependency Parsers
-1956 # SeqVAT: Virtual Adversarial Training for Semi-Supervised Sequence Labeling
-1542 # Treebank Embedding Vectors for Out-of-domain Dependency Parsing
 = 21:00--22:00 Session 15B Theme-6
-1925 # Automated Evaluation of Writing  50 Years and Counting
-2114 # Negated and Misprimed Probes for Pretrained Language Models: Birds Can Talk, But Cannot Fly
-1736 # On Forgetting to Cite Older Papers: An Analysis of the ACL Anthology
-1714 # Returning the N to NLP: Towards Contextually Personalized Classification Models
-1501 # The Unstoppable Rise of Computational Linguistics in Deep Learning
-3077 # To Boldly Query What No One Has Annotated Before? The Frontiers of Corpus Querying
-556 # To Test Machine Comprehension, Start by Defining Comprehension
-2157 # Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations
 = 21:00--22:00 Session 15B Student Research Workshop
-! [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
+! [SRW] NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
 ! [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
 ! [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
 ! [SRW] Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions %by Yuan Zhuang and Ellen Riloff
