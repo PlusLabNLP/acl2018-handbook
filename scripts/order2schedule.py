@@ -79,11 +79,13 @@ for file in args.order_files:
 
         elif line.startswith('='):
             # This names a parallel session that runs at a certain time
-            if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
-                # ignore demo session and SRW session from main conf order file
-                str = line[2:]
-                time_range, session_name = str.split(' ', 1)
-                sessions[session_name] = Session(line, (day, date, year))
+            # if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
+            #     # ignore demo session and SRW session from main conf order file
+            str = line[2:]
+            time_range, session_name = str.split(' ', 1)
+            if 'Demo Session' in line:
+                session_name = day + session_name
+            sessions[session_name] = Session(line, (day, date, year))
 
         elif line.startswith('+'):
             if line[2:].split(' ')[0] != 'Note:':
@@ -154,13 +156,17 @@ for date in dates:
         # Print the Session overview (single-page at-a-glance grid)
         if len(parallel_sessions) > 0:
             session_num = parallel_sessions[0].num
+            session_name = parallel_sessions[0].name
 
             path = os.path.join(args.output_dir, '%s-parallel-session-%s.tex' % (day, session_num))
             out = open(path, 'w')
             print >> sys.stderr, "\\input{%s}" % (path)
             
             print >>out, '\\clearpage'
-            print >>out, '\\setheaders{Session %s}{\\daydateyear}' % (session_num)
+            if 'demo' in session_num:
+                print >>out, '\\setheaders{Demo Session %s}{\\daydateyear}' % (session_num)
+            else:
+                print >>out, '\\setheaders{%s}{\\daydateyear}' % (session_name)
             '''
             print >>out, '\\begin{SessionOverview}{Session %s}{\daydateyear}' % (session_num)
             # print the session overview
@@ -169,7 +175,7 @@ for date in dates:
                 # times = [minus12(p.time.split('--')[0]) for p in parallel_sessions[0].papers]
             '''
 
-            print >>out, '\\section[Session %s Overview]{Session %s Overview -- \daydateyear}' % (session_num, session_num)
+            print >>out, '\\section[Session %s]{Session %s Overview -- \daydateyear %s}' % (session_num, session_num, parallel_sessions[0].time)
             print >>out, '\\label{parallel-session-%s}' % (session_num)
             print >>out, '\\setheaders{Session %s}{\daydateyear}' % (session_num)
             print >>out, '\\begin{center}'
@@ -184,7 +190,7 @@ for date in dates:
                 # design 2
                 if num_row > 0:
                     print >>out, '\\multirow{%d}{0.8in}{ \\vspace{-2mm} \\\ ' % (num_row)
-                print >>out, '\\bf Track %c \\newline \it %s \\newline %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}' % (chr(sess_i + 65), session.desc, session.time, session_num, chr(sess_i + 65))
+                print >>out, '\\bf Track %c \\newline \it %s \\newline \\vspace{1mm} \\normalfont \\hyperref[parallel-session-%s-track%c]{Abstracts}' % (chr(sess_i + 65), session.desc, session_num, chr(sess_i + 65))
                 if num_row > 0:
                     print >>out, '}'
                 for paper_i, paper in enumerate(parallel_sessions[sess_i].papers):
@@ -223,7 +229,7 @@ for date in dates:
             # Now print the papers in each of the sessions
             # Print the papers
             print >>out, '\\newpage'
-            print >>out, '\\section{Session %s Details}' % (session_num)
+            print >>out, '\\section*{Session %s Details}' % (session_num)
             for i, session in enumerate(parallel_sessions):
                 chair = session.chair()
                 print >>out, '\\subsection{\large %s: %s}' % (session.name, session.desc)
@@ -244,6 +250,7 @@ for date in dates:
             print >> sys.stderr, "\\input{%s}" % (path)
 
             print >>out, '{\\section{%s}' % (session.name)
+            print >>out, '\\label{poster-session-%s}' % (session.num)
             print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
             print >>out, '{\large Time: \emph{%s}\\hfill Location: \\PosterLoc}\\\\' % (minus12(session.time))
             chair = session.chair()
@@ -253,5 +260,6 @@ for date in dates:
             for paper in session.papers:
                 print >>out, '\\posterabstract{%s}' % (paper.id)
             print >>out
+            print >>out, '\\clearpage'
 
             out.close()

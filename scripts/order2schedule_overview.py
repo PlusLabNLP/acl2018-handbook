@@ -74,11 +74,13 @@ for file in args.order_files:
                 dates.append((day, date, year))
 
         elif line.startswith('='):
-            if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
-                # ignore demo session and SRW session from main conf order file
-                str = line[2:]
-                time_range, session_name = str.split(' ', 1)
-                sessions[session_name] = Session(line, (day, date, year))
+            # if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
+            #     # ignore demo session and SRW session from main conf order file
+            str = line[2:]
+            time_range, session_name = str.split(' ', 1)
+            if 'Demo Session' in line:
+                session_name = day + session_name
+            sessions[session_name] = Session(line, (day, date, year))
 
         elif line.startswith('+'):# or line.startswith('!'):
             if line[2:].split(' ')[0] != 'Note:':
@@ -140,7 +142,8 @@ for date in dates:
             num_parallel_sessions = len(sessions)
             rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
             width = 3.12 / min([max_pl_session_in_a_row, num_parallel_sessions])
-            print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+            # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+            print >>out, '  %s & -- & %s &' % (start, stop)
 
             # Design 1: use blocks (table cells to show parallel sessions)
             # column width in inches
@@ -172,7 +175,8 @@ for date in dates:
         else:
             for event in events:
                 # A regular event
-                print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                print >>out, '  %s & -- & %s &' % (start, stop)
                 try:
                     loc = event.split(' ')[0].capitalize()
                 except:
@@ -184,7 +188,10 @@ for date in dates:
                 elif 'Keynote 2' in event_str:
                     print >>out, '  {\\bfseries \\hyperref[keynote-2]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
                 else:
-                    print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                    if isinstance(event, basestring):
+                        print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                    else:
+                        print >>out, '  {\\bfseries \\hyperref[poster-session-%s]{%s}} \\hfill \emph{\\%sLoc}' % (event.num, event.name, loc)
                 print >>out, '  \\\\'
 
     print >>out, '\\end{SingleTrackSchedule}'
