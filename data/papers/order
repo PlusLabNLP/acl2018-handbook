@@ -1,7 +1,7 @@
 + Note: Papers are prefixed with a tag identifying their source: main conference long papers, [Long]; main conference short papers, [Short]; main conference demo papers, [Demo]; student research workshop papers [SRW]; Transactions of the Association for Computational Linguistics articles, [TACL]; and Computational Linguistics articles, [CL].
 * Monday, July 6, 2020 UTC+0
 = 05:00--05:45 Demo Session 1A
-! [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
+035/demos # [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
 = 05:00--06:00 Session 1A Cognitive Modeling and Psycholinguistics-1
 1915/TACL # [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
 3318 # Learning to Understand Child-directed and Adult-directed Speech
@@ -59,12 +59,12 @@
 648 # Language Models as an Alternative Evaluator of Word Order Hypotheses: A Case Study in Japanese
 1815/TACL # [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
 = 05:00--06:00 Session 1A Student Research Workshop
-! [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
-! [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
-! [SRW] Unsupervised Paraphasia Classification in Aphasic Speech %by Sharan Pai, Nikhil Sachdeva, Prince Sachdeva and Rajiv Ratn Shah
-! [SRW] HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing %by Miaomiao Yu, Yujiu Yang and Chenhui Li
+016/SRW # [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
+017/SRW # [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
+019/SRW # [SRW] Unsupervised Paraphasia Classification in Aphasic Speech %by Sharan Pai, Nikhil Sachdeva, Prince Sachdeva and Rajiv Ratn Shah
+035/SRW # [SRW] HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing %by Miaomiao Yu, Yujiu Yang and Chenhui Li
 = 05:45--06:30 Demo Session 1B
-! [Demo] TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing %by Ziqing Yang, Yiming Cui, Zhipeng Chen, Wanxiang Che, Ting Liu, Shijin Wang and Guoping Hu
+046/demos # [Demo] TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing %by Ziqing Yang, Yiming Cui, Zhipeng Chen, Wanxiang Che, Ting Liu, Shijin Wang and Guoping Hu
 = 06:00--07:00 Session 1B Computational Social Science and Social Media-1
 918 # GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media
 2426 # Integrating Semantic and Structural Information with Graph Convolutional Network for Controversy Detection
@@ -123,15 +123,15 @@
 = 06:00--07:00 Session 1B Semantics: Lexical-1
 362 # Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders
 = 06:00--07:00 Session 1B Student Research Workshop
-! [SRW] Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner's Error Tendency %by Yujin Takahashi, Satoru Katsumata and Mamoru Komachi
-! [SRW] Research on Task Discovery for Transfer Learning in Deep Neural Networks %by Arda Akdemir
-! [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
-! [SRW] Reflection-based Word Attribute Transfer %by Yoichi Ishibashi, Katsuhito Sudoh, Koichiro Yoshino and Satoshi Nakamura
+015/SRW # [SRW] Grammatical Error Correction Using Pseudo Learner Corpus Considering Learner's Error Tendency %by Yujin Takahashi, Satoru Katsumata and Mamoru Komachi
+036/SRW # [SRW] Research on Task Discovery for Transfer Learning in Deep Neural Networks %by Arda Akdemir
+039/SRW # [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
+052/SRW # [SRW] Reflection-based Word Attribute Transfer %by Yoichi Ishibashi, Katsuhito Sudoh, Koichiro Yoshino and Satoshi Nakamura
 = 06:30--07:15 Demo Session 1C
-! [Demo] Syntactic Search by Example %by Micah Shlain, Hillel Taub-Tabib, Shoval Sadde and Yoav Goldberg
+044/demos # [Demo] Syntactic Search by Example %by Micah Shlain, Hillel Taub-Tabib, Shoval Sadde and Yoav Goldberg
 = 08:00--08:45 Demo Session 2A
-! [Demo] Tabouid: a Wikipedia-based word guessing game %by Timothée Bernard
-! [Demo] Talk to Papers: Bringing Neural Question Answering to Academic Search %by Tiancheng Zhao and Kyusong Lee
+032/demos # [Demo] Tabouid: a Wikipedia-based word guessing game %by Timothée Bernard
+048/demos # [Demo] Talk to Papers: Bringing Neural Question Answering to Academic Search %by Tiancheng Zhao and Kyusong Lee
 = 08:00--09:00 Session 2A Computational Social Science and Social Media-2
 1920 # Code-switching patterns can be an effective route to improve performance of downstream NLP applications: A case study of humour, sarcasm and hate speech detection
 330 # DTCA: Decision Tree-based Co-Attention Networks for Explainable Claim Verification
@@ -197,12 +197,12 @@
 1676 # SUPERT: Towards New Frontiers in Unsupervised Evaluation Metrics for Multi-Document Summarization
 3448 # Self-Attention Guided Copy Mechanism for Abstractive Summarization
 = 08:00--09:00 Session 2A Student Research Workshop
-! [SRW] Topic Balancing with Additive Regularization of Topic Models %by Eugeniia Veselova and Konstantin Vorontsov
-! [SRW] Combining Subword Representations into Word-level Representations in the Transformer Architecture %by Noe Casas, Marta R. Costa-jussà and José A. R. Fonollosa
-! [SRW] Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition %by Hwichan Kim, Tosho Hirasawa and Mamoru Komachi
-! [SRW] Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling %by Felix Hamborg
+005/SRW # [SRW] Topic Balancing with Additive Regularization of Topic Models %by Eugeniia Veselova and Konstantin Vorontsov
+009/SRW # [SRW] Combining Subword Representations into Word-level Representations in the Transformer Architecture %by Noe Casas, Marta R. Costa-jussà and José A. R. Fonollosa
+014/SRW # [SRW] Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition %by Hwichan Kim, Tosho Hirasawa and Mamoru Komachi
+018/SRW # [SRW] Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling %by Felix Hamborg
 = 08:45--09:30 Demo Session 2B
-! [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
+069/demos # [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
 = 09:00--10:00 Session 2B Cognitive Modeling and Psycholinguistics-2
 1915/TACL # [TACL] How Furiously Can Colourless Green Ideas Sleep? Sentence Acceptability in Context %by Jey Han Lau, Carlos Santos Armendariz, Matthew Purver, Chang Shu, Shalom Lappin
 1292 # Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts
@@ -269,15 +269,15 @@
 648 # Language Models as an Alternative Evaluator of Word Order Hypotheses: A Case Study in Japanese
 1815/TACL # [TACL] Theoretical Limitations of Self-Attention in Neural Sequence Models %by Michael Hahn
 = 09:00--10:00 Session 2B Student Research Workshop
-! [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
-! [SRW] {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information %by Hyeryun Park, Kyungmo Kim, Jooyoung Yoon, Seongkeun Park and Jinwook Choi
-! [SRW] Multi-Task Neural Model for Agglutinative Language Translation %by Yirong Pan, Xiao Li, Yating Yang and Rui Dong
-! [SRW] Considering Likelihood in NLP Classification Explanations with Occlusion and Language Modeling %by David Harbecke and Christoph Alt
+049/SRW # [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
+053/SRW # [SRW] {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information %by Hyeryun Park, Kyungmo Kim, Jooyoung Yoon, Seongkeun Park and Jinwook Choi
+054/SRW # [SRW] Multi-Task Neural Model for Agglutinative Language Translation %by Yirong Pan, Xiao Li, Yating Yang and Rui Dong
+055/SRW # [SRW] Considering Likelihood in NLP Classification Explanations with Occlusion and Language Modeling %by David Harbecke and Christoph Alt
 = 09:30--10:15 Demo Session 2C
-! [Demo] pyBART: Evidence-based Syntactic Transformations for IE %by Aryeh Tiktinsky, Yoav Goldberg and Reut Tsarfaty
+059/demos # [Demo] pyBART: Evidence-based Syntactic Transformations for IE %by Aryeh Tiktinsky, Yoav Goldberg and Reut Tsarfaty
 = 12:00--12:45 Demo Session 3A
-! [Demo] EVIDENCEMINER: Textual Evidence Discovery for Life Sciences %by Xuan Wang, Yingjun Guan, Weili Liu, Aabhas Chauhan, Enyi Jiang, Qi Li, David Liem, Dibakar Sigdel, John Caufield, Peipei Ping and Jiawei Han
-! [Demo] Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time %by Benjamin Nye, Ani Nenkova, Iain Marshall and Byron C. Wallace
+024/demos # [Demo] EVIDENCEMINER: Textual Evidence Discovery for Life Sciences %by Xuan Wang, Yingjun Guan, Weili Liu, Aabhas Chauhan, Enyi Jiang, Qi Li, David Liem, Dibakar Sigdel, John Caufield, Peipei Ping and Jiawei Han
+107/demos # [Demo] Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time %by Benjamin Nye, Ani Nenkova, Iain Marshall and Byron C. Wallace
 = 12:00--13:00 Session 3A Cognitive Modeling and Psycholinguistics-3
 3179 # A Systematic Assessment of Syntactic Generalization in Neural Language Models
 3084 # Inflecting when there's no majority: Limitations of encoder-decoder neural networks as cognitive models for German plurals
@@ -343,13 +343,13 @@
 = 12:00--13:00 Session 3A Semantics: Sentence Level-2
 1377 # AMR Parsing via Graph-Sequence Iterative Inference
 = 12:00--13:00 Session 3A Student Research Workshop
-! [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
+022/SRW # [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
 ! [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
-! [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
-! [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
+049/SRW # [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
+069/SRW # [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
 = 12:45--13:30 Demo Session 3B
-! [Demo] TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing %by Ziqing Yang, Yiming Cui, Zhipeng Chen, Wanxiang Che, Ting Liu, Shijin Wang and Guoping Hu
-! [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
+046/demos # [Demo] TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing %by Ziqing Yang, Yiming Cui, Zhipeng Chen, Wanxiang Che, Ting Liu, Shijin Wang and Guoping Hu
+090/demos # [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
 = 13:00--14:00 Session 3B Dialogue and Interactive Systems-6
 880 # Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation
 1901/TACL # [TACL] CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset %by Qi Zhu, Kaili Huang, Zheng Zhang, Xiaoyan Zhu, Minlie Huang
@@ -414,22 +414,22 @@
 384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 13:00--14:00 Session 3B Student Research Workshop
 ! [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
-! [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
-! [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
-! [SRW] Let's be Humorous: Knowledge Enhanced Humor Generation %by Hang Zhang, Dayiheng Liu, Jiancheng Lv and Luo Cheng
-! [SRW] Efficient Neural Machine Translation for Low-Resource Languages via Exploiting Related Languages %by Vikrant Goyal, Sourav Kumar and Dipti Misra Sharma
+082/SRW # [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
+084/SRW # [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
+117/SRW # [SRW] Let's be Humorous: Knowledge Enhanced Humor Generation %by Hang Zhang, Dayiheng Liu, Jiancheng Lv and Luo Cheng
+128/SRW # [SRW] Efficient Neural Machine Translation for Low-Resource Languages via Exploiting Related Languages %by Vikrant Goyal, Sourav Kumar and Dipti Misra Sharma
 = 13:30--14:15 Demo Session 3C
-! [Demo] Tabouid: a Wikipedia-based word guessing game %by Timothée Bernard
-! [Demo] Syntactic Search by Example %by Micah Shlain, Hillel Taub-Tabib, Shoval Sadde and Yoav Goldberg
+032/demos # [Demo] Tabouid: a Wikipedia-based word guessing game %by Timothée Bernard
+044/demos # [Demo] Syntactic Search by Example %by Micah Shlain, Hillel Taub-Tabib, Shoval Sadde and Yoav Goldberg
 + 14:00--14:15 Opening Remarks
 + 14:15--14:30 Presidential Address
 + 14:30--15:15 Keynote 1 Video Livestream: Kathleen R. McKeown
 + 15:15--15:45 Keynote 1 Live Q\&A: Kathleen R. McKeown
 + 15:45--16:15 Business Meeting Q\&A
 = 17:00--17:45 Demo Session 4A
-! [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
-! [Demo] GAIA: A Fine-grained Multimedia Knowledge Extraction System %by Manling Li, Alireza Zareian, Ying Lin, Xiaoman Pan, Spencer Whitehead, Brian Chen, Bo Wu, Heng Ji, Shih-Fu Chang, Clare Voss, Daniel Napierski and Marjorie Freedman
-! [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
+069/demos # [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
+094/demos # [Demo] GAIA: A Fine-grained Multimedia Knowledge Extraction System %by Manling Li, Alireza Zareian, Ying Lin, Xiaoman Pan, Spencer Whitehead, Brian Chen, Bo Wu, Heng Ji, Shih-Fu Chang, Clare Voss, Daniel Napierski and Marjorie Freedman
+116/demos # [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
 = 17:00--18:00 Session 4A Cognitive Modeling and Psycholinguistics-4
 2129 # A Tale of Two Perplexities: Sensitivity of Neural Language Models to Lexical Retrieval Deficits in Dementia of the Alzheimers Type
 3084 # Inflecting when there's no majority: Limitations of encoder-decoder neural networks as cognitive models for German plurals
@@ -493,14 +493,14 @@
 288 # Multimodal and Multiresolution Speech Recognition with Transformers
 2572 # Phone Features Improve Speech Translation
 = 17:00--18:00 Session 4A Student Research Workshop
-! [SRW] Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling %by Felix Hamborg
-! [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
+018/SRW # [SRW] Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling %by Felix Hamborg
+042/SRW # [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
 ! [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
-! [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
+104/SRW # [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
 = 17:45--18:30 Demo Session 4B
-! [Demo] Talk to Papers: Bringing Neural Question Answering to Academic Search %by Tiancheng Zhao and Kyusong Lee
-! [Demo] BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab %by Yonghao Jin, Fei Li and Hong Yu
-! [Demo] Stanza: A Python Natural Language Processing Toolkit for Many Human Languages %by Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning
+048/demos # [Demo] Talk to Papers: Bringing Neural Question Answering to Academic Search %by Tiancheng Zhao and Kyusong Lee
+104/demos # [Demo] BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab %by Yonghao Jin, Fei Li and Hong Yu
+115/demos # [Demo] Stanza: A Python Natural Language Processing Toolkit for Many Human Languages %by Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning
 = 18:00--19:00 Session 4B Dialogue and Interactive Systems-8
 1193 # Grounding Conversations with Improvised Dialogues
 1023 # Image-Chat: Engaging Grounded Conversations
@@ -566,17 +566,17 @@
 384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 18:00--19:00 Session 4B Student Research Workshop
 ! [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
-! [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
-! [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
+106/SRW # [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
+109/SRW # [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
 ! [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
 = 18:30--19:15 Demo Session 4C
-! [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
-! [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
-! [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
+035/demos # [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
+047/demos # [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
+091/demos # [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
 = 20:00--20:45 Demo Session 5A
-! [Demo] GAIA: A Fine-grained Multimedia Knowledge Extraction System %by Manling Li, Alireza Zareian, Ying Lin, Xiaoman Pan, Spencer Whitehead, Brian Chen, Bo Wu, Heng Ji, Shih-Fu Chang, Clare Voss, Daniel Napierski and Marjorie Freedman
-! [Demo] Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time %by Benjamin Nye, Ani Nenkova, Iain Marshall and Byron C. Wallace
-! [Demo] pyBART: Evidence-based Syntactic Transformations for IE %by Aryeh Tiktinsky, Yoav Goldberg and Reut Tsarfaty
+094/demos # [Demo] GAIA: A Fine-grained Multimedia Knowledge Extraction System %by Manling Li, Alireza Zareian, Ying Lin, Xiaoman Pan, Spencer Whitehead, Brian Chen, Bo Wu, Heng Ji, Shih-Fu Chang, Clare Voss, Daniel Napierski and Marjorie Freedman
+107/demos # [Demo] Trialstreamer: Mapping and Browsing Medical Evidence in Real-Time %by Benjamin Nye, Ani Nenkova, Iain Marshall and Byron C. Wallace
+059/demos # [Demo] pyBART: Evidence-based Syntactic Transformations for IE %by Aryeh Tiktinsky, Yoav Goldberg and Reut Tsarfaty
 = 20:00--21:00 Session 5A Dialogue and Interactive Systems-9
 707 # Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs
 753 # Learning an Unreferenced Metric for Online Dialogue Evaluation
@@ -641,8 +641,8 @@
 1032 # A Formal Hierarchy of RNN Architectures
 1907 # Emergence of Syntax Needs Minimal Supervision
 = 20:45--21:30 Demo Session 5B
-! [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
-! [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
+116/demos # [Demo] Multilingual Universal Sentence Encoder for Semantic Retrieval %by Yinfei Yang, Daniel Cer, Amin Ahmad, Mandy Guo, Jax Law, Noah Constant, Gustavo Hernandez Abrego, Steve Yuan, Chris Tar, Yun-hsuan Sung, Brian Strope and Ray Kurzweil
+090/demos # [Demo] SyntaxGym: An Online Platform for Targeted Evaluation of Language Models %by Jon Gauthier, Jennifer Hu, Ethan Wilcox, Peng Qian and Roger Levy
 = 21:00--22:00 Session 5B Cognitive Modeling and Psycholinguistics-5
 3179 # A Systematic Assessment of Syntactic Generalization in Neural Language Models
 2129 # A Tale of Two Perplexities: Sensitivity of Neural Language Models to Lexical Retrieval Deficits in Dementia of the Alzheimers Type
@@ -706,12 +706,12 @@
 101 # Predicting Degrees of Technicality in Automatic Terminology Extraction
 2865 # Verbal Multiword Expressions for Identification of Metaphor
 = 21:30--22:15 Demo Session 5C
-! [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
-! [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
-! [Demo] Stanza: A Python Natural Language Processing Toolkit for Many Human Languages %by Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning
+047/demos # [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
+091/demos # [Demo] The Microsoft Toolkit of Multi-Task Deep Neural Networks for Natural Language Understanding %by Xiaodong Liu, Yu Wang, Jianshu Ji, Hao Cheng, Xueyun Zhu, Emmanuel Awa, Pengcheng He, Weizhu Chen, Hoifung Poon, Guihong Cao and Jianfeng Gao
+115/demos # [Demo] Stanza: A Python Natural Language Processing Toolkit for Many Human Languages %by Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton and Christopher D. Manning
 * Tuesday, July 7, 2020 UTC+0
 = 05:00--05:45 Demo Session 1A
-! [Demo] LinggleWrite: a Coaching System for Essay Writing %by Chung-Ting Tsai, Jhih-Jie Chen, Ching-Yu Yang and Jason S. Chang
+139/demos # [Demo] LinggleWrite: a Coaching System for Essay Writing %by Chung-Ting Tsai, Jhih-Jie Chen, Ching-Yu Yang and Jason S. Chang
 = 05:00--06:00 Session 6A Ethics and NLP-1
 1209 # Gender Bias in Multilingual Embeddings and Cross-Lingual Transfer
 2704 # Give Me Convenience and Give Her Death: Who Should Decide What Uses of NLP are Appropriate, and on What Basis?
@@ -767,12 +767,12 @@
 1000 # Representations of Syntax [MASK] Useful: Effects of Constituency and Dependency Structure in Recursive LSTMs
 804 # Structure-Level Knowledge Distillation For Multilingual Sequence Labeling
 = 05:00--06:00 Session 6A Student Research Workshop
-! [SRW] uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems %by Tsuta Yuma, Naoki Yoshinaga and Masashi Toyoda
-! [SRW] To compress or not to compress? A Finite-State approach to Nen verbal morphology %by Saliha Muradoglu, Nicholas Evans and Hanna Suominen
-! [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
+058/SRW # [SRW] uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems %by Tsuta Yuma, Naoki Yoshinaga and Masashi Toyoda
+090/SRW # [SRW] To compress or not to compress? A Finite-State approach to Nen verbal morphology %by Saliha Muradoglu, Nicholas Evans and Hanna Suominen
+098/SRW # [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
 ! [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
 = 05:45--06:30 Demo Session 1B
-! [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
+066/demos # [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
 = 06:00--07:00 Session 6B Computational Social Science and Social Media-4
 1162 # Dynamic Online Conversation Recommendation
 2091 # Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer
@@ -831,13 +831,13 @@
 2422 # SimulSpeech: End-to-End Simultaneous Speech to Text Translation
 2639 # Towards end-2-end learning for predicting behavior codes from spoken utterances in psychotherapy conversations
 = 06:00--07:00 Session 6B Student Research Workshop
-! [SRW] Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition %by Takuma Kato, Kaori Abe, Hiroki Ouchi, Shumpei Miyawaki, Jun Suzuki and Kentaro Inui
-! [SRW] Building a Japanese Typo Dataset from Wikipedia's Revision History %by Yu Tanaka, Yugo Murawaki, Daisuke Kawahara and Sadao Kurohashi
-! [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
+123/SRW # [SRW] Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition %by Takuma Kato, Kaori Abe, Hiroki Ouchi, Shumpei Miyawaki, Jun Suzuki and Kentaro Inui
+129/SRW # [SRW] Building a Japanese Typo Dataset from Wikipedia's Revision History %by Yu Tanaka, Yugo Murawaki, Daisuke Kawahara and Sadao Kurohashi
+131/SRW # [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
 = 06:30--07:15 Demo Session 1C
-! [Demo] ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems %by Qi Zhu, Zheng Zhang, Yan Fang, Xiang Li, Ryuichi Takanobu, Jinchao Li, Baolin Peng, Jianfeng Gao, Xiaoyan Zhu and Minlie Huang
+049/demos # [Demo] ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems %by Qi Zhu, Zheng Zhang, Yan Fang, Xiang Li, Ryuichi Takanobu, Jinchao Li, Baolin Peng, Jianfeng Gao, Xiaoyan Zhu and Minlie Huang
 = 08:00--08:45 Demo Session 2A
-! [Demo] OpusFilter: A Configurable Parallel Corpus Filtering Toolbox %by Mikko Aulamo, Sami Virpioja and Jörg Tiedemann
+054/demos # [Demo] OpusFilter: A Configurable Parallel Corpus Filtering Toolbox %by Mikko Aulamo, Sami Virpioja and Jörg Tiedemann
 = 08:00--09:00 Session 7A Computational Social Science and Social Media-5
 1162 # Dynamic Online Conversation Recommendation
 2199 # Neural Temporal Opinion Modelling for Opinion Prediction on Twitter
@@ -905,12 +905,12 @@
 1000 # Representations of Syntax [MASK] Useful: Effects of Constituency and Dependency Structure in Recursive LSTMs
 804 # Structure-Level Knowledge Distillation For Multilingual Sequence Labeling
 = 08:00--09:00 Session 7A Student Research Workshop
-! [SRW] Unsupervised Paraphasia Classification in Aphasic Speech %by Sharan Pai, Nikhil Sachdeva, Prince Sachdeva and Rajiv Ratn Shah
-! [SRW] Reflection-based Word Attribute Transfer %by Yoichi Ishibashi, Katsuhito Sudoh, Koichiro Yoshino and Satoshi Nakamura
-! [SRW] To compress or not to compress? A Finite-State approach to Nen verbal morphology %by Saliha Muradoglu, Nicholas Evans and Hanna Suominen
-! [SRW] Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition %by Takuma Kato, Kaori Abe, Hiroki Ouchi, Shumpei Miyawaki, Jun Suzuki and Kentaro Inui
+019/SRW # [SRW] Unsupervised Paraphasia Classification in Aphasic Speech %by Sharan Pai, Nikhil Sachdeva, Prince Sachdeva and Rajiv Ratn Shah
+052/SRW # [SRW] Reflection-based Word Attribute Transfer %by Yoichi Ishibashi, Katsuhito Sudoh, Koichiro Yoshino and Satoshi Nakamura
+090/SRW # [SRW] To compress or not to compress? A Finite-State approach to Nen verbal morphology %by Saliha Muradoglu, Nicholas Evans and Hanna Suominen
+123/SRW # [SRW] Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition %by Takuma Kato, Kaori Abe, Hiroki Ouchi, Shumpei Miyawaki, Jun Suzuki and Kentaro Inui
 = 08:45--09:30 Demo Session 2B
-! [Demo] LinggleWrite: a Coaching System for Essay Writing %by Chung-Ting Tsai, Jhih-Jie Chen, Ching-Yu Yang and Jason S. Chang
+139/demos # [Demo] LinggleWrite: a Coaching System for Essay Writing %by Chung-Ting Tsai, Jhih-Jie Chen, Ching-Yu Yang and Jason S. Chang
 = 09:00--10:00 Session 7B Ethics and NLP-2
 232 # Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting
 2704 # Give Me Convenience and Give Her Death: Who Should Decide What Uses of NLP are Appropriate, and on What Basis?
@@ -974,12 +974,12 @@
 3272 # Sentiment and Emotion help Sarcasm? A Multi-task Learning Framework for Multi-Modal Sarcasm, Sentiment and Emotion Analysis
 3110 # Towards Emotion-aided Multi-modal Dialogue Act Classification
 = 09:00--10:00 Session 7B Student Research Workshop
-! [SRW] Building a Japanese Typo Dataset from Wikipedia's Revision History %by Yu Tanaka, Yugo Murawaki, Daisuke Kawahara and Sadao Kurohashi
-! [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
-! [SRW] Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining %by Ivana Kvapilíková, Mikel Artetxe, Gorka Labaka, Eneko Agirre and Ondřej Bojar
+129/SRW # [SRW] Building a Japanese Typo Dataset from Wikipedia's Revision History %by Yu Tanaka, Yugo Murawaki, Daisuke Kawahara and Sadao Kurohashi
+127/SRW # [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
+137/SRW # [SRW] Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining %by Ivana Kvapilíková, Mikel Artetxe, Gorka Labaka, Eneko Agirre and Ondřej Bojar
 = 12:00--12:45 Demo Session 3A
-! [Demo] EVIDENCEMINER: Textual Evidence Discovery for Life Sciences %by Xuan Wang, Yingjun Guan, Weili Liu, Aabhas Chauhan, Enyi Jiang, Qi Li, David Liem, Dibakar Sigdel, John Caufield, Peipei Ping and Jiawei Han
-! [Demo] ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems %by Qi Zhu, Zheng Zhang, Yan Fang, Xiang Li, Ryuichi Takanobu, Jinchao Li, Baolin Peng, Jianfeng Gao, Xiaoyan Zhu and Minlie Huang
+024/demos # [Demo] EVIDENCEMINER: Textual Evidence Discovery for Life Sciences %by Xuan Wang, Yingjun Guan, Weili Liu, Aabhas Chauhan, Enyi Jiang, Qi Li, David Liem, Dibakar Sigdel, John Caufield, Peipei Ping and Jiawei Han
+049/demos # [Demo] ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems %by Qi Zhu, Zheng Zhang, Yan Fang, Xiang Li, Ryuichi Takanobu, Jinchao Li, Baolin Peng, Jianfeng Gao, Xiaoyan Zhu and Minlie Huang
 = 12:00--13:00 Session 8A Computational Social Science and Social Media-6
 1644 # Analyzing Political Parody in Social Media
 2091 # Improving Multimodal Named Entity Recognition via Entity Span Detection with Unified Multimodal Transformer
@@ -1047,13 +1047,13 @@
 564 # Max-Margin Incremental CCG Parsing
 1594 # Neural Reranking for Dependency Parsing: An Evaluation
 = 12:00--13:00 Session 8A Student Research Workshop
-! [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
-! [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
-! [SRW] Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining %by Ivana Kvapilíková, Mikel Artetxe, Gorka Labaka, Eneko Agirre and Ondřej Bojar
-! [SRW] Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources %by Magdalena Biesialska, Bardia Rafieian and Marta R. Costa-jussà
+127/SRW # [SRW] How much complexity does an RNN architecture need to learn syntax-sensitive dependencies? %by Gantavya Bhatt, Hritik Bansal, Rishubh Singh and Sumeet Agarwal
+135/SRW # [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
+137/SRW # [SRW] Unsupervised Multilingual Sentence Embeddings for Parallel Corpus Mining %by Ivana Kvapilíková, Mikel Artetxe, Gorka Labaka, Eneko Agirre and Ondřej Bojar
+144/SRW # [SRW] Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources %by Magdalena Biesialska, Bardia Rafieian and Marta R. Costa-jussà
 = 12:45--13:30 Demo Session 3B
-! [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
-! [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
+066/demos # [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
+089/demos # [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
 = 13:00--14:00 Session 8B Ethics and NLP-3
 232 # Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting
 606 # Its Morphin Time! Combating Linguistic Discrimination with Inflectional Perturbations
@@ -1119,18 +1119,18 @@
 2422 # SimulSpeech: End-to-End Simultaneous Speech to Text Translation
 3110 # Towards Emotion-aided Multi-modal Dialogue Act Classification
 = 13:00--14:00 Session 8B Student Research Workshop
-! [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
-! [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
+048/SRW # [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
+131/SRW # [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
 = 13:30--14:15 Demo Session 3C
-! [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
+084/demos # [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
 + 14:00--14:30 Lifetime Achievement Award Video Livestream
 + 14:30--14:45 Lifetime Achievement Award Live Q\&A
 + 14:45--15:15 Distinguished Service Award, Test-of-Time Award Video and Q\&A
 + 15:15--16:00 Reviewing Meeting Q\&A
 = 17:00--17:45 Demo Session 4A
-! [Demo] Nakdan: Professional Hebrew Diacritizer %by Avi Shmidman, Shaltiel Shmidman, Moshe Koppel and Yoav Goldberg
-! [Demo] Photon: A Robust Cross-Domain Text-to-SQL System %by Jichuan Zeng, Xi Victoria Lin, Steven C.H. Hoi, Richard Socher, Caiming Xiong, Michael Lyu and Irwin King
-! [Demo] OpusFilter: A Configurable Parallel Corpus Filtering Toolbox %by Mikko Aulamo, Sami Virpioja and Jörg Tiedemann
+045/demos # [Demo] Nakdan: Professional Hebrew Diacritizer %by Avi Shmidman, Shaltiel Shmidman, Moshe Koppel and Yoav Goldberg
+130/demos # [Demo] Photon: A Robust Cross-Domain Text-to-SQL System %by Jichuan Zeng, Xi Victoria Lin, Steven C.H. Hoi, Richard Socher, Caiming Xiong, Michael Lyu and Irwin King
+054/demos # [Demo] OpusFilter: A Configurable Parallel Corpus Filtering Toolbox %by Mikko Aulamo, Sami Virpioja and Jörg Tiedemann
 = 17:00--18:00 Session 9A Dialogue and Interactive Systems-11
 2486 # CraftAssist Instruction Parsing: Semantic Parsing for a Voxel-World Assistant
 1817 # Dont Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
@@ -1194,14 +1194,14 @@
 3486 # Predictive Biases in Natural Language Processing Models: A Conceptual Framework and Overview
 748 # What Does BERT with Vision Look At?
 = 17:00--18:00 Session 9A Student Research Workshop
-! [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
-! [SRW] Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup %by Jishnu Ray Chowdhury, Cornelia Caragea and Doina Caragea
-! [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
-! [SRW] Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions %by Yuan Zhuang and Ellen Riloff
+002/SRW # [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
+095/SRW # [SRW] Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup %by Jishnu Ray Chowdhury, Cornelia Caragea and Doina Caragea
+114/SRW # [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
+122/SRW # [SRW] Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions %by Yuan Zhuang and Ellen Riloff
 = 17:45--18:30 Demo Session 4B
-! [Demo] BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab %by Yonghao Jin, Fei Li and Hong Yu
-! [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
-! [Demo] MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform %by Xiang Gao, Michel Galley and Bill Dolan
+104/demos # [Demo] BENTO: A Visual Platform for Building Clinical NLP Pipelines Based on CodaLab %by Yonghao Jin, Fei Li and Hong Yu
+041/demos # [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
+028/demos # [Demo] MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform %by Xiang Gao, Michel Galley and Bill Dolan
 = 18:00--19:00 Session 9B Computational Social Science and Social Media-7
 1644 # Analyzing Political Parody in Social Media
 618 # Balancing Objectives in Counseling Conversations: Advancing Forwards or Looking Backwards
@@ -1266,19 +1266,19 @@
 1852 # OpinionDigest: A Simple Framework for Opinion Summarization
 2849 # A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks
 = 18:00--19:00 Session 9B Student Research Workshop
-! [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
-! [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
-! [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
+028/SRW # [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
+039/SRW # [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
+085/SRW # [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
 ! [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
-! [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
+114/SRW # [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
 = 18:30--19:15 Demo Session 4C
-! [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
-! [Demo] Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines %by Nabil Hossain, John Krumm, Tanvir Sajed and Henry Kautz
-! [Demo] Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing %by Ben Swanson and Boris Smus
+039/demos # [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
+096/demos # [Demo] Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines %by Nabil Hossain, John Krumm, Tanvir Sajed and Henry Kautz
+102/demos # [Demo] Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing %by Ben Swanson and Boris Smus
 = 20:00--20:45 Demo Session 5A
-! [Demo] DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation %by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu and Bill Dolan
-! [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
-! [Demo] Photon: A Robust Cross-Domain Text-to-SQL System %by Jichuan Zeng, Xi Victoria Lin, Steven C.H. Hoi, Richard Socher, Caiming Xiong, Michael Lyu and Irwin King
+037/demos # [Demo] DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation %by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu and Bill Dolan
+089/demos # [Demo] Label Noise in Context %by Michael Desmond, Catherine Finegan-Dollak, Jeff Boston and Matt Arnold
+130/demos # [Demo] Photon: A Robust Cross-Domain Text-to-SQL System %by Jichuan Zeng, Xi Victoria Lin, Steven C.H. Hoi, Richard Socher, Caiming Xiong, Michael Lyu and Irwin King
 = 20:00--21:00 Session 10A Computational Social Science and Social Media-8
 618 # Balancing Objectives in Counseling Conversations: Advancing Forwards or Looking Backwards
 2336 # Detecting Perceived Emotions in Hurricane Disasters
@@ -1342,8 +1342,8 @@
 3486 # Predictive Biases in Natural Language Processing Models: A Conceptual Framework and Overview
 748 # What Does BERT with Vision Look At?
 = 20:45--21:30 Demo Session 5B
-! [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
-! [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
+041/demos # [Demo] Interactive Task Learning from GUI-Grounded Natural Language Instructions and Demonstrations %by Toby Jia-Jun Li, Tom Mitchell and Brad Myers
+084/demos # [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
 = 21:00--22:00 Session 10B Discourse and Pragmatics-5
 458 # Discourse as a Function of Event: Profiling Discourse Structure in News Articles around the Main Event
 750 # Harnessing the linguistic signal to predict scalar inferences
@@ -1410,13 +1410,13 @@
 2152 # The Summary Loop: Learning to Write Abstractive Summaries Without Examples
 1272 # Unsupervised Opinion Summarization as Copycat-Review Generation
 = 21:30--22:15 Demo Session 5C
-! [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
-! [Demo] Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines %by Nabil Hossain, John Krumm, Tanvir Sajed and Henry Kautz
-! [Demo] Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing %by Ben Swanson and Boris Smus
+039/demos # [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
+096/demos # [Demo] Stimulating Creativity with FunLines: A Case Study of Humor Generation in Headlines %by Nabil Hossain, John Krumm, Tanvir Sajed and Henry Kautz
+102/demos # [Demo] Usnea: An Authorship Tool for Interactive Fiction using Retrieval Based Semantic Parsing %by Ben Swanson and Boris Smus
 * Wednesday, July 8, 2020 UTC+0
 = 05:00--05:45 Demo Session 1A
-! [Demo] ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents %by Chia-Yu Li, Daniel Ortega, Dirk Väth, Florian Lux, Lindsey Vanderlyn, Maximilian Schmidt, Michael Neumann, Moritz Völkel, Pavel Denisov, Sabrina Jenne, Zorica Kacarevic and Ngoc Thang Vu
-! [Demo] Prta: A System to Support the Analysis of Propaganda Techniques in the News %by Giovanni Da San Martino, Shaden Shaar, Yifan Zhang, Seunghak Yu, Alberto Barrón-Cedeño and Preslav Nakov
+061/demos # [Demo] ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents %by Chia-Yu Li, Daniel Ortega, Dirk Väth, Florian Lux, Lindsey Vanderlyn, Maximilian Schmidt, Michael Neumann, Moritz Völkel, Pavel Denisov, Sabrina Jenne, Zorica Kacarevic and Ngoc Thang Vu
+120/demos # [Demo] Prta: A System to Support the Analysis of Propaganda Techniques in the News %by Giovanni Da San Martino, Shaden Shaar, Yifan Zhang, Seunghak Yu, Alberto Barrón-Cedeño and Preslav Nakov
 = 05:00--06:00 Session 11A Dialogue and Interactive Systems-13
 382 # Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness
 609 # Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation
@@ -1476,12 +1476,12 @@
 1501 # The Unstoppable Rise of Computational Linguistics in Deep Learning
 3077 # To Boldly Query What No One Has Annotated Before? The Frontiers of Corpus Querying
 = 05:00--06:00 Session 11A Student Research Workshop
-! [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
-! [SRW] HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing %by Miaomiao Yu, Yujiu Yang and Chenhui Li
-! [SRW] Considering Likelihood in NLP Classification Explanations with Occlusion and Language Modeling %by David Harbecke and Christoph Alt
+017/SRW # [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
+035/SRW # [SRW] HGCN4MeSH: Hybrid Graph Convolution Network for MeSH Indexing %by Miaomiao Yu, Yujiu Yang and Chenhui Li
+055/SRW # [SRW] Considering Likelihood in NLP Classification Explanations with Occlusion and Language Modeling %by David Harbecke and Christoph Alt
 = 05:45--06:30 Demo Session 1B
-! [Demo] Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes %by Pengfei Cao, Chenwei Yan, Xiangling Fu, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu and Weifeng Chong
-! [Demo] ESPnet-ST: All-in-One Speech Translation Toolkit %by Hirofumi Inaguma, Shun Kiyono, Kevin Duh, Shigeki Karita, Nelson Yalta, Tomoki Hayashi and Shinji Watanabe
+031/demos # [Demo] Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes %by Pengfei Cao, Chenwei Yan, Xiangling Fu, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu and Weifeng Chong
+067/demos # [Demo] ESPnet-ST: All-in-One Speech Translation Toolkit %by Hirofumi Inaguma, Shun Kiyono, Kevin Duh, Shigeki Karita, Nelson Yalta, Tomoki Hayashi and Shinji Watanabe
 = 06:00--07:00 Session 11B Dialogue and Interactive Systems-14
 1657 # A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking
 1444 # Data Manipulation: Towards Effective Instance Learning for Neural Dialogue Generation via Learning to Augment and Reweight
@@ -1539,12 +1539,12 @@
 2441 # Semi-Supervised Semantic Dependency Parsing Using CRF Autoencoders
 3097 # Unsupervised Dual Paraphrasing for Two-stage Semantic Parsing
 = 06:00--07:00 Session 11B Student Research Workshop
-! [SRW] {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information %by Hyeryun Park, Kyungmo Kim, Jooyoung Yoon, Seongkeun Park and Jinwook Choi
-! [SRW] Multi-Task Neural Model for Agglutinative Language Translation %by Yirong Pan, Xiao Li, Yating Yang and Rui Dong
+053/SRW # [SRW] {F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information %by Hyeryun Park, Kyungmo Kim, Jooyoung Yoon, Seongkeun Park and Jinwook Choi
+054/SRW # [SRW] Multi-Task Neural Model for Agglutinative Language Translation %by Yirong Pan, Xiao Li, Yating Yang and Rui Dong
 = 06:30--07:15 Demo Session 1C
-! [Demo] Penman: An Open-Source Library and Tool for AMR Graphs %by Michael Wayne Goodman
+124/demos # [Demo] Penman: An Open-Source Library and Tool for AMR Graphs %by Michael Wayne Goodman
 = 08:00--08:45 Demo Session 2A
-! [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
+093/demos # [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
 = 08:00--09:00 Session 12A Discourse and Pragmatics-7
 371 # A Top-down Neural Architecture towards Text-level Parsing of Discourse Rhetorical Structure
 3352 # DRTS Parsing with Structure-Aware Encoding and Decoding
@@ -1611,11 +1611,11 @@
 1515 # Leveraging Graph to Improve Abstractive Multi-Document Summarization
 1539 # Multi-GranularityInteraction Network for Extractive and Abstractive Multi-Document Summarization
 = 08:00--09:00 Session 12A Student Research Workshop
-! [SRW] Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition %by Hwichan Kim, Tosho Hirasawa and Mamoru Komachi
-! [SRW] Research on Task Discovery for Transfer Learning in Deep Neural Networks %by Arda Akdemir
-! [SRW] uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems %by Tsuta Yuma, Naoki Yoshinaga and Masashi Toyoda
+014/SRW # [SRW] Zero-shot North Korean to English Neural Machine Translation by Character Tokenization and Phoneme Decomposition %by Hwichan Kim, Tosho Hirasawa and Mamoru Komachi
+036/SRW # [SRW] Research on Task Discovery for Transfer Learning in Deep Neural Networks %by Arda Akdemir
+058/SRW # [SRW] uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems %by Tsuta Yuma, Naoki Yoshinaga and Masashi Toyoda
 = 08:45--09:30 Demo Session 2B
-! [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
+033/demos # [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
 = 09:00--10:00 Session 12B Dialogue and Interactive Systems-15
 1444 # Data Manipulation: Towards Effective Instance Learning for Neural Dialogue Generation via Learning to Augment and Reweight
 382 # Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness
@@ -1683,13 +1683,13 @@
 = 09:00--10:00 Session 12B Student Research Workshop
 ! [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
 ! [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
-! [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
+016/SRW # [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
 = 09:30--10:15 Demo Session 2C
-! [Demo] ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents %by Chia-Yu Li, Daniel Ortega, Dirk Väth, Florian Lux, Lindsey Vanderlyn, Maximilian Schmidt, Michael Neumann, Moritz Völkel, Pavel Denisov, Sabrina Jenne, Zorica Kacarevic and Ngoc Thang Vu
+061/demos # [Demo] ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents %by Chia-Yu Li, Daniel Ortega, Dirk Väth, Florian Lux, Lindsey Vanderlyn, Maximilian Schmidt, Michael Neumann, Moritz Völkel, Pavel Denisov, Sabrina Jenne, Zorica Kacarevic and Ngoc Thang Vu
 = 12:00--12:45 Demo Session 3A
-! [Demo] Torch-Struct: Deep Structured Prediction Library %by Alexander Rush
-! [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
-! [Demo] ESPnet-ST: All-in-One Speech Translation Toolkit %by Hirofumi Inaguma, Shun Kiyono, Kevin Duh, Shigeki Karita, Nelson Yalta, Tomoki Hayashi and Shinji Watanabe
+101/demos # [Demo] Torch-Struct: Deep Structured Prediction Library %by Alexander Rush
+079/demos # [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
+067/demos # [Demo] ESPnet-ST: All-in-One Speech Translation Toolkit %by Hirofumi Inaguma, Shun Kiyono, Kevin Duh, Shigeki Karita, Nelson Yalta, Tomoki Hayashi and Shinji Watanabe
 = 12:00--13:00 Session 13A Generation-12
 1146 # Exploring Contextual Word-level Style Relevance for Unsupervised Style Transfer
 3241 # Heterogeneous Graph Transformer for Graph-to-Sequence Learning
@@ -1755,13 +1755,13 @@
 3164 # Exploiting Personal Characteristics of Debaters for Predicting Persuasiveness
 1275 # Out of the Echo Chamber: Detecting Countering Debate Speeches
 = 12:00--13:00 Session 13A Student Research Workshop
-! [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
-! [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
-! [SRW] Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup %by Jishnu Ray Chowdhury, Cornelia Caragea and Doina Caragea
+048/SRW # [SRW] Pre-training via Leveraging Assisting Languages for Neural Machine Translation %by Haiyue Song, Raj Dabre, Zhuoyuan Mao, Fei Cheng, Sadao Kurohashi and Eiichiro Sumita
+082/SRW # [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
+095/SRW # [SRW] Cross-Lingual Disaster-related Multi-label Tweet Classification with Manifold Mixup %by Jishnu Ray Chowdhury, Cornelia Caragea and Doina Caragea
 = 12:45--13:30 Demo Session 3B
-! [Demo] Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes %by Pengfei Cao, Chenwei Yan, Xiangling Fu, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu and Weifeng Chong
-! [Demo] Prta: A System to Support the Analysis of Propaganda Techniques in the News %by Giovanni Da San Martino, Shaden Shaar, Yifan Zhang, Seunghak Yu, Alberto Barrón-Cedeño and Preslav Nakov
-! [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
+031/demos # [Demo] Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes %by Pengfei Cao, Chenwei Yan, Xiangling Fu, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu and Weifeng Chong
+120/demos # [Demo] Prta: A System to Support the Analysis of Propaganda Techniques in the News %by Giovanni Da San Martino, Shaden Shaar, Yifan Zhang, Seunghak Yu, Alberto Barrón-Cedeño and Preslav Nakov
+058/demos # [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
 = 13:00--14:00 Session 13B Dialogue and Interactive Systems-16
 1657 # A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking
 2888 # Diversifying Dialogue Generation with Non-Conversational Text
@@ -1829,21 +1829,21 @@
 2184 # What are the Goals of Distributional Semantics?
 2157 # Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations
 = 13:00--14:00 Session 13B Student Research Workshop
-! [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
-! [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
+098/SRW # [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
+109/SRW # [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
 ! [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
-! [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
+135/SRW # [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
 = 13:30--14:15 Demo Session 3C
-! [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
-! [Demo] Penman: An Open-Source Library and Tool for AMR Graphs %by Michael Wayne Goodman
+093/demos # [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
+124/demos # [Demo] Penman: An Open-Source Library and Tool for AMR Graphs %by Michael Wayne Goodman
 + 14:00--14:45 Keynote 2 Video Livestream: Josh Tenenbaum
 + 14:45--15:15 Keynote 2 Live Q\&A: Josh Tenenbaum
 + 15:15--15:25 Best Paper Award Ceremony
 + 15:25--15:37 Future Conferences
 + 15:37--15:49 Closing Remarks
 = 17:00--17:45 Demo Session 4A
-! [Demo] Nakdan: Professional Hebrew Diacritizer %by Avi Shmidman, Shaltiel Shmidman, Moshe Koppel and Yoav Goldberg
-! [Demo] SUPP.AI: Finding Evidence for Supplement-Drug Interactions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
+045/demos # [Demo] Nakdan: Professional Hebrew Diacritizer %by Avi Shmidman, Shaltiel Shmidman, Moshe Koppel and Yoav Goldberg
+086/demos # [Demo] SUPP.AI: Finding Evidence for Supplement-Drug Interactions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
 = 17:00--18:00 Session 14A Generation-13
 1886/TACL # [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
 2309 # BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
@@ -1909,13 +1909,13 @@
 1553 # Universal Decompositional Semantic Parsing
 479 # Unsupervised Cross-lingual Representation Learning at Scale
 = 17:00--18:00 Session 14A Student Research Workshop
-! [SRW] Topic Balancing with Additive Regularization of Topic Models %by Eugeniia Veselova and Konstantin Vorontsov
-! [SRW] Combining Subword Representations into Word-level Representations in the Transformer Architecture %by Noe Casas, Marta R. Costa-jussà and José A. R. Fonollosa
-! [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
+005/SRW # [SRW] Topic Balancing with Additive Regularization of Topic Models %by Eugeniia Veselova and Konstantin Vorontsov
+009/SRW # [SRW] Combining Subword Representations into Word-level Representations in the Transformer Architecture %by Noe Casas, Marta R. Costa-jussà and José A. R. Fonollosa
+042/SRW # [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
 ! [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
 = 17:45--18:30 Demo Session 4B
-! [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
-! [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
+079/demos # [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
+087/demos # [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
 = 18:00--19:00 Session 14B Information Extraction-10
 2244 # A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization
 2009 # Hierarchical Entity Typing via Multi-level Learning to Rank
@@ -1981,17 +1981,17 @@
 3366 # Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference
 1542 # Treebank Embedding Vectors for Out-of-domain Dependency Parsing
 = 18:00--19:00 Session 14B Student Research Workshop
-! [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
-! [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
+069/SRW # [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
+084/SRW # [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
 ! [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
-! [SRW] Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources %by Magdalena Biesialska, Bardia Rafieian and Marta R. Costa-jussà
+144/SRW # [SRW] Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources %by Magdalena Biesialska, Bardia Rafieian and Marta R. Costa-jussà
 = 18:30--19:15 Demo Session 4C
-! [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
-! [Demo] What’s The Latest? A Question-driven News Chatbot %by Philippe Laban, John Canny and Marti A. Hearst
+033/demos # [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
+100/demos # [Demo] What’s The Latest? A Question-driven News Chatbot %by Philippe Laban, John Canny and Marti A. Hearst
 = 20:00--20:45 Demo Session 5A
-! [Demo] MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform %by Xiang Gao, Michel Galley and Bill Dolan
-! [Demo] DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation %by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu and Bill Dolan
-! [Demo] SUPP.AI: Finding Evidence for Supplement-Drug nteractions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
+028/demos # [Demo] MixingBoard: a Knowledgeable Stylized Integrated Text Generation Platform %by Xiang Gao, Michel Galley and Bill Dolan
+037/demos # [Demo] DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation %by Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu and Bill Dolan
+086/demos # [Demo] SUPP.AI: Finding Evidence for Supplement-Drug Interactions %by Lucy Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg, Carissa Schoenick, Nick Botner and Waleed Ammar
 = 20:00--21:00 Session 15A Generation-14
 1886/TACL # [TACL] A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation %by Jian Guan, Fei Huang, Minlie Huang, Zhihao Zhao, Xiaoyan Zhu
 2309 # BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
@@ -2055,13 +2055,13 @@
 2518 # Towards Robustifying NLI Models Against Lexical Dataset Biases
 1985 # Uncertain Natural Language Inference
 = 20:00--21:00 Session 15A Student Research Workshop
-! [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
-! [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
-! [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
-! [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
+002/SRW # [SRW] Checkpoint Reranking: An Approach to Select Better Hypothesis for Neural Machine Translation Systems %by Vinay Pandramish and Dipti Misra Sharma
+017/SRW # [SRW] Story-level Text Style Transfer: A Proposal %by Yusu Qian
+022/SRW # [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
+028/SRW # [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
 = 20:45--21:30 Demo Session 5B
-! [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
-! [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
+058/demos # [Demo] NSTM: Real-Time Query-Driven News Overview Composition at Bloomberg %by Joshua Bambrick, Minjie Xu, Andy Almonte, Igor Malioutov, Guim Perarnau, Vittorio Selo and Iat Chong Chan
+087/demos # [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
 = 21:00--22:00 Session 15B Generation-15
 150 # ESPRIT: Explaining Solutions to Physical Reasoning Tasks
 155 # Logical Natural Language Generation from Open-Domain Tables
@@ -2129,10 +2129,10 @@
 556 # To Test Machine Comprehension, Start by Defining Comprehension
 2157 # Gender Gap in Natural Language Processing Research: Disparities in Authorship and Citations
 = 21:00--22:00 Session 15B Student Research Workshop
-! [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
-! [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
-! [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
-! [SRW] Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions %by Yuan Zhuang and Ellen Riloff
+085/SRW # [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
+104/SRW # [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
+106/SRW # [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
+122/SRW # [SRW] Exploring the Role of Context to Distinguish Rhetorical and Information-Seeking Questions %by Yuan Zhuang and Ellen Riloff
 = 21:30--22:15 Demo Session 5C
-! [Demo] What’s The Latest? A Question-driven News Chatbot %by Philippe Laban, John Canny and Marti A. Hearst
-! [Demo] Torch-Struct: Deep Structured Prediction Library %by Alexander Rush
+100/demos # [Demo] What’s The Latest? A Question-driven News Chatbot %by Philippe Laban, John Canny and Marti A. Hearst
+101/demos # [Demo] Torch-Struct: Deep Structured Prediction Library %by Alexander Rush
