@@ -1,0 +1,16 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Dominance as an Indicator of Rapport and Learning in Human-Agent Communication
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Power dynamics in human-human communication can impact rapport-building and learning gains, but little is known about how power impacts human-agent communication.  In this paper, we examine dominance behavior in utterances between middle-school students and a teachable robot as they work through math problems, as coded by Rogers and Farace's Relational Communication Control Coding Scheme (RCCCS).  We hypothesize that relatively dominant students will show increased learning gains, as will students with greater dominance agreement with the robot.  We also hypothesize that gender could be an indicator of differences in dominance behavior.  We present a preliminary analysis of dominance characteristics in some of the transactions between robot and student.  Ultimately, we hope to determine if manipulating the dominance behavior of a learning robot could support learning.
+Author{1}{Firstname}#=%=#Amanda
+Author{1}{Lastname}#=%=#Buddemeyer
+Author{2}{Firstname}#=%=#Xiaoyi
+Author{2}{Lastname}#=%=#Tian
+Author{3}{Firstname}#=%=#Erin
+Author{3}{Lastname}#=%=#Walker
+
+==========

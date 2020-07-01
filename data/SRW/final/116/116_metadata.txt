@@ -1,0 +1,14 @@
+SubmissionNumber#=%=#116
+FinalPaperTitle#=%=#Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend?
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Emotion recognition systems are widely used for  many  downstream  applications  such  as mental  health  monitoring,  educational  problems diagnosis, hate speech classification and targeted  advertising.   Yet,  these  systems  are generally   trained   on   audio   or   multimodal datasets collected in a laboratory environment.While acoustically different, they are generally free  of  major  environmental  noises.   The  result  is  that  systems  trained  on  these  datasets falter  when  presented  with  noisy  data,  even when that noise doesn’t affect the human perception of emotions. In this work, we use multiple categories of environmental and synthetic noises to generate black box adversarial examples and use these noises to modify the samples  in  the  IEMOCAP  dataset.   We  evaluate how both human and machine emotion perception  changes  when  noise  is  introduced.   We find that the trained state-of-the-art models fail to classify even moderately noisy samples that humans usually have no trouble comprehend-ing, demonstrating the brittleness of these systems in real world conditions.
+Author{1}{Firstname}#=%=#Mimansa
+Author{1}{Lastname}#=%=#Jaiswal
+Author{2}{Firstname}#=%=#Emily Mower
+Author{2}{Lastname}#=%=#Provost
+
+==========

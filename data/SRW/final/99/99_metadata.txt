@@ -1,0 +1,18 @@
+SubmissionNumber#=%=#99
+FinalPaperTitle#=%=#Research Replication Prediction Using Weakly Supervised Learning
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Knowing whether a published research result can be replicated or not is important. Carrying out direct replication of published research incurs high cost. It is therefore desirable to have a machine learning aided automatic prediction of a result's replicability. Such predictions can provide a confidence score for each article which can further provide guidelines for spot-checks. Since we will only have access to a small size of annotated dataset to train a machine predictor, we explore the possibility of using weakly supervised learning approaches to improve the prediction accuracy of research replication using both labelled and unlabelled datasets based on text information of research papers. Our experiments over real-world datasets show that much better prediction performance can be obtained compared to the supervised models utilizing only a small size of labelled dataset.
+Author{1}{Firstname}#=%=#Tianyi
+Author{1}{Lastname}#=%=#Luo
+Author{2}{Firstname}#=%=#Xingyu
+Author{2}{Lastname}#=%=#Li
+Author{3}{Firstname}#=%=#Hainan
+Author{3}{Lastname}#=%=#Wang
+Author{4}{Firstname}#=%=#Yang
+Author{4}{Lastname}#=%=#Liu
+
+==========
