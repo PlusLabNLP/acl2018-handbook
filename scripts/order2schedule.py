@@ -519,16 +519,34 @@ out = open(final_tex_path, 'a')
 print >>out, '\setdaydateyear{%s}{%s}{%s}' % (tut_final_day, tut_final_date, tut_final_year)
 print >>out, '\input{content/tutorials/%s/tutorials-overview}' % args.timezone
 
-'''
-for day_i, date in enumerate([dates[0]]):
-# for day_i, date in enumerate(dates):
+# add content to final tex, main conference part
+# for day_i, date in enumerate([dates[0]]):
+for day_i, date in enumerate(dates):
     print(date)
     day, num, year = date
 
     print >>out, '\\setdaydateyear{%s}{%s}{%s}' % (day, num, year)
     print >>out, '\\input{%s/day%d}' % (day_summary_output_dir_timezone, (day_i + 1))
     print >>out, '\\newpage'
-'''
+
+# add content to final tex, workshop part
+
+# add content to final tex, misc part
+print >>out, '\\input{content/anti-harassment-policy}'
+print >>out, '\\newpage'
+
+print >>out, '\\input{content/author-guidelines}'
+print >>out, '\\newpage'
+
+print >>out, '\\cleardoublepage'
+print >>out, '\\addcontentsline{toc}{chapter}{Author Index}'
+print >>out, '\\setheaders{Author Index}{Author Index}'
+print >>out, '\\printindex'
+
+# add content to final tex, sponsors part
+print >>out, '\\addcontentsline{toc}{chapter}{Sponsorship}'
+print >>out, '\\setheaders{}{}'
+print >>out, '\\input{content/ads/ads_logo}'
 
 print >>out, '\\end{document}'
 out.close()
