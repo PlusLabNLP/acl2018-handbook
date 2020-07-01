@@ -1,12 +1,17 @@
-* Sunday, July 5, 2020
+* Sunday, July 5, 2020 UTC-7
+= 06:00--09:30 Tutorials Session 1
+3 06:00--09:30 # Interpretability and Analysis in Neural NLP
+46 06:00--09:30  # Achieving Common Ground in Multi-modal Dialogue
+14 06:00--09:30  # Integrating Ethics into the NLP Curriculum
 
-3 6:00--9:30\space\mbox{(10:00--13:30)}  # Interpretability and Analysis in Neural NLP
-14 6:00--9:30\space\mbox{(10:00--13:30)}  # Integrating Ethics into the NLP Curriculum
-46 6:00--9:30\space\mbox{(15:00--18:30)}  # Achieving Common Ground in Multi-modal Dialogue
+= 10:30--14:00 Tutorials Session 2
+3 10:30--14:00  # Interpretability and Analysis in Neural NLP
+18 10:30--14:00  # Reviewing Natural Language Processing Research
+23 10:30--14:00  # Stylized Text Generation: Approaches and Applications
+14 10:30--14:00  # Integrating Ethics into the NLP Curriculum
 
-18 10:00--13:30  # Reviewing Natural Language Processing Research
-23 10:00--13:30  # Stylized Text Generation: Approaches and Applications
-
+= 15:00--18:30 Tutorials Session 3
 41 15:00--18:30  # Multi-modal Information Extraction from Text, Semi-structured, and Tabular Data on the Web
+46 15:00--18:30  # Achieving Common Ground in Multi-modal Dialogue
 42 15:00--18:30  # Commonsense Reasoning for Natural Language Processing
 44 15:00--18:30  # Open-Domain Question Answering
