@@ -30,7 +30,7 @@ PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbo
 # when multiple multizone multiple versions
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
 PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
-PARSER.add_argument("-timezone", default="UTC+8")
+PARSER.add_argument("-timezone", default="UTC-7")
 PARSER.add_argument("-base_handbook_tex", default="template/handbook.tex")
 PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
@@ -101,10 +101,7 @@ for file in args.order_files:
                 else:
                     sys.stderr.write('-> Different timezone detected in the same order file: \n%s\n' % line)
                 line = re.sub(r' UTC\+\d+', '', line).rstrip()
-            # This sets the day
             day, date, year = line[2:].split(', ')
-            if not (day, date, year) in dates:
-                dates.append((day, date, year))
 
         elif line.startswith('='):
             # This names a parallel session that runs at a certain time
@@ -128,9 +125,14 @@ for file in args.order_files:
                     session_name = title
                     sessions[session_name] = Session(line, (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
                 
-                if not schedule[(day, date, year)].has_key(timerange):
-                    schedule[(day, date, year)][timerange] = []
-                schedule[(day, date, year)][timerange].append(title)
+                print timerange
+                print (day, date, year)
+                timerange_new, (day_new, date_new, year_new) = timezone_convert(timerange, (day, date, year), order_timezone, args.timezone)
+                if not schedule[(day_new, date_new, year_new)].has_key(timerange_new):
+                    schedule[(day_new, date_new, year_new)][timerange_new] = []
+                schedule[(day_new, date_new, year_new)][timerange_new].append(title)
+                print timerange_new
+                print (day_new, date_new, year_new)
 
         elif re.match(r'^\d+', line) is not None:
             id, rest = line.split(' ', 1)
@@ -148,6 +150,9 @@ for file in args.order_files:
 for session in sorted(sessions.keys()):
     day, date, year = sessions[session].date
     timerange = sessions[session].time
+    # This sets the day
+    if not (day, date, year) in dates:
+        dates.append((day, date, year))
 #    print >> sys.stderr, "SESSION", session, day, date, year, timerange
     if not schedule[(day, date, year)].has_key(timerange):
         schedule[(day, date, year)][timerange] = []
@@ -273,9 +278,11 @@ for date in dates:
                 chair = session.chair()
                 print >>out, '\\subsection{\large %s: %s}' % (session.name, session.desc)
                 print >>out, '\\label{parallel-session-%s-track%c}' % (session_num, chr(i + 65))
-                print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+                # print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+                # ACL2020: There is no session chair for 2020, disabled
+                print >>out, '\\Track%cLoc\\\\' % (chr(i + 65))
                 for paper in session.papers:
-                    print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (paper.time, paper.id)
+                    print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (session.time, paper.id)
                 print >>out, '\\clearpage'
 
             print >>out, '\n'
@@ -292,7 +299,7 @@ for date in dates:
             print >>out, '{\\section{%s}' % (session.name)
             print >>out, '\\label{poster-session-%s}' % (session.num)
             print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
-            print >>out, '{\large Time: \emph{%s}\\hfill Location: \\PosterLoc}\\\\' % (minus12(session.time))
+            print >>out, '{\large Time: \emph{%s}\\hfill Location: \\PosterLoc}\\\\' % (session.time) #(minus12(session.time))
             chair = session.chair()
             if chair[1] != '':
                 print >>out, '\\emph{\\sessionchair{%s}{%s}}' % (chair[0], chair[1])
@@ -381,6 +388,7 @@ for date in dates:
                 print >>out, '  \\\\'
 
     print >>out, '\\end{SingleTrackSchedule}'
+    print >>out, '\\clearpage'
     out.close()
 
 # Generate tex file for dayx.tex in content/schedule/UTC+x/
@@ -394,10 +402,9 @@ for day_i, date in enumerate(dates):
     print >>out, '\\cleardoublepage'
     print >>out, '\\chapter{Main Conference: \daydate}'
     print >>out, '\\thispagestyle{emptyheader}'
-    print >>out, '\\cleardoublepage'
 
     print >>out, '\\input{%s/%s-overview.tex}' % (output_dir_timezone, day)
-    print >>out, '\\afterpage{\\null\\newpage}'
+    # print >>out, '\\afterpage{\\null\\newpage}'
 
     for pagepath in page_list_all_dates[day_i]:
         # insert special session among all parallel and poster sessions here
@@ -425,8 +432,8 @@ with open(final_tex_path, 'wt') as f:
     f.write(data)
 
 out = open(final_tex_path, 'a')
-for day_i, date in enumerate([dates[0]]):
-# for day_i, date in enumerate(dates):
+# for day_i, date in enumerate([dates[0]]):
+for day_i, date in enumerate(dates):
     print(date)
     day, num, year = date
 

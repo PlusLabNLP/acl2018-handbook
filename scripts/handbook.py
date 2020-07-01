@@ -55,7 +55,13 @@ def timezone_convert(time, date_tuple, origin_tz, target_tz):
         time_end_new = time_end_new - 24
         day_new = day_list[(day_list.index(day) + 1) % 7]
 
-    time_new = str(time_start_new) + ':' + time.split('--')[0].split(':')[1] + '--' + str(time_end_new) + ':' + time.split('--')[1].split(':')[1]
+    # deal with the cases like 24:15
+    if time_end_new >= 24:
+        time_end_new_str = str(time_end_new-24) + ':' + time.split('--')[1].split(':')[1] + ' (+1)'
+    else:
+        time_end_new_str = str(time_end_new) + ':' + time.split('--')[1].split(':')[1]
+
+    time_new = str(time_start_new) + ':' + time.split('--')[0].split(':')[1] + '--' + time_end_new_str
     return time_new, (day_new, date_new, year)
 
 class Paper:
