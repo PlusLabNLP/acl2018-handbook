@@ -30,9 +30,11 @@ PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbo
 # PARSER.add_argument("-output_dir", dest="output_dir", default="auto/papers")
 # when multiple multizone multiple versions
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
+PARSER.add_argument("-output_dir_tutorials", dest="output_dir_tutorials", default="content/tutorials")
 PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
 PARSER.add_argument("-timezone", default="UTC-7")
 PARSER.add_argument("-base_handbook_tex", default="template/handbook.tex")
+PARSER.add_argument("-base_tutorial_tex", default="content/tutorials/tutorials-overview.tex")
 PARSER.add_argument('-zoom_link_json_path', default="auto/papers/papers_zoomlink.json", help='path of the json file for zoom link')
 PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
@@ -55,6 +57,9 @@ day_summary_output_dir_timezone = os.path.join(args.day_summary_output_dir, args
 
 if not os.path.exists(day_summary_output_dir_timezone):
     os.makedirs(day_summary_output_dir_timezone)
+
+if not os.path.exists(os.path.join(args.output_dir_tutorials, args.timezone)):
+    os.makedirs(os.path.join(args.output_dir_tutorials, args.timezone))
 
 def time_min(a, b):
     ahour, amin = a.split(':')
@@ -449,10 +454,55 @@ for day_i, date in enumerate(dates):
         print >>out, '\\input{%s}' % pagepath
     out.close()
 
+# GENERATE TUTORIAL OVERVIEW PAGE
+print '=================generating tutorial overview'
+final_tex_path = '%s/%s/%s' % (args.output_dir_tutorials, args.timezone, args.base_tutorial_tex.split('/')[-1])
+if os.path.exists(final_tex_path):
+    os.remove(final_tex_path)
+copyfile(args.base_tutorial_tex, final_tex_path)
+
+# Manual input needed
+tut_time_1, tut_date_1 = timezone_convert('06:00--09:30', ("Sunday", "July 5", "2020"), 'UTC-7', args.timezone)
+tut_time_2, tut_date_2 = timezone_convert('10:30--14:00', ("Sunday", "July 5", "2020"), 'UTC-7', args.timezone)
+tut_time_3, tut_date_3 = timezone_convert('15:00--18:30', ("Sunday", "July 5", "2020"), 'UTC-7', args.timezone)
+
+tut_day_change_flag = False
+if tut_date_1 == tut_date_3:
+    tut_final_day, tut_final_date, tut_final_year = tut_date_1
+else:
+    tut_final_day = '%s-%s' % (tut_date_1[0], tut_date_3[0])
+    tut_final_date = '%s-%s' % (tut_date_1[1], tut_date_3[1])
+    tut_final_year = tut_date_1[2]
+    tut_day_change_flag = True
+
+with open(final_tex_path, 'rt') as f:
+    data = f.read()
+    data = data.replace('TOREPLACE_TUT_TIME_A_START', tut_time_1.split('--')[0])
+    data = data.replace('TOREPLACE_TUT_TIME_A_END', tut_time_1.split('--')[1])
+    data = data.replace('TOREPLACE_TUT_TIME_B_START', tut_time_2.split('--')[0])
+    data = data.replace('TOREPLACE_TUT_TIME_B_END', tut_time_2.split('--')[1])
+    data = data.replace('TOREPLACE_TUT_TIME_C_START', tut_time_3.split('--')[0])
+    data = data.replace('TOREPLACE_TUT_TIME_C_END', tut_time_3.split('--')[1])
+    if tut_day_change_flag:
+        # if there are more than one date for tutorial, show their separate dates there
+        data = data.replace('TOREPLACE_TUT_DATE_A', "(%s, %s)" % (tut_date_1[0], tut_date_1[1]))
+        data = data.replace('TOREPLACE_TUT_DATE_B', "(%s, %s)" % (tut_date_2[0], tut_date_2[1]))
+        data = data.replace('TOREPLACE_TUT_DATE_C', "(%s, %s)" % (tut_date_3[0], tut_date_3[1]))
+    else:
+        # otherwise don't show the single date (since it's in title)
+        data = data.replace('TOREPLACE_TUT_DATE_A', "")
+        data = data.replace('TOREPLACE_TUT_DATE_B', "")
+        data = data.replace('TOREPLACE_TUT_DATE_C', "")
+
+with open(final_tex_path, 'wt') as f:
+    f.write(data)
+
 # Generate final file used for generation final/UTC+x/handbook.tex
 print "=================generating final handbook.tex"
 # copy a base tex file
 final_tex_path = 'handbook_%s.tex' % args.timezone
+if os.path.exists(final_tex_path):
+    os.remove(final_tex_path)
 copyfile(args.base_handbook_tex, final_tex_path)
 
 # replace some key parameters
@@ -464,6 +514,12 @@ with open(final_tex_path, 'wt') as f:
     f.write(data)
 
 out = open(final_tex_path, 'a')
+
+# add content to final tex, tutorial part
+print >>out, '\setdaydateyear{%s}{%s}{%s}' % (tut_final_day, tut_final_date, tut_final_year)
+print >>out, '\input{content/tutorials/%s/tutorials-overview}' % args.timezone
+
+'''
 for day_i, date in enumerate([dates[0]]):
 # for day_i, date in enumerate(dates):
     print(date)
@@ -472,7 +528,7 @@ for day_i, date in enumerate([dates[0]]):
     print >>out, '\\setdaydateyear{%s}{%s}{%s}' % (day, num, year)
     print >>out, '\\input{%s/day%d}' % (day_summary_output_dir_timezone, (day_i + 1))
     print >>out, '\\newpage'
-
+'''
 
 print >>out, '\\end{document}'
 out.close()

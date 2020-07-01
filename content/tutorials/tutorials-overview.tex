@@ -14,6 +14,14 @@
 \newcommand{\tutorialtimezone}{(Seattle, Pacific Daytime Time, UTC/GMT-7)}
 \newcommand{\tutol}{\hspace{-.25in}}
 
+% TO be replaced by script
+\newcommand{\tutorialtimeastart}{TOREPLACE_TUT_TIME_A_START}
+\newcommand{\tutorialtimeaend}{TOREPLACE_TUT_TIME_A_END}
+\newcommand{\tutorialtimebstart}{TOREPLACE_TUT_TIME_B_START}
+\newcommand{\tutorialtimebend}{TOREPLACE_TUT_TIME_B_END}
+\newcommand{\tutorialtimecstart}{TOREPLACE_TUT_TIME_C_START}
+\newcommand{\tutorialtimecend}{TOREPLACE_TUT_TIME_C_END}
+
 \section*{Overview}
 \renewcommand{\arraystretch}{1.2}
 \begin{SingleTrackSchedule}
@@ -23,8 +31,8 @@
 %  7:30 & -- & 9:00 &
 %  {\bfseries Breakfast} \hfill\emph{\BreakfastLoc}
 %  \\
-  06:00 & -- & 09:30 &
-  {\bfseries Tutorials Session 1} \hfill
+  \tutorialtimeastart & -- & \tutorialtimeaend &
+  {\bfseries Tutorials Session 1 TOREPLACE_TUT_DATE_A} \hfill
   \\
   & & & \hyperref[tutorial-tutorials-003]{\papertitle{tutorials-003}} (\TutLevelA)\hfill\emph{\TutLocA}\newline
   \tutorialauthors{tutorials-003} \\
@@ -38,8 +46,8 @@
   % {\bfseries Coffee Break}\hfill\emph{\CoffeeLocTut} \\
   % 12:30 & -- & 13:30 &
   % {\bfseries Lunch Break} \\
-  10:30 & -- & 14:00 &
-  {\bfseries Tutorials Session 2} \hfill
+  \tutorialtimebstart & -- & \tutorialtimebend &
+  {\bfseries Tutorials Session 2 TOREPLACE_TUT_DATE_B} \hfill
   \\
   & & & \hyperref[tutorial-tutorials-003]{\papertitle{tutorials-003}} (\TutLevelA)\hfill\emph{\TutLocA}\newline
   \tutorialauthors{tutorials-003} \\
@@ -52,8 +60,8 @@
   \\[-2mm]
   & & & \hyperref[tutorial-tutorials-014]{\papertitle{tutorials-014}} (\TutLevelG)\hfill\emph{\TutLocG}\newline
   \tutorialauthors{tutorials-014} \\
-  15:00 & -- & 18:30 &
-  {\bfseries Tutorials Session 3} \hfill
+  \tutorialtimecstart & -- & \tutorialtimecend &
+  {\bfseries Tutorials Session 3 TOREPLACE_TUT_DATE_C} \hfill
   \\
   & & & \hyperref[tutorial-tutorials-041]{\papertitle{tutorials-041}} (\TutLevelB)\hfill\emph{\TutLocB}\newline
   \tutorialauthors{tutorials-041} \\
