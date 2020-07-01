@@ -422,9 +422,9 @@
 032/demos # [Demo] Tabouid: a Wikipedia-based word guessing game %by Timothée Bernard
 044/demos # [Demo] Syntactic Search by Example %by Micah Shlain, Hillel Taub-Tabib, Shoval Sadde and Yoav Goldberg
 + 14:00--14:15 Opening Remarks
-+ 14:15--14:30 Presidential Address
-+ 14:30--15:15 Keynote 1 Video Livestream: Kathleen R. McKeown
-+ 15:15--15:45 Keynote 1 Live Q\&A: Kathleen R. McKeown
++ 14:15--14:30 Presidential Address (Sponsored by Amazon Science and Baidu)
++ 14:30--15:15 Keynote 1 Video Livestream: Kathleen R. McKeown (Sponsored by Facebook and Megagon Labs) 
++ 15:15--15:45 Keynote 1 Live Q\&A: Kathleen R. McKeown (Sponsored by Fa cebook and Megagon Labs)
 + 15:45--16:15 Business Meeting Q\&A
 = 17:00--17:45 Demo Session 4A
 069/demos # [Demo] Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation %by Federico Scozzafava, Marco Maru, Fabrizio Brignone, Giovanni Torrisi and Roberto Navigli
@@ -1123,8 +1123,8 @@
 131/SRW # [SRW] Preventing Critical Scoring Errors in Short Answer Scoring with Confidence Estimation %by Hiroaki Funayama, Shota Sasaki, Yuichiroh Matsubayashi, Tomoya Mizumoto, Jun Suzuki, Masato Mita and Kentaro Inui
 = 13:30--14:15 Demo Session 3C
 084/demos # [Demo] exBERT: A Visual Analysis Tool to Explore Learned Representations in Transformer Models %by Benjamin Hoover, Hendrik Strobelt and Sebastian Gehrmann
-+ 14:00--14:30 Lifetime Achievement Award Video Livestream
-+ 14:30--14:45 Lifetime Achievement Award Live Q\&A
++ 14:00--14:30 Lifetime Achievement Award Video Livestream (Sponsored by Bloomberg Engineering and IBM Research AI)
++ 14:30--14:45 Lifetime Achievement Award Live Q\&A (Sponsored by Bloomberg Engineering and IBM Research AI)
 + 14:45--15:15 Distinguished Service Award, Test-of-Time Award Video and Q\&A
 + 15:15--16:00 Reviewing Meeting Q\&A
 = 17:00--17:45 Demo Session 4A
@@ -1836,8 +1836,8 @@
 = 13:30--14:15 Demo Session 3C
 093/demos # [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
 124/demos # [Demo] Penman: An Open-Source Library and Tool for AMR Graphs %by Michael Wayne Goodman
-+ 14:00--14:45 Keynote 2 Video Livestream: Josh Tenenbaum
-+ 14:45--15:15 Keynote 2 Live Q\&A: Josh Tenenbaum
++ 14:00--14:45 Keynote 2 Video Livestream: Josh Tenenbaum (Sponsored by DeepMind and Google)
++ 14:45--15:15 Keynote 2 Live Q\&A: Josh Tenenbaum (Sponsored by DeepMind and Google)
 + 15:15--15:25 Best Paper Award Ceremony
 + 15:25--15:37 Future Conferences
 + 15:37--15:49 Closing Remarks
