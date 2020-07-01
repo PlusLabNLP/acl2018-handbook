@@ -344,7 +344,7 @@
 1377 # AMR Parsing via Graph-Sequence Iterative Inference
 = 12:00--13:00 Session 3A Student Research Workshop
 022/SRW # [SRW] Non-Topical Coherence in Social Talk: A Call for Dialogue Model Enrichment %by Alex Luu and Sophia A. Malamud
-! [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
+046/SRW # [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
 049/SRW # [SRW] SCAR: Sentence Compression using Autoencoders for Reconstruction %by Chanakya Malireddy, Tirth Maniar and Manish Shrivastava
 069/SRW # [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
 = 12:45--13:30 Demo Session 3B
@@ -413,7 +413,7 @@
 3448 # Self-Attention Guided Copy Mechanism for Abstractive Summarization
 384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 13:00--14:00 Session 3B Student Research Workshop
-! [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
+079/SRW # [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
 082/SRW # [SRW] A Simple and Effective Dependency Parser for Telugu %by Sneha Nallani, Manish Shrivastava and Dipti Sharma
 084/SRW # [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
 117/SRW # [SRW] Let's be Humorous: Knowledge Enhanced Humor Generation %by Hang Zhang, Dayiheng Liu, Jiancheng Lv and Luo Cheng
@@ -495,7 +495,7 @@
 = 17:00--18:00 Session 4A Student Research Workshop
 018/SRW # [SRW] Media Bias, the Social Sciences, and NLP: Automating Frame Analyses to Identify Bias by Word Choice and Labeling %by Felix Hamborg
 042/SRW # [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
-! [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
+099/SRW # [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
 104/SRW # [SRW] Crossing the Line: Where do Demographic Variables Fit into Humor Detection? %by J. A. Meaney
 = 17:45--18:30 Demo Session 4B
 048/demos # [Demo] Talk to Papers: Bringing Neural Question Answering to Academic Search %by Tiancheng Zhao and Kyusong Lee
@@ -565,10 +565,10 @@
 523 # Screenplay Summarization Using Latent Narrative Structure
 384 # Unsupervised Opinion Summarization with Noising and Denoising
 = 18:00--19:00 Session 4B Student Research Workshop
-! [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
+105/SRW # [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
 106/SRW # [SRW] Effectively Aligning and Filtering Parallel Corpora under Sparse Data Conditions %by Steinþór Steingrímsson, Hrafn Loftsson and Andy Way
 109/SRW # [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
-! [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
+116/SRW # [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
 = 18:30--19:15 Demo Session 4C
 035/demos # [Demo] Xiaomingbot: A Multilingual Robot News Reporter %by Runxin Xu, Jun Cao, Mingxuan Wang, Jiaze Chen, Hao Zhou, Ying Zeng, Yuping Wang, Li Chen, Xiang Yin, Xijin Zhang, Songcheng Jiang, Yuxuan Wang and Lei Li
 047/demos # [Demo] jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models %by Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, Phu Mon Htut, Alex Wang, Ian Tenney and Samuel R. Bowman
@@ -770,7 +770,7 @@
 058/SRW # [SRW] uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems %by Tsuta Yuma, Naoki Yoshinaga and Masashi Toyoda
 090/SRW # [SRW] To compress or not to compress? A Finite-State approach to Nen verbal morphology %by Saliha Muradoglu, Nicholas Evans and Hanna Suominen
 098/SRW # [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
-! [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
+115/SRW # [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
 = 05:45--06:30 Demo Session 1B
 066/demos # [Demo] CLIReval: Evaluating Machine Translation as a Cross-Lingual Information Retrieval Task %by Shuo Sun, Suzanna Sia and Kevin Duh
 = 06:00--07:00 Session 6B Computational Social Science and Social Media-4
@@ -1269,7 +1269,7 @@
 028/SRW # [SRW] Compositional Generalization by Factorizing Alignment and Translation %by Jacob Russin, Jason Jo, Randall O'Reilly and Yoshua Bengio
 039/SRW # [SRW] RPD: A Distance Function Between Word Embeddings %by Xuhui Zhou, Shujian Huang and Zaixiang Zheng
 085/SRW # [SRW] #NotAWhore! A Computational Linguistic Perspective of Rape Culture and Victimization on Social Media %by Ashima Suvarna and Grusha Bhalla
-! [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
+099/SRW # [SRW] Research Replication Prediction Using Weakly Supervised Learning %by Tianyi Luo, Xingyu Li, Hainan Wang and Yang Liu
 114/SRW # [SRW] Inducing Grammar from Long Short-Term Memory Networks by Shapley Decomposition %by Yuhui Zhang and Allen Nie
 = 18:30--19:15 Demo Session 4C
 039/demos # [Demo] NLP Scholar: An Interactive Visual Explorer for Natural Language Processing Literature %by Saif M. Mohammad
@@ -1681,8 +1681,8 @@
 28 # What Question Answering can Learn from Trivia Nerds
 2184 # What are the Goals of Distributional Semantics?
 = 09:00--10:00 Session 12B Student Research Workshop
-! [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
-! [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
+115/SRW # [SRW] Self-Attention is Not Only a Weight: Analyzing BERT with Vector Norms %by Goro Kobayashi, Tatsuki Kuribayashi, Sho Yokoi and Kentaro Inui
+079/SRW # [SRW] Transferring Monolingual Model to Low-Resource Language: The Case of Tigrinya %by Abrhalei Frezghi Tela, Abraham Woubie Zewoudie and Ville Hautamäki
 016/SRW # [SRW] Adaptive Transformers for Learning Multimodal Representations %by Prajjwal Bhargava
 = 09:30--10:15 Demo Session 2C
 061/demos # [Demo] ADVISER: A Toolkit for Developing Multi-modal, Multi-domain and Socially-engaged Conversational Agents %by Chia-Yu Li, Daniel Ortega, Dirk Väth, Florian Lux, Lindsey Vanderlyn, Maximilian Schmidt, Michael Neumann, Moritz Völkel, Pavel Denisov, Sabrina Jenne, Zorica Kacarevic and Ngoc Thang Vu
@@ -1831,7 +1831,7 @@
 = 13:00--14:00 Session 13B Student Research Workshop
 098/SRW # [SRW] AraDIC: Arabic Document Classification Using Image-Based Character Embeddings and Class-Balanced Loss %by Mahmoud Daif, Shunsuke Kitada and Hitoshi Iyatomi
 109/SRW # [SRW] Understanding Points of Correspondence between Sentences for Abstractive Summarization %by Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Lidan Wang, Walter Chang and Fei Liu
-! [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
+116/SRW # [SRW] Noise-Based Augmentation Techniques for Emotion Datasets: What do we Recommend? %by Mimansa Jaiswal and Emily Mower Provost
 135/SRW # [SRW] Logical Inferences with Comparatives and Generalized Quantifiers %by Izumi Haruta, Koji Mineshima and Daisuke Bekki
 = 13:30--14:15 Demo Session 3C
 093/demos # [Demo] Embedding-based Scientific Literature Discovery in a Text Editor Application %by Onur Gökçe, Jonathan Prada, Nikola I. Nikolov, Nianlong Gu and Richard H.R. Hahnloser
@@ -1912,7 +1912,7 @@
 005/SRW # [SRW] Topic Balancing with Additive Regularization of Topic Models %by Eugeniia Veselova and Konstantin Vorontsov
 009/SRW # [SRW] Combining Subword Representations into Word-level Representations in the Transformer Architecture %by Noe Casas, Marta R. Costa-jussà and José A. R. Fonollosa
 042/SRW # [SRW] Exploring Interpretability in Event Extraction: Multitask Learning of a Neural Event Classifier and an Explanation Decoder %by Zheng Tang, Gus Hahn-Powell and Mihai Surdeanu
-! [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
+046/SRW # [SRW] Dominance as an Indicator of Rapport and Learning in Human-Agent Communication %by Amanda Buddemeyer, Xiaoyi Tian and Erin Walker
 = 17:45--18:30 Demo Session 4B
 079/demos # [Demo] Conversation Learner - A Machine Teaching Tool for Building Dialog Managers for Task-Oriented Dialog Systems %by Swadheen Shukla, Lars Liden, Shahin Shayandeh, Eslam Kamal, Jinchao Li, Matt Mazzola, Thomas Park, Baolin Peng and Jianfeng Gao
 087/demos # [Demo] LEAN-LIFE: A Label-Efficient Annotation Framework Towards Learning from Explanation %by Dong-Ho Lee, Rahul Khanna, Bill Yuchen Lin, Seyeon Lee, Qinyuan Ye, Elizabeth Boschee, Leonardo Neves and Xiang Ren
@@ -1983,7 +1983,7 @@
 = 18:00--19:00 Session 14B Student Research Workshop
 069/SRW # [SRW] Why is penguin more similar to polar bear than to sea gull? Analyzing conceptual knowledge in distributional models %by Pia Sommerauer
 084/SRW # [SRW] Pointwise Paraphrase Appraisal is Potentially Problematic %by Hannah Chen, Yangfeng Ji and David Evans
-! [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
+105/SRW # [SRW] A Geometry-Inspired Attack for Generating Natural Language Adversarial Examples %by Zhao Meng and Roger Wattenhofer
 144/SRW # [SRW] Enhancing Word Embeddings with Knowledge Extracted from Lexical Resources %by Magdalena Biesialska, Bardia Rafieian and Marta R. Costa-jussà
 = 18:30--19:15 Demo Session 4C
 033/demos # [Demo] MMPE: A Multi-Modal Interface using Handwriting, Touch Reordering, and Speech Commands for Post-Editing Machine Translation %by Nico Herbig, Santanu Pal, Tim Düwel, Kalliopi Meladaki, Mahsa Monshizadeh, Vladislav Hnatovskiy, Antonio Krüger and Josef van Genabith
