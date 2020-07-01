@@ -90,6 +90,8 @@ class Paper:
 def threedigits(str):
     return '%03d' % (int(str))
 
+demo_session_global_count = {} # since demo session name are used multiple times, this dict used to count which demo session is this
+
 class Session:
     def __init__(self, line, date, origin_tz='UTC+0', target_tz="UTC+0"):
         (self.time, namestr) = line[2:].split(' ', 1)
@@ -99,10 +101,10 @@ class Session:
 
         # this day, date, and year will be used by following code section.
         # Timezone convertion
-        print '====='
-        print self.time, self.date
+        # print '====='
+        # print self.time, self.date
         self.time, self.date = timezone_convert(self.time, self.date, origin_tz, target_tz)
-        print self.time, self.date
+        # print self.time, self.date
 
         (self.name, self.keywords) = extract_keywords(namestr)
         
@@ -125,7 +127,13 @@ class Session:
                 else:
                     # Demo session. 2020's demo session use same session name and num multiple times, like Demo Session 1A appear 3 times. So need to distinguish them
                     self.name = self.name
-                    self.num = '%s-demo-%s' % (self.date[0], match.group(1))
+                    if match.group(1) in demo_session_global_count:
+                        which_demo_session = demo_session_global_count[match.group(1)] + 1
+                        demo_session_global_count[match.group(1)] += 1
+                    else:
+                        which_demo_session = 1
+                        demo_session_global_count[match.group(1)] = 1
+                    self.num = '%s-demo-%s' % (which_demo_session, match.group(1))
 
         # print >> sys.stderr, "LINE %s NAME %s DESC %s" % (line, self.name, self.desc)
 
