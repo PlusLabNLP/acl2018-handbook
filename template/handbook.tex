@@ -103,9 +103,13 @@
 \setdaydateyear{Sunday}{July 5}{2020}
 
 %% COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\thispagestyle{empty}
 \fancyfoot[C]{}
 % \includepdf[pages={1}]{content/fmatter/cover.pdf}
+\includepdf[pages=1,%
+     pagecommand={%
+     {\LARGE TOREPLACE_TIMEZONE}
+}]{content/fmatter/cover.pdf}
 
 %% INSIDE FRONT COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

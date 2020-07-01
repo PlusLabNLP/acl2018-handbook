@@ -198,4 +198,9 @@
 \newcommand{\setheaders}[2]{%
   \renewcommand{\leftheader}{#1}%
   \renewcommand{\rightheader}{#2}}
+
+\newcommand{\setheadertimezone}[1]{%
+  \fancyhead[LO]{\textit{\nouppercase{#1}}}
+  \fancyhead[RE]{\textit{\nouppercase{#1}}} % define header contents
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
