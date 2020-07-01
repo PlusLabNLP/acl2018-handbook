@@ -23,6 +23,7 @@ from handbook import *
 import math
 from collections import defaultdict
 from shutil import copyfile
+import json
 
 PARSER = argparse.ArgumentParser(description="Generate schedules for *ACL handbooks")
 # when just one timezone
@@ -32,6 +33,7 @@ PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
 PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
 PARSER.add_argument("-timezone", default="UTC-7")
 PARSER.add_argument("-base_handbook_tex", default="template/handbook.tex")
+PARSER.add_argument('-zoom_link_json_path', default="auto/papers/papers_zoomlink.json", help='path of the json file for zoom link')
 PARSER.add_argument('order_files', nargs='+', help='List of order files')
 args = PARSER.parse_args()
 track_name_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
@@ -177,6 +179,30 @@ def minus12(time):
 
     return '%s:%s' % (hours, minutes)
 
+def gen_links_part(session_num, paper_id, zoom_dict, size="tiny", newline=False):
+    zoom_link_uniq_id = 'zoom:%s-%s' % (session_num, paper_id)
+    links_tex = ''
+    if zoom_link_uniq_id in zoom_dict:
+        zoom_link_this = zoom_dict[zoom_link_uniq_id]['zoom_link']
+        presentation_id_this = zoom_dict[zoom_link_uniq_id]['presentation_id']
+        pdf_url_this = zoom_dict[zoom_link_uniq_id]['pdf_url']
+        if zoom_link_this != '' or pdf_url_this != '' or presentation_id_this != '':
+            if newline:
+                print >>out, '\\newline'
+            if zoom_link_this != '':
+                links_tex += '{\\%s\\href{%s}{[Zoom]}}' % (size, zoom_link_this)
+            if presentation_id_this != '':
+                links_tex += '{\\%s\\href{https://slideslive.com/%s}{[Talk]}}' % (size, presentation_id_this)
+            if pdf_url_this != '':
+                links_tex += '{\\%s\\href{%s}{[PDF]}}' % (size, pdf_url_this)
+    else:
+        sys.stderr.write('-> No key found: \n%s\n' % zoom_link_uniq_id)
+    return links_tex
+
+# Load yaml file about Zoom Links
+with open(args.zoom_link_json_path, "r") as r:
+    zoom_link_dict = json.load(r)
+
 # Now iterate through the combined schedule, printing, printing, printing.
 # Write a file for each date. This file can then be imported and, if desired, manually edited.
 print('=====================')
@@ -245,9 +271,13 @@ for date in dates:
                     # design 2: use cells
                     if paper_i % 5 != 0 or paper_i == 0:
                         print >>out, '& \\papertableentry{%s}' % (paper.id)
+                        links_tex = gen_links_part(session_num, paper.id, zoom_link_dict, size="tiny", newline=True)
+                        print >>out, links_tex
                     else:
                         print >>out, '\\\\ \cline{2-6}'
                         print >>out, '& \\papertableentry{%s}' % (paper.id)
+                        links_tex = gen_links_part(session_num, paper.id, zoom_link_dict, size="tiny", newline=True)
+                        print >>out, links_tex
                 if sess_i < len(parallel_sessions) - 1:
                     print >>out, '\\\\ \hline'
             print >>out, '\\end{longtable}\end{center}'
@@ -282,7 +312,8 @@ for date in dates:
                 # ACL2020: There is no session chair for 2020, disabled
                 print >>out, '\\Track%cLoc\\\\' % (chr(i + 65))
                 for paper in session.papers:
-                    print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (session.time, paper.id)
+                    links_tex = gen_links_part(session_num, paper.id, zoom_link_dict, size="small")
+                    print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}{%s}' % (session.time, paper.id, links_tex)
                 print >>out, '\\clearpage'
 
             print >>out, '\n'
@@ -299,13 +330,14 @@ for date in dates:
             print >>out, '{\\section{%s}' % (session.name)
             print >>out, '\\label{poster-session-%s}' % (session.num)
             print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
-            print >>out, '{\large Time: \emph{%s}\\hfill Location: \\PosterLoc}\\\\' % (session.time) #(minus12(session.time))
+            print >>out, '{\large Time: \emph{%s}\\hfill \\PosterLoc}\\\\' % (session.time) #(minus12(session.time))
             chair = session.chair()
             if chair[1] != '':
                 print >>out, '\\emph{\\sessionchair{%s}{%s}}' % (chair[0], chair[1])
             print >>out, '\\\\'
             for paper in session.papers:
-                print >>out, '\\posterabstract{%s}' % (paper.id)
+                links_tex = gen_links_part(session.num, paper.id, zoom_link_dict, size="small")
+                print >>out, '\\posterabstract{%s}{%s}' % (paper.id, links_tex)
             print >>out
             print >>out, '\\clearpage'
 
@@ -432,8 +464,8 @@ with open(final_tex_path, 'wt') as f:
     f.write(data)
 
 out = open(final_tex_path, 'a')
-# for day_i, date in enumerate([dates[0]]):
-for day_i, date in enumerate(dates):
+for day_i, date in enumerate([dates[0]]):
+# for day_i, date in enumerate(dates):
     print(date)
     day, num, year = date
 

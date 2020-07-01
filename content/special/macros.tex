@@ -251,17 +251,17 @@
     {\makebox[\w][r]{\bfseries p.~\pageref{#1}}}\vspace{1em}\par}}
 
 % insert an abstract into a list of abstracts (for posters, no time needed)
-\newcommand{\posterabstract}[1]{%
+\newcommand{\posterabstract}[2]{%
   \noindent%
   \begin{minipage}{\linewidth}%
     \label{#1}%
-          {\bfseries\normalsize\papertitle{#1}}\\
+          {\bfseries\normalsize\papertitle{#1}}  \hfill {#2}\\
           \normalsize\paperauthor{\citefullauthornames{#1}}
   \end{minipage}\vspace{1mm}\\\nopagebreak%
   \noindent{\small\input{auto/abstracts/#1}}\par}
 
 % insert an abstract into a list of abstracts
-\newcommand{\paperabstract}[5]{%
+\newcommand{\paperabstract}[6]{%
   % #1 day
   % #2 time
   % #3 session title
@@ -271,7 +271,7 @@
   \begin{minipage}{\linewidth}%
     \label{#5}%
       %\rule{\linewidth}{1pt}\linebreak
-          {\bfseries\normalsize\papertitle{#5}} \\
+          {\bfseries\normalsize\papertitle{#5}} \hfill {#6} \\
           \hfill\normalsize\paperauthor{\citefullauthornames{#5}}
 %      {\small #1 #2 --- #4}\vspace{.5ex}\\
         % ACL2020: no specific time slot for each paper. The whole session can be used for QA
