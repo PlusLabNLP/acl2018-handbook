@@ -1,41 +1,77 @@
 * Thursday, July 9, 2020 UTC-7
-= 9:30--9:45 Welcome and Opening Remarks
-= 9:45--14:45 Keynote Session
-! 9:45--10:30 Invited talk 1 %by Kristina Toutanova
-! 10:30--11:00 Coffee Break
-! 11:00--11:45 Invited talk 2 %by Ellie Pavlick
-! 11:45--12:30 Invited talk 3 %by Mike Lewis
-! 12:30--14:00 Lunch
-! 14:00--14:45 Invited talk 4 %by Evelina Fedorenko
-= 14:45--15:00 Outstanding Papers Spotlight Presentations
-= 15:00--16:30 Poster Session
-1   # Zero-Resource Cross-Domain Named Entity Recognition
-2   # Encodings of Source Syntax: Similarities in NMT Representations Across Target Languages
-3   # Learning Probabilistic Sentence Representations from Paraphrases
+= 01:00--02:45 Session 1
++ 1:00--1:15 Welcome and Opening Remarks
++ 1:15--2:45 Poster Session 1
+20 # Improving Bilingual Lexicon Induction with Unsupervised Post-Processing of Monolingual Word Vector Spaces
 !  On the Ability of Self-Attention Networks to Recognize Counter Languages %by Satwik Bhattamishra, Kabir Ahuja and Navin Goyal
-12   # Word Embeddings as Tuples of Feature Probabilities
+12 # Word Embeddings as Tuples of Feature Probabilities
 13   # Compositionality and Capacity in Emergent Languages
 15   # Learning Geometric Word Meta-Embeddings
 !  Variational Inference for Learning Representations of Natural Language Edits %by Edison Marrese-Taylor, Machel Reid and Yutaka Matsuo
-20   # Improving Bilingual Lexicon Induction with Unsupervised Post-Processing of Monolingual Word Vector Spaces
 22   # Adversarial Training for Commonsense Inference
-28   # Evaluating Natural Alpha Embeddings on Intrinsic and Extrinsic Tasks
-29   # Exploring the Limits of Simple Learners in Knowledge Distillation for Document Classification with DocBERT
 30   # Joint Training with Semantic Role Labeling for Better Generalization in Natural Language Inference
 33   # A Metric Learning Approach to Misogyny Categorization
 34   # On the Choice of Auxiliary Languages for Improved Sequence Tagging
 35   # Adversarial Alignment of Multilingual Models for Extracting Temporal Expressions from Text
 36   # Contextual and Non-Contextual Word Embeddings: an in-depth Linguistic Investigation
+41   # Staying True to Your Word: (How) Can Attention Become Explanation?
+!  A Simple Approach to Learning Unsupervised Multilingual Embeddings %by Pratik Jawanpuria, Mayank Meghwanshi and Bamdev
+56   # What's in a Name? Are BERT Named Entity Representations just as Good for any other Name?
+!  AI4Bharat-IndicNLP Dataset: Monolingual Corpora and Word Embeddings for Indic Languages: Monolingual Corpora and Word Embeddings for Indic Languages %by Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra and Pratyush Kumar
+28   # Evaluating Natural Alpha Embeddings on Intrinsic and Extrinsic Tasks
+! Predicting Sexual and Reproductive Health of Migrants using Data Science %by Amber Nigam, Pragati Jaiswal, Teertha Arora, Uma Girkar and Leo Anthony Celi
+! Job Recommendation through Progression of Job Selection %by Amber Nigam, Aakash Roy, Hartaran Singh and Arpan Saxena
+
+= 07:00--10:00 Session 2
++ 7:00--7:15 Welcome and Opening Remarks
++ 7:15--7:45 Invited speaker Q\&A: I don’t know what you mean semantics is hard: Challenges in evaluation of semantic phenomena %by Ellie Pavlick
++ 7:45--8:00 Break
++ 8:00--8:30 Invited speaker Q\&A: Artificial Neural Networks as models of language comprehension in the human brain %by Evelina Fedorenko
++ 8:30--10:00 Poster Session 2
+20 # Improving Bilingual Lexicon Induction with Unsupervised Post-Processing of Monolingual Word Vector Spaces
 38   # Are All Languages Created Equal in Multilingual BERT?
+!  On the Ability of Self-Attention Networks to Recognize Counter Languages %by Satwik Bhattamishra, Kabir Ahuja and Navin Goyal
+1   # Zero-Resource Cross-Domain Named Entity Recognition
+2   # Encodings of Source Syntax: Similarities in NMT Representations Across Target Languages
+3   # Learning Probabilistic Sentence Representations from Paraphrases
+12 # Word Embeddings as Tuples of Feature Probabilities
+13   # Compositionality and Capacity in Emergent Languages
+15   # Learning Geometric Word Meta-Embeddings
+30   # Joint Training with Semantic Role Labeling for Better Generalization in Natural Language Inference
+33   # A Metric Learning Approach to Misogyny Categorization
+34   # On the Choice of Auxiliary Languages for Improved Sequence Tagging
+35   # Adversarial Alignment of Multilingual Models for Extracting Temporal Expressions from Text
+36   # Contextual and Non-Contextual Word Embeddings: an in-depth Linguistic Investigation
 41   # Staying True to Your Word: (How) Can Attention Become Explanation?
 42   # Compressing BERT: Studying the Effects of Weight Pruning on Transfer Learning
 44   # On Dimensional Linguistic Properties of the Word Embedding Space
-!  A Simple Approach to Learning Unsupervised Multilingual Embeddings %by Pratik Jawanpuria, Mayank Meghwanshi and Bamdev
 48   # A Cross-Task Analysis of Text Span Representations
 49   # Enhancing Transformer with Sememe Knowledge
 50   # Evaluating Compositionality of Sentence Representation Models
-!  AI4Bharat-IndicNLP Dataset: Monolingual Corpora and Word Embeddings for Indic Languages: Monolingual Corpora and Word Embeddings for Indic Languages %by Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra and Pratyush Kumar
 54   # Supertagging with CCG primitives
 56   # What's in a Name? Are BERT Named Entity Representations just as Good for any other Name?
-= 16:30--17:30 Panel Discussion
-= 17:30--17:40 Closing Remarks and Best Paper Announcement
+29   # Exploring the Limits of Simple Learners in Knowledge Distillation for Document Classification with DocBERT
+!  AI4Bharat-IndicNLP Dataset: Monolingual Corpora and Word Embeddings for Indic Languages: Monolingual Corpora and Word Embeddings for Indic Languages %by Anoop Kunchukuttan, Divyanshu Kakwani, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh M. Khapra and Pratyush Kumar
+28   # Evaluating Natural Alpha Embeddings on Intrinsic and Extrinsic Tasks
+! Predicting Sexual and Reproductive Health of Migrants using Data Science %by Amber Nigam, Pragati Jaiswal, Teertha Arora, Uma Girkar and Leo Anthony Celi
+! Job Recommendation through Progression of Job Selection %by Amber Nigam, Aakash Roy, Hartaran Singh and Arpan Saxena
+
+= 17:00--20:00 Session 3
++ 17:00--17:15 Welcome and Opening Remarks
++ 17:15--17:45 Invited speaker Q\&A: Text representations for retrieval and question answering %by Kristina Toutanova
++ 17:45--18:00 Break
++ 18:00--18:30 Invited speaker Q\&A: Beyond BERT %by Mike Lewis
++ 18:30--20:00 Poster Session 3
+38   # Are All Languages Created Equal in Multilingual BERT?
+1   # Zero-Resource Cross-Domain Named Entity Recognition
+2   # Encodings of Source Syntax: Similarities in NMT Representations Across Target Languages
+3   # Learning Probabilistic Sentence Representations from Paraphrases
+!  Variational Inference for Learning Representations of Natural Language Edits %by Edison Marrese-Taylor, Machel Reid and Yutaka Matsuo
+22   # Adversarial Training for Commonsense Inference
+42   # Compressing BERT: Studying the Effects of Weight Pruning on Transfer Learning
+44   # On Dimensional Linguistic Properties of the Word Embedding Space
+48   # A Cross-Task Analysis of Text Span Representations
+49   # Enhancing Transformer with Sememe Knowledge
+50   # Evaluating Compositionality of Sentence Representation Models
+54   # Supertagging with CCG primitives
+29   # Exploring the Limits of Simple Learners in Knowledge Distillation for Document Classification with DocBERT

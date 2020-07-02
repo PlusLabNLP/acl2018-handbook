@@ -1,23 +1,23 @@
 * Friday, July 10, 2020 UTC-7
 + 05:30--05:40 Opening ECNLP - East %by Ido Guy
-2  05:40--06:00  # Bootstrapping Named Entity Recognition in E-Commerce with Positive Unlabeled Learning
-5  06:00--06:20 # Semi-supervised Category-specific Review Tagging on Indonesian E-Commerce Product Reviews
-9  06:20--06:40 # Using Large Pretrained Language Models for Answering User Queries from Product Specifications
-12  06:40--07:00 # On Application of Bayesian Parametric and Non-parametric Methods for User Cohorting in Product Search
-15  07:00--07:20 # Semi-Supervised Iterative Approach for Domain-Specific Complaint Detection in Social Media
-17  07:20--07:40 # Item-based Collaborative Filtering with BERT
-13  07:40--08:00 # Deep Hierarchical Classification for Category Prediction in E-commerce System
+2 05:40--06:00  # Bootstrapping Named Entity Recognition in E-Commerce with Positive Unlabeled Learning
+5 06:00--06:20 # Semi-supervised Category-specific Review Tagging on Indonesian E-Commerce Product Reviews
+9 06:20--06:40 # Using Large Pretrained Language Models for Answering User Queries from Product Specifications
+12 06:40--07:00 # On Application of Bayesian Parametric and Non-parametric Methods for User Cohorting in Product Search
+15 07:00--07:20 # Semi-Supervised Iterative Approach for Domain-Specific Complaint Detection in Social Media
+17 07:20--07:40 # Item-based Collaborative Filtering with BERT
+13 07:40--08:00 # Deep Hierarchical Classification for Category Prediction in E-commerce System
 + 08:00--08:20 Effective Identification of Distinctive Wordmarks %by Sujatha Das Gollapalli
 + 08:20--09:00 Coffee Break
 + 09:00--09:10 Open ECNLP
-3  09:10--09:30 # Deep Learning-based Online Alternative Product Recommendations at Scale
-6  09:30--09:50 # How to Grow a (Product) Tree: Personalized Category Suggestions for eCommerce Type-Ahead
+3 09:10--09:30 # Deep Learning-based Online Alternative Product Recommendations at Scale
+6 09:30--09:50 # How to Grow a (Product) Tree: Personalized Category Suggestions for eCommerce Type-Ahead
 + 09:50--10:40 Keynote 1 %by Julian McAuley
 + 10:40--11:00 Coffee Break
 + 11:00--11:30 Keynote 1 %by Heng Ji
 + 11:30--11:50 Study on Price Consistency regarding Pack Size via Product Variant Retrieval and Pack Size Extraction %by Yang Liu
-8  11:50--12:10 # A Deep Learning System for Sentiment Analysis of Service Calls
-16  12:10--12:30 # Improving Intent Classification in an E-commerce Voice Assistant by Using Inter-Utterance Context
-18  13:30--13:50 # Simster{Q}: {A} Similarity based Clustering Approach to Opinion Question Answering
-21  13:50--14:10 # e-Commerce and Sentiment Analysis: Predicting Outcomes of Class Action Lawsuits
+8 11:50--12:10 # A Deep Learning System for Sentiment Analysis of Service Calls
+16 12:10--12:30 # Improving Intent Classification in an E-commerce Voice Assistant by Using Inter-Utterance Context
+18 13:30--13:50 # Simster{Q}: {A} Similarity based Clustering Approach to Opinion Question Answering
+21 13:50--14:10 # e-Commerce and Sentiment Analysis: Predicting Outcomes of Class Action Lawsuits
 + 14:10--14:15 Closing ECNLP
