@@ -17,8 +17,7 @@ for timezone in UTC-11 UTC-10 UTC-9 UTC-8 UTC-7 UTC-6 UTC-5 UTC-4 UTC-3 UTC-2 UT
 done
 
 # 2- Compile all tex files for all timezone versions
-# for timezone in UTC+0 UTC-7 UTC+8; do 
-for timezone in UTC-4 UTC+10 UTC-11 UTC-10 UTC-9 UTC-8 UTC-6 UTC-5 UTC-3 UTC-2 UTC-1 UTC+1 UTC+2 UTC+3 UTC+4 UTC+5 UTC+6 UTC+7 UTC+9 UTC+11 UTC+12; do 
+for timezone in UTC+0 UTC-7 UTC+8 UTC-4 UTC+10 UTC-11 UTC-10 UTC-9 UTC-8 UTC-6 UTC-5 UTC-3 UTC-2 UTC-1 UTC+1 UTC+2 UTC+3 UTC+4 UTC+5 UTC+6 UTC+7 UTC+9 UTC+11 UTC+12; do 
     mkdir -p build_$timezone
     latexmk -pdf -bibtex -output-directory=build_$timezone handbook_$timezone.tex
     mv build_$timezone/handbook_$timezone.pdf ./
