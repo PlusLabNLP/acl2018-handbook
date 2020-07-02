@@ -39,7 +39,7 @@ PARSER.add_argument("-sec_workshops", dest="sec_workshops", action='store_true',
                     help="set this flag if want to generate tutorials schedules details and overviews")
 
 PARSER.add_argument("-base_handbook_tex", default="template/handbook.tex")
-PARSER.add_argument('order_files', nargs='+', help='List of order files. If generate workshop schedule, the script will automatically use all folders under data/, except papers, tutorials, demos and SRW')
+PARSER.add_argument('-order_files', nargs='+', help='List of order files. If generate workshop schedule, the script will automatically use all folders under data/, except papers, tutorials, demos and SRW')
 # For main conference
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/schedule")
 PARSER.add_argument("-day_summary_output_dir", dest="day_summary_output_dir", default="content/days")
@@ -49,6 +49,9 @@ PARSER.add_argument("-output_dir_tutorials", dest="output_dir_tutorials", defaul
 PARSER.add_argument("-base_tutorial_tex", default="content/tutorials/tutorials-overview.tex")
 # For workshops
 PARSER.add_argument("-output_dir_workshops", dest="output_dir_workshops", default="auto", help="it will finally become auto/workshopname/UTC+x")
+PARSER.add_argument("-output_dir_workshops_tex", dest="output_dir_workshops_tex", default="content/workshops", help="it will finally become content/workshops/UTC+x")
+PARSER.add_argument('-order_files_workshops', default='data/workshops/order', help='List of order files. this is the order file for all workshops overview schedule, not individual workshop order file, normally data/workshops/order')
+PARSER.add_argument("-base_workshops_tex", default="content/workshops/workshops.tex")
 args = PARSER.parse_args()
 track_name_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
@@ -93,6 +96,72 @@ def time_max(a, b):
         return b
     return a
 
+def order2classes_workshop(order_file, target_tz):
+    order_timezone = ''
+    subconf_name = order_file.split('/')[1]
+    schedule_list = []
+    for line_num, line in enumerate(open(order_file)):
+        line = line.rstrip()
+
+        print "LINE", line
+
+        if line == '+' or line == '=':
+            # this is a useless waste line
+            pass
+        elif line.startswith('*'):
+            match = re.search("UTC(\+|-)\d+", line)
+            if match != None:
+                if order_timezone == '' or order_timezone == match.group(0):
+                    order_timezone = match.group(0)
+                else:
+                    sys.stderr.write('-> Different timezone detected in the same order file: \n%s\n' % line)
+                line = re.sub(r' UTC(\+|-)\d+', '', line).rstrip()
+            day, date, year = line[2:].split(', ')
+        elif line.startswith(('=', '+', '!')):
+            str = line[2:]
+            if line.startswith('='):
+                level_this_line = 0
+            else:
+                level_this_line = 1
+            # a group session containing sub items
+            match = re.match(r'^\d+:\d+-+\d+:\d+', str)
+            if match != None:
+                # session time defined
+                time_range, title = str.split(' ', 1)
+                title, keys = extract_keywords(title)
+                if keys.has_key('by'):
+                    title = "%s (%s)" % (title.strip(), keys['by'])
+                timerange_new, (day_new, date_new, year_new) = timezone_convert(time_range, (day, date, year), order_timezone, target_tz)
+                date_new = (day_new, date_new, year_new)
+            else:
+                # no session time defined
+                timerange_new = None
+                date_new = (day, date, year)
+            schedule_list.append({
+                'timerange': timerange_new,
+                'date': date_new,
+                'title': title,
+                'type': 'string_item',
+                'level': level_this_line
+            })
+        elif re.match(r'^\d+', line) is not None:
+            level_this_line = 0
+            id, rest = line.split(' ', 1)
+            if re.match(r'^\d+:\d+-+\d+:\d+', rest) is not None:
+                title = rest.split(' ', 1)
+            else:
+                title = rest
+            # date and timerange info will be saved in Paper entity
+            schedule_list.append({
+                'timerange': None,
+                'date': None, 
+                'title': title,
+                'paper': Paper(line, subconf_name),
+                'type': 'paper',
+                'level': level_this_line
+            })
+    return schedule_list
+
 def order2classes(order_files_list):
     # List of dates
     dates = []
@@ -119,7 +188,8 @@ def order2classes(order_files_list):
                         order_timezone = match.group(0)
                     else:
                         sys.stderr.write('-> Different timezone detected in the same order file: \n%s\n' % line)
-                    line = re.sub(r' UTC\+\d+', '', line).rstrip()
+                    line = re.sub(r' UTC(\+|-)\d+', '', line).rstrip()
+                print line
                 day, date, year = line[2:].split(', ')
 
             elif line.startswith('='):
@@ -155,7 +225,9 @@ def order2classes(order_files_list):
                     title = rest.split(' ', 1)
                 else:
                     title = rest
-
+                try: session_name = ''
+                except:
+                    session_name = 'Single Paper %s' % title
                 if not sessions.has_key(session_name):
                     sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
 
@@ -172,6 +244,11 @@ def order2classes(order_files_list):
         if not schedule[(day, date, year)].has_key(timerange):
             schedule[(day, date, year)][timerange] = []
         schedule[(day, date, year)][timerange].append(sessions[session])
+
+    for sche in sorted(schedule.keys()):
+        # if no parallel sessions
+        if not sche in dates:
+            dates.append(sche)
 
     return sessions, schedule, dates
 
@@ -214,7 +291,7 @@ def gen_links_part(session_num, paper_id, zoom_dict, size="tiny", newline=False)
         sys.stderr.write('-> No key found: \n%s\n' % zoom_link_uniq_id)
     return links_tex
 
-if args.sec_papers is not None:
+if args.sec_papers:
     sessions, schedule, dates = order2classes(args.order_files)
 
     # Load yaml file about Zoom Links
@@ -466,7 +543,67 @@ if args.sec_papers is not None:
             print >>out, '\\input{%s}' % pagepath
         out.close()
 
-if args.sec_tutorials is not None:
+if args.sec_workshops:
+    sessions, schedule, dates = order2classes([args.order_files_workshops])
+    print sessions
+    print schedule
+    print dates
+    print '=================generating workshop each schedule'
+    # Changed from original perl implementation in order2schedule_workshop.pl
+    for ws_name in os.listdir('data'):
+        # if ws_name not in ['papers', 'workshops', 'demos', 'SRW', 'tutorials', '.DS_Store']:
+        if ws_name in ['WiNLP']:
+            ws_this_schedule_list = order2classes_workshop(os.path.join('data', ws_name, 'order'), target_tz=args.timezone)
+            print ws_this_schedule_list
+            schedule_tex_path = os.path.join(args.output_dir_workshops, ws_name, args.timezone)
+            print schedule_tex_path
+            if not os.path.exists('%s/%s/%s' % (args.output_dir_workshops, ws_name, args.timezone)):
+                os.makedirs('%s/%s/%s' % (args.output_dir_workshops, ws_name, args.timezone))
+
+            out = open(os.path.join(schedule_tex_path, 'schedule.tex'), 'w')
+            for sche_item in ws_this_schedule_list:
+                if sche_item['level'] == 0:
+                    if sche_item['type'] == 'paper':
+                        if sche_item['paper'].time == None:
+                            time_paper = '$\\bullet$'
+                        else:
+                            time_paper = sche_item['paper'].time
+                        print >>out, '\\item[%s] \\wspaperentry{%s}' % (time_paper, sche_item['paper'].id)
+                    else:
+                        # top level session containing sub items
+                        print >>out, '\\vspace{1ex}'
+                        print >>out, '\\item[%s] {\\bfseries %s}' % (sche_item['timerange'], sche_item['title'])
+                elif sche_item['level'] == 1:
+                    # second level event
+                    print >>out, '\\item[%s] {%s}' % (sche_item['timerange'], sche_item['title'])
+            out.close()
+
+    # generate overview at content/workshop/timezone/overview.tex
+    print '=================generating workshop overview'
+
+    # generate overview at content/workshop/timezone/workshop.tex
+    print '=================generating workshop page'
+    if len(dates) <= 1:
+        final_day, final_date, final_year = dates[0]
+    else:
+        final_day = '%s-%s' % (dates[0][0], dates[-1][0])
+        final_date = '%s-%s' % (dates[0][1], dates[-1][1])
+        final_year = dates[0][2]
+    
+    final_tex_path = '%s/%s/workshops.tex' % (args.output_dir_workshops_tex, args.timezone)
+    if os.path.exists(final_tex_path):
+        os.remove(final_tex_path)
+    copyfile(args.base_workshops_tex, final_tex_path)
+    with open(final_tex_path, 'rt') as f:
+        data = f.read()
+        data = data.replace('TOREPLACE_TIMEZONE', args.timezone)
+        data = data.replace('TOREPLACE_WSDAY', final_day)
+        data = data.replace('TOREPLACE_WSDATE', final_date)
+        data = data.replace('TOREPLACE_WSYEAR', final_year)
+    with open(final_tex_path, 'wt') as f:
+        f.write(data)
+
+if args.sec_tutorials:
     # GENERATE TUTORIAL OVERVIEW PAGE
     print '=================generating tutorial overview'
     final_tex_path = '%s/%s/%s' % (args.output_dir_tutorials, args.timezone, args.base_tutorial_tex.split('/')[-1])
@@ -528,12 +665,12 @@ with open(final_tex_path, 'wt') as f:
 
 out = open(final_tex_path, 'a')
 
-if args.sec_tutorials is not None:
+if args.sec_tutorials:
     # add content to final tex, tutorial part
     print >>out, '\setdaydateyear{%s}{%s}{%s}' % (tut_final_day, tut_final_date, tut_final_year)
     print >>out, '\input{content/tutorials/%s/tutorials-overview}' % args.timezone
 
-if args.sec_papers is not None:
+if args.sec_papers:
     # add content to final tex, main conference part
     # for day_i, date in enumerate([dates[0]]):
     for day_i, date in enumerate(dates):
@@ -545,8 +682,8 @@ if args.sec_papers is not None:
         print >>out, '\\newpage'
 
 # add content to final tex, workshop part
-if args.sec_workshops is not None:
-    pass
+if args.sec_workshops:
+    print >>out, '\\input{content/workshops/%s/workshops}' % args.timezone
 
 # add content to final tex, misc part
 print >>out, '\\input{content/anti-harassment-policy}'

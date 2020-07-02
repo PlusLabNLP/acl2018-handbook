@@ -1,11 +1,10 @@
-* Sunday, July 5, 2020
+* Sunday, July 5, 2020 UTC-7
 
 = 8:00--9:00 Sponsored "breakfast"
 
 = 9:00--10:30 Session 1: Opening, Keynote, and Posters
 ! 9:00--9:10 Opening Remarks
-! 9:10--9:50 Keynote 1:Verena Rieser
-
+! 9:10--9:50 Keynote 1: Verena Rieser
 ! 9:50--10:30 Poster Session A
 1   # Corpus based Amharic sentiment lexicon generation
 3   # Negation handling for Amharic sentiment classification
@@ -30,18 +29,17 @@
 36   # FFR v1.0 : Fon-French Neural Machine Translation
 38   # Classification and Analysis of Neologisms Produced by Learners of Spanish: Effects of Proficiency and Task
 
-+ 10:30--10:50 Break (sponsored)
+= 10:30--10:50 Break (sponsored)
 
 = 10:50--12:30 Session 2: Keynote and Mentoring
 ! 10:50--11:30 Keynote 2: Helena Caseli
 ! 11:30--12:30 Mentoring and Sponsor Roundtables
 
-+ 12:30--13:10 Lunch
+= 12:30--13:10 Lunch
 
 = 13:10--15:10 Session 3: Panel, Keynote, and Posters
 ! 13:10--13:50 Panel Discussion: Anima Anandkumar, Jade Abbott, Luciana Benotti, and Xanda Schofield
 ! 13:50--14:30 Keynote 3: José Eduardo Ochoa
-
 ! 14:30--15:10 Poster Session B
 39   # Developing a Monolingual Sentence Simplification Corpus for Urdu
 41   # Translating Natural Language Instructions for Behavioral Robot Navigation with a Multi-Head Attention Mechanism
@@ -64,7 +62,7 @@
 65   # Enhanced Urdu Word Segmentation using Conditional Random Fields and Morphological Context Features
 66   # Flexible Neural Text Generation via Insertion and Reordering Operations
 
-+ 15:10--15:25 Break (sponsored)
+= 15:10--15:25 Break (sponsored)
 
 = 15:25--16:15 Session 4: Keynote and Closing
 ! 15:25--16:05 Keynote 4: Rachael Tatman
