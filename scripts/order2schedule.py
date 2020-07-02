@@ -148,10 +148,10 @@ def order2classes_workshop(order_file, target_tz):
                 if keys.has_key('by'):
                     title = "%s (%s)" % (title.strip(), keys['by'])
                 timerange_new = None
-                if day is not None:
-                    date_new = (day, date, year)
-                else:
-                    date_new = None
+                # if day is not None:
+                #     date_new = (day, date, year)
+                # else:
+                date_new = None
             schedule_list.append({
                 'timerange': timerange_new,
                 'date': date_new,
@@ -167,12 +167,24 @@ def order2classes_workshop(order_file, target_tz):
             else:
                 title = rest
             # date and timerange info will be saved in Paper entity
-            if day is not None:
-                date_new = (day, date, year)
+            # if day is not None:
+            #     date_new = (day, date, year)
+            # else:
+            date_new = None
+            _, rest = line.split(' ', 1)
+            if re.match(r'^\d+:\d+', rest) is not None:
+                time_range, _ = rest.split(' ', 1)
+                match_1 = re.match(r'^\d+:\d+-+\d+:\d+', rest)
+                flag_time_range_just_one = True
+                if match_1 != None:
+                    flag_time_range_just_one = False
+                timerange_new, (day_new, date_new, year_new) = timezone_convert(time_range, (day, date, year), order_timezone, target_tz, time_range_just_one=flag_time_range_just_one)
+                date_new = (day_new, date_new, year_new)
             else:
+                timerange_new = None
                 date_new = None
             schedule_list.append({
-                'timerange': None,
+                'timerange': timerange_new,
                 'date': date_new, 
                 'title': title,
                 'paper': Paper(line, subconf_name),
@@ -269,7 +281,7 @@ def order2classes(order_files_list):
         if not sche in dates:
             dates.append(sche)
 
-    return sessions, schedule, dates
+    return sessions, schedule, sorted(dates, key = lambda x: int(x[1].split(' ')[1]))
 
 def gen_tex_schedule_overview(dates, schedule, target_file, mode='main-conf'):
     max_pl_session_in_a_row = 5
@@ -371,6 +383,10 @@ def sort_times(a, b):
     ahour_e, amin_e = a[0].split('--')[1].split(':')
     bhour, bmin = b[0].split('--')[0].split(':')
     bhour_e, bmin_e = b[0].split('--')[1].split(':')
+    if '+' in amin_e:
+        amin_e = amin_e.split('(')[0].strip()
+    if '+' in bmin_e:
+        bmin_e = bmin_e.split('(')[0].strip()
     if ahour == bhour:
         if amin == bmin:
             if ahour_e == bhour_e:
@@ -616,10 +632,10 @@ if args.sec_workshops:
                     print >>out, '\\item[{\\bfseries %s, %s}]' % (date_till_this_item[0], date_till_this_item[1])
                 if sche_item['level'] == 0:
                     if sche_item['type'] == 'paper':
-                        if sche_item['paper'].time == None:
+                        if sche_item['timerange'] == None:
                             time_paper = '$\\bullet$'
                         else:
-                            time_paper = sche_item['paper'].time
+                            time_paper = sche_item['timerange']
                         print >>out, '\\item[%s] \\wspaperentry{%s}' % (time_paper, sche_item['paper'].id)
                     else:
                         # top level session containing sub items
