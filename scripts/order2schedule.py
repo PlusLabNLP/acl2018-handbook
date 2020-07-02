@@ -104,7 +104,7 @@ def order2classes_workshop(order_file, target_tz):
     for line_num, line in enumerate(open(order_file)):
         line = line.rstrip()
 
-        print "LINE", line
+        # print "LINE", line
 
         if line == '+' or line == '=':
             # this is a useless waste line
@@ -271,6 +271,100 @@ def order2classes(order_files_list):
 
     return sessions, schedule, dates
 
+def gen_tex_schedule_overview(dates, schedule, target_file, mode='main-conf'):
+    max_pl_session_in_a_row = 5
+    if mode == 'workshops':
+        out = open(target_file, 'w')
+        print >> sys.stderr, "Writing file", target_file
+    for date in sorted(dates, key = lambda x: int(x[1].split(' ')[1])):
+        print date
+        day, num, year = date
+        if mode == 'main-conf':
+            path = os.path.join(target_file, '%s-overview.tex' % (day))
+            out = open(path, 'w')
+            print >> sys.stderr, "Writing file", path
+            print >>out, '\\section*{Overview}'
+        else:
+            print >>out, '\\section*{%s, %s}' % (day, num)
+        print >>out, '\\renewcommand{\\arraystretch}{1.2}'
+        print >>out, '\\begin{SingleTrackSchedule}'
+        for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
+            start, stop = timerange.split('--')
+            if len(events) >= 3 and (hasattr(events[0], "num")):
+                # Parallel sessions (assume there are at least 3)
+                sessions = [x for x in events]
+
+                # turn "Session 9A" to "Session 9"
+                session_num = sessions[0].num
+                title = 'Session %s' % (session_num)
+                num_parallel_sessions = len(sessions)
+                rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
+                width = 3.12 / min([max_pl_session_in_a_row, num_parallel_sessions])
+                # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                print >>out, '  %s & -- & %s &' % (start, stop)
+
+                # Design 1: use blocks (table cells to show parallel sessions)
+                # column width in inches
+                '''
+                print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.2fin}' % width for x in range(min([max_pl_session_in_a_row, num_parallel_sessions]))]))
+                print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (min([max_pl_session_in_a_row, num_parallel_sessions]),title)
+                if num_parallel_sessions > max_pl_session_in_a_row:
+                    rows_number = int(math.ceil(num_parallel_sessions/max_pl_session_in_a_row))
+                    for row_count in range(rows_number):
+                        sessions_this_row = sessions[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
+                        rooms_this_row = rooms[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
+                        print >>out, ' & '.join([session.desc for session in sessions_this_row]), '\\\\'
+                        print >>out, ' & '.join(rooms_this_row), '\\\\'
+                        if rows_number != row_count:
+                            print >>out, ' \\\\\hline'
+                else:
+                    print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
+                    print >>out, ' & '.join(rooms), '\\\\'
+                print >>out, '\\end{tabular} \\\\'
+                '''
+
+                # Design 2: use list
+                print >>out, '{\\bfseries \\hyperref[parallel-session-%s]{%s}} \\newline' % (session_num, title)
+                for sess_i, session in enumerate(sessions):
+                    print >>out, '\\hyperref[parallel-session-%s-track%c]{%s} \\hfill %s \\newline' % (session_num, chr(sess_i + 65), session.desc, rooms[sess_i])
+                    if sess_i == len(sessions) - 1:
+                        print >>out, '\\\\'
+
+            else:
+                for event in events:
+                    # A regular event
+                    # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                    print >>out, '  %s & -- & %s &' % (start, stop)
+                    try:
+                        loc = event.split(' ')[0].capitalize()
+                    except:
+                        loc = "Plenary"
+                    event_str = "%s" % event
+                    # event_str = event_str.replace("&", "\&")
+                    if 'Keynote 1' in event_str:
+                        print >>out, '  {\\bfseries \\hyperref[keynote-1]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                    elif 'Keynote 2' in event_str:
+                        print >>out, '  {\\bfseries \\hyperref[keynote-2]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                    elif mode == 'main-conf':
+                        if isinstance(event, basestring):
+                            print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
+                        else:
+                            print >>out, '  {\\bfseries \\hyperref[poster-session-%s]{%s}} \\hfill \emph{\\%sLoc}' % (event.num, event.name, loc)
+                    elif mode == 'workshops':
+                        match = re.search('W(\d+):', event)
+                        if match != None:
+                            ws_num = int(match.group(1))
+                            print >>out, '  {\\bfseries \\hyperref[WShop%c]{%s}} \\hfill \emph{\\WShopLoc%c}' % (chr(ws_num + 64), event, chr(ws_num + 64))
+                    print >>out, '  \\\\'
+
+        print >>out, '\\end{SingleTrackSchedule}'
+        if mode == 'main-conf':
+            print >>out, '\\clearpage'
+            out.close()
+    if mode == 'workshops':
+        print >>out, '\\clearpage'
+        out.close()
+
 def sort_times(a, b):
     ahour, amin = a[0].split('--')[0].split(':')
     bhour, bmin = b[0].split('--')[0].split(':')
@@ -320,7 +414,7 @@ if args.sec_papers:
     # Write a file for each date. This file can then be imported and, if desired, manually edited.
     print('=====================generating main conf schedule details')
     page_list_all_dates = []
-    for date in dates:
+    for date in sorted(dates, key = lambda x: int(x[1].split(' ')[1])):
         print(date)
         page_list = []
         day, num, year = date
@@ -459,82 +553,7 @@ if args.sec_papers:
         page_list_all_dates.append(page_list)
 
     print('=====================generating main conf schedules overviews')
-    max_pl_session_in_a_row = 5
-    for date in dates:
-        day, num, year = date
-        path = os.path.join(output_dir_timezone, '%s-overview.tex' % (day))
-        out = open(path, 'w')
-        print >> sys.stderr, "Writing file", path
-        print >>out, '\\section*{Overview}'
-        print >>out, '\\renewcommand{\\arraystretch}{1.2}'
-        print >>out, '\\begin{SingleTrackSchedule}'
-        for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
-            start, stop = timerange.split('--')
-            if len(events) >= 3 and (hasattr(events[0], "num")):
-                # Parallel sessions (assume there are at least 3)
-                sessions = [x for x in events]
-
-                # turn "Session 9A" to "Session 9"
-                session_num = sessions[0].num
-                title = 'Session %s' % (session_num)
-                num_parallel_sessions = len(sessions)
-                rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
-                width = 3.12 / min([max_pl_session_in_a_row, num_parallel_sessions])
-                # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                print >>out, '  %s & -- & %s &' % (start, stop)
-
-                # Design 1: use blocks (table cells to show parallel sessions)
-                # column width in inches
-                '''
-                print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.2fin}' % width for x in range(min([max_pl_session_in_a_row, num_parallel_sessions]))]))
-                print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (min([max_pl_session_in_a_row, num_parallel_sessions]),title)
-                if num_parallel_sessions > max_pl_session_in_a_row:
-                    rows_number = int(math.ceil(num_parallel_sessions/max_pl_session_in_a_row))
-                    for row_count in range(rows_number):
-                        sessions_this_row = sessions[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
-                        rooms_this_row = rooms[row_count * max_pl_session_in_a_row:min([(row_count + 1) * max_pl_session_in_a_row, num_parallel_sessions])]
-                        print >>out, ' & '.join([session.desc for session in sessions_this_row]), '\\\\'
-                        print >>out, ' & '.join(rooms_this_row), '\\\\'
-                        if rows_number != row_count:
-                            print >>out, ' \\\\\hline'
-                else:
-                    print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
-                    print >>out, ' & '.join(rooms), '\\\\'
-                print >>out, '\\end{tabular} \\\\'
-                '''
-
-                # Design 2: use list
-                print >>out, '{\\bfseries \\hyperref[parallel-session-%s]{%s}} \\newline' % (session_num, title)
-                for sess_i, session in enumerate(sessions):
-                    print >>out, '\\hyperref[parallel-session-%s-track%c]{%s} \\hfill %s \\newline' % (session_num, chr(sess_i + 65), session.desc, rooms[sess_i])
-                    if sess_i == len(sessions) - 1:
-                        print >>out, '\\\\'
-
-            else:
-                for event in events:
-                    # A regular event
-                    # print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                    print >>out, '  %s & -- & %s &' % (start, stop)
-                    try:
-                        loc = event.split(' ')[0].capitalize()
-                    except:
-                        loc = "Plenary"
-                    event_str = "%s" % event
-                    # event_str = event_str.replace("&", "\&")
-                    if 'Keynote 1' in event_str:
-                        print >>out, '  {\\bfseries \\hyperref[keynote-1]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
-                    elif 'Keynote 2' in event_str:
-                        print >>out, '  {\\bfseries \\hyperref[keynote-2]{%s}} \\hfill \emph{\\%sLoc}' % (event_str, loc)
-                    else:
-                        if isinstance(event, basestring):
-                            print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event_str, loc)
-                        else:
-                            print >>out, '  {\\bfseries \\hyperref[poster-session-%s]{%s}} \\hfill \emph{\\%sLoc}' % (event.num, event.name, loc)
-                    print >>out, '  \\\\'
-
-        print >>out, '\\end{SingleTrackSchedule}'
-        print >>out, '\\clearpage'
-        out.close()
+    gen_tex_schedule_overview(dates, schedule, output_dir_timezone, mode='main-conf')
 
     # Generate tex file for dayx.tex in content/schedule/UTC+x/
     # these tex are originally the ones in content/day1/day1.tex, content/day2/day2.tex etc
@@ -612,6 +631,12 @@ if args.sec_workshops:
 
     # generate overview at content/workshop/timezone/overview.tex
     print '=================generating workshop overview'
+    print dates
+    overview_tex_path = os.path.join(args.output_dir_workshops_tex, args.timezone)
+    if not os.path.exists(overview_tex_path):
+        os.makedirs(overview_tex_path)
+    overview_tex_path = os.path.join(overview_tex_path, 'overview.tex')
+    gen_tex_schedule_overview(dates, schedule, overview_tex_path, mode='workshops')
 
     # generate overview at content/workshop/timezone/workshop.tex
     print '=================generating workshop page'
