@@ -1,19 +1,19 @@
 * Friday, July 10, 2020 UTC-7
 + 08:15--08:30 Opening remarks
 + 08:30--09:30 Invited Talk: Joyce Chai
-+ 09:30--10:30 Invited Talk: Percy Liang
++ 09:30--10:30 Invited Talk: Imed Zitouni: On the Path to Billion Skills: Turning Documents into Actions
 + 10:30--10:45 Break
 6 10:45--11:00  # Answering Complex Questions by Combining Information from Curated and Extracted Knowledge Bases
 + 11:00--11:15 Unnatural Language Processing: Bridging the Gap Between Synthetic and Natural Language Data (Cross-submission) %by Alana Marzoev, Samuel Madden, M. Frans Kaashoek, Michael Cafarella  and Jacob Andreas
 2 11:15--11:30  # Towards Reversal-Based Textual Data Augmentation for {NLI} Problems with Opposable Classes
-+ 11:30--12:30 Invited Talk: H V Jagadish
++ 11:30--12:30 Invited Talk: Monica Lam
 + 12:30--13:30 Break
-+ 13:30--14:30 Invited Talk: Imed Zitouni
++ 13:30--14:30 Invited Talk: Percy Liang: Reflections on Semantic Parsing and Learning from Users
 9 14:30--14:45  # Examination and Extension of Strategies for Improving Personalized Language Modeling via Interpolation
 + 14:45--15:00 A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations (Cross-submussion) %by Toby Jia-Jun Li, Marissa Radensky, Justin Jia, Kirielle Singarajah, Tom Mitchell and Brad Myers
 7 15:00--15:15  # Efficient Deployment of Conversational Natural Language Interfaces over Databases
 4 15:15--15:30  # Neural Multi-task Text Normalization and Sanitization with Pointer-Generator
 + 15:30--15:45 Break
-+ 15:45--16:45 Invited Talk: Monica Lam
-+ 16:45--17:45 Invited Talk: Luke Zettlemoyer
++ 15:45--16:45 Invited Talk: H V Jagadish: Natural Language In A Database Management System
++ 16:45--17:45 Invited Talk: Luke Zettlemoyer: Denoising Sequence-to-Sequence Pre-training
 + 17:45--17:50 Closing remarks
