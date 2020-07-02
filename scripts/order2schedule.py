@@ -100,6 +100,7 @@ def order2classes_workshop(order_file, target_tz):
     order_timezone = ''
     subconf_name = order_file.split('/')[1]
     schedule_list = []
+    day = None
     for line_num, line in enumerate(open(order_file)):
         line = line.rstrip()
 
@@ -124,8 +125,9 @@ def order2classes_workshop(order_file, target_tz):
             else:
                 level_this_line = 1
             # a group session containing sub items
-            match = re.match(r'^\d+:\d+-+\d+:\d+', str)
-            if match != None:
+            match_1 = re.match(r'^\d+:\d+-+\d+:\d+', str)
+            match_2 = re.match(r'^\d+:\d+', str)
+            if match_1 != None:
                 # session time defined
                 time_range, title = str.split(' ', 1)
                 title, keys = extract_keywords(title)
@@ -133,10 +135,23 @@ def order2classes_workshop(order_file, target_tz):
                     title = "%s (%s)" % (title.strip(), keys['by'])
                 timerange_new, (day_new, date_new, year_new) = timezone_convert(time_range, (day, date, year), order_timezone, target_tz)
                 date_new = (day_new, date_new, year_new)
+            elif match_2 != None:
+                time_range, title = str.split(' ', 1)
+                title, keys = extract_keywords(title)
+                if keys.has_key('by'):
+                    title = "%s (%s)" % (title.strip(), keys['by'])
+                timerange_new, (day_new, date_new, year_new) = timezone_convert(time_range, (day, date, year), order_timezone, target_tz, time_range_just_one=True)
+                date_new = (day_new, date_new, year_new)
             else:
                 # no session time defined
+                title, keys = extract_keywords(str)
+                if keys.has_key('by'):
+                    title = "%s (%s)" % (title.strip(), keys['by'])
                 timerange_new = None
-                date_new = (day, date, year)
+                if day is not None:
+                    date_new = (day, date, year)
+                else:
+                    date_new = None
             schedule_list.append({
                 'timerange': timerange_new,
                 'date': date_new,
@@ -152,9 +167,13 @@ def order2classes_workshop(order_file, target_tz):
             else:
                 title = rest
             # date and timerange info will be saved in Paper entity
+            if day is not None:
+                date_new = (day, date, year)
+            else:
+                date_new = None
             schedule_list.append({
                 'timerange': None,
-                'date': None, 
+                'date': date_new, 
                 'title': title,
                 'paper': Paper(line, subconf_name),
                 'type': 'paper',
@@ -552,16 +571,21 @@ if args.sec_workshops:
     # Changed from original perl implementation in order2schedule_workshop.pl
     for ws_name in os.listdir('data'):
         # if ws_name not in ['papers', 'workshops', 'demos', 'SRW', 'tutorials', '.DS_Store']:
-        if ws_name in ['WiNLP']:
+        if ws_name in ['WiNLP', 'iwslt', 'NLP4ConvAI', 'BioNLP2020', 'FEVER', 'iwpt', 'flp', 'nuse', 'alvr', 'RepL4NLP', 'nli', 'wngt', 'bea', 'SIGMORPHON', 'nlpmc', 'ecnlp', 'SocialNLP', 'AutoSimTrans', 'Challenge-HML']:
+            print ws_name
             ws_this_schedule_list = order2classes_workshop(os.path.join('data', ws_name, 'order'), target_tz=args.timezone)
-            print ws_this_schedule_list
             schedule_tex_path = os.path.join(args.output_dir_workshops, ws_name, args.timezone)
-            print schedule_tex_path
             if not os.path.exists('%s/%s/%s' % (args.output_dir_workshops, ws_name, args.timezone)):
                 os.makedirs('%s/%s/%s' % (args.output_dir_workshops, ws_name, args.timezone))
 
             out = open(os.path.join(schedule_tex_path, 'schedule.tex'), 'w')
+            date_till_this_item = None
             for sche_item in ws_this_schedule_list:
+                if sche_item['date'] != date_till_this_item and sche_item['date'] is not None:
+                    # print new date if the event item happens in a new day
+                    date_till_this_item = sche_item['date']
+                    print >>out, '\\vspace{1ex}'
+                    print >>out, '\\item[{\\bfseries %s, %s}]' % (date_till_this_item[0], date_till_this_item[1])
                 if sche_item['level'] == 0:
                     if sche_item['type'] == 'paper':
                         if sche_item['paper'].time == None:
@@ -572,10 +596,18 @@ if args.sec_workshops:
                     else:
                         # top level session containing sub items
                         print >>out, '\\vspace{1ex}'
-                        print >>out, '\\item[%s] {\\bfseries %s}' % (sche_item['timerange'], sche_item['title'])
+                        if sche_item['timerange'] == None:
+                            time_session = ''
+                        else:
+                            time_session = sche_item['timerange']
+                        print >>out, '\\item[%s] {\\bfseries %s}' % (time_session, sche_item['title'])
                 elif sche_item['level'] == 1:
                     # second level event
-                    print >>out, '\\item[%s] {%s}' % (sche_item['timerange'], sche_item['title'])
+                    if sche_item['timerange'] == None:
+                        time_session = ''
+                    else:
+                        time_session = sche_item['timerange']
+                    print >>out, '\\item[%s] {%s}' % (time_session, sche_item['title'])
             out.close()
 
     # generate overview at content/workshop/timezone/overview.tex

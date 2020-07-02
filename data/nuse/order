@@ -1,4 +1,4 @@
-* Thursday, July 9, 2020
+* Thursday, July 9, 2020 UTC-7
 = 8:15--8:30 Opening Remarks
 = 8:30--9:30 Q+A (Session 1)
 = 10:00--11:00 Speaker Panel (Session 1)
@@ -7,13 +7,13 @@
 = 16:00--17:00 Q+A (Session 2)
 = 17:00--17:15 Closing Remarks
 = Keynote Talks
-!  Keynote 1 %by Angela Fan
-!  Keynote 2 %by Mark Finlayson
-!  Keynote 3 %by Andrew Gordon
-!  Keynote 4 %by Alexander G. Hauptmann
-!  Keynote 5 %by Kathleen McKeown
-!  Keynote 6 %by Ellen Riloff
-!  Keynote 7 %by Ted Underwood
++  Keynote 1 %by Angela Fan
++  Keynote 2 %by Mark Finlayson
++  Keynote 3 %by Andrew Gordon
++  Keynote 4 %by Alexander G. Hauptmann
++  Keynote 5 %by Kathleen McKeown
++  Keynote 6 %by Ellen Riloff
++  Keynote 7 %by Ted Underwood
 = Paper Talks (Archival)
 1   # New Insights into Cross-Document Event Coreference: Systematic Comparison and a Simplified Approach
 4   # Screenplay Quality Assessment: Can We Predict Who Gets Nominated?
@@ -31,5 +31,5 @@
 27   # On-The-Fly Information Retrieval Augmentation for Language Models
 28   # Detecting and understanding moral biases in news
 = Paper Talks (Non-Archival)
-!  Bringing Stories Alive: Generating Interactive Fiction Worlds %by Prithviraj Ammanabrolu, Wesley Cheung, Dan Tu, William Broniec and Mark Riedl
-!  CompRes: A Dataset for Narrative Structure in News %by Effi Levi, Guy Mor, Shaul Shenhav and Tamir Sheafer
++  Bringing Stories Alive: Generating Interactive Fiction Worlds %by Prithviraj Ammanabrolu, Wesley Cheung, Dan Tu, William Broniec and Mark Riedl
++  CompRes: A Dataset for Narrative Structure in News %by Effi Levi, Guy Mor, Shaul Shenhav and Tamir Sheafer
