@@ -32,18 +32,22 @@ def latex_escape(str):
 
 day_list = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-def timezone_convert(time, date_tuple, origin_tz, target_tz):
+def timezone_convert(time, date_tuple, origin_tz, target_tz, time_range_just_one=False):
     day, date, year = date_tuple
     time_diff = int(target_tz[3:]) - int(origin_tz[3:])
-    time_start = int(time.split('--')[0].split(':')[0])
-    time_end = int(time.split('--')[1].split(':')[0])
+    if not time_range_just_one:
+        time_start = int(time.split('--')[0].split(':')[0])
+        time_end = int(time.split('--')[1].split(':')[0])
+    else:
+        time_start = int(time.split(':')[0])
 
     time_start_new = time_start + time_diff
-    time_end_new = time_end + time_diff
+    if not time_range_just_one:
+        time_end_new = time_end + time_diff
     date_new = date
     day_new = day
 
-    if time_end_new <= 0:
+    if (not time_range_just_one) and time_end_new <= 0:
         date_new = date.split(' ')[0] + ' ' + str(int(date.split(' ')[1]) - 1)
         time_start_new = time_start_new + 24
         time_end_new = time_end_new + 24
@@ -52,16 +56,21 @@ def timezone_convert(time, date_tuple, origin_tz, target_tz):
     if time_start_new >= 24:
         date_new = date.split(' ')[0] + ' ' + str(int(date.split(' ')[1]) + 1)
         time_start_new = time_start_new - 24
-        time_end_new = time_end_new - 24
+        if not time_range_just_one:
+            time_end_new = time_end_new - 24
         day_new = day_list[(day_list.index(day) + 1) % 7]
 
     # deal with the cases like 24:15
-    if time_end_new >= 24:
-        time_end_new_str = str(time_end_new-24) + ':' + time.split('--')[1].split(':')[1] + ' (+1)'
-    else:
-        time_end_new_str = str(time_end_new) + ':' + time.split('--')[1].split(':')[1]
+    if not time_range_just_one:
+        if time_end_new >= 24:
+            time_end_new_str = str(time_end_new-24) + ':' + time.split('--')[1].split(':')[1] + ' (+1)'
+        else:
+            time_end_new_str = str(time_end_new) + ':' + time.split('--')[1].split(':')[1]
 
-    time_new = str(time_start_new) + ':' + time.split('--')[0].split(':')[1] + '--' + time_end_new_str
+    if not time_range_just_one:
+        time_new = str(time_start_new) + ':' + time.split('--')[0].split(':')[1] + '--' + time_end_new_str
+    else:
+        time_new = str(time_start_new) + ':' + time.split(':')[1]
     return time_new, (day_new, date_new, year)
 
 class Paper:
