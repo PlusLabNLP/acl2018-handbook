@@ -354,7 +354,8 @@ def gen_tex_schedule_overview(dates, schedule, target_file, mode='main-conf'):
                         match = re.search('W(\d+):', event)
                         if match != None:
                             ws_num = int(match.group(1))
-                            print >>out, '  {\\bfseries \\hyperref[WShop%c]{%s}} \\hfill \emph{\\WShopLoc%c}' % (chr(ws_num + 64), event, chr(ws_num + 64))
+                            # print >>out, '  {\\bfseries \\hyperref[WShop%c]{%s}} \\hfill \emph{\\WShopLoc%c}' % (chr(ws_num + 64), event, chr(ws_num + 64))
+                            print >>out, '  {\\bfseries \\hyperref[WShop%c]{%s}} \\hfill {\small \\href{https://virtual.acl2020.org/workshop_W%d.html}{[Web]}}' % (chr(ws_num + 64), event, ws_num)
                     print >>out, '  \\\\'
 
         print >>out, '\\end{SingleTrackSchedule}'
@@ -367,9 +368,17 @@ def gen_tex_schedule_overview(dates, schedule, target_file, mode='main-conf'):
 
 def sort_times(a, b):
     ahour, amin = a[0].split('--')[0].split(':')
+    ahour_e, amin_e = a[0].split('--')[1].split(':')
     bhour, bmin = b[0].split('--')[0].split(':')
+    bhour_e, bmin_e = b[0].split('--')[1].split(':')
     if ahour == bhour:
-        return cmp(int(amin), int(bmin))
+        if amin == bmin:
+            if ahour_e == bhour_e:
+                return cmp(int(amin_e), int(bmin_e))
+            else:
+                return cmp(int(ahour_e), int(bhour_e))
+        else:
+            return cmp(int(amin), int(bmin))
     return cmp(int(ahour), int(bhour))
 
 def minus12(time):
