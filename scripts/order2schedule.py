@@ -610,10 +610,10 @@ if args.sec_papers:
         out.close()
 
 if args.sec_workshops:
-    sessions, schedule, dates = order2classes([args.order_files_workshops])
-    print sessions
-    print schedule
-    print dates
+    sessions, schedule, dates_ws = order2classes([args.order_files_workshops])
+    # print sessions
+    # print schedule
+    # print dates_ws
     print '=================generating workshop each schedule'
     # Changed from original perl implementation in order2schedule_workshop.pl
     for ws_name in os.listdir('data'):
@@ -659,21 +659,21 @@ if args.sec_workshops:
 
     # generate overview at content/workshop/timezone/overview.tex
     print '=================generating workshop overview'
-    print dates
+    print dates_ws
     overview_tex_path = os.path.join(args.output_dir_workshops_tex, args.timezone)
     if not os.path.exists(overview_tex_path):
         os.makedirs(overview_tex_path)
     overview_tex_path = os.path.join(overview_tex_path, 'overview.tex')
-    gen_tex_schedule_overview(dates, schedule, overview_tex_path, mode='workshops')
+    gen_tex_schedule_overview(dates_ws, schedule, overview_tex_path, mode='workshops')
 
     # generate overview at content/workshop/timezone/workshop.tex
     print '=================generating workshop page'
-    if len(dates) <= 1:
-        final_day, final_date, final_year = dates[0]
+    if len(dates_ws) <= 1:
+        final_day, final_date, final_year = dates_ws[0]
     else:
-        final_day = '%s-%s' % (dates[0][0], dates[-1][0])
-        final_date = '%s-%s' % (dates[0][1], dates[-1][1])
-        final_year = dates[0][2]
+        final_day = '%s-%s' % (dates_ws[0][0], dates_ws[-1][0])
+        final_date = '%s-%s' % (dates_ws[0][1], dates_ws[-1][1])
+        final_year = dates_ws[0][2]
     
     final_tex_path = '%s/%s/workshops.tex' % (args.output_dir_workshops_tex, args.timezone)
     if os.path.exists(final_tex_path):
