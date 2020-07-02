@@ -228,7 +228,7 @@ def order2classes(order_files_list):
                 # if subconf_name == 'papers' and ('Demo Session' not in line and 'Student Research Workshop' not in line):
                 #     # ignore demo session and SRW session from main conf order file
                 str = line[2:]
-                time_range, session_name = str.split(' ', 1)
+                timerange, session_name = str.split(' ', 1)
                 if 'Demo Session' in line:
                     session_name = day + session_name
                 sessions[session_name] = Session(line, (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
@@ -251,16 +251,16 @@ def order2classes(order_files_list):
                     schedule[(day_new, date_new, year_new)][timerange_new].append(title)
 
             elif re.match(r'^\d+', line) is not None:
-                id, rest = line.split(' ', 1)
-                if re.match(r'^\d+:\d+-+\d+:\d+', rest) is not None:
-                    title = rest.split(' ', 1)
-                else:
-                    title = rest
-                try: session_name = ''
-                except:
-                    session_name = 'Single Paper %s' % title
-                if not sessions.has_key(session_name):
-                    sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
+                # id, rest = line.split(' ', 1)
+                # if re.match(r'^\d+:\d+-+\d+:\d+', rest) is not None:
+                #     title = rest.split(' ', 1)
+                # else:
+                #     title = rest
+                # try: session_name = ''
+                # except:
+                #     session_name = 'Single Paper %s' % title
+                # if not sessions.has_key(session_name):
+                #     sessions[session_name] = Session("= %s %s" % (timerange, session_name), (day, date, year), origin_tz=order_timezone, target_tz=args.timezone)
 
                 sessions[session_name].add_paper(Paper(line, subconf_name))
     
@@ -415,14 +415,17 @@ def gen_links_part(session_num, paper_id, zoom_dict, size="tiny", newline=False)
     if zoom_link_uniq_id in zoom_dict:
         zoom_link_this = zoom_dict[zoom_link_uniq_id]['zoom_link']
         presentation_id_this = zoom_dict[zoom_link_uniq_id]['presentation_id']
+        web_link_id_this = zoom_dict[zoom_link_uniq_id]['id']
         pdf_url_this = zoom_dict[zoom_link_uniq_id]['pdf_url']
-        if zoom_link_this != '' or pdf_url_this != '' or presentation_id_this != '':
+        if web_link_id_this != '' or pdf_url_this != '':
             if newline:
                 print >>out, '\\newline'
-            if zoom_link_this != '':
-                links_tex += '{\\%s\\href{%s}{[Zoom]}}' % (size, zoom_link_this)
-            if presentation_id_this != '':
-                links_tex += '{\\%s\\href{https://slideslive.com/%s}{[Talk]}}' % (size, presentation_id_this)
+            # if zoom_link_this != '':
+            #     links_tex += '{\\%s\\href{%s}{[Zoom]}}' % (size, zoom_link_this)
+            # if presentation_id_this != '':
+            #     links_tex += '{\\%s\\href{https://slideslive.com/%s}{[Talk]}}' % (size, presentation_id_this)
+            if web_link_id_this != '':
+                links_tex += '{\\%s\\href{https://virtual.acl2020.org/paper_%s}{[Website]}}' % (size, web_link_id_this)
             if pdf_url_this != '':
                 links_tex += '{\\%s\\href{%s}{[PDF]}}' % (size, pdf_url_this)
     else:
@@ -754,7 +757,6 @@ if args.sec_tutorials:
 
 if args.sec_papers:
     # add content to final tex, main conference part
-    # for day_i, date in enumerate([dates[0]]):
     for day_i, date in enumerate(dates):
         print(date)
         day, num, year = date

@@ -77,6 +77,7 @@ for paper_item in link_json:
             'zoom_link': session['zoom_link'],
             'presentation_id': paper_item['presentation_id'],
             'forum': paper_item['forum'],
+            'id': paper_item['id'],
             'paper_type': paper_item['content']['paper_type'],
             'pdf_url': paper_item['content']['pdf_url']
         }
