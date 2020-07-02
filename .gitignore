@@ -38,3 +38,6 @@ proceedings.tgz
 draft
 auto/schedule
 content/days
+auto/*/UTC*
+content/tutorials/UTC*
+content/workshops/UTC*
