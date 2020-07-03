@@ -428,7 +428,7 @@ def gen_links_part(session_num, paper_id, zoom_dict, size="tiny", newline=False)
             # if presentation_id_this != '':
             #     links_tex += '{\\%s\\href{https://slideslive.com/%s}{[Talk]}}' % (size, presentation_id_this)
             if web_link_id_this != '':
-                links_tex += '{\\%s\\href{https://virtual.acl2020.org/paper_%s}{[Website]}}' % (size, web_link_id_this)
+                links_tex += '{\\%s\\href{https://virtual.acl2020.org/paper_%s.html}{[Website]}}' % (size, web_link_id_this)
             if pdf_url_this != '':
                 links_tex += '{\\%s\\href{%s}{[PDF]}}' % (size, pdf_url_this)
     else:
