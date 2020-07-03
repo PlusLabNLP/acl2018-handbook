@@ -409,8 +409,11 @@ def minus12(time):
 
     return '%s:%s' % (hours, minutes)
 
+global_all_zoom_link_uniq_id = []
+
 def gen_links_part(session_num, paper_id, zoom_dict, size="tiny", newline=False):
     zoom_link_uniq_id = 'zoom:%s-%s' % (session_num, paper_id)
+    global_all_zoom_link_uniq_id.append(zoom_link_uniq_id)
     links_tex = ''
     if zoom_link_uniq_id in zoom_dict:
         zoom_link_this = zoom_dict[zoom_link_uniq_id]['zoom_link']
@@ -788,3 +791,17 @@ print >>out, '\\input{content/ads/ads_logo}'
 
 print >>out, '\\end{document}'
 out.close()
+
+# Additional utility: Compare zoom link dict and zoom_link_uniq_id
+# print len(global_all_zoom_link_uniq_id)
+# print len(zoom_link_dict.keys())
+
+# print "Checking order id whether are all in zoom dict"
+# for id_zoom in global_all_zoom_link_uniq_id:
+#     if id_zoom not in zoom_link_dict.keys():
+#         print ('-> not fonud', id_zoom)
+
+# print "Checking zoom dict id whether are all in order file"
+# for id_zoom in zoom_link_dict.keys():
+#     if id_zoom not in global_all_zoom_link_uniq_id:
+#         print ('-> not fonud', id_zoom)
